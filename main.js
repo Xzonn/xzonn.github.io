@@ -64,17 +64,18 @@ $(function() {
     }
     
     function handleStart() {
-        var thisHash = location.hash.match(/^#!\/([^#!\/]+)/);
+        var thisHash = location.hash.match(/^#!\/([^#]+)/);
         if (!thisHash || thisHash[1] != lastHash) {
             lastHash = (thisHash || [])[1];
+            var title = lastHash ? decodeURI(lastHash) + (lastHash[lastHash.length - 1] == "/" ? "Readme" : "") : "Readme";
             $.ajax({
                 dataType: "text",
-                url: lastHash ? "data/" + decodeURI(lastHash) + ".md" : "Readme.md",
+                url: title + ".md",
                 type: "get",
                 success: function(data) {
                     // 标题
-                    document.title = (lastHash ? decodeURI(lastHash) : "首页") + " - Xzonn 的小站";
-                    $("#contentTitle").text(lastHash ? decodeURI(lastHash) : "首页");
+                    $("#contentTitle").text(title.split("/").pop());
+                    document.title = $("#contentTitle").text() + " - Xzonn 的小站";
 
                     // 内容
                     $("#contentBody").html(new Markdown.Converter().makeHtml(data));

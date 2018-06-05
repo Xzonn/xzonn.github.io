@@ -1,12 +1,10 @@
 ## 说明
-此文件夹存放我分享的学习资料。资料的源代码存放在`/data/`文件夹下，为`.md`文件，用 Markdown 语法编写。其他文件为在浏览器渲染 Markdown 的文件。
+此文件夹存放我分享的学习资料。资料的源代码存放在`/study/`文件夹下，为`.md`文件，用 Markdown 语法编写。其他文件为在浏览器渲染 Markdown 的文件。
 
 ## 列表
-* [军事理论 知识点整理](#!/军事理论 知识点整理)
-* [军事理论 往年题整理](#!/军事理论 往年题整理)
-* [普通化学 知识点整理](#!/普通化学 知识点整理)
+* [军事理论 知识点整理](#!/study/军事理论 知识点整理)
+* [军事理论 往年题整理](#!/study/军事理论 往年题整理)
+* [普通化学 知识点整理](#!/study/普通化学 知识点整理)
 
-## 致谢
-* 页面处理使用 [jQuery](https://jquery.com/)、[Popper](https://popper.js.org/)、[Bootstrap](https://getbootstrap.com/)。
-* Markdown 渲染使用 [Showdown](https://github.com/showdownjs/showdown)（修改）。
-* 公式渲染使用 [Mathjax](https://www.mathjax.org/)，并使用了 [mhchem](https://github.com/mhchem/MathJax-mhchem) 插件渲染化学公式。
+## 更新请求
+由于教学内容每年都会变化，因此希望新学期的使用者可以提出修改建议，使资料经常保持更新。此外，如果您有好的资料希望与大家共享，欢迎提供给我。
