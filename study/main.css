@@ -1,0 +1,397 @@
+:root {
+    --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, 'Noto Sans CJK SC', 'Source Han Sans CN', 'Microsoft Yahei', Simhei, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    --font-family-serif: 'Times New Roman', 'Source Han Serif CN', Simsun, serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", 'Noto Sans CJK SC', 'Source Han Sans CN', 'Microsoft Yahei', Simhei, monospace;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-image: url(background.png);
+    background-attachment: fixed;
+    font-family: var(--font-family-sans-serif);
+    line-height: 1.8em;
+}
+
+h1 {
+    font-size: 1.8em;
+}
+
+h2 {
+    font-size: 1.6em;
+}
+
+h3 {
+    font-size: 1.4em;
+}
+
+h4 {
+    font-size: 1.2em;
+}
+
+h5, h6 {
+    font-size: 1em;
+}
+
+p, blockquote, ul, ol, dl, table, pre {
+    margin-bottom: 2px;
+}
+
+p {
+    text-indent: 2em;
+}
+
+ul, ol {
+    padding-left: 1.66em;
+}
+
+ul ul, ul ol, ol ol, ol ul {
+    margin-bottom: 0;
+    padding-left: 0.84em;
+}
+
+table.listTable {
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    font-size: .9em border-collapse: collapse;
+}
+
+table.listTable>*>tr>td {
+    border: 1px dashed var(--secondary);
+}
+
+table.listTable>*>tr>th {
+    border: 1px solid var(--dark);
+}
+
+table.listTable>*>tr>:first-child {
+    border-left: none;
+}
+
+table.listTable>*>tr>:last-child {
+    border-right: none;
+}
+
+code, kbd {
+    margin: 0 4px;
+    padding: 0px 4px;
+    font-size: 0.9em;
+}
+
+code, tt {
+    border: 1px solid #EAEAEA;
+    border-radius: 3px;
+    background-color: rgba(240, 240, 240, 0.8);
+    white-space: pre-wrap;
+}
+
+pre {
+    clear: both;
+    overflow: auto;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: rgba(200, 200, 200, 0.7);
+    text-align: left;
+    line-height: 20px;
+}
+
+pre code, pre tt {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: none;
+}
+
+pre code ul {
+    margin: 0;
+    padding-left: 3em;
+    list-style: decimal-leading-zero;
+}
+
+pre code ul li {
+    padding: 0 0.5em;
+    border-left: 1px solid rgba(88, 88, 88, 0.7);
+    background: rgba(255, 255, 255, 0.7);
+}
+
+pre code ul li:nth-child(2n) {
+    background: rgba(255, 255, 255, 0.4);
+}
+
+img, svg {
+    margin: 0 auto;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+.imgBlock {
+    float: right;
+    clear: right;
+    overflow: hidden;
+    margin: 0 0 2px 16px;
+    padding: 1px;
+    border: 1px solid #ccc;
+    background-color: rgba(255, 255, 255, 0.9);
+    text-align: center;
+    font-size: 0.8em;
+}
+
+.imgBlock.a-l {
+    float: left;
+    clear: left;
+    margin: 0 16px 2px 0;
+}
+
+.imgBlock > img {
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    background-color: #FFF;
+}
+
+::selection {
+    background-color: #4671D5;
+    color: #FFA;
+}
+
+ref {
+    position: absolute;
+    bottom: 0;
+    left: 1px;
+    z-index: 2;
+    display: block;
+    padding: 3px 3px 3px 26px;
+    width: calc(100% - 33px);
+    border: 1px dashed #09A8F7;
+    border-radius: 10px 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    background-position: 3px;
+    background-size: 20px;
+    text-indent: 0;
+    font-size: 0.8em;
+    font-family: serif;
+}
+
+.reficon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    cursor: pointer;
+}
+
+ref, .reficon {
+    background-image: url(data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22UTF-8%22%20standalone%3D%22no%22%3F%3E%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20720%20720%22%3E%3Ctitle%3E%E6%9C%AA%E6%A0%87%E9%A2%98-1%3C%2Ftitle%3E%3Ccircle%20cx%3D%22360%22%20cy%3D%22360%22%20r%3D%22320%22%20style%3D%22fill%3Anone%3Bstroke%3A%2309a8f7%3Bstroke-width%3A80px%22%2F%3E%3Cpath%20d%3D%22M264%2C418c-19-15-61-37-91-52l37-52c28%2C12%2C71%2C32%2C93%2C46Zm64%2C59c-25%2C50-54%2C102-84%2C150l-59-47c25-36%2C62-94%2C91-150ZM290%2C285c-19-15-60-39-89-54l39-51c27%2C12%2C70%2C33%2C91%2C48ZM627%2C551v66H315V551H441V467H349V401h91V329H330V263H449c-6-20-18-48-29-69l64-22c13%2C23%2C29%2C53%2C35%2C73l-49%2C17H613v66H514v72h83v66H514v84Z%22%20transform%3D%22translate%28-40%20-40%29%22%20style%3D%22fill%3A%2309a8f7%22%2F%3E%3C%2Fsvg%3E);
+    background-repeat: no-repeat;
+}
+
+.MathJax_SVG {
+    outline: none;
+}
+
+.hide {
+    display: none;
+}
+
+.a-l {
+    float: left;
+}
+
+.a-c {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.a-r {
+    float: right;
+}
+
+.va-m {
+    vertical-align: middle;
+}
+
+.va-t {
+    vertical-align: top;
+}
+
+.va-b {
+    vertical-align: bottom;
+}
+
+.at-c {
+    text-align: center;
+}
+
+.at-l {
+    text-align: left;
+}
+
+.at-r {
+    text-align: right;
+}
+
+.no-bg {
+    background: transparent !important;
+}
+
+#header {
+    width: 80%;
+    height: 66px;
+    border-color: #FFF;
+    border-style: dashed;
+    border-width: 0 2px 2px 2px;
+    border-radius: 0 0 10px 10px;
+    background-color: #FFFFD2;
+}
+
+#headerLink {
+    float: left;
+    display: block;
+    margin-left: 16px;
+    width: 256px;
+    height: 64px;
+    background-image: url("logo.png");
+}
+
+#content {
+    position: relative;
+    margin: 1em auto;
+    padding: 1em;
+    border: 2px dashed #fff;
+    border-radius: 10px;
+    background-color: rgba(210, 255, 255, 0.4);
+    box-shadow: #888 3px 3px 3px;
+    text-align: justify;
+}
+
+#tocBlock {
+    padding-right: 0.66em;
+    width: 60%;
+    border: 2px dotted #FFF;
+    border-radius: 10px;
+    background-color: rgba(230, 230, 230, 0.7);
+}
+
+#tocBlock:before {
+    content: '目录';
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#contentBody>*:last-child {
+    margin-bottom: 0 !important;
+}
+
+#footer {
+    margin: 1em auto;
+    max-width: 800px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+}
+
+.transparent {
+    border: none !important;
+    opacity: 0 !important;
+}
+
+@media screen {
+    #content {
+        max-width: 1200px;
+    }
+}
+
+@media print, screen and (max-width: 800px) {
+    .no-mobile {
+        display: none !important;
+    }
+
+    #content {
+        margin: 0;
+        width: 100%;
+        max-width: 100%;
+        border: 0;
+        border-radius: 0 !important;
+        box-shadow: none;
+    }
+}
+
+@media print {
+    @page {
+        margin: 6mm;
+        size: auto;
+    }
+
+    .no-print, #contentMenu, #tocBlock {
+        display: none !important;
+    }
+
+    body, text {
+        font-family: var(--font-family-serif) !important;
+    }
+
+    h1, h2, h3, h4, h5, h6, #content b, #content strong, #content th, #content:after {
+        font-family: var(--font-family-sans-serif);
+    }
+
+    body {
+        color: #000;
+        font-size: 12px;
+        line-height: 1.5;
+    }
+
+    #content:after {
+        position: fixed;
+        top: 50%;
+        left: 0;
+        z-index: -1;
+        display: block;
+        width: 100%;
+        color: #ddd;
+        content: "整理：Xzonn";
+        text-align: center;
+        white-space: nowrap;
+        letter-spacing: 20px;
+        font-size: 40px;
+        line-height: 0;
+        -webkit-transform: rotateZ(30deg);
+        transform: rotateZ(30deg);
+    }
+
+    body, #content {
+        margin: 0 auto !important;
+        padding: 0 !important;
+        min-width: 0 !important;
+        border: none !important;
+        background: none !important;
+        box-shadow: none !important;
+    }
+
+    #footer {
+        font-size: 12px;
+    }
+
+    ref {
+        position: initial !important;
+        display: block !important;
+        border-color: #000;
+        font-family: 楷体, 楷体_GB2312;
+    }
+
+    ref + ref {
+        margin-top: -1px;
+    }
+
+    ref, .reficon {
+        background-image: url(data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22UTF-8%22%20standalone%3D%22no%22%3F%3E%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20720%20720%22%3E%3Ctitle%3E%E6%9C%AA%E6%A0%87%E9%A2%98-1%3C%2Ftitle%3E%3Ccircle%20cx%3D%22360%22%20cy%3D%22360%22%20r%3D%22320%22%20style%3D%22fill%3Anone%3Bstroke%3A%23000%3Bstroke-width%3A80px%22%2F%3E%3Cpath%20d%3D%22M264%2C418c-19-15-61-37-91-52l37-52c28%2C12%2C71%2C32%2C93%2C46Zm64%2C59c-25%2C50-54%2C102-84%2C150l-59-47c25-36%2C62-94%2C91-150ZM290%2C285c-19-15-60-39-89-54l39-51c27%2C12%2C70%2C33%2C91%2C48ZM627%2C551v66H315V551H441V467H349V401h91V329H330V263H449c-6-20-18-48-29-69l64-22c13%2C23%2C29%2C53%2C35%2C73l-49%2C17H613v66H514v72h83v66H514v84Z%22%20transform%3D%22translate%28-40%20-40%29%22%20style%3D%22fill%3A%23000%22%2F%3E%3C%2Fsvg%3E);
+    }
+
+    blockquote {
+        color: #000;
+        font-family: 仿宋, 仿宋_GB2312;
+    }
+}
