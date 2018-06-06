@@ -318,6 +318,10 @@ ref, .reficon {
         border-radius: 0 !important;
         box-shadow: none;
     }
+    
+    #tocBlock {
+        width: 100%;
+    }
 }
 
 @media print {
