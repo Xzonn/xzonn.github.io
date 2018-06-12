@@ -4,6 +4,7 @@
 * [我分享的学习资料](/#!/study/)
 * 我鼓捣出来的项目
 * 我在学习的内容
+  * [Sushi Striker: The Way of Sushido 汉化工作](#!/sushi/)
 
 如果您有任何问题、意见或建议，请 **[在此页面](https://github.com/Xzonn/Xzonn.github.io/issues)** 与我联系。
 
