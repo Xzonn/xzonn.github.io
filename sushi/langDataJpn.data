@@ -6266,4 +6266,1365 @@ Label_None	なし
 \scene\scene_menutoranomaki.msbt
 Label_Tips	バトルの極意
 Label_Guidance	スシライカー８カ条
-Label_Guidance_1	1、同じ色の皿を{c[ff4040]}２つ{c[000000]}{r[いじょう]}
+Label_Guidance_1	1、同じ色の皿を{c[ff4040]}２つ{c[000000]} ÿ@@ÿ以上    ÿつなぎ、\n     スシを食べて皿をシュート！
+Label_Guidance_2	2、 たくさん重ねるほど ÿ@@ÿ攻撃力    ÿ{c[ff4040]}アップ{c[000000]}！\n　  （ 皿をつなげられるのは{c[ff4040]}７{c[000000]} ÿ@@ÿ秒間    ÿ ）
+Label_Guidance_3	3、{c[ff4040]}7{c[000000]} ÿ@@ÿ皿    ÿ ÿ@@ÿ以上    ÿつなげると、\n     何色ともつながる ÿ@@ÿ虹皿    ÿ発生！
+Label_Guidance_4	4、皿の色には{c[ff4040]}グレード{c[000000]}あり！\n　 　　 高級皿ほど攻撃力高し！
+Label_Guidance_4_2	スシガミのレベルが上がると、出す皿もだんだんグレードアップ！
+Label_Guidance_5	5、スシを食べるとスキルゲージアップ！\n　  　　光ったらボタンを押すと{c[ff4040]}スキル{c[000000]} ÿ@@ÿ発動    ÿ！
+Label_Guidance_6	6、バトルを重ねてスシガミを強化！\n　　　  真の姿に ÿ@@ÿ覚醒    ÿするスシガミも…？
+Label_Guidance_6_2	※スキルの強化は「スキルのおふだ」で！
+Label_Guidance_7	7、マップ移動は{c[ff4040]}スライド{c[000000]}＆{c[ff4040]}タッチ{c[000000]}でも！
+Label_Guidance_8	8、他にも{c[ff4040]}コンボ{c[000000]}や{c[ff4040]}スシまつり{c[000000]}等の技あり！\n　  くわしくは「バトルの極意」を見よ！
+Label_Title	とらのまき
+Label_Advice	こころえ
+Label_Movie	できごと
+Label_Achieve	偉業
+Label_LikerRank	スシライカーランク
+Label_Rank	%d段
+Label_Next	次の昇段条件
+Label_CurrentAchieve	かくとく偉業皿
+Label_Toranomaki	スシライカー虎の巻
+Btn_Guidance	スシライカー８カ条
+\scene\scene_puzzlebattle.msbt
+DishColorName00	{c[acfdfb]}①{c[000000]}
+DishColorName01	{c[ffcc2f]}①{c[000000]}
+DishColorName02	{c[d3b5fd]}①{c[000000]}
+DishColorName03	{c[5fd871]}①{c[000000]}
+DishColorName04	{c[6e91f3]}①{c[000000]}
+DishColorName05	{c[fd592b]}①{c[000000]}
+DishColorName06	{c[d4e9ec]}①{c[000000]}
+DishColorName07	{c[6a6c49]}①{c[000000]}
+DishColorName08	{c[f0e8a5]}①{c[000000]}
+DishColorNameRainbow	\u000e\u0000\u0003\u0004\u00fc\u00fc\u00fc\u0000①{c[000000]}
+GraphicText_VS	VS
+Text_Live	LIVE
+Text_Win	勝ち
+Text_Lose	負け
+Text_Left	のこり   
+Text_Sec	秒
+Text_Opponent	たいせんあいて
+Text_FinishBlow	とどめのアタック
+Text_Score	スコア
+Text_Pause	PAUSE
+Text_Condition	このステージのスターかくとく条件
+Text_Continue	つづける
+Text_Retry	やりなおす
+Text_Exit	やめる
+Text_DemoPlay	おてほん再生中…
+Text_SkillReady	 準備 OK !
+Text_Combo	コンボ
+Text_Combo_Wall	コンボ
+Text_EqualSushi	同ネタ
+Text_Fes	スシまつり
+Text_Skilleffect	スキルこうか
+Text_Sushipower	スシパワー
+CmnLane_Scroll	きょうつうレーン　　　
+GetItem_ItemSkillChager	スキルチャージャー！
+GetItem_ItemFesChager	まつりチャージャー！
+GetItem_ItemTimeStop	タイムストップ！
+GetItem_ItemThunderLower	アタックサンダー！
+GetItem_ItemThunderUpper	おてつきサンダー！
+GetItem_ItemCapsuleBom	ボムかいじょ！
+GetItem_ItemCapsuleThunder	アタックサンダー！
+TxtSkillComboCampaign	コンボボーナス x%ls！
+Player_Chr001_HpLow75	まけないぜ！
+Player_Chr001_HpLow50	まだまだ！！
+Player_Chr001_HpLow25	ヤバい…！！
+Player_Chr001_HpLow12	だいピンチ…！
+Player_Chr001_HpLow75_f	まけないわ！
+Player_Chr001_HpLow50_f	まだまだ！！
+Player_Chr001_HpLow25_f	やばッ…！！
+Player_Chr001_HpLow12_f	だいピンチ…！
+Enemy_Chr016_Win	われら帝国に歯向かうなど…！！\n身のほど知らずがッ！！
+Enemy_StgWin_001	帝国に歯向かうとどうなるか\n思い知ったか！
+Enemy_StgWin_002	ハハハ！\n口ほどにもないヤツだ！！
+Enemy_StgWin_003	ふふんっ！こうなるのが当然さ！\nオレのチカラ、思い知ったか！！
+Enemy_StgWin_004	見たかスイーツ天国のチカラをッ！
+Enemy_StgWin_005	ハハハ！どうだ！\n電撃シュートはシビれるだろう？
+Enemy_StgWin_006	くくく…\nこのバリアシールドは破れまい！
+Enemy_StgWin_007	暴走特急レーンのスピードに\n手も足も出まい！！
+Enemy_StgWin_008	フフフッ…！\nやはりまだまだ子供でしたねえ！！
+Enemy_StgWin_009	どうだ小僧！\nオレの突撃にたえられまい！！
+Enemy_StgWin_009_f	どうだ小娘！\nオレの突撃にたえられまい！！
+Enemy_StgWin_010	ふはは！\nカプセルの使い方がまだまだだな！
+Enemy_StgWin_011	特殊レーンのチカラ、\nおそれ入ったか！
+Enemy_StgWin_012	このパカーチンの名にかけて\nここを通すわけにはいかんっ！！
+Enemy_StgWin_013	ふふんっ！見たことかムサシ！\nこれが帝国軍のオレのチカラさ！！
+Enemy_StgWin_014	キミのようなチビッコには\nまだまだ筋肉が足りないのだよ
+Enemy_StgWin_015	筋肉があるか無いか\nそれが勝負の分かれ目なのさっ！
+Enemy_StgWin_016	マッチョのなかのマッチョである\n私のマッチョにつぶされるがいい！
+Enemy_StgWin_017	マッチョ隊長である私の前に\nひざまづいてもらおうか！！
+Enemy_StgWin_018	やってやったぜ！\nこれでクビにならなくてすむぜ♪
+Enemy_StgWin_019	ははは！スシシャッフラーで\n混乱したようだな！！
+Enemy_StgWin_020	スシライカー　ムサシ…\nその程度なんてひょうしぬけ…
+Enemy_StgWin_021	ユーリアのミスをカバー！\nこれで私の昇進も夢じゃない！！
+Enemy_StgWin_022	ユーリアが通しても\nわたしがここを通さんッ！！
+Enemy_StgWin_023	残念だったな小僧！\nここを通すことはできん！！
+Enemy_StgWin_023_f	残念だったな小娘！\nここを通すことはできん！！
+Enemy_StgWin_024	報告にあったムサシとはお前だな！\n口ほどにも無いやつよ！！
+Enemy_StgWin_025	しょせんはこの程度なのね…\nバカ…みたい……
+Enemy_StgWin_026	ふはははは！\nこの筋肉の前に敵はない！！
+Enemy_StgWin_027	オレの筋肉は無敵！\nムテキンニク！！
+Enemy_StgWin_028	筋肉で　ムサシを止めて\n　我歓喜　……ふふ、一句詠めた
+Enemy_StgWin_029	見たか！　これが帝国の\n筋肉スシライカーのチカラだ！
+Enemy_StgWin_030	これで…\nようやく戦争も終わるわ……
+Enemy_StgWin_031	がーっはっはっはっは！\nバキュームバキューム！！
+Enemy_StgWin_032	ゴホッ…！せきが止まらないが\n帝国軍として負けられな…ゴホッ！
+Enemy_StgWin_033	ドライアイで目が乾いてたけど\nなんとか勝つことができたか……
+Enemy_StgWin_034	鼻がつまっていたがスシは食える！\nつまり負ける要素はゼロだ！！
+Enemy_StgWin_035	朝から頭がフラフラしていたが\n体調不良をものともせずに勝利！！
+Enemy_StgWin_036	ありゃりゃ？？\n今日はキレがないっすね～
+Enemy_StgWin_037	ふふふ♪\nいぇい、あたしの勝ちぃ～♪♪
+Enemy_StgWin_038	お姉さんの勝～ち♪\nまた遊んであげるね～♪♪
+Enemy_StgWin_039	うふふ♪\nキミには勝たせてあげないよ～だ♪
+Enemy_StgWin_040	わ～い、勝ったぞ～♪\nバンブークさまにほめてもらえる♪
+Enemy_StgWin_041	どうだムサシ！\nオケ狭間の戦いはすごいだろう！！
+Enemy_StgWin_042	ワサビ入りのスシも食えないのに\n我々には勝てるはずがないだろう♪
+Enemy_StgWin_043	ワサビ入りのスシは美味だな！\n貴様もそう思うだろうムサシ！？
+Enemy_StgWin_044	うひゃひゃ～♪\nワサビうまいいいいい！！
+Enemy_StgWin_045	オレとワサビのコンビネーションで\n貴様もここでおしまいだ！！
+Enemy_StgWin_046	カレオツでした～♪\n今日は調子悪かったようですね～
+Enemy_StgWin_047	私の勝ちね～♪\n残念だけどここは通せないわ
+Enemy_StgWin_048	あは♪ 勝っちゃった～♪\nこれでかくれんぼに参加できるわ～
+Enemy_StgWin_049	勝った～♪バンブークさまに\nナデナデしてもらおっと♪♪
+Enemy_StgWin_050	ムサシちゃんもつよいけど\n私のほうがもっとつよいみたい～♪
+Enemy_StgWin_051	ワサビ入りのスシをガマンして\n食べたカイがあったぜ！！
+Enemy_StgWin_052	どうじゃワサビ大サービスは！\nこれが大人のスシというものじゃ！
+Enemy_StgWin_053	くく…グロムさまの部隊の\n増援が無くても楽勝だったな
+Enemy_StgWin_054	好物のスシさえ出てくれば\n負けることなど無いのだ！！
+Enemy_StgWin_055	思ったよりも歯ごたえがないな\n要注意との通達は誤報だったか
+Enemy_StgWin_056	子供が相手でも油断しなかった\n慎重さでつかんだ勝利だ！！
+Enemy_StgWin_057	今日のムーゲーは\nボクの勝ちってことで～♪
+Enemy_StgWin_058	直属部隊の私にかかれば\n敗北などあり得ないのだよ
+Enemy_StgWin_059	はっはっは！ エリートである\n私にかかればイチコロだな！
+Enemy_StgWin_060	私に負けたからと言って\n恥じることは無いぞ！！
+Enemy_StgWin_061	グロムさま直属のエリート部隊に\nたてつくからこうなるのだ!!
+Enemy_StgWin_062	はーっはっはっは！ 見たか！\n帝国軍特別製電磁砲の威力を！！
+Enemy_StgWin_063	電磁砲を突破するのに\nチカラを使いすぎたようだな!!
+Enemy_StgWin_064	ウワサほど大したことないな！\n隊長が出てくるまでもない!!
+Enemy_StgWin_065	食欲に勝る作戦ナシ！\n食べ続ければ勝てるのだー！！
+Enemy_StgWin_066	ムサシを止めた部隊として\n我が隊の昇進も確実だな！！
+Enemy_StgWin_067	グロムさまのあとを\n追わせるわけにはいかん！！
+Enemy_StgWin_068	ムサシ撃破を祝して\n我が隊でスシパーティだ！！
+Enemy_StgWin_069	あ、あれ？ 腰痛をカバーしながら\n戦っていたら勝っちゃった…！
+Enemy_StgWin_070	オレのほうがスシのことを\nより愛していたということだ！！
+Enemy_StgWin_071	この先には行かせんと言っただろ！\n聞いていなかったのか！？
+Enemy_StgWin_072	ムサシ…か\nそこそこ楽しませてもらったぞ
+Enemy_StgWin_073	どうです！ これが解放戦線が\n追求してきた合理的バトル…！！
+Enemy_StgWin_074	貴様らの進軍もここまでだな！
+Enemy_StgWin_075	スシ解放戦線のムサシ\n恐るるに足らず…！！
+Enemy_StgWin_076	口ほどにもない！\nさあトドメをさしてやろう！！
+Enemy_StgWin_077	勝利の味は\nいつだって美味だぜ！！
+Enemy_StgWin_078	あなたよりもボクのほうが\nヨイツーですね～♪
+Enemy_StgWin_079	おじょうさまの命令は絶対です\nここは通せませんよ
+Enemy_StgWin_080	おじょうさまの命令には服従です\nこの先には通せません
+Enemy_StgWin_081	おじょうさまの命令は至上です\nここから先には行かせませんよ
+Enemy_StgWin_082	おじょうさまの命令は厳守です\nよってここはお通しできません
+Enemy_StgWin_083	やった…やったぞ！\nオレだってやればできるんだ！！
+Enemy_StgWin_084	どうだ見たか！\n赤いスシなど食べなくても勝てる！
+Enemy_StgWin_085	ははは！ これで赤いスシが\n無くても勝てると証明されたな！！
+Enemy_StgWin_086	赤いスシなど食べなくても\n我々は強いのだーーー！！
+Enemy_StgWin_087	うひゃひゃひゃ！\n赤いスシなど無くても勝てるのだ！
+Enemy_StgWin_088	ありゃりゃ！？\nボクが勝っちゃいました～♪
+Enemy_StgWin_089	おじょうさまの指示ですので\nここはお通しできません
+Enemy_StgWin_090	申し訳ありませんムサシさま\nここを通すことはできません
+Enemy_StgWin_091	ここでムサシさまを止めるのが\nわたしがおおせつかった役目です
+Enemy_StgWin_092	ムサシさまの快進撃も\nここまでのようですね
+Enemy_StgWin_093	やったああ！　よ～し、ソスナ隊\nから出世街道まっしぐらだー！！
+Enemy_StgWin_094	はんっ！ アタイに挑もうなんざ\n身のほどをわきまえるんだね!!
+Enemy_StgWin_095	ここは通せん！\nそれにしても今日は冷えるな…
+Enemy_StgWin_096	勝ってしまった… まだこの寒い中で\n番を続けないといけないのか……
+Enemy_StgWin_097	寒いけど、ムサシには勝てた！\nいい日だな今日は!!
+Enemy_StgWin_098	寒さにも打ち勝ち\nムサシにも勝利!!
+Enemy_StgWin_099	帝国に歯向かうとどうなるか\n今度こそ、思い知ったか！
+Enemy_StgWin_100	やはりチビッコだな！\n筋肉がぜんぜん足りんッ!!
+Enemy_StgWin_101	筋肉があれば、この寒冷の地でも\n服など必要…………ないッッ!!
+Enemy_StgWin_102	マッチョのなかのマッチョである\n私がついにムサシを倒したぞ！！
+Enemy_StgWin_103	負けたからには、マッチョ部隊に\n入隊してもらおうか！！
+Enemy_StgWin_104	「もと」司令官のチカラ\n思い知ったか！！
+Enemy_StgWin_105	どうだーー！ワサビの訓練を\n受けたおかげで勝てたぞ！！
+Enemy_StgWin_106	勝ったぞ！\n見よ！勝利のパンプアップ！！
+Enemy_StgWin_107	ムテキンニクはやはり健在！！
+Enemy_StgWin_108	筋肉は　ムサシを止める\nためにある　…ふふ、良い一句だ
+Enemy_StgWin_109	我々筋肉スシライカーが\n帝国を支えているのだ！！
+Enemy_StgWin_110	侵入者を排除…！ なんといっても\n私はここの看守だからなあ!!
+Enemy_StgWin_111	威力の増したバキューム食い！\n恐れいったかムサシ!! ガハハ!!
+Enemy_StgWin_112	部隊で最強の私を相手にしたんだ\n負けて当然だよムサシくん!!
+Enemy_StgWin_113	この部隊で最強のボクを相手に\n善戦したほうじゃないかな？
+Enemy_StgWin_114	オレが部隊で最強だった\nってだけの話だから気にするな!!
+Enemy_StgWin_115	当然、隊長のオレが一番強い！\nだからキミは負けて当たり前さ!!
+Enemy_StgWin_116	ムサシさんカレオツっすか～？\nいつものキレがないっすよ～♪
+Enemy_StgWin_117	次にひかえるルツコイが\n出てくるまでもなかったな！！
+Enemy_StgWin_118	この奥のマツイには悪いが\n出番は無さそうだな、ハッハッハ！
+Enemy_StgWin_119	隊長が出てくるまでもなく\nこのマツイがムサシを撃破ッ！！
+Enemy_StgWin_120	部下たちではやはりダメだったか…\n隊長の私はひと味ちがったろう？
+Enemy_StgWin_121	目標！ 電磁砲の砲撃により沈黙!!
+Enemy_StgWin_122	アブリコス隊ほど筋肉は無いが\nお前を倒すにはそれで十分だッ!!
+Enemy_StgWin_123	バンブーク隊のように大量ワサビを\n使えばもっと楽勝だったかな！？
+Enemy_StgWin_124	赤いスシを食べないソスナ隊戦法を\n試すつもりが、ふつうに勝てたな！
+Enemy_StgWin_125	グロム隊のようなエレガントさは\n無いが、我が隊もゴージャスだろう
+Enemy_StgWin_126	このナカムラ、おまえのスシ筋は\nすでに見切った！
+Enemy_StgWin_127	グロムさまと築き上げてきた\nスシへの信念、ここにありッ！！
+Enemy_StgWin_128	おまえの「スシ筋」…\nグロムさまほどでは無かったな！！
+Enemy_StgWin_129	我ら精鋭部隊が相手ではさすがに\n分が悪かったようだな…？
+Enemy_StgWin_130	この電磁砲がこの地の要なのだ！\n突破されるわけにはいかんッ！！
+Enemy_StgWin_131	父を越えられぬかムサシよ！\nスシへの信念はその程度かッ！？
+Enemy_StgWin_132	ココカラ先ニハ　進マセナイ…
+Enemy_StgWin_133	オ前ノ負ケ…\nココハ　通サナイ……
+Enemy_StgWin_134	我ハ　ココヲ　守ル\nソレダケダ……
+Enemy_StgWin_135	コノ勝利ハ　グラードサマニ\n捧ゲサセテ　モラオウ…
+Enemy_StgWin_136	ありゃ？　パイセンもいるのに\nどうしちゃったんですか～？？
+Enemy_StgWin_137	子供ノ　クセニ\n図ニ乗ルカラ　コウナルノダ…
+Enemy_StgWin_138	ソノ　小サナ　体デ　アガイテモ\n無駄ナコトダ……
+Enemy_StgWin_139	クク…スシ補完計画ノ進行ニハ\nナンラ影響ハ無イナ……
+Enemy_StgWin_140	グラードサマノ　トコロマデ\n進マレル　ワケニハイカヌ…
+Enemy_StgWin_141	スシハ　帝国デ\n独占サセテ　モラウトシヨウ…
+Enemy_StgWin_142	ジュウベエニハ　先ニ行カレタガ\nオマエハ　ココマデダ…！
+Enemy_StgWin_143	帝国ガ　描ク至高ノ未来ニ\n貴様モ　従ッテモラオウ…
+Enemy_StgWin_144	グラードサマニ　近ヅコウナド\n愚行ニモ　ホドガアル……
+Enemy_StgWin_145	さあ…キミのスシも\nすべてボクに差し出して…
+Enemy_StgWin_146	どうして笑ってスシを食べるんだい\nそんなもの無意味だというのに……
+Enemy_StgWin_197	さあ、その石を渡してもらおうか！
+Enemy_StgWin_198	その石は帝国のものだ！\nイーシッシッシ♪
+Enemy_StgWin_199	この先の神社には\nこれ以上は近づかせん！
+Enemy_StgWin_200	そちらにも情報通がいるようだが\n思い通りにはさせんぞ！
+Enemy_StgWin_201	我がマッチョボディで\n通行止めだあ！！
+Enemy_StgWin_202	マッチョ～マッチョ～体操～♪\n勝っても負けてもマッチョ体操～♪
+Enemy_StgWin_203	部隊で一番強いと言われた私が\n負けるはずないのだ！！
+Enemy_StgWin_204	この隊で最強だと言われた私に\n挑んだのは不運だったな…！
+Enemy_StgWin_205	部隊最強兵士の称号を持つ私に\n勝とうなど笑止千万ッ！！
+Enemy_StgWin_206	ほめて伸ばした部下たちは全滅だが\n例のギアは我々がいただくぞ！！
+Enemy_StgWin_209	ふん！ここはキサマが来るような\nところではないのだ！！
+Enemy_StgWin_210	警備の任務は\nきっちりと果たさせてもらったぞ！
+Enemy_StgWin_211	この先の軍事施設には\n行かせんぞ！！
+Enemy_StgWin_212	帝国の偉大な発明を\n邪魔されるわけにはいかん！！
+Enemy_StgWin_213	勝った！勝ったぞ！\n部隊で最弱でもやればできるんだ！
+Enemy_StgWin_214	部隊で一番弱いと隊長に言われ\n必死に食らいついた甲斐があった！
+Enemy_StgWin_215	部隊最弱兵士の称号などという\n私の汚名も今日で返上だ！！
+Enemy_StgWin_216	尻をたたいて育てた部下は全滅して\n私まで負けるわけにはいかんのだ！
+Enemy_StgWin_217	この先の施設には行かせんぞ！\nキサマは電磁砲のえじきだ!!
+Enemy_StgWin_218	大切な実験装置を壊した報い\nしっかりと受けてもらうぞ!!
+Enemy_StgWin_219	フン… 口ほどにもナイ…\n帝国の計画を黙って見てイロ…！
+Enemy_StgWin_221	ふう…レアスシガミのことを\nうっかり口にするところだったぜ
+Enemy_StgWin_222	この先にはなにも無い！\nましてレアスシガミなどおらん!!
+Enemy_StgWin_223	キサマをここで止められれば\n隊長にしかられることもないのだ！
+Enemy_StgWin_224	私とゴクオウとの\nコンビネーションはどうだ！
+Enemy_StgWin_225	どお？\nおねえさんは強いでしょ～？
+Enemy_StgWin_226	うふふ♪ スシバトルよりも\nおねえさんと海で遊ぼうよう？
+Enemy_StgWin_227	この先には誰も通すなって隊長に\n言われているので通せませ～ん♪
+Enemy_StgWin_228	ぶんどりシールド…\n素晴らしいチカラだわ…！
+Enemy_StgWin_233	おじょうさまのご命令は\n絶対遵守！ 絶対厳守！
+Enemy_StgWin_234	ふふふ… 赤いスシを食べない\nスタイルも板についてきました
+Enemy_StgWin_235	我々がバトルで時間をかせげば\nおじょうさまはエステに行ける！
+Enemy_StgWin_236	おじょうさまが戻られるまで\nこのほこらには近づかせません！
+Enemy_StgWin_237	ソスナさまの部隊に代わって\nここは私が封鎖させてもらう！
+Enemy_StgWin_238	危ない危ない…。この先に\n進まれたら隊長から大目玉だよ…
+Enemy_StgWin_239	スシバトルは私の勝ちだ！\nここから先には通さんぞ！！
+Enemy_StgWin_240	ちょっと出遅れたが\nほこらは問題なく確保！！
+Enemy_StgWin_249	あっ、勝っちゃった\n隊長、スシガミはどうですか？
+Enemy_StgWin_250	おっ、オレの勝ちか…！\nスシガミは現れましたか隊長？
+Enemy_StgWin_251	勝ちました隊長！\nスシガミは出ましたか！？
+Enemy_StgWin_252	行方不明のスシガミも見つかり\nムサシも倒し、万々歳だ!!
+Enemy_StgWin_253	私を倒して先に進もうとするなど\n帝国兵もなめられたものだ…！
+Enemy_StgWin_254	くくくっ…うっかりミスを\nムサシとともにもみ消したぜ！
+Enemy_StgWin_255	スシガミがいようがいなかろうが\nムサシが現れたのなら倒すのみ!!
+Enemy_StgWin_256	うう… 寒いのに勝ってしまった…\nまだ警備を続けないとじゃないか…
+Enemy_StgWin_257	さーて、雪に埋もれてしまった\nほこらを探すとするか
+Enemy_StgWin_258	さあ、ほこらは我々のものだ！\nそこをどいてもらおうか!!
+Enemy_StgWin_259	久々のスシバトル…\nまだまだ腕はなまってないぜ…！
+Enemy_StgWin_260	さ～て、バトルも終わったし\n身を隠す訓練にもどらなければ…！
+Enemy_StgWin_261	よしっ、バトル終わり！\nかくれないとオニが来てしまう！
+Enemy_StgWin_262	も～い～か～い！\nさあ、探すぞぉ～!!
+Enemy_StgWin_263	うふふ…ムシャクシャしてたから\nと～ってもスカッとしたわ♪
+Enemy_StgWin_264	筋トレの良い息抜きになったよ！\nはーっはっはっはっは！！
+Enemy_StgWin_265	この美しい風景には\n我が筋肉がとても映える…！
+Enemy_StgWin_266	さてさて、ほこらの調査に戻る前に\nまずは筋トレだッ！！
+Enemy_StgWin_267	よし、行方不明の筋肉の捜索に\n戻らせてもらうとしよう
+Enemy_StgWin_268	私はランボルギーニン…\nスシとマッチョを極めるもの…
+Enemy_StgWin_269	ここは帝国が封鎖しているのだ！\n通すことはできんぞ！！
+Enemy_StgWin_270	やんちゃなだけのようだな\nそんなやつにここは渡さんぞ！
+Enemy_StgWin_271	ククク…\nコレゾ　カメレサツノ　チカラ……
+Enemy_StgWin_272	おや？　この程度でしたか…\nいつもの元気はどうしたんです？
+Enemy_StgWin_273	きゃはは♪\nちょ～とやりすぎちゃったかな？
+Enemy_StgWin_274	勝ち星いただきました～！\nボクってじつは強いんですかね～♪
+Enemy_StgWin_275	あ、あれ？　この前は負けたのに\n今日は勝てたぞ！　やったああ！！
+Enemy_StgWin_276	勝利は我が手に！　勝ちには勝ちの\n負けには負けの理由があるのですよ
+Enemy_StgWin_277	がーはっはっはっは！\nオレ様の筋肉の前にひれ伏しな！！
+Enemy_StgWin_278	まだまだ甘ちゃんだねえ！\nアタイがたたき直してあげるよ！！
+Enemy_StgWin_279	危ナイ危ナイ　急ニ風ガ吹クカラ\nマントガ　メクレルトコロダッタ
+Enemy_StgWin_280	こりもせずにまた挑んでくるなんて\nほんと…バカみたい……
+Enemy_StgWin_281	ボクの勝ちだね…\nもっとスシが食べたいなあ……
+Enemy_StgWin_282	むはは！　私のヒラメ筋を前に\n手も足も出なかったようだね！！
+Enemy_StgWin_283	スシライカーのムサシか…\nスシ筋は悪くなかったぞ
+Enemy_StgWin_284	ワサビはまだ苦手なのかの？\n大人への仲間入りは遠いのお…
+Enemy_StgWin_285	お前の実力はこの程度か？\nスシ筋ににごりが見えるぞ…！
+Enemy_StgWin_286	見たか帝国軍の秘密兵器\nウルトラスーパー電磁砲の威力を！
+Enemy_StgWin_287	ちょっといきなりなんなのよ！\nえっ…あなたもムサシって名前！？
+Enemy_StgWin_288	この前は負けちゃったけど\n今日は勝たせてもらったわよ♪
+Enemy_StgWin_289	ふふふ…私すら倒せなくて\nどうやって帝国に勝つのですか？
+Enemy_StgWin_290	おいおい、一体どうしたムサシ\nお前のスシ筋はもっと鋭いだろう？
+Enemy_StgWin_291	この勝利をおじょうさまに捧げて\n代わりにほめてもらうとしよう！
+Enemy_StgWin_292	めちゃくちゃに皿を投げていたら\nよくわからないけど勝てたぞ♪
+Enemy_StgWin_293	どうした我が子よ\nお前のチカラはその程度か？
+Enemy_StgWin_294	オット危ナイ　興奮シスギテ\n仮面ガ　外レル　トコロダッタ…
+Enemy_StgWin_295	ワサビも食べられんこわっぱには\nまだまだ遅れを取らんぞ♪
+Enemy_StgWin_296	もしかして今日はカレオツでした？\n動きにキレがなかったですよ～？
+Enemy_StgWin_297	このブ厚い胸板の前では、お前が\n投げた皿など痛くもかゆくもない！
+Enemy_StgWin_298	はんっ！　赤いスシを食べるような\nお子様に遅れを取るわけないのよ！
+Enemy_StgWin_299	この程度の実力で挑んできたの？\n戦争を終わらせるなんて夢の話ね…
+Enemy_StgWin_300	よーし勝ったぞ！\nさっそくグロムさまに報告だ！！
+Enemy_StgWin_301	もう終わりなの？\nもっともっとスシを食べたいなあ…
+Enemy_StgWin_302	いきなりなんなんだ！\nえっ…お前もムサシって名前！？
+Enemy_StgLose_001	こんな子供に…\n逆にひねりつぶされるなんて～…
+Enemy_StgLose_002	隊長の私が負けるなんて……\nお前… いったい何者だ…!?
+Enemy_StgLose_003	レ、レーンドライブギアなんて…\nはんそくだーーーーーっ!!
+Enemy_StgLose_004	スイーツ天国のチカラがあったのに\n負けたというのか…
+Enemy_StgLose_005	バカな… 電撃シュートが\n効かないというのか…!?
+Enemy_StgLose_006	そ、そんな…\nバリアシールドで防げないなんて…
+Enemy_StgLose_007	暴走特急レーンのスピードに\nついてこられたというのか…！？
+Enemy_StgLose_008	くっ…\n子供だと思って油断しました…
+Enemy_StgLose_009	突撃するだけじゃ\n勝てないというのか…
+Enemy_StgLose_010	くそっ…　バトルでカプセルを\nうまくいかせなかったか…
+Enemy_StgLose_011	と…特殊とは…特殊レーンである\nことがバレてしまったか…
+Enemy_StgLose_012	む… 無念……\n我が小隊でも止められなかったか…
+Enemy_StgLose_013	負けるなんてウソだーーーーっ！\n帝国軍に入隊したっていうのに…
+Enemy_StgLose_014	ブルブルッ…!?\nきゅ、急に寒くなってきた…
+Enemy_StgLose_015	こんな筋肉の無いガキに\n負けるなんて…
+Enemy_StgLose_016	マッチョのなかのマッチョである\nこの私がまさか負けるとは…
+Enemy_StgLose_017	ぐぬう…！ 私は隊長だぞ!?\nマッチョ隊長なんだぞッ!?
+Enemy_StgLose_018	うう… ちくしょーーーっ！\nクビになっちゃうじゃないかーー！
+Enemy_StgLose_019	ぬぬ… スシシャッフラーを\n乗りこえたっていうのか……
+Enemy_StgLose_020	スシライカー ムサシ…\nそう… あなたが……
+Enemy_StgLose_021	ユーリアがしくじらなければ\nこんなコトにはならなかったのに…
+Enemy_StgLose_022	ユーリアが通したからオレも\n通せってか？ チクショウめ！
+Enemy_StgLose_023	ユーリアが足止めできていれば…\nこのことは小隊長に報告せねば……
+Enemy_StgLose_024	く、くそ… ユーリアのせいで\n我が隊は総崩れだ……
+Enemy_StgLose_025	また私の負け…？\nどこからその強さが……
+Enemy_StgLose_026	ま、負けたあああ…！\n筋肉がしぼんでいく……
+Enemy_StgLose_027	オ、オレの筋肉は無敵…\nムテキンニクのはずなのに……
+Enemy_StgLose_028	筋肉で　ムサシを止める\n責果たせず…… ぐふ…
+Enemy_StgLose_029	ムサシよ… ぜひ帝国の\n筋肉スシライカーにならないか…
+Enemy_StgLose_030	仲間… この私が…？\n……ふん、バカみたい…
+Enemy_StgLose_031	オ、オレ様のバキューム食いが…\nムサシ… まさかこれほどとは……
+Enemy_StgLose_032	ゴホッ…！ のどが腫れてて\nスシを食べるのも一苦労だ…
+Enemy_StgLose_033	ドライアイで目が乾いているんだ…\nだからこれは本当の実力じゃない…
+Enemy_StgLose_034	うぅ… 鼻がつまっていて\nスシの味が分からなかった……
+Enemy_StgLose_035	朝から頭がフラフラするんだ…\nやはり休んだほうがよかったか……
+Enemy_StgLose_036	ウヒョ～～！\n今日もキレッキレっすね～♪
+Enemy_StgLose_037	ちょっとヤダも～！\nえ～ん、バンブークさま～♪
+Enemy_StgLose_038	いた～い\nお姉さん泣いちゃうよ？ え～ん
+Enemy_StgLose_039	ひゃ～ん\nどうして痛いことするの～
+Enemy_StgLose_040	どうしよう、負けちゃった…\nバンブークさまに怒られちゃう……
+Enemy_StgLose_041	そんな～！ スシオケ地獄を\nどうやって乗り切ったんだーー!!
+Enemy_StgLose_042	ぐう… こんなワサビも\n食べられないようなガキに……
+Enemy_StgLose_043	負けちまったか…\nワサビ愛が足りなかったようだ……
+Enemy_StgLose_044	ワサビが…\nワサビが足りねーーー!!
+Enemy_StgLose_045	スシがスシである以上\nワサビは切っても切れない… ぐふ…
+Enemy_StgLose_046	キョウレツ～！\nやっぱりパないっすね～♪
+Enemy_StgLose_047	ちぇ～…\n私の負けか～……
+Enemy_StgLose_048	あ～あ、私もバンブークさまと\nかくれんぼがしたいな～
+Enemy_StgLose_049	むー！ バンブークさまに\nナデナデしてもらうからいいもん！
+Enemy_StgLose_050	ムサシちゃんつよいよ～\nおんなのこには優しくね…？
+Enemy_StgLose_051	オレの… オレの出世は\nどうなるんだーーー!!!
+Enemy_StgLose_052	うぬぬ… 山盛りのワサビに\n打ち勝つとは、大したものじゃ…
+Enemy_StgLose_053	くっ… もうじきグロムさまの\n部隊が増援に来るは…ず……
+Enemy_StgLose_054	たまたま苦手なスシが\n続いたから負けたんだ…！
+Enemy_StgLose_055	子供だけども要注意という\n通達は本当だったのか……
+Enemy_StgLose_056	この先は強い兵がたくさんいる…\n油断しないことだな……
+Enemy_StgLose_057	ヒョウ♪\nあいかわらずヨイツーですね～♪
+Enemy_StgLose_058	ぐおっ！直属部隊の私を相手に\nここまでやるとは…！
+Enemy_StgLose_059	おのれ… エリート部隊の\n私に恥をかかせたな…！
+Enemy_StgLose_060	私に勝ったからと言って\nいい気にならないことだな…
+Enemy_StgLose_061	エリート集団であるはずの\n我が隊がまさか全滅とは…
+Enemy_StgLose_062	なんてことだ… 帝国軍特別製の\n電磁砲がやぶれるなんて……！
+Enemy_StgLose_063	電磁砲で足止めできると\n思っていたのにーーー！
+Enemy_StgLose_064	私は負けてしまったが、この付近の\n圧縮陣形を切り抜けられるかな…
+Enemy_StgLose_065	これが解放戦線のムサシ…\nなんてうまそうに食べるんだ……
+Enemy_StgLose_066	くっ… ここを突破しても\nこの先の電磁砲がお前を阻む…！
+Enemy_StgLose_067	グロムさま、申し訳ありません…\nこの電磁砲も突破されました……
+Enemy_StgLose_068	ぐ… お前を倒してスシパーティで\n祝杯をあげる予定だったのに……
+Enemy_StgLose_069	ちくしょう… 腰痛さえなければ\nこんなやつ楽勝なのに……
+Enemy_StgLose_070	オレだってスシが大好きなのに\n負けちまったか……
+Enemy_StgLose_071	…きっと手遅れだムサシよ……\nグロムさまはもう戻られたはず…
+Enemy_StgLose_072	ほう… ゴウライ相手にここまで…\nこれは嬉しい誤算というものだ
+Enemy_StgLose_073	そんな…！ 徹底的に合理性を\n追求したスタイルのはずなのに……
+Enemy_StgLose_074	スシ解放戦線が\nよもやここまで迫っているとは…
+Enemy_StgLose_075	お前がムサシか…\n少々あなどっていたようだ……
+Enemy_StgLose_076	た、たのむ…！\nトドメだけは許してくれ…!!
+Enemy_StgLose_077	こ、これが…\n敗北の味…か……
+Enemy_StgLose_078	ワオッ！\nシースーのムーゲーお上手ですね！
+Enemy_StgLose_079	負けたからおじょうさまに\n叱られてしまう…… うふふ…♪
+Enemy_StgLose_080	ああ… おじょうさま……\n負けた私を叱ってください……
+Enemy_StgLose_081	よおおおし負けたあああ！\nこれで叱ってもらえるぞ!!
+Enemy_StgLose_082	ふふ… おじょうさまに\n叱ってもらうために負けたのですよ
+Enemy_StgLose_083	そんな～！ オレのコンボウォールを\nまさか乗り越えられるなんてーー！
+Enemy_StgLose_084	赤いスシを食べると叱られる…\n赤いスシを食べると叱られる…
+Enemy_StgLose_085	ソスナ様もうしわけありません…\nやはり赤いスシは強かったです……
+Enemy_StgLose_086	や、やはり赤いスシも食べないと\nチカラが、で… 出ない……
+Enemy_StgLose_087	ぬおっ！？\nめ、目の前に赤いスシが……
+Enemy_StgLose_088	シースー　マイウー！\nガトアリでした～♪
+Enemy_StgLose_089	おじょうさまのスイーツタイムを\n邪魔させる…わけには……
+Enemy_StgLose_090	おじょうさまのエステタイム…\n本当は私も同席したいのだッ…！
+Enemy_StgLose_091	わ、わたしだって本当は…\n赤いスシを食べたいんです……
+Enemy_StgLose_092	お、おみごと…\nあなたならソスナさまを……
+Enemy_StgLose_093	オレになんのうらみが\nあるんだーーっ！ うわーーん!!
+Enemy_StgLose_094	ちっ… ヒカリノコロモが\nまさかやぶられるなんてね……
+Enemy_StgLose_095	この先に進んだとしても\n雪だるまになるだけだぞ…！
+Enemy_StgLose_096	負けたので、さっさと戻って\n暖まろうと思うのである!!
+Enemy_StgLose_097	寒いし、ムサシには負けるし！\nなんなんだ今日は!!
+Enemy_StgLose_098	寒さには負けなかったのに\nムサシに負けたーーー!!
+Enemy_StgLose_099	こんな寒い地にまで来て\nまたも、ひねりつぶされるなんて～
+Enemy_StgLose_100	さっきまでなんともなかったのに\n急に寒くなったように感じる……
+Enemy_StgLose_101	す、すこしは筋肉が\n付いたようだな……
+Enemy_StgLose_102	マッチョのなかのマッチョである\n私がまたもや負けるとは……
+Enemy_StgLose_103	マッチョ部隊をまたも破るとは\nムサシ、お前こそ真のマッチョだ！
+Enemy_StgLose_104	お前が「もと」とか言うから\n気が抜けてしまったではないか…
+Enemy_StgLose_105	くそーー!! ワサビの訓練を\n受けたのに、また負けたーーー!!
+Enemy_StgLose_106	ムサシにまた負けた…\nああ… また筋肉がしぼんでいく……
+Enemy_StgLose_107	無敵の筋肉ムテキンニクも\nもはやここまでか……
+Enemy_StgLose_108	スシライカー 実は筋肉\n関係ない？ ……ぐふ…
+Enemy_StgLose_109	何度でもスカウトするぞムサシ！\n筋肉スシライカーにならないか…？
+Enemy_StgLose_110	侵入者を排除するつもりが\n私が排除されてしまうとは…
+Enemy_StgLose_111	バ、バキューム力が足りねえ…\nもっと… もっとプロテインを……
+Enemy_StgLose_112	よくぞ私を倒した…\nだが私はこの部隊の中でも最弱……
+Enemy_StgLose_113	やぶれてしまったが、まあ当然か…\nだってボクは部隊の中で最弱だし…
+Enemy_StgLose_114	突破されたけど、しかたないか…\nなぜってオレは部隊で最弱だし……
+Enemy_StgLose_115	負けたか… なんたって隊長のオレが\n一番弱いから、しかたないよな……
+Enemy_StgLose_116	ムサシさんとのシースーのムーゲー\n毎回チョー楽しいっす～♪
+Enemy_StgLose_117	オレはやられてしまったが\n次のルツコイは強いぞ……
+Enemy_StgLose_118	ま、負けた… だがこの奥の\nマツイが勝ってくれるはずだ…
+Enemy_StgLose_119	ぐぬ… やぶれてしまうとは…\nあとは隊長に任せるとしよう……
+Enemy_StgLose_120	隊長のオレが負けた場合\n次は誰を頼ればいいんだ…
+Enemy_StgLose_121	た、たいちょ～…\n電磁砲、突破されました～……
+Enemy_StgLose_122	負けた… アブリコス隊みたいに\nマッチョ路線に変えてみようかな…
+Enemy_StgLose_123	くっ… バンブーク隊のように\nワサビで攻めればよかったか…
+Enemy_StgLose_124	うう… ソスナ隊みたいに赤いスシを\n制限するスタイルなら勝てたかな…
+Enemy_StgLose_125	ぐぬっ… やはりグロム隊のような\nエレガントさが足りないのか……
+Enemy_StgLose_126	みごとな「スシ筋」です…\nさすがは… グロムさまの……
+Enemy_StgLose_127	スシに捧げた我が信念…\nグロムさまとともにありッ！
+Enemy_StgLose_128	グロムさまの血筋が作りだす\n「スシ筋」がこれほど美しいとは…
+Enemy_StgLose_129	我ら精鋭部隊をも圧倒するとは…\n迷いの無い「スシ筋」……
+Enemy_StgLose_130	もはや電磁砲ごときでは\nムサシさまは止められない…か…
+Enemy_StgLose_131	ムサシ… よくぞ父を打ち倒した…\nまさかお前にスシを教わるとはな…
+Enemy_StgLose_132	ムサシ…\nココマデ ヤッテ来ルナンテ……
+Enemy_StgLose_133	トマレ ムサシ…\nコノ先ハ 行キ止マリダ……
+Enemy_StgLose_134	ココヲ 守レナカッタ…\nココヲ 守レナカッタ… ココヲ…
+Enemy_StgLose_135	グラードサマ 申シ訳アリマセン\n失態ハ コノ身デ……
+Enemy_StgLose_136	ムサシさんとパイセンのコンビ\nマジでパないっすね～！！
+Enemy_StgLose_137	子供ノ クセニ\n図ニ乗リオッテ……
+Enemy_StgLose_138	ソノ 小サナ 体ノ\nドコニ ソンナチカラガ…
+Enemy_StgLose_139	アア… グラードサマノ\nスシ補完計画ガ 崩レテユク…
+Enemy_StgLose_140	グラードサマノ トコロマデ\n進マレル ワケニハ……
+Enemy_StgLose_141	オ、オノレ… 帝国デ スシヲ\n独占スル 計画ガ……
+Enemy_StgLose_142	不覚… ジュウベエニモ\n先ニ 行カレテ シマッタ…
+Enemy_StgLose_143	ナゼダ… スシヲ タラフク食ベル\n至高ノ未来ガ アルハズナノニ…
+Enemy_StgLose_144	グラード… サマ… ニハ…\n一歩モ…… 近ヅカセ…… ン……
+Enemy_StgLose_145	どうして… スシはボクのもの…\nキミのスシもボクのもののはず……
+Enemy_StgLose_146	なぜ… なぜキミは笑って…\n笑ってスシを食べるんだ……
+Enemy_StgLose_197	うぐっ… キサマからその石を\n奪うことさえできれば……
+Enemy_StgLose_198	いしを… ゆずってくれるという\n意思は… ないのか……
+Enemy_StgLose_199	ぬう… このままでは例の神社まで\nたどり着かれてしまう…
+Enemy_StgLose_200	いったいどこからこの先の神社の\n情報を聞きつけてきたんだ…
+Enemy_StgLose_201	我がマッチョをもろともしない…\nまさかキサマが真のマッチョ!?
+Enemy_StgLose_202	マッチョ～マッチョ～体操～♪\nさあムサシくんも一緒に!!
+Enemy_StgLose_203	隊長におまえが部隊で一番強いと\n言ってもらったのに、負けるとは…
+Enemy_StgLose_204	部隊で最強の兵は私だと隊長に\n言ってもらえたのに、ちくしょう…
+Enemy_StgLose_205	隊長から部隊最強兵士の称号を\nもらったのに、負けるなんて…
+Enemy_StgLose_206	ほめて伸ばした部下たちは全滅か…\nだがギアは我々帝国の手に……
+Enemy_StgLose_209	このあたりは警備も厳重だ…\nキサマに切り抜けられるかな……
+Enemy_StgLose_210	なぜ帝国のこんな奥地に現れた…\nまさか発明のウワサは本当なのか…
+Enemy_StgLose_211	ぐっ… キサマまさか\nこの先の軍事施設に……
+Enemy_StgLose_212	ぐぬうっ… 帝国の偉大な発明を\n邪魔されるわけには……
+Enemy_StgLose_213	隊長におまえは部隊で最弱だと\n言われ、自分なりに頑張ったんだ…
+Enemy_StgLose_214	私が部隊で一番弱いと隊長に言われ\n必死に食らいついていたんだ…
+Enemy_StgLose_215	部隊最弱兵士の称号を隊長に授かり\n汚名返上のつもりで奮闘したのに…
+Enemy_StgLose_216	尻をたたいて育てた部下は全滅か…\n本当は私が一番弱かったのかもな…
+Enemy_StgLose_217	電磁砲まで突破されてしまった…\n施設に攻め込まれてしまう……
+Enemy_StgLose_218	くそう… 実験装置まで壊されて\nこの施設の存続が……
+Enemy_StgLose_219	マ、マサカ… 本当にチカラずくで\nギアをうばわれる…… ナンテ……
+Enemy_StgLose_221	レアスシガミはトップシークレット\nキサマに教えたりなど……
+Enemy_StgLose_222	この先にはなにも無いぞ…！\n頼むから引き返してくれえぇ！
+Enemy_StgLose_223	ここを通してしまったら隊長に\nしかられてしまうではないか…
+Enemy_StgLose_224	くっ… ゴクオウとの\n契約の皿をやられちまうとは…
+Enemy_StgLose_225	きゃう～ん…\n痛い目にあわされちゃった…
+Enemy_StgLose_226	ううう… スシバトルよりも\nおねえさんと海で遊ぼうよう？
+Enemy_StgLose_227	え～ん… この先には誰も通すな\nって隊長に言われてたのに～
+Enemy_StgLose_228	ぶんどりシールドを乗り切るなんて\nムサシちゃん、恐ろしい子…！
+Enemy_StgLose_233	おじょうさまからのせっかくの\nご命令を遂行できないなんて…
+Enemy_StgLose_234	バトルに負けようとも、赤いスシは\n食べないのがソスナ隊のスタイル…
+Enemy_StgLose_235	我々がバトルで時間をかせげば\nおじょうさまはエステに行ける…
+Enemy_StgLose_236	そ、そんな… 本当に\nおじょうさまはもうここには……
+Enemy_StgLose_237	うう… ここへの道はソスナさまの\n部隊が封鎖していたはずなのに……
+Enemy_StgLose_238	この先に… この先に進ませる\nわけにはいかないんだあああ…！
+Enemy_StgLose_239	あっちで不思議な生き物を見たぞ！\n行ってみたらどうだ!?
+Enemy_StgLose_240	くっ… 出遅れたうえに\nスシバトルにも負けてしまうとは…
+Enemy_StgLose_249	ぐっ… さすがの強さだ…\nスシガミはどうだ…？
+Enemy_StgLose_250	これだけ派手にスシバトルをすれば\nスシガミもひょっこり現れるはず…
+Enemy_StgLose_251	スシガミを呼ぶためとは言え\n連戦連勝の快進撃はさすがだな…
+Enemy_StgLose_252	行方不明のスシガミを見つけたのに\n肝心のスシバトルで負けるとは…
+Enemy_StgLose_253	なぜだムサシ…\nなぜこの先に進もうとする……
+Enemy_StgLose_254	うっかりしゃべってしまったのが\n運の尽きだったか……
+Enemy_StgLose_255	スシガミがいそうなところには\nどこにでも現れるなムサシ…
+Enemy_StgLose_256	うう… 寒い寒い……\nこの寒さにうんざりしていたんだ…
+Enemy_StgLose_257	この雪でほこらも埋もれている…\nキサマに見つけられるかな……
+Enemy_StgLose_258	くうっ… キサマが見つけたほこらだ\nキサマの好きにしたらいい……
+Enemy_StgLose_259	久々のスシバトルだったが…\nやはり腕がなまっていたか…！
+Enemy_StgLose_260	毎日あまりにも暇すぎる我が隊は\n身を隠す訓練が流行っているのだ…
+Enemy_StgLose_261	ぐっ… こんなところで倒れたら\nオニに見つかるではないか……
+Enemy_StgLose_262	もっ、も～い～か～い…\nぐふッ…ダメだ…大きい声が出ぬ…
+Enemy_StgLose_263	あたしがスカッとしたいのに\nキミにスカッとされちゃうなんて…
+Enemy_StgLose_264	強いねえ…キミとバトルをすると\nボクの筋肉も共鳴するようだよ！！
+Enemy_StgLose_265	のどかな風景と汗がしたたる筋肉…\nみごとな調和だと思わないかね！？
+Enemy_StgLose_266	ほこらの調査もしないとだけど\n筋トレを優先しちゃうんだよね！！
+Enemy_StgLose_267	ぐおっ…ただでさえ筋肉が１名\n行方不明で大変だというのに……
+Enemy_StgLose_268	私はスシとマッチョを極め…\n……ん？ オ、オレはなにを……
+Enemy_StgLose_269	なぜだムサシ… なぜ我々を\n倒してまで進もうとする……
+Enemy_StgLose_270	やんちゃなだけではないようだな…\nいいだろう、ここはゆずってやる
+Enemy_StgLose_271	ギギ…カメレサツノ　チカラガ\nマケルナンテ…
+Enemy_StgLose_272	ほう？　見違えるようなスシ筋…\nなにがあったのか興味がありますね
+Enemy_StgLose_273	はう～ん…ひっど～い！！\nおねえさん痛いのはキライよ？
+Enemy_StgLose_274	なんだかチョ～強くないですか？\nムサシさん一皮むけちゃいました？
+Enemy_StgLose_275	聞いてないぞムサシ！\nいつの間にこんなに強くなった！！
+Enemy_StgLose_276	なっ…なぜ負けた！？\nさっそく敗因を分析しなくては…！
+Enemy_StgLose_277	オレ様の筋肉が通じねえだと！？\nお前かなり鍛えているじゃねえか…
+Enemy_StgLose_278	ずいぶん強くなったじゃないか\nあんなにお子様だったってのにね
+Enemy_StgLose_279	マ、マントガ　メクレテシマウ…\n見ルナ！　マントノ中ヲ見ルナ…！
+Enemy_StgLose_280	勝ったからなんだっていうの…？\n戦争なんてなにも生まないのに…
+Enemy_StgLose_281	ボクの負け…？\nもっとスシが食べたいな…
+Enemy_StgLose_282	むむっ？　私のヒラメ筋が\nムサシくんに負けただと…！？
+Enemy_StgLose_283	スシライカーのムサシか…\n良い目をしているな。フッフッフ…
+Enemy_StgLose_284	ワサビの魅力に気づいて\n大人に近づいとるようじゃのう…！
+Enemy_StgLose_285	若き日のグロムさまを\nほうふつとさせるスシ筋…みごと…
+Enemy_StgLose_286	バカな！　帝国の秘密兵器が\nこうもあっさりとやぶられるとは…
+Enemy_StgLose_287	ちょっといきなりなんなのよ！\nえっ…あなたもムサシって名前！？
+Enemy_StgLose_288	ムサシちゃんとはこの前も\nたたかった気がするけど気のせい？
+Enemy_StgLose_289	ぐ…解放戦線に返り咲くつもりが\nよもや手も足も出ないとは……
+Enemy_StgLose_290	ずいぶんと強くなったじゃねえか！\nスシも大事だが筋肉も鍛えろよ！！
+Enemy_StgLose_291	オーノー…こんなていたらくでは\nおじょうさまに叱られてしまう……
+Enemy_StgLose_292	ちょっと待って待ってえええ！！\n皿をそんなに投げてズルいぞ！！
+Enemy_StgLose_293	さすがはオレの子だ\nスシ筋にいっさいの迷いが無い
+Enemy_StgLose_294	グギギ…　投ゲラレタ皿デ\n仮面ガ　割レルカト　思ッタゾ…
+Enemy_StgLose_295	ワサビも食べられんこわっぱだと\n少々あなどっていたようじゃな…
+Enemy_StgLose_296	ガトアリでした～♪\nムサシさん、キレがグンバツっす♪
+Enemy_StgLose_297	おっとっと…胸板が厚すぎて\n手元が見えなかったぜ…！
+Enemy_StgLose_298	赤いスシでアタイにたてついて\n嫌がらせのつもりかいっ…！
+Enemy_StgLose_299	実力はたしかなようね…\nあなたの進む先…見せてもらうわ…
+Enemy_StgLose_300	私を怒らせてしまったようだな…\nグロムさまに出陣願わねば…
+Enemy_StgLose_301	お皿じゃなくてスシを投げてよ\nもっとスシを食べたいんだから…
+Enemy_StgLose_302	いきなりなんなんだ！\nえっ…お前もムサシって名前！？
+EnemyTitle_001	偵察隊・新人
+EnemyTitle_002	偵察隊・指導係
+EnemyTitle_003	宿命のライバル？
+EnemyTitle_004	強行偵察隊・新人
+EnemyTitle_005	強行偵察隊・新人
+EnemyTitle_006	強行偵察隊・新人
+EnemyTitle_007	強行偵察隊・指導係
+EnemyTitle_008	スシ解放戦線リーダー
+EnemyTitle_009	戦闘第１０１小隊
+EnemyTitle_010	戦闘第１０１小隊
+EnemyTitle_011	戦闘第１０１小隊
+EnemyTitle_012	戦闘第１０１小隊
+EnemyTitle_013	宿命のライバル？？
+EnemyTitle_014	アブリコス精鋭第１小隊
+EnemyTitle_015	アブリコス精鋭第１小隊
+EnemyTitle_016	アブリコス精鋭第１小隊
+EnemyTitle_017	アブリコス精鋭第１小隊
+EnemyTitle_018	宿命のライバル？？？
+EnemyTitle_019	拠点防衛隊
+EnemyTitle_020	少女戦士
+EnemyTitle_021	国境警備小隊
+EnemyTitle_022	国境警備小隊
+EnemyTitle_023	国境警備小隊
+EnemyTitle_024	国境警備小隊
+EnemyTitle_025	少女戦士
+EnemyTitle_026	アブリコス精鋭第２小隊
+EnemyTitle_027	アブリコス精鋭第２小隊
+EnemyTitle_028	アブリコス精鋭第２小隊
+EnemyTitle_029	アブリコス精鋭第２小隊
+EnemyTitle_030	少女戦士
+EnemyTitle_031	ワイルデストスシライカー
+EnemyTitle_032	戦闘第４０２小隊
+EnemyTitle_033	戦闘第４０２小隊
+EnemyTitle_034	戦闘第４０２小隊
+EnemyTitle_035	戦闘第４０２小隊
+EnemyTitle_036	謎のスシライカー？
+EnemyTitle_037	バンブーク精鋭第１小隊
+EnemyTitle_038	バンブーク精鋭第１小隊
+EnemyTitle_039	バンブーク精鋭第１小隊
+EnemyTitle_040	バンブーク精鋭第１小隊
+EnemyTitle_041	帰ってきたライバル？
+EnemyTitle_042	戦闘第４０３小隊
+EnemyTitle_043	戦闘第４０３小隊
+EnemyTitle_044	戦闘第４０３小隊
+EnemyTitle_045	戦闘第４０３小隊
+EnemyTitle_046	謎のスシライカー？
+EnemyTitle_047	バンブーク精鋭第２小隊
+EnemyTitle_048	バンブーク精鋭第２小隊
+EnemyTitle_049	バンブーク精鋭第２小隊
+EnemyTitle_050	バンブーク精鋭第２小隊
+EnemyTitle_051	帰ってきたライバル？？
+EnemyTitle_052	ワサビひとすじ六十年
+EnemyTitle_053	戦闘第５０４小隊
+EnemyTitle_054	戦闘第５０４小隊
+EnemyTitle_055	戦闘第５０４小隊
+EnemyTitle_056	戦闘第５０４小隊
+EnemyTitle_057	超謎のスシライカー？
+EnemyTitle_058	グロム精鋭第１小隊
+EnemyTitle_059	グロム精鋭第１小隊
+EnemyTitle_060	グロム精鋭第１小隊
+EnemyTitle_061	グロム精鋭第１小隊
+EnemyTitle_062	超ひみつ兵器
+EnemyTitle_063	戦闘第５０５小隊
+EnemyTitle_064	戦闘第５０５小隊
+EnemyTitle_065	戦闘第５０５小隊
+EnemyTitle_066	戦闘第５０５小隊
+EnemyTitle_067	超ひみつ兵器
+EnemyTitle_068	グロム精鋭第２小隊
+EnemyTitle_069	グロム精鋭第２小隊
+EnemyTitle_070	グロム精鋭第２小隊
+EnemyTitle_071	グロム精鋭第２小隊
+EnemyTitle_072	雷鳴のスシライカー
+EnemyTitle_073	邪道食いマスター
+EnemyTitle_074	戦闘第６０７小隊
+EnemyTitle_075	戦闘第６０７小隊
+EnemyTitle_076	戦闘第６０７小隊
+EnemyTitle_077	戦闘第６０７小隊
+EnemyTitle_078	深まる謎のスシライカー
+EnemyTitle_079	ソスナ精鋭第１小隊
+EnemyTitle_080	ソスナ精鋭第１小隊
+EnemyTitle_081	ソスナ精鋭第１小隊
+EnemyTitle_082	ソスナ精鋭第１小隊
+EnemyTitle_083	再び帰ってきたライバル？
+EnemyTitle_084	戦闘第６０８小隊
+EnemyTitle_085	戦闘第６０８小隊
+EnemyTitle_086	戦闘第６０８小隊
+EnemyTitle_087	戦闘第６０８小隊
+EnemyTitle_088	深まる謎のスシライカー
+EnemyTitle_089	ソスナ精鋭第２小隊
+EnemyTitle_090	ソスナ精鋭第２小隊
+EnemyTitle_091	ソスナ精鋭第２小隊
+EnemyTitle_092	ソスナ精鋭第２小隊
+EnemyTitle_093	再び帰ってきたライバル？？
+EnemyTitle_094	愛とスシのハンター
+EnemyTitle_095	さいはて守備隊
+EnemyTitle_096	さいはて守備隊
+EnemyTitle_097	さいはて守備隊
+EnemyTitle_098	さいはて守備隊
+EnemyTitle_099	さいはて守備隊・新人
+EnemyTitle_100	アブリコス精鋭第１小隊
+EnemyTitle_101	アブリコス精鋭第１小隊
+EnemyTitle_102	アブリコス精鋭第１小隊
+EnemyTitle_103	アブリコス精鋭第１小隊
+EnemyTitle_104	元司令官
+EnemyTitle_105	あきらめない鉄の意志？
+EnemyTitle_106	アブリコス精鋭第２小隊
+EnemyTitle_107	アブリコス精鋭第２小隊
+EnemyTitle_108	アブリコス精鋭第２小隊
+EnemyTitle_109	アブリコス精鋭第２小隊
+EnemyTitle_110	特別訓練棟警備隊
+EnemyTitle_111	デンジャラススシライカー
+EnemyTitle_112	戦闘第８０９小隊
+EnemyTitle_113	戦闘第８０９小隊
+EnemyTitle_114	戦闘第８０９小隊
+EnemyTitle_115	戦闘第８０９小隊
+EnemyTitle_116	深まる謎のスシライカー
+EnemyTitle_117	グロム精鋭第３小隊
+EnemyTitle_118	グロム精鋭第３小隊
+EnemyTitle_119	グロム精鋭第３小隊
+EnemyTitle_120	グロム精鋭第３小隊
+EnemyTitle_121	超ひみつ兵器
+EnemyTitle_122	戦闘第８１０小隊
+EnemyTitle_123	戦闘第８１０小隊
+EnemyTitle_124	戦闘第８１０小隊
+EnemyTitle_125	戦闘第８１０小隊
+EnemyTitle_126	グロム精鋭第４小隊
+EnemyTitle_127	グロム精鋭第４小隊
+EnemyTitle_128	グロム精鋭第４小隊
+EnemyTitle_129	グロム精鋭第４小隊
+EnemyTitle_130	超ひみつ兵器
+EnemyTitle_131	雷鳴のスシライカー
+EnemyTitle_132	皇帝親衛隊第１小隊
+EnemyTitle_133	皇帝親衛隊第１小隊
+EnemyTitle_134	皇帝親衛隊第１小隊
+EnemyTitle_135	皇帝親衛隊第１小隊
+EnemyTitle_136	深まる謎のスシライカー
+EnemyTitle_137	皇帝親衛隊第２小隊
+EnemyTitle_138	皇帝親衛隊第２小隊
+EnemyTitle_139	皇帝親衛隊第２小隊
+EnemyTitle_140	皇帝親衛隊第２小隊
+EnemyTitle_141	皇帝親衛隊
+EnemyTitle_142	皇帝親衛隊
+EnemyTitle_143	皇帝親衛隊
+EnemyTitle_144	皇帝親衛隊
+EnemyTitle_145	すべてを食らいつくす者
+EnemyTitle_146	終わらない悪夢のスシライカー
+EnemyTitle_221	スシ補完計画実行部隊
+EnemyTitle_222	スシ補完計画実行部隊
+EnemyTitle_223	スシ補完計画実行部隊
+EnemyTitle_224	スシ補完計画実行部隊
+EnemyTitle_225	スシ補完計画実行部隊
+EnemyTitle_226	スシ補完計画実行部隊
+EnemyTitle_227	スシ補完計画実行部隊
+EnemyTitle_228	スシ補完計画実行部隊
+EnemyTitle_233	ソスナ精鋭第３小隊
+EnemyTitle_234	ソスナ精鋭第３小隊
+EnemyTitle_235	ソスナ精鋭第３小隊
+EnemyTitle_236	ソスナ精鋭第３小隊
+EnemyTitle_237	スシ補完計画実行部隊
+EnemyTitle_238	スシ補完計画実行部隊
+EnemyTitle_239	スシ補完計画実行部隊
+EnemyTitle_240	スシ補完計画実行部隊
+EnemyTitle_249	スシ補完計画実行部隊
+EnemyTitle_250	スシ補完計画実行部隊
+EnemyTitle_251	スシ補完計画実行部隊
+EnemyTitle_252	スシ補完計画実行部隊
+EnemyTitle_255	スシ補完計画実行部隊
+EnemyTitle_256	スシ補完計画実行部隊
+EnemyTitle_257	スシ補完計画実行部隊
+EnemyTitle_258	スシ補完計画実行部隊
+EnemyTitle_259	本土北方守備隊
+EnemyTitle_260	本土北方守備隊
+EnemyTitle_261	本土北方守備隊
+EnemyTitle_262	本土北方守備隊
+EnemyTitle_263	スシ補完計画実行部隊
+EnemyTitle_264	忘れられた部隊
+EnemyTitle_265	忘れられた部隊
+EnemyTitle_266	忘れられた部隊
+EnemyTitle_267	忘れられた部隊
+EnemyTitle_268	求道のスシライカー
+EnemyTitle_271	スシ補完計画実行部隊
+EnemyTitle_197	戦闘第１０６小隊
+EnemyTitle_198	戦闘第１０６小隊
+EnemyTitle_199	戦闘第１０６小隊
+EnemyTitle_200	戦闘第１０６小隊
+EnemyTitle_201	特務隊兄弟戦士
+EnemyTitle_202	特務隊兄弟戦士
+EnemyTitle_203	特務隊第１小隊
+EnemyTitle_204	特務隊第１小隊
+EnemyTitle_205	特務隊第１小隊
+EnemyTitle_206	特務隊第１小隊
+EnemyTitle_253	スシ補完計画実行部隊
+EnemyTitle_254	スシ補完計画実行部隊
+EnemyTitle_209	本土南部守備隊
+EnemyTitle_210	本土南部守備隊
+EnemyTitle_211	本土南部守備隊
+EnemyTitle_212	本土南部守備隊
+EnemyTitle_213	特務隊第２小隊
+EnemyTitle_214	特務隊第２小隊
+EnemyTitle_215	特務隊第２小隊
+EnemyTitle_216	特務隊第２小隊
+EnemyTitle_217	超ひみつ兵器
+EnemyTitle_218	特務隊研究所
+EnemyTitle_269	スシ補完計画実行部隊
+EnemyTitle_270	スシ補完計画実行部隊
+EnemyTitle_219	特務隊ボス
+EnemyTitle_272	スシ解放戦線総長
+EnemyTitle_273	バンブーク親衛隊
+EnemyTitle_274	シースーライカー
+EnemyTitle_275	運命のライバル？
+EnemyTitle_276	ソスナ親衛隊
+EnemyTitle_277	ストロンゲストスシライカー
+EnemyTitle_278	魅惑のスシライカー
+EnemyTitle_279	スシの錬金術師
+EnemyTitle_280	プリティーソルジャー
+EnemyTitle_281	マッドネススシライカー
+EnemyTitle_282	マッスル決死隊
+EnemyTitle_283	暗黒のスシライカー
+EnemyTitle_284	スパイシースシライカー
+EnemyTitle_285	スシコマンドー部隊
+EnemyTitle_286	超ひみつ兵器
+EnemyTitle_287	スーパースシライカー
+EnemyTitle_288	バンブーク親衛隊
+EnemyTitle_289	邪道の落武者
+EnemyTitle_290	ハートフルスシライカー
+EnemyTitle_291	ソスナ親衛隊
+EnemyTitle_292	永遠のライバル？
+EnemyTitle_293	雷光のスシライカー
+EnemyTitle_294	スシの錬金術師
+EnemyTitle_295	ワサビひとすじ五十五年
+EnemyTitle_296	ゴイスーシースーライカー
+EnemyTitle_297	マッスル決死隊
+EnemyTitle_298	ラブ&スシハンター
+EnemyTitle_299	プリティーアサシン
+EnemyTitle_300	スシコマンドー部隊
+EnemyTitle_301	サイコスシライカー
+EnemyTitle_302	スーパースシライカー
+EnemyTitle_VS	スシライカーランク
+Enemy_Tutorial02_Advice	くっ…ま…負けたの…！？\nく…くやしい……
+PlayerAdvice000	皿は短く何度もつなげるより\nとにかく長くつなげるべしじゃ
+PlayerAdvice001	レーンドライブを使いジグザグに\n皿をつなげていくのが基本じゃ
+PlayerAdvice002	７皿以上つなげると、どの色の皿\nとしても使える虹皿が出るぞ
+PlayerAdvice003	皿に乗って流れてくるフルーツを\n食べるとHPが少し回復するのじゃ
+PlayerAdvice004	スシ祭り中は攻撃力が1.5倍に\nなる。攻撃のチャンスじゃぞ
+PlayerAdvice005	たくさんの皿をつなげるほど、\n祭ゲージの上がり方も大きいぞ
+PlayerAdvice006	虹皿をふくんだつみ皿ならば、\n敵の攻撃でもくずれぬのじゃ
+PlayerAdvice007	皿をつなげられる時間は7秒ある\n10皿20皿とつなげるのじゃ
+PlayerAdvice008	皿が通るすき間さえあれば、遠く\nのレーンとも皿はつなげられるぞ
+PlayerAdvice009	虎の巻の「バトルの極意」には\n  K0勝\u000f\u0001\u0000つためのヒントが満載じゃぞ
+PlayerAdvice010	勝負は時の運。次は勝てるやも\n知れぬ…あきらめてはいかんぞ。
+PlayerAdvice011	「スキルのおふだ」をスシガミに\n使えばスキルLvを上げられるぞ
+PlayerAdvice012	  K0勝\u000f\u0001\u0000てぬ時はスキルの組み合わせを\n考えてみるのも手じゃぞ
+PlayerAdvice013	  K0勝\u000f\u0001\u0000てぬ時はスキルとスシパワーの\n相性を考えるのも手じゃな
+PlayerSpecialAdvice	ここは…「ふっかつのまめ」を\n使うのもいいかも知れぬな…
+Player_StgAdvice001	皿は短く何度もつなげるより\nとにかく長くつなげるべしじゃ
+Player_StgAdvice002	皿が通るすき間さえあれば、遠く\nのレーンとも皿はつなげられるぞ
+Player_StgAdvice003	レーンドライブを使いジグザグに\n皿をつなげていくのが基本じゃ
+Player_StgAdvice013	{c[ffae00]}八皿ウォールは両者に効果がある\n…コジローも苦しいはずじゃ。{c[000000]}
+Player_StgAdvice018	{c[ffae00]}なかなかうまくつながらない時は\n百連皿を活用するとよいぞ！{c[000000]}
+Player_StgAdvice057	{c[ffae00]}このアイテムの色は一定時間で\n変わる…赤を取ってはいかんぞ！{c[000000]}
+Player_StgAdvice064	{c[ffae00]}このアイテムの色は一定時間で\n変わる…赤を取ってはいかんぞ！{c[000000]}
+Player_StgAdvice067	{c[ffae00]}壁が動いている間は攻撃がきかぬ\n止まったときをねらうのじゃ…!!{c[000000]}
+Player_StgAdvice083	{c[ffae00]}今回は長くつなげなくていい…\n同じ色の皿を続けて食べるのじゃ{c[000000]}
+Player_StgAdvice088	{c[ffae00]}コンボウォールも両者への効果…\nコジローも苦しいはずじゃ…{c[000000]}
+Player_StgAdviceSosuna	{c[ffae00]}赤いスシとはサーモンとマグロ…\nヒカリノコロモの効果は一時的…{c[000000]}
+Player_StgWin_001	これがスシバトル…\nスシをたくさん食べられたぜ♪
+Player_StgWin_002	またまた勝っちまったぜ！\nスシをたくさん食べられて幸せ～♪
+Player_StgWin_003	どうだコジロー！\nレーンドライブギアのチカラは！！
+Player_StgWin_004	へへ～ん♪\nスイーツならオレだって大好物だぜ！
+Player_StgWin_005	電撃シュート？\nぜんぜんシビれなかったなあ！
+Player_StgWin_006	へっ！\nシールドなんて関係ねえぜ！！
+Player_StgWin_007	ひゅう♪\nすごいスピードバトルだったぜ！
+Player_StgWin_008	どうだ！\n子供あつかいはやめてもらうぜ！
+Player_StgWin_009	あんたの突撃\n見切っちゃったもんね♪
+Player_StgWin_010	カプセルか たしかに便利だな！\nいいものを教えてもらったぜ♪
+Player_StgWin_011	特殊特殊って言ってばっかで\nバトルがおろそかだったぜ？
+Player_StgWin_012	俺の勝ちだ！\n先に進ませてもらうぜ♪
+Player_StgWin_013	俺は帝国には入らないからな！\n覚えておけコジロー！！
+Player_StgWin_014	服はちゃんと着たほうがいいぜ？
+Player_StgWin_015	子供あつかいするんじゃねえ！\nたしかに… 筋肉はねえけどよ……
+Player_StgWin_016	スシライカーにマッチョは\n関係ある…のか？
+Player_StgWin_017	隊長だろうとマッチョだろうと\n立ちはだかる以上は関係ねえ！
+Player_StgWin_018	これで部隊はクビだな！\nいっそ帝国からもぬけちまえよ？
+Player_StgWin_019	スシが入れかわっても\n食べることには変わりねえぜ！
+Player_StgWin_020	俺と同じくらいの\nおんなのこ…!?
+Player_StgWin_021	あの子のことが気になるな…\nここは通してもらうぜ！
+Player_StgWin_022	勝ったんだから通してもらうぜ！\nさあ どいたどいた!!
+Player_StgWin_023	ユーリアが行ったのは\nこっちで合っているのか？
+Player_StgWin_024	この先にユーリアがいるのか…？
+Player_StgWin_025	ユーリア… すこしは話を\n聞いてくれる気になったか？
+Player_StgWin_026	筋肉がしぼむわけねえだろ！\nいいから早くそこをどいてくれ！！
+Player_StgWin_027	ム、ムテキンニク？\n筋肉にもいろいろあるんだな…
+Player_StgWin_028	お、おい… 負けたのに\n一句詠んでんじゃねえよ……
+Player_StgWin_029	筋肉はえんりょしておくぜ\nオレはスシライカーだからな！
+Player_StgWin_030	バカじゃねえ！ ユーリアとは\n仲間になれる気がするんだ！！
+Player_StgWin_031	バキューム食いなんかじゃ\nスシの味が分からないだろ！！
+Player_StgWin_032	風邪でもひいているのか？\nそういうときは無理するなよ？
+Player_StgWin_033	事前に目薬でもさしておけよな！\nバトルには集中しないとだぜ♪
+Player_StgWin_034	味が分からないなんて\nスシの楽しさが半減しちゃうな…
+Player_StgWin_035	おいおい、この部隊のやつら\n全員が体調不良じゃねえか……
+Player_StgWin_036	あんたにも慣れてきたぜ♪\nシースーマイウ～♪♪
+Player_StgWin_037	あのじいちゃんにゾッコン…\nなのか……？
+Player_StgWin_038	え、えっと… ごめんよ？\n泣かせるつもりは……
+Player_StgWin_039	わ、わりい…\nこの部隊、やりづらいぞ……
+Player_StgWin_040	あ、あの… よかったら\nオレも一緒に怒られようか…？
+Player_StgWin_041	どうって…\nふつうに避けただけだぜ？
+Player_StgWin_042	ワサビが食えないからって\n子供あつかいするんじゃねえ!!
+Player_StgWin_043	ワサビは苦手だけども、スシとの\n相性は悪くねえ気がするんだよな…
+Player_StgWin_044	これはワサビ好きじゃなくて\nもはやワサビ中毒だな……
+Player_StgWin_045	ワサビが好きすぎて、もうなにを\n言っているのかわからねえ……
+Player_StgWin_046	ちょり～っす♪\nいいバトルだったぜ♪♪
+Player_StgWin_047	悪いな、ねえちゃん\n先に進まないといけないんだ！
+Player_StgWin_048	オレでよければ、ねえちゃんと\nかくれんぼしても… いいぜ？
+Player_StgWin_049	ナデナデならオレが\nしてあげないことも… ないぜ？
+Player_StgWin_050	ム、ムサシちゃん？\nなんだか調子がくるうぜ……
+Player_StgWin_051	出世ばかり気にしてても\n出世はできないと思うぜ？
+Player_StgWin_052	ワサビが食べられるようになれば\n子供あつかいされなくなるかな？
+Player_StgWin_053	グロム… ウワサに聞く\n帝国一のスシライカー……
+Player_StgWin_054	好き嫌いは良くねえぜ？
+Player_StgWin_055	子供あつかい禁止って注意書きも\n足すように伝えておいてな！
+Player_StgWin_056	わざわざ注意してくれて\nサンキューな♪
+Player_StgWin_057	え、えっと… オレはヨイツーな\nシースーのライカーだぜ…… かな？
+Player_StgWin_058	誰が相手だろうと、ここで足を\n止めるわけにはいかないんだ！
+Player_StgWin_059	エリートだろうとなんだろうと\nスシはみんなに平等なんだぜ♪
+Player_StgWin_060	でもグロム隊はエリートなんだから\n勝てたならいい気になっちゃうぜ？
+Player_StgWin_061	エリートエリートって\nもう聞き飽きちまったぜ…
+Player_StgWin_062	ちょっとビビったけど、大きけりゃ\nいいってもんでもねえぜ!!
+Player_StgWin_063	へへ～ん♪ グロムのいどころまで\nノンストップでつきすすむぜ！
+Player_StgWin_064	圧縮陣形？ 敵さんの配置が\nやたら近いのはそのせいか…
+Player_StgWin_065	スシは人を笑顔にするものだ♪\n楽しんで食べないとだぜ♪♪
+Player_StgWin_066	あのデッケー大砲のことか？\nそれならもうなれっこだぜ♪
+Player_StgWin_067	道をあけてもらうぜ！\nグロムを追いかけねえと…！
+Player_StgWin_068	パーティが開けなくなって\n悪いことしちまったか？
+Player_StgWin_069	言い訳するなんて\n男らしくねえぞ！
+Player_StgWin_070	お前がスシを好きなことは\n戦っていて伝わってきたぜ♪
+Player_StgWin_071	まだいるかもしれねえ！\n先に行かせてもらうぜ!!
+Player_StgWin_072	嬉しい誤算だって!?\n一体なにを言ってやがる!!
+Player_StgWin_073	スシは合理性どうこうじゃねえ！\nおいしく全部を食べるものだ!!
+Player_StgWin_074	悪いな、おっちゃん\n先に行かせてもらうぜ！
+Player_StgWin_075	おう！ オレがムサシだ！\nもしかしてちょっと有名人？
+Player_StgWin_076	トドメなんてささねえよ\nそれじゃまるで悪役だぜ
+Player_StgWin_077	ん？ 勝っても味なんてしねえけど\n負けると味がするのか??
+Player_StgWin_078	シースー？ ムーゲー??\n一体なんなんだ…??
+Player_StgWin_079	なんだこいつ？\n叱られるのに喜んでるぞ？？
+Player_StgWin_080	こ、こいつもおかしいぞ…。\n叱ってくれってお願いするなんて…
+Player_StgWin_081	……。\nあのオバサンの部下、大丈夫か…
+Player_StgWin_082	た、隊長が一番心配なやつだった…
+Player_StgWin_083	たしかにちょっと苦戦したけど…\nオレは負けられねえんだ!!
+Player_StgWin_084	ソスナって人の部下たちは\n赤いスシを食べると怒られるのか…
+Player_StgWin_085	赤いスシが強いんじゃねえ！\nバランスよく食べるから強いんだ！
+Player_StgWin_086	意地はってないで\n赤いスシも食べちゃえよ？
+Player_StgWin_087	無理に赤いスシをガマンするから\nスシの幻が見えちゃってるんだな…
+Player_StgWin_088	シースーがマイウーでガトアリ…\nうう… 混乱してくるぜ……
+Player_StgWin_089	部下がスシバトルをしているときに\n自分は優雅にスイーツなんだな…
+Player_StgWin_090	早く行きたかったからバトル中\nずっとソワソワしていたのか？
+Player_StgWin_091	そっか…\nあんたたちも苦労してんだな……
+Player_StgWin_092	ん？\nソスナがなんだって？
+Player_StgWin_093	い、いや、うらみはねえけど\n勝負を挑んでくるから……
+Player_StgWin_094	へへ～ん♪ 赤いスシ以外の\nスシだってあるんだもんね♪♪
+Player_StgWin_095	ぶえっくし…！\nた、たしかに寒いな……
+Player_StgWin_096	お、おう…！ いさぎよいな！\nしっかり暖まってくれよな!!
+Player_StgWin_097	こっちだって寒いんだ！\nなんなんだここは!!
+Player_StgWin_098	うまいこと言った……のか？
+Player_StgWin_099	あーー！ そのセリフは!!\nおっちゃんのこと思い出したぜ!!
+Player_StgWin_100	あ！ 思い出した！ 服はちゃんと着ろ\nってアドバイスしたじゃんか!!
+Player_StgWin_101	おう！ バトルをたくさんして\n筋肉だってちょっぴり付いたぜ!!
+Player_StgWin_102	マッチョのこだわりはどうしても\n捨てられない人たちなんだな……
+Player_StgWin_103	オ、オレが真のマッチョ…？\nそれって… 喜んでいい……のか??
+Player_StgWin_104	えー、だって本当のことを\n言ったまでじゃんか～
+Player_StgWin_105	目を覚ませ！ あんなやり方で\n強くなれるわけがないだろうッ!!
+Player_StgWin_106	あ！ 筋肉しぼむ人!!\nにいちゃんは十分マッチョだぜ!!
+Player_StgWin_107	おお！ 今度はムテキンニクの人!!\nアブリコス隊が勢ぞろいなのか!?
+Player_StgWin_108	筋肉俳句の人も覚えてるぞ！\nなんだか真理にたどり着いた…？
+Player_StgWin_109	マッチョも楽しそうに思えてきて\nちょっと考えちゃうなあ…
+Player_StgWin_110	ユキチさんを助けたいんだ！\n通してもらうぜ！！
+Player_StgWin_111	もうやめろアブリコス！\nそんな食べ方はスシに失礼だぞ!!
+Player_StgWin_112	そ、そうなのか？\nあんまり気に病むなよ…？
+Player_StgWin_113	あれ？ さっきも自分のことを\n最弱って言う人がいたような…？
+Player_StgWin_114	この部隊の人たち\nみんな言い訳が同じだぞ…
+Player_StgWin_115	おっちゃんが一番弱いのか…？\nいったい誰が本当の最弱なんだ……
+Player_StgWin_116	オレもあんたとバトルをするのが\n当たり前に思えてきたぜ♪
+Player_StgWin_117	ルツコイさんか…\nどんなスシバトルか楽しみだぜ♪
+Player_StgWin_118	今度はマツイさんか…\n次の人に託す感じなのか…？
+Player_StgWin_119	この部隊の兵隊さんたちは\nなんだかみんな人任せのような…
+Player_StgWin_120	隊長さんはみんなの責任が\nのしかかって大変そうだな…
+Player_StgWin_121	秘密兵器なんだっけ？\n悪いな、壊しちまって！
+Player_StgWin_122	マッチョはマッチョで大変そうだし\nやめといたほうがいい気が…
+Player_StgWin_123	ワ、ワサビは勘弁してくれ～！\nあれはツーンとして苦手なんだ…
+Player_StgWin_124	無理にガマンするのは良くねえぜ？\n食べたいスシを食べないとな！
+Player_StgWin_125	エレガントさを求める前に\nまずはスシを信じるところからだな
+Player_StgWin_126	スシ筋…？ スシのあつかいかたを\n指す言葉か？ ……カッコイイな！
+Player_StgWin_127	スシを愛しているんだな…\nとうちゃん、いい部下じゃんか……
+Player_StgWin_128	ああ、これがオレのスシバトル！\nスシへの感謝なら誰にも負けねえ！
+Player_StgWin_129	とうちゃんに会って話をするんだ！\n立ち止まるわけにはいかねえ!!
+Player_StgWin_130	兵隊だろうが大砲だろうが\n立ちはだかるなら打ち勝つまでだ！
+Player_StgWin_131	どうだとうちゃん！\nこれがオレのスシだッ!!
+Player_StgWin_132	な、なんだ？ お面かそれ？\nちょっと怖いぞ……
+Player_StgWin_133	行き止まりのワケないよな！\nウソだってバレバレだぜ!!
+Player_StgWin_134	ずっと同じコトを言っている…\nさ、先に行かせてもらいま～す……
+Player_StgWin_135	ひ、ひえっ…\nこの部隊、なんだかやばいぞ……
+Player_StgWin_136	こんなところにも現れるなんて\n本当になにものなんだ……
+Player_StgWin_137	また子供あつかい！ やめてくれよな\nとうちゃんの前なんだからよ…
+Player_StgWin_138	成長したオレの姿をとうちゃんに\n見せたくてがんばってるんだ！
+Player_StgWin_139	そんな計画、オレととうちゃんで\nぶっ壊してやるぜ!!
+Player_StgWin_140	グラードはこの先か!?\n行こう、とうちゃん!!
+Player_StgWin_141	お前たちがやろうとしている\nスシの支配なんて認めねえぞ！
+Player_StgWin_142	早くとうちゃんを追いかけねえと！\n悪いけど先に行かせてもらうぜ！
+Player_StgWin_143	帝国のやり方じゃ、笑ってみんなで\nスシを食べられねえんだ！
+Player_StgWin_144	グラードに会わせてもらうぜ\nスシの未来を話し合いにきたんだ！
+Player_StgWin_145	スシは誰かのものじゃねえ！\nみんなのものだ!!
+Player_StgWin_146	みんなで笑っておいしく食べる！\nそれがオレの考えるスシだ!!
+Player_StgWin_197	この石は渡せねえ！\n欲しけりゃ自分で探すんだな♪
+Player_StgWin_198	おっちゃん… 負けたのに\nダジャレを言っている場合か？
+Player_StgWin_199	神社… そこにレーンドライブギアを\n作る技師がいるのか？
+Player_StgWin_200	へへ～ん♪ こっちには優秀な\n情報通がついているんだぜ♪
+Player_StgWin_201	マ、マッチョじゃねえし！\nスシライカーのムサシだ！！
+Player_StgWin_202	マッチョ～ マッチョ～…\nってなにやらせるんだ…！！
+Player_StgWin_203	そのおっちゃんよりオレのほうが\n一枚上手だったってことだな♪
+Player_StgWin_204	ん？ そのセリフ…\nさっきも聞いたような……
+Player_StgWin_205	ここの隊長さんは、みんなのことを\n最強だって言っているのか…？
+Player_StgWin_206	そういう方針だったのか…\nギアは絶対に取り返してやる…！
+Player_StgWin_209	誰が立ちはだかろうと\nスシを信じてバトルするだけだ！
+Player_StgWin_210	あやしい実験をしてるって聞いたぜ\nそれが本当ならオレが止める!!
+Player_StgWin_211	その通り♪\n盗んだものを返してもらうぜ！
+Player_StgWin_212	その発明のためだったら人のものを\n盗んでいいってわけじゃないぞ！
+Player_StgWin_213	最弱かどうかは分からねえけど\n大事なのはスシを信じる心だ！
+Player_StgWin_214	あ、あれ？\nこの流れ… 前にもあったような…
+Player_StgWin_215	もしかしてこの隊は\nたたいて伸ばす方針なんじゃ…？
+Player_StgWin_216	なんだかおっちゃんさみしそうだ…\n部下の育成も大変なんだな……
+Player_StgWin_217	その施設に行くために来たんだ！\n電磁砲まであるなんてあやしいぜ！
+Player_StgWin_218	スシを粗末にする実験の施設なんて\n認めるわけにはいかねえ!!
+Player_StgWin_219	人工スシゲートなんかで\n本当の幸せがやってくるはずない！
+Player_StgWin_221	おっちゃんは自分の口のかたさを\n疑ったほうがいいかもだぜ…？
+Player_StgWin_222	行くなと言われると\n行きたくなっちゃうよなあ♪
+Player_StgWin_223	じゃあ悪いけど\nしかられてくれよな♪
+Player_StgWin_224	レアスシガミのゴクオウ\nオレがもらい受けるぜ！
+Player_StgWin_225	ご、ごめんよ、ねえちゃん\nわるく思わないでくれよ…
+Player_StgWin_226	悪いけどまた今度な！この先に\nレアスシガミがいるみたいなんだ！
+Player_StgWin_227	それってつまりこの先に\nなにかがあるってことか？
+Player_StgWin_228	皿を奪われても、それ以上の皿を\n投げればいいだけだぜ♪
+Player_StgWin_233	さっきも言ったけど\nソスナはもうここにはいないぜ？
+Player_StgWin_234	あの～ …赤いスシを食べない件\nもうソスナは撤回しているぞ…？
+Player_StgWin_235	な、なんだか献身的すぎて\n泣けてくるぜ…
+Player_StgWin_236	そう言ってるじゃんか…\nすこしは聞く耳もってくれよな！
+Player_StgWin_237	ソスナの部隊はさっき倒したから\nそれでここまで来られたんだぜ♪
+Player_StgWin_238	お、おう… 悲痛な叫びだけど\nごめんな… 先には行かせてもらうぜ
+Player_StgWin_239	その手にはひっかからないぜ♪\nこの先にほこらがあるんだろ？
+Player_StgWin_240	よっしゃ～♪ レアスシガミと\n契約させてもらうぜ♪
+Player_StgWin_249	う～ん… まだこの近くには\n現れていないみたいだぜ…
+Player_StgWin_250	残念だけど、まだスシガミの\n気配はぜんぜん感じないぜ…
+Player_StgWin_251	まあな♪ でもさすがに連戦が\n続くと息が切れてくるぜ…
+Player_StgWin_252	オレをだましたところで\nスシバトルはだませないぜ♪
+Player_StgWin_253	スシガミのほこらが呼んでいる…\nそんな気がするんだ♪
+Player_StgWin_254	おっちゃんの運が尽きて\nオレに運がめぐってきたぜ♪
+Player_StgWin_255	スシガミいるところにムサシあり\n最近のお気に入りワードだぜ♪
+Player_StgWin_256	大好きなスシを前にしたら\n寒さなんてふき飛ぶぜ♪
+Player_StgWin_257	ほこらは見つけるものじゃねえ！\n感じ取るものだ！ なんてな♪
+Player_StgWin_258	おうよ♪\nそうさせてもらうぜ！
+Player_StgWin_259	こんなに静かなところにいたら\nバトルの腕がなまりそうだな…
+Player_StgWin_260	なんだか平和そうだな…\nここだけ別世界みたいだぜ……
+Player_StgWin_261	え～…身を隠す訓練って…\nかくれんぼだったのか……
+Player_StgWin_262	あっ…\n隊長さんがオニだったんだな……
+Player_StgWin_263	ご、ごめんな… オレ不器用で…\nバトルの手は抜けねえんだ…
+Player_StgWin_264	き、筋肉が共鳴!?\nマッチョ兵士ってなんだかすげえ…
+Player_StgWin_265	お、おう…？\nもうスシバトル関係ないよな…
+Player_StgWin_266	そんなに明るく言われても…\n命令を無視して大丈夫なのか？
+Player_StgWin_267	行方不明の筋肉さん…\n見つかるといいな…！
+Player_StgWin_268	マッチョのにいちゃん！\n目を覚ましてくれッ!!
+Player_StgWin_269	兵隊さんがいるってことは\nこのさきになにかあるんだろ♪
+Player_StgWin_270	あー！ やんちゃとか言って\n子供あつかいしようとしたな！
+Player_StgWin_271	霊能力なんかよりも、自分の\nスシ筋をみがいたほうがいいぜ♪
+Player_StgWin_272	いままでよりも、もっともっと\nスシが好きになっただけさ♪
+Player_StgWin_273	ねえちゃんたち急に女々しく\nなるからこっちの調子がくるうぜ…
+Player_StgWin_274	オレが強いんじゃないぜ。\nスシがオレを強くしてくれたんだ♪
+Player_StgWin_275	たくさんのライバルたちと\nいっぱいスシバトルしたからな♪
+Player_StgWin_276	負けた理由を分析するなんて\nにいちゃんってマメだな～…
+Player_StgWin_277	筋肉は鍛えてないけどスシバトルで\n心はたくさん鍛えてきたぜ♪
+Player_StgWin_278	オバサンって呼んだのは謝る…\nだから子供あつかいも禁止な！
+Player_StgWin_279	そう言われると逆に気になる…\nチラッチラッ　え？　見てないぜ？
+Player_StgWin_280	そうだ！　戦争はなにも生まねえ！\nだから戦争を終わらせたいんだ！！
+Player_StgWin_281	お前もスシが好きなんだよな？\nもっと楽しそうに食べようぜ♪
+Player_StgWin_282	負けたのはヒラメ筋じゃなくて\nにいちゃん自身だと思うけど…
+Player_StgWin_283	ありきたりなあいさつだけど\n名前だけでも覚えてくれよな！
+Player_StgWin_284	大人…！？　へへっ、そうさ\nオレも大人の仲間入りなんだぜ♪
+Player_StgWin_285	とうちゃん…若い時から強かったんだ\nいつかその背中を追い越せるかな…
+Player_StgWin_286	あんたたちの電磁砲とはなんども\nたたかって対策もバッチリだぜ♪
+Player_StgWin_287	ねえちゃんもムサシ…！？\nどことなくオレに似ている気も…
+Player_StgWin_288	えーっと…そうだったっけ？\nあんまり覚えてないや～♪
+Player_StgWin_289	解放戦線はスシに感謝し大切にする\n食べ方で未来を切り開いていくぜ！
+Player_StgWin_290	アブリコスは逆に筋肉を\n鍛えすぎな気もするけどな…
+Player_StgWin_291	心なしか叱られることに\nワクワクしていないか…？
+Player_StgWin_292	ズルいって…\nスシバトルはそういうものだぞ？
+Player_StgWin_293	立ち止まってるヒマはねえんだ！\nとうちゃんにだって負けないぜ！！
+Player_StgWin_294	その仮面の下ってどうなってるの？\nちょっとだけ見せてくれよ♪
+Player_StgWin_295	こわっぱ？　こわっぱってなんだ？\nもしや子供って意味か？　おーい！
+Player_StgWin_296	こちらこそガトアリでした～♪\nチャラオもなかなかヨイツ～だぜ♪
+Player_StgWin_297	筋肉を鍛えすぎたのが原因で\nバトルに負けたら本末転倒だぞ…
+Player_StgWin_298	赤いスシはなにも悪くねえ！\n悪者あつかいはやめろよな！！
+Player_StgWin_299	ああ、オレはオレの道を進んで\nスシの未来を切り開くぜ…！
+Player_StgWin_300	えっ…自分で解決しないのか？\nなんだか男らしくないな…
+Player_StgWin_301	こいつどんだけ食欲あるんだ…\nそのうち皿まで食べだしそう……
+Player_StgWin_302	お前もムサシ…！？\nどう見てもオレじゃんか！！
+Player_StgWin_001_f	これがスシバトル…\nスシをたくさん食べられたわ♪
+Player_StgWin_002_f	またまた勝っちゃったわ！\nスシをたくさん食べられて幸せ～♪
+Player_StgWin_003_f	どうコジロー！\nレーンドライブギアのチカラは!!
+Player_StgWin_004_f	ふふ～ん♪\nスイーツならわたしも大好物よ♪♪
+Player_StgWin_005_f	電撃シュート？\nぜんぜんシビれなかったわよ！
+Player_StgWin_006_f	ふんっ！\nシールドなんて関係ないわ!!
+Player_StgWin_007_f	ふふっ♪\nすごいスピードバトルだったわ！
+Player_StgWin_008_f	どう!?\n子供あつかいはやめてもらうわよ！
+Player_StgWin_009_f	あなたの突撃\n見切っちゃったもんね♪
+Player_StgWin_010_f	カプセルか たしかに便利ね！\nいいものを教えてもらったわ♪
+Player_StgWin_011_f	特殊特殊って言ってばかりで\nバトルがおろそかだったわよ？
+Player_StgWin_012_f	わたしの勝ちよ！\n先に進ませてもらうわ♪
+Player_StgWin_013_f	わたしは帝国には入らないわ！\n覚えておきなさいコジロー！！
+Player_StgWin_014_f	服はちゃんと着たほうがいいわよ？
+Player_StgWin_015_f	子供あつかいはやめてよね！\nたしかに…筋肉はないけども……
+Player_StgWin_016_f	スシライカーにマッチョは\n関係ある…の？
+Player_StgWin_017_f	隊長だろうとマッチョだろうと\n立ちはだかる以上は関係ないわ！
+Player_StgWin_018_f	これで部隊はクビね！\nいっそ帝国からもぬけちゃえば？
+Player_StgWin_019_f	スシが入れかわっても\n食べることには変わりないわ！
+Player_StgWin_020_f	わたしと同じくらいの\nおんなのこ…!?
+Player_StgWin_021_f	あの子のことが気になるわ…\nここは通してもらうわよ！
+Player_StgWin_022_f	勝ったんだから通してもらうわよ！\nさあ どいてどいて!!
+Player_StgWin_023_f	ユーリアが行ったのは\nこっちで合っているの？
+Player_StgWin_024_f	この先にユーリアがいるの…？
+Player_StgWin_025_f	ユーリア… すこしは話を\n聞いてくれる気になった？
+Player_StgWin_026_f	筋肉がしぼむわけないでしょ！\nいいから早くそこをどいてよね!!
+Player_StgWin_027_f	ム、ムテキンニク？\n筋肉にもいろいろあるのね…
+Player_StgWin_028_f	ちょ、ちょっと… 負けたのに\n一句詠んでんじゃないわよ……
+Player_StgWin_029_f	筋肉はえんりょしておくわ\nわたしはスシライカーだからね！
+Player_StgWin_030_f	バカじゃないわ！ ユーリアとは\n仲間になれる気がするの!!
+Player_StgWin_031_f	バキューム食いなんかじゃ\nスシの味が分からないでしょ!!
+Player_StgWin_032_f	風邪でもひいているの？\nそういうときは無理しないでね？
+Player_StgWin_033_f	事前に目薬さしておかないとね！\nバトルには集中しないとダメよ♪
+Player_StgWin_034_f	味が分からないなんて\nスシの楽しさが半減しちゃうわね…
+Player_StgWin_035_f	ちょっと、この部隊の人たち\n全員が体調不良じゃないの……
+Player_StgWin_036_f	あなたにも慣れてきたわ♪\nシースーマイウ～♪♪
+Player_StgWin_037_f	あのおじいさんにゾッコン…\nなの……？
+Player_StgWin_038_f	え、えっと… ごめんね？\n泣かせるつもりは……
+Player_StgWin_039_f	ご、ごめん…\nこの部隊、やりづらいわ……
+Player_StgWin_040_f	あ、あの… よかったら\nわたしも一緒に怒られようか…？
+Player_StgWin_041_f	どうって…\nふつうに避けただけよ？
+Player_StgWin_042_f	ワサビが食べられないからって\n子供あつかいしないでよ!!
+Player_StgWin_043_f	ワサビは苦手だけども、スシとの\n相性は悪くない気がするのよね…
+Player_StgWin_044_f	これはワサビ好きじゃなくて\nもはやワサビ中毒ね……
+Player_StgWin_045_f	ワサビが好きすぎて、もうなにを\n言っているのかわからないわ……
+Player_StgWin_046_f	ちょり～っす♪\nいいバトルだったわ♪♪
+Player_StgWin_047_f	悪いわね、おねえさん\n先に進まないといけないの！
+Player_StgWin_048_f	わたしでよければ、おねえさんと\nかくれんぼしても…いいよ？
+Player_StgWin_049_f	ナデナデならわたしが\nしてあげないことも…ないわよ？
+Player_StgWin_050_f	ム、ムサシちゃん？\nなんだか調子がくるうわ……
+Player_StgWin_051_f	出世ばかり気にしてても\n出世はできないと思うわよ？
+Player_StgWin_052_f	ワサビが食べられるようになれば\n子供あつかいされなくなるかな？
+Player_StgWin_053_f	グロム… ウワサに聞く\n帝国一のスシライカー……
+Player_StgWin_054_f	好き嫌いは良くないわよ？
+Player_StgWin_055_f	子供あつかい禁止って注意書きも\n足すように伝えておいてよね！
+Player_StgWin_056_f	わざわざ注意してくれて\nありがとね♪
+Player_StgWin_057_f	え、えっと… わたしはヨイツーな\nシースーのライカーよ……かな？
+Player_StgWin_058_f	誰が相手だろうと、ここで足を\n止めるわけにはいかないのよ！
+Player_StgWin_059_f	エリートだろうとなんだろうと\nスシはみんなに平等なのよ♪
+Player_StgWin_060_f	でもグロム隊はエリートなんだから\n勝てたならいい気になっちゃうよ？
+Player_StgWin_061_f	エリートエリートって\nもう聞き飽きちゃった…
+Player_StgWin_062_f	ちょっとビックリしたけど、\n大きければいいものでもないわ！
+Player_StgWin_063_f	ふふ～ん♪ グロムのいどころまで\nノンストップでつきすすむわよ！
+Player_StgWin_064_f	圧縮陣形？ 敵さんの配置が\nやたら近いのはそのせいね…
+Player_StgWin_065_f	スシは人を笑顔にするものよ♪\n楽しんで食べないと♪♪
+Player_StgWin_066_f	あのデッケー大砲のことかしら？\nそれならもうなれっこよ♪
+Player_StgWin_067_f	道をあけてもらうわよ！\nグロムを追いかけないと…！
+Player_StgWin_068_f	パーティが開けなくなって\n悪いことしちゃったかな？
+Player_StgWin_069_f	言い訳するなんて\n男らしくないわね！
+Player_StgWin_070_f	あなたがスシを好きなことは\n戦っていて伝わってきたわよ♪
+Player_StgWin_071_f	まだいるかもしれない！\n先に行かせてもらうわよ!!
+Player_StgWin_072_f	嬉しい誤算ですって!?\n一体なにを言っているの!!
+Player_StgWin_073_f	スシは合理性どうこうじゃない！\nおいしく全部を食べるものよ!!
+Player_StgWin_074_f	悪いわね、おじさん\n先に行かせてもらうわよ！
+Player_StgWin_075_f	そう！ わたしがムサシよ！\nもしかしてちょっと有名人？
+Player_StgWin_076_f	トドメなんてささないわよ\nそれじゃまるで悪役だわ
+Player_StgWin_077_f	ん？ 勝っても味なんてしないけど\n負けると味がするの??
+Player_StgWin_078_f	シースー？ ムーゲー??\n一体なんなの…??
+Player_StgWin_079_f	なんなのこの人？\n叱られるのに喜んでるわよ??
+Player_StgWin_080_f	こ、この人もおかしいわ…。\n叱ってくれってお願いするなんて
+Player_StgWin_081_f	……。\nあのオバサンの部下、大丈夫なの…
+Player_StgWin_082_f	た、隊長が一番心配な人だったわ…
+Player_StgWin_083_f	たしかにちょっと苦戦したけど…\nわたしは負けられないの!!
+Player_StgWin_084_f	ソスナって人の部下たちは\n赤いスシを食べると怒られるのね…
+Player_StgWin_085_f	赤いスシが強いんじゃないわ！\nバランスよく食べるから強いのよ！
+Player_StgWin_086_f	意地はってないで\n赤いスシも食べちゃえば？
+Player_StgWin_087_f	無理に赤いスシをガマンするから\nスシの幻が見えちゃってるのね…
+Player_StgWin_088_f	シースーがマイウーでガトアリ…\nうう… 混乱してくるわ……
+Player_StgWin_089_f	部下がスシバトルをしているときに\n自分は優雅にスイーツなのね…
+Player_StgWin_090_f	早く行きたかったからバトル中\nずっとソワソワしていたの？
+Player_StgWin_091_f	そっか…\nあなたたちも苦労してるのね……
+Player_StgWin_092_f	ん？\nソスナがなんですって？
+Player_StgWin_093_f	い、いや、うらみはないけど\n勝負を挑んでくるから……
+Player_StgWin_094_f	ふふ～ん♪ 赤いスシ以外の\nスシだってあるんだもんね♪♪
+Player_StgWin_095_f	はくしょん…！\nた、たしかに寒いわね……
+Player_StgWin_096_f	え、ええ…！ いさぎよいわね！\nしっかり暖まってきてね!!
+Player_StgWin_097_f	こっちだって寒いわよ！\nなんなのよここは!!
+Player_StgWin_098_f	うまいこと言った……のかな？
+Player_StgWin_099_f	あーー！ そのセリフは!!\nおじさんのこと思い出したわ!!
+Player_StgWin_100_f	あ！ 思い出した！ 服はちゃんと着て\nってアドバイスしたじゃない!!
+Player_StgWin_101_f	ええ！ バトルをたくさんして\n筋肉だってちょっぴり付いたわ!!
+Player_StgWin_102_f	マッチョのこだわりはどうしても\n捨てられない人たちなのね……
+Player_StgWin_103_f	わ、わたしが真のマッチョ…？\nそれって… 喜んでいい……の??
+Player_StgWin_104_f	えー、だって本当のことを\n言ったまでじゃん～
+Player_StgWin_105_f	目を覚まして！ あんなやり方で\n強くなれるわけがないでしょッ！！
+Player_StgWin_106_f	あ！ 筋肉しぼむ人!!\nおにいさんは十分マッチョだよ!!
+Player_StgWin_107_f	わあ！ 今度はムテキンニクの人!!\nアブリコス隊が勢ぞろいなの!?
+Player_StgWin_108_f	筋肉俳句の人も覚えてるわよ！\nなんだか真理にたどり着いた…？
+Player_StgWin_109_f	マッチョも楽しそうに思えてきて\nちょっと考えちゃうなあ…
+Player_StgWin_110_f	ユキチさんを助けたいの！\n通してもらうわよ!!
+Player_StgWin_111_f	もうやめてアブリコス！\nそんな食べ方はスシに失礼だわ!!
+Player_StgWin_112_f	そ、そうなの？\nあんまり気に病まないでね…？
+Player_StgWin_113_f	あれ？ さっきも自分のことを\n最弱って言う人がいたような…？
+Player_StgWin_114_f	この部隊の人たち\nみんな言い訳が同じね…
+Player_StgWin_115_f	おじさんが一番弱いの…？\nいったい誰が本当の最弱なの……
+Player_StgWin_116_f	わたしもあなたとバトルをするのが\n当たり前に思えてきたわ♪
+Player_StgWin_117_f	ルツコイさんね…\nどんなスシバトルか楽しみだわ♪
+Player_StgWin_118_f	今度はマツイさんね…\n次の人に託す感じなのかしら…？
+Player_StgWin_119_f	この部隊の兵隊さんたちは\nなんだかみんな人任せのような…
+Player_StgWin_120_f	隊長さんはみんなの責任が\nのしかかって大変そうね…
+Player_StgWin_121_f	秘密兵器なんだっけ？\n悪いわね、壊しちゃって！
+Player_StgWin_122_f	マッチョはマッチョで大変そうだし\nやめといたほうがいい気が…
+Player_StgWin_123_f	ワ、ワサビは勘弁して～！\nあれはツーンとして苦手なのよ…
+Player_StgWin_124_f	無理にガマンするのは良くないよ？\n食べたいスシを食べないとね！
+Player_StgWin_125_f	エレガントさを求める前に\nまずはスシを信じるところからね
+Player_StgWin_126_f	スシ筋…？ スシのあつかいかたを\n指す言葉？ ……カッコイイわね！
+Player_StgWin_127_f	スシを愛しているのね…\nとうさん、いい部下じゃない……
+Player_StgWin_128_f	ええ、これがわたしのスシバトル！\nスシへの感謝なら誰にも負けない！
+Player_StgWin_129_f	とうさんに会って話をするの！\n立ち止まるわけにはいかないわ!!
+Player_StgWin_130_f	兵隊だろうが大砲だろうが\n立ちはだかるなら打ち勝つまでよ！
+Player_StgWin_131_f	どうとうさん！\nこれがわたしのスシよッ！！
+Player_StgWin_132_f	な、なに？ お面なのそれ？\nちょっと怖いわね……
+Player_StgWin_133_f	行き止まりのワケないじゃない！\nウソだってバレバレよ！！
+Player_StgWin_134_f	ずっと同じコトを言っているわ…\nさ、先に行かせてもらいま～す……
+Player_StgWin_135_f	ひ、ひえっ…\nこの部隊、なんだかやばいわ……
+Player_StgWin_136_f	こんなところにも現れるなんて\n本当になにものなの……
+Player_StgWin_137_f	また子供あつかい！ やめてよね\nとうさんの前なんだから…
+Player_StgWin_138_f	成長したわたしの姿をとうさんに\n見せたくてがんばってるのよ！
+Player_StgWin_139_f	そんな計画、わたしととうさんで\n壊してあげるわ!!
+Player_StgWin_140_f	グラードはこの先なの！？\n行こう、とうさん!!
+Player_StgWin_141_f	あなたたちがやろうとしている\nスシの支配なんて認めないわよ！
+Player_StgWin_142_f	早くとうさんを追いかけないと！\n悪いけど先に行かせてもらうわよ！
+Player_StgWin_143_f	帝国のやり方じゃ、笑ってみんなで\nスシを食べられないのよ！
+Player_StgWin_144_f	グラードに会わせてもらうわよ\nスシの未来を話し合いにきたの！
+Player_StgWin_145_f	スシは誰かのものじゃない！\nみんなのものよ!!
+Player_StgWin_146_f	みんなで笑っておいしく食べる！\nそれがわたしの考えるスシよ！！
+Player_StgWin_197_f	この石は渡せないわ！\n欲しければ自分で探してね♪
+Player_StgWin_198_f	おじさん… 負けたのに\nダジャレを言っている場合なの？
+Player_StgWin_199_f	神社… そこにレーンドライブギアを\n作る技師がいるの？
+Player_StgWin_200_f	ふふ～ん♪ こっちには優秀な\n情報通がついているのよ♪
+Player_StgWin_201_f	マ、マッチョじゃないし！\nスシライカーのムサシよ!!
+Player_StgWin_202_f	マッチョ～ マッチョ～…\nってなにやらせるのよ…!!
+Player_StgWin_203_f	そのおじさんよりわたしのほうが\n一枚上手だったってことね♪
+Player_StgWin_204_f	ん？ そのセリフ…\nさっきも聞いたような……
+Player_StgWin_205_f	ここの隊長さんは、みんなのことを\n最強だって言っているの…？
+Player_StgWin_206_f	そういう方針だったのね…\nギアは絶対に取り返すわ…！
+Player_StgWin_209_f	誰が立ちはだかろうと\nスシを信じてバトルするだけよ！
+Player_StgWin_210_f	あやしい実験をしてるって聞いたわ\nそれが本当ならわたしが止める!!
+Player_StgWin_211_f	その通り♪\n盗んだものを返してもらうわ！
+Player_StgWin_212_f	その発明のためだったら人のものを\n盗んでいいってわけじゃないわよ！
+Player_StgWin_213_f	最弱かどうかは分からないけど\n大事なのはスシを信じる心よ！
+Player_StgWin_214_f	あ、あれ？\nこの流れ… 前にもあったような…
+Player_StgWin_215_f	もしかしてこの隊は\nたたいて伸ばす方針なんじゃ…？
+Player_StgWin_216_f	なんだかおじさんさみしそう…\n部下の育成も大変なのね……
+Player_StgWin_217_f	その施設に行くために来たのよ！\n電磁砲まであるなんてあやしいわ！
+Player_StgWin_218_f	スシを粗末にする実験の施設なんて\n認めるわけにはいかないわ!!
+Player_StgWin_219_f	人工スシゲートなんかで\n本当の幸せがやってくるはずない！
+Player_StgWin_221_f	おじさんは自分の口のかたさを\n疑ったほうがいいかもよ…？
+Player_StgWin_222_f	行くなと言われると\n行きたくなっちゃうわよね♪
+Player_StgWin_223_f	じゃあ悪いけど\nしかられてね♪
+Player_StgWin_224_f	レアスシガミのゴクオウ\nわたしがもらい受けるわ！
+Player_StgWin_225_f	ご、ごめんね、おねえさん\nわるく思わないでね…
+Player_StgWin_226_f	悪いけどまた今度ね！ この先に\nレアスシガミがいるみたいなの！
+Player_StgWin_227_f	それってつまりこの先に\nなにかがあるってこと？
+Player_StgWin_228_f	皿を奪われても、それ以上の皿を\n投げればいいだけよ♪
+Player_StgWin_233_f	さっきも言ったけど\nソスナはもうここにはいないわよ？
+Player_StgWin_234_f	あの～ …赤いスシを食べない件\nもうソスナは撤回しているわよ…？
+Player_StgWin_235_f	な、なんだか献身的すぎて\n泣けてくるわ…
+Player_StgWin_236_f	そう言ってるじゃない…\nすこしは聞く耳もってよね！
+Player_StgWin_237_f	ソスナの部隊はさっき倒したから\nそれでここまで来られたのよ♪
+Player_StgWin_238_f	え、ええ… 悲痛な叫びだけど\nごめん… 先には行かせてもらうわ
+Player_StgWin_239_f	その手にはひっかからないわよ♪\nこの先にほこらがあるんでしょ？
+Player_StgWin_240_f	よっしゃ～♪ レアスシガミと\n契約させてもらうわよ♪
+Player_StgWin_249_f	う～ん… まだこの近くには\n現れていないみたい…
+Player_StgWin_250_f	残念だけど、まだスシガミの\n気配はぜんぜん感じないわ…
+Player_StgWin_251_f	まあね♪ でもさすがに連戦が\n続くと息が切れてくるわ…
+Player_StgWin_252_f	わたしをだましたところで\nスシバトルはだませないわよ♪
+Player_StgWin_253_f	スシガミのほこらが呼んでいる…\nそんな気がするの♪
+Player_StgWin_254_f	おじさんの運が尽きて\nわたしに運がめぐってきたわ♪
+Player_StgWin_255_f	スシガミいるところにムサシあり\n最近のお気に入りワードよ♪
+Player_StgWin_256_f	大好きなスシを前にしたら\n寒さなんてふき飛ぶわ♪
+Player_StgWin_257_f	ほこらは見つけるものじゃない！\n感じ取るものよ！ なんてね♪
+Player_StgWin_258_f	もっちろん♪\nそうさせてもらうわ！
+Player_StgWin_259_f	こんなに静かなところにいたら\nバトルの腕がなまりそうね…
+Player_StgWin_260_f	なんだか平和そうね…\nここだけ別世界みたい……
+Player_StgWin_261_f	え～…身を隠す訓練って…\nかくれんぼだったのね……
+Player_StgWin_262_f	あっ…\n隊長さんがオニだったんだ……
+Player_StgWin_263_f	ご、ごめんね… わたし不器用で…\nバトルの手は抜けないの…
+Player_StgWin_264_f	き、筋肉が共鳴!?\nマッチョ兵士ってなんだかすごい…
+Player_StgWin_265_f	そ、そう…？\nもうスシバトル関係ないよね…
+Player_StgWin_266_f	そんなに明るく言われても…\n命令を無視して大丈夫なの？
+Player_StgWin_267_f	行方不明の筋肉さん…\n見つかるといいわね…！
+Player_StgWin_268_f	マッチョのおにいさん！\n目を覚ましてッ!!
+Player_StgWin_269_f	兵隊さんがいるってことは\nこのさきになにかあるんでしょ♪
+Player_StgWin_270_f	あー！ やんちゃとか言って\n子供あつかいしようとしたわね！
+Player_StgWin_271_f	霊能力なんかよりも、自分の\nスシ筋をみがいたほうがいいわよ♪
+Player_StgWin_272_f	いままでよりも、もっともっと\nスシが好きになっただけよ♪
+Player_StgWin_273_f	おねえさんたち急に女々しく\nなるからこっちの調子がくるうわ…
+Player_StgWin_274_f	わたしが強いんじゃないわ。\nスシがわたしを強くしてくれたの♪
+Player_StgWin_275_f	たくさんのライバルたちと\nいっぱいスシバトルしたからね♪
+Player_StgWin_276_f	負けた理由を分析するなんて\nおにいさんってマメなのね…
+Player_StgWin_277_f	筋肉は鍛えてないけどスシバトルで\n心はたくさん鍛えてきたわ♪
+Player_StgWin_278_f	オバサンって呼んだのは謝るわ…\nだから子供あつかいも禁止ね！
+Player_StgWin_279_f	そう言われると逆に気になる…\nチラッチラッ　え？　見てないよ？
+Player_StgWin_280_f	そうよ！　戦争はなにも生まない！\nだから戦争を終わらせたいの！！
+Player_StgWin_281_f	あなたもスシが好きなのよね？\nもっと楽しそうに食べましょうよ♪
+Player_StgWin_282_f	負けたのはヒラメ筋じゃなくて\nおにいさん自身だと思うけど…
+Player_StgWin_283_f	ありきたりなあいさつだけど\n名前だけでも覚えていってね！
+Player_StgWin_284_f	大人…！？　ふふっ、そうよ\nわたしも大人の仲間入りなの♪
+Player_StgWin_285_f	とうさん…若い時から強かったのね\nいつかその背中を追い越せるかな…
+Player_StgWin_286_f	あなたたちの電磁砲とはなんども\nたたかって対策もバッチリなのよ♪
+Player_StgWin_287_f	おねえさんもムサシ…？\nどう見てもわたしじゃん！！
+Player_StgWin_288_f	えーっと…そうだったっけ？\nあんまり覚えてないや～♪
+Player_StgWin_289_f	解放戦線はスシに感謝し大切にする\n食べ方で未来を切り開いていくわ！
+Player_StgWin_290_f	アブリコスは逆に筋肉を\n鍛えすぎな気もするけどね…
+Player_StgWin_291_f	心なしか叱られることに\nワクワクしていない…？
+Player_StgWin_292_f	ズルいって…\nスシバトルはそういうものよ？
+Player_StgWin_293_f	立ち止まってるヒマはないの！\nとうさんにだって負けないわよ！！
+Player_StgWin_294_f	その仮面の下ってどうなってるの？\nちょっとだけ見せてよ♪
+Player_StgWin_295_f	こわっぱ？　こわっぱってなに？\nもしや子供って意味？　ねえ！
+Player_StgWin_296_f	こちらこそガトアリでした～♪\nチャラオもなかなかヨイツ～だよ♪
+Player_StgWin_297_f	筋肉を鍛えすぎたのが原因で\nバトルに負けたら本末転倒よね…
+Player_StgWin_298_f	赤いスシはなにも悪くない！\n悪者あつかいはやめてよね！！
+Player_StgWin_299_f	ええ、わたしはわたしの道を進んで\nスシの未来を切り開くわ…！
+Player_StgWin_300_f	えっ…自分で解決しないの？\nなんだか男らしくないわね…
+Player_StgWin_301_f	この人どれだけ食欲あるのよ…\nそのうち皿まで食べだしそうね……
+Player_StgWin_302_f	キミもムサシ…？\nどことなくわたしに似ている気も…
+Player_VsWin_Closely	負けるかとハラハラしたぜ…。\nまたスシバトルしような！！
+Player_VsWin	へへっ、これがオレの\nザ・ウェイ・オブ・スシドーだ♪
+Player_VsLose_Closely	くそぉ…あと一歩だったのに…！\n次は負けないからなッ！！
+Player_VsLose	ちぇ～…今回はオレの負けだな……\n次はあんたのスシ筋を見切るぜ！
+Player_VsWin_Closely_f	負けるかとハラハラしたわ…。\nまたスシバトルしましょうね！！
+Player_VsWin_f	ふふっ、これがわたしの\nザ・ウェイ・オブ・スシドーよ♪
+Player_VsLose_Closely_f	んもぉ…あと一歩だったのに…！\n次は負けないからねッ！！
+Player_VsLose_f	ちぇ～…今回はわたしの負けね……\n次はあなたのスシ筋を見切るわ！
+TxtPuzzleTowerModeName	パズルバトル
+TxtPuzzleTowerBattledNum	%d戦目
+Text_Stage	ステージ
+TxtPuzzleThisTimeRecord	今回のきろく
+TxtPuzzleModeInfo	各色の皿を一筆でつなぎ、\n時間内にたおせ！
+TxtPuzzleResultFailed	失敗
+TxtPuzzleResult_zero	0勝
+TxtPuzzleResultSuccess_sg	%d勝
+TxtPuzzleResultSuccess_pl	%d勝
+Text_End	終了
+TxtPuzzleSettlementSerifEnemy00	残念でシタ！\nまた挑戦してくだサイ！
+TxtPuzzleSettlementSerifEnemy01	まだまだスタート地点デス！\nパズルバトルは奥が深いですヨ！
+TxtPuzzleSettlementSerifEnemy02	グッド！ イイ感じでしたネ！\nコツをつかんできましたカ？
+TxtPuzzleSettlementSerifEnemy03	グレート！ 手慣れてきましたネ！\nさらに上を目指してみまショウ！
+TxtPuzzleSettlementSerifEnemy04	ブラボー！ なかなかの成績デス！\nでもあなたならもっとできるハズ!!
+TxtPuzzleSettlementSerifEnemy05	ベリーグッド！ 飲み込みが早イ!!\nパズルが癖になってきたでショウ？
+TxtPuzzleSettlementSerifEnemy06	エクセレント！ すばらシイ!!\nアメイジングなスシさばきでしタ!!
+TxtPuzzleSettlementSerifEnemy07	ワンダフル！ 絶好調デスネ!!\nまさしく頭脳派スシライカー!!
+TxtPuzzleSettlementSerifEnemy08	マーベラス！ ほれぼれシマス!!\nパズルを解く姿がとても美シイ!!
+TxtPuzzleSettlementSerifEnemy09	ファンタスティック！ おミゴト!!\nパズルも極めちゃうんデスカ!?
+TxtPuzzleSettlementSerifEnemy10	クレイジー！ 言うことナシ!!\nパズルバトル 免許皆伝デス!!
+TxtPuzzleSettlementSerifPlayer00	くっそお～… スシでパズル…\n焦って頭が混乱するぜ……
+TxtPuzzleSettlementSerifPlayer01	う～ん、なかなか難しいぜ…\nパズルのコツをつかまないとだな
+TxtPuzzleSettlementSerifPlayer02	なんとなくわかってきたぞ！\nよ～し、もう１回挑戦させてくれ!!
+TxtPuzzleSettlementSerifPlayer03	ふ～、いい感じだったぜ♪\n次はもっとうまくできる気がする!!
+TxtPuzzleSettlementSerifPlayer04	どんなもんだい♪\nえ…？ まだまだ先があるの？
+TxtPuzzleSettlementSerifPlayer05	パズルを解けた時の快感が\nなんだか癖になってきたぜ…!!
+TxtPuzzleSettlementSerifPlayer06	へへ～ん♪ パズルバトルでも\nスシセンスがかくしきれないぜ♪
+TxtPuzzleSettlementSerifPlayer07	スシライカーは頭のキレも大事さ♪\nもっともっと上を目指しちゃうぜ!!
+TxtPuzzleSettlementSerifPlayer08	すばやくパズルを解くには美しい\nフォームも必要だと気づいたぜ♪
+TxtPuzzleSettlementSerifPlayer09	パズルも極めちゃうんデス♪\n頂までもうちょっとだぜ!!
+TxtPuzzleSettlementSerifPlayer10	おっしゃー!!\nパズルバトル 極めてやったぜ!!
+TxtPuzzleSettlementSerifPlayer00_f	うう～ん… スシでパズル…\n焦って頭が混乱するわ……
+TxtPuzzleSettlementSerifPlayer01_f	う～ん、なかなか難しいわ…\nパズルのコツをつかまないと
+TxtPuzzleSettlementSerifPlayer02_f	なんとなくわかってきたわ！\nよ～し、もう１回挑戦させて!!
+TxtPuzzleSettlementSerifPlayer03_f	ふ～、いい感じだったわ♪\n次はもっとうまくできる気がする!!
+TxtPuzzleSettlementSerifPlayer04_f	どんなもんよ♪\nえ…？ まだまだ先があるの？
+TxtPuzzleSettlementSerifPlayer05_f	パズルを解けた時の快感が\nなんだか癖になってきたわ…!!
+TxtPuzzleSettlementSerifPlayer06_f	ふふ～ん♪ パズルバトルでも\nスシセンスがかくしきれないわ♪
+TxtPuzzleSettlementSerifPlayer07_f	スシライカーは頭のキレも大事よ♪\nもっともっと上を目指しちゃうわ!!
+TxtPuzzleSettlementSerifPlayer08_f	すばやくパズルを解くには美しい\nフォームも必要だと気づいたの♪
+TxtPuzzleSettlementSerifPlayer09_f	パズルも極めちゃうんデス♪\n頂までもうちょっとだわ!!
+TxtPuzzleSettlementSerifPlayer10_f	やったー!!\nパズルバトル 極めちゃったわ!!
+\scene\scene_puzzlebattleresult.msbt
+Label_PuzzleBattle	パズルバトル
+Label_ThisTimeScore	今回のきろく
+Label_GetItem	かくとくアイテム
+Label_GetItemNone	なし
+Label_TotalWinNumber	勝ちぬき数
+WinTxt_PuzzleBattleRetry	パズルバトルに\nもう一度挑戦しますか？
+\scene\scene_ranking.msbt
+Label_PreviousSeason	まえのシーズン
+Label_MaxRateRanking	MAXレートランキング
+Label_Nationwide	全国
+Label_Friend	フレンド
+Label_SeasonNumber	シーズン No.
+Label_Ranking	ランキング
+Label_Rate	レート
+Label_Name	なまえ
+Label_OutOfRanking	ランク外
+Label_Number	No.
+Label_RankingNothing	きろくがありません
+Btn_Data	データ
+Label_SushiLiker_Rank	スシライカーランク
+\scene\scene_title.msbt
+Label_Start	はじめる
+Label_HomeMsg	\ue073を押すとホームメニューに戻ります。
+Label_Credit	\u00a9 2018 Nintendo. Co-Developed by indieszero Co., Ltd.
