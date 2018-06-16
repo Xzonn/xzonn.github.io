@@ -15,7 +15,11 @@
 汉化内容采用“[知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议](http://creativecommons.org/licenses/by-nc-sa/4.0/)”进行许可。
 
 ## 进度
-[汉化文本](/sushi/langDataChi.data) | [日文文本](/sushi/langDataJpn.chi) | [英文文本](/sushi/langDataEng.chi)
+### 初始游戏
+[汉化文本](/sushi/langDataChi.txt) | [日文文本<small>（无假名](/sushi/langDataJpn.txt) | [有假名）</small>](/sushi/langDataJpnWithFurigana.txt) | [英文文本](/sushi/langDataEng.txt)
+
+### 1.1 更新内容
+[日文文本<small>（无假名](/sushi/updateLangDataJpn.txt) | [有假名）</small>](/sushi/updateLangDataJpnWithFurigana.txt)
 
 ## 更新
 * 2018-06-07
