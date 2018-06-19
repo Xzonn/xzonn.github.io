@@ -125,9 +125,13 @@ $(function() {
                           , tocID = [];
                         $("#content").find("h2, h3, h4, h5").each(function(n, t) {
                             var thisRank = +this.tagName[1];
-                            if (thisRank > lastRank) {
+                            while (thisRank > lastRank) {
                                 tocID.push(0);
+                                if (toc.children().length == 0) {
+                                    toc = $("<li/>").addClass("no-list-style").appendTo($(toc));
+                                }
                                 toc = $("<ul/>").appendTo($(toc.children()[toc.children().length - 1] || toc));
+                                thisRank--;
                             }
                             while (lastRank > thisRank) {
                                 tocID.pop();

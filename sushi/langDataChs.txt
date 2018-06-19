@@ -1,54 +1,54 @@
 \database\database_achieveInfo.msbt
-AchieveName_001	Super Striker
-AchieveFirstBorder_001	Win %d sushi battles!
-AchieveInfo_001	You've won\n%d sushi battles!
-AchieveName_002	Multi Striker
-AchieveFirstBorder_002	Win %d multiplayer battles!
-AchieveFirstBorder_002_sgl	Win %d multiplayer battle!
-AchieveInfo_002	You've won\n%d multiplayer battles!
-AchieveInfo_002_sgl	You've won\n%d multiplayer battle!
-AchieveName_003	Sushi Lover
-AchieveFirstBorder_003	Eat %d pieces of sushi!
-AchieveInfo_003	You've eaten\n%d pieces of sushi!
-AchieveName_004	Fruit Lover
-AchieveFirstBorder_004	Eat %d pieces of fruit!
-AchieveInfo_004	You've eaten\n%d pieces of fruit!
-AchieveName_005	Sweets Lover
-AchieveFirstBorder_005	Eat %d sweets!
-AchieveInfo_005	You've eaten\n%d sweets!
-AchieveName_006	Pledge Pro
-AchieveFirstBorder_006	Pledge with\n%d sushi sprites!
-AchieveInfo_006	You've pledged with\n%d sushi sprites!
-AchieveName_007	Raw Powerhouse
-AchieveFirstBorder_007_sgl	Acquire %d raw power!
-AchieveInfo_007	You've acquired\n%d raw powers!
-AchieveInfo_007_sgl	You've acquired\n%d raw power!
-AchieveName_008	Star Collector
-AchieveFirstBorder_008	Collect %d stars!
-AchieveInfo_008	You've collected\n%d stars!
-AchieveName_009	Super S-Grader
-AchieveFirstBorder_009	Earn %d S grades!
-AchieveInfo_009	You've earned\n%d S grades!
-AchieveName_010	Rainbow Grader
-AchieveFirstBorder_010	Earn %d Rainbow S grades!
-AchieveInfo_010	You've earned\n%d Rainbow S grades!
-AchieveName_011	Sprite Savant
-AchieveFirstBorder_011	Raise %d sushi sprites\nto the max!
-AchieveFirstBorder_011_sgl	Raise %d sushi sprite\nto the max!
-AchieveInfo_011	You've raised %d\nsushi sprites to the max!
-AchieveInfo_011_sgl	You've raised %d\nsushi sprite to the max!
-AchieveName_012	Stack Master
-AchieveFirstBorder_012	Stack %d sushi plates!
-AchieveInfo_012	You've stacked\n%d sushi plates!
-AchieveName_013	Attack Master
-AchieveFirstBorder_013	Deal %d damage\nwith one attack!
-AchieveInfo_013	You've dealt %d damage\nwith one attack!
-AchieveName_014	Combo Master
-AchieveFirstBorder_014	Deal %d damage with\na combo bonus!
-AchieveInfo_014	You've dealt %d damage\nwith a combo bonus!
-AchieveName_015	Fearsome Finisher
-AchieveFirstBorder_015	Deal %d damage\nwith a finishing attack!
-AchieveInfo_015	You've dealt %d damage\nwith a finishing attack!
+AchieveName_001	百战炼磨
+AchieveFirstBorder_001	赢得%d场寿司对战！
+AchieveInfo_001	你已经赢得了%d场寿司对战！
+AchieveName_002	切磋琢磨
+AchieveFirstBorder_002	赢得%d场连线对战！
+AchieveFirstBorder_002_sgl	赢得%d场连线对战！
+AchieveInfo_002	你已经赢得了%d场连线对战！
+AchieveInfo_002_sgl	你已经赢得了%d场连线对战！
+AchieveName_003	寿司爱好者
+AchieveFirstBorder_003	吃下%d碟寿司！
+AchieveInfo_003	你已经吃下了%d碟寿司！
+AchieveName_004	水果爱好者
+AchieveFirstBorder_004	吃下%d碟水果！
+AchieveInfo_004	你已经吃下了%d碟水果！
+AchieveName_005	甜品爱好者
+AchieveFirstBorder_005	吃下%d碟甜品！
+AchieveInfo_005	你已经吃下了%d碟甜品！
+AchieveName_006	契约专家
+AchieveFirstBorder_006	与%d位寿司精灵签订契约！
+AchieveInfo_006	你已经与%d位寿司精灵签订契约！
+AchieveName_007	寿司博士
+AchieveFirstBorder_007_sgl	获得%d种寿司之力!
+AchieveInfo_007	你已经获得了%d种寿司之力!
+AchieveInfo_007_sgl	你已经获得了%d寿司之力!
+AchieveName_008	星星收集者
+AchieveFirstBorder_008	收集%d颗星星！
+AchieveInfo_008	你已经收集了%d颗星星！
+AchieveName_009	S级寿司先锋
+AchieveFirstBorder_009	获得%d个S级评价！
+AchieveInfo_009	你已经获得了%d个S级评价！
+AchieveName_010	彩虹寿司先锋
+AchieveFirstBorder_010	获得%d个彩虹S级评价！
+AchieveInfo_010	你已经获得了%d个彩虹S级评价！
+AchieveName_011	寿司精灵大师
+AchieveFirstBorder_011	将%d位寿司精灵提升到最大级别！
+AchieveFirstBorder_011_sgl	将%d位寿司精灵提升到最大级别！
+AchieveInfo_011	你已经将%d位寿司精灵提升到最大等级！
+AchieveInfo_011_sgl	你已经将%d位寿司精灵提升到最大等级！
+AchieveName_012	堆叠大师
+AchieveFirstBorder_012	堆叠%d碟寿司！
+AchieveInfo_012	你已经堆叠了%d碟寿司！
+AchieveName_013	攻击大师
+AchieveFirstBorder_013	在一次攻击中造成%d点伤害！
+AchieveInfo_013	你已经在一次攻击中造成了%d点伤害！
+AchieveName_014	连击大师
+AchieveFirstBorder_014	在一次连击加成中造成%d点伤害！
+AchieveInfo_014	你已经在一次连击加成中造成了%d点伤害！
+AchieveName_015	收尾大师
+AchieveFirstBorder_015	在最后一击中造成%d点伤害！
+AchieveInfo_015	你已经在最后一击中造成了%d点伤害！
 AchieveName_016	Puzzle Streaker
 AchieveFirstBorder_016	Win %d matches in a row\nat the Puzzle Hut!
 AchieveInfo_016	You've won %d matches\nin a row at the Puzzle Hut!
@@ -56,35 +56,35 @@ AchieveName_017	Black Belt
 AchieveFirstBorder_017	Earn the Black Belt Bonus\n%d times!
 AchieveInfo_017	You've earned the\nBlack Belt Bonus %d times!
 \database\database_adviceInfo.msbt
-AdviceInfo_001	One long link of plates is often\nbetter than a few small ones.
-AdviceInfo_002	Don't let the sushi passing by make\nyou anxious—focus on longer links.
-AdviceInfo_003	The longer links of plates you form,\nthe faster the jubilee gauge fills!
-AdviceInfo_004	During a sushi jubilee, the damage\nyou deal increases by 50%!
-AdviceInfo_005	A link with plates of only the same\nsushi is 30% more powerful!
-AdviceInfo_006	Link seven or more plates and\na glowing plate will appear\nin the last used lane!
-AdviceInfo_007	A stack with a glowing plate cannot\nbe toppled by the enemy's attack!
-AdviceInfo_008	As a sushi sprite gains levels,\nit offers higher quality sushi!
-AdviceInfo_009	Hitting with stacks of the same plate\ncolor is a more powerful Combo!
-AdviceInfo_010	If things seem dire, remember that\neating fruit restores a bit of HP.
-AdviceInfo_011	Advanced Tactics is full of good\nhints for winning battles!
-AdviceInfo_012	Use Skill Charms on sushi sprites\nto increase the level of their skills!
+AdviceInfo_001	多个寿司碟形成长连线，\n比多个短连线更有利！
+AdviceInfo_002	即使错过了寿司也没有关系，\n继续尝试形成长连线吧！
+AdviceInfo_003	连线的长度越长，\n寿司祭典越快出现！
+AdviceInfo_004	在寿司祭典中，\n你造成的伤害可以达到1.5倍！
+AdviceInfo_005	如果一条连线上的寿司都相同，\n就能增加30%的攻击力！
+AdviceInfo_006	连线七个以上寿司后，在前一条\n回转台上会出现一个彩虹碟！
+AdviceInfo_007	含有彩虹碟的碟堆\n不会被对手的攻击打翻！
+AdviceInfo_008	当寿司精灵等级提升之后，\n它带来寿司的等级也会提升！
+AdviceInfo_009	用相同颜色的碟堆造成连击，\n攻击力会上升！
+AdviceInfo_010	如果觉得体力不支，\n可以吃一些水果回复HP。
+AdviceInfo_011	“对战要点”有很多\n帮助对战获胜的提示！
+AdviceInfo_012	对寿司精灵使用“技能护身符”\n可以提高技能的等级！
 AdviceInfo_013	If you hit a wall, revisit earlier stages\nto earn more stars and experience.
 AdviceInfo_014	Earn Triumphs and raise your striker\nrank for easier pledging with sprites.
 AdviceInfo_015	Press the Striker Rank button to see\nwhat's needed to increase your rank.
 AdviceInfo_016	An "!" will appear at the Sushi Sprite\nShrine when you're ready to rank up.
 \database\database_area.msbt
-areaName_area01	Republic
-areaName_area02	Seashore
-areaName_area03	Volcano
-areaName_area04	Western Empire
-areaName_area04Sub	Imperial Rim
-areaName_area04Camp	Base Camp
-areaName_area05	Tundra
-areaName_area06	Central Empire
-areaName_area06Sub	Eastern Empire
-areaName_area07	Imperial Palace
-areaName_area08	Remote Island
-areaName_home	Shrine Grove
+areaName_area01	共和国
+areaName_area02	海岸区域
+areaName_area03	火山区域
+areaName_area04	帝国西侧
+areaName_area04Sub	帝国西大陆
+areaName_area04Camp	野营营地
+areaName_area05	雪山区域
+areaName_area06	帝国中部
+areaName_area06Sub	帝国南部
+areaName_area07	帝国宫殿
+areaName_area08	谜之小岛
+areaName_home	树林神社
 areaText_area01	A warm, pastoral region. After\nlosing the Sushi Struggles to\nthe Empire, it has become a\nwasteland for sushi.
 areaText_area02	A sunlit region under the\nEmpire's control. The old\nbeach resort is now an\nImperial stronghold.
 areaText_area03	This Empire-held mountain is\nknown as much for its rich\ngem mines and hot springs\nas for its active volcano. 
@@ -97,147 +97,147 @@ areaText_area06Sub	The Empire annexed this\npeninsula for its rich sushi\nresour
 areaText_area07	A shadowy castle housing the\nEmperor and his Imperial\nGuard. Doubles as the seat of\nImperial military power.
 areaText_area08	This small island is host to\nancient sushi ruins and was\nuninhabited until recently.\nJust what is happening here?
 \database\database_chapter.msbt
-chapterName_chapter01	Chapter 1
-chapterName_chapter02	Chapter 2
-chapterName_chapter03	Chapter 3
-chapterName_chapter04	Chapter 4
-chapterName_chapter04_02	Chapter 4
-chapterName_chapter05	Chapter 5
-chapterName_chapter06	Chapter 6
-chapterName_chapter06_02	Chapter 6
-chapterName_chapter07	Chapter 7
-chapterName_chapter08	Chapter 8
-chapterName_chapter09	Chapter 9
+chapterName_chapter01	第1章
+chapterName_chapter02	第2章
+chapterName_chapter03	第3章
+chapterName_chapter04	第4章
+chapterName_chapter04_02	第4章
+chapterName_chapter05	第5章
+chapterName_chapter06	第6章
+chapterName_chapter06_02	第6章
+chapterName_chapter07	第7章
+chapterName_chapter08	第8章
+chapterName_chapter09	第9章
 \database\database_cmn.msbt
-SushiName_None	None
-SushiName_Kappa	Cucumber Roll
-SushiFavPowerName_Kappa	Potassi-Yum
-SushiFavPowerName_Kappa_lc	Potassi-Yum
-SushiName_Tamago	Egg
-SushiFavPowerName_Tamago	Bio-T
-SushiFavPowerName_Tamago_lc	Bio-T
-SushiName_Inari	Inari Sushi
-SushiFavPowerName_Inari	Molyb-D
-SushiFavPowerName_Inari_lc	Molyb-D
-SushiName_CornWarship	Edamame
-SushiFavPowerName_CornWarship	Lino-Ace
-SushiFavPowerName_CornWarship_lc	Lino-Ace
-SushiName_Aji	Horse Mackerel
-SushiFavPowerName_Aji	Ino-Ace
-SushiFavPowerName_Aji_lc	Ino-Ace
-SushiName_Ika	Squid
-SushiFavPowerName_Ika	Ly-C
-SushiFavPowerName_Ika_lc	Ly-C
-SushiName_Salmon	Salmon
-SushiFavPowerName_Salmon	A-Tax
-SushiFavPowerName_Salmon_lc	A-Tax
-SushiName_EbimayoWarship	Creamy Shrimp
-SushiFavPowerName_EbimayoWarship	Natri-Yum
-SushiFavPowerName_EbimayoWarship_lc	Natri-Yum
-SushiName_Ebi	Shrimp
-SushiFavPowerName_Ebi	Arg-9
-SushiFavPowerName_Ebi_lc	Arg-9
-SushiName_Tako	Octopus
-SushiFavPowerName_Tako	Cobal
-SushiFavPowerName_Tako_lc	Cobal
-SushiName_NegitoroWarship	Minced Tuna
-SushiFavPowerName_NegitoroWarship	Asco-Ace
-SushiFavPowerName_NegitoroWarship_lc	Asco-Ace
-SushiName_Katuo	Bonito
-SushiFavPowerName_Katuo	Iron
-SushiFavPowerName_Katuo_lc	Iron
-SushiName_SalmonRoast	Seared Salmon
-SushiFavPowerName_SalmonRoast	A-Tax Z
-SushiFavPowerName_SalmonRoast_lc	A-Tax Z
-SushiName_Buri	Yellowtail
-SushiFavPowerName_Buri	Omega D
-SushiFavPowerName_Buri_lc	Omega D
-SushiName_CaliforniaRoll	California Roll
-SushiFavPowerName_CaliforniaRoll	Io-9
-SushiFavPowerName_CaliforniaRoll_lc	Io-9
-SushiName_Bintoro	Fatty Albacore Tuna
-SushiFavPowerName_Bintoro	Nia-Zin
-SushiFavPowerName_Bintoro_lc	Nia-Zin
-SushiName_Engawa	Flounder
-SushiFavPowerName_Engawa	Riboflavor
-SushiFavPowerName_Engawa_lc	Riboflavor
-SushiName_EbiRoast	Seared Shrimp
-SushiFavPowerName_EbiRoast	Arg-9 Z
-SushiFavPowerName_EbiRoast_lc	Arg-9 Z
-SushiName_Hotate	Scallop
-SushiFavPowerName_Hotate	Tor-9
-SushiFavPowerName_Hotate_lc	Tor-9
-SushiName_Amaebi	Sweet Shrimp
-SushiFavPowerName_Amaebi	Alpha-Toc
-SushiFavPowerName_Amaebi_lc	Alpha-Toc
-SushiName_Maguro	Tuna
-SushiFavPowerName_Maguro	Hist-9
-SushiFavPowerName_Maguro_lc	Hist-9
-SushiName_Ebitenroll	Shrimp Tempura Roll
-SushiFavPowerName_Ebitenroll	Seleni-Yum
-SushiFavPowerName_Ebitenroll_lc	Seleni-Yum
-SushiName_EngawaRoast	Seared Flounder
-SushiFavPowerName_EngawaRoast	Riboflavor Z
-SushiFavPowerName_EngawaRoast_lc	Riboflavor Z
-SushiName_Anago	Saltwater Eel
-SushiFavPowerName_Anago	Retin-O
-SushiFavPowerName_Anago_lc	Retin-O
-SushiName_ShirasuWarship	Surf Clam
-SushiFavPowerName_ShirasuWarship	Calci-Yum
-SushiFavPowerName_ShirasuWarship_lc	Calci-Yum
-SushiName_Torosalmon	Fatty Salmon
-SushiFavPowerName_Torosalmon	Astax-X
-SushiFavPowerName_Torosalmon_lc	Astax-X
-SushiName_Rainbowroll	Rainbow Roll
-SushiFavPowerName_Rainbowroll	Ole-Ace
-SushiFavPowerName_Rainbowroll_lc	Ole-Ace
-SushiName_HotateRoast	Seared Scallop
-SushiFavPowerName_HotateRoast	Tor-9 Z
-SushiFavPowerName_HotateRoast_lc	Tor-9 Z
-SushiName_Ikura	Salmon Roe
-SushiFavPowerName_Ikura	Thi-Min
-SushiFavPowerName_Ikura_lc	Thi-Min
-SushiName_Kinmedai	Red Sea Bream
-SushiFavPowerName_Kinmedai	Phospho
-SushiFavPowerName_Kinmedai_lc	Phospho
-SushiName_Tarabagani	Crab
-SushiFavPowerName_Tarabagani	Glut-Ace
-SushiFavPowerName_Tarabagani_lc	Glut-Ace
-SushiName_Unagi	Freshwater Eel
-SushiFavPowerName_Unagi	Zink
-SushiFavPowerName_Unagi_lc	Zink
-SushiName_Uni	Sea Urchin
-SushiFavPowerName_Uni	Fol-Ace
-SushiFavPowerName_Uni_lc	Fol-Ace
-SushiName_BotanEbi	Jumbo Shrimp
-SushiFavPowerName_BotanEbi	Chromi-Yum
-SushiFavPowerName_BotanEbi_lc	Chromi-Yum
-SushiName_Chuutoro	Chu Toro Tuna
-SushiFavPowerName_Chuutoro	P-Dox
-SushiFavPowerName_Chuutoro_lc	P-Dox
-SushiName_Ootoro	Otoro Tuna
-SushiFavPowerName_Ootoro	Omega E
-SushiFavPowerName_Ootoro_lc	Omega E
-SushiName_LegendTorosalmon	Legendary Salmon
-SushiFavPowerName_LegendTorosalmon	Panto-Ace
-SushiFavPowerName_LegendTorosalmon_lc	Panto-Ace
-SushiName_Mikan	Orange Slices
-SushiName_Strawberry	Strawberries
-SushiName_PineCut	Pineapple 
-SushiName_MelonCut	Melon 
-SushiName_KiwiCut	Kiwi
-SushiName_MangoCut	Mango
-SushiName_Melon	Lychee
-SushiName_FruitsAssort	Fruit Plate
-DishColorName00	Cyan
-DishColorName01	Yellow
-DishColorName02	Purple
-DishColorName03	Green
-DishColorName04	Blue
-DishColorName05	Red
-DishColorName06	Silver
-DishColorName07	Black
-DishColorName08	Gold
+SushiName_None	无
+SushiName_Kappa	黄瓜卷
+SushiFavPowerName_Kappa	钾
+SushiFavPowerName_Kappa_lc	钾
+SushiName_Tamago	鸡蛋
+SushiFavPowerName_Tamago	生物素
+SushiFavPowerName_Tamago_lc	生物素
+SushiName_Inari	豆皮寿司
+SushiFavPowerName_Inari	钼
+SushiFavPowerName_Inari_lc	钼
+SushiName_CornWarship	玉米军舰
+SushiFavPowerName_CornWarship	亚油酸
+SushiFavPowerName_CornWarship_lc	亚油酸
+SushiName_Aji	竹荚鱼
+SushiFavPowerName_Aji	肌苷酸
+SushiFavPowerName_Aji_lc	肌苷酸
+SushiName_Ika	鱿鱼
+SushiFavPowerName_Ika	赖氨酸
+SushiFavPowerName_Ika_lc	赖氨酸
+SushiName_Salmon	三文鱼
+SushiFavPowerName_Salmon	虾青素
+SushiFavPowerName_Salmon_lc	虾青素
+SushiName_EbimayoWarship	蛋黄酱虾仁军舰
+SushiFavPowerName_EbimayoWarship	钠
+SushiFavPowerName_EbimayoWarship_lc	钠
+SushiName_Ebi	虾
+SushiFavPowerName_Ebi	精氨酸
+SushiFavPowerName_Ebi_lc	精氨酸
+SushiName_Tako	章鱼
+SushiFavPowerName_Tako	钴胺素
+SushiFavPowerName_Tako_lc	钴胺素
+SushiName_NegitoroWarship	葱花金枪鱼军舰
+SushiFavPowerName_NegitoroWarship	抗坏血酸
+SushiFavPowerName_NegitoroWarship_lc	抗坏血酸
+SushiName_Katuo	鲣鱼
+SushiFavPowerName_Katuo	铁
+SushiFavPowerName_Katuo_lc	铁
+SushiName_SalmonRoast	烤三文鱼
+SushiFavPowerName_SalmonRoast	虾青素Z
+SushiFavPowerName_SalmonRoast_lc	虾青素Z
+SushiName_Buri	鰤鱼
+SushiFavPowerName_Buri	DHA
+SushiFavPowerName_Buri_lc	DHA
+SushiName_CaliforniaRoll	加州卷
+SushiFavPowerName_CaliforniaRoll	碘
+SushiFavPowerName_CaliforniaRoll_lc	碘
+SushiName_Bintoro	长鳍金枪鱼
+SushiFavPowerName_Bintoro	烟酸
+SushiFavPowerName_Bintoro_lc	烟酸
+SushiName_Engawa	比目鱼
+SushiFavPowerName_Engawa	核黄素
+SushiFavPowerName_Engawa_lc	核黄素
+SushiName_EbiRoast	烤虾
+SushiFavPowerName_EbiRoast	精氨酸Z
+SushiFavPowerName_EbiRoast_lc	精氨酸Z
+SushiName_Hotate	扇贝
+SushiFavPowerName_Hotate	牛磺酸
+SushiFavPowerName_Hotate_lc	牛磺酸
+SushiName_Amaebi	甜虾
+SushiFavPowerName_Amaebi	α生育酚
+SushiFavPowerName_Amaebi_lc	α生育酚
+SushiName_Maguro	金枪鱼
+SushiFavPowerName_Maguro	组氨酸
+SushiFavPowerName_Maguro_lc	组氨酸
+SushiName_Ebitenroll	虾天妇罗卷
+SushiFavPowerName_Ebitenroll	硒
+SushiFavPowerName_Ebitenroll_lc	硒
+SushiName_EngawaRoast	烤比目鱼
+SushiFavPowerName_EngawaRoast	核黄素Z
+SushiFavPowerName_EngawaRoast_lc	核黄素Z
+SushiName_Anago	海鳗
+SushiFavPowerName_Anago	视黄醇
+SushiFavPowerName_Anago_lc	视黄醇
+SushiName_ShirasuWarship	小银鱼军舰
+SushiFavPowerName_ShirasuWarship	钙
+SushiFavPowerName_ShirasuWarship_lc	钙
+SushiName_Torosalmon	三文鱼腩
+SushiFavPowerName_Torosalmon	虾青素X
+SushiFavPowerName_Torosalmon_lc	虾青素X
+SushiName_Rainbowroll	彩虹卷
+SushiFavPowerName_Rainbowroll	油酸
+SushiFavPowerName_Rainbowroll_lc	油酸
+SushiName_HotateRoast	烤扇贝
+SushiFavPowerName_HotateRoast	牛磺酸Z
+SushiFavPowerName_HotateRoast_lc	牛磺酸Z
+SushiName_Ikura	三文鱼籽军舰
+SushiFavPowerName_Ikura	硫胺素
+SushiFavPowerName_Ikura_lc	硫胺素
+SushiName_Kinmedai	金目鲷
+SushiFavPowerName_Kinmedai	磷
+SushiFavPowerName_Kinmedai_lc	磷
+SushiName_Tarabagani	螃蟹
+SushiFavPowerName_Tarabagani	谷氨酸
+SushiFavPowerName_Tarabagani_lc	谷氨酸
+SushiName_Unagi	鳗鱼
+SushiFavPowerName_Unagi	锌
+SushiFavPowerName_Unagi_lc	锌
+SushiName_Uni	海胆军舰
+SushiFavPowerName_Uni	叶酸
+SushiFavPowerName_Uni_lc	叶酸
+SushiName_BotanEbi	牡丹海老
+SushiFavPowerName_BotanEbi	铬
+SushiFavPowerName_BotanEbi_lc	铬
+SushiName_Chuutoro	中肥金枪鱼
+SushiFavPowerName_Chuutoro	吡哆醇
+SushiFavPowerName_Chuutoro_lc	吡哆醇
+SushiName_Ootoro	大肥金枪鱼
+SushiFavPowerName_Ootoro	EPA
+SushiFavPowerName_Ootoro_lc	EPA
+SushiName_LegendTorosalmon	传说的三文鱼腩
+SushiFavPowerName_LegendTorosalmon	泛酸
+SushiFavPowerName_LegendTorosalmon_lc	泛酸
+SushiName_Mikan	橙子
+SushiName_Strawberry	草莓
+SushiName_PineCut	菠萝
+SushiName_MelonCut	甜瓜
+SushiName_KiwiCut	奇异果
+SushiName_MangoCut	芒果
+SushiName_Melon	高级甜瓜
+SushiName_FruitsAssort	什锦水果
+DishColorName00	青色
+DishColorName01	黄色
+DishColorName02	紫色
+DishColorName03	绿色
+DishColorName04	蓝色
+DishColorName05	红色
+DishColorName06	银色
+DishColorName07	黑色
+DishColorName08	金色
 EnemyName_Ablicos	General Kodiak
 EnemyName_001	Pvt. Unger
 EnemyName_002	Cpt. Fammish
@@ -444,33 +444,33 @@ EnemyName_291	Lt. Serval
 EnemyName_294	Lt. Butcher
 EnemyName_297	Lt. Teddy
 EnemyName_300	Cpt. Combtooth
-StarGet_WinGod	Use %ls and win.
-StarGet_WinSushiEatMore	Eat %d or more plates and win.
-StarGet_WinSushiEatLess	Eat %d or fewer plates and win.
-StarGet_WinSushiEatKind	Eat %d or more types of sushi and win.
-StarGet_WinPile	Link %d or more plates and win.
-StarGet_WinFavEat	Eat %d or more plates of your favorite sushi.
-StarGet_WinRainbow	Make %d or more glowing plates and win.
-StarGet_WinCombo	Make %d or more combos and win.
-StarGet_WinBreak	Break %d or more enemy plates and win.
-StarGet_WinSkill	Use %d or more skills and win.
-StarGet_WinSkill_sgl	Use %d or more skills and win.
-StarGet_WinLessSkill	Use skills %d times or fewer and win.
-StarGet_WinLessSkill_sgl	Use skills %d time or fewer and win.
-StarGet_WinNoSkill	Win without using any skills.
-StarGet_WinFes	Start %d or more sushi jubilees and win.
-StarGet_WinFes_sgl	Start %d or more sushi jubilees and win.
-StarGet_WinHpMore	Win with %d%% or more HP.
-StarGet_WinTimeLess	Win in %d or fewer seconds.
-StarGet_WinScoreMore	Win with a score of %d or more.
-StarGet_RankA	Earn an A grade or better and win.
-StarGet_RankB	Earn a B grade or better and win.
-StarGet_OnlyAutoShoot	Win using only autoshoot attacks.
-StarGet_WinLastAtk	Deal %d or more damage with a finishing attack.
-StarGet_WinPileLess	Stack %d or fewer plates and win.
-StarGet_WinAutoShootLess	Win using %d or fewer autoshoot attacks.
-StarGet_WinRecover	Recover %d or more HP and win.
-StarGet_WinWithoutGod	Win without using %ls.
+StarGet_WinGod	使用%ls之后获胜。
+StarGet_WinSushiEatMore	吃掉至少%d碟后获胜。
+StarGet_WinSushiEatLess	吃掉最多%d碟后获胜。
+StarGet_WinSushiEatKind	吃掉至少%d种寿司后获胜。
+StarGet_WinPile	连线至少%d碟后获胜。
+StarGet_WinFavEat	吃掉至少%d碟你最喜欢的寿司。
+StarGet_WinRainbow	出现至少%d个彩虹碟后获胜。
+StarGet_WinCombo	至少%d次连击后获胜。
+StarGet_WinBreak	打断对手至少%d碟后获胜。
+StarGet_WinSkill	使用至少%d次技能后获胜。
+StarGet_WinSkill_sgl	使用至少%d次技能后获胜。
+StarGet_WinLessSkill	使用最多%d次技能后获胜。
+StarGet_WinLessSkill_sgl	使用最多%d次技能后获胜。
+StarGet_WinNoSkill	不使用技能获胜。
+StarGet_WinFes	发动至少%d次寿司祭典后获胜。
+StarGet_WinFes_sgl	发动至少%d次寿司祭典后获胜。
+StarGet_WinHpMore	至少剩余%d%%的HP获胜。
+StarGet_WinTimeLess	在%d秒之内获胜。
+StarGet_WinScoreMore	至少获得%d分后获胜。
+StarGet_RankA	获得A以上等级。
+StarGet_RankB	获得B以上等级。
+StarGet_OnlyAutoShoot	只用自动攻击获胜。
+StarGet_WinLastAtk	在最后一击中造成至少%d点伤害。
+StarGet_WinPileLess	堆积最多%d碟获胜。
+StarGet_WinAutoShootLess	用最多%d次自动攻击获胜。
+StarGet_WinRecover	回复至少%d的HP后获胜。
+StarGet_WinWithoutGod	不使用%ls并获胜。
 GodSkillName_Double	Double Shot
 GodSkillName_EnemyLaneSpd	Runaway Lanes
 GodSkillName_SweetsHeaven	Sweets Paradise
@@ -718,46 +718,46 @@ PlayerTitledName_07	Silent Striker
 PlayerTitledName_08	Sushi Connoisseur
 PlayerTitledName_09	The World's New Hope
 PlayerTitledName_10	Ultimate Striker
-PlayerName	Musashi
+PlayerName	武藏
 DecimalPoint	.
 \database\database_favPowerInfo.msbt
-SushiFavPowerInfo_Kappa	Increases your attack damage\nby {c[ffae00]}18%{c[000000]} while all of your\nskill gauges are full.
-SushiFavPowerInfo_Tamago	Increases the EXP your reserve\nsushi sprites earn by {c[ffae00]}18%{c[000000]}.
-SushiFavPowerInfo_Inari	Restores {c[ffae00]}3%{c[000000]} of your\nHP every {c[ffae00]}20 seconds{c[000000]}.
-SushiFavPowerInfo_Salmon	Increases the time limit to link plates\nfrom {c[ffae00]}7 seconds{c[000000]} to {c[ffae00]}8 seconds {c[000000]}while\nyour HP is at {c[ffae00]}40%{c[000000]} or less.
-SushiFavPowerInfo_Aji	Increases your score by {c[ffae00]}8%{c[000000]}.
-SushiFavPowerInfo_Ika	Restores your HP by {c[ffae00]}2% {c[000000]}for\nevery {c[ffae00]}40 plates{c[000000]} you eat.
-SushiFavPowerInfo_Tako	Fills all of your skill gauges by {c[ffae00]}30%{c[000000]}\nif you take damage equal to {c[ffae00]}15%{c[000000]}\nor more of your max HP.
-SushiFavPowerInfo_Buri	Increases the speed\nof your lanes by {c[ffae00]}12%{c[000000]}.
-SushiFavPowerInfo_CaliforniaRoll	Increases your HP recovery from\nsweets and fruit by {c[ffae00]}35%{c[000000]} while\nyour HP is at {c[ffae00]}25%{c[000000]} or less.
-SushiFavPowerInfo_Engawa	Decreases the amount of damage\nyou take by {c[ffae00]}1% {c[000000]}for every {c[ffae00]}9 plates\n{c[000000]}of favorite sushi you eat.
-SushiFavPowerInfo_Hotate	Restores {c[ffae00]}3%{c[000000]} of your max HP\nif you take damage equal to {c[ffae00]}9%{c[000000]}\nor more of your max HP.
-SushiFavPowerInfo_Ebi	Increases the EXP you and your\nactive sushi sprites earn by {c[ffae00]}9%{c[000000]}.
-SushiFavPowerInfo_Anago	Decreases the amount of damage you\ntake by {c[ffae00]}2%{c[000000]} every {c[ffae00]}15 seconds{c[000000]}.
-SushiFavPowerInfo_Kinmedai	Decreases the amount of damage\nyou take by {c[ffae00]}10%{c[000000]}.
-SushiFavPowerInfo_Ikura	Increases your HP recovery\nfrom sweets by {c[ffae00]}15%{c[000000]}.
-SushiFavPowerInfo_Tarabagani	Increases your attack damage\nby {c[ffae00]}25%{c[000000]} while under the effect\nof an enemy skill with a time limit.
-SushiFavPowerInfo_Uni	Increases the duration of your\nskill effects by {c[ffae00]}18%{c[000000]}.
-SushiFavPowerInfo_BotanEbi	Increases your HP recovery\nfrom sweets by {c[ffae00]}40%{c[000000]} while\nunder the effects of an\nenemy skill with a time limit.
-SushiFavPowerInfo_Ootoro	Increases your attack damage\nby {c[ffae00]}2%{c[000000]} for every {c[ffae00]}60{c[000000]} {c[ffae00]}plates{c[000000]} you eat.
-SushiFavPowerInfo_CornWarship	Increases your attack damage\nby {c[ffae00]}2%{c[000000]} every {c[ffae00]}15 seconds{c[000000]}.
-SushiFavPowerInfo_EbimayoWarship	Fills your jubilee gauge\nhalfway when battle starts.
-SushiFavPowerInfo_NegitoroWarship	Decreases the duration of\nenemy skill effects by {c[ffae00]}20%{c[000000]}.
-SushiFavPowerInfo_Katuo	Increases your attack damage\nby {c[ffae00]}1%{c[000000]} for every {c[ffae00]}10 plates{c[000000]}\nof favorite sushi you eat.
-SushiFavPowerInfo_Bintoro	Increases your HP recovery from\nsweets and fruit by {c[ffae00]}20%{c[000000]} but also\nincreases the time you can't move\nafter eating wasabi by {c[ffae00]}20%{c[000000]}.
-SushiFavPowerInfo_Amaebi	Decreases the amount of time you\ncan't move after eating wasabi\nby {c[ffae00]}50%{c[000000]} but also decreases\nHP recovery by {c[ffae00]}50%{c[000000]}.
-SushiFavPowerInfo_Maguro	Increases your attack damage\nby {c[ffae00]}15%{c[000000]} while one of your skills\nwith a time limit is active.
-SushiFavPowerInfo_Ebitenroll	Decreases the amount of damage\nyou take by {c[ffae00]}25%{c[000000]} while all of your\nskill gauges are full.
-SushiFavPowerInfo_ShirasuWarship	Increases your attack damage by\n{c[ffae00]}25%{c[000000]} while your HP is at {c[ffae00]}25%{c[000000]} or less.
-SushiFavPowerInfo_Torosalmon	Increases the time limit to link plates\nfrom {c[ffae00]}7 seconds{c[000000]} to {c[ffae00]}8.5 seconds {c[000000]}while\none of your skills with a time limit\nis active.
-SushiFavPowerInfo_Rainbowroll	Increases your attack damage by {c[ffae00]}3%{c[000000]}\neach time you take damage equal\nto {c[ffae00]}12% {c[000000]}or more of your max HP.
-SushiFavPowerInfo_Unagi	Restores {c[ffae00]}15%{c[000000]} of your max HP\nif you take damage equal to\n{c[ffae00]}30% {c[000000]}or more of your max HP.
-SushiFavPowerInfo_Chuutoro	Increases your attack\ndamage by {c[ffae00]}9%{c[000000]}.
-SushiFavPowerInfo_LegendTorosalmon	Decreases the amount of damage\nyou take by {c[ffae00]}3%{c[000000]} each time you take\ndamage equal to {c[ffae00]}12% {c[000000]}or more of\nyour max HP.
-SushiFavPowerInfo_SalmonRoast	Increases the time limit to link plates\nfrom {c[ffae00]}7 seconds{c[000000]} to {c[ffae00]}7.5 seconds{c[000000]}.
-SushiFavPowerInfo_EbiRoast	Increases EXP your sushi sprites\nearn by {c[ffae00]}7%{c[000000]}.
-SushiFavPowerInfo_EngawaRoast	Decreases the amount of damage\nyou take by {c[ffae00]}2%{c[000000]} for every {c[ffae00]}50 plates\n{c[000000]}you eat.
-SushiFavPowerInfo_HotateRoast	Restores {c[ffae00]}5%{c[000000]} of your max HP\nif you take damage equal to {c[ffae00]}12%{c[000000]}\nor more of your max HP.
+SushiFavPowerInfo_Kappa	借助矿物的力量，\n当自己所有技能表满格之后，\n造成的伤害增加{c[ffae00]}18%{c[000000]}。
+SushiFavPowerInfo_Tamago	借助鸡蛋的力量，\n对战后获得的经验值会\n增加{c[ffae00]}18%{c[000000]}。
+SushiFavPowerInfo_Inari	协助血液的生成，\n自己的HP每过{c[ffae00]}20秒{c[000000]}\n回复{c[ffae00]}3%{c[000000]}。
+SushiFavPowerInfo_Salmon	自己的HP降到{c[ffae00]}40%{c[000000]}以下之后，\n连接寿司碟的时间增加{c[ffae00]}1秒{c[000000]}\n变为{c[ffae00]}8秒{c[000000]}。
+SushiFavPowerInfo_Aji	借助鲜味的力量，\n获得的分数会\n增加{c[ffae00]}8%{c[000000]}。
+SushiFavPowerInfo_Ika	借助恢复疲劳的力量，\n每吃{c[ffae00]}40碟{c[000000]}寿司，\nHP回复{c[ffae00]}2%{c[000000]}。
+SushiFavPowerInfo_Tako	一次受到最大HP{c[ffae00]}15%{c[000000]}\n以上的伤害时，所有\n技能表增加{c[ffae00]}30%{c[000000]}。
+SushiFavPowerInfo_Buri	促进身体血液循环，\n自己回转台的速度\n增加{c[ffae00]}12%{c[000000]}。
+SushiFavPowerInfo_CaliforniaRoll	借助促进糖类代谢的力量，\n自己的HP降到{c[ffae00]}25%{c[000000]}以下时，\n甜品的回复量增加{c[ffae00]}35%{c[000000]}。
+SushiFavPowerInfo_Engawa	借助身体强大的力量，\n每吃{c[ffae00]}9碟{c[000000]}自己喜欢的寿司，\n受到的伤害减少{c[ffae00]}1%{c[000000]}。
+SushiFavPowerInfo_Hotate	一次受到最大HP{c[ffae00]}9%{c[000000]}\n以上的伤害时，自己\n的HP回复{c[ffae00]}3%{c[000000]}。
+SushiFavPowerInfo_Ebi	促进生长激素的合成，\n武藏和出战寿司精灵获得的\n经验值增加{c[ffae00]}9%{c[000000]}。
+SushiFavPowerInfo_Anago	借助增强黏膜抵抗力的力量，\n每{c[ffae00]}15秒{c[000000]}受到的伤害\n减少{c[ffae00]}2%{c[000000]}。
+SushiFavPowerInfo_Kinmedai	借助强化骨骼的力量，\n自己受到的伤害\n减少{c[ffae00]}10%{c[000000]}。
+SushiFavPowerInfo_Ikura	提高糖类代谢的效率，\n甜品的回复量\n增加{c[ffae00]}15%{c[000000]}。
+SushiFavPowerInfo_Tarabagani	当处于对手技能的\n效果时间内时，自己造成的\n伤害增加{c[ffae00]}25%{c[000000]}。
+SushiFavPowerInfo_Uni	借助海胆的力量，\n自己的使用技能时，\n技能时间增加{c[ffae00]}18%{c[000000]}。
+SushiFavPowerInfo_BotanEbi	当处于对手技能的\n效果时间内时，\n甜品的回复量增加{c[ffae00]}40%{c[000000]}。
+SushiFavPowerInfo_Ootoro	促进身体血液循环，\n每吃{c[ffae00]}60碟{c[000000]}寿司，\n自己造成的伤害增加{c[ffae00]}2%{c[000000]}。
+SushiFavPowerInfo_CornWarship	借助亚油酸的力量，\n每{c[ffae00]}15秒{c[000000]}造成的伤害\n增加{c[ffae00]}2%{c[000000]}。
+SushiFavPowerInfo_EbimayoWarship	在初始时，\n以寿司表{c[ffae00]}半满{c[000000]}的状态\n开始对战。
+SushiFavPowerInfo_NegitoroWarship	借助免疫力提升的力量，\n对手技能的效果时间\n减少{c[ffae00]}20%{c[000000]}。
+SushiFavPowerInfo_Katuo	作为身体中血液的成分，\n每吃{c[ffae00]}10碟{c[000000]}自己喜欢的寿司，\n自己造成的伤害增加{c[ffae00]}1%{c[000000]}。
+SushiFavPowerInfo_Bintoro	甜品和水果的HP回复量\n增加{c[ffae00]}20%{c[000000]}，但吃到芥末后\n不能移动的时间也增加{c[ffae00]}20%{c[000000]}。
+SushiFavPowerInfo_Amaebi	吃到芥末后不能移动的时间\n减少{c[ffae00]}50%{c[000000]}，但甜品和水果\n的HP回复量也减少{c[ffae00]}50%{c[000000]}。
+SushiFavPowerInfo_Maguro	在自己技能的效果时间\n内，造成的伤害\n增加{c[ffae00]}15%{c[000000]}。
+SushiFavPowerInfo_Ebitenroll	借助抗氧化的力量，\n当自己所有技能表满格时\n受到的伤害降低{c[ffae00]}25%{c[000000]}。
+SushiFavPowerInfo_ShirasuWarship	借助矿物的力量，\n当自己的HP降到{c[ffae00]}25%{c[000000]}一下后，\n造成的伤害增加{c[ffae00]}25%{c[000000]}。
+SushiFavPowerInfo_Torosalmon	在自己技能的效果时间内，\n连接寿司碟的时间增加{c[ffae00]}1.5秒{c[000000]}\n变为{c[ffae00]}8.5秒{c[000000]}。
+SushiFavPowerInfo_Rainbowroll	一次受到最大HP{c[ffae00]}12%{c[000000]}\n以上的伤害时，自己\n造成的伤害增加{c[ffae00]}3%{c[000000]}。
+SushiFavPowerInfo_Unagi	一次受到最大HP{c[ffae00]}30%{c[000000]}\n以上的伤害时，自己\n的HP回复{c[ffae00]}15%{c[000000]}。
+SushiFavPowerInfo_Chuutoro	借助肌肉生长的力量，\n自己造成的伤害\n增加{c[ffae00]}9%{c[000000]}。
+SushiFavPowerInfo_LegendTorosalmon	一次受到最大HP{c[ffae00]}12%{c[000000]}\n以上的伤害时，自己\n受到的伤害减少{c[ffae00]}3%{c[000000]}。
+SushiFavPowerInfo_SalmonRoast	借助减轻疲劳的力量，\n连接寿司碟的时间增加{c[ffae00]}0.5秒{c[000000]}\n变为{c[ffae00]}7.5秒{c[000000]}。
+SushiFavPowerInfo_EbiRoast	促进生长激素的合成，\n寿司精灵获得的\n经验值增加{c[ffae00]}7%{c[000000]}。
+SushiFavPowerInfo_EngawaRoast	借助保持身体健康的力量，\n每吃{c[ffae00]}50碟{c[000000]}寿司，自己\n受到的伤害减少{c[ffae00]}2%{c[000000]}。
+SushiFavPowerInfo_HotateRoast	一次受到最大HP{c[ffae00]}12%{c[000000]}\n以上的伤害时，自己\n的HP回复{c[ffae00]}5%{c[000000]}。
 \database\database_godInfo.msbt
 GodInfo_God001	Said to conceal a power\nof the highest order.
 GodInfo_God002	Awakened form.\nReally enjoys a good\nbrushing now and again.
@@ -1076,168 +1076,170 @@ MovieInfo_ED	Ending Song: "{c[dc0000]}World Goes Round{c[000000]}"\nSinger: Musa
 MovieName_SR	Epilogue
 MovieInfo_SR	Musashi and Jubay await the return of\nMusashi's mother at the {c[dc0000]}Great Sushi\nGate{c[000000]}, determined to keep a vigil there\nuntil someday she comes back.
 \database\database_movieSerif_0A.msbt
-MovieSerifText_0a_0010_M	In a world without fish...
-MovieSerifText_0a_0001_M	of all its natural resources, one\nhad value above any other...
-MovieSerifText_0a_0002_M	...the dish known as sushi.
-MovieSerifText_0a_0003_M	Endless strife broke out among\nthose craving its sublime taste.
-MovieSerifText_0a_0004_M	This strife exploded into open\nwar between the Empire,\nwho sought to hoard all\nthe world's sushi...
-MovieSerifText_0a_0005_M	and the Republic, who hoped\nto share sushi with all the\nworld's people.
-MovieSerifText_0a_0006_M	It became known as the\nbitter Sushi Struggles.
-MovieSerifText_0a_0007_M	After the Republic's defeat,\nthe Empire strictly forbade all\ntalk of sushi.
-MovieSerifText_0a_0008_M	To eat sushi was an even\ngreater crime.
-MovieSerifText_0a_0009_M	That is where our story begins...
+MovieSerifText_0a_0010_M	在一个没有鱼类\n的世界里……
+MovieSerifText_0a_0001_M	有一样东西比其他更珍贵……
+MovieSerifText_0a_0002_M	那就是叫做“寿司”的食物
+MovieSerifText_0a_0003_M	在那些渴望它的美味的人中\n爆发了一场冲突
+MovieSerifText_0a_0004_M	而后演变为企图获得全世界\n的寿司的帝国……
+MovieSerifText_0a_0005_M	与希望能够与世界人民共享\n寿司的美味的共和国之间的激烈战争
+MovieSerifText_0a_0006_M	这场战争又被称为\n“世界寿司大战”
+MovieSerifText_0a_0007_M	当共和国战败后，\n帝国严格禁止人们讨论寿司
+MovieSerifText_0a_0008_M	而食用寿司则成了犯罪
+MovieSerifText_0a_0009_M	这就是我们故事的开端……
 \database\database_movieSerif_1A.msbt
-MovieSerifText_1a_0001_M	Yeaaaaaaaah!
-MovieSerifText_1a_0001_F	Yeaaaaaaaah!
-MovieSerifText_1a_0002_M	It's all the fruit I can eat!
-MovieSerifText_1a_0002_F	It's all the fruit I can eat!
-MovieSerifText_1a_0003_M	Wooohooo!
-MovieSerifText_1a_0003_F	Wooohooo!
-MovieSerifText_1a_0004_M	Yum yum yum!
-MovieSerifText_1a_0004_F	Yum yum yum!
-MovieSerifText_1a_0005_M	  
-MovieSerifText_1a_0005_F	In my tum!
-MovieSerifText_1a_0006_M	What a day! I can hardly carry\nall this.
-MovieSerifText_1a_0006_F	What a day! I can hardly carry\nall this.
-MovieSerifText_1a_0007_M	All those kids will have full\nbellies for once!
-MovieSerifText_1a_0007_F	All those kids will have full\nbellies for once!
-MovieSerifText_1a_0008_M	Well, if it isn't the saddest dope\naround.
-MovieSerifText_1a_0009_M	Huh?!
-MovieSerifText_1a_0009_F	Huh?!
-MovieSerifText_1a_0010_M	Ugh, not Kojiro!
-MovieSerifText_1a_0010_F	Ugh, not Kojiro!
-MovieSerifText_1a_0011_M	Pickin' fruit right off the trees,\nare you?
-MovieSerifText_1a_0012_M	Looks that way!
-MovieSerifText_1a_0013_M	What a weirdo.
-MovieSerifText_1a_0014_M	You actually eat that stuff?
-MovieSerifText_1a_0015_M	What's your problem?!\nGet lost!
-MovieSerifText_1a_0015_F	What's your problem?!\nGet lost!
-MovieSerifText_1a_0016_M	Heh!
-MovieSerifText_1a_0017_M	Thanks, sucker!
-MovieSerifText_1a_0018_M	Wha—!
-MovieSerifText_1a_0018_F	Wha—!
-MovieSerifText_1a_0019_M	Hmm, looks good.
-MovieSerifText_1a_0097_M	I'll give it a taste test!
-MovieSerifText_1a_0020_M	But it's mine!
-MovieSerifText_1a_0020_F	But it's mine!
-MovieSerifText_1a_0098_M	Mm?
-MovieSerifText_1a_0022_M	Ew! Gross gross gross!
-MovieSerifText_1a_0099_M	What kinda fruit IS this?!
-MovieSerifText_1a_0023_M	(Figures...)
-MovieSerifText_1a_0024_M	How can you stand to eat this?!
-MovieSerifText_1a_0025_M	Are you kidding?!
-MovieSerifText_1a_0025_F	Are you kidding?!
-MovieSerifText_1a_0026_M	Sure, it's nasty, but what else is\nthere to eat besides this stuff?!
-MovieSerifText_1a_0026_F	Sure, it's nasty, but what else is\nthere to eat besides this stuff?!
-MovieSerifText_1a_0027_M	Pathetic.
-MovieSerifText_1a_0100_M	You dorks gobble up trash...
-MovieSerifText_1a_0101_M	and act like it's delicious candy.
-MovieSerifText_1a_0028_M	Ah ha ha ha ha!
-MovieSerifText_1a_0029_M	Trash eaters! Trash eaters!
-MovieSerifText_1a_0030_M	Kojiro!
-MovieSerifText_1a_0030_F	Kojiro!
-MovieSerifText_1a_0031_M	Look what you diiiid!
-MovieSerifText_1a_0032_M	Waaaaah!
-MovieSerifText_1a_0034_M	Mom... Dad...
-MovieSerifText_1a_0034_F	Mom... Dad...
-MovieSerifText_1a_0035_M	Where did you guys go?
-MovieSerifText_1a_0035_F	Where did you guys go?
-MovieSerifText_1a_0102_M	And are you ever planning on\ncoming back?
-MovieSerifText_1a_0102_F	And are you ever planning on\ncoming back?
-MovieSerifText_1a_0036_M	Aw, man! I never got any food.
-MovieSerifText_1a_0036_F	Aw, man! I never got any food.
-MovieSerifText_1a_0037_M	Heeey! What happened here?
-MovieSerifText_1a_0037_F	Heeey! What happened here?
-MovieSerifText_1a_0038_M	Huh?
-MovieSerifText_1a_0038_F	Huh?
-MovieSerifText_1a_0039_M	Why? Who wants to know?
-MovieSerifText_1a_0039_F	Why? Who wants to know?
-MovieSerifText_1a_0040_M	You can call me Franklin. I'm a\nwanderer on this hungry earth.
-MovieSerifText_1a_0041_M	You're clearly in dire straits,\nbut self-pity won't help you.
-MovieSerifText_1a_0042_M	Chin up, young man!
-MovieSerifText_1a_0042_F	Chin up, young woman!
-MovieSerifText_1a_0043_M	Can it! Leave me alone!
-MovieSerifText_1a_0043_F	Can it! Leave me alone!
-MovieSerifText_1a_0044_M	Ha hah ha. You must have been\npretty hungry.
-MovieSerifText_1a_0045_M	Me and everyone else!
-MovieSerifText_1a_0045_F	Me and everyone else!
-MovieSerifText_1a_0046_M	I don't fault you.
-MovieSerifText_1a_0047_M	Growing children do need their\nfood.
-MovieSerifText_1a_0048_M	D-Don't treat me like a kid!\nI'm not some brat!
-MovieSerifText_1a_0048_F	D-Don't treat me like a kid!\nI'm not some brat!
-MovieSerifText_1a_0049_M	Ah! Forgive me.
-MovieSerifText_1a_0050_M	Then you can keep secrets\njust like an adult, yes?
-MovieSerifText_1a_0051_M	Secrets?
-MovieSerifText_1a_0051_F	Secrets?
-MovieSerifText_1a_0052_M	If you promise to keep this\nstrictly between the two of us...
-MovieSerifText_1a_0053_M	I'll let you dine on sushi!
-MovieSerifText_1a_0054_M	Sushi? Really?
-MovieSerifText_1a_0055_M	Sushi...
-MovieSerifText_1a_0056_M	You have heard of it, I trust.\nThere's no tastier food in\nthe world.
-MovieSerifText_1a_0057_M	Though within the Republic's\nborders...
-MovieSerifText_1a_0103_M	it's a crime even to look upon\nit, let alone to eat it.
-MovieSerifText_1a_0058_M	I'm giving you a chance to try\nsome. Well? It's good.
-MovieSerifText_1a_0059_M	I hate sushi!
-MovieSerifText_1a_0059_F	I hate sushi!
-MovieSerifText_1a_0060_M	I hate sushi so much!
-MovieSerifText_1a_0060_F	I hate sushi so much!
-MovieSerifText_1a_0061_M	I lost my mom and dad in\nthe war!
-MovieSerifText_1a_0061_F	I lost my mom and dad in\nthe war!
-MovieSerifText_1a_0062_M	The stupid war they fought all\nbecause of some stupid sushi!
-MovieSerifText_1a_0062_F	The stupid war they fought all\nbecause of some stupid sushi!
-MovieSerifText_1a_0063_M	Sushi ruined my life!
-MovieSerifText_1a_0063_F	Sushi ruined my life!
-MovieSerifText_1a_0064_M	I'd rather starve than ever take\na single bite!
-MovieSerifText_1a_0064_F	I'd rather starve than ever take\na single bite!
-MovieSerifText_1a_0065_M	Ugh...
-MovieSerifText_1a_0065_F	Ugh...
-MovieSerifText_1a_0066_M	Dang it!
-MovieSerifText_1a_0066_F	Dang it!
-MovieSerifText_1a_0067_M	You're correct that there has\nbeen terrible violence over\nsushi before.
-MovieSerifText_1a_0105_M	But you must know...
-MovieSerifText_1a_0068_M	sushi was not to blame for this.
-MovieSerifText_1a_0069_M	Sushi isn't just something to\nstuff the belly with.
-MovieSerifText_1a_0106_M	It brings real joy to people.
-MovieSerifText_1a_0070_M	Young man...\nTry it and you'll see.
-MovieSerifText_1a_0070_F	Young woman...\nTry it and you'll see.
-MovieSerifText_1a_0110_M	Ta-daaaa!
-MovieSerifText_1a_0071_M	Waaaah!
-MovieSerifText_1a_0071_F	Waaaah!
-MovieSerifText_1a_0072_M	What are you?
-MovieSerifText_1a_0072_F	What are you?
-MovieSerifText_1a_0073_M	Good question!
-MovieSerifText_1a_0073_F	Good question!
-MovieSerifText_1a_0074_M	I'm Ara-o, one of the great\nsushi sprites who controls\nthe world's sushi.
-MovieSerifText_1a_0075_M	A sushi sprout?
-MovieSerifText_1a_0075_F	A sushi sprout?
-MovieSerifText_1a_0076_M	No, not a sprout! A sushi sprite!
-MovieSerifText_1a_0077_M	A cutie pie?
-MovieSerifText_1a_0077_F	A cutie pie?
-MovieSerifText_1a_0078_M	I said SUSHI SPRITE!
-MovieSerifText_1a_0079_M	Franklin, are you sure about\nthis?
-MovieSerifText_1a_0080_M	Humor me.
-MovieSerifText_1a_0081_M	Eh, OK... I'll do it.
-MovieSerifText_1a_0082_M	Ta-daaaaa!
-MovieSerifText_1a_0083_M	What is this thing?!\nIt came out of nowhere!
-MovieSerifText_1a_0083_F	What is this thing?!\nIt came out of nowhere!
-MovieSerifText_1a_0084_M	That's sushi. Go on, try it.
-MovieSerifText_1a_0086_M	Mm?
-MovieSerifText_1a_0087_M	Mmm?
-MovieSerifText_1a_0088_M	Aaaah!
-MovieSerifText_1a_0089_M	This is AMAZING!
-MovieSerifText_1a_0089_F	This is AMAZING!
-MovieSerifText_1a_0090_M	This is sushi?
-MovieSerifText_1a_0090_F	This is sushi?
-MovieSerifText_1a_0091_M	THIS is sushi?!
-MovieSerifText_1a_0091_F	THIS is sushi?!
-MovieSerifText_1a_0092_M	It's so... It's so...
-MovieSerifText_1a_0092_F	It's so... It's so...
-MovieSerifText_1a_0093_M	IT'S THE BEST FOOD EVER!
-MovieSerifText_1a_0093_F	IT'S THE BEST FOOD EVER!
-MovieSerifText_1a_0094_M	Ah...ah ha ha ha...
-MovieSerifText_1a_0094_F	Ah...ah ha ha ha...
-MovieSerifText_1a_0095_M	Hahaha... Are those tears\nof joy?
-MovieSerifText_1a_0096_M	Well! Don't stop—keep eating!
+MovieSerifText_1a_0001_M	哇——
+MovieSerifText_1a_0001_F	哇——
+MovieSerifText_1a_0002_M	这里有好多果实啊！
+MovieSerifText_1a_0002_F	这里有好多果实哦！
+MovieSerifText_1a_0003_M	喔——
+MovieSerifText_1a_0003_F	喔——
+MovieSerifText_1a_0004_M	嘿呦嘿呦嘿呦～
+MovieSerifText_1a_0004_F	嘿呦～
+MovieSerifText_1a_0005_M	嘿呦嘿呦嘿呦～
+MovieSerifText_1a_0005_F	啊哈哈哈哈哈～
+MovieSerifText_1a_0006_M	太好了！今天能采到很多果子！
+MovieSerifText_1a_0006_F	太好了！今天能采到很多果子！
+MovieSerifText_1a_0007_M	这样的话哪些小鬼们肯定都很高兴！
+MovieSerifText_1a_0007_F	这样的话哪些小孩子们肯定都很高兴！
+MovieSerifText_1a_0008_M	看啊　那不是武藏吗
+MovieSerifText_1a_0009_M	啊!?
+MovieSerifText_1a_0009_F	啊！
+MovieSerifText_1a_0010_M	你是……小次郎！
+MovieSerifText_1a_0010_F	你是……小次郎！
+MovieSerifText_1a_0011_M	今天是在收集树果对吧！
+MovieSerifText_1a_0012_M	真的呢～
+MovieSerifText_1a_0013_M	对啊～
+MovieSerifText_1a_0014_M	你就吃这玩意啊～
+MovieSerifText_1a_0015_M	关你们什么事？\n滚到一边去！
+MovieSerifText_1a_0015_F	关你们什么事啊？\n快点走开！
+MovieSerifText_1a_0016_M	诶～
+MovieSerifText_1a_0017_M	给我！
+MovieSerifText_1a_0018_M	哇啊—！
+MovieSerifText_1a_0018_F	哇啊—！
+MovieSerifText_1a_0019_M	诶　这是什么
+MovieSerifText_1a_0097_M	让我先尝尝
+MovieSerifText_1a_0020_M	你不要吃！
+MovieSerifText_1a_0020_F	你要吃!?
+MovieSerifText_1a_0098_M	嗯？
+MovieSerifText_1a_0022_M	哇啊！呸呸呸！
+MovieSerifText_1a_0099_M	这是什么鬼？
+MovieSerifText_1a_0023_M	像笨蛋一样……
+MovieSerifText_1a_0024_M	你怎么能吃得下这玩意？
+MovieSerifText_1a_0025_M	别犯傻了！
+MovieSerifText_1a_0025_F	别犯傻了！
+MovieSerifText_1a_0026_M	这些果子可是\n我们重要的食物啊！
+MovieSerifText_1a_0026_F	这些果子可是\n我们重要的食物啊！
+MovieSerifText_1a_0027_M	哎呀哎呀
+MovieSerifText_1a_0100_M	就吃这种垃圾东西
+MovieSerifText_1a_0101_M	你还真是贪吃啊
+MovieSerifText_1a_0028_M	啊哈哈哈哈！
+MovieSerifText_1a_0029_M	贪吃！贪吃！
+MovieSerifText_1a_0030_M	小次郎!!
+MovieSerifText_1a_0030_F	小次郎!!
+MovieSerifText_1a_0031_M	来试试吧！
+MovieSerifText_1a_0032_M	哇啊啊啊啊！
+MovieSerifText_1a_0034_M	妈妈……爸爸……
+MovieSerifText_1a_0034_F	妈妈……爸爸……
+MovieSerifText_1a_0035_M	你们去哪里了？
+MovieSerifText_1a_0035_F	你们去哪里了？
+MovieSerifText_1a_0102_M	你们什么时候回来啊……
+MovieSerifText_1a_0102_F	你们什么时候回来啊……
+MovieSerifText_1a_0036_M	我肚子里的虫子不要叫啊！
+MovieSerifText_1a_0036_F	我肚子里的虫子不要叫啊！
+MovieSerifText_1a_0037_M	喂！怎么了？小弟弟
+MovieSerifText_1a_0037_F	喂！怎么了？小姑娘
+MovieSerifText_1a_0038_M	诶？
+MovieSerifText_1a_0038_F	诶？
+MovieSerifText_1a_0039_M	你是谁啊？
+MovieSerifText_1a_0039_F	你是谁啊？
+MovieSerifText_1a_0040_M	你可以叫我谕吉\n我是这个饥饿世界中的流浪者
+MovieSerifText_1a_0041_M	我不知道发生了什么\n但是哭也没有用啊
+MovieSerifText_1a_0042_M	别着急！
+MovieSerifText_1a_0042_F	别着急！
+MovieSerifText_1a_0043_M	废话真多！你别管我！
+MovieSerifText_1a_0043_F	真啰嗦！你别管我！
+MovieSerifText_1a_0044_M	哈哈哈　你一定很饿了吧
+MovieSerifText_1a_0045_M	肚子饿又怎么样！
+MovieSerifText_1a_0045_F	肚子饿又怎么样！
+MovieSerifText_1a_0046_M	没什么不好的
+MovieSerifText_1a_0047_M	多吃东西是小孩子的工作嘛
+MovieSerifText_1a_0048_M	别……别把我当小孩看！\n我可不是小鬼！
+MovieSerifText_1a_0048_F	别……别把我当小孩看！\n我可不是小孩子！
+MovieSerifText_1a_0049_M	哦　好吧好吧
+MovieSerifText_1a_0050_M	不是小鬼的话……\n你能不能像大人一样\n保守秘密呢？
+MovieSerifText_1a_0050_F	不是小孩子的话……\n你能不能像大人一样\n保守秘密呢？
+MovieSerifText_1a_0051_M	秘密？
+MovieSerifText_1a_0051_F	秘密？
+MovieSerifText_1a_0052_M	这作为谁也不告诉的\n我们两个人之间的秘密……
+MovieSerifText_1a_0053_M	我就会让你吃到寿司！
+MovieSerifText_1a_0054_M	你说寿司……
+MovieSerifText_1a_0054_F	你说寿司……
+MovieSerifText_1a_0055_M	寿司……？
+MovieSerifText_1a_0056_M	你听说过这东西吧？\n这是世界上最好吃的食物
+MovieSerifText_1a_0057_M	虽然在共和国的境内上……
+MovieSerifText_1a_0103_M	别说吃一口\n连看一眼都是禁止的
+MovieSerifText_1a_0058_M	即使这样我也让你吃到\n怎么样？很好吃的哦
+MovieSerifText_1a_0059_M	寿司这东西！
+MovieSerifText_1a_0059_F	寿司这东西！
+MovieSerifText_1a_0060_M	我恨死寿司这东西了!!
+MovieSerifText_1a_0060_F	我恨死寿司这东西了!!
+MovieSerifText_1a_0061_M	爸爸也好妈妈也好\n都因为战争的原因不知道去哪里了！
+MovieSerifText_1a_0061_F	爸爸也好妈妈也好\n都因为战争的原因不知道去哪里了！
+MovieSerifText_1a_0062_M	他们发起愚蠢的战争\n只是为了一些愚蠢的寿司？
+MovieSerifText_1a_0062_F	他们发起愚蠢的战争\n只是为了一些愚蠢的寿司？
+MovieSerifText_1a_0063_M	我恨死寿司这东西了!!
+MovieSerifText_1a_0063_F	我恨死寿司这东西了!!
+MovieSerifText_1a_0064_M	我就是饿死　死外面\n也不会吃一口寿司！
+MovieSerifText_1a_0064_F	我就是饿死　死外面\n也不会吃一口寿司！
+MovieSerifText_1a_0065_M	呃……
+MovieSerifText_1a_0065_F	呃……
+MovieSerifText_1a_0066_M	该死的！
+MovieSerifText_1a_0066_F	该死的！
+MovieSerifText_1a_0067_M	确实因为寿司的原因\n大人们发起了战争
+MovieSerifText_1a_0105_M	但是你要知道
+MovieSerifText_1a_0068_M	寿司并没有罪
+MovieSerifText_1a_0069_M	寿司只是一些食物
+MovieSerifText_1a_0106_M	给人们带来了欢乐
+MovieSerifText_1a_0070_M	小弟弟……\n尝一口你就知道了。
+MovieSerifText_1a_0070_F	小妹妹……\n尝一口你就知道了。
+MovieSerifText_1a_0110_M	当当！
+MovieSerifText_1a_0071_M	哇啊～
+MovieSerifText_1a_0071_F	哇啊～
+MovieSerifText_1a_0072_M	浣熊？
+MovieSerifText_1a_0072_F	浣熊？
+MovieSerifText_1a_0073_M	我不是浣熊！
+MovieSerifText_1a_0073_F	我不是浣熊！
+MovieSerifText_1a_0074_M	我是寿司精灵“Ara-o”\n我掌管全世界的寿司！
+MovieSerifText_1a_0075_M	寿司浣熊？
+MovieSerifText_1a_0075_F	寿司浣熊？
+MovieSerifText_1a_0076_M	不是浣熊！是寿司精灵！
+MovieSerifText_1a_0077_M	猩猩？
+MovieSerifText_1a_0077_F	猩猩？
+MovieSerifText_1a_0078_M	我说我是寿司精灵！
+MovieSerifText_1a_0079_M	喂　谕吉　这个人是笨蛋吗？
+MovieSerifText_1a_0080_M	拜托你了！
+MovieSerifText_1a_0081_M	哦　好吧　看我的吧
+MovieSerifText_1a_0082_M	当当！
+MovieSerifText_1a_0083_M	这是什么东西？\n从哪里冒出来的？
+MovieSerifText_1a_0083_F	这是什么东西？\n从哪里冒出来的？
+MovieSerifText_1a_0084_M	这是寿司。来吧　尝一口
+MovieSerifText_1a_0086_M	嗯？
+MovieSerifText_1a_0087_M	嗯嗯嗯？
+MovieSerifText_1a_0088_M	哈～
+MovieSerifText_1a_0089_M	太好吃了！
+MovieSerifText_1a_0089_F	太好吃了！
+MovieSerifText_1a_0090_M	这是寿司？
+MovieSerifText_1a_0090_F	这是寿司？
+MovieSerifText_1a_0091_M	这就是寿司!?
+MovieSerifText_1a_0091_F	这就是寿司!?
+MovieSerifText_1a_0092_M	这就是……这就是寿司!!
+MovieSerifText_1a_0092_F	真……真……
+MovieSerifText_1a_0093_M	真香！
+MovieSerifText_1a_0093_F	真香！
+MovieSerifText_1a_0094_M	啊……啊哈哈哈……
+MovieSerifText_1a_0094_F	啊……啊哈哈哈……
+MovieSerifText_1a_0095_M	哈哈哈　这是喜极而泣吗？
+MovieSerifText_1a_0096_M	就这样！继续吃下去！
 \database\database_movieSerif_1B.msbt
 MovieSerifText_1b_0001_M	You...jerks...
 MovieSerifText_1b_0001_F	You...jerks...
@@ -2160,32 +2162,31 @@ MovieSerifText_9d_0024_M	There was simply no getting\nthrough to His Highness.
 MovieSerifText_9d_0025_M	And so...
 MovieSerifText_9d_0026_M	Musashi liberated every sushi\ngate in the land.
 MovieSerifText_9d_0027_M	And all the world's people knew\nthe joys of sushi.
-\database\database_movieSerif_ED.msbt
-MovieSerifText_ED_0000_M	"World Goes Round"\nSinger: Musashi (Rie Takahashi)\nSongwriter: Toshihiko Watanabe
-MovieSerifText_ED_0001_M	Set the table for a feast—\nwe've got an ocean of sushi!
-MovieSerifText_ED_0002_M	I know I wanna eat them all up\nwith you, so let's dig in now.
-MovieSerifText_ED_0003_M	Suddenly feel like a fool,\nmy belly stuffed all full of food.\n(It's all right.)
-MovieSerifText_ED_0004_M	Still got room for happiness!
-MovieSerifText_ED_0005_M	When I'm hungry I lose my cool.\n(Don't go starting fights,\nnot on party night.)
-MovieSerifText_ED_0006_M	Let's share our food with\nthe world!
-MovieSerifText_ED_0007_M	All my friends are sitting down—\nwe're eating side by side.
-MovieSerifText_ED_0008_M	Sushi tastes so good and makes\nmy tongue begin to dance.
-MovieSerifText_ED_0009_M	More delicious plates go by.\nI want to try them all!
-MovieSerifText_ED_0010_M	That's just the way\nthe world goes round.
-MovieSerifText_ED_0011_M	Mi-les and mi-les of food\nstretches out,
-MovieSerifText_ED_0012_M	welcoming me to\na sushi paradise.
-MovieSerifText_MovieCast_00_M	{c[ffae00]}Sushi Striker\nThe Way of Sushido{c[000000]}\nVoice\n
-MovieSerifText_MovieCast_01_M	{c[ffae00]}Musashi (Male){c[000000]}   Nicolas Roye\n{c[ffae00]}Musashi (Female){c[000000]} Cristina Vee
-MovieSerifText_MovieCast_02_M	{c[ffae00]}Jinrai &{c[000000]}　　Dave Fennoy\n{c[ffae00]}Narrator　　{c[000000]}　　　　　
-MovieSerifText_MovieCast_03_M	{c[ffae00]}Celia　{c[000000]}Brianna Knickerbocker
-MovieSerifText_MovieCast_04_M	{c[ffae00]}Tiburon/Jubay {c[000000]}　Vegas J Jenkins
-MovieSerifText_MovieCast_05_M	{c[ffae00]}Kojiro    {c[000000]}Kyle McCarley
-MovieSerifText_MovieCast_06_M	{c[ffae00]}Franklin  {c[000000]}Brad Venable\n{c[ffae00]}Ara-o  {c[000000]}   Jewels Jaselle
-MovieSerifText_MovieCast_07_M	{c[ffae00]}Kodiak      {c[000000]}Walt Gray\n{c[ffae00]}Masa        {c[000000]}T. Axelrod
-MovieSerifText_MovieCast_08_M	{c[ffae00]}Archie     {c[000000]}Melissa Hutchison\n{c[ffae00]}Ausprey        {c[000000]}Spike Spencer
-MovieSerifText_MovieCast_09_M	{c[ffae00]}Purrsilla  　　{c[000000]}Anna Vocino\n{c[ffae00]}Rio　      {c[000000]}Todd Haberkorn
-MovieSerifText_MovieCast_10_M	{c[ffae00]}Kyatten    {c[000000]}Brina Palencia\n{c[ffae00]}Octavius     {c[000000]}Griffin Burns
-MovieSerifText_MovieCast_11_M	  
+\database\database_movieSerif_ED.msbtMovieSerifText_ED_0000_M	「レッツくるりんワールド」\n歌：ムサシ（CV.高橋李依）\n作詞/作曲/編曲：渡邉俊彦
+MovieSerifText_ED_0001_M	今日はごちそう\nまるで海のなか
+MovieSerifText_ED_0002_M	キラキラかがやいている宝石で
+MovieSerifText_ED_0003_M	あれもこれもと食べ過ぎちゃうけど\n（イッツオーライ）
+MovieSerifText_ED_0004_M	しあわせこそ正義
+MovieSerifText_ED_0005_M	おなかがすいたら\n（戦はデキナイ\n　今日はパーリナイト）
+MovieSerifText_ED_0006_M	レッツ　くるりん　わ　わ　ワールド
+MovieSerifText_ED_0007_M	みんなでいっしょにいただきます
+MovieSerifText_ED_0008_M	笑顔も　ごはんも　おどりだす
+MovieSerifText_ED_0009_M	よりどりみどりの　おいしさに
+MovieSerifText_ED_0010_M	ほっぺもとろけちゃう
+MovieSerifText_ED_0011_M	おかわりは無限大
+MovieSerifText_ED_0012_M	食べ放題パラダイス
+MovieSerifText_MovieCast_00_M	{c[ffae00]}超回転 寿司ストライカー\nThe Way of Sushido\n{c[000000]}キャスト\n
+MovieSerifText_MovieCast_01_M	{c[ffae00]}ムサシ（男子）{c[000000]}　米内 佑希\n{c[ffae00]}ムサシ（女子）{c[000000]}　高橋 李依\n
+MovieSerifText_MovieCast_02_M	{c[ffae00]}ジンライ {c[000000]}　　杉田 智和\n{c[ffae00]}ナレーション 　　　　 {c[000000]}
+MovieSerifText_MovieCast_03_M	{c[ffae00]}ユーリア{c[000000]}　水瀬 いのり\n
+MovieSerifText_MovieCast_04_M	{c[ffae00]}グロム / ジュウベエ{c[000000]}　子安 武人\n
+MovieSerifText_MovieCast_05_M	{c[ffae00]}コジロー{c[000000]}　河西 健吾\n
+MovieSerifText_MovieCast_06_M	{c[ffae00]}ユキチ{c[000000]}　　豊永 利行\n{c[ffae00]}アラオウ{c[000000]}　山本 和臣\n
+MovieSerifText_MovieCast_07_M	{c[ffae00]}アブリコス{c[000000]}　白熊 寛嗣\n{c[ffae00]}リョーマ{c[000000]}　　内山 昂輝\n
+MovieSerifText_MovieCast_08_M	{c[ffae00]}ドートン{c[000000]}　　山本 和臣\n{c[ffae00]}バンブーク{c[000000]}　茶風林　 \n
+MovieSerifText_MovieCast_09_M	{c[ffae00]}ソスナ{c[000000]}　　小林 ゆう　\n{c[ffae00]}チャラオ{c[000000]}　三木 眞一郎\n
+MovieSerifText_MovieCast_10_M	{c[ffae00]}キャッテン{c[000000]}　茶風林　 \n{c[ffae00]}グラード{c[000000]}　　木村 良平\n
+MovieSerifText_MovieCast_11_M	仲村美沙希　　比留間俊哉\n三上由理恵　　朝日奈丸佳\n田所陽向　　　白石兼斗\n内野孝聡
 \database\database_movieSerif_EP.msbt
 MovieSerifText_ep_0001_M	Musashi. Now that you are\na true sushi striker, it's time\nI told you the story of sushi.
 MovieSerifText_ep_0002_M	Sushi was once made of an\nanimal called fish, which swam\nin the seas.
@@ -2204,44 +2205,39 @@ MovieSerifText_ep_0010_F	Because as long as we\nremember to give thanks,\nsushi 
 MovieSerifText_ep_0011_M	Though Musashi dreamed of\na family reunion, until that day\ncame, a life of eating sushi with\nfriends was enough.
 MovieSerifText_ep_0012	The End
 \database\database_movieSerif_OP.msbt
-MovieSerifText_OP_0001_M	"Sushi No. 1"\nSinger: Musashi (Yuki Yonai)\nSongwriter: Hi-yunk\n
-MovieSerifText_OP_0002_M	Hey there! Welcome!
-MovieSerifText_OP_0003_M	Can I take your order?
-MovieSerifText_OP_0004_M	Sushi sprite style!\nSamurai making sparks fly!
-MovieSerifText_OP_0005_M	Let the lanes of light flow\nforward like an endless stream.
-MovieSerifText_OP_doremi_M	(Do-re-mi da da da-da da)
-MovieSerifText_OP_doremi_F	(Do-re-mi da da da-da da)
-MovieSerifText_OP_0006_M	See the belts turn like\nthe wheels of the DJ.
-MovieSerifText_OP_0007_M	Shiny, shiny jewels all\ndisplayed on their fine plates.
-MovieSerifText_OP_0008_M	Real deal, what a steal,\nthis is gourmet fish!
-MovieSerifText_OP_doremi2_M	(Do-re-mi da da da-da da)
-MovieSerifText_OP_doremi2_F	(Do-re-mi da da da-da da)
-MovieSerifText_OP_0009_M	I can't stand it—the hunger
-MovieSerifText_OP_0010_M	is building up.\nMy mouth is watering
-MovieSerifText_OP_0011_M	up a storm.\nIt's gotta be ready now!
-MovieSerifText_OP_0012_M	I see it open, sushi gate now.
-MovieSerifText_OP_0013_M	Take one step.
-MovieSerifText_OP_0014_M	I'm ready for the world up\nahead—everything's spinning.
-MovieSerifText_OP_0015_M	Sushi strikers\ngotta fight hard, yeah!
-MovieSerifText_OP_0016_M	For the children,\nI'm big-hearted.
-MovieSerifText_OP_0017_M	Just getting started!
-MovieSerifText_OP_0018_M	The world is my plate—\nI'm ready to eat!
-MovieSerifText_OP_0019_M	Don’t stop! Wake up my way!
-MovieSerifText_OP_0020_M	Crash crash crash crash!
-MovieSerifText_OP_0021_M	Let it all crash down!
-MovieSerifText_OP_0022_M	Step step step step!
-MovieSerifText_OP_0023_M	I'll come stepping up!
-MovieSerifText_OP_0024_M	I'm never afraid!\nI'll eat anything!
-MovieSerifText_OP_0025_M	And then we can\ndance dance dance dance!
-MovieSerifText_OP_0026_M	Sushi lane drive!
-MovieSerifText_OP_0027_M	Chance chance chance chance!
-MovieSerifText_OP_0028_M	Gotta seize my chance!
-MovieSerifText_OP_0029_M	Bounce bounce bounce bounce!
-MovieSerifText_OP_0030_M	Bouncing to the music!
-MovieSerifText_OP_0031_M	I'm never afraid!\nI'll fight anyone!
-MovieSerifText_OP_0032_M	And then we can\ndance dance dance dance!
-MovieSerifText_OP_0033_M	Sushi lane drive!
-\database\database_movieSerif_OPPV.msbt
+MovieSerifText_OP_0001_M	《寿司 No.1》\n演唱：武藏（CV.米内 佑希）\n作词/作曲/编曲：Hi-yunk
+MovieSerifText_OP_0002_M	Hey!! ラッシャイ!! 
+MovieSerifText_OP_0003_M	何名様ですか?
+MovieSerifText_OP_0004_M	スシガミ・スタイル・\nサムライ・マチガイない！
+MovieSerifText_OP_0005_M	目の前に溢れ出す光のレーン
+MovieSerifText_OP_0006_M	お皿の上で踊って 廻って
+MovieSerifText_OP_0007_M	ピカピカ・光り・輝いて・ドヤって
+MovieSerifText_OP_0008_M	正真正銘 This is 江戸前 FISH
+MovieSerifText_OP_0009_M	腹空かして たまんねー
+MovieSerifText_OP_0010_M	気持ちで 指くわえて
+MovieSerifText_OP_0011_M	見てるだけじゃつまんねー
+MovieSerifText_OP_0012_M	開きだす『スシゲート』
+MovieSerifText_OP_0013_M	さぁ!! One Step!!
+MovieSerifText_OP_0014_M	目まぐるしく廻る世界の前で
+MovieSerifText_OP_0015_M	スシライカー達の fight mind が
+MovieSerifText_OP_0016_M	火花バチバチ ぶつかり
+MovieSerifText_OP_0017_M	So 始まり 
+MovieSerifText_OP_0018_M	取りまくって 食べまくって
+MovieSerifText_OP_0019_M	Don’t stop Wake Up My Way
+MovieSerifText_OP_0020_M	crash crash crash crash
+MovieSerifText_OP_0021_M	崩れていく
+MovieSerifText_OP_0022_M	step step step step
+MovieSerifText_OP_0023_M	上がっていく
+MovieSerifText_OP_0024_M	あ・か・さ・た・な・は・ま・や・ら・わ・ん
+MovieSerifText_OP_0025_M	踊ろう dance dance dance dance
+MovieSerifText_OP_0026_M	スシ レーンドライブ
+MovieSerifText_OP_0027_M	chance chance chance chance 
+MovieSerifText_OP_0028_M	掴んでいく
+MovieSerifText_OP_0029_M	Bounce Bounce Bounce Bounce 
+MovieSerifText_OP_0030_M	弾んでいく
+MovieSerifText_OP_0031_M	あ・か・さ・た・な・は・ま・や・ら・わ・ん
+MovieSerifText_OP_0032_M	踊ろう dance dance dance dance
+MovieSerifText_OP_0033_M	スシ レーンドライブ
 \database\database_nexError.msbt
 Txt_ErrorCutToArena	The connection was interrupted.\n\nYou will now return to the Arena.
 Txt_ErrorCutToShrine	The connection was interrupted.
@@ -2250,179 +2246,6 @@ Txt_ErrorProcess	You will now return to the Arena.
 Txt_ErrorAtBattleRemove3	The connection was interrupted.\n\nYou will now return to the Arena\nand your rating will reflect all\nbattles up to this point. (Your rating\nwill not be uploaded at this time.)
 Txt_ErrorWifiSwitchOff	You cannot connect because\nwireless communication is disabled.\nPlease enable wireless communication.
 Txt_ErrorPiaError	Connection failed.
-\database\database_staffrollName.msbt
-StaffName_001	STAFF
-StaffName_002	CHARACTER DESIGN/ART DIRECTION
-StaffName_003	Ayako Okubo
-StaffName_004	SCENARIO
-StaffName_005	Norihito Nakayashiki
-StaffName_006	ANIMATION DIRECTOR
-StaffName_007	Akitaroh Daichi
-StaffName_008	GAME DEVELOPMENT
-StaffName_009	DIRECTORS
-StaffName_010	Hirotaka Watanabe\nKaori Ando
-StaffName_011	ASSISTANT DIRECTORS
-StaffName_012	Yuki Sakamoto\nKazuyoshi Toriyama
-StaffName_013	EVENT PLANNING LEAD
-StaffName_014	Katsunori Yazawa
-StaffName_015	PLANNING
-StaffName_016	Tomoki Takahashi\nYuichiro Takahashi\nYukito Tanaka\nYuichi Igarashi
-StaffName_017	TECHNICAL DIRECTOR
-StaffName_018	Keiji Hara
-StaffName_019	PROGRAMMING LEAD
-StaffName_020	Yuuka Terauchi
-StaffName_021	PROGRAMMING
-StaffName_022	Masaru Arai\nYuuki Yamada\nAsuna Sato\nYasuhito Wakabayashi
-StaffName_023	ART DIRECTOR
-StaffName_024	Takayasu Morisawa
-StaffName_025	MENU GRAPHIC DESIGN LEAD
-StaffName_026	Yasuhiro Nakamura
-StaffName_027	2D GRAPHIC DESIGN LEAD
-StaffName_028	Nobuaki Tanaka
-StaffName_029	GRAPHIC DESIGN
-StaffName_030	Asumi Chida\nRie Matsushita\nTaeko Kuroda\nKaede Gamo\nMika Okauchi\nRyuichi Raita
-StaffName_031	3D GRAPHIC DESIGN LEAD
-StaffName_032	Masahiro Yanaka
-StaffName_033	3D GRAPHIC DESIGN
-StaffName_034	Kyohei Imanishi
-StaffName_035	DESIGN SUPERVISORS
-StaffName_036	Fumiko Miyamoto\nHaruka Tatsuta\nArisa Yanagi
-StaffName_037	VOICE DIRECTOR
-StaffName_038	David W. Collins
-StaffName_039	RECORDING ENGINEER
-StaffName_040	James Battley
-StaffName_041	ANIMATION
-StaffName_042	ANIMATION DIRECTOR
-StaffName_043	Akitaroh Daichi
-StaffName_044	UNIT DIRECTOR
-StaffName_045	Hisaya Takabayashi
-StaffName_046	GRAPHIC DIRECTORS
-StaffName_047	Tomoyuki Matsumoto\nYuuji Kondoh\nMichinori Shiga\nShuzi Takahara\nIsamu Utsugi\nKazuhiko Yokota
-StaffName_048	KEY ANIMATION
-StaffName_049	MK-ZA\nNaoto Satoh\nChiho Mifune\nTsutomu Yamamoto\nChika Karino\nMakoto Katoh\nShintaroh Tomita\nYuuta Chujoh\nTomoto Abe\n\nMinefumi Harada\n\nstudio Wanpack\nKaori Yamada\nYuri Hanazawa\n\nNEOX\nYoshihito Matsunaga\nMitsuyo Yokono\nTsutomu Tabata\n\nYukiko Miyamoto\nAkira Koshiishi\n\nstudio graphity\nYuuki Kinoshita\nHikaru Uchiyama\nSeren Ogura\nMariko Shimamura\nRieko Noguchi\n\nMK SEOUL
-StaffName_050	ANIMATION/PAINTING
-StaffName_051	MK SEOUL\nTAP\nakatsuki animation\nCL corporation\nTyphoon Graphics
-StaffName_052	BACKGROUND DESIGN
-StaffName_053	Minoru Akiba (Studio Jack)
-StaffName_054	COLOR DESIGN/CHECK
-StaffName_055	Ren Kato
-StaffName_056	COMPOSITE DIRECTOR
-StaffName_057	Ryouhei Matsuda
-StaffName_058	COMPOSITE 
-StaffName_059	Motohiro Kunishige\nHideyuki Kan
-StaffName_060	MOVIE EDITING
-StaffName_061	Shun Tokuda
-StaffName_062	PRODUCTION PRODUCER
-StaffName_063	Ryohei Suzuki
-StaffName_064	PRODUCTION MANAGER
-StaffName_065	Takayuki Watanabe
-StaffName_066	PRODUCTION ASSISTANTS\n
-StaffName_067	Wendi Sun\nArima Kobe
-StaffName_068	PRODUCED BY
-StaffName_069	ZERO-G
-StaffName_070	SONG ANIMATION PRODUCTION
-StaffName_071	Mobius Tone Co., Ltd.\nKazushige Yusa\nRie Oshima
-StaffName_072	anima inc
-StaffName_073	ANIMATION PRODUCER
-StaffName_074	Takeshi Nagasawa
-StaffName_075	LINE PRODUCER
-StaffName_076	Hiroshi Yoshinaga
-StaffName_077	D R A W I Z, inc.
-StaffName_078	CG DIRECTOR
-StaffName_079	Ryosuke Takeuchi
-StaffName_080	CG PRODUCER
-StaffName_081	Atsuko Okami
-StaffName_082	flapper3 Inc.
-StaffName_083	Naoto Yokoyama
-StaffName_084	SOUND DIRECTOR
-StaffName_085	Midori Shimazawa
-StaffName_086	MIXING
-StaffName_087	Akihiro Yamada
-StaffName_088	EFFECTS
-StaffName_089	Emi Takanashi
-StaffName_090	SOUND
-StaffName_091	MUSIC
-StaffName_092	Shunsuke Tsuchiya\n(PROCYON STUDIO)
-StaffName_093	GUITAR
-StaffName_094	Mitsuhiro Ohta
-StaffName_095	MIXING ENGINEERING
-StaffName_096	Hiroyuki Akita
-StaffName_097	SOUND EFFECTS
-StaffName_098	Junya Kuroda (PROCYON STUDIO)
-StaffName_099	SONG PRODUCER
-StaffName_100	George Aburai
-StaffName_101	PRODUCTION MANAGER
-StaffName_102	Mai Sato
-StaffName_103	MIXING ENGINEERING
-StaffName_104	Kaoru Akimoto
-StaffName_105	SOUND DIRECTORS
-StaffName_106	Yoshihisa Tokuda\nMasahiro Kawata
-StaffName_107	ARTIST MANAGEMENT
-StaffName_108	Kaoru Tanabe\nHirotaka Hayakawa
-StaffName_109	Opening Song "Sushi No. 1"
-StaffName_110	SONG : Yuki Yonai\nLYRICS : Hi-yunk​
-StaffName_111	Ending Song "World Goes Round"
-StaffName_112	SONG : Rie Takahashi\nLYRICS : Toshihiko Watanabe
-StaffName_113	SOUND PRODUCTION LEAD
-StaffName_114	Midori Shimazawa
-StaffName_115	RECORDING STAFF
-StaffName_116	Akihiro Yamada\nHiroshi Nakano
-StaffName_117	SOUND PRODUCTION ASSISTANT
-StaffName_118	Sayaka Iba
-StaffName_119	RECORDING STUDIO
-StaffName_120	SUNSET STUDIO
-StaffName_121	SOUND SUPPORT
-StaffName_122	Minako Hamano\nKenji Yamamoto
-StaffName_123	ARTWORK
-StaffName_124	Chiharu Sakiyama\nKazuma Norisada\nYoshiaki Arakaki
-StaffName_125	MANUAL EDITING
-StaffName_126	Yasushi Matsubara
-StaffName_127	TECHNICAL SUPPORT
-StaffName_128	Yuta Ogawa\nShotaro Iwanaga\nToru Inage
-StaffName_129	DEBUG
-StaffName_130	Mario Club Co., Ltd.\nTakahiro Kumasaka\nRyuji Hamaguchi\nYokouchi Daiki
-StaffName_131	DIGITAL Hearts Co., Ltd.\nHiroyuki Tsujii\nShinpei Otowa\nMaiko Yamada\nShota Inagaki\nTakuya Hirose\nKouji Ishibe\nMasaaki Inui\nHayato Suzuki\nKouki Tokitou\nKanji Matsumoto
-StaffName_132	SPECIAL THANKS
-StaffName_133	Erina Onishi\nRyu Nakamura\nKaito Ohata\nNaoya Fujiwara\nToru Osawa\nFuyuko Mezawa\nGORCH BROTHERS
-StaffName_134	LOCALIZATION STAFF
-StaffName_135	NOA LOCALIZATION MANAGEMENT
-StaffName_136	Nate Bihldorff\nReiko Ninomiya\nRich Amtower\nAnn Lin\nTim O'Leary\nScot Ritchey
-StaffName_137	NOA LOCALIZATION
-StaffName_138	Billy Carroll\nRyan Kelley\nLars Knudson\nNich Maragos\nAyaka Osakabe\nMorgan Ritchie\nGalia Rodr\u00edguez Hornedo
-StaffName_139	NOA PRODUCT TESTING
-StaffName_140	Kentaro Nishimura\nSeth Hanser\nQ Dequina\nTomoko Mikami\nKaylee Lewis\nAi Hund\nTom Hertzog\nDouglas Lynn\nCraig So\nDerek Hipple\nPatricia Rivereau\nProduct Testing Technicians
-StaffName_141	NOA COPY EDITING
-StaffName_142	Michael Benedetto\nAlain Dautricourt\nNicko Gonzalez De Santiago\nSara Hoad\nJos\u00e9e Lebeau-B\u00e9dard\nKarina Mora\nErin Peterson\nCarolina Quesada\nLudovic Tientcheu
-StaffName_143	SPECIAL THANKS
-StaffName_144	Jeff Miller
-StaffName_145	<EUROPEAN LOCALISATION>
-StaffName_146	NOE LOCALISATION MANAGEMENT
-StaffName_147	Ivan Garrido\nSaskia Doorschodt
-StaffName_148	TRANSLATION
-StaffName_149	COORDINATION
-StaffName_150	Martina Leonor Bassani\nPierre Sanchez
-StaffName_151	FRENCH
-StaffName_152	Anthony Fouillen\nNatacha Faubert\nDavid Causs\u00e8que\nLaurent Godinot\nSylvain Gsell\nV\u00e9ronique Schneider\nGurvan Le Guen
-StaffName_153	GERMAN
-StaffName_154	Michael Hussinger\nFrithjof Koepp\nJessica Morandi\nThomas Ito\nGunnar Friedrich
-StaffName_155	ITALIAN
-StaffName_156	Mirko Capocelli\nGiovanna Canta\nTito Leati\nEmanuele Tonetti
-StaffName_157	SPANISH
-StaffName_158	Blanca Hueso Taul\u00e9s\nAlfonso D\u00edaz Jim\u00e9nez \nAriel del Rio de Angelis\nEnrique S\u00e1nchez Rosa\nSara Sainz Nieto
-StaffName_159	DUTCH
-StaffName_160	Suzanne Turgeon\nThomas den Haan\nCarsten Harmans\nMark Hoefsteders\nPatrick Koudstaal\nLennart Rotteveel\nChristian Buter
-StaffName_161	QUALITY ASSURANCE
-StaffName_162	COORDINATION
-StaffName_163	J. Ignacio Le\u00f3n L\u00f3pez\nJes\u00fas Guti\u00e9rrez Cuadra\nNOE Quality Assurance\nKeywords Studios
-StaffName_164	PRODUCERS
-StaffName_165	Masanobu Suzui\nHitoshi Yamagami
-StaffName_166	GENERAL PRODUCER
-StaffName_167	Shinya Takahashi
-StaffName_168	EXECUTIVE PRODUCER
-StaffName_169	Tatsumi Kimishima
-StaffName_170	PRODUCTION/COPYRIGHT
-StaffName_171	Nintendo Co., Ltd.
-StaffName_172	\u00a92018 Nintendo\n Co-Developed by indieszero Co., Ltd.
 \database\database_stage.msbt
 stageName_stage001	Border Path 1
 stageName_stage002	Border Path 2
@@ -3035,7 +2858,7 @@ CharaSerif_05_M	Yes. And we'll find it in the hands of\nGeneral Ausprey at the s
 CharaSerif_06_M	Yes. And we'll find it in the hands of\nGeneral Purrsilla at the volcano.
 \event\DbgEventProcess.msbt
 \event\episode_cmn.msbt
-System_Label_MaskLower_M	Press the A Button or touch the lower screen.
+System_Label_MaskLower_M	按下“A”键或点触下屏幕。
 Name_Label_Musashi_M	Musashi
 Name_Label_Salmon_M	Jinrai
 Name_Label_Leo_M	Jinrai
@@ -6150,58 +5973,58 @@ Win_GetFavPowerTitle	New Raw Power!
 Label_ExStage_Advent	Clearing the area and getting\n40 stars has opened the\n{c[006e00]}\u000e\u0001\u0013\u0000 {c[000000]}{c[dc0000]}hidden stages{c[000000]}!
 Label_ExStage30_Advent	Clearing the area and getting\n30 stars has opened the\n{c[006e00]}\u000e\u0001\u0013\u0000 {c[000000]}{c[dc0000]}hidden stages{c[000000]}!
 \scene\scene_cmn.msbt
-Label_AreaNumber	Area %ls
-Btn_Next	Next
-Btn_ToMap_FromEvent	Exit
-Btn_ToMap_FromArea	Zoom Out
-Btn_ToMusashi	Zoom In
-Btn_Back	Back
-Btn_Menu	Menu
-Btn_Decide	Enter
-Btn_Chinju	Shrine\nGrove
-Btn_Battle	Battle!
-Btn_SeeEnemyInfo	Enemy Data
-Btn_EventReplay	Replay Scene
-Btn_Close	Close
-Btn_Change	Change
-Btn_Skill	Skill
-Btn_Sushi	Sushi
-Btn_Data	Data
+Label_AreaNumber	地区 %ls
+Btn_Next	下一步
+Btn_ToMap_FromEvent	退出
+Btn_ToMap_FromArea	返回
+Btn_ToMusashi	进入
+Btn_Back	返回
+Btn_Menu	菜单
+Btn_Decide	确定
+Btn_Chinju	森林神社
+Btn_Battle	对战！
+Btn_SeeEnemyInfo	对手数据
+Btn_EventReplay	重放场景
+Btn_Close	关闭
+Btn_Change	修改
+Btn_Skill	技能
+Btn_Sushi	寿司
+Btn_Data	数据
 Btn_OK	OK
-Btn_Yes	Yes
-Btn_No	No
-Btn_Use	Use
-Btn_Watch	Watch
-BtnSort	Pledge Order
-BtnSortSushiGodName	Sprite Name
-BtnSortSushiGodLv	Sprite Level
-BtnSortSkillName	Skill Name
-BtnSortDicNo	Sprite Number
-BtnSecret	Secret
-BtnAppearance	Form
-Text_Sushi	Sushi
-Text_SushiReinforcement	Your Menu has improved!
-Text_Life	Stamina
-Text_PlayerPower	Strength
-Text_DiffencePower	Defense
-Text_Skill	Skill
+Btn_Yes	是
+Btn_No	否
+Btn_Use	使用
+Btn_Watch	观看
+BtnSort	契约顺序
+BtnSortSushiGodName	精灵名字
+BtnSortSushiGodLv	精灵等级
+BtnSortSkillName	技能名字
+BtnSortDicNo	精灵编号
+BtnSecret	秘密
+BtnAppearance	形态
+Text_Sushi	寿司
+Text_SushiReinforcement	你的菜单提升了！
+Text_Life	耐力
+Text_PlayerPower	力量
+Text_DiffencePower	防御
+Text_Skill	技能
 Text_Lv	Lv
 Text_HP	HP
 Text_VS	VS.
-Text_MainTeam	Your Sprites
-List_Sorting	Reorder
-List_SelectSort	Choose an order for your sushi sprites.
-List_Remove	Remove
-Text_Connecting	Connecting
-Text_Waiting	Waiting
-Text_Searching	Searching
-Text_ReSearch	Retry
-Text_HeroName	Musashi
-Win_FileNameInput	Please enter a name for your save file.\n{c[ff4040]}Please note that your game stats\nas well as your save file name\nwill be viewable to other users\nin Online Battles, Local Battles,\nand ranked listings.{c[000000]}
-Label_ErrorText	This name is not permitted.\nPlease change the following\ncharacters.
-Txt_PlayTime	Play Time
+Text_MainTeam	你的精灵
+List_Sorting	重新排序
+List_SelectSort	选择寿司精灵的顺序。
+List_Remove	移除
+Text_Connecting	连线中
+Text_Waiting	等待中
+Text_Searching	查找中
+Text_ReSearch	再试一次
+Text_HeroName	武藏
+Win_FileNameInput	请输入存档文件的名字。\n{c[ff4040]}请注意你的游戏状态、存档名字会在\n在线对战、本地对战、排名榜\n上被其它玩家看见。{c[000000]}
+Label_ErrorText	不能使用这个名字。\n请再输入一次。
+Txt_PlayTime	游戏时间
 Txt_StageEX	ex.
-Btn_Skip	Skip
+Btn_Skip	跳过
 \scene\scene_eyecatch.msbt
 Title_chapter01	A Taste of Sushi
 Title_chapter02	The Shrine Grove
@@ -6215,29 +6038,29 @@ Title_chapter07	Mountaintop Reunion
 Title_chapter08	Father and Child
 Title_chapter09	Sushi Showdown
 \scene\scene_fileselect.msbt
-Txt_FileSelect	Save File Select
-Txt_SushiLikerRank	Striker Rank
-Txt_HeadLine	Save Files
-Txt_NoData	Fresh Start
-Label_NewFileSelect	Press the A Button to start!
-Btn_Start	Play
-Txt_FileCreate	New Save File
-Txt_GenderSelect	Which Musashi are you?
-Txt_Boy	Boy
-Txt_Girl	Girl
-Label_GenderSelect	Choose the {c[dc0000]}appearance\n{c[000000]}of your main character.\nThis {c[fd592b]}{c[dc0000]}can't be changed{c[fd592b]}\n{c[000000]}once the game begins.
-Label_FileNameInput	You can change your\n{c[dc0000]}save file name{c[000000]} at any\ntime during the game.
-Label_FileNameCheck	This game uses an\n{c[dc0000]}autosave{c[000000]} system that\n{c[fd592b]}{c[dc0000]}saves automatically{c[fd592b]}\n{c[000000]}after each {c[dc0000]}battle{c[000000]}.
-Win_FileNameCheck	Ready to go?
-Win_FileDeleteCheck	The {c[dc0000]}save data{c[000000]} is damaged.\n\nIt will now be reformatted.
-Win_FileDeleting	Creating {c[dc0000]}save data{c[000000]}...
-Win_FileDeleteComplete	{c[dc0000]}Save data{c[000000]} has been reformatted.
-Win_SkipCheck	You can skip cutscenes by touching\nthe Skip button. All cutscenes {c[dc0000]}can be\nviewed later{c[000000]} after starting a game.
-Win_StoryClear	Game Cleared!\nYou can view all {c[ff4040]}{c[dc0000]}animated movies{c[ff4040]} {c[000000]}in{c[ff4040]}\n{c[000000]}the {c[006e00]}Events{c[000000]} section of the {c[006e00]}Secret Scroll{c[000000]}.
+Txt_FileSelect	选择存档文件
+Txt_SushiLikerRank	先锋等级
+Txt_HeadLine	存档文件
+Txt_NoData	新的开始
+Label_NewFileSelect	按“A”键开始！
+Btn_Start	开始游戏
+Txt_FileCreate	新存档文件
+Txt_GenderSelect	你是哪一个武藏呢？
+Txt_Boy	男孩
+Txt_Girl	女孩
+Label_GenderSelect	选择你角色的{c[dc0000]}外观{c[000000]}，\n这一选项在游戏开始后\n{c[fd592b]}{c[dc0000]}不能再更改{c[fd592b]}{c[000000]}。
+Label_FileNameInput	你可以在任何时候修改\n{c[dc0000]}存档文件的名字{c[000000]}。
+Label_FileNameCheck	此游戏需要使用{c[dc0000]}自动保存功能{c[000000]}\\n以便在每次{c[fd592b]}{c[dc0000]}对战{c[fd592b]}\n{c[000000]}后保存{c[dc0000]}存档{c[000000]}。
+Win_FileNameCheck	准备好了吗？
+Win_FileDeleteCheck	{c[dc0000]}存档文件{c[000000]}已损坏。\n\n存档文件会被删除。
+Win_FileDeleting	删除{c[dc0000]}存档文件{c[000000]}中……
+Win_FileDeleteComplete	{c[dc0000]}存档文件{c[000000]}已删除。
+Win_SkipCheck	你可以通过点击“Skip”按钮跳过\n过场动画。所有过场动画可以在开始游戏后\n{c[dc0000]}再次观看{c[000000]}。
+Win_StoryClear	游戏通关！\n现在可以从{c[006e00]}虎之卷{c[000000]}的“{c[006e00]}事件{c[000000]}”中\n观看所有的{c[dc0000]}动画影片{c[000000]}！
 \scene\scene_loading.msbt
-Label_DataBroken	The save data is damaged.\n\nIt will now be reformatted.
-Label_Creating	Creating save data...
-Lable_CreationComplete	Save data has been reformatted.
+Label_DataBroken	存档文件已损坏。\n\n存档文件会被删除。
+Label_Creating	删除存档文件中……
+Lable_CreationComplete	存档文件已删除。
 \scene\scene_map.msbt
 Label_UnknownEnemy	?????????
 Label_Opponent	Opponent
@@ -6296,116 +6119,116 @@ Text_Tower_WinNum	Best Run
 Text_Shrine_SushiLikerRank	Striker Rank
 Text_Shrine_Rank_Up	Rank Up!
 \scene\scene_menuconfig.msbt
-Label_Config	Options
-Label_FileNameChange	Rename Save File
-Label_BgmVolume	Music Volume
-Label_SeVolume	Sound Effect Volume
-Label_PlayerBattleVolume	Musashi Voice Volume
-Label_EnemyBattleVolume	Opponent Voice Volume
-Label_EventVoiceVolume	Conversation Volume
-Label_VolumeZero	Mute
-Label_FileDelete	Delete Save File
-Label_ListMenu	Selection
-WinTxt_FileNameChange	Change the name of this save file.
-WinTxt_FileNameCheck	Is this name OK?
-WinTxt_BgmVolumeChange	Adjust the music volume.\n
-WinTxt_SeVolumeChange	Adjust the sound effect volume.
-WinTxt_PlayerBattleVolumeChange	Adjust Musashi's volume in battle.
-WinTxt_EnemyBattleVolumeChange	Adjust the opponent's volume in battle.
-WinTxt_EventVoiceVolumeChange	Adjust the volume of character\nvoices in conversations.
-WinTxt_FileDelete	{c[dc0000]}Delete your current progress.{c[000000]}
-WinTxt_FileDeleteCheckFirst	Delete this file? Deleted files can't\nbe recovered.
-WinTxt_FileDeleteCheckSecond	{c[dc0000]}Are you sure you want to delete this save\nfile? Once deleted, it cannot be restored.{c[000000]}
+Label_Config	选项
+Label_FileNameChange	重命名存档
+Label_BgmVolume	音乐音量
+Label_SeVolume	效果音音量
+Label_PlayerBattleVolume	武藏声音音量
+Label_EnemyBattleVolume	对手声音音量
+Label_EventVoiceVolume	对话音量
+Label_VolumeZero	静音
+Label_FileDelete	删除存档
+Label_ListMenu	选择
+WinTxt_FileNameChange	修改存档的名字。
+WinTxt_FileNameCheck	这个名字可以吗？
+WinTxt_BgmVolumeChange	调整音乐音量。
+WinTxt_SeVolumeChange	调整效果音音量。
+WinTxt_PlayerBattleVolumeChange	调整对战中武藏的声音。
+WinTxt_EnemyBattleVolumeChange	调整对战中对手的声音。
+WinTxt_EventVoiceVolumeChange	调整对话中的角色音量。
+WinTxt_FileDelete	{c[dc0000]}删除你目前的进度。{c[000000]}
+WinTxt_FileDeleteCheckFirst	确定要删除存档？删除后无法恢复。
+WinTxt_FileDeleteCheckSecond	{c[dc0000]}你真的要删除存档吗？\n存档一旦删除就不能恢复。{c[000000]}
 \scene\scene_menuencyclopedia.msbt
-TxtSceneName	Catalog
-TxtGod	Sushi Sprites
-TxtCommentary	Details
-TxtAwake	Forms
-TxtEatNum	Times Eaten: %d
+TxtSceneName	精灵百科
+TxtGod	寿司精灵
+TxtCommentary	细节
+TxtAwake	形态
+TxtEatNum	食用次数：%d
 TxtGrade	  
 TxtDictionaryNo	#%03d
-TxtGodSecret	%ls's Secrets
-TxtNoContract	*Cannot pledge
-TxtGodSecretInfo	What kind of sprite will it be?\nThat is still a mystery...
-TxtSushiSecretInfo	You haven't eaten this yet.
+TxtGodSecret	%ls的秘密
+TxtNoContract	*不能签订契约
+TxtGodSecretInfo	会是什么样的精灵呢？\n还是个谜……
+TxtSushiSecretInfo	你还没吃过它。
 \scene\scene_menuformation.msbt
-WndTxtExp	Experience
-WndTxtNextLv	To Next Lv
-BtnForm	Form
-BtnAwakeLv1	Base
-BtnAwakeLv2	Awakened
-BtnAwakeLv3	Ascendant
+WndTxtExp	经验值
+WndTxtNextLv	到下一级
+BtnForm	形态
+BtnAwakeLv1	基本
+BtnAwakeLv2	觉醒
+BtnAwakeLv3	支配
 BtnDecision	OK
-MaskTxtSelectForm	Choose a preferred form for this Sushi Sprite.
-WndTxtDiffecePower	Bonus to\nMusashi's\nHP.
-TxtNotBattle	These sprites will earn\nexperience outside of battle.
-TxtNoSet	None set
-TxtSubTeam	Reserve Sprites
+MaskTxtSelectForm	选择适合寿司精灵的形态。
+WndTxtDiffecePower	增加武藏的HP。
+TxtNotBattle	这里的精灵会在\n对战外获取经验。
+TxtNoSet	未设定
+TxtSubTeam	后备精灵
 TxtDictionaryNo	#%03d
-TxtSkillLevel	Skill Lv
-TxtSushiDefault	Standard Sushi
-TxtSushiFever	Jubilee Sushi
+TxtSkillLevel	技能等级
+TxtSushiDefault	普通寿司
+TxtSushiFever	祭典寿司
 TxtPlayerHpSelecting	-----
 TxtSkillExp	%d%%
-TxtGodFormation	Sprite Order
-TxtWinRemoveFormation	This sushi sprite is the lead sprite in\nan Active Sprite group. To set it as a\nReserve Sprite, first remove it from\nits lead position elsewhere.
+TxtGodFormation	精灵顺序
+TxtWinRemoveFormation	这个寿司精灵是出战精灵\n队伍的队首精灵。如果要\n将其设为后备精灵，请先\n将它从队首位置移开。
 TxtExpMax	MAX
 \scene\scene_menuitem.msbt
-TxtSceneName	Items
-TxtItemUse	Usable
-TxtItemImportant	Key Items
-TxtItemNum	On Hand
-TxtItemNothing	You don't have any items.
-TxtWho	Who gets it?
-WinTxt_UseItemPlayer	Use {c[006e00]}\u000e\u0001\u000b\u0000{c[000000]}\non Musashi?
-WinTxt_SetReadyItem01	Set {c[006e00]}\u000e\u0001\u000b\u0000{c[000000]}\nas your prepared item?
-WinTxt_SetReadyItem02	Swap {c[006e00]}\u000e\u0001\u000b\u0000{c[000000]} with {c[dc0000]}\u000e\u0001\u000c\u0000{c[000000]}\nas your prepared item?
-WinTxt_RemoveReadyItem	Remove {c[006e00]}\u000e\u0001\u000b\u0000\n{c[000000]}as your prepared item?
+TxtSceneName	道具
+TxtItemUse	可使用
+TxtItemImportant	重要道具
+TxtItemNum	数量
+TxtItemNothing	现在没有道具。
+TxtWho	要给谁？
+WinTxt_UseItemPlayer	给武藏使用“{c[006e00]}\u000e\u0001\u000b\u0000{c[000000]}”？
+WinTxt_SetReadyItem01	把“{c[006e00]}\u000e\u0001\u000b\u0000{c[000000]}”设为预备道具？
+WinTxt_SetReadyItem02	把“{c[006e00]}\u000e\u0001\u000b\u0000{c[000000]}”代替\n{c[dc0000]}\u000e\u0001\u000c\u0000{c[000000]}设为预备道具？
+WinTxt_RemoveReadyItem	取消把“{c[006e00]}\u000e\u0001\u000b\u0000\n{c[000000]}”设为预备道具？
 \scene\scene_menumydata.msbt
-TxtSceneName	Striker Specs
-TxtNextLv	To next level
-TxtSushiLikerRank	Striker Rank
-TxtLaneDriveGear	Lane-Drive Gear
-TxtFavoriteFood	Favorite Sushi
-TxtPreparationItem	Prepared Item
-TxtNoConfiguration	Nothing Set
-TxtFavoritePower	Raw Power
-TxtNumberHave	On Hand
+TxtSceneName	先锋档案
+TxtNextLv	到下一级
+TxtSushiLikerRank	先锋等级
+TxtLaneDriveGear	寿司带驱动齿轮
+TxtFavoriteFood	最喜欢的寿司
+TxtPreparationItem	预备道具
+TxtNoConfiguration	未设定
+TxtFavoritePower	寿司之力
+TxtNumberHave	数量
 TxtExpMax	MAX
 \scene\scene_menutop.msbt
-Label_Menu	Menu
-Label_ButtleGod	Active Sprites
-Label_Bleed	Reserve Sprites
-Label_Encyclopedia	Catalog
-Label_Form	Sprite Order
-Label_Item	Items
-Label_MyData	Striker Specs
-Label_Toranomaki	Secret Scroll
-Label_NoSet	None Set
-Label_None	None
+Label_Menu	菜单
+Label_ButtleGod	出战精灵
+Label_Bleed	后备精灵
+Label_Encyclopedia	寿司精灵百科
+Label_Form	精灵顺序
+Label_Item	道具
+Label_MyData	先锋档案
+Label_Toranomaki	虎之卷
+Label_NoSet	未设定
+Label_None	无
 \scene\scene_menutoranomaki.msbt
-Label_Tips	Advanced Tactics
-Label_Guidance	The 8 Precepts
-Label_Guidance_1	1. Link 2 or more same-colored plates,\neat the sushi, and throw the plates!
-Label_Guidance_2	2. The taller the stack, the harder it hits!\n(You have 7 seconds to form a stack.)
-Label_Guidance_3	3. Link 7 or more plates to draw out a\nglowing plate that links with anything!
-Label_Guidance_4	There are 9 plate colors—each\nserving a different quality of sushi\nand a different amount of damage.
-Label_Guidance_4_2	As sushi sprites level up,\nthey serve higher-quality sushi!
-Label_Guidance_5	5. The skill gauge rises as you eat! When\nit flashes, touch the button to use a skill!
-Label_Guidance_6	6. Battle strengthens your sushi sprites!\nSome may undergo an awakening...
-Label_Guidance_6_2	Strengthen skills using Skill Charms!
-Label_Guidance_7	7. Use the Circle Pad or stylus\nto move around the map!
-Label_Guidance_8	8. There's a lot more to learn! See the\nAdvanced Tactics section for details!
-Label_Title	Secret Scroll
-Label_Advice	Advice
-Label_Movie	Events
-Label_Achieve	Triumphs
-Label_LikerRank	Striker Rank
-Label_Rank	%d
-Label_Next	Next rank:
-Label_CurrentAchieve	Triumph Plates
-Label_Toranomaki	Secret Scroll
-Btn_Guidance	The 8 Precepts
+Label_Tips	对战要点
+Label_Guidance	寿司先锋八条
+Label_Guidance_1	1. 连接两个以上相同颜色的碟子，\n吃下寿司，扔出碟子！
+Label_Guidance_2	2. 碟堆越高，造成伤害越大！\n（你有7秒来堆叠碟子）
+Label_Guidance_3	3. 连接七个以上碟子可以出现\n能与任何颜色相连的彩虹碟！
+Label_Guidance_4	4. 碟子的颜色具有不同的等级！\n高级别的碟子攻击力更高！
+Label_Guidance_4_2	当寿司精灵等级提升之后，\n它带来寿司的等级也会提升！
+Label_Guidance_5	5. 吃寿司的时候技能槽会提升！\n按下发光时的按钮可以使用技能！
+Label_Guidance_6	6. 对战会使寿司精灵的力量提升！\n有些精灵可能会觉醒……？
+Label_Guidance_6_2	用“技能护身符”强化技能！
+Label_Guidance_7	7. 用摇杆或方向键\n在地图上移动！
+Label_Guidance_8	8. 还有很多需要学习！\n观看“对战要点”了解更多吧！
+Label_Title	虎之卷
+Label_Advice	建议
+Label_Movie	事件回放
+Label_Achieve	成就
+Label_LikerRank	先锋等级
+Label_Rank	%d段
+Label_Next	升段的条件
+Label_CurrentAchieve	已获得的成就碟
+Label_Toranomaki	寿司先锋虎之卷
+Btn_Guidance	寿司先锋八条
 \scene\scene_puzzlebattle.msbt
 DishColorName00	{c[acfdfb]}①{c[000000]}
 DishColorName01	{c[ffcc2f]}①{c[000000]}
@@ -7726,27 +7549,27 @@ TxtPuzzleSettlementSerifPlayer08_f	Very few humans can eat\nsushi like me, eithe
 TxtPuzzleSettlementSerifPlayer09_f	Just a little bit more and I'll\nget there, don't worry!
 TxtPuzzleSettlementSerifPlayer10_f	Even better! I'm a genuine\npuzzle master!
 \scene\scene_puzzlebattleresult.msbt
-Label_PuzzleBattle	Puzzle Match
-Label_ThisTimeScore	Score
-Label_GetItem	Reward
-Label_GetItemNone	Nothing
-Label_TotalWinNumber	Best
-WinTxt_PuzzleBattleRetry	Try again?
+Label_PuzzleBattle	谜题赛
+Label_ThisTimeScore	成绩
+Label_GetItem	奖励
+Label_GetItemNone	无奖励
+Label_TotalWinNumber	最佳
+WinTxt_PuzzleBattleRetry	再试一次？
 \scene\scene_ranking.msbt
-Label_PreviousSeason	Last Season
-Label_MaxRateRanking	Top Rated
-Label_Nationwide	Regionwide
-Label_Friend	Friends
-Label_SeasonNumber	Season No.
-Label_Ranking	Ranking
-Label_Rate	Rating
-Label_Name	Name
-Label_OutOfRanking	Not ranked
+Label_PreviousSeason	上赛季
+Label_MaxRateRanking	最高排名
+Label_Nationwide	区域
+Label_Friend	朋友
+Label_SeasonNumber	赛季数
+Label_Ranking	排名
+Label_Rate	评分
+Label_Name	名字
+Label_OutOfRanking	未上榜
 Label_Number	No.
-Label_RankingNothing	No results
-Btn_Data	Data
-Label_SushiLiker_Rank	Striker Rank
+Label_RankingNothing	无数据
+Btn_Data	数据
+Label_SushiLiker_Rank	先锋排名
 \scene\scene_title.msbt
-Label_Start	Start
-Label_HomeMsg	\ue073: Return to HOME Menu
-Label_Credit	\u00a9 2018 Nintendo. Co-Developed by indieszero Co., Ltd.
+Label_Start	开始游戏
+Label_HomeMsg	按下\ue073返回 HOME 菜单
+Label_Credit	\u00a9 2018 Nintendo. Co-Developed by indieszero Co., Ltd. Translated by Xzonn.

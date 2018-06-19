@@ -54,11 +54,16 @@ ul ul, ul ol, ol ol, ol ul {
     padding-left: 0.84em;
 }
 
+.no-list-style {
+    list-style: none;
+}
+
 table.listTable {
     margin-right: auto;
     margin-left: auto;
     text-align: center;
-    font-size: .9em border-collapse: collapse;
+    font-size: .9em;
+    border-collapse: collapse;
 }
 
 table.listTable>*>tr>td {
@@ -232,6 +237,10 @@ ref, .reficon {
 
 .at-r {
     text-align: right;
+}
+
+p.at-c, p.at-l, p.at-r {
+    text-indent: 0;
 }
 
 .no-bg {
