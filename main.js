@@ -148,7 +148,10 @@ $(function() {
                         while (toc.parent()[0]) {
                             toc = toc.parent();
                         }
-                        toc.children().children().prependTo($("#tocBlock").empty());
+                        while (toc.children().length == 1 && (!(toc.children()[0].tagName.toLowerCase() == "li") || toc.children()[0].classList.contains("no-list-style"))) {
+                            toc = toc.children();
+                        }
+                        toc.children().prependTo($("#tocBlock").empty());
                     })();
                     
                     // 菜单
