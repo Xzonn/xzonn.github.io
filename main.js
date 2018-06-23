@@ -59,9 +59,6 @@ $(function() {
     });
 
     handleStart();
-
-    function contentHandle(data) {
-    }
     
     function handleStart() {
         var thisHash = location.hash.match(/^#!\/([^#]+)/);
@@ -165,7 +162,7 @@ $(function() {
             var bookMark = location.hash.match(/#[^#!\/]+$/);
             if (bookMark && $(bookMark[0])) {
                 $("html").animate({
-                    scrollTop: $(bookMark[0]).offset().top - $("#header").height()
+                    scrollTop: $(bookMark[0]).offset().top
                 }, 300);
             }
         }
