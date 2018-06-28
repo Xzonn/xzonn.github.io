@@ -1,0 +1,11 @@
+name: Xzonn 的小站
+description: 这是 Xzonn 的小站。
+url: 
+markdown: kramdown
+permalink: /:title/
+version: v2.0
+gems:
+  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
+exclude:
+    - LICENSE
+    - README.md

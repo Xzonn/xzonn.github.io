@@ -58,121 +58,88 @@ $(function() {
         showMathMenu: false
     });
 
-    handleStart();
-    
-    function handleStart() {
-        var thisHash = location.hash.match(/^#!\/([^#]+)/);
-        if (!thisHash || thisHash[1] != lastHash) {
-            lastHash = (thisHash || [])[1];
-            var title = lastHash ? decodeURI(lastHash) + (lastHash[lastHash.length - 1] == "/" ? "Readme" : "") : "Readme";
-            $.ajax({
-                dataType: "text",
-                url: title + ".md",
-                type: "get",
-                success: function(data) {
-                    // 标题
-                    $("#contentTitle").text(title.split("/").pop());
-                    document.title = $("#contentTitle").text() + " - Xzonn 的小站";
+    // 代码高亮
+    hljs.initHighlighting();
+    $("#content pre code").each(function() {
+        $(this).html("<ul><li>" + $(this).html().replace(/^\s+/, "").replace(/\s+$/, "").replace(/\n/g, "</li><li>") + "</li></ul>");
+    });
 
-                    // 内容
-                    $("#contentBody").html(new Markdown.Converter().makeHtml(data));
-
-                    // 代码高亮
-                    hljs.initHighlighting();
-                    $("#content pre code").each(function() {
-                        $(this).html("<ul><li>" + $(this).html().replace(/^\s+/, "").replace(/\s+$/, "").replace(/\n/g, "</li><li>") + "</li></ul>");
-                    });
-
-                    //img标签相关
-                    $("#content img").each(function() {
-                        var data = this.dataset;
-                        while (!$(this).siblings().length && ($(this).parent()[0].tagName.toLowerCase() == "p"))
-                            $(this).unwrap();
-                        switch (data.disp) {
-                        case "auto":
-                            return;
-                        case "block":
-                            $(this).css("display", "block");
-                            break;
-                        default:
-                            $(this).wrap($("<div/>").addClass("imgBlock" + (data.disp == "left" ? " a-l" : "")));
-                            $(this).attr("alt") && $("<div/>").addClass("imgDisc").text($(this).attr("alt")).appendTo($(this).parent());
-                        }
-                        $(this).css("width", +data.size || 240).attr("title", $(this).attr("alt"));
-                    });
-
-                    // 注释
-                    $("#content ref").each(function(count) {
-                        $(this).css("bottom", -2 - this.clientHeight).hide();
-                        var p = $(this).parent()[0]
-                          , reficon = $("<sup/>").addClass("reficon").attr("data-id", count).click(function(event) {
-                            $($("ref").fadeOut()[reficon[0].dataset.id]).click(function() {
-                                $(this).fadeOut();
-                            }).fadeIn();
-                        });
-                        $(this).before(reficon);
-                        $(p).append($(this).detach());
-                        $(p).css("position", "relative");
-                    });
-
-                    // 目录
-                    (function() {
-                        var toc = $("<div/>")
-                          , lastRank = 1
-                          , tocID = [];
-                        $("#content").find("h2, h3, h4, h5").each(function(n, t) {
-                            var thisRank = +this.tagName[1];
-                            while (thisRank > lastRank) {
-                                tocID.push(0);
-                                if (toc.children().length == 0) {
-                                    toc = $("<li/>").addClass("no-list-style").appendTo($(toc));
-                                }
-                                toc = $("<ul/>").appendTo($(toc.children()[toc.children().length - 1] || toc));
-                                thisRank--;
-                            }
-                            while (lastRank > thisRank) {
-                                tocID.pop();
-                                toc = toc.parent().parent();
-                                thisRank++;
-                            }
-                            tocID.push(tocID.pop() + 1);
-                            this.id = "hl-" + tocID.join("-");
-                            toc.append($("<li/>").append($("<a/>").attr({
-                                href: location.hash.replace(/#[^!\/]+/, "") + "#hl-" + tocID.join("-")
-                            }).text(this.innerText)))
-                            lastRank = +this.tagName[1];
-                        });
-                        while (toc.parent()[0]) {
-                            toc = toc.parent();
-                        }
-                        while (toc.children().length == 1 && (!(toc.children()[0].tagName.toLowerCase() == "li") || toc.children()[0].classList.contains("no-list-style"))) {
-                            toc = toc.children();
-                        }
-                        toc.children().prependTo($("#tocBlock").empty());
-                    })();
-                    
-                    // 菜单
-                    $(".view-source-link").attr("href", "https://raw.githubusercontent.com/Xzonn/Xzonn.github.io/master/study/" + (lastHash ? "data/" + decodeURI(lastHash) + ".md" : "Readme.md"));
-
-                    // MathJax
-                    MathJax.Hub.Queue(["Typeset", MathJax.Hub, "output"]);
-                }
-            }); 
-        } else {
-            var bookMark = location.hash.match(/#[^#!\/]+$/);
-            if (bookMark && $(bookMark[0])) {
-                $("html").animate({
-                    scrollTop: $(bookMark[0]).offset().top
-                }, 300);
-            }
+    //img标签相关
+    $("#content img").each(function() {
+        var data = this.dataset;
+        while (!$(this).siblings().length && ($(this).parent()[0].tagName.toLowerCase() == "p"))
+            $(this).unwrap();
+        switch (data.disp) {
+        case "auto":
+            return;
+        case "block":
+            $(this).css("display", "block");
+            break;
+        default:
+            $(this).wrap($("<div/>").addClass("imgBlock" + (data.disp == "left" ? " a-l" : "")));
+            $(this).attr("alt") && $("<div/>").addClass("imgDisc").text($(this).attr("alt")).appendTo($(this).parent());
         }
-    }
+        $(this).css("width", +data.size || 240).attr("title", $(this).attr("alt"));
+    });
+
+    // 注释
+    $("#content ref").each(function(count) {
+        $(this).css("bottom", -2 - this.clientHeight).hide();
+        var p = $(this).parent()[0]
+          , reficon = $("<sup/>").addClass("reficon").attr("data-id", count).click(function(event) {
+            $($("ref").fadeOut()[reficon[0].dataset.id]).click(function() {
+                $(this).fadeOut();
+            }).fadeIn();
+        });
+        $(this).before(reficon);
+        $(p).append($(this).detach());
+        $(p).css("position", "relative");
+    });
+
+    // 目录
+    (function() {
+        var toc = $("<div/>")
+          , lastRank = 1
+          , tocID = [];
+        $("#content").find("h2, h3, h4, h5").each(function(n, t) {
+            var thisRank = +this.tagName[1];
+            while (thisRank > lastRank) {
+                tocID.push(0);
+                if (toc.children().length == 0) {
+                    toc = $("<li/>").addClass("no-list-style").appendTo($(toc));
+                }
+                toc = $("<ul/>").appendTo($(toc.children()[toc.children().length - 1] || toc));
+                thisRank--;
+            }
+            while (lastRank > thisRank) {
+                tocID.pop();
+                toc = toc.parent().parent();
+                thisRank++;
+            }
+            tocID.push(tocID.pop() + 1);
+            toc.append($("<li/>").append($("<a/>").attr({
+                href: "#" + this.id
+            }).text(this.innerText)))
+            lastRank = +this.tagName[1];
+        });
+        while (toc.parent()[0]) {
+            toc = toc.parent();
+        }
+        while (toc.children().length == 1 && (!(toc.children()[0].tagName.toLowerCase() == "li") || toc.children()[0].classList.contains("no-list-style"))) {
+            toc = toc.children();
+        }
+        toc.children().prependTo($("#tocBlock").empty());
+    })();
+
+    // MathJax
+    MathJax.Hub.Queue(["Typeset", MathJax.Hub, "output"]);
 
     $("#topLink").click(function() {
         $("html").animate({
             scrollTop: 0
         }, 500);
     });
+
     // 复制带版权
     $(document.body).on("copy", function(e) {
         if (typeof window.getSelection == "undefined") {
@@ -204,7 +171,4 @@ $(function() {
             newdiv.remove();
         });
     });
-
-    // 监听 location.hash 变化
-    window.addEventListener("hashchange", handleStart, false);
 });

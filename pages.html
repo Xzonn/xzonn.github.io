@@ -1,0 +1,14 @@
+---
+layout: default
+permalink: /pages
+---
+<h1 id="contentTitle">全部页面</h1>
+<div id="contentBody">
+{% for post in site.posts %}
+    <div class="pageBlock">
+        <h2 class="pageTitle"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+        <div class="pageTime">{{ post.date | date : "%Y-%m-%d" }}</div>{% if post.info %}
+        <p class="pageInfo">{{ post.info }}</p>{% endif %}
+    </div>
+{% endfor %}
+</div>

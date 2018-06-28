@@ -21,6 +21,15 @@ h1 {
     font-size: 1.8em;
 }
 
+h1#contentTitle:after {
+    display: block;
+    padding-left: 30px;
+    content: "来自 Xzonn 的小站";
+    font-weight: normal;
+    font-style: italic;
+    font-size: 12px;
+}
+
 h2 {
     font-size: 1.6em;
 }
@@ -291,6 +300,19 @@ p.at-c, p.at-l, p.at-r {
     font-size: 20px;
 }
 
+#contentTime:before, .pageTime:before {
+    content: '创建时间：';
+}
+
+#contentTime, .pageTime {
+    margin: 2px 0;
+    padding: 0 15px;
+    border-left: 4px solid #AAA;
+    color: #777;
+    font-size: 12px;
+    font-family: var(--font-family-monospace);
+}
+
 #contentBody>*:last-child {
     margin-bottom: 0 !important;
 }
@@ -301,6 +323,19 @@ p.at-c, p.at-l, p.at-r {
     border-radius: 10px;
     background-color: rgba(255, 255, 255, 0.8);
     text-align: center;
+}
+
+.pageBlock {
+    border-bottom: 2px dashed #777;
+    padding: 0.5em 0;
+}
+
+.pageBlock:last-child {
+    border: none;
+}
+
+.pageInfo {
+    color: #777;
 }
 
 .transparent {
