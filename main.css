@@ -378,18 +378,19 @@ p.at-c, p.at-l, p.at-r {
         display: none !important;
     }
 
-    body, text {
-        font-family: var(--font-family-serif) !important;
-    }
-
-    h1, h2, h3, h4, h5, h6, #content b, #content strong, #content th, #content:after {
-        font-family: var(--font-family-sans-serif);
-    }
-
     body {
         color: #000;
-        font-size: 12px;
+        font-size: 12pt;
         line-height: 1.5;
+    }
+
+    body, #content {
+        margin: 0 auto !important;
+        padding: 0 !important;
+        min-width: 0 !important;
+        border: none !important;
+        background: none !important;
+        box-shadow: none !important;
     }
 
     #content:after {
@@ -410,24 +411,83 @@ p.at-c, p.at-l, p.at-r {
         transform: rotateZ(30deg);
     }
 
-    body, #content {
-        margin: 0 auto !important;
-        padding: 0 !important;
-        min-width: 0 !important;
-        border: none !important;
-        background: none !important;
-        box-shadow: none !important;
+    #footer {
+        font-size: 12pt;
     }
 
-    #footer {
-        font-size: 12px;
+    h1 {
+        text-align: center;
+    }
+
+    h1#contentTitle:after {
+        display: block;
+        font-style: normal;
+    }
+
+    body, h1#contentTitle:after {
+        font-size: 12pt;
+        font-family: Times New Roman, simsun, serif;
+    }
+    
+    text {
+        font-family: Times New Roman, simsun, serif;
+    }
+
+    #contentBody b, #contentBody strong, #contentBody th, h1, h2, h3, h4, h5, h6, #content:after {
+        font-family: Arial, simhei, sans-serif;
+    }
+
+    ref, blockquote {
+        color: #000;
+        font-family: Times New Roman, simkai, serif;
+    }
+
+    .imgBlock {
+        width: 100%;
+    }
+
+    .imgBlock, .imgBlock>img {
+        border: none;
+        background: none;
+    }
+
+    .imgDisc {
+        margin: 1em;
+    }
+
+    table.listTable {
+        margin: 1em auto;
+        border: double #000;
+        border-width: 3px 0;
+    }
+
+    table.listTable {
+        font-size: .9em;
+    }
+
+    table.listTable > * > tr:nth-child(2n) > td, table.listTable > * > tr:nth-child(2n-1) > td, table.listTable > * > tr > th, table.listTable > tr:nth-child(2n) > td, table.listTable > tr:nth-child(2n-1) > td {
+        background: 0 0;
+    }
+
+    table.listTable > * > tr > td {
+        border-style: dashed;
+    }
+
+    table.listTable > * > tr > th {
+        border-color: #000;
+    }
+
+    table.listTable > * > tr > :first-child {
+        border-left: none;
+    }
+
+    table.listTable > * > tr > :last-child {
+        border-right: none;
     }
 
     ref {
         position: initial !important;
         display: block !important;
-        border-color: #000;
-        font-family: 楷体, 楷体_GB2312;
     }
 
     ref + ref {
@@ -436,10 +496,5 @@ p.at-c, p.at-l, p.at-r {
 
     ref, .reficon {
         background-image: url(data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22UTF-8%22%20standalone%3D%22no%22%3F%3E%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20720%20720%22%3E%3Ctitle%3E%E6%9C%AA%E6%A0%87%E9%A2%98-1%3C%2Ftitle%3E%3Ccircle%20cx%3D%22360%22%20cy%3D%22360%22%20r%3D%22320%22%20style%3D%22fill%3Anone%3Bstroke%3A%23000%3Bstroke-width%3A80px%22%2F%3E%3Cpath%20d%3D%22M264%2C418c-19-15-61-37-91-52l37-52c28%2C12%2C71%2C32%2C93%2C46Zm64%2C59c-25%2C50-54%2C102-84%2C150l-59-47c25-36%2C62-94%2C91-150ZM290%2C285c-19-15-60-39-89-54l39-51c27%2C12%2C70%2C33%2C91%2C48ZM627%2C551v66H315V551H441V467H349V401h91V329H330V263H449c-6-20-18-48-29-69l64-22c13%2C23%2C29%2C53%2C35%2C73l-49%2C17H613v66H514v72h83v66H514v84Z%22%20transform%3D%22translate%28-40%20-40%29%22%20style%3D%22fill%3A%23000%22%2F%3E%3C%2Fsvg%3E);
-    }
-
-    blockquote {
-        color: #000;
-        font-family: 仿宋, 仿宋_GB2312;
     }
 }
