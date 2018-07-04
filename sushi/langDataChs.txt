@@ -49,12 +49,12 @@ AchieveInfo_014	你已经在一次连击加成中造成了%d点伤害！
 AchieveName_015	收尾大师
 AchieveFirstBorder_015	在最后一击中造成%d点伤害！
 AchieveInfo_015	你已经在最后一击中造成了%d点伤害！
-AchieveName_016	Puzzle Streaker
-AchieveFirstBorder_016	Win %d matches in a row\nat the Puzzle Hut!
-AchieveInfo_016	You've won %d matches\nin a row at the Puzzle Hut!
-AchieveName_017	Black Belt
-AchieveFirstBorder_017	Earn the Black Belt Bonus\n%d times!
-AchieveInfo_017	You've earned the\nBlack Belt Bonus %d times!
+AchieveName_016	寿司解谜者
+AchieveFirstBorder_016	在寿司谜题赛中获得%d场胜利！
+AchieveInfo_016	你已经在寿司谜题赛中获得了%d场胜利！
+AchieveName_017	黑带
+AchieveFirstBorder_017	取得%d次黑带加成！
+AchieveInfo_017	你已经获得了%d次黑带加成！
 \database\database_adviceInfo.msbt
 AdviceInfo_001	多个寿司碟形成长连线，\n比多个短连线更有利！
 AdviceInfo_002	即使错过了寿司也没有关系，\n继续尝试形成长连线吧！
@@ -68,10 +68,10 @@ AdviceInfo_009	用相同颜色的碟堆造成连击，\n攻击力会上升！
 AdviceInfo_010	如果觉得体力不支，\n可以吃一些水果回复HP。
 AdviceInfo_011	“对战要点”有很多\n帮助对战获胜的提示！
 AdviceInfo_012	对寿司精灵使用“技能护身符”\n可以提高技能的等级！
-AdviceInfo_013	If you hit a wall, revisit earlier stages\nto earn more stars and experience.
-AdviceInfo_014	Earn Triumphs and raise your striker\nrank for easier pledging with sprites.
-AdviceInfo_015	Press the Striker Rank button to see\nwhat's needed to increase your rank.
-AdviceInfo_016	An "!" will appear at the Sushi Sprite\nShrine when you're ready to rank up.
+AdviceInfo_013	如果你难以获得胜利，可以返回\n之前的关卡以获取经验和星星。
+AdviceInfo_014	达成成就后升级先锋等级\n可以更容易与寿司精灵契约。
+AdviceInfo_015	按下“先锋等级”按钮来确认\n升到下一级的条件。
+AdviceInfo_016	当你可以升级时，寿司精灵\n神社会出现“！”符号。
 \database\database_area.msbt
 areaName_area01	共和国
 areaName_area02	海岸区域
