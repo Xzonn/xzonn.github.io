@@ -865,100 +865,100 @@ GodInfo_God145	カラスの姿をとったスシガミ。\n悪知恵は働くが
 GodInfo_God146	夕暮れが近付くと、燃えるような熱い\nラブソングを歌いたくなってしまう。
 GodInfo_God148	冥界の神の姿をとったスシガミ。\n包帯を巻かせれば、右に出る者はいない。
 \database\database_godSkillInfo.msbt
-GodSkillInfo_Double	一定回数、シュートが２つに分裂し\n\u000e\u0001\u0005\u0000２倍強力\u000f\u0001\u0005な攻撃になる！
-GodSkillEffective_Double	効果回数：\u000e\u0001\u0006\u0000回
-GodSkillInfo_ShockShoot	一定時間、シュートする皿が電撃に\nつつまれて\u000e\u0001\u0005\u0000攻撃力\u000f\u0001\u0005が\u000e\u0001\u0005\u0000アップ\u000f\u0001\u0005！
-GodSkillEffective_ShockShoot	効果時間：\u000e\u0001\u0007\u0000秒
-GodSkillInfo_SoulShoot	一定時間、自分の\u000e\u0001\u0005\u0000HPをけずって\u000f\u0001\u0005\n\u000e\u0001\u0005\u0000強力\u000f\u0001\u0005な\u000e\u0001\u0005\u0000シュート\u000f\u0001\u0005をうてる！
-GodSkillEffective_SoulShoot	シュート攻撃力：\u000e\u0001\u0008\u0000倍
-GodSkillInfo_DishAtkUp	９秒間、シュートによって\n\u000e\u0001\u0005\u0000敵のつみ皿を割る\u000f\u0001\u0005力がアップ！
-GodSkillEffective_DishAtkUp	効果：\u000e\u0001\t\u0000倍
-GodSkillInfo_FesHunt	一定時間、敵にシュートを当てると\n\u000e\u0001\u0005\u0000祭りゲージ\u000f\u0001\u0005を\u000e\u0001\u0005\u0000うばいとれる\u000f\u0001\u0005！
-GodSkillEffective_FesHunt	効果時間：\u000e\u0001\u0007\u0000秒
-GodSkillInfo_TableBreak	敵の\u000e\u0001\u0005\u0000テーブル\u000f\u0001\u0005に大きな矢が飛来し、\n\u000e\u0001\u0005\u0000つみ皿\u000f\u0001\u0005をすべて\u000e\u0001\u0005\u0000破壊する\u000f\u0001\u0005！
-GodSkillEffective_TableBreak	発動に必要な皿数：\u000e\u0001\n\u0000皿
-GodSkillInfo_DirectAttack	敵の\u000e\u0001\u0005\u0000頭上\u000f\u0001\u0005に大きな矢を落とし、\n\u000e\u0001\u0005\u0000直接ダメージ\u000f\u0001\u0005を与える！
-GodSkillEffective_DirectAttack	効果ダメージ量：\u000e\u0001\u0008\u0000
-GodSkillInfo_ShockShoot2	一定時間、シュートする皿が雷を\nおびて\u000e\u0001\u0005\u0000攻撃力\u000f\u0001\u0005が\u000e\u0001\u0005\u0000大きくアップ\u000f\u0001\u0005！
-GodSkillInfo_100Free	自分のレーンにあるスシ皿が\u000e\u0001\u0005\u0000すべて\u000f\u0001\u0005\n\u000e\u0001\u0005\u0000同じ特別色\u000f\u0001\u0005に変化。\u000e\u0001\u0005\u0000つなげ放題\u000f\u0001\u0005に！
-GodSkillEffective_100Free	発動に必要な皿数：\u000e\u0001\n\u0000皿
-GodSkillInfo_EatMyway	一定時間、\u000e\u0001\u0005\u0000他色の皿にジャマされず\u000f\u0001\u0005\nに\u000e\u0001\u0005\u0000スシをつなぐ\u000f\u0001\u0005ことができる！
-GodSkillEffective_EatMyway	効果時間：\u000e\u0001\u0007\u0000秒
-GodSkillInfo_EatVacuum	一定時間、スシの\u000e\u0001\u0005\u0000皿色に関係なく\u000f\u0001\u0005\nすべてのスシが\u000e\u0001\u0005\u0000つなげ放題\u000f\u0001\u0005に！
-GodSkillEffective_EatVacuum	効果時間：\u000e\u0001\u0007\u0000秒
-GodSkillInfo_AddInsidiouslyDish	一定時間、スシをつないだ時に\n\u000e\u0001\u0005\u0000いつのまにか３枚追加\u000f\u0001\u0005される！
-GodSkillEffective_AddInsidiouslyDish	効果時間：\u000e\u0001\u0007\u0000秒
-GodSkillInfo_DishRankEne	一定時間、\u000e\u0001\u0005\u0000敵のほこら\u000f\u0001\u0005から出る\nスシの\u000e\u0001\u0005\u0000皿色が１段階ダウン\u000f\u0001\u0005する！
-GodSkillEffective_DishRankEne	効果時間：\u000e\u0001\u0007\u0000秒
-GodSkillInfo_SushiDisappear	一定時間、\u000e\u0001\u0005\u0000敵のほこら\u000f\u0001\u0005から出る\n皿から\u000e\u0001\u0005\u0000スシが消える\u000f\u0001\u0005！
-GodSkillEffective_SushiDisappear	効果時間：\u000e\u0001\u0007\u0000秒
-GodSkillInfo_LaneHighClass	一定時間、\u000e\u0001\u0005\u0000自分のほこら\u000f\u0001\u0005から出る\n皿に\u000e\u0001\u0005\u0000高グレードの皿が増える\u000f\u0001\u0005！
-GodSkillEffective_LaneHighClass	効果時間：\u000e\u0001\u0007\u0000秒
-GodSkillInfo_ComboBonus	10秒間、\u000e\u0001\u0005\u0000コンボによる\u000f\u0001\u0005ダメージの\n\u000e\u0001\u0005\u0000ボーナスが増える\u000f\u0001\u0005！
-GodSkillEffective_ComboBonus	効果：\u000e\u0001\u0008\u0000倍
-GodSkillInfo_LaneFill	自分のレーンにあるスキマを\nすべて\u000e\u0001\u0005\u0000スシで埋める\u000f\u0001\u0005！
-GodSkillEffective_LaneFill	発動に必要な皿数：\u000e\u0001\n\u0000皿
-GodSkillInfo_DamageReflection	自分が次に皿ダメージを受けると、\n\u000e\u0001\u0005\u0000１回だけ\u000f\u0001\u0005相手に\u000e\u0001\u0005\u0000しっぺ返し\u000f\u0001\u0005する！
-GodSkillEffective_DamageReflection	反撃効果：\u000e\u0001\u0008\u0000倍
-GodSkillInfo_Skeleton	一定時間、自分の体が\u000e\u0001\u0005\u0000透明\u000f\u0001\u0005になり、\n\u000e\u0001\u0005\u0000敵の攻撃\u000f\u0001\u0005が\u000e\u0001\u0005\u0000当たらなく\u000f\u0001\u0005なる！
-GodSkillEffective_Skeleton	効果時間：\u000e\u0001\u0007\u0000秒
-GodSkillInfo_LightClothes	一定時間、\u000e\u0001\u0005\u0000サーモン\u000f\u0001\u0005や\u000e\u0001\u0005\u0000まぐろ\u000f\u0001\u0005を含む\nつみ皿から\u000e\u0001\u0005\u0000ダメージ\u000f\u0001\u0005を\u000e\u0001\u0005\u0000受けなく\u000f\u0001\u0005なる
-GodSkillInfo_BarrierShield	一定時間、目の前に\u000e\u0001\u0005\u0000バリア\u000f\u0001\u0005が出現！\n敵からの\u000e\u0001\u0005\u0000皿ダメージ\u000f\u0001\u0005を\u000e\u0001\u0005\u0000軽減\u000f\u0001\u0005する！
-GodSkillEffective_BarrierShield	効果時間：\u000e\u0001\u0007\u0000秒
-GodSkillInfo_RobSheld	一定時間、敵がシュートしてきた\n皿を\u000e\u0001\u0005\u0000自分のものにしてしまう\u000f\u0001\u0005！
-GodSkillEffective_RobSheld	効果時間：\u000e\u0001\u0007\u0000秒
-GodSkillInfo_SweetsHeaven	自分のレーンに\u000e\u0001\u0005\u0000スイーツ\u000f\u0001\u0005が出現！\n\u000e\u0001\u0005\u0000タッチ\u000f\u0001\u0005で食べて\u000e\u0001\u0005\u0000HPを回復\u000f\u0001\u0005できる！
-GodSkillEffective_SweetsHeaven	出現スイーツレベル：\u000e\u0001\u0008\u0000
-GodSkillInfo_FruitsParadise	一定時間、ほこらから出る\u000e\u0001\u0005\u0000皿が全部\u000f\u0001\u0005\n\u000e\u0001\u0005\u0000回復\u000f\u0001\u0005効果を持つ\u000e\u0001\u0005\u0000フルーツ\u000f\u0001\u0005になる！
-GodSkillEffective_FruitsParadise	効果時間：\u000e\u0001\u0007\u0000秒
-GodSkillInfo_LifeHunter	一定時間、敵にシュートを当てると\n\u000e\u0001\u0005\u0000HP\u000f\u0001\u0005を\u000e\u0001\u0005\u0000うばいとれる\u000f\u0001\u0005！
-GodSkillEffective_LifeHunter	効果時間：\u000e\u0001\u0007\u0000秒
-GodSkillInfo_TableDishLifeup	テーブルにある\u000e\u0001\u0005\u0000皿\u000f\u0001\u0005を全部\u000e\u0001\u0005\u0000エネルギー\nに変えて\u000f\u0001\u0005、\u000e\u0001\u0005\u0000HPを回復\u000f\u0001\u0005する！
-GodSkillEffective_TableDishLifeup	回復効果：\u000e\u0001\u0008\u0000倍
-GodSkillInfo_SkillCharge	一定時間、\u000e\u0001\u0005\u0000スキルゲージ\u000f\u0001\u0005の上がり方\nが\u000e\u0001\u0005\u0000３倍\u000f\u0001\u0005になる！
-GodSkillEffective_SkillCharge	効果時間：\u000e\u0001\u0007\u0000秒
-GodSkillInfo_SkillGaugeHunt	一定時間、敵にシュートを当てると\n\u000e\u0001\u0005\u0000スキルゲージ\u000f\u0001\u0005を\u000e\u0001\u0005\u0000うばいとれる\u000f\u0001\u0005！
-GodSkillEffective_SkillGaugeHunt	効果時間：\u000e\u0001\u0007\u0000秒
-GodSkillInfo_SkillCopy	敵が\u000e\u0001\u0005\u0000直前に使ったスキル\u000f\u0001\u0005を、\nコピーして使える！
-GodSkillEffective_SkillCopy	発動に必要な皿数：\u000e\u0001\n\u0000皿
-GodSkillInfo_SkillTerminate	発動時に\u000e\u0001\u0005\u0000自分と敵\u000f\u0001\u0005にかかっていた\n\u000e\u0001\u0005\u0000スキル効果を消してしまう\u000f\u0001\u0005！
-GodSkillEffective_SkillTerminate	発動に必要な皿数：\u000e\u0001\n\u0000皿
-GodSkillInfo_SkillUseNgAll	一定時間、\u000e\u0001\u0005\u0000両者\u000f\u0001\u0005のスキルの\n\u000e\u0001\u0005\u0000発動\u000f\u0001\u0005をすべて\u000e\u0001\u0005\u0000封じる\u000f\u0001\u0005！
-GodSkillEffective_SkillUseNgAll	効果時間：\u000e\u0001\u0007\u0000秒
-GodSkillInfo_SkillUseNgEne	一定時間、\u000e\u0001\u0005\u0000敵\u000f\u0001\u0005のスキルの\n\u000e\u0001\u0005\u0000発動\u000f\u0001\u0005をすべて\u000e\u0001\u0005\u0000封じる\u000f\u0001\u0005！
-GodSkillEffective_SkillUseNgEne	効果時間：\u000e\u0001\u0007\u0000秒
-GodSkillInfo_HpChange	発動すると、\u000e\u0001\u0005\u0000自分と敵の現在HP\u000f\u0001\u0005を\n\u000e\u0001\u0005\u0000入れ替えてしまう\u000f\u0001\u0005！
-GodSkillEffective_HpChange	発動に必要な皿数：\u000e\u0001\n\u0000皿
-GodSkillInfo_EnemyLaneSpd	一定時間、\u000e\u0001\u0005\u0000敵レーン\u000f\u0001\u0005のスピードを\n\u000e\u0001\u0005\u0000３倍速\u000f\u0001\u0005にする！
-GodSkillEffective_EnemyLaneSpd	効果時間：\u000e\u0001\u0007\u0000秒
-GodSkillInfo_LaneSpdAll	一定時間、\u000e\u0001\u0005\u0000両者のレーン\u000f\u0001\u0005のスピード\nを\u000e\u0001\u0005\u0000２倍速\u000f\u0001\u0005にする！
-GodSkillEffective_LaneSpdAll	効果時間：\u000e\u0001\u0007\u0000秒
-GodSkillInfo_CmnMonopoly	一定時間、敵からは\u000e\u0001\u0005\u0000共通レーン\u000f\u0001\u0005が\n見えなくなり、\u000e\u0001\u0005\u0000自分が独占\u000f\u0001\u0005できる！
-GodSkillEffective_CmnMonopoly	効果時間：\u000e\u0001\u0007\u0000秒
-GodSkillInfo_ShrineBlind	一定時間、\u000e\u0001\u0005\u0000敵の各レーンに壁\u000f\u0001\u0005が\n伸びて、\u000e\u0001\u0005\u0000スシを見えにくく\u000f\u0001\u0005する！
-GodSkillEffective_ShrineBlind	効果時間：\u000e\u0001\u0007\u0000秒
-GodSkillInfo_Oke	一定時間、\u000e\u0001\u0005\u0000敵レーン\u000f\u0001\u0005に\u000e\u0001\u0005\u0000じゃま\u000f\u0001\u0005な\n\u000e\u0001\u0005\u0000オケ\u000f\u0001\u0005がどんどん出てくる！
-GodSkillEffective_Oke	オケ出現率：\u000e\u0001\u0008\u0000％
-GodSkillInfo_Wasabi	一定時間、\u000e\u0001\u0005\u0000敵レーン\u000f\u0001\u0005に\u000e\u0001\u0005\u0000ワサビ\u000f\u0001\u0005の\n\u000e\u0001\u0005\u0000山盛り皿\u000f\u0001\u0005をまぎれこませる！
-GodSkillEffective_Wasabi	ワサビ混入率：\u000e\u0001\u0008\u0000％
-GodSkillInfo_NgAutoShoot	一定時間、敵の\u000e\u0001\u0005\u0000自動シュートを封印\u000f\u0001\u0005\nあふれた皿は\u000e\u0001\u0005\u0000消えてしまう\u000f\u0001\u0005！
-GodSkillEffective_NgAutoShoot	効果時間：\u000e\u0001\u0007\u0000秒
-GodSkillInfo_SushiShuffleer	\u000e\u0001\u0005\u0000敵レーンにあるスシ\u000f\u0001\u0005を、\nすべて\u000e\u0001\u0005\u0000シャッフルしてしまう\u000f\u0001\u0005！
-GodSkillEffective_SushiShuffleer	発動に必要な皿数：\u000e\u0001\n\u0000皿
-GodSkillInfo_YoursIsMine	一定時間、\u000e\u0001\u0005\u0000敵レーン\u000f\u0001\u0005で\n\u000e\u0001\u0005\u0000スシをつなぐことができる\u000f\u0001\u0005！
-GodSkillInfo_DishInvisible	一定時間、\u000e\u0001\u0005\u0000敵レーン\u000f\u0001\u0005にある\n\u000e\u0001\u0005\u0000スシ皿の見た目\u000f\u0001\u0005だけ\u000e\u0001\u0005\u0000真っ黒に\u000f\u0001\u0005なる！
-GodSkillEffective_DishInvisible	効果時間：\u000e\u0001\u0007\u0000秒
-GodSkillInfo_BombSend	一定時間、敵レーンに\n\u000e\u0001\u0005\u0000ボムカプセル\u000f\u0001\u0005をまぎれこませる！
+GodSkillInfo_Double	一定回数、シュートが２つに分裂し\n{b}２倍強力{/b}な攻撃になる！
+GodSkillEffective_Double	効果回数：\x0e\x01\x06\0回
+GodSkillInfo_ShockShoot	一定時間、シュートする皿が電撃に\nつつまれて{b}攻撃力{/b}が{b}アップ{/b}！
+GodSkillEffective_ShockShoot	効果時間：\x0e\x01\x07\0秒
+GodSkillInfo_SoulShoot	一定時間、自分の{b}HPをけずって{/b}\n{b}強力{/b}な{b}シュート{/b}をうてる！
+GodSkillEffective_SoulShoot	シュート攻撃力：\x0e\x01\x08\0倍
+GodSkillInfo_DishAtkUp	９秒間、シュートによって\n{b}敵のつみ皿を割る{/b}力がアップ！
+GodSkillEffective_DishAtkUp	効果：\x0e\x01\t\0倍
+GodSkillInfo_FesHunt	一定時間、敵にシュートを当てると\n{b}祭りゲージ{/b}を{b}うばいとれる{/b}！
+GodSkillEffective_FesHunt	効果時間：\x0e\x01\x07\0秒
+GodSkillInfo_TableBreak	敵の{b}テーブル{/b}に大きな矢が飛来し、\n{b}つみ皿{/b}をすべて{b}破壊する{/b}！
+GodSkillEffective_TableBreak	発動に必要な皿数：\x0e\x01\n\0皿
+GodSkillInfo_DirectAttack	敵の{b}頭上{/b}に大きな矢を落とし、\n{b}直接ダメージ{/b}を与える！
+GodSkillEffective_DirectAttack	効果ダメージ量：\x0e\x01\x08\0
+GodSkillInfo_ShockShoot2	一定時間、シュートする皿が雷を\nおびて{b}攻撃力{/b}が{b}大きくアップ{/b}！
+GodSkillInfo_100Free	自分のレーンにあるスシ皿が{b}すべて{/b}\n{b}同じ特別色{/b}に変化。{b}つなげ放題{/b}に！
+GodSkillEffective_100Free	発動に必要な皿数：\x0e\x01\n\0皿
+GodSkillInfo_EatMyway	一定時間、{b}他色の皿にジャマされず{/b}\nに{b}スシをつなぐ{/b}ことができる！
+GodSkillEffective_EatMyway	効果時間：\x0e\x01\x07\0秒
+GodSkillInfo_EatVacuum	一定時間、スシの{b}皿色に関係なく{/b}\nすべてのスシが{b}つなげ放題{/b}に！
+GodSkillEffective_EatVacuum	効果時間：\x0e\x01\x07\0秒
+GodSkillInfo_AddInsidiouslyDish	一定時間、スシをつないだ時に\n{b}いつのまにか３枚追加{/b}される！
+GodSkillEffective_AddInsidiouslyDish	効果時間：\x0e\x01\x07\0秒
+GodSkillInfo_DishRankEne	一定時間、{b}敵のほこら{/b}から出る\nスシの{b}皿色が１段階ダウン{/b}する！
+GodSkillEffective_DishRankEne	効果時間：\x0e\x01\x07\0秒
+GodSkillInfo_SushiDisappear	一定時間、{b}敵のほこら{/b}から出る\n皿から{b}スシが消える{/b}！
+GodSkillEffective_SushiDisappear	効果時間：\x0e\x01\x07\0秒
+GodSkillInfo_LaneHighClass	一定時間、{b}自分のほこら{/b}から出る\n皿に{b}高グレードの皿が増える{/b}！
+GodSkillEffective_LaneHighClass	効果時間：\x0e\x01\x07\0秒
+GodSkillInfo_ComboBonus	10秒間、{b}コンボによる{/b}ダメージの\n{b}ボーナスが増える{/b}！
+GodSkillEffective_ComboBonus	効果：\x0e\x01\x08\0倍
+GodSkillInfo_LaneFill	自分のレーンにあるスキマを\nすべて{b}スシで埋める{/b}！
+GodSkillEffective_LaneFill	発動に必要な皿数：\x0e\x01\n\0皿
+GodSkillInfo_DamageReflection	自分が次に皿ダメージを受けると、\n{b}１回だけ{/b}相手に{b}しっぺ返し{/b}する！
+GodSkillEffective_DamageReflection	反撃効果：\x0e\x01\x08\0倍
+GodSkillInfo_Skeleton	一定時間、自分の体が{b}透明{/b}になり、\n{b}敵の攻撃{/b}が{b}当たらなく{/b}なる！
+GodSkillEffective_Skeleton	効果時間：\x0e\x01\x07\0秒
+GodSkillInfo_LightClothes	一定時間、{b}サーモン{/b}や{b}まぐろ{/b}を含む\nつみ皿から{b}ダメージ{/b}を{b}受けなく{/b}なる
+GodSkillInfo_BarrierShield	一定時間、目の前に{b}バリア{/b}が出現！\n敵からの{b}皿ダメージ{/b}を{b}軽減{/b}する！
+GodSkillEffective_BarrierShield	効果時間：\x0e\x01\x07\0秒
+GodSkillInfo_RobSheld	一定時間、敵がシュートしてきた\n皿を{b}自分のものにしてしまう{/b}！
+GodSkillEffective_RobSheld	効果時間：\x0e\x01\x07\0秒
+GodSkillInfo_SweetsHeaven	自分のレーンに{b}スイーツ{/b}が出現！\n{b}タッチ{/b}で食べて{b}HPを回復{/b}できる！
+GodSkillEffective_SweetsHeaven	出現スイーツレベル：\x0e\x01\x08\0
+GodSkillInfo_FruitsParadise	一定時間、ほこらから出る{b}皿が全部{/b}\n{b}回復{/b}効果を持つ{b}フルーツ{/b}になる！
+GodSkillEffective_FruitsParadise	効果時間：\x0e\x01\x07\0秒
+GodSkillInfo_LifeHunter	一定時間、敵にシュートを当てると\n{b}HP{/b}を{b}うばいとれる{/b}！
+GodSkillEffective_LifeHunter	効果時間：\x0e\x01\x07\0秒
+GodSkillInfo_TableDishLifeup	テーブルにある{b}皿{/b}を全部{b}エネルギー\nに変えて{/b}、{b}HPを回復{/b}する！
+GodSkillEffective_TableDishLifeup	回復効果：\x0e\x01\x08\0倍
+GodSkillInfo_SkillCharge	一定時間、{b}スキルゲージ{/b}の上がり方\nが{b}３倍{/b}になる！
+GodSkillEffective_SkillCharge	効果時間：\x0e\x01\x07\0秒
+GodSkillInfo_SkillGaugeHunt	一定時間、敵にシュートを当てると\n{b}スキルゲージ{/b}を{b}うばいとれる{/b}！
+GodSkillEffective_SkillGaugeHunt	効果時間：\x0e\x01\x07\0秒
+GodSkillInfo_SkillCopy	敵が{b}直前に使ったスキル{/b}を、\nコピーして使える！
+GodSkillEffective_SkillCopy	発動に必要な皿数：\x0e\x01\n\0皿
+GodSkillInfo_SkillTerminate	発動時に{b}自分と敵{/b}にかかっていた\n{b}スキル効果を消してしまう{/b}！
+GodSkillEffective_SkillTerminate	発動に必要な皿数：\x0e\x01\n\0皿
+GodSkillInfo_SkillUseNgAll	一定時間、{b}両者{/b}のスキルの\n{b}発動{/b}をすべて{b}封じる{/b}！
+GodSkillEffective_SkillUseNgAll	効果時間：\x0e\x01\x07\0秒
+GodSkillInfo_SkillUseNgEne	一定時間、{b}敵{/b}のスキルの\n{b}発動{/b}をすべて{b}封じる{/b}！
+GodSkillEffective_SkillUseNgEne	効果時間：\x0e\x01\x07\0秒
+GodSkillInfo_HpChange	発動すると、{b}自分と敵の現在HP{/b}を\n{b}入れ替えてしまう{/b}！
+GodSkillEffective_HpChange	発動に必要な皿数：\x0e\x01\n\0皿
+GodSkillInfo_EnemyLaneSpd	一定時間、{b}敵レーン{/b}のスピードを\n{b}３倍速{/b}にする！
+GodSkillEffective_EnemyLaneSpd	効果時間：\x0e\x01\x07\0秒
+GodSkillInfo_LaneSpdAll	一定時間、{b}両者のレーン{/b}のスピード\nを{b}２倍速{/b}にする！
+GodSkillEffective_LaneSpdAll	効果時間：\x0e\x01\x07\0秒
+GodSkillInfo_CmnMonopoly	一定時間、敵からは{b}共通レーン{/b}が\n見えなくなり、{b}自分が独占{/b}できる！
+GodSkillEffective_CmnMonopoly	効果時間：\x0e\x01\x07\0秒
+GodSkillInfo_ShrineBlind	一定時間、{b}敵の各レーンに壁{/b}が\n伸びて、{b}スシを見えにくく{/b}する！
+GodSkillEffective_ShrineBlind	効果時間：\x0e\x01\x07\0秒
+GodSkillInfo_Oke	一定時間、{b}敵レーン{/b}に{b}じゃま{/b}な\n{b}オケ{/b}がどんどん出てくる！
+GodSkillEffective_Oke	オケ出現率：\x0e\x01\x08\0％
+GodSkillInfo_Wasabi	一定時間、{b}敵レーン{/b}に{b}ワサビ{/b}の\n{b}山盛り皿{/b}をまぎれこませる！
+GodSkillEffective_Wasabi	ワサビ混入率：\x0e\x01\x08\0％
+GodSkillInfo_NgAutoShoot	一定時間、敵の{b}自動シュートを封印{/b}\nあふれた皿は{b}消えてしまう{/b}！
+GodSkillEffective_NgAutoShoot	効果時間：\x0e\x01\x07\0秒
+GodSkillInfo_SushiShuffleer	{b}敵レーンにあるスシ{/b}を、\nすべて{b}シャッフルしてしまう{/b}！
+GodSkillEffective_SushiShuffleer	発動に必要な皿数：\x0e\x01\n\0皿
+GodSkillInfo_YoursIsMine	一定時間、{b}敵レーン{/b}で\n{b}スシをつなぐことができる{/b}！
+GodSkillInfo_DishInvisible	一定時間、{b}敵レーン{/b}にある\n{b}スシ皿の見た目{/b}だけ{b}真っ黒に{/b}なる！
+GodSkillEffective_DishInvisible	効果時間：\x0e\x01\x07\0秒
+GodSkillInfo_BombSend	一定時間、敵レーンに\n{b}ボムカプセル{/b}をまぎれこませる！
 GodSkillInfo_LivemonitorEne	一定時間、ライブモニターに\n対戦相手の映像だけが映る。
-GodSkillEffective_LivemonitorEne	効果時間：\u000e\u0001\u0007\u0000秒
+GodSkillEffective_LivemonitorEne	効果時間：\x0e\x01\x07\0秒
 GodSkillInfo_LivemonitorOwn	一定時間、ライブモニターに\n自分の映像だけが映る。
-GodSkillEffective_LivemonitorOwn	効果時間：\u000e\u0001\u0007\u0000秒
-GodSkillInfo_DishWall	バトル中ずっと、\u000e\u0001\u0005\u0000両者\u000f\u0001\u0005の\u000e\u0001\u0005\u0000７皿以下の\n攻撃\u000f\u0001\u0005を\u000e\u0001\u0005\u0000完全に防ぐ\u000f\u0001\u0005カベが現れる！
-GodSkillInfo_TubConveyor	バトル中ずっと、\u000e\u0001\u0005\u0000両者のレーン\u000f\u0001\u0005に\n\u000e\u0001\u0005\u0000定期的\u000f\u0001\u0005に\u000e\u0001\u0005\u0000オケ\u000f\u0001\u0005が流れてくる！
-GodSkillInfo_DishReducer	バトル中ずっと、\u000e\u0001\u0005\u0000両者\u000f\u0001\u0005とも\u000e\u0001\u0005\u0000皿による\nダメージ\u000f\u0001\u0005が\u000e\u0001\u0005\u00001/10\u000f\u0001\u0005になってしまう！
-GodSkillInfo_LaneLowClass	一定時間、\u000e\u0001\u0005\u0000自分のほこら\u000f\u0001\u0005から出る皿\nが低グレードに偏り\u000e\u0001\u0005\u0000つなぎやすく\u000f\u0001\u0005！
-GodSkillEffective_LaneLowClass	効果時間：\u000e\u0001\u0007\u0000秒
-GodSkillInfo_ComboWall	バトル中ずっと、\u000e\u0001\u0005\u0000両者\u000f\u0001\u0005の\u000e\u0001\u0005\u0000コンボでな\nい攻撃\u000f\u0001\u0005を\u000e\u0001\u0005\u0000完全に防ぐ\u000f\u0001\u0005カベが現れる！
+GodSkillEffective_LivemonitorOwn	効果時間：\x0e\x01\x07\0秒
+GodSkillInfo_DishWall	バトル中ずっと、{b}両者{/b}の{b}７皿以下の\n攻撃{/b}を{b}完全に防ぐ{/b}カベが現れる！
+GodSkillInfo_TubConveyor	バトル中ずっと、{b}両者のレーン{/b}に\n{b}定期的{/b}に{b}オケ{/b}が流れてくる！
+GodSkillInfo_DishReducer	バトル中ずっと、{b}両者{/b}とも{b}皿による\nダメージ{/b}が{b}1/10{/b}になってしまう！
+GodSkillInfo_LaneLowClass	一定時間、{b}自分のほこら{/b}から出る皿\nが低グレードに偏り{b}つなぎやすく{/b}！
+GodSkillEffective_LaneLowClass	効果時間：\x0e\x01\x07\0秒
+GodSkillInfo_ComboWall	バトル中ずっと、{b}両者{/b}の{b}コンボでな\nい攻撃{/b}を{b}完全に防ぐ{/b}カベが現れる！
 \database\database_itemInfo.msbt
 ItemInfo_Burner	スシガミに使うと、出せるスシの中の\nひとつがあぶられてグレードアップする。\n一部のスシにのみ有効。
 ItemInfo_OhudaExpS	スシガミに使うと、ちょっと経験値が\n増えるおふだ。どこかのスシガミの\n苦い経験が封じこめられている。
@@ -2269,11 +2269,11 @@ StaffName_134	LOCALIZATION STAFF
 StaffName_135	NOA LOCALIZATION MANAGEMENT
 StaffName_136	Nate Bihldorff\nReiko Ninomiya\nRich Amtower\nAnn Lin\nTim O'Leary\nScot Ritchey
 StaffName_137	NOA LOCALIZATION
-StaffName_138	Billy Carroll\nRyan Kelley\nLars Knudson\nNich Maragos\nAyaka Osakabe\nMorgan Ritchie\nGalia Rodr\u00edguez Hornedo
+StaffName_138	Billy Carroll\nRyan Kelley\nLars Knudson\nNich Maragos\nAyaka Osakabe\nMorgan Ritchie\nGalia Rodr\xedguez Hornedo
 StaffName_139	NOA PRODUCT TESTING
 StaffName_140	Kentaro Nishimura\nSeth Hanser\nQ Dequina\nTomoko Mikami\nKaylee Lewis\nAi Hund\nTom Hertzog\nDouglas Lynn\nCraig So\nDerek Hipple\nPatricia Rivereau\nProduct Testing Technicians
 StaffName_141	NOA COPY EDITING
-StaffName_142	Michael Benedetto\nAlain Dautricourt\nNicko Gonzalez De Santiago\nSara Hoad\nJos\u00e9e Lebeau-B\u00e9dard\nKarina Mora\nErin Peterson\nCarolina Quesada\nLudovic Tientcheu
+StaffName_142	Michael Benedetto\nAlain Dautricourt\nNicko Gonzalez De Santiago\nSara Hoad\nJos\xe9e Lebeau-B\xe9dard\nKarina Mora\nErin Peterson\nCarolina Quesada\nLudovic Tientcheu
 StaffName_143	SPECIAL THANKS
 StaffName_144	Jeff Miller
 StaffName_145	<EUROPEAN LOCALISATION>
@@ -2283,18 +2283,18 @@ StaffName_148	TRANSLATION
 StaffName_149	COORDINATION
 StaffName_150	Martina Leonor Bassani\nPierre Sanchez
 StaffName_151	FRENCH
-StaffName_152	Anthony Fouillen\nNatacha Faubert\nDavid Causs\u00e8que\nLaurent Godinot\nSylvain Gsell\nV\u00e9ronique Schneider\nGurvan Le Guen
+StaffName_152	Anthony Fouillen\nNatacha Faubert\nDavid Causs\xe8que\nLaurent Godinot\nSylvain Gsell\nV\xe9ronique Schneider\nGurvan Le Guen
 StaffName_153	GERMAN
 StaffName_154	Michael Hussinger\nFrithjof Koepp\nJessica Morandi\nThomas Ito\nGunnar Friedrich
 StaffName_155	ITALIAN
 StaffName_156	Mirko Capocelli\nGiovanna Canta\nTito Leati\nEmanuele Tonetti
 StaffName_157	SPANISH
-StaffName_158	Blanca Hueso Taul\u00e9s\nAlfonso D\u00edaz Jim\u00e9nez \nAriel del Rio de Angelis\nEnrique S\u00e1nchez Rosa\nSara Sainz Nieto
+StaffName_158	Blanca Hueso Taul\xe9s\nAlfonso D\xedaz Jim\xe9nez \nAriel del Rio de Angelis\nEnrique S\xe1nchez Rosa\nSara Sainz Nieto
 StaffName_159	DUTCH
 StaffName_160	Suzanne Turgeon\nThomas den Haan\nCarsten Harmans\nMark Hoefsteders\nPatrick Koudstaal\nLennart Rotteveel\nChristian Buter
 StaffName_161	QUALITY ASSURANCE
 StaffName_162	COORDINATION
-StaffName_163	J. Ignacio Le\u00f3n L\u00f3pez\nJes\u00fas Guti\u00e9rrez Cuadra\nNOE Quality Assurance\nKeywords Studios
+StaffName_163	J. Ignacio Le\xf3n L\xf3pez\nJes\xfas Guti\xe9rrez Cuadra\nNOE Quality Assurance\nKeywords Studios
 StaffName_164	プロデューサー
 StaffName_165	鈴井 匡伸\n山上 仁志
 StaffName_166	ゼネラルプロデューサー
@@ -2303,7 +2303,7 @@ StaffName_168	エグゼクティブプロデューサー
 StaffName_169	君島 達己
 StaffName_170	制作・著作
 StaffName_171	任天堂株式会社
-StaffName_172	\u00a92018 Nintendo\n Co-Developed by indieszero Co., Ltd.
+StaffName_172	\xa92018 Nintendo\n Co-Developed by indieszero Co., Ltd.
 \database\database_stage.msbt
 stageName_stage001	国境への道１
 stageName_stage002	国境への道２
@@ -2602,7 +2602,7 @@ TipsName_004	フルーツとスイーツ
 TipsPage1_004	スシの他に、ほこらからは皿に乗った\n{c[006e00]}フルーツ{c[000000]}が流れてくることがある。\nまた、スキル「{c[006e00]}スイーツ天国{c[000000]}」を使うと\nレーンに{c[006e00]}スイーツ{c[000000]}が出現するぞ！
 TipsPage2_004	{c[006e00]}フルーツ{c[000000]}を食べると{c[dc0000]}HPが少し回復{c[000000]}する！\n一方、{c[006e00]}スイーツ{c[000000]}はスシ皿に乗っていないので\n１つ１つ{c[dc0000]}タッチ{c[000000]}して取る必要があるが、\n{c[006e00]}フルーツ{c[000000]}より{c[dc0000]}多くのHPが回復{c[000000]}するのだ！
 TipsName_005	皿の枚数と攻撃力
-TipsPage1_005	皿色には{c[dc0000]}９段階{c[000000]}の{c[006e00]}グレード{c[000000]}があり、{c[006e00]}グレード{c[000000]}が\n高い皿ほど１枚あたりの攻撃力が高い。\nしかし、敵に与えるダメージは、単純に\n「{c[dc0000]}１枚の攻撃力\u00d7枚数{c[000000]}」では{c[dc0000]}決まらない{c[000000]}のだ！
+TipsPage1_005	皿色には{c[dc0000]}９段階{c[000000]}の{c[006e00]}グレード{c[000000]}があり、{c[006e00]}グレード{c[000000]}が\n高い皿ほど１枚あたりの攻撃力が高い。\nしかし、敵に与えるダメージは、単純に\n「{c[dc0000]}１枚の攻撃力\xd7枚数{c[000000]}」では{c[dc0000]}決まらない{c[000000]}のだ！
 TipsPage2_005	皿はたくさん{c[dc0000]}重ねるほど{c[000000]}攻撃力が{c[dc0000]}より高まる{c[000000]}！\n重ねれば重ねるほどボーナスダメージが増え、\n重ねた枚数以上に強い攻撃ができるのだ！\nそれは、{c[dc0000]}20皿以上{c[000000]}つんだときに最大になる！
 TipsName_006	敵のつみ皿を割る！
 TipsPage1_006	皿をシュートすると、敵にダメージを与えら\nれるだけでなく、{c[dc0000]}投げた皿の攻撃力{c[000000]}に応じて、\n敵のテーブルにある{c[dc0000]}つみ皿を割って減らす{c[000000]}\nことができるぞ！
@@ -2679,7 +2679,7 @@ TipsPage4_025	※{c[006e00]}じゅんびアイテム{c[000000]}は使用でき�
 \event\chapterAvantM003.msbt
 CharaSerif_00_M	ほう･･･ ジンライの件のみならず\n敵に基地をうばわれるとは･･･
 CharaSerif_01_M	･･･どうしたアブリコス？\n失態続きだな。
-CharaSerif_02_M	\u000e\u0000\u0002\u0002\u0096\u0000も、もうしわけございません!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_02_M	{s[150]}も、もうしわけございません!!{s[100]}
 CharaSerif_03_M	解放戦線め･･･ 鎮守の森で力をたくわえたら\nいずれ国境ゲートにも攻めてくるだろう。
 CharaSerif_04_M	･･･はたして、その守りをキサマに\nまかせておいて良いものかな？
 CharaSerif_05_M	ももも･･･もちろんです！\n国境は、かならず守ってみせます!!
@@ -2705,8 +2705,8 @@ Prologue01_01_M	とある共和国、辺境の村―\nそこに１人の少年�
 Prologue01_01_F	とある共和国、辺境の村―\nそこに１人の少女がいた･･･
 Prologue01_02_M	世界スシ大戦で両親と生き別れ、孤児院で\n同じ境遇の子供たちとくらす、少年の名は･･･
 Prologue01_02_F	世界スシ大戦で両親と生き別れ、孤児院で\n同じ境遇の子供たちとくらす、少女の名は･･･
-Prologue01_03_M	\u000e\u0000\u0002\u0002\u0096\u0000じゃーん！オレがムサシだ!!\u000e\u0000\u0002\u0002d\u0000
-Prologue01_03_F	\u000e\u0000\u0002\u0002\u0096\u0000じゃーん！わたしがムサシよ!!\u000e\u0000\u0002\u0002d\u0000
+Prologue01_03_M	{s[150]}じゃーん！オレがムサシだ!!{s[100]}
+Prologue01_03_F	{s[150]}じゃーん！わたしがムサシよ!!{s[100]}
 Prologue01_04_M	あ～･･･ ハラへったぁ。
 Prologue01_04_F	あ～･･･ おなかへったぁ。
 Prologue01_05_M	ムサシにいちゃん！\nボクらも、おなかすいたよう･･･
@@ -2760,15 +2760,15 @@ CharaSerif_28_M	･･･しかしまぁ、ワシもあのリョーマだけは\
 CharaSerif_29_M	フフン♪ 勝手きままを通すのも\nワシららしいかもしれん。
 CharaSerif_30_M	へへっ♪ そうこなくっちゃ！
 \event\chapterBeginM005.msbt
-CharaSerif_10_M	\u000e\u0000\u0002\u0002\u0096\u0000すばらしい!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_10_M	{s[150]}すばらしい!!{s[100]}
 CharaSerif_11_M	ムサシくん！ キミの活躍のおかげで\n交易の町バランまでくることができました！
 CharaSerif_12_M	へへっ♪ それほどでもあるかな？
 CharaSerif_13_M	･･･ここを足がかりに、帝国大橋をこえれば\nいよいよ皇帝グラードのいる帝都です。
 CharaSerif_14_M	よし！ このままイッキにいこうぜ!!
 CharaSerif_14_F	よーし！ このままイッキにいきましょ!!
 CharaSerif_15_M	･･･いえ、これ以上の進軍は\nいったん見合わせようと思います。
-CharaSerif_16_M	\u000e\u0000\u0002\u0002\u0096\u0000ええっ!? なんだそりゃ！\u000e\u0000\u0002\u0002d\u0000
-CharaSerif_16_F	\u000e\u0000\u0002\u0002\u0096\u0000ええっ！なんで!?\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_16_M	{s[150]}ええっ!? なんだそりゃ！{s[100]}
+CharaSerif_16_F	{s[150]}ええっ！なんで!?{s[100]}
 CharaSerif_17_M	帝国大橋をこえるには、帝都防衛のかなめ･･･\n「帝国軍要塞ナバ」の攻略が必要なのです。
 CharaSerif_18_M	へえ、ようさい･･･ナバ？\n
 CharaSerif_18_F	ふーん、ようさい･･･ナバ？\n
@@ -2809,12 +2809,12 @@ CharaSerif_03_F	とうさんの『感謝食べ』･･･\nあれに対抗す�
 CharaSerif_04_M	むぅ･･･ あれは奥義中の奥義じゃからな･･･\nさすがのワシにも、見当がつかん･･･
 CharaSerif_05_M	でも！ それがなきゃ\n戦ったって、また負けちまう･･･!!
 CharaSerif_05_F	でも！ それがないと、戦っても\nまた負けちゃう･･･!!
-CharaSerif_06_M	\u000e\u0000\u0002\u0002\u0096\u0000ちょ、ちょっと！ ニュースやで!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_06_M	{s[150]}ちょ、ちょっと！ ニュースやで!!{s[100]}
 CharaSerif_07_M	なんだ？ ･･･ドートン？
 CharaSerif_07_F	えっ!?  ･･･ドートン？
 CharaSerif_08_M	ユキチはんの･･･！\nユキチはんの所在がわかりましてん！
-CharaSerif_09_M	\u000e\u0000\u0002\u0002\u0096\u0000なんだって!?\u000e\u0000\u0002\u0002d\u0000
-CharaSerif_09_F	\u000e\u0000\u0002\u0002\u0096\u0000なんですって!?\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_09_M	{s[150]}なんだって!?{s[100]}
+CharaSerif_09_F	{s[150]}なんですって!?{s[100]}
 CharaSerif_11_M	なんでも、回転寿司の客の情報によると\nユキチはんは帝国領内の北方･･･
 CharaSerif_12_M	雪原地帯をこえた、帝国軍兵士の\n「再訓練施設」におるそーですわ！
 CharaSerif_13_M	なにっ!? ･･･再訓練施設だって？
@@ -2831,12 +2831,12 @@ CharaSerif_04_M	リーダー！ いよいよ帝都ですね。\nウデがなり�
 CharaSerif_05_M	んー･･････
 CharaSerif_06_M	みんな、聞いてくれ！\nオレ、今回は一人で行くぜ！
 CharaSerif_06_F	みんな聞いて！\nわたし、今回は一人で行く！
-CharaSerif_07_M	\u000e\u0000\u0002\u0002\u0096\u0000ええっ!?\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_07_M	{s[150]}ええっ!?{s[100]}
 CharaSerif_08_M	たぶん、この戦いで\n元帥グロムとの決着がつく･･･
 CharaSerif_09_M	オレは･･･ 自分のチカラだけで\nとうちゃんと戦いたいんだ！
 CharaSerif_09_F	わたしは･･･ 自分のチカラだけで\nとうさんと戦ってみたいの！
 CharaSerif_10_M	リーダー･･････
-CharaSerif_11_M	\u000e\u0000\u0002\u0002\u0096\u0000うむ！ よく言った!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_11_M	{s[150]}うむ！ よく言った!!{s[100]}
 CharaSerif_12_M	えっ、ジンライ･･･？
 CharaSerif_13_M	･･･だが、その「自分のチカラ」\nとうぜんワシらスシガミも入っておろうな？
 CharaSerif_14_M	･･･ああ！\nオレは、スシライカーだからな！
@@ -2863,7 +2863,7 @@ CharaSerif_11_M	･･････！
 CharaSerif_12_M	･･･その後、なんとか家には帰りついたが\n時遅く母さんは･･･
 CharaSerif_13_M	ま、まさか･･･
 CharaSerif_14_M	すべてに絶望した彼女は、鎮守の森にある\n「大スシゲート」の中に身を投じていたのだ･･･
-CharaSerif_15_M	\u000e\u0000\u0002\u0002\u0096\u0000!!?\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_15_M	{s[150]}!!?{s[100]}
 CharaSerif_16_M	ううむ「大スシゲート」･･･\nすべてのスシゲートの頂点である、あれか･･･
 CharaSerif_17_M	ジンライ！ スシゲートの中に\n入った人間は、どうなるんだ？
 CharaSerif_17_F	ジンライ！ スシゲートの中に\n入った人間は、どうなるの？
@@ -2905,9 +2905,9 @@ CharaSerif_04_F	うん！ いま手元にあるのは２つだから\nあと１�
 CharaSerif_05_M	うむ！ 海岸地帯のバンブークが\n持っているに違いない！
 CharaSerif_06_M	うむ！ 火山地帯のソスナが\n持っているに違いない！
 \event\DbgEventProcess.msbt
-Sample_Label_00_M	\u000e\u0001\u0005\u0000サンプル\u000f\u0001\u0005テキスト。\n改行{c[ffae00]}も行えます。{c[000000]}\u000e\u0000\u0004\u0000二行目の{c[91ff1e]}もじれつ{c[000000]}\nもじてすと\u000e\u0000\u0004\u0000{c[dc0000]}さん{c[000000]}ぎょうめ\n\n
-Sample_Label_00_F	\u000e\u0001\u0005\u0000サンプル\u000f\u0001\u0005テキスト。{c[ffae00]}\n改行も行{c[000000]}えます。
-Sample_Label_01_M	\u000e\u0000\u0002\u0002\u0096\u0000これは大きな文字です。\u000e\u0000\u0002\u0002d\u0000
+Sample_Label_00_M	{b}サンプル{/b}テキスト。\n改行{c[ffae00]}も行えます。{c[000000]}\x0e\0\x04\0二行目の{c[91ff1e]}もじれつ{c[000000]}\nもじてすと\x0e\0\x04\0{c[dc0000]}さん{c[000000]}ぎょうめ\n\n
+Sample_Label_00_F	{b}サンプル{/b}テキスト。{c[ffae00]}\n改行も行{c[000000]}えます。
+Sample_Label_01_M	{s[150]}これは大きな文字です。{s[100]}
 Sample_Label_02_M	選択肢１
 Sample_Label_03_M	選択肢２
 Sample_Label_04_M	選択肢３
@@ -3057,8 +3057,8 @@ BossEntryLabelEntry_M	登場！！！！
 BuildUpLevel2_M	たてものLV2にアップ！！
 BuildUpLevel3_M	たてものLV3にアップ！！
 \event\eventBattleM001.msbt
-EventBattleM001_01_M	\u000e\u0000\u0002\u0002\u0096\u0000なっ、なんだ!? ここは!?\u000e\u0000\u0002\u0002d\u0000
-EventBattleM001_01_F	\u000e\u0000\u0002\u0002\u0096\u0000なっ、なに!? ここ!?\u000e\u0000\u0002\u0002d\u0000
+EventBattleM001_01_M	{s[150]}なっ、なんだ!? ここは!?{s[100]}
+EventBattleM001_01_F	{s[150]}なっ、なに!? ここ!?{s[100]}
 EventBattleM001_02_M	ハッハッハ！ ここは「{c[91ff1e]}スシフィールド{c[000000]}」\nスシガミがスシをバンバン出せる場所さ。
 EventBattleM001_03_M	まぁ、こまかいコトは気にすんな！\nジャンジャンいってくれ！
 EventBattleM001_04_M	フフッ♪ ただしスシには\nちょっとした作法があってな。
@@ -3070,16 +3070,16 @@ EventBattleM001_08_M	･･･なんだよ？\nスシなんて出てこないじ
 EventBattleM001_08_F	･･･なんなのよ？\nスシなんて出てこないじゃん！
 EventBattleM001_09_M	おっと、わりぃ！ まずはアラオウに\nほこらへ入ってもらわないとな･･･
 EventBattleM001_10_M	アラオウ！ よろしく！
-EventBattleM001_12_M	\u000e\u0000\u0002\u0002\u0096\u0000うぉぉ！スシがこんなに!!\u000e\u0000\u0002\u0002d\u0000
-EventBattleM001_12_F	\u000e\u0000\u0002\u0002\u0096\u0000うゎぁ♪スシがこんなに!!\u000e\u0000\u0002\u0002d\u0000
+EventBattleM001_12_M	{s[150]}うぉぉ！スシがこんなに!!{s[100]}
+EventBattleM001_12_F	{s[150]}うゎぁ♪スシがこんなに!!{s[100]}
 EventBattleM001_13_M	さあ食べな！ さっきと同じように\n{c[ffae00]}同じ色の皿{c[000000]}を{c[ffae00]}２つ以上{c[000000]}つなぐんだ！
 EventBattleM001_14_M	うまい！ なんておいしいんだ！
 EventBattleM001_14_F	おいしい！ なんておいしいの！
 EventBattleM001_16_M	フフッ･･･ ドンドン食べな。\nなるべくたくさん、一気にいくんだ！
 EventBattleM001_17_M	ただし、皿をつなげられるのは{c[ffae00]}7秒間{c[000000]}！\n７秒たつと、皿は{c[ffae00]}消えちまう{c[000000]}から注意しな！
 EventBattleM001_18_M	{c[ffae00]}７秒以内{c[000000]}に、なるべく{c[ffae00]}たくさん{c[000000]}皿をつないで\n一気に食べる･･･ それがイキってもんだぜ！
-EventBattleM001_19_M	\u000e\u0000\u0002\u0002\u0096\u0000おいしい！ おいしいよ！\u000e\u0000\u0002\u0002d\u0000
-EventBattleM001_19_F	\u000e\u0000\u0002\u0002\u0096\u0000おいしい！ チョーおいしい！\u000e\u0000\u0002\u0002d\u0000
+EventBattleM001_19_M	{s[150]}おいしい！ おいしいよ！{s[100]}
+EventBattleM001_19_F	{s[150]}おいしい！ チョーおいしい！{s[100]}
 \event\eventBattleM002.msbt
 EventBattleM002_01_M	ん？ ここはさっきの･･･
 EventBattleM002_02_M	なあ、それで･･･ 皿で攻撃って\nどうやるんだ？
@@ -3091,7 +3091,7 @@ EventBattleM002_08_M	スシを食べた後、{c[ffae00]}積まれた皿{c[000000
 EventBattleM002_10_M	よいぞ！ テーブルに積まれた皿は\nいつでも敵にシュートできるのだ！
 EventBattleM002_11_M	{c[ffae00]}同じ色の皿{c[000000]}を{c[ffae00]}続けて{c[000000]}当てると{c[91ff1e]}コンボ{c[000000]}となり\nより大きいダメージを与えられるぞ！
 EventBattleM002_12_M	おのれ･･･ 皿シュートを使いこなすとは。\nだがオマエと遊んでいるヒマはない！
-EventBattleM002_13_M	\u000e\u0000\u0002\u0002\u0096\u0000食らえい！\u000e\u0000\u0002\u0002d\u0000
+EventBattleM002_13_M	{s[150]}食らえい！{s[100]}
 EventBattleM002_15_M	よくぞ気づいた！ テーブルに積まれた皿は\nいつでも敵にシュートできるのだ！
 EventBattleM002_16_M	{c[ffae00]}同じ色の皿{c[000000]}を{c[ffae00]}続けて{c[000000]}当てると{c[91ff1e]}コンボ{c[000000]}となり\nより大きいダメージを与えられるぞ！
 EventBattleM002_17_M	しかし、シュートの方法はそれだけではない。\n皿を投げずに、スシをどんどん食べてみよ！
@@ -3100,14 +3100,14 @@ EventBattleM002_19_M	そうじゃ！ テーブルが皿でいっぱいになる�
 CharaSerif_01_M	よし！ 村までもうちょいだ。
 CharaSerif_01_F	よーし！ 村まであと\nもうちょい！
 CharaSerif_02_M	おいおい、あわててころぶなよ？
-CharaSerif_03_M	\u000e\u0000\u0002\u0002\u0096\u0000いたぞ！ユキチだ!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_03_M	{s[150]}いたぞ！ユキチだ!!{s[100]}
 CharaSerif_04_M	なんだ？ なんで帝国軍が\nこんなところに？
 CharaSerif_04_F	なに？ なんで帝国軍が\nこんなところに？
 CharaSerif_05_M	･･･まずいな。\n オマエはかくれていろ。
 CharaSerif_06_M	フフフ･･･ キサマだな？\n手配のあった、ユキチとかいうのは。
 CharaSerif_07_M	ほう･･･ おどろいたな。\n帝国軍の将軍が、じきじきにお出ましか？
 CharaSerif_08_M	んん？ オレさまを知っているとは\nなかなかナイスな心がけ！
-CharaSerif_09_M	\u000e\u0000\u0002\u0002\u0096\u0000グハハハ！ そう、オレさまが･･･\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_09_M	{s[150]}グハハハ！ そう、オレさまが･･･{s[100]}
 CharaSerif_10_M	ぬはは！ 帝国軍三将軍がひとり\nアブリコスさまだ!!
 CharaSerif_11_M	フン！ すべてのスシとスシガミは帝国のモノ･･･\nそれを勝手につれあるくとは･･･！
 CharaSerif_12_M	さぁ、おとなしくスシガミを･･･\nアラオウをわたせ！
@@ -3115,9 +3115,9 @@ CharaSerif_13_M	･･･ゴメンだな。 オレは自分の夢をはたすま
 CharaSerif_14_M	そもそも、アイツだって\nそれをのぞんじゃいねぇさ。
 CharaSerif_15_M	うむ！ わが心はユキチと共にある。\nウヌら帝国になど、したがわぬぞ!!
 CharaSerif_16_M	フン、ぬかしたな･･･\nバカめ！ 全力で後悔させてやる。
-CharaSerif_17_M	\u000e\u0000\u0002\u0002\u0096\u0000ヤロウども！ やっちまえ!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_17_M	{s[150]}ヤロウども！ やっちまえ!!{s[100]}
 CharaSerif_18_M	くっ、コンチクショー･･･め･･･
-CharaSerif_19_M	\u000e\u0000\u0002\u0002\u0096\u0000グハハハハ!! ざまあみろ！\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_19_M	{s[150]}グハハハハ!! ざまあみろ！{s[100]}
 CharaSerif_20_M	ユキチさん！
 CharaSerif_21_M	んん？ なんだこのガキは？
 CharaSerif_21_F	んん？ なんだこの小娘は？
@@ -3131,12 +3131,12 @@ CharaSerif_27_F	こーなりゃヤケよ！ やってやる!!
 CharaSerif_10_M	ハッハッハ！\nどうだ、はじめてのスシの味は！
 CharaSerif_11_M	くっ･･･ ありがとう。カンドーしたよ\nスシが、こんなにすばらしいなんて･･･！
 CharaSerif_11_F	くっ･･･ ありがとう。カンドーしたわ\nスシが、こんなにすばらしいなんて･･･！
-CharaSerif_12_M	\u000e\u0000\u0002\u0002\u0096\u0000うわぁーん！うまかったよー!!\u000e\u0000\u0002\u0002d\u0000
-CharaSerif_12_F	\u000e\u0000\u0002\u0002\u0096\u0000うわぁーん！おいしかったー!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_12_M	{s[150]}うわぁーん！うまかったよー!!{s[100]}
+CharaSerif_12_F	{s[150]}うわぁーん！おいしかったー!!{s[100]}
 CharaSerif_13_M	やれやれ、ないたりわらったり\nいそがしいヤツじゃな･･･
-CharaSerif_14_M	\u000e\u0000\u0002\u0002\u0096\u0000るせえ！スシダヌキ!!\u000e\u0000\u0002\u0002d\u0000
-CharaSerif_14_F	\u000e\u0000\u0002\u0002\u0096\u0000るさいわね！スシダヌキ!!\u000e\u0000\u0002\u0002d\u0000
-CharaSerif_15_M	\u000e\u0000\u0002\u0002\u0096\u0000なんじゃと!?\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_14_M	{s[150]}るせえ！スシダヌキ!!{s[100]}
+CharaSerif_14_F	{s[150]}るさいわね！スシダヌキ!!{s[100]}
+CharaSerif_15_M	{s[150]}なんじゃと!?{s[100]}
 CharaSerif_16_M	･･･おや？\nおい、そのジャケットは･･･
 CharaSerif_17_M	ん･･･ これか？ オレが小さいころ\nとうちゃんがくれたんだ。
 CharaSerif_17_F	ん･･･ これ？ わたしが小さいころ\nとうさんがくれたの。
@@ -3159,7 +3159,7 @@ CharaSerif_30_M	それが、{c[ffae00]}寿司ストライカー{c[000000]}！\n�
 CharaSerif_32_M	このご時世、スシを食べられる人間は\nごくわずかだ。だがな･･･
 CharaSerif_33_M	このうまさを知らない人がいるなんて･･･\nもったいないと思わないか？
 CharaSerif_34_M	国も人種も関係なく･･･ 世界中の人たちと\nスシをわかちあいたいと思わないか？
-CharaSerif_35_M	\u000e\u0000\u0002\u0002\u0096\u0000ええっ!? 世界中の人と･･･ スシ!?\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_35_M	{s[150]}ええっ!? 世界中の人と･･･ スシ!?{s[100]}
 CharaSerif_36_M	オレは、そのために旅をしている。\n･･･スシで、世界中を笑顔にしたいんだ。
 CharaSerif_37_M	（すげえ･･･ せ、世界？\n　よくわかんないけど･･･ すげえ！）
 CharaSerif_37_F	（すごい･･･ せ、世界？\n　よくわかんないけど･･･ すごい！）
@@ -3171,7 +3171,7 @@ CharaSerif_40_F	じゃあ、ウチの村にもきてよ！\n親のないチビ�
 CharaSerif_41_M	へへっ♪ オレ･･･ アイツらにも\nスシを食わせてやりてえ！
 CharaSerif_41_F	へへっ♪ わたし･･･ あの子たちにも\nスシを食べさせてあげたい！
 CharaSerif_43_M	わかった、いこう！\n次は、その子たちを笑顔にしよう！
-CharaSerif_44_M	\u000e\u0000\u0002\u0002\u0096\u0000やった！ ありがとう!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_44_M	{s[150]}やった！ ありがとう!!{s[100]}
 \event\homeArena.msbt
 homeArena_cmn_out_01_M	ほな、またウデだめしにきてや！
 homeArena_cmn_in_01_M	闘技場へようこそ！ ムサシはん！
@@ -3241,10 +3241,10 @@ homeKoziin_cmn_btn_healthy_M	みんな元気か？
 homeKoziin_cmn_btn_healthy_F	みんな元気？
 homeKoziin_select_00_M	へへっ♪ どのスシガミに\nおねがいしようかな･･･
 homeKoziin_select_00_F	ふふっ♪ どのスシガミに\nおねがいしよっかな･･･
-homeKoziin_select_01_M	よし、今日はスシパーティーだ！\n{c[91ff1e]}\u000e\u0001\u000d\u0000{c[000000]}、たのんだぜ！
-homeKoziin_select_01_F	よーし、今日はスシパーティーよ！\n{c[91ff1e]}\u000e\u0001\u000d\u0000{c[000000]}、おねがいね！
+homeKoziin_select_01_M	よし、今日はスシパーティーだ！\n{c[91ff1e]}\x0e\x01\x0d\0{c[000000]}、たのんだぜ！
+homeKoziin_select_01_F	よーし、今日はスシパーティーよ！\n{c[91ff1e]}\x0e\x01\x0d\0{c[000000]}、おねがいね！
 homeKoziin_select_02_M	子供たちとスシパーティーをひらいた！
-homeKoziin_select_03_M	ごちそうさま！ \u000e\u0001\u000d\u0000!!
+homeKoziin_select_03_M	ごちそうさま！ \x0e\x01\x0d\0!!
 homeKoziin_select_lv00_00_M	ありがとう、ムサシ･･･\n子供たち、とても喜んでたわ！
 homeKoziin_select_lv01_00_M	ありがとう！ わたしも楽しかった･･･\nムサシって、とても子供たち思いなのね！
 homeKoziin_select_lv02_02_M	ありがとう･･･ ムサシ！\nみんなの笑顔は、あなたのおかげよ。
@@ -3374,8 +3374,8 @@ homeShrine_rank_00_M	じゃあ、{c[91ff1e]}スシライカーランク{c[000000
 homeShrine_rank_00_F	じゃあ、{c[91ff1e]}スシライカーランク{c[000000]}を上げて！
 homeShrine_rank_01_M	かしこまりました。\nこの願いを大スシガミ様にお伝えしましょう･･･
 homeShrine_rank_02_M	えいっ！
-homeShrine_rank_03_M	おめでとうございます！ムサシさん！\n{c[91ff1e]}スシライカーランク{c[000000]}{c[ffae00]}\u000e\u0001\u0011\u0000段{c[000000]}に昇段しましたよ！
-homeShrine_rank_04_M	では、昇段のお祝いに『{c[91ff1e]}\u000e\u0001\u000b\u0000{c[000000]}』を\n差し上げます。お受け取りください。
+homeShrine_rank_03_M	おめでとうございます！ムサシさん！\n{c[91ff1e]}スシライカーランク{c[000000]}{c[ffae00]}\x0e\x01\x11\0段{c[000000]}に昇段しましたよ！
+homeShrine_rank_04_M	では、昇段のお祝いに『{c[91ff1e]}\x0e\x01\x0b\0{c[000000]}』を\n差し上げます。お受け取りください。
 homeShrine_rank_06_M	ムサシさん･･･ まだ次の{c[ffae00]}昇段条件{c[000000]}を\n達成できていないようです。
 homeShrine_rank_07_M	では、{c[91ff1e]}虎の巻{c[000000]}で{c[91ff1e]}スシライカーランク{c[000000]}を確認し\n{c[ffae00]}昇段条件{c[000000]}を満たしたら、いらしてください。
 homeShrine_first_word_00_M	『{c[91ff1e]}いのりの言葉{c[000000]}』って？
@@ -3413,31 +3413,31 @@ homeShrine_get_ContractDish_sg_M	『{c[91ff1e]}みけいやくの皿{c[000000]}�
 homeShrine_get_GearSuper_sg_M	『{c[91ff1e]}スーパーギア{c[000000]}』を手に入れた！\n
 homeShrine_get_GearStream_sg_M	『{c[91ff1e]}ストリームギア{c[000000]}』を手に入れた！\n
 homeShrine_get_OhudaExpL_sg_M	『{c[91ff1e]}けいけんのおふだ大{c[000000]}』を手に入れた！\n
-homeShrine_get_OhudaExpL_pl_M	『{c[91ff1e]}けいけんのおふだ大{c[000000]}』\u00d7{c[ffae00]}\u000e\u0001\u0014\u0000 {c[000000]}を手に入れた！\n
+homeShrine_get_OhudaExpL_pl_M	『{c[91ff1e]}けいけんのおふだ大{c[000000]}』\xd7{c[ffae00]}\x0e\x01\x14\0 {c[000000]}を手に入れた！\n
 homeShrine_get_OhudaDefS_sg_M	『{c[91ff1e]}まもりのおふだ小{c[000000]}』を手に入れた！\n
-homeShrine_get_OhudaDefS_pl_M	『{c[91ff1e]}まもりのおふだ小{c[000000]}』\u00d7{c[ffae00]}\u000e\u0001\u0014\u0000{c[000000]} を手に入れた！\n
+homeShrine_get_OhudaDefS_pl_M	『{c[91ff1e]}まもりのおふだ小{c[000000]}』\xd7{c[ffae00]}\x0e\x01\x14\0{c[000000]} を手に入れた！\n
 homeShrine_get_OhudaDefM_sg_M	『{c[91ff1e]}まもりのおふだ中{c[000000]}』を手に入れた！\n
-homeShrine_get_OhudaDefM_pl_M	『{c[91ff1e]}まもりのおふだ中{c[000000]}』\u00d7{c[ffae00]}\u000e\u0001\u0014\u0000{c[000000]} を手に入れた！\n
+homeShrine_get_OhudaDefM_pl_M	『{c[91ff1e]}まもりのおふだ中{c[000000]}』\xd7{c[ffae00]}\x0e\x01\x14\0{c[000000]} を手に入れた！\n
 homeShrine_get_OhudaDefL_sg_M	『{c[91ff1e]}まもりのおふだ大{c[000000]}』を手に入れた！\n
-homeShrine_get_OhudaDefL_pl_M	『{c[91ff1e]}まもりのおふだ大{c[000000]}』\u00d7{c[ffae00]}\u000e\u0001\u0014\u0000{c[000000]} を手に入れた！\n
+homeShrine_get_OhudaDefL_pl_M	『{c[91ff1e]}まもりのおふだ大{c[000000]}』\xd7{c[ffae00]}\x0e\x01\x14\0{c[000000]} を手に入れた！\n
 homeShrine_get_OhudaSkill_sg_M	『{c[91ff1e]}スキルのおふだ{c[000000]}』を手に入れた！\n
-homeShrine_get_OhudaSkill_pl_M	『{c[91ff1e]}スキルのおふだ{c[000000]}』\u00d7{c[ffae00]}\u000e\u0001\u0014\u0000{c[000000]} を手に入れた！\n
+homeShrine_get_OhudaSkill_pl_M	『{c[91ff1e]}スキルのおふだ{c[000000]}』\xd7{c[ffae00]}\x0e\x01\x14\0{c[000000]} を手に入れた！\n
 homeShrine_get_OhudaSkillC_sg_M	『{c[91ff1e]}スキルのおふだ大{c[000000]}』を手に入れた！\n
-homeShrine_get_OhudaSkillC_pl_M	『{c[91ff1e]}スキルのおふだ大{c[000000]}』\u00d7{c[ffae00]}\u000e\u0001\u0014\u0000{c[000000]} を手に入れた！\n
+homeShrine_get_OhudaSkillC_pl_M	『{c[91ff1e]}スキルのおふだ大{c[000000]}』\xd7{c[ffae00]}\x0e\x01\x14\0{c[000000]} を手に入れた！\n
 homeShrine_get_PlayerHpS_sg_M	『{c[91ff1e]}スタミナのかんづめ{c[000000]}』を手に入れた！\n
-homeShrine_get_PlayerHpS_pl_M	『{c[91ff1e]}スタミナのかんづめ{c[000000]}』\u00d7{c[ffae00]}\u000e\u0001\u0014\u0000{c[000000]} を手に入れた！\n
+homeShrine_get_PlayerHpS_pl_M	『{c[91ff1e]}スタミナのかんづめ{c[000000]}』\xd7{c[ffae00]}\x0e\x01\x14\0{c[000000]} を手に入れた！\n
 homeShrine_get_PlayerAtkS_sg_M	『{c[91ff1e]}ちからのかんづめ{c[000000]}』を手に入れた！\n
-homeShrine_get_PlayerAtkS_pl_M	『{c[91ff1e]}ちからのかんづめ{c[000000]}』\u00d7{c[ffae00]}\u000e\u0001\u0014\u0000{c[000000]} を手に入れた！\n
+homeShrine_get_PlayerAtkS_pl_M	『{c[91ff1e]}ちからのかんづめ{c[000000]}』\xd7{c[ffae00]}\x0e\x01\x14\0{c[000000]} を手に入れた！\n
 homeShrine_get_ReadyRetryM_sg_M	『{c[91ff1e]}ふっかつのまめ中{c[000000]}』を手に入れた！\n
-homeShrine_get_ReadyRetryM_pl_M	『{c[91ff1e]}ふっかつのまめ中{c[000000]}』\u00d7{c[ffae00]}\u000e\u0001\u0014\u0000{c[000000]} を手に入れた！\n
+homeShrine_get_ReadyRetryM_pl_M	『{c[91ff1e]}ふっかつのまめ中{c[000000]}』\xd7{c[ffae00]}\x0e\x01\x14\0{c[000000]} を手に入れた！\n
 homeShrine_get_ReadyRetryL_sg_M	『{c[91ff1e]}ふっかつのまめ大{c[000000]}』を手に入れた！\n
-homeShrine_get_ReadyRetryL_pl_M	『{c[91ff1e]}ふっかつのまめ大{c[000000]}』\u00d7{c[ffae00]}\u000e\u0001\u0014\u0000{c[000000]} を手に入れた！\n
+homeShrine_get_ReadyRetryL_pl_M	『{c[91ff1e]}ふっかつのまめ大{c[000000]}』\xd7{c[ffae00]}\x0e\x01\x14\0{c[000000]} を手に入れた！\n
 homeShrine_get_ReadyRetryC_sg_M	『{c[91ff1e]}超ふっかつのまめ{c[000000]}』を手に入れた！\n
-homeShrine_get_ReadyRetryC_pl_M	『{c[91ff1e]}超ふっかつのまめ{c[000000]}』\u00d7{c[ffae00]}\u000e\u0001\u0014\u0000{c[000000]} を手に入れた！\n
+homeShrine_get_ReadyRetryC_pl_M	『{c[91ff1e]}超ふっかつのまめ{c[000000]}』\xd7{c[ffae00]}\x0e\x01\x14\0{c[000000]} を手に入れた！\n
 homeShrine_get_OhudaPT_sg_M	『{c[91ff1e]}パーティーのおふだ{c[000000]}』を手に入れた！\n
-homeShrine_get_OhudaPT_pl_M	『{c[91ff1e]}パーティーのおふだ{c[000000]}』\u00d7{c[ffae00]}\u000e\u0001\u0014\u0000{c[000000]} を手に入れた！\n
+homeShrine_get_OhudaPT_pl_M	『{c[91ff1e]}パーティーのおふだ{c[000000]}』\xd7{c[ffae00]}\x0e\x01\x14\0{c[000000]} を手に入れた！\n
 homeShrine_get_Burner_sg_M	『{c[91ff1e]}あぶりバーナー{c[000000]}』を手に入れた！\n
-homeShrine_get_Burner_pl_M	『{c[91ff1e]}あぶりバーナー{c[000000]}』\u00d7{c[ffae00]}\u000e\u0001\u0014\u0000{c[000000]} を手に入れた！\n
+homeShrine_get_Burner_pl_M	『{c[91ff1e]}あぶりバーナー{c[000000]}』\xd7{c[ffae00]}\x0e\x01\x14\0{c[000000]} を手に入れた！\n
 \event\homeSushibar.msbt
 homeSushibar_cmn_out_01_M	ほな、またきてや！
 homeSushibar_cmn_ret_01_M	まあ、ゆっくりしてってや！
@@ -3544,7 +3544,7 @@ homeSushibar_06_b_02_M	ごぶじでしたか、ムサシさん！ ひとりで\n
 homeSushibar_06_b_03_M	リョーマさんは、本当はムサシさんくらいの\n年頃の子が苦手だとおっしゃってました。
 homeSushibar_06_b_04_M	それでも重要な役目を任されるムサシさんは\nやはりたよりにされてると思いますよ！
 homeSushibar_06_c_01_M	そうやなぁ･･･ じゃあ\nお客さんのお話でも聞いてみましょか。
-homeSushibar_06_c_02_M	\u000e\u0000\u0002\u0002\u0096\u0000かかれーっ!!\u000e\u0000\u0002\u0002d\u0000
+homeSushibar_06_c_02_M	{s[150]}かかれーっ!!{s[100]}
 homeSushibar_06_c_03_M	･･･おっと失礼。こんど指揮をまかされたもので\n号令の練習をしていたんです。
 homeSushibar_06_c_04_M	しかし問題はスシです。いくさの中で食べるスシは\nどうしてもツライ･･･ 本当にツライのです･･･
 homeSushibar_07_in_01_M	ムサシはん！ ええ情報が入ったで！
@@ -3702,7 +3702,7 @@ homeSushibar_16_a_06_M	へへっ♪ そうか･･･\n元気そうでよかっ
 homeSushibar_16_a_06_F	へへっ♪ そっか･･･\n元気そうでなによりよ！
 homeSushibar_16_a_07_M	フフフ･･･ そんなわけでバキューム食いは\nもう使わなくなってな･･･
 homeSushibar_16_a_08_M	ぐははははっ！ おまえにオレさまのスシガミを\nゆずってやりに来たのだ！ ありがたく思え!!
-homeSushibar_16_a_09_M	\u000e\u0000\u0002\u0002\u0096\u0000ええっ!?\u000e\u0000\u0002\u0002d\u0000
+homeSushibar_16_a_09_M	{s[150]}ええっ!?{s[100]}
 homeSushibar_16_a_10_M	ええい！ とっとと受けとれい!!\nこれは、かつてのつぐないでもあるのだ･･･！
 homeSushibar_16_a_12_M	ふむ･･･ 我が名はワニオウ。\n我が契約のスシ、食べてくれるな？
 homeSushibar_16_a_13_M	スシガミ『{c[91ff1e]}ワニオウ{c[000000]}』と契約した！\nスキルは「{c[91ff1e]}バキューム食い{c[000000]}」だ！
@@ -3792,16 +3792,16 @@ BtnYes_M	いただくぜ！
 BtnYes_F	いただくわ！
 BtnNo_M	またこんどな！
 BtnNo_F	またこんどね！
-NarrationInfomation_M	スシガミ『{c[91ff1e]}\u000e\u0001\u000d\u0000{c[000000]}』と契約した！\nスキルは「{c[91ff1e]}\u000e\u0001\u0012\u0000{c[000000]}」だ！
-NarrationEquipMain_M	{c[91ff1e]}\u000e\u0001\u000d\u0000{c[000000]}の契約皿は、\nスカジャンの{c[ffae00]}ソデ{c[000000]}に装着された！
-NarrationEquipSub_M	{c[91ff1e]}\u000e\u0001\u000d\u0000{c[000000]}の契約皿は、\nスカジャンの{c[ffae00]}育成枠{c[000000]}に装着された！
-NarrationEquipNone_M	{c[91ff1e]}\u000e\u0001\u000d\u0000{c[000000]}の契約皿は、\nスカジャンの{c[ffae00]}裏地にストック{c[000000]}された！
-NarrationAwakeLv2_M	スシガミ『{c[91ff1e]}\u000e\u0001\u000d\u0000{c[000000]}』は覚醒した！
-NarrationAwakeLv3_M	スシガミ『{c[91ff1e]}\u000e\u0001\u000d\u0000{c[000000]}』は超覚醒した！
+NarrationInfomation_M	スシガミ『{c[91ff1e]}\x0e\x01\x0d\0{c[000000]}』と契約した！\nスキルは「{c[91ff1e]}\x0e\x01\x12\0{c[000000]}」だ！
+NarrationEquipMain_M	{c[91ff1e]}\x0e\x01\x0d\0{c[000000]}の契約皿は、\nスカジャンの{c[ffae00]}ソデ{c[000000]}に装着された！
+NarrationEquipSub_M	{c[91ff1e]}\x0e\x01\x0d\0{c[000000]}の契約皿は、\nスカジャンの{c[ffae00]}育成枠{c[000000]}に装着された！
+NarrationEquipNone_M	{c[91ff1e]}\x0e\x01\x0d\0{c[000000]}の契約皿は、\nスカジャンの{c[ffae00]}裏地にストック{c[000000]}された！
+NarrationAwakeLv2_M	スシガミ『{c[91ff1e]}\x0e\x01\x0d\0{c[000000]}』は覚醒した！
+NarrationAwakeLv3_M	スシガミ『{c[91ff1e]}\x0e\x01\x0d\0{c[000000]}』は超覚醒した！
 NarrationPotentialPlate_M	『{c[91ff1e]}みけいやくの皿{c[000000]}』からスシガミが現れた！
 Child_Contact1_M	フフッ･･･ スシが大好きみたいだな！\nあんたの食べっぷりでわかったぞ！
 Child_Contact2_M	さあ、オイラとの契約のスシ、\nもちろん食べてくれるよな？
-Child_ChoiceYes_M	よっし契約成立だ！ オイラは{c[91ff1e]}\u000e\u0001\u000d\u0000{c[000000]}！\nこれからよろしくな！
+Child_ChoiceYes_M	よっし契約成立だ！ オイラは{c[91ff1e]}\x0e\x01\x0d\0{c[000000]}！\nこれからよろしくな！
 Child_ChoiceNo_M	そっか･･･ 残念だなあ･･･\nじゃあまたな！ さいなら！
 Child_AlreadyFriend1_M	お！ 仲間のスシガミがいるみたいだな！\nじゃあオイラの{c[ffae00]}スシソウル{c[000000]}をあげるぜ！
 Child_AlreadyFriend2_M	それじゃあ仲間をよろしくな！
@@ -3809,7 +3809,7 @@ Child_AwakeBefore_M	おお？ なんだかチカラがわいてきたぞ！
 Child_AwakeAfter_M	よっしゃあ！ チカラがもどったぜ！
 AncMan_Contact1_M	ふむ･･･ おぬしのスシへの愛情、\nしかと見させてもらったぞ。
 AncMan_Contact2_M	さあ、我との契約のスシ、\nぜひともおぬしに食べてほしい。
-AncMan_ChoiceYes_M	うむ、契約成立だ！\n我は{c[91ff1e]}\u000e\u0001\u000d\u0000{c[000000]}！ よろしくたのみ申す。
+AncMan_ChoiceYes_M	うむ、契約成立だ！\n我は{c[91ff1e]}\x0e\x01\x0d\0{c[000000]}！ よろしくたのみ申す。
 AncMan_ChoiceNo_M	さようか･･･\nそれも仕方あるまい。
 AncMan_AlreadyFriend1_M	ん？ すでに仲間のスシガミがいるようだな。\nならば我の{c[ffae00]}スシソウル{c[000000]}を渡しておこう。
 AncMan_AlreadyFriend2_M	さらばだ、スシライカーよ！
@@ -3817,14 +3817,14 @@ AncMan_AwakeBefore_M	ふはは、覚醒の時が来たようだ。
 AncMan_AwakeAfter_M	おぬしのおかげで\n我がチカラを取りもどしたぞ！
 AncWoman_Contact1_M	ふふっ･･･ あなたのスシに対する感謝の気持ち、\nわたくしにしっかりと伝わってきました。
 AncWoman_Contact2_M	さあ、わたくしとの契約のスシを\n食べてくださいませんか？
-AncWoman_ChoiceYes_M	うれしいですわ。\nわたくしは{c[91ff1e]}\u000e\u0001\u000d\u0000{c[000000]}。 よろしくどうぞ。
+AncWoman_ChoiceYes_M	うれしいですわ。\nわたくしは{c[91ff1e]}\x0e\x01\x0d\0{c[000000]}。 よろしくどうぞ。
 AncWoman_ChoiceNo_M	そうですか･･･\n残念ですが、お考えを尊重いたしますわ。
 AncWoman_AlreadyFriend1_M	あら。 もう仲間がいるみたいですわね。\nでは{c[ffae00]}スシソウル{c[000000]}をお渡ししますわ。
 AncWoman_AlreadyFriend2_M	それではさようなら。\nちいさなスシライカーさん。
 AncWoman_AwakeAfter_M	ふふっ、おかげでチカラがもどりましたわ。
 AncChild_Contact1_M	きみ、みごとなスシのたべっぷりだね～！\nスシがすきなんだって、つたわってきたぞ！
 AncChild_Contact2_M	ねえ！ そんなきみに、ウチのスシをたべて\nケイヤクしてもらいたいな！ どうかな～？
-AncChild_ChoiceYes_M	ヤッタぁ～！\nウチは{c[91ff1e]}\u000e\u0001\u000d\u0000{c[000000]}！ ヨロシクな！
+AncChild_ChoiceYes_M	ヤッタぁ～！\nウチは{c[91ff1e]}\x0e\x01\x0d\0{c[000000]}！ ヨロシクな！
 AncChild_ChoiceNo_M	うう･･･ ざんねんだけど\nないたりしないんだからな！
 AncChild_AlreadyFriend1_M	ありゃ？ なかまのスシガミがもういるのか～。\nそれだったらウチの{c[ffae00]}スシソウル{c[000000]}をあげる！
 AncChild_AlreadyFriend2_M	そんじゃウチはいくね！\nなかまをよろしく～！
@@ -3832,7 +3832,7 @@ AncChild_AwakeBefore_M	おお!? キてる･･･ キてるぞ･･･!!
 AncChild_AwakeAfter_M	じゃーん！ チカラがもどったぁ～！
 Hermit_Contact1_M	おまえさん、スシが大好きなようじゃな。\nずいぶんと幸せそうな顔で食べておったわい。
 Hermit_Contact2_M	さあ、ワシとの契約のスシも、\nさっきのような笑顔で食べてくれるかの？
-Hermit_ChoiceYes_M	ほっほっほっ、契約はここに成った。\nワシは{c[91ff1e]}\u000e\u0001\u000d\u0000{c[000000]}じゃ、スシライカーよ。
+Hermit_ChoiceYes_M	ほっほっほっ、契約はここに成った。\nワシは{c[91ff1e]}\x0e\x01\x0d\0{c[000000]}じゃ、スシライカーよ。
 Hermit_ChoiceNo_M	断ると申すか。･･･まあ良い良い。\n考えあっての決断じゃろうて。ではな。
 Hermit_AlreadyFriend1_M	ほむ？ 仲間のスシガミがもういるようじゃな。\nそれではワシの{c[ffae00]}スシソウル{c[000000]}を授けようぞ。
 Hermit_AlreadyFriend2_M	仲間のことはたのんだぞい。\nさらばじゃ。
@@ -3840,7 +3840,7 @@ Hermit_AwakeBefore_M	おまえさんの覚悟、ワシに通じたぞい。
 Hermit_AwakeAfter_M	ワシの本来の姿、イカすじゃろう？
 Catten_Contact1_M	ほう！ そちはスシが大好きなのかえ？\nまろと気が合いそうぞよ～。
 Catten_Contact2_M	ささ、まろとの契約のスシも\nもちろん食べてくれるのであろう？
-Catten_ChoiceYes_M	これでまろとそちは仲間ぞよ～。\nまろのことは{c[91ff1e]}\u000e\u0001\u000d\u0000{c[000000]}と呼ぶぞよ。
+Catten_ChoiceYes_M	これでまろとそちは仲間ぞよ～。\nまろのことは{c[91ff1e]}\x0e\x01\x0d\0{c[000000]}と呼ぶぞよ。
 Catten_ChoiceNo_M	なななんと！ そうであるか～。\nではでは、まろは行くとするぞよ～。
 Catten_AlreadyFriend1_M	ほろ？ もう仲間スシガミがいるみたいぞよ～。\nではではまろの{c[ffae00]}スシソウル{c[000000]}をあげちゃうぞい。
 Catten_AlreadyFriend2_M	仲間のこと、よろしくたのむぞよ～！\nばいばいぞよ。
@@ -3848,7 +3848,7 @@ Catten_AwakeBefore_M	ほろ？ 体が熱いぞよ･･･！
 Catten_AwakeAfter_M	ほほほ、まろのチカラがもどったぞよ～！
 Noblewoman_Contact1_M	そなた、たのもしいスシの食べっぷりだな。\n食べている姿を見てそなたに興味がわいたぞ。
 Noblewoman_Contact2_M	さあ、わらわのスシを食すがよい。\nそなたにわらわとの契約を結ばせてやろう。
-Noblewoman_ChoiceYes_M	よろしい。 わらわは{c[91ff1e]}\u000e\u0001\u000d\u0000{c[000000]}。\nそなたにわらわのチカラを与えよう。
+Noblewoman_ChoiceYes_M	よろしい。 わらわは{c[91ff1e]}\x0e\x01\x0d\0{c[000000]}。\nそなたにわらわのチカラを与えよう。
 Noblewoman_ChoiceNo_M	･･･まあ良い。 賢明な判断とは思えぬが･･･\nではさらばだスシライカーよ。
 Noblewoman_AlreadyFriend1_M	ほう？ すでにわらわの仲間がいるようだ。\nならばわらわの{c[ffae00]}スシソウル{c[000000]}を与えてやろう。
 Noblewoman_AlreadyFriend2_M	仲間のことはそなたにまかせた。\nさらばだ、スシライカーよ。
@@ -3856,7 +3856,7 @@ Noblewoman_AwakeBefore_M	おお、体が、体がほてっておる･･･！
 Noblewoman_AwakeAfter_M	ははっ、チカラがみなぎってくるぞ。
 Pomposity_Contact1_M	ふふん･･･ うぬのスシの食べっぷり、\n誰にも引けを取らない見事なものよ。
 Pomposity_Contact2_M	特別だ。\n我との契約スシを食べさせてやる。
-Pomposity_ChoiceYes_M	ふん。 言っておくが、なれ合うつもりはない。\n我のことは{c[91ff1e]}\u000e\u0001\u000d\u0000{c[000000]}と呼ぶがよい。
+Pomposity_ChoiceYes_M	ふん。 言っておくが、なれ合うつもりはない。\n我のことは{c[91ff1e]}\x0e\x01\x0d\0{c[000000]}と呼ぶがよい。
 Pomposity_ChoiceNo_M	ほう、断るとは大した度胸だ。\nうぬは大物の器なのやも知れぬな。さらばだ。
 Pomposity_AlreadyFriend1_M	すでに仲間のスシガミがいるではないか。\nならば我は{c[ffae00]}スシソウル{c[000000]}を授けて去るまでだ。
 Pomposity_AlreadyFriend2_M	我が同胞とともにしっかりと歩むがよい。\nさらばだ。 若きスシライカーよ。
@@ -3864,7 +3864,7 @@ Pomposity_AwakeBefore_M	･･･来たぞ。\nさあ、刮目せよ！
 Pomposity_AwakeAfter_M	うおお･･･！ チカラがほとばしるぞ･･･！
 Simplicity_Contact1_M	オゥ！ アナタのスシの食べっぷり、\nトテモすばらしいデス。
 Simplicity_Contact2_M	サァ･･･ ワタシとスシ契約を結んで、\nたくさんワタシのスシを食べて欲しいデス。
-Simplicity_ChoiceYes_M	アリガトウございマス。\nワタシは{c[91ff1e]}\u000e\u0001\u000d\u0000{c[000000]}といいマス。
+Simplicity_ChoiceYes_M	アリガトウございマス。\nワタシは{c[91ff1e]}\x0e\x01\x0d\0{c[000000]}といいマス。
 Simplicity_ChoiceNo_M	そうデスか。 わかりマシタ。\nイサギよく諦めようと思いマス。
 Simplicity_AlreadyFriend1_M	仲間のスシガミがいるようデスね。\nでは{c[ffae00]}スシソウル{c[000000]}を受け取ってくだサイ。
 Simplicity_AlreadyFriend2_M	仲間をヨロシクお願いしマス。\nそれではサヨウナラ。
@@ -3874,7 +3874,7 @@ Araoh_AwakeBefore_M	んん…お前のスシへの気持ち…我に…
 Araoh_AwakeAfter_M	チカラを取り戻せたようだ。感謝する。
 Clown_Contact1_M	うひゃー！ おめっちの食べっぷり！\nカンドーした！
 Clown_Contact2_M	なあなあ、おれっちの契約のスシも\nついでにペロっといってみる？
-Clown_ChoiceYes_M	いやっほーい！\nオレっちは{c[91ff1e]}\u000e\u0001\u000d\u0000{c[000000]}！ ヨロシクな！
+Clown_ChoiceYes_M	いやっほーい！\nオレっちは{c[91ff1e]}\x0e\x01\x0d\0{c[000000]}！ ヨロシクな！
 Clown_ChoiceNo_M	あちゃー･･･ 若者のスシばなれかー･･･\nそんじゃまた！ 気が向いたらヨロシク！
 Clown_AlreadyFriend1_M	ありゃ？ お仲間とヨロシクずみか！\nじゃ、おれっちの{c[ffae00]}スシソウル{c[000000]}もってきな！
 Clown_AlreadyFriend2_M	仲間をすえながくヨロシクな！\nさいなも！
@@ -3918,52 +3918,52 @@ tutorial05_09_M	よいか？ 敵より先に{c[91ff1e]}カプセル{c[000000]}�
 tutorial05_10_M	ふふん♪ ちなみにカプセルが現れるときには\nいまの 「{c[91ff1e]}音{c[000000]}」が鳴る。よく注意せよ！
 \event\stageBattleM036.msbt
 CharaSerif_00_M	どもども♪\n今回のムーゲーはこれっす！
-CharaSerif_01_M	\u000e\u0000\u0002\u0002\u0096\u0000タイムストップバトル――!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_01_M	{s[150]}タイムストップバトル――!!{s[100]}
 CharaSerif_02_M	これこれ！ これ取ると、相手が{c[ffae00]}３秒間\n{c[000000]}うごけなくなるんで、チャンスっすよ！
-CharaSerif_03_M	\u000e\u0000\u0002\u0002\u0096\u0000じゃ、いってみまショー!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_03_M	{s[150]}じゃ、いってみまショー!!{s[100]}
 \event\stageBattleM046.msbt
 CharaSerif_00_M	どもども♪\n今回のムーゲーはこれっす！
-CharaSerif_01_M	\u000e\u0000\u0002\u0002\u0096\u0000どきどきボムバトル――!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_01_M	{s[150]}どきどきボムバトル――!!{s[100]}
 CharaSerif_02_M	これこれ！ これ取ると、相手に{c[ffae00]}ボム{c[000000]}が飛んでって\nボカン！と{c[ffae00]}大ダメージ{c[000000]}を与えちゃいます。
 CharaSerif_03_M	でも、取れずに{c[ffae00]}流れちゃう{c[000000]}と\nボムは{c[ffae00]}自分のところ{c[000000]}に飛んできてボカン！
 CharaSerif_04_M	取れば天国、取れなきゃ地獄･･･\nまさにドキドキの戦いっす！
-CharaSerif_05_M	\u000e\u0000\u0002\u0002\u0096\u0000じゃ、いってみまショー!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_05_M	{s[150]}じゃ、いってみまショー!!{s[100]}
 \event\stageBattleM057.msbt
 CharaSerif_00_M	どもども♪\n今回のムーゲーはこれっす！
-CharaSerif_01_M	\u000e\u0000\u0002\u0002\u0096\u0000きまぐれサンダーバトル――!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_01_M	{s[150]}きまぐれサンダーバトル――!!{s[100]}
 CharaSerif_02_M	これこれ！ これはカミナリパワーのある石で\n色が{c[ffae00]} 青{c[000000]}と{c[ffae00]}赤{c[000000]}で交互に変わっちゃいます！
 CharaSerif_03_M	んで、{c[ffae00]}青{c[000000]}の時に取ると{c[ffae00]}相手{c[000000]}にカミナリが飛んで\n{c[ffae00]}大ダメージ{c[000000]}!! なんすけど･･･
 CharaSerif_04_M	なんと！ {c[ffae00]}赤{c[000000]}の時に取ると{c[ffae00]}自分{c[000000]}にカミナリが!!\n･･･マジヤバイっす。
-CharaSerif_05_M	\u000e\u0000\u0002\u0002\u0096\u0000じゃ、いってみまショー!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_05_M	{s[150]}じゃ、いってみまショー!!{s[100]}
 \event\stageBattleM078.msbt
 CharaSerif_00_M	どもども♪\n今回のムーゲーはこれっす！
-CharaSerif_01_M	\u000e\u0000\u0002\u0002\u0096\u0000タイムストップ＆ボムバトルー!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_01_M	{s[150]}タイムストップ＆ボムバトルー!!{s[100]}
 CharaSerif_02_M	これこれ！ これは前にも出たタイムストップっす！\nで、今回はさらに･･･
 CharaSerif_03_M	なんと！ 前に出てきたボムまで登場っす！
 CharaSerif_04_M	あー･･･ くれぐれも、ボクがボムを取るのを\nタイムストップでジャマしちゃダメっすよ！
-CharaSerif_05_M	\u000e\u0000\u0002\u0002\u0096\u0000じゃ、いってみまショー!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_05_M	{s[150]}じゃ、いってみまショー!!{s[100]}
 \event\stageBattleM088.msbt
 CharaSerif_00_M	どもども♪\n今回のムーゲーはこれっす！
-CharaSerif_01_M	\u000e\u0000\u0002\u0002\u0096\u0000皿ちぢみサンダーバトル――!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_01_M	{s[150]}皿ちぢみサンダーバトル――!!{s[100]}
 CharaSerif_02_M	今回は、ボクが最初に『{c[91ff1e]}皿ちぢ～む{c[000000]}』のスキルを\n使ってから、バトルスタートっす！
 CharaSerif_03_M	このスキル･･･ バトル中ずっとテーブルの上の\n皿がちぢんで、{c[ffae00]}皿ダメージがいつもの1/10{c[000000]}に！
 CharaSerif_04_M	なので、このサンダーでの攻撃が決め手っす！\nちなみに今回は、色は青のまま変わりません。
-CharaSerif_05_M	\u000e\u0000\u0002\u0002\u0096\u0000じゃ、いってみまショー!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_05_M	{s[150]}じゃ、いってみまショー!!{s[100]}
 \event\stageBattleM116.msbt
 CharaSerif_00_M	どもども♪\n今回のムーゲーはこれっす！
-CharaSerif_01_M	\u000e\u0000\u0002\u0002\u0096\u0000皿ちぢみボムバトル――!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_01_M	{s[150]}皿ちぢみボムバトル――!!{s[100]}
 CharaSerif_02_M	今回も、ボクが最初に『{c[91ff1e]}皿ちぢ～む{c[000000]}』の\nスキルを使ってから、バトルスタートっす！
 CharaSerif_03_M	そうすると･･･ テーブル上の皿がちぢんで、\n皿ダメージがいつもの1/10になり～の･･･
 CharaSerif_04_M	でもって！ ボムでの攻撃が\n勝負の決め手になり～の･･･ ってことっすね。
-CharaSerif_05_M	\u000e\u0000\u0002\u0002\u0096\u0000じゃ、いってみまショー!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_05_M	{s[150]}じゃ、いってみまショー!!{s[100]}
 \event\stageBattleM136.msbt
 CharaSerif_00_M	どもども♪\n今回のムーゲーはこれっす！
-CharaSerif_01_M	\u000e\u0000\u0002\u0002\u0096\u0000気まぐれ雷＆ボムバトル――!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_01_M	{s[150]}気まぐれ雷＆ボムバトル――!!{s[100]}
 CharaSerif_02_M	なんと！ 今回はすごいっすよ!!
 CharaSerif_03_M	これこれ！ 共通レーンには、くるくる色が変わる\nきまぐれサンダーが登場し～の･･･
 CharaSerif_04_M	でもって！ 自分のレーンには\nあのドキドキのボムが登場し～の･･･
 CharaSerif_05_M	もう、かな～り忙しいっすよ!!
-CharaSerif_06_M	\u000e\u0000\u0002\u0002\u0096\u0000じゃ、いってみまショー!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_06_M	{s[150]}じゃ、いってみまショー!!{s[100]}
 \event\stageBeginArea01Ex001.msbt
 CharaSerif_00_M	･･･むむっ！ おまえはムサシ！\nどうしてここに!?
 CharaSerif_01_M	ん？ こんなところに帝国軍･･･\nそっちこそ、なにやってんだ？
@@ -4015,7 +4015,7 @@ CharaSerif_03_M	さっ、お相手いたしましょう！\nここは私が守�
 \event\stageBeginArea03Ex008.msbt
 CharaSerif_00_M	やった！ スシガミのほこらだ！
 CharaSerif_00_F	やったあ！ スシガミのほこらだ！
-CharaSerif_01_M	\u000e\u0000\u0002\u0002\u0096\u0000まてーい！\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_01_M	{s[150]}まてーい！{s[100]}
 CharaSerif_02_M	フン･･･ このほこらは我々が先に見つけた。\nはやいもの勝ちだ！
 CharaSerif_03_M	いや･･･ あんた今来たよな？\nオレのほうが先に･･･
 CharaSerif_03_F	いや･･･ あなた今来たわよね？\nわたしのほうが先に･･･
@@ -4054,7 +4054,7 @@ CharaSerif_03_M	フフフ･･･ やはり来たか。\n例の物は持って�
 CharaSerif_04_M	へへっ♪ さてはおまえら･･･\nあの石を手に入れてないな？
 CharaSerif_04_F	へえ･･･ さてはあなたたち\nあの石を手に入れてないわね？
 CharaSerif_05_M	ええい！ だからキサマから奪おうというのだ！\nかくごしろ！
-CharaSerif_07_M	\u000e\u0000\u0002\u0002\u0096\u0000いくぞおおっ！\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_07_M	{s[150]}いくぞおおっ！{s[100]}
 \event\stageBeginArea04sub010.msbt
 CharaSerif_00_M	へぇ･･･ ドートンの話だと、究極のギアを\n作る技師がいるのはこの神社か･･･？
 CharaSerif_00_F	ふーん･･･ドートンの話だと、究極のギアを\n作る技師がいるのはこの神社･･･？
@@ -4224,7 +4224,7 @@ Prologue04_41_M	やめろ！ ジンライはオレと契約した。\nコイツ�
 Prologue04_41_F	やめて！ ジンライはわたしと契約したのよ。\nこの子はもう、わたしのスシガミなんだから！
 Prologue04_42_M	フン･･･ なんだ？ このガキ･･･\n
 Prologue04_42_F	フン･･･ なんだ？ この小娘･･･
-Prologue04_43_M	\u000e\u0000\u0002\u0002\u0096\u0000ひねりつぶしてやる！\u000e\u0000\u0002\u0002d\u0000
+Prologue04_43_M	{s[150]}ひねりつぶしてやる！{s[100]}
 \event\stageBeginM003.msbt
 stageBeginM004_01_M	まて！ ムサシ!!
 stageBeginM004_02_M	･･･コジロー!?
@@ -4240,18 +4240,18 @@ stageBeginM004_09_M	ええっ!!\nおまえがユキチさんを!?
 stageBeginM004_09_F	ええっ!!\nあんたがユキチさんを!?
 stageBeginM004_10_M	･･･フン。オレはスシひとつない\n共和国なんてウンザリなんだ。
 stageBeginM004_11_M	この手柄をもとに、オレは帝国軍に入って\nハラいっぱいスシを食べてやる！
-stageBeginM004_12_M	\u000e\u0000\u0002\u0002\u0096\u0000ハラいっぱいにな!!\u000e\u0000\u0002\u0002d\u0000
+stageBeginM004_12_M	{s[150]}ハラいっぱいにな!!{s[100]}
 stageBeginM004_13_M	くっ･･･ ユキチさんは世界中のみんなが\nスシを食べられるよう、がんばってるのに･･･
 stageBeginM004_14_M	コジロー！ それをおまえは･･･!!
 stageBeginM004_14_F	コジロー！ それをあんた･･･!!
 stageBeginM004_15_M	知ったことか！\nオレは、オレさえよけりゃいいのさ！
-stageBeginM004_16_M	\u000e\u0000\u0002\u0002\u0096\u0000コジロォォォ!!\u000e\u0000\u0002\u0002d\u0000
+stageBeginM004_16_M	{s[150]}コジロォォォ!!{s[100]}
 stageBeginM004_18_M	なっ、なんだ!?
 stageBeginM004_18_F	なっ、なに!?
 stageBeginM004_19_M	むっ！ これは{c[91ff1e]}レーンドライブギア{c[000000]}!!\nスシライカーの能力を高めるもの･･･！
 stageBeginM004_20_M	ムサシよ！ スシにたいする\nおヌシのあつい思いに応えたのじゃ!!
 \event\stageBeginM004.msbt
-stageBeginM005_01_M	\u000e\u0000\u0002\u0002\u0096\u0000まてーい！\u000e\u0000\u0002\u0002d\u0000
+stageBeginM005_01_M	{s[150]}まてーい！{s[100]}
 stageBeginM005_02_M	でたな、帝国軍！
 stageBeginM005_02_F	でたわね、帝国軍！
 stageBeginM005_03_M	フン･･･ コジローとかいう新入りから\n話は聞いているぞ。
@@ -4259,46 +4259,46 @@ stageBeginM005_04_M	フフフ･･･ めずらしいスシガミを\nつれて
 stageBeginM005_05_M	いけ、コブリン！\nジンライをうばえ！
 stageBeginM005_06_M	ハッ！
 stageBeginM005_07_M	フフフ･･･ オレのスシガミのスキルを見て\nビビるんじゃねえぞ･･･
-stageBeginM005_08_M	\u000e\u0000\u0002\u0002\u0096\u0000その名も『{c[91ff1e]}スイーツ天国{c[000000]}』！\u000e\u0000\u0002\u0002d\u0000
+stageBeginM005_08_M	{s[150]}その名も『{c[91ff1e]}スイーツ天国{c[000000]}』！{s[100]}
 stageBeginM005_09_M	それは･･･ バトル中に無数のスイーツを呼び出し\n{c[ffae00]}体力を回復{c[000000]}させる、驚異のスキル･･･！
 stageBeginM005_10_M	ん･･･ 『{c[91ff1e]}スイーツ天国{c[000000]}』？
 stageBeginM005_11_M	そういえば、さっき契約した\nペンゾーもたしか･･･
 stageBeginM005_12_M	いいか？ スイーツは皿に乗っていない！\n{c[ffae00]}１つ１つタッチ{c[000000]}して食べるのだ!!
-stageBeginM005_13_M	\u000e\u0000\u0002\u0002\u0096\u0000ハッ!!\u000e\u0000\u0002\u0002d\u0000
+stageBeginM005_13_M	{s[150]}ハッ!!{s[100]}
 \event\stageBeginM005.msbt
-stageBeginM006_01_M	\u000e\u0000\u0002\u0002\u0096\u0000まてーい!!\u000e\u0000\u0002\u0002d\u0000
+stageBeginM006_01_M	{s[150]}まてーい!!{s[100]}
 stageBeginM006_02_M	ちぇっ、また出たな･･･
 stageBeginM006_02_F	ちぇっ、また出たわね･･･
 stageBeginM006_03_M	フン、さきほどは\nコブリンが世話になったな･･･
 stageBeginM006_04_M	いけ、クドリン！\nこんどこそジンライをうばえ！
 stageBeginM006_05_M	ハッ！
 stageBeginM006_06_M	ヘヘッ、オレのスシガミのスキルは\nちょいとシビれるぜぇ･･･
-stageBeginM006_07_M	\u000e\u0000\u0002\u0002\u0096\u0000その名も『{c[91ff1e]}電撃シュート{c[000000]}』！\u000e\u0000\u0002\u0002d\u0000
+stageBeginM006_07_M	{s[150]}その名も『{c[91ff1e]}電撃シュート{c[000000]}』！{s[100]}
 stageBeginM006_08_M	それは･･･ 電気をおびた皿で相手の体力を\nゴリゴリッとけずる、戦慄のスキル･･･！
 stageBeginM006_09_M	なんだって･･･ 『{c[91ff1e]}電撃シュート{c[000000]}』？
 stageBeginM006_09_F	なんですって･･･ 『{c[91ff1e]}電撃シュート{c[000000]}』？
-stageBeginM006_10_M	\u000e\u0000\u0002\u0002\u0096\u0000いくぜええっ！\u000e\u0000\u0002\u0002d\u0000
+stageBeginM006_10_M	{s[150]}いくぜええっ！{s[100]}
 \event\stageBeginM006.msbt
-stageBeginM007_01_M	\u000e\u0000\u0002\u0002\u0096\u0000･･･まてーい!!!\u000e\u0000\u0002\u0002d\u0000
+stageBeginM007_01_M	{s[150]}･･･まてーい!!!{s[100]}
 stageBeginM007_02_M	やれやれ･･･ しつこいなぁ。
 stageBeginM007_02_F	やれやれ･･･ しつこいわねぇ。
 stageBeginM007_03_M	むう･･･ クドリンまでやられるとは\nなんたるナマイキ！
 stageBeginM007_04_M	いけ、カレリン！\nなんとしてもジンライをうばうのだ！
 stageBeginM007_05_M	フフフ･･･ オレのスシガミのスキルは･･･
-stageBeginM007_06_M	\u000e\u0000\u0002\u0002\u0096\u0000その名も『{c[91ff1e]}バリアシールド{c[000000]}』！\u000e\u0000\u0002\u0002d\u0000
+stageBeginM007_06_M	{s[150]}その名も『{c[91ff1e]}バリアシールド{c[000000]}』！{s[100]}
 stageBeginM007_07_M	それは･･･ キサマの攻撃でうけるダメージを\nガクン！と下げる、必勝のスキル･･･！
 stageBeginM007_08_M	くっ･･･ 『{c[91ff1e]}バリアシールド{c[000000]}』\n今度は防御だな？
 stageBeginM007_08_F	くっ･･･ 『{c[91ff1e]}バリアシールド{c[000000]}』\n今度は防御ね？
-stageBeginM007_09_M	\u000e\u0000\u0002\u0002\u0096\u0000･･･いくぞおおっ！\u000e\u0000\u0002\u0002d\u0000
+stageBeginM007_09_M	{s[150]}･･･いくぞおおっ！{s[100]}
 \event\stageBeginM007.msbt
 stageBeginM008_02_M	へへっ♪ とうとう１人になったな。
 stageBeginM008_02_F	へへっ♪ とうとう１人に\nなったみたいね。
 stageBeginM008_03_M	･･･よかろう。わがスシガミのスキル\n特別に見せてやる。
-stageBeginM008_04_M	\u000e\u0000\u0002\u0002\u0096\u0000その名も『{c[91ff1e]}暴走特急レーン{c[000000]}』！\u000e\u0000\u0002\u0002d\u0000
+stageBeginM008_04_M	{s[150]}その名も『{c[91ff1e]}暴走特急レーン{c[000000]}』！{s[100]}
 stageBeginM008_05_M	なんだ!? ･･････暴走？
 stageBeginM008_05_F	なに!? ･･････暴走？
 stageBeginM008_06_M	フッ、このスキルが発動する時･･･\nキサマのレーンは、ブレーキしらずの特急となる！
-stageBeginM008_07_M	\u000e\u0000\u0002\u0002\u0096\u0000勝負だ！目をまわすなよ!!\u000e\u0000\u0002\u0002d\u0000
+stageBeginM008_07_M	{s[150]}勝負だ！目をまわすなよ!!{s[100]}
 \event\stageBeginM008.msbt
 stageBeginM009_01_M	へえ、ここがアジトか･･･
 stageBeginM009_01_F	ふーん、ここがアジトか･･･
@@ -4308,8 +4308,8 @@ stageBeginM009_03_F	･･･ん？ あなたは？
 stageBeginM009_04_M	私はリョーマ。\nこの組織のリーダーです。
 stageBeginM009_05_M	ほう･･･ あのジンライに認められたとは\n一体どんな人かと思いましたが･･･
 stageBeginM009_06_M	フフフ･･･ まさかこんな子供とは。
-stageBeginM009_07_M	\u000e\u0000\u0002\u0002\u0096\u0000子供あつかいするな！\u000e\u0000\u0002\u0002d\u0000
-stageBeginM009_07_F	\u000e\u0000\u0002\u0002\u0096\u0000子供あつかいしないで！\u000e\u0000\u0002\u0002d\u0000
+stageBeginM009_07_M	{s[150]}子供あつかいするな！{s[100]}
+stageBeginM009_07_F	{s[150]}子供あつかいしないで！{s[100]}
 stageBeginM009_08_M	おや？ これは失礼･･･
 stageBeginM009_09_M	われわれはスシ解放戦線。帝国に対抗し\n各地でゲリラ活動を行っているものです。
 stageBeginM009_10_M	･･･えっ、帝国と戦ってるって？
@@ -4321,10 +4321,10 @@ stageBeginM009_12_F	おねがい！帝国に連れさられた･･･\nわた�
 stageBeginM009_13_M	なるほど･･･
 stageBeginM009_14_M	･･･わかりました。\nその願い、聞かないこともありません。
 stageBeginM009_15_M	ただし、条件がひとつ。\nジンライをゆずってください。
-stageBeginM009_16_M	\u000e\u0000\u0002\u0002\u0096\u0000ええっ!?\u000e\u0000\u0002\u0002d\u0000
+stageBeginM009_16_M	{s[150]}ええっ!?{s[100]}
 stageBeginM009_17_M	フフッ･･･ ジンライのチカラは\n数あるスシガミの中でもトップクラス･･･
 stageBeginM009_18_M	そのチカラは、われわれにこそ必要なのです。\nキミのような子供ではなく･･･ね。
-stageBeginM009_19_M	\u000e\u0000\u0002\u0002\u0096\u0000!!\u000e\u0000\u0002\u0002d\u0000
+stageBeginM009_19_M	{s[150]}!!{s[100]}
 stageBeginM009_20_M	それは･･･ できない。\nユキチさんは、オレの手で助けたいんだ。
 stageBeginM009_20_F	それはダメ･･･！\nユキチさんは、わたしの手で助けたいの。
 stageBeginM009_21_M	それには、ジンライの力が必要だ！
@@ -4332,16 +4332,16 @@ stageBeginM009_21_F	それには、ジンライの力が必要なの！
 stageBeginM009_22_M	･･･ほう。
 stageBeginM009_23_M	それに、ヤツと約束したんだ！\nいっしょに、世界中の人にスシを食べさせるって！
 stageBeginM009_23_F	それに･･･ 約束したの！\nいっしょに、世界中の人にスシを食べさせるって！
-stageBeginM009_24_M	\u000e\u0000\u0002\u0002\u0096\u0000すばらしい！\u000e\u0000\u0002\u0002d\u0000
+stageBeginM009_24_M	{s[150]}すばらしい！{s[100]}
 stageBeginM009_25_M	それは、われらの理想でもあります。\nその実現のためにも･･･
-stageBeginM009_26_M	\u000e\u0000\u0002\u0002\u0096\u0000ふざけるな！\u000e\u0000\u0002\u0002d\u0000
-stageBeginM009_26_F	\u000e\u0000\u0002\u0002\u0096\u0000ふざけないで！\u000e\u0000\u0002\u0002d\u0000
+stageBeginM009_26_M	{s[150]}ふざけるな！{s[100]}
+stageBeginM009_26_F	{s[150]}ふざけないで！{s[100]}
 stageBeginM009_27_M	勝手なこと言って･･･ なんだよ\nいきなりジンライをよこせだなんて！
 stageBeginM009_27_F	勝手なこと言って･･･ なによ\nいきなりジンライをよこせだなんて！
 stageBeginM009_28_M	それじゃ帝国のヤツらと\nかわらないじゃないか！
 stageBeginM009_28_F	それじゃ帝国のやりかたと\nかわらないじゃん！
 stageBeginM009_29_M	･･････残念です。\n手荒なマネはしたくなかったのですが･･･
-stageBeginM009_30_M	\u000e\u0000\u0002\u0002\u0096\u0000うらまないでくださいよ!?\u000e\u0000\u0002\u0002d\u0000
+stageBeginM009_30_M	{s[150]}うらまないでくださいよ!?{s[100]}
 \event\stageBeginM009.msbt
 CharaSerif_00_M	ぬっ！ ジンライをつれた子供･･･\nさてはウワサの契約者か!?
 CharaSerif_01_M	へへっ♪ すっかり有名人だなぁ･･･
@@ -4353,7 +4353,7 @@ CharaSerif_04_F	･･･ん？ 戦闘･･･なんですって？
 CharaSerif_05_M	ちなみに、わが隊の配備スシガミの\nスキルは『{c[91ff1e]}いつの間に追加皿{c[000000]}』！
 CharaSerif_06_M	フフフ･･･ 取った数以上の皿が追加で\nテーブルに積まれるという恐ろしい技だ！
 CharaSerif_07_M	そして、戦闘部隊１人目のオレは{c[ffae00]}トツゲキ兵{c[000000]}！\n小細工なしで、トツゲキあるのみ!!
-CharaSerif_08_M	\u000e\u0000\u0002\u0002\u0096\u0000いくぞおおっ！\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_08_M	{s[150]}いくぞおおっ！{s[100]}
 \event\stageBeginM010.msbt
 CharaSerif_00_M	むむっ、ジンライをつれた子供･･･！\nひょっとして･･･
 CharaSerif_01_M	へへっ♪ よーし･･･\nつぎはおまえをやっつけてやる！
@@ -4364,25 +4364,25 @@ CharaSerif_04_M	戦闘部隊の２人目は、{c[ffae00]}コウサク兵{c[00000
 CharaSerif_05_M	えっ!? カプセル･･･？
 CharaSerif_06_M	フッ･･･ オレとの戦いは、{c[91ff1e]}共通レーン{c[000000]}に現れる\n{c[91ff1e]}カプセル{c[000000]}を先に開けられるかどうかで決まる！
 CharaSerif_07_M	なぜなら･･･ {c[91ff1e]}カプセル{c[000000]}には、スゴい効果の\n{c[91ff1e]}アイテム{c[000000]}が入れてあるのだ！
-CharaSerif_08_M	\u000e\u0000\u0002\u0002\u0096\u0000いくぜええっ！\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_08_M	{s[150]}いくぜええっ！{s[100]}
 \event\stageBeginM011.msbt
 CharaSerif_00_M	フッ･･･ ジンライをつれた子供か。\n隊長へのいいみやげになりそうだ･･･
 CharaSerif_01_M	戦闘部隊３人目は、{c[ffae00]}トクシュ兵{c[000000]}！\nなにからなにまで特殊！ とにかく特殊！
 CharaSerif_02_M	･･･なんだ？ なにが特殊だって？
 CharaSerif_02_F	･･･なに？ なにが特殊なの？
-CharaSerif_03_M	\u000e\u0000\u0002\u0002\u0096\u0000フフフ･･･ それは言えない！\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_03_M	{s[150]}フフフ･･･ それは言えない！{s[100]}
 CharaSerif_04_M	ちなみに、トツゲキ兵やコウサク兵と同じく\nオレも『{c[91ff1e]}いつの間に追加皿{c[000000]}』を使う･･･
 CharaSerif_05_M	つまり、隊に配備されてるスシガミのスキルは\nその隊のメンバー全員が使えるのだ･･･！
 CharaSerif_06_M	なんだって？ なぜそんなことが･･･
 CharaSerif_06_F	なんですって？ なぜそんなことが･･･
-CharaSerif_07_M	\u000e\u0000\u0002\u0002\u0096\u0000フフフ･･･ それも言えない！\u000e\u0000\u0002\u0002d\u0000
-CharaSerif_08_M	\u000e\u0000\u0002\u0002\u0096\u0000いくぞ！特殊の恐ろしさを知れ!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_07_M	{s[150]}フフフ･･･ それも言えない！{s[100]}
+CharaSerif_08_M	{s[150]}いくぞ！特殊の恐ろしさを知れ!!{s[100]}
 \event\stageBeginM012.msbt
 CharaSerif_00_M	むう･･･ 部下たちが戻らんのは\nどうやら、おまえのしわざらしいな･･･
 CharaSerif_01_M	戦闘部隊ラストの４人目は{c[ffae00]}隊長{c[000000]}！\nとうぜん小隊でイチバン強い！
 CharaSerif_02_M	フフフ･･･ 隊長の私に勝てば、その食べっぷりが\n隊の配備スシガミの心を動かすかも知れんが･･･
 CharaSerif_03_M	しかーし！ 小隊の名誉にかけて負けん!!\n再契約などさせてたまるか！
-CharaSerif_04_M	\u000e\u0000\u0002\u0002\u0096\u0000勝負だ！部下のカリはかえす!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_04_M	{s[150]}勝負だ！部下のカリはかえす!!{s[100]}
 \event\stageBeginM013.msbt
 CharaSerif_00_M	まて！ ムサシ!!
 CharaSerif_01_M	･･･コジロー!?\nなんだそのワッペンは？
@@ -4403,23 +4403,23 @@ CharaSerif_13_M	オレだけが契約できた\n究極のスシガミ･･･ �
 CharaSerif_14_M	コイツのスキルは『{c[91ff1e]}八皿ウォール{c[000000]}』！ バトル中\nずっと{c[ffae00]}７皿以下{c[000000]}の攻撃を{c[ffae00]}完全にはね返す{c[000000]}ぜ!!
 CharaSerif_18_M	ハハハ！ オマエは指一本･･･ いや！\n皿１枚オレに当てられずに負けるのさ!!
 \event\stageBeginM014.msbt
-CharaSerif_00_M	\u000e\u0000\u0002\u0002\u0096\u0000あーっ!!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_00_M	{s[150]}あーっ!!!{s[100]}
 CharaSerif_01_M	おまえら！ ユキチさんを\nつれさったヤツラだな!!
 CharaSerif_01_F	あんたたち！ ユキチさんを\nつれさったヤツラね!?
 CharaSerif_02_M	･･･んん？ あの時のガキか！\nなんでこんなところに？
-CharaSerif_03_M	\u000e\u0000\u0002\u0002\u0096\u0000子供あつかいするな!!\u000e\u0000\u0002\u0002d\u0000
-CharaSerif_03_F	\u000e\u0000\u0002\u0002\u0096\u0000子供あつかいしないで!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_03_M	{s[150]}子供あつかいするな!!{s[100]}
+CharaSerif_03_F	{s[150]}子供あつかいしないで!!{s[100]}
 CharaSerif_04_M	オレはムサシ！\nスシ解放戦線のスシライカー・ムサシだ!!
 CharaSerif_04_F	このっ！ わたしはムサシ！\nスシ解放戦線のスシライカー・ムサシよ!!
-CharaSerif_05_M	\u000e\u0000\u0002\u0002\u0096\u0000なんてこった!?\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_05_M	{s[150]}なんてこった!?{s[100]}
 CharaSerif_06_M	バカな！ あのダメダメだったガキが\nジンライの契約者ムサシだと!?
 CharaSerif_07_M	うむ！ そのムサシじゃ。
-CharaSerif_08_M	\u000e\u0000\u0002\u0002\u0096\u0000ジンライ!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_08_M	{s[150]}ジンライ!!{s[100]}
 CharaSerif_09_M	フン！ だが考えようによっちゃ\nこりゃ絶好のチャンスだぜ･･･
 CharaSerif_10_M	グハハハハッ！\nスシライカーは実戦経験がすべて！
 CharaSerif_11_M	ニワカ仕込みのオマエに\n勝ち目などない！
 CharaSerif_12_M	ヤロウども！ たたきのめして\nジンライをうばいとれ！
-CharaSerif_13_M	\u000e\u0000\u0002\u0002\u0096\u0000オス!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_13_M	{s[150]}オス!!{s[100]}
 \event\stageBeginM018.msbt
 CharaSerif_00_M	フン･･･ 解放戦線のヤツらは\nあきらめが悪いようだな。
 CharaSerif_01_M	ええい！ なんど攻めてきてもムダだ。\nまた追い返してやる!!
@@ -4427,18 +4427,18 @@ CharaSerif_02_M	･･･そうか、司令官ってのは\nオマエだな？
 CharaSerif_02_F	･･･そうか、司令官ってのは\nあなたね？
 CharaSerif_03_M	へへっ♪ オレがきたからには\nここは解放戦線がいただくぜ!!
 CharaSerif_03_F	へへっ♪ わたしがきたからには\nここは解放戦線がいただくわ!!
-CharaSerif_04_M	\u000e\u0000\u0002\u0002\u0096\u0000グハハハ!! いきがるな！ガキ!!\u000e\u0000\u0002\u0002d\u0000
-CharaSerif_04_F	\u000e\u0000\u0002\u0002\u0096\u0000グハハハ!! いきがるな！小娘!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_04_M	{s[150]}グハハハ!! いきがるな！ガキ!!{s[100]}
+CharaSerif_04_F	{s[150]}グハハハ!! いきがるな！小娘!!{s[100]}
 CharaSerif_05_M	フン！ この鎮守の森は\n共和国内における帝国の重要拠点！
 CharaSerif_06_M	キサマら解放戦線になど\nわたしてたまるか!!
 CharaSerif_07_M	･･･そういうわけだ。\n私があいてになろう！
-CharaSerif_08_M	\u000e\u0000\u0002\u0002\u0096\u0000ま･･･ まってぇぇぇ!!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_08_M	{s[150]}ま･･･ まってぇぇぇ!!!{s[100]}
 CharaSerif_09_M	おまえは･･･ 新入り!?
 CharaSerif_10_M	コイツは･･･ ムサシは･･･\nオレにたおさせてください!!
 CharaSerif_11_M	なんだと？\nオマエさっき負けただろうが！
 CharaSerif_12_M	もういちど！ もういちどチャンスを!!\nかならずコイツをたおしてみせますぅ！
 CharaSerif_13_M	･･･よーし、やってみろ！\nただし負けたら、ウチの隊をクビだ！
-CharaSerif_14_M	\u000e\u0000\u0002\u0002\u0096\u0000く･･･ クビ!?\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_14_M	{s[150]}く･･･ クビ!?{s[100]}
 CharaSerif_15_M	ちくしょう･･･ ムサシ！\nこれもぜんぶオマエのせいだ!!
 \event\stageBeginM019.msbt
 CharaSerif_00_M	フン！ あんな泣き虫\nさいしょからアテになんかしてねえぜ！
@@ -4447,7 +4447,7 @@ CharaSerif_02_M	フフフ･･･ わがスシガミのスキル\n『{c[91ff1e]
 CharaSerif_03_M	なんだって･･･ スシシャッフラー？
 CharaSerif_03_F	なんですって･･･ スシシャッフラー？
 CharaSerif_04_M	気をつけろ！ こちらのスシのならびが\nかきまぜられてしまうぞ!!
-CharaSerif_05_M	\u000e\u0000\u0002\u0002\u0096\u0000勝負だ！ かくごしろ!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_05_M	{s[150]}勝負だ！ かくごしろ!!{s[100]}
 \event\stageBeginM021.msbt
 CharaSerif_00_M	ゲッ･･･ おまえはムサシ！\nさてはあのガキ、しくじったな･･･
 CharaSerif_01_M	ン？ なんのことだ･･･？
@@ -4457,7 +4457,7 @@ CharaSerif_03_M	いくぞ！ わが隊の配備スシガミの\nスキルは『{
 CharaSerif_04_M	なにっ、ダブル･･･ 急行!?
 CharaSerif_04_F	なに!? ダブル･･･ 急行!?
 CharaSerif_05_M	フフッ･･･ 自分のレーンのスピードを少し速めつつ\n敵のレーンも速める、まさに攻防一体の技だ!!
-CharaSerif_06_M	\u000e\u0000\u0002\u0002\u0096\u0000ひねりつぶしてやる！\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_06_M	{s[150]}ひねりつぶしてやる！{s[100]}
 CharaSerif_07_M	･･･ちなみに、使用スキルの紹介はここまでだ。\n以降は、次の{c[91ff1e]}情報画面{c[000000]}でみずから確かめろよ？
 \event\stageBeginM025.msbt
 CharaSerif_00_M	･･･よう、ユーリア。\nまたあえると思ってたぜ♪
@@ -4472,7 +4472,7 @@ CharaSerif_06_M	なんだって･･･ 戦争!?\nちがう！ オレは･･�
 CharaSerif_06_F	なんですって･･･ 戦争!?\nちがう！ わたしは･･･!!
 CharaSerif_07_M	ムサシ！ 話してもムダなようじゃ。\nしかたない!!
 \event\stageBeginM026.msbt
-CharaSerif_00_M	\u000e\u0000\u0002\u0002\u0096\u0000･･･ぬおっ？ ムサシ!?\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_00_M	{s[150]}･･･ぬおっ？ ムサシ!?{s[100]}
 CharaSerif_01_M	へへっ♪ やっと見つけたぜ！
 CharaSerif_01_F	へへっ♪ やっと見つけた！
 CharaSerif_02_M	なんてこった！ ここまでくるとは･･･\nユーリアめ、つかえねえ!!
@@ -4484,9 +4484,9 @@ CharaSerif_06_M	グハハハハッ!!\nそうでもしなきゃ、生きていけ
 CharaSerif_07_M	むう･･･ 戦争で心にキズを負った者を\n戦いに利用するとは･･･！
 CharaSerif_08_M	うるせえ！ どんな手を使おうと\n勝てば正義なんだよ!!
 CharaSerif_09_M	ヤロウども、気合いを入れろ！\nなんとしても国境にはいかせるなよ!!
-CharaSerif_10_M	\u000e\u0000\u0002\u0002\u0096\u0000オス！この筋肉にかけて!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_10_M	{s[150]}オス！この筋肉にかけて!!{s[100]}
 CharaSerif_11_M	さもないとオレたちゃ･･･\nあぁ、かんがえただけでもオソロシイ･･･！
-CharaSerif_12_M	\u000e\u0000\u0002\u0002\u0096\u0000オス！ ぶるぶるぶる･･･\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_12_M	{s[150]}オス！ ぶるぶるぶる･･･{s[100]}
 CharaSerif_13_M	さぁ、やれ！\nとにかく負けるなよ!!
 \event\stageBeginM030.msbt
 CharaSerif_00_M	･･･これで最後よ。\n今度こそたおして、戦争をおわらせる！
@@ -4496,13 +4496,13 @@ CharaSerif_02_F	よーし･･･ じゃあまた\nふたりでスシ食べよ�
 CharaSerif_03_M	バカみたい！\nスシバトルは戦いよ。それを･･･
 CharaSerif_04_M	だから、そのバトルでおまえに\nスシのうまさを教えてやるぜ！
 CharaSerif_04_F	だから、そのバトルであなたに\nスシのおいしさを教えてあげる！
-CharaSerif_05_M	\u000e\u0000\u0002\u0002\u0096\u0000バ･･････!!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_05_M	{s[150]}バ･･････!!!{s[100]}
 CharaSerif_06_M	ムサシ･･･ むなしくならないの？\nそうやって、いつも１人で戦って･･･
 CharaSerif_07_M	いや、オレにはスシがある！\nジンライたちスシガミもいる！
 CharaSerif_07_F	ううん、わたしにはスシがある！\nジンライたちスシガミもいる！
 CharaSerif_08_M	それに･･･ もうすぐ、おまえとも\n仲間になれそうな気がするぜ!!
 CharaSerif_08_F	それに･･･ もうすぐ、あなたとも\n友達になれそうな気がするわ!!
-CharaSerif_09_M	\u000e\u0000\u0002\u0002\u0096\u0000･････････!!\u000e\u0000\u0002\u0002d\u0000\n
+CharaSerif_09_M	{s[150]}･････････!!{s[100]}\n
 \event\stageBeginM031.msbt
 CharaSerif_00_M	ぬうう･･･ ついにここまで！
 CharaSerif_01_M	おまえはユーリア！\nうらぎりやがったな!?
@@ -4510,10 +4510,10 @@ CharaSerif_02_M	わたしは、戦争を終わらせたいだけ。\nもとも�
 CharaSerif_03_M	それと･･･ この人の笑顔に\nかけてみたくなっただけよ･･･
 CharaSerif_04_M	フン！ くだらねぇ!!\nだったら、まとめてかたづけてやる！
 CharaSerif_05_M	うおりゃあっ!! 見やがれ！ あらあらしくも\nカッコよくスシを食う、オレ様の勇姿を!!!
-CharaSerif_06_M	\u000e\u0000\u0002\u0002\u0096\u0000いくぜ！『{c[91ff1e]}バキューム食い{c[000000]}』!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_06_M	{s[150]}いくぜ！『{c[91ff1e]}バキューム食い{c[000000]}』!!{s[100]}
 CharaSerif_07_M	これは･･･！ あの時の!?
 CharaSerif_08_M	むぅ･･･！ 皿の色すらムシして\n吸い込むように食うという、あのスキルか!!
-CharaSerif_09_M	\u000e\u0000\u0002\u0002\u0096\u0000グハハハハ！ かくごしろ!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_09_M	{s[150]}グハハハハ！ かくごしろ!!{s[100]}
 \event\stageBeginM032.msbt
 CharaSerif_00_M	むむっ、解放戦線！\nスシ解放戦線があらわれたぞ！
 CharaSerif_01_M	みんな！ ここはオレにまかせて\n先に進んでくれ!!
@@ -4537,7 +4537,7 @@ CharaSerif_07_M	ぬう･･･ みょうなヤツじゃな。\nどうする？
 CharaSerif_08_M	やれやれ･･･ ジンライ、コイツに\nスシを食わせてやってくれ。
 CharaSerif_08_F	やれやれ･･･ ジンライ、この人に\nスシを食べさせてあげて。
 CharaSerif_09_M	うむ、よかろう！
-CharaSerif_10_M	\u000e\u0000\u0002\u0002\u0096\u0000マイウー！ シースーマイウー!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_10_M	{s[150]}マイウー！ シースーマイウー!!{s[100]}
 CharaSerif_11_M	へへっ♪ “シースー”って\nスシのことか？
 CharaSerif_11_F	へへっ♪ “シースー”って\nそれスシのこと？
 CharaSerif_12_M	そそ！\nシースー、サイコー！
@@ -4554,10 +4554,10 @@ CharaSerif_01_M	こんな遠い所まで、ごくろうじゃのう･･･\n�
 CharaSerif_02_M	おおっ!! ウマそう！
 CharaSerif_02_F	うおぅ♪ おいしそう！
 CharaSerif_03_M	ふほほ･･･ そうじゃろう♪ なにしろ\nスシの本当のおいしさがつまっておる。
-CharaSerif_04_M	\u000e\u0000\u0002\u0002\u0096\u0000いただきまーす！\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_04_M	{s[150]}いただきまーす！{s[100]}
 CharaSerif_05_M	へえ、ホントのおいしさねぇ･･･
 CharaSerif_05_F	ふーん、ホントのおいしさかぁ･･･
-CharaSerif_06_M	\u000e\u0000\u0002\u0002\u0096\u0000うぐっ！\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_06_M	{s[150]}うぐっ！{s[100]}
 CharaSerif_07_M	ムサシ！ どうした!?
 CharaSerif_08_M	くぅ～っ!!!!!\nこ、このスシ･･･ なかにドクが･･････！
 CharaSerif_09_M	これは!? ドクではない･･･\nワサビ！ それも大量じゃ!!
@@ -4567,7 +4567,7 @@ CharaSerif_11_M	むぅ、ワサビはスシの風味を高めるとはいえ\n�
 CharaSerif_12_M	ふほほっ！ ワガハイには\nそれでもたりんぐらいじゃよ♪
 CharaSerif_13_M	ワサビこそスシ！ スシこそワサビ！\nとくと味わうんじゃな!!
 CharaSerif_14_M	ええい！ 何者だ!?
-CharaSerif_15_M	\u000e\u0000\u0002\u0002\u0096\u0000よ～く聞けい！ ワガハイこそ･･･\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_15_M	{s[150]}よ～く聞けい！ ワガハイこそ･･･{s[100]}
 \event\stageBeginM041.msbt
 CharaSerif_00_M	まて！ ムサシ!!
 CharaSerif_01_M	コジロー!?\nなんだ、この部隊にいたのか？
@@ -4579,7 +4579,7 @@ CharaSerif_04_M	ヒヒッ♪  そういや聞いたぞ。\nオマエ、ワサビ
 CharaSerif_05_M	えっ!? オマエ食べられんの？
 CharaSerif_05_F	えっ!? あんた食べられるの？
 CharaSerif_06_M	へへへ･･･ そりゃもちろん･･･
-CharaSerif_07_M	\u000e\u0000\u0002\u0002\u0096\u0000食べられるわけないだろ!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_07_M	{s[150]}食べられるわけないだろ!!{s[100]}
 CharaSerif_08_M	やれやれ･･･ なんだそりゃ。
 CharaSerif_08_F	やれやれ･･･ なによそれ？
 CharaSerif_09_M	フン！ そんなことはどうでもいい。\n新たに手にした、オレのチカラを見やがれ！
@@ -4605,9 +4605,9 @@ CharaSerif_01_M	やれやれ･･･ なんと罪深い。\nサビ抜きなど�
 CharaSerif_02_M	ふざけるな！ それはこっちのセリ･･･
 CharaSerif_02_F	ふざけないで！ それはこっちのセリ･･･
 CharaSerif_03_M	み～つけた！\nこんどはバンブークさまがオニですよ♪
-CharaSerif_04_M	\u000e\u0000\u0002\u0002\u0096\u0000ふほっ！ こりゃいかん!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_04_M	{s[150]}ふほっ！ こりゃいかん!!{s[100]}
 CharaSerif_05_M	んじゃ、あとはテキトーにたのむわ。\nワガハイ、まだいそがしいんじゃ♪
-CharaSerif_06_M	\u000e\u0000\u0002\u0002\u0096\u0000は～い♪ バンブークさま!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_06_M	{s[150]}は～い♪ バンブークさま!!{s[100]}
 CharaSerif_07_M	ちぇっ、チョーシくるうなぁ･･･
 CharaSerif_07_F	ふう･･･ チョーシくるうなぁ。
 \event\stageBeginM051.msbt
@@ -4615,22 +4615,22 @@ CharaSerif_00_M	ふほほっ♪ よくここまで来れたものよ。\nサビ�
 CharaSerif_01_M	いや！ ワサビぬきだってスシはおいしい！\nあんたは間違ってる！
 CharaSerif_01_F	ううん、ワサビぬきだってスシはおいしい！\nあなたは間違ってる！
 CharaSerif_02_M	バカめ！ 間違っとるのはおまえらじゃ！\nそのおかしな舌を正してくれる!!
-CharaSerif_03_M	\u000e\u0000\u0002\u0002\u0096\u0000ま･･･ まってぇぇぇ!!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_03_M	{s[150]}ま･･･ まってぇぇぇ!!!{s[100]}
 CharaSerif_04_M	おまえさんは･･･ 新入り!?
 CharaSerif_05_M	コイツは･･･ ムサシは･･･\nオレにたおさせてください!!
 CharaSerif_06_M	なんじゃと？ さっきコテンパンに\n負けたばかりではないか。
 CharaSerif_07_M	もういちど！ もういちどチャンスを!!\nかならずコイツをたおしてみせますぅ！
 CharaSerif_08_M	ふほほ♪ まあよかろう･･･\nただし！ 負けたらウチの隊をクビじゃぞ？
-CharaSerif_09_M	\u000e\u0000\u0002\u0002\u0096\u0000く･･･ クビ!?\u000e\u0000\u0002\u0002d\u0000\n
+CharaSerif_09_M	{s[150]}く･･･ クビ!?{s[100]}\n
 CharaSerif_10_M	ちくしょう･･･ ムサシ！\nオレの出世のジャマばっかしやがって!!
 \event\stageBeginM052.msbt
 CharaSerif_00_M	ふほほっ♪ さきほどは\nとんだジャマが入ったのう。
 CharaSerif_01_M	ムサシ！ やはりキサマもスシライカーなら\n本当のスシの･･･ ワサビの味わいを知るべきじゃ！
-CharaSerif_02_M	\u000e\u0000\u0002\u0002\u0096\u0000わが『{c[91ff1e]}ワサビ大サービス{c[000000]}』でな！\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_02_M	{s[150]}わが『{c[91ff1e]}ワサビ大サービス{c[000000]}』でな！{s[100]}
 CharaSerif_03_M	なんだ？ スシガミスキルか!?
 CharaSerif_03_F	なに!? スシガミスキル？
 CharaSerif_04_M	うむ！ こちらのレーンにムリヤリ\n山盛りワサビ皿を流すスキルじゃ！
-CharaSerif_05_M	\u000e\u0000\u0002\u0002\u0096\u0000ふほほっ！シビれさせるぞい!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_05_M	{s[150]}ふほほっ！シビれさせるぞい!!{s[100]}
 \event\stageBeginM053.msbt
 CharaSerif_00_M	解放戦線だ!!\nこ･･･ こんな所までくるとは！
 CharaSerif_01_M	･･･くそっ！ ナバには\nぜったい近づけさせんぞ!!
@@ -4663,15 +4663,15 @@ CharaSerif_06_F	でたわね･･･！ こっちはいま\nムシのいどこ�
 CharaSerif_07_M	おう！ オレがムサシだ!!\nケガしたくないヤツは、ひっこんでろ！
 CharaSerif_07_F	そうよ･･･！ わたしがムサシ!!\nケガしたくなかったら、ひっこんでて！
 CharaSerif_08_M	ひ･･･ ヒイッ!!
-CharaSerif_09_M	\u000e\u0000\u0002\u0002\u0096\u0000うろたえるなッ！\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_09_M	{s[150]}うろたえるなッ！{s[100]}
 CharaSerif_10_M	みぐるしい･･･\n相手は子供だというのに。
 CharaSerif_11_M	だれだ!? あのお面ヤロウ･･･
 CharaSerif_11_F	だれ!? あのお面のオトコ･･･
 CharaSerif_12_M	･･･こぞう、キサマに帝都の地を\nふませるわけにはいかん。
 CharaSerif_12_F	･･･小娘、キサマに帝都の地を\nふませるわけにはいかん。
-CharaSerif_13_M	\u000e\u0000\u0002\u0002\u0096\u0000電磁砲用意！\u000e\u0000\u0002\u0002d\u0000
-CharaSerif_14_M	\u000e\u0000\u0002\u0002\u0096\u0000なっ、なんだ!?\u000e\u0000\u0002\u0002d\u0000
-CharaSerif_14_F	\u000e\u0000\u0002\u0002\u0096\u0000なっ、なに!?\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_13_M	{s[150]}電磁砲用意！{s[100]}
+CharaSerif_14_M	{s[150]}なっ、なんだ!?{s[100]}
+CharaSerif_14_F	{s[150]}なっ、なに!?{s[100]}
 CharaSerif_15_M	いかん！ あんなの撃たれたら\nひとたまりも無いぞ!!
 CharaSerif_16_M	ムサシ！ 発射準備が終わるまでに\nいそいで破壊するのじゃ！
 \event\stageBeginM067.msbt
@@ -4693,7 +4693,7 @@ CharaSerif_10_M	･･･なるほど。\nではジュウベエの子よ、お�
 CharaSerif_11_M	真実はいつも、悪意によって隠される･･･\nだが、いずれ明らかになることもあるだろう･･･
 CharaSerif_12_M	なんだ？ 何いってやがる？
 CharaSerif_12_F	なに？ 何をいってるの？
-CharaSerif_13_M	\u000e\u0000\u0002\u0002\u0096\u0000電磁砲用意！\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_13_M	{s[150]}電磁砲用意！{s[100]}
 CharaSerif_14_M	まて！ にげるのか!?
 CharaSerif_14_F	まって！ にげるつもり!?
 CharaSerif_15_M	ムサシ！またあのデカブツじゃ。\n気をつけろ!!
@@ -4708,7 +4708,7 @@ CharaSerif_04_M	それはこっちのセリフだ！\nグロム様の元には�
 \event\stageBeginM072.msbt
 CharaSerif_00_M	このナバが、こうも簡単に落ちるとは･･･
 CharaSerif_01_M	スシライカー・ムサシ･･･\nやはり只者ではなかったか。
-CharaSerif_02_M	\u000e\u0000\u0002\u0002\u0096\u0000あーっ!! みつけた！\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_02_M	{s[150]}あーっ!! みつけた！{s[100]}
 CharaSerif_03_M	まて！ にげようったって\nそうはいかないぞ！
 CharaSerif_03_F	まって！ にげようったって\nそうはいかないわよ！
 CharaSerif_04_M	フン･･･ 皇帝陛下の急なお召しでな。\nだが、私の目的はすでに果たした。
@@ -4721,7 +4721,7 @@ CharaSerif_08_M	･･･やめておけ。\n今のおまえに私は倒せな�
 CharaSerif_09_M	るせえ！\nいくぜ、ジンライ！
 CharaSerif_09_F	このっ！ ゴチャゴチャうるさい!! \nいくよ、ジンライ！
 CharaSerif_10_M	･･･しかたあるまい。
-CharaSerif_11_M	\u000e\u0000\u0002\u0002\u0096\u0000いでよ、ゴウライ!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_11_M	{s[150]}いでよ、ゴウライ!!{s[100]}
 CharaSerif_12_M	･･･なにっ！\nゴウライじゃと!?
 CharaSerif_13_M	なっ、なんだ!?\nあれも･･･ スシガミなのか!?
 CharaSerif_13_F	なっ、なに!?\nあれも･･･ スシガミなの!?
@@ -4770,13 +4770,13 @@ CharaSerif_01_F	えっ･･･ なに？ オバサンだれ？
 CharaSerif_02_M	でも、かわいそうに･･･\nアンタのたびは、ここでおわりさ･･･！
 CharaSerif_03_M	･･･ひょっとして\nオバサン、帝国軍か？
 CharaSerif_03_F	あっ！ ひょっとして･･･\nオバサン、帝国軍？
-CharaSerif_04_M	\u000e\u0000\u0002\u0002\u0096\u0000･････････！\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_04_M	{s[150]}･････････！{s[100]}
 CharaSerif_05_M	･･･オバサン？
-CharaSerif_06_M	\u000e\u0000\u0002\u0002\u0096\u0000おだまり！ 失礼なガキだね!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_06_M	{s[150]}おだまり！ 失礼なガキだね!!{s[100]}
 CharaSerif_07_M	アタイのことは\n“おじょうさま”とお呼び！
 CharaSerif_08_M	えーっ、さすがにそれは･･･
 CharaSerif_09_M	うむ、ムリムリじゃな。
-CharaSerif_10_M	\u000e\u0000\u0002\u0002\u0096\u0000フン、よくお聞き!! アタイは･･･\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_10_M	{s[150]}フン、よくお聞き!! アタイは･･･{s[100]}
 \event\stageBeginM083.msbt
 CharaSerif_00_M	まて！ ムサシ!!
 CharaSerif_01_M	コジロー!?\nなんだ、この部隊にいたのか？
@@ -4788,7 +4788,7 @@ CharaSerif_04_M	ヒヒッ♪ しかしソスナ様の前で\n赤いスシを食�
 CharaSerif_05_M	あれ？ おまえだって\n赤いスシはスキだろ？
 CharaSerif_05_F	あれ？ あんただって\n赤いスシはスキでしょ？
 CharaSerif_06_M	へへへ･･･ まあな。\nだから最近は、かくれてコッソリ･･･
-CharaSerif_07_M	\u000e\u0000\u0002\u0002\u0096\u0000･･･って、今のはナイショだ!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_07_M	{s[150]}･･･って、今のはナイショだ!!{s[100]}
 CharaSerif_08_M	へへっ♪ いいこと聞いたぜ･･･
 CharaSerif_08_F	へへっ♪ いいこと聞いちゃった。
 CharaSerif_09_M	フン！ そんなことはどうでもいい。\n新たに手にした、オレのチカラを見やがれ！
@@ -4811,13 +4811,13 @@ CharaSerif_06_M	マーヒーならムーゲーしまショー！
 CharaSerif_00_M	おやおや･･･\nま～だウロチョロしてたのかい？
 CharaSerif_01_M	フフッ･･･ ケガしないうちにお帰り？\n赤いスシの ボ・ウ・ヤ♪
 CharaSerif_01_F	フフッ･･･ ケガしないうちにお帰り？\n赤いスシの お・じょ・う・ちゃん♪
-CharaSerif_02_M	\u000e\u0000\u0002\u0002\u0096\u0000子供あつかいするな！オバサン!!\u000e\u0000\u0002\u0002d\u0000
-CharaSerif_02_F	\u000e\u0000\u0002\u0002\u0096\u0000子供扱いしないで！オバサン!!\u000e\u0000\u0002\u0002d\u0000
-CharaSerif_03_M	\u000e\u0000\u0002\u0002\u0096\u0000そっちもオバサンいうな！ガキ!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_02_M	{s[150]}子供あつかいするな！オバサン!!{s[100]}
+CharaSerif_02_F	{s[150]}子供扱いしないで！オバサン!!{s[100]}
+CharaSerif_03_M	{s[150]}そっちもオバサンいうな！ガキ!!{s[100]}
 CharaSerif_04_M	･･･お話し中、失礼します。\n次の予定のお時間です。
 CharaSerif_05_M	･･･あら、もうスイーツタイム？\nざ～んねん。
 CharaSerif_06_M	じゃ、ボーイズたち！\nあとはまかせたわ♪
-CharaSerif_07_M	\u000e\u0000\u0002\u0002\u0096\u0000はい！ おじょうさま!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_07_M	{s[150]}はい！ おじょうさま!!{s[100]}
 CharaSerif_08_M	やれやれ、おじょうさまねえ･･･
 \event\stageBeginM093.msbt
 CharaSerif_00_M	おやおや･･・ よくここまで来れたねぇ♪\n赤くてマズ～いスシで！
@@ -4825,23 +4825,23 @@ CharaSerif_01_M	ええい！ 赤いスシはおいしいんじゃ！\n子供た�
 CharaSerif_02_M	あんた･･･ 昔は好きだったんだろ？\n赤いスシには、何の罪もないぜ？
 CharaSerif_02_F	あなた･･･ 昔は好きだったんでしょ？\n赤いスシには、何の罪もないわよ？
 CharaSerif_03_M	おだまり！ お子様にゃアタイの\n悲しみはわかりゃしないよ！
-CharaSerif_04_M	\u000e\u0000\u0002\u0002\u0096\u0000勝負よ！ 覚悟おし!!\u000e\u0000\u0002\u0002d\u0000
-CharaSerif_05_M	\u000e\u0000\u0002\u0002\u0096\u0000ま･･･ まってぇぇぇ!!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_04_M	{s[150]}勝負よ！ 覚悟おし!!{s[100]}
+CharaSerif_05_M	{s[150]}ま･･･ まってぇぇぇ!!!{s[100]}
 CharaSerif_06_M	あんたは･･･ 新入り!?
 CharaSerif_07_M	コイツは･･･ ムサシは･･･\nオレにたおさせてください!!
 CharaSerif_08_M	なに言ってんだい！\nさっきケチョンケチョンに負けといて！
 CharaSerif_09_M	もういちど！ もういちどチャンスを!!\nかならずコイツをたおしてみせますぅ！
 CharaSerif_10_M	･････････！
 CharaSerif_11_M	･･･じゃあ、おやり。\nただし、負けたらウチの隊をクビだよ？
-CharaSerif_12_M	\u000e\u0000\u0002\u0002\u0096\u0000く･･･ クビ!?\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_12_M	{s[150]}く･･･ クビ!?{s[100]}
 CharaSerif_13_M	ちくしょう･･･ ムサシ！\nオレに何のウラミがあるってんだ!!
 \event\stageBeginM094.msbt
 CharaSerif_00_M	･･･フン！ なんだったんだい？\nあの泣き虫は！
 CharaSerif_01_M	じゃあ、しきりなおしだよ！\nかかっておいで！
-CharaSerif_02_M	\u000e\u0000\u0002\u0002\u0096\u0000なっ、なんだ!? この光!!\u000e\u0000\u0002\u0002d\u0000
-CharaSerif_02_F	\u000e\u0000\u0002\u0002\u0096\u0000なっ、なに!? この光!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_02_M	{s[150]}なっ、なんだ!? この光!!{s[100]}
+CharaSerif_02_F	{s[150]}なっ、なに!? この光!!{s[100]}
 CharaSerif_03_M	これは･･･！ まさか･･･!!
-CharaSerif_04_M	\u000e\u0000\u0002\u0002\u0096\u0000そう！『{c[91ff1e]}ヒカリノコロモ{c[000000]}』さ!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_04_M	{s[150]}そう！『{c[91ff1e]}ヒカリノコロモ{c[000000]}』さ!!{s[100]}
 CharaSerif_05_M	あはははは！ この光は、赤いスシで重ねた\n皿の攻撃を、すべて受け流しちまうのさ！
 CharaSerif_09_M	いかん！{c[ffae00]} 赤いスシ{c[000000]}が{c[ffae00]}１枚でも{c[000000]}入った積み皿は\nこのスキル発動中･･･ 攻撃力が「{c[ffae00]}0{c[000000]}」になるぞ!!
 CharaSerif_07_M	気をつけろ！ {c[ffae00]}サーモン{c[000000]}や{c[ffae00]}まぐろ{c[000000]}は{c[ffae00]}赤いスシ{c[000000]}･･･\nつまりワシにとって天敵といえるスキルじゃ･･･!!
@@ -4860,36 +4860,36 @@ CharaSerif_03_M	このっ！ オレだよ！\nジンライをつれたおまえ�
 CharaSerif_04_M	んー･･･ でも同じカオのヤツが\nけっこういたからなぁ･･･
 CharaSerif_04_F	んー･･･ でも同じカオが\nけっこういたからなぁ･･･
 CharaSerif_05_M	･･･ともかく、おまえのせいで\nこんな寒い所におくられたんだ。
-CharaSerif_06_M	\u000e\u0000\u0002\u0002\u0096\u0000いくぞ！このウラミおもいしれ!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_06_M	{s[150]}いくぞ！このウラミおもいしれ!!{s[100]}
 \event\stageBeginM100.msbt
-CharaSerif_00_M	\u000e\u0000\u0002\u0002\u0096\u0000オス！ ごぶさただな！ オス！\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_00_M	{s[150]}オス！ ごぶさただな！ オス！{s[100]}
 CharaSerif_01_M	えっ？ ･･･だれだ？
 CharaSerif_01_F	えっ？ ･･･だれ？
 CharaSerif_02_M	ふふん♪ この上腕二頭筋に\n見おぼえはないか？
 CharaSerif_03_M	あぁ！ アブリコス隊!!\n･･････の、だれかか。
 CharaSerif_04_M	フン！ おまえに敗れたばかりに\nオレのシックスパックはカゼぎみだ！
-CharaSerif_05_M	\u000e\u0000\u0002\u0002\u0096\u0000かくごしろ！ 絶対ゆるさん！\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_05_M	{s[150]}かくごしろ！ 絶対ゆるさん！{s[100]}
 \event\stageBeginM104.msbt
 CharaSerif_00_M	フフフ･･･ しばらくだな。\nここで会ったが100年目！
 CharaSerif_01_M	やれやれ･･･ こんどはだれだ？
 CharaSerif_01_F	やれやれ･･･ こんどはだれ？
 CharaSerif_02_M	フン･･･ ものおぼえの悪いヤツめ。\n私は鎮守の森基地の･･･
-CharaSerif_03_M	\u000e\u0000\u0002\u0002d\u0000あーっ！ {c[91ff1e]}{c[ffae00]}もと{c[91ff1e]} {c[000000]}司令官か!!\u000e\u0000\u0002\u0002d\u0000
-CharaSerif_03_F	\u000e\u0000\u0002\u0002d\u0000あーっ！ {c[91ff1e]}{c[ffae00]}もと{c[91ff1e]} {c[000000]}司令官!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_03_M	{s[100]}あーっ！ {c[91ff1e]}{c[ffae00]}もと{c[91ff1e]} {c[000000]}司令官か!!{s[100]}
+CharaSerif_03_F	{s[100]}あーっ！ {c[91ff1e]}{c[ffae00]}もと{c[91ff1e]} {c[000000]}司令官!!{s[100]}
 CharaSerif_04_M	ええい！ 大きな文字で\n「{c[ffae00]}もと{c[000000]}」とか言うな！
 CharaSerif_06_M	フッ･･･ この島でのバトルには、{c[ffae00]}他の場所にはない\n秘密{c[000000]}がある･･･ それを知るこちらが有利･･･
-CharaSerif_05_M	\u000e\u0000\u0002\u0002\u0096\u0000勝負だ！ 今度は負けん!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_05_M	{s[150]}勝負だ！ 今度は負けん!!{s[100]}
 \event\stageBeginM110.msbt
 CharaSerif_00_M	･･･ついたぞ、ここが特別棟だ。
-CharaSerif_01_M	\u000e\u0000\u0002\u0002\u0096\u0000あーっ！ここだ!!\u000e\u0000\u0002\u0002d\u0000
-CharaSerif_02_M	\u000e\u0000\u0002\u0002\u0096\u0000ユキチさん！\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_01_M	{s[150]}あーっ！ここだ!!{s[100]}
+CharaSerif_02_M	{s[150]}ユキチさん！{s[100]}
 CharaSerif_03_M	むう･･･ 気を失ってるようじゃ。
 CharaSerif_04_M	こんな･･････ \nこんなボロボロになって･･･
-CharaSerif_05_M	\u000e\u0000\u0002\u0002\u0096\u0000たのむよ!! へんじをしてくれ！\u000e\u0000\u0002\u0002d\u0000
-CharaSerif_05_F	\u000e\u0000\u0002\u0002\u0096\u0000おねがい!! へんじをして！\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_05_M	{s[150]}たのむよ!! へんじをしてくれ！{s[100]}
+CharaSerif_05_F	{s[150]}おねがい!! へんじをして！{s[100]}
 CharaSerif_06_M	･･･む、ムサシ!!\nまずいぞ、看守がきた！
 \event\stageBeginM111.msbt
-CharaSerif_00_M	\u000e\u0000\u0002\u0002\u0096\u0000グハハハハッ！ まてぇい!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_00_M	{s[150]}グハハハハッ！ まてぇい!!{s[100]}
 CharaSerif_01_M	ゲッ･･･ アブリコス！\nおまえもここに!?
 CharaSerif_01_F	ゲッ･･･ アブリコス！\nあんたもここに!?
 CharaSerif_02_M	フン！ あぁそうだ･･･\nおまえのせいでな！
@@ -4897,7 +4897,7 @@ CharaSerif_03_M	オレさまは、ホントだったら\n帝国一の大軍人�
 CharaSerif_04_M	よくも栄光の人生計画を･･･\nライフプランを！ プロテインを!!
 CharaSerif_05_M	ふふん♪ 世迷い言を･･･\nそんな未来など、きっとなかった！
 CharaSerif_06_M	うるせえ！ 訓練でさらに強くなった\nオレさまのチカラを見やがれ！
-CharaSerif_07_M	\u000e\u0000\u0002\u0002\u0096\u0000いくぜ！『{c[91ff1e]}バキューム食い{c[000000]}』!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_07_M	{s[150]}いくぜ！『{c[91ff1e]}バキューム食い{c[000000]}』!!{s[100]}
 CharaSerif_08_M	このっ！ まだそんな\nもったいない食べかたを･･･！
 CharaSerif_09_M	おろかな！スシを粗末にする心を\nあらためぬ限り、ワシらには勝てぬ！
 \event\stageBeginM112.msbt
@@ -4945,14 +4945,14 @@ CharaSerif_06_M	･･･そうだな。親として許されることではな�
 CharaSerif_07_M	すべてはスシのため･･･
 CharaSerif_08_M	なにごとも、ひとつの道をきわめんとすれば\nそれは必ず 一個人の問題ではなくなる･･･
 CharaSerif_09_M	オレは、これ以上誰もまきこみたくなかった･･･\nおまえという存在を、犠牲にしたくなかったのだ。
-CharaSerif_10_M	\u000e\u0000\u0002\u0002\u0096\u0000ふざけるな!!\u000e\u0000\u0002\u0002d\u0000
-CharaSerif_10_F	\u000e\u0000\u0002\u0002\u0096\u0000ふざけないで!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_10_M	{s[150]}ふざけるな!!{s[100]}
+CharaSerif_10_F	{s[150]}ふざけないで!!{s[100]}
 CharaSerif_11_M	勝手なこと言って･･･ スシが家族を\nバラバラにするなんて、おかしいぜ!!
 CharaSerif_11_F	勝手なこと言って･･･ スシが家族を\nバラバラにするなんて、おかしいよ!!
 CharaSerif_12_M	フン･･･ 私にスシのなんたるかを説くとは\nリッパになったものだ。
 CharaSerif_13_M	･･･だがオレは、自らの進んだ道を\nあやまりだったとは思わん。
 CharaSerif_14_M	ムサシ！ それがおまえの考えるスシならば･･･\nその正しさは、自分のチカラでつらぬき通せ！
-CharaSerif_15_M	\u000e\u0000\u0002\u0002\u0096\u0000電磁砲用意！\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_15_M	{s[150]}電磁砲用意！{s[100]}
 CharaSerif_16_M	こんなもの･･･\nぶっこわしてやる!!
 CharaSerif_16_F	こんなもの･･･\nぶっこわしてやるわ!!
 \event\stageBeginM132.msbt
@@ -4968,11 +4968,11 @@ CharaSerif_04_M	マーヒーならムーゲーしません？
 CharaSerif_05_M	このっ！ 今はマーヒーじゃねぇ。\nそれどころじゃ･･･
 CharaSerif_05_F	ちょっと！ 今はマーヒーじゃないの。\nそれどころじゃ･･･
 CharaSerif_06_M	･･･いや、つきあってやれ。
-CharaSerif_07_M	\u000e\u0000\u0002\u0002\u0096\u0000ええっ!?\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_07_M	{s[150]}ええっ!?{s[100]}
 CharaSerif_08_M	ムサシ･･･ つきあってやらんと帰らない。\nこいつはそういう男だ。
 CharaSerif_09_M	そそ！ さっすがパイセン♪
 CharaSerif_10_M	マーヒーならムーゲーしまショー！
-CharaSerif_11_M	\u000e\u0000\u0002\u0002\u0096\u0000え～～っ!?\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_11_M	{s[150]}え～～っ!?{s[100]}
 \event\stageBeginM141.msbt
 CharaSerif_00_M	くっ･･･ つぎからつぎへと！\nキリがねえ!!
 CharaSerif_00_F	くっ、つぎからつぎへと･･･！\nこれじゃキリがない！
@@ -5134,10 +5134,10 @@ stageEndM003_02_M	（ふむ･･･ スシライカーになったばかり\n�
 stageEndM003_03_M	（フフン♪ やはりおもしろいヤツじゃ･･･）
 stageEndM003_04_M	･･･よし、では国境に行ってみよう。\nユキチの手がかりがつかめるかもしれん！
 \event\stageEndM003.msbt
-stageEndM004_01_M	\u000e\u0000\u0002\u0002\u0096\u0000くそぉ･･･ また負けたあああ！\u000e\u0000\u0002\u0002d\u0000
+stageEndM004_01_M	{s[150]}くそぉ･･･ また負けたあああ！{s[100]}
 stageEndM004_02_M	おぼえてろよ！ おまえのことは\n帝国軍の皆様に言いつけてやる！
 stageEndM004_03_M	スシガミをつれた、ヘンなガキがいるってな！\nオマエもつかまっちまえ！
-stageEndM004_04_M	\u000e\u0000\u0002\u0002\u0096\u0000うわぁーん!!\u000e\u0000\u0002\u0002d\u0000
+stageEndM004_04_M	{s[150]}うわぁーん!!{s[100]}
 stageEndM004_05_M	･･･ん？ なにか落としたぞ。
 stageEndM004_05_F	･･･ん？ なにか落としたみたい。
 stageEndM004_06_M	･･･ほう、スシガミの契約皿じゃな。\nおそらく帝国からもらったのじゃろう。
@@ -5176,17 +5176,17 @@ stageEndM008_01_M	よし、このぶんなら\nじき国境に着けそうだ！
 stageEndM008_01_F	よーし！ このぶんなら\nもうチョイで国境よ♪
 stageEndM008_02_M	うむ、なかなか順調じゃな。
 stageEndM008_03_M	きたぞ！\n契約者ごと、つかまえろ!!
-stageEndM008_04_M	\u000e\u0000\u0002\u0002\u0096\u0000おおぉっ!!\u000e\u0000\u0002\u0002d\u0000
+stageEndM008_04_M	{s[150]}おおぉっ!!{s[100]}
 stageEndM008_05_M	ゲッ！ 今度は待ちぶせ!?
 stageEndM008_06_M	くっ！ ヤバい･･･ かも･･･
 stageEndM008_07_M	ムサシ！ あっちにも別の一団が!!
 stageEndM008_23_M	･･･いや、帝国軍ではないのか？
-stageEndM008_08_M	\u000e\u0000\u0002\u0002\u0096\u0000かかれーっ!!\u000e\u0000\u0002\u0002d\u0000
+stageEndM008_08_M	{s[150]}かかれーっ!!{s[100]}
 stageEndM008_10_M	ごぶじでしたか？\nジンライの契約者！
 stageEndM008_11_M	えっ？ うん･･･
 stageEndM008_11_F	えっ？ えーっと･･･
 stageEndM008_12_M	ぬう･･･ なにものじゃ？
-stageEndM008_13_M	\u000e\u0000\u0002\u0002\u0096\u0000われわれは、スシ解放戦線です！\u000e\u0000\u0002\u0002d\u0000
+stageEndM008_13_M	{s[150]}われわれは、スシ解放戦線です！{s[100]}
 stageEndM008_14_M	帝国が、あのジンライを発見し\n確保に乗り出したと聞き、助けにきました！
 stageEndM008_15_M	･･･なんだ？ なんでみんな\nジンライを特別あつかいするんだ？
 stageEndM008_15_F	･･･なに？ なんでみんな\nジンライを特別あつかいするの？
@@ -5276,27 +5276,27 @@ stageEndM011_12_F	うん！ わかった！
 CharaSerif_00_M	･･･うむ。不本意ながら\nオトリ役は順調なようじゃな。
 CharaSerif_01_M	ちょ、ちょっと！ 待ってえぇな！
 CharaSerif_02_M	ムサシはん！ あんた･･･\nいまウワサのムサシはんやんな？
-CharaSerif_03_M	\u000e\u0000\u0002\u0002\u0096\u0000な？\u000e\u0000\u0002\u0002d\u0000
-CharaSerif_04_M	\u000e\u0000\u0002\u0002\u0096\u0000ええっ！だれだ!? ･･･てか 近い!!\u000e\u0000\u0002\u0002d\u0000
-CharaSerif_04_F	\u000e\u0000\u0002\u0002\u0096\u0000ええっ！だれ!? ･･･てか 近い!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_03_M	{s[150]}な？{s[100]}
+CharaSerif_04_M	{s[150]}ええっ！だれだ!? ･･･てか 近い!!{s[100]}
+CharaSerif_04_F	{s[150]}ええっ！だれ!? ･･･てか 近い!!{s[100]}
 CharaSerif_05_M	わいはドートン。隠れ里で\nスシガミ遺跡を研究しとるモンです。
 CharaSerif_06_M	あの解放戦線が、鎮守の森に来たと聞き\nハラくくって村を出てきましてん！
 CharaSerif_07_M	というのも、村には帝国軍の基地があって\nみーんなヒドいめにあってますのや･･･
 CharaSerif_08_M	おたのみします！ 帝国を追っぱらい\n鎮守の森に平和を･･･！ 安らぎを･･･!!
 CharaSerif_09_M	･･･わかった！\n隠れ里の人たちは、オレが助ける！
 CharaSerif_09_F	･･･わかった！\n隠れ里の人たちは、わたしが助ける！
-CharaSerif_10_M	\u000e\u0000\u0002\u0002\u0096\u0000ほんまでっか!?\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_10_M	{s[150]}ほんまでっか!?{s[100]}
 CharaSerif_11_M	まてムサシ、ワシらはオトリじゃ！\n鎮守の森に行けば、作戦がだいなしに･･･
 CharaSerif_12_M	だって、こんなに必死なんだぜ。\nことわれないだろ？
 CharaSerif_12_F	だって、こんなに必死なのよ？\nことわれないじゃない♪
 CharaSerif_13_M	おおきに!! ほな近道がありますよって\nこっそり教えまっさ！
 CharaSerif_14_M	よし、たのむぜ!!
 CharaSerif_14_F	うん、おねがい!!
-CharaSerif_15_M	\u000e\u0000\u0002\u0002\u0096\u0000はいっ！ このさきです～！\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_15_M	{s[150]}はいっ！ このさきです～！{s[100]}
 \event\stageEndM013.msbt
-CharaSerif_00_M	\u000e\u0000\u0002\u0002\u0096\u0000くそぉ･･･ また負けたあああ！\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_00_M	{s[150]}くそぉ･･･ また負けたあああ！{s[100]}
 CharaSerif_01_M	おぼえてろよ！\nつぎこそホンキを出してやる!!
-CharaSerif_02_M	\u000e\u0000\u0002\u0002\u0096\u0000うわぁーん!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_02_M	{s[150]}うわぁーん!!{s[100]}
 CharaSerif_03_M	ん？ またなにか落としやがった･･･
 CharaSerif_03_F	ん？ またなにか落とした･･･
 CharaSerif_05_M	ほう･･･ これはレーンドライブギアの中でも\n一番威力が小さい『{c[91ff1e]}リトルギア{c[000000]}』じゃな。
@@ -5308,10 +5308,10 @@ CharaSerif_07_F	ふーん･･･ それにしても\nよく物を落とすヤ�
 CharaSerif_00_M	なっ･･･ なかなかやるじゃねぇか･･･！
 CharaSerif_01_M	アブリコスさまーっ!!
 CharaSerif_02_M	たいへんです！ 鎮守の森の基地が\n解放戦線に攻撃されています!!
-CharaSerif_03_M	\u000e\u0000\u0002\u0002\u0096\u0000なんてこった!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_03_M	{s[150]}なんてこった!!{s[100]}
 CharaSerif_04_M	おのれ･･･ リョーマめ。\nまさかジンライをオトリにつかうとは!!
 CharaSerif_05_M	ヤロウども！ この場はまかせる。\nかならずガキを始末しろ!!
-CharaSerif_06_M	\u000e\u0000\u0002\u0002\u0096\u0000オス!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_06_M	{s[150]}オス!!{s[100]}
 \event\stageEndM015.msbt
 CharaSerif_00_M	やれやれ･･･ また落としものか？
 CharaSerif_00_F	やれやれ･･･ また落としもの？
@@ -5340,9 +5340,9 @@ CharaSerif_05_M	えっ、そうなの!?
 CharaSerif_07_M	よし、まかせろ！\nオレがその司令官ってのをブッたおしてやる!!
 CharaSerif_07_F	よーし、まかせて！ わたしが\nその司令官ってのを、たおしてあげる!!
 \event\stageEndM018.msbt
-CharaSerif_00_M	\u000e\u0000\u0002\u0002\u0096\u0000くそぉ･･･ また負けたあああ！\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_00_M	{s[150]}くそぉ･･･ また負けたあああ！{s[100]}
 CharaSerif_01_M	おぼえてろよ！\nこのカリは1,000倍にしてかえしてやる！
-CharaSerif_02_M	\u000e\u0000\u0002\u0002\u0096\u0000うわぁーん!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_02_M	{s[150]}うわぁーん!!{s[100]}
 CharaSerif_03_M	･･･なんなんだ、あいつ。
 CharaSerif_03_F	･･･なんなの？ あいつ。
 \event\stageEndM019.msbt
@@ -5393,18 +5393,18 @@ CharaSerif_18_M	ムサシ！ おヌシ･･･!!
 CharaSerif_19_M	･･･いいの？ 後悔するわよ。
 CharaSerif_20_M	おう！ で、いつかオマエも\nスシがうまいって思えるといいな♪
 CharaSerif_20_F	うん！ で、いつかあなたも\nスシがおいしいって思えるといいね♪
-CharaSerif_21_M	\u000e\u0000\u0002\u0002\u0096\u0000ば･･･バカみたい!!\u000e\u0000\u0002\u0002d\u0000\n
+CharaSerif_21_M	{s[150]}ば･･･バカみたい!!{s[100]}\n
 CharaSerif_22_M	ムサシ、よくぞ申したと言いたいが･･･\nあやつ、きっとまたくるぞ？
 CharaSerif_23_M	･･･まぁ、いいさ！\nそんときゃそんときだ!!
 CharaSerif_23_F	･･･まぁ、いいわ！\nそんときゃそんときよ!!
 \event\stageEndM029.msbt
 CharaSerif_00_M	くそっ･･･ 国境まで退却だ！
-CharaSerif_01_M	\u000e\u0000\u0002\u0002\u0096\u0000あ･･･ アブリコス様～！\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_01_M	{s[150]}あ･･･ アブリコス様～！{s[100]}
 \event\stageEndM031.msbt
 CharaSerif_00_M	ううっ、負けた･･･ 負けちまった･･･!!
 CharaSerif_01_M	へへっ♪ スシはもっとだいじに！\nおちついて食べやがれ！
 CharaSerif_01_F	へへっ♪ スシはもっとだいじに！\nおちついて食べなさい！
-CharaSerif_02_M	\u000e\u0000\u0002\u0002\u0096\u0000ちくしょー！ 退却だ!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_02_M	{s[150]}ちくしょー！ 退却だ!!{s[100]}
 CharaSerif_03_M	･･･ん？ なんだこりゃ？
 CharaSerif_03_F	･･･ん？ なにこれ？
 CharaSerif_04_M	ふむ、何かのカギのようじゃな。
@@ -5442,7 +5442,7 @@ CharaSerif_04_M	へへっ♪ このオレが来たからには\n自由にスシ�
 CharaSerif_04_F	へへっ♪ わたしが来たからには\n自由にスシが食べられるようになるわよ！
 CharaSerif_05_M	え？ スシ･･･!?
 CharaSerif_07_M	うむ、たくさん食べるがよい！
-CharaSerif_08_M	\u000e\u0000\u0002\u0002\u0096\u0000うえ～んスシだ！ こわいよう!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_08_M	{s[150]}うえ～んスシだ！ こわいよう!!{s[100]}
 CharaSerif_09_M	なんだ？ どうなってんだ??
 CharaSerif_09_F	なに？ どうなってんの??
 CharaSerif_10_M	そんな･･･ 子供たちの人気者で\nあるはずの、ワシのスシが･･･
@@ -5455,26 +5455,26 @@ CharaSerif_01_M	おい！ あんたなにもんだ？
 CharaSerif_01_F	ちょっと！ あなたナニモノ？
 CharaSerif_02_M	そうじゃ！ 名前ぐらいなのれ！
 CharaSerif_03_M	どもども♪ ボクはですね～･･･
-CharaSerif_04_M	\u000e\u0000\u0002\u0002\u0096\u0000あ～しまった！ ケツカッチン！\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_04_M	{s[150]}あ～しまった！ ケツカッチン！{s[100]}
 CharaSerif_05_M	えっ？
-CharaSerif_06_M	\u000e\u0000\u0002\u0002\u0096\u0000シータクとばしてギロッポン♪\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_06_M	{s[150]}シータクとばしてギロッポン♪{s[100]}
 CharaSerif_07_M	そんじゃ♪
 CharaSerif_08_M	･･････なんだ？
 CharaSerif_08_F	･･････なに？
 \event\stageEndM037.msbt
 CharaSerif_00_M	チッ、つまらんのう･･･\nワガハイ、とっとと帰らにゃならんのに･･･
-CharaSerif_01_M	\u000e\u0000\u0002\u0002\u0096\u0000バンブークさま～！\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_01_M	{s[150]}バンブークさま～！{s[100]}
 CharaSerif_02_M	みつけましたよ♪ バンブークさま。
 CharaSerif_03_M	もう･･･ かくれんぼ中に\nいなくなるなんて、ヒドいですぅ。
 CharaSerif_04_M	ふほほっ、わるかった わるかった♪\nこのガキと、ちょいと遊んでみたくてのぅ。
 CharaSerif_05_M	んじゃ、あとはテキトーにたのむわ♪\nワガハイ、いそがしいんでな！
-CharaSerif_06_M	\u000e\u0000\u0002\u0002\u0096\u0000は～い♪ バンブークさま!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_06_M	{s[150]}は～い♪ バンブークさま!!{s[100]}
 CharaSerif_07_M	やれやれ、なんだありゃ･･･
 CharaSerif_07_F	やれやれ、なによあれ･･･
 \event\stageEndM041.msbt
-CharaSerif_00_M	\u000e\u0000\u0002\u0002\u0096\u0000くそぉ･･･ また負けたあああ！\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_00_M	{s[150]}くそぉ･･･ また負けたあああ！{s[100]}
 CharaSerif_01_M	おぼえてろよ！\n今日はちょうしが悪かっただけだ！
-CharaSerif_02_M	\u000e\u0000\u0002\u0002\u0096\u0000うわぁーん!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_02_M	{s[150]}うわぁーん!!{s[100]}
 CharaSerif_03_M	･･･なんなんだ、あいつ。
 CharaSerif_03_F	･･･なんなの？ あいつ。
 \event\stageEndM042.msbt
@@ -5506,12 +5506,12 @@ CharaSerif_12_M	えええっ！ ジュウベエさんの\nジュニアさんす�
 CharaSerif_12_F	えええっ！ ジュウベエさんの\nおじょーさんすか？ パネェ！
 CharaSerif_13_M	どういうことじゃ？\nおヌシ、写真の男を知ってるのか!?
 CharaSerif_14_M	モチっす♪ 知ってるも何も･･･
-CharaSerif_15_M	\u000e\u0000\u0002\u0002\u0096\u0000あ～しまった！ ケツカッチン！\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_15_M	{s[150]}あ～しまった！ ケツカッチン！{s[100]}
 CharaSerif_16_M	えっ？
-CharaSerif_17_M	\u000e\u0000\u0002\u0002\u0096\u0000シータクとばしてギロッポン♪\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_17_M	{s[150]}シータクとばしてギロッポン♪{s[100]}
 CharaSerif_18_M	そんじゃ♪
-CharaSerif_19_M	\u000e\u0000\u0002\u0002\u0096\u0000お、おい！ 行っちゃうんかよ!?\u000e\u0000\u0002\u0002d\u0000
-CharaSerif_19_F	\u000e\u0000\u0002\u0002\u0096\u0000ちょ、ちょっと！行っちゃうの!?\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_19_M	{s[150]}お、おい！ 行っちゃうんかよ!?{s[100]}
+CharaSerif_19_F	{s[150]}ちょ、ちょっと！行っちゃうの!?{s[100]}
 CharaSerif_20_M	ぬう･･･ ジュウベエの名は、ワシも耳にしておる。\nまさか、おヌシの父じゃったとは･･･
 CharaSerif_21_M	そうか･･･ 知らなかったぜ･･･\nオレのとうちゃんが、伝説のスシライカー？
 CharaSerif_21_F	そうか･･･ 知らなかったわ･･･\nとうさんが、伝説のスシライカー？
@@ -5524,9 +5524,9 @@ CharaSerif_25_M	･･･ジュウベエは、先の大戦で共和国一とも\
 CharaSerif_26_M	スシを愛し、スシと共に生きる。\nすべてをスシにささげた男だったと聞く･･･
 CharaSerif_27_M	すべてを･･･ スシに･･･？
 CharaSerif_28_M	･･･じゃが、いつのころからかウワサを\nまったく聞かなくなってな･･････
-CharaSerif_29_M	\u000e\u0000\u0002\u0002\u0096\u0000そうか！ とうちゃん･･･戦争で!!\u000e\u0000\u0002\u0002d\u0000
-CharaSerif_29_F	\u000e\u0000\u0002\u0002\u0096\u0000そうか！ とうさん･･･戦争で!!\u000e\u0000\u0002\u0002d\u0000
-CharaSerif_30_M	\u000e\u0000\u0002\u0002\u0096\u0000ムサシ！ 心を強くもて!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_29_M	{s[150]}そうか！ とうちゃん･･･戦争で!!{s[100]}
+CharaSerif_29_F	{s[150]}そうか！ とうさん･･･戦争で!!{s[100]}
+CharaSerif_30_M	{s[150]}ムサシ！ 心を強くもて!!{s[100]}
 CharaSerif_31_M	あんずるな･･･ それほどの男じゃ\nきっとどこかで生きておろう。
 CharaSerif_32_M	スシを愛するものは、スシにもまた\n愛されるのじゃ･･･！
 \event\stageEndM050.msbt
@@ -5544,9 +5544,9 @@ CharaSerif_10_M	うふふっ･･･ そういってくれると思ったわ。
 CharaSerif_11_M	スシガミ『{c[91ff1e]}クリステン{c[000000]}』と契約した！\nスキルは「{c[91ff1e]}透明ライカー{c[000000]}」だ！
 CharaSerif_12_M	うふふっ♪ そのスシガミ･･･\nわたしだと思ってかわいがってね？
 \event\stageEndM051.msbt
-CharaSerif_00_M	\u000e\u0000\u0002\u0002\u0096\u0000くそぉ･･･ また負けたあああ！\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_00_M	{s[150]}くそぉ･･･ また負けたあああ！{s[100]}
 CharaSerif_01_M	おぼえてろよ！\n手の内は見せてもらった･･･ 次はない！
-CharaSerif_02_M	\u000e\u0000\u0002\u0002\u0096\u0000うわぁーん!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_02_M	{s[150]}うわぁーん!!{s[100]}
 CharaSerif_03_M	･･･なんなんだ、あいつ。
 CharaSerif_03_F	･･･なんなの？ あいつ。
 \event\stageEndM052.msbt
@@ -5594,8 +5594,8 @@ CharaSerif_12_M	そっす！ 共和国でジュウベエさんと\nいっしょ�
 CharaSerif_13_M	･･･って、とっくに知りあいっすか？\nパネエ！
 CharaSerif_14_M	そうか、リョーマさんも\n共和国軍にいたのか･･･
 CharaSerif_14_F	そうか、リョーマさんも\n共和国軍にいたのね･･･
-CharaSerif_15_M	\u000e\u0000\u0002\u0002\u0096\u0000あ～しまった！ ケツカッチン！\u000e\u0000\u0002\u0002d\u0000
-CharaSerif_16_M	\u000e\u0000\u0002\u0002\u0096\u0000シータクとばしてギロッポン♪\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_15_M	{s[150]}あ～しまった！ ケツカッチン！{s[100]}
+CharaSerif_16_M	{s[150]}シータクとばしてギロッポン♪{s[100]}
 CharaSerif_17_M	そんじゃ♪
 CharaSerif_18_M	ムサシ、どうする？\nいったん交易の町にもどるか？
 CharaSerif_19_M	ああ、気になったままじゃ\nバトルにも集中できないしな･･･
@@ -5619,7 +5619,7 @@ CharaSerif_32_M	･･･死んだんですよ、戦争で。\nにくむべき�
 CharaSerif_33_M	同志ジュウベエは、スシの自由のために\n戦って命をおとしたのですから･･･ね。
 CharaSerif_34_M	死んだ･･･？
 CharaSerif_35_M	･･･ムサシ！
-CharaSerif_36_M	\u000e\u0000\u0002\u0002\u0096\u0000しっかりせんか！ムサシ!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_36_M	{s[150]}しっかりせんか！ムサシ!!{s[100]}
 CharaSerif_37_M	あれっ･･････ ジンライ？
 CharaSerif_38_M	ムサシ･･････
 CharaSerif_39_M	オレ、なんとなくだけど･･･ いつかきっと\nかえってくる気がしてたんだ。
@@ -5688,8 +5688,8 @@ CharaSerif_12_M	ムサシ･･･ 放っておけ。
 CharaSerif_13_M	あそこまでスシを\nないがしろにしたのじゃ･･･
 CharaSerif_14_M	もはや二度と\nスシガミとの契約は結べまい･･･
 \event\stageEndM074.msbt
-CharaSerif_00_M	\u000e\u0000\u0002\u0002\u0096\u0000なっ、なんだ!?\u000e\u0000\u0002\u0002d\u0000
-CharaSerif_00_F	\u000e\u0000\u0002\u0002\u0096\u0000なっ、なに!?\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_00_M	{s[150]}なっ、なんだ!?{s[100]}
+CharaSerif_00_F	{s[150]}なっ、なに!?{s[100]}
 CharaSerif_01_M	そうか、このあたりのチビたちだな？\nこっちこいよ！
 CharaSerif_01_F	そうか、このあたりのチビちゃんたちね？\nおいでおいで！
 CharaSerif_02_M	おにいちゃん、共和国のひと？
@@ -5701,7 +5701,7 @@ CharaSerif_04_F	へへっ♪ わたしが来たからには\n自由にスシが�
 CharaSerif_05_M	わ～い！ やったぁ！
 CharaSerif_07_M	うむ、たくさん食べるがよい！
 CharaSerif_08_M	･･･なにこれ？\nこんなのスシじゃないよ!!
-CharaSerif_09_M	\u000e\u0000\u0002\u0002\u0096\u0000うえ～ん！ 赤くてヘンなの～!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_09_M	{s[150]}うえ～ん！ 赤くてヘンなの～!!{s[100]}
 CharaSerif_10_M	なんだ？ どうなってんだ??
 CharaSerif_10_F	なに？ どうなってるの??
 CharaSerif_11_M	そんな･･･ ワシのスシは\nとくに子供に人気のはずなのに･･･
@@ -5709,7 +5709,7 @@ CharaSerif_12_M	まあまあ、気にすんなって。\nきっと食べたこ�
 CharaSerif_12_F	まあまあ、気にしない気にしない。\nきっと食べたことないだけよ･･･
 \event\stageEndM078.msbt
 CharaSerif_00_M	ゴイスー!!\nこちらアゲちゃいます～！
-CharaSerif_40_M	『{c[91ff1e]}パーティーのおふだ{c[000000]}』\u00d75 を手に入れた！
+CharaSerif_40_M	『{c[91ff1e]}パーティーのおふだ{c[000000]}』\xd75 を手に入れた！
 CharaSerif_01_M	なあ･･･ あんた、オレのとうちゃんと\n知りあいなんだよな？
 CharaSerif_01_F	ねえ･･･ あなた、とうさんと\n知りあいなのよね？
 CharaSerif_02_M	はい！ ていうかマブっす!!
@@ -5722,8 +5722,8 @@ CharaSerif_07_M	今どうしているか知りたいんだ。\nなにか知っ�
 CharaSerif_07_F	今どうしているか知りたいの。\nなにか知ってたら、おしえて！
 CharaSerif_08_M	あー･･･ わっかんないっすね～\nとくにカラミなかったんで･･･
 CharaSerif_09_M	そうか･･･
-CharaSerif_10_M	\u000e\u0000\u0002\u0002\u0096\u0000あ～しまった！ ケツカッチン！\u000e\u0000\u0002\u0002d\u0000
-CharaSerif_11_M	\u000e\u0000\u0002\u0002\u0096\u0000シータクとばしてギロッポン♪\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_10_M	{s[150]}あ～しまった！ ケツカッチン！{s[100]}
+CharaSerif_11_M	{s[150]}シータクとばしてギロッポン♪{s[100]}
 CharaSerif_12_M	そんじゃ♪
 CharaSerif_13_M	かあちゃん･･････
 CharaSerif_13_F	かあさん･･････
@@ -5733,12 +5733,12 @@ CharaSerif_01_M	でもね！ 赤いスシなんて食べてるようじゃ\nア�
 CharaSerif_02_M	･･･お話し中、失礼します。\n次の予定のお時間です。
 CharaSerif_03_M	･･･あら、もうエステタイム？\nざ～んねん。
 CharaSerif_04_M	じゃ、ボーイズたち！\nあとはまかせたわ♪
-CharaSerif_05_M	\u000e\u0000\u0002\u0002\u0096\u0000はい！ おじょうさま!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_05_M	{s[150]}はい！ おじょうさま!!{s[100]}
 CharaSerif_06_M	うわぁ、ホントにそうよぶんだ･･･
 \event\stageEndM083.msbt
-CharaSerif_00_M	\u000e\u0000\u0002\u0002\u0096\u0000くそぉ･･･ また負けたあああ！\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_00_M	{s[150]}くそぉ･･･ また負けたあああ！{s[100]}
 CharaSerif_01_M	おぼえてろよ！\n今日のところは、おとなしく負けといてやる！
-CharaSerif_02_M	\u000e\u0000\u0002\u0002\u0096\u0000うわぁーん!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_02_M	{s[150]}うわぁーん!!{s[100]}
 CharaSerif_03_M	･･･なんなんだ、あいつ。
 CharaSerif_03_F	･･･なんなの？ あいつ。
 \event\stageEndM084.msbt
@@ -5760,13 +5760,13 @@ CharaSerif_04_M	あー･･･ でもナマで見たことはないっすね～
 CharaSerif_06_M	へえ･･･ じゃあ、とうちゃんは\n帝国に行ってからあの技を･･･？
 CharaSerif_06_F	ふーん･･･ じゃあ、とうさんは\n帝国に行ってからあの技を･･･？
 CharaSerif_07_M	あっ！ でもでも～♪ 感謝食べに対抗できる\nウラワザなら聞いたことあるっす！
-CharaSerif_08_M	\u000e\u0000\u0002\u0002\u0096\u0000えっ！ マジか!?\u000e\u0000\u0002\u0002d\u0000
-CharaSerif_08_F	\u000e\u0000\u0002\u0002\u0096\u0000えっ！ ホント!?\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_08_M	{s[150]}えっ！ マジか!?{s[100]}
+CharaSerif_08_F	{s[150]}えっ！ ホント!?{s[100]}
 CharaSerif_09_M	モチっす♪\nそれはっすね～･･･
-CharaSerif_10_M	\u000e\u0000\u0002\u0002\u0096\u0000あ～しまった！ ケツカッチン！\u000e\u0000\u0002\u0002d\u0000
-CharaSerif_11_M	\u000e\u0000\u0002\u0002\u0096\u0000･･･おっ、おい！\u000e\u0000\u0002\u0002d\u0000
-CharaSerif_11_F	\u000e\u0000\u0002\u0002\u0096\u0000･･･ちょ、ちょっと！\u000e\u0000\u0002\u0002d\u0000
-CharaSerif_12_M	\u000e\u0000\u0002\u0002\u0096\u0000シータクとばしてギロッポン♪\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_10_M	{s[150]}あ～しまった！ ケツカッチン！{s[100]}
+CharaSerif_11_M	{s[150]}･･･おっ、おい！{s[100]}
+CharaSerif_11_F	{s[150]}･･･ちょ、ちょっと！{s[100]}
+CharaSerif_12_M	{s[150]}シータクとばしてギロッポン♪{s[100]}
 CharaSerif_13_M	そんじゃ♪
 CharaSerif_14_M	むう、ウラワザか･･･\nそんなものが、本当にあるのか･･･？
 \event\stageEndM092.msbt
@@ -5786,11 +5786,11 @@ CharaSerif_12_F	よーし、まかせて！
 CharaSerif_13_M	（･･･はて？\n　前にも、こんな話があったような･･･）
 CharaSerif_14_M	なんと！ さすがはムサシさま･･･\nでは、この契約皿をお持ちください･･･！
 CharaSerif_15_M	スシガミ『{c[91ff1e]}クマテン{c[000000]}』と契約した！\nスキルは「{c[91ff1e]}倍々シュート{c[000000]}」だ！
-CharaSerif_16_M	\u000e\u0000\u0002\u0002\u0096\u0000すべてはソスナさまのために!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_16_M	{s[150]}すべてはソスナさまのために!!{s[100]}
 \event\stageEndM093.msbt
-CharaSerif_00_M	\u000e\u0000\u0002\u0002\u0096\u0000くそぉ･･･ また負けたあああ！\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_00_M	{s[150]}くそぉ･･･ また負けたあああ！{s[100]}
 CharaSerif_01_M	おぼえてろよ！\nムサシのバーカ！バーカ！バーカ！バーカ!!
-CharaSerif_02_M	\u000e\u0000\u0002\u0002\u0096\u0000うわぁーん!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_02_M	{s[150]}うわぁーん!!{s[100]}
 CharaSerif_03_M	･･･なんなんだ、あいつ。
 CharaSerif_03_F	･･･なんなの？ あいつ。
 \event\stageEndM094.msbt
@@ -5830,22 +5830,22 @@ CharaSerif_02_M	ジンライ･･･
 CharaSerif_03_M	やっぱおまえ、説教くさくなったな？
 CharaSerif_03_F	やっぱあんた、説教くさくなったわ。
 \event\stageEndM105.msbt
-CharaSerif_00_M	\u000e\u0000\u0002\u0002\u0096\u0000くそぉ･･･ また負けたあああ！\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_00_M	{s[150]}くそぉ･･･ また負けたあああ！{s[100]}
 CharaSerif_01_M	おい、コジロー！\nユキチさんはどこだ？
 CharaSerif_01_F	ちょっと、コジロー！\nユキチさんはどこ？
 CharaSerif_02_M	フン･･･ ユキチだって？
 CharaSerif_03_M	ヒヒッ♪ それならこの先の\n特別訓練棟に閉じこめられてるぜ！
 CharaSerif_04_M	じゃあ、そこまで案内しろ！
 CharaSerif_04_F	じゃあ、そこまで案内して！
-CharaSerif_05_M	\u000e\u0000\u0002\u0002\u0096\u0000やだね！ なんでオレが!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_05_M	{s[150]}やだね！ なんでオレが!!{s[100]}
 CharaSerif_06_M	コジローよ･･･ ここまでダメダメでは\nもはや帝国に居場所はあるまい？
 CharaSerif_07_M	おとなしく故郷の村に戻るがよい。\nそれとも･･･ まだワサビが食い足りぬか？
 CharaSerif_08_M	ううっ･･･ こんな、こんなハズじゃ･･･
-CharaSerif_09_M	\u000e\u0000\u0002\u0002\u0096\u0000うわぁぁぁぁん!!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_09_M	{s[150]}うわぁぁぁぁん!!!{s[100]}
 CharaSerif_10_M	いいだろう！ 村に帰るついでに案内してやる。\n･･･あくまでついでにな！
 CharaSerif_11_M	ん？ ･･･でも村は\nぜんぜんちがう方向だぞ？
 CharaSerif_11_F	えっ？ ･･･でも村は\nぜんぜんちがう方向よ？
-CharaSerif_12_M	\u000e\u0000\u0002\u0002\u0096\u0000うるさい! だまってついてこい!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_12_M	{s[150]}うるさい! だまってついてこい!!{s[100]}
 \event\stageEndM110.msbt
 CharaSerif_00_M	むう･･･ ここでは介抱もできん。\n外に運びだすのじゃ！
 CharaSerif_01_M	おいコジロー！ 手伝え！
@@ -5859,36 +5859,36 @@ CharaSerif_00_M	へへっ♪\nどうだ！ まいったか！
 CharaSerif_00_F	へへっ♪\nどんなもんよ？ まいったか！
 CharaSerif_01_M	うぅっ･･･ まだだ･･･\nまだ、負けねぇ･･････！
 CharaSerif_02_M	ムサシ！ 気をつけろ！
-CharaSerif_03_M	\u000e\u0000\u0002\u0002\u0096\u0000ちくしょう！ムサシィィッ!!!\u000e\u0000\u0002\u0002d\u0000
-CharaSerif_04_M	\u000e\u0000\u0002\u0002\u0096\u0000やめろ!!\u000e\u0000\u0002\u0002d\u0000
-CharaSerif_04_F	\u000e\u0000\u0002\u0002\u0096\u0000やめて!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_03_M	{s[150]}ちくしょう！ムサシィィッ!!!{s[100]}
+CharaSerif_04_M	{s[150]}やめろ!!{s[100]}
+CharaSerif_04_F	{s[150]}やめて!!{s[100]}
 CharaSerif_05_M	･･･もう勝負はついたんだ。\nあとはおいしく、味わってスシを食おうぜ。
 CharaSerif_05_F	･･･もう勝負はついたわ。\nあとはおいしく、味わってスシを食べましょ♪
 CharaSerif_06_M	･･･な？
 CharaSerif_06_F	･･･ね？
 CharaSerif_07_M	あ･･･ 味わって･･････!?
-CharaSerif_08_M	\u000e\u0000\u0002\u0002\u0096\u0000ハッハッハ！･･･たいしたもんだ。\u000e\u0000\u0002\u0002d\u0000
-CharaSerif_09_M	\u000e\u0000\u0002\u0002\u0096\u0000ゆ･･･ ユキチさん!?\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_08_M	{s[150]}ハッハッハ！･･･たいしたもんだ。{s[100]}
+CharaSerif_09_M	{s[150]}ゆ･･･ ユキチさん!?{s[100]}
 CharaSerif_10_M	･･･ひさしぶりだな、ボウズ。\nすっかり見ちがえちまって･･･！
 CharaSerif_10_F	･･･ひさしぶりだな、お嬢ちゃん。\nすっかり見ちがえちまって･･･！
 CharaSerif_11_M	アブリコスさんよ･･･ もういいだろう。\nこいつの言う通り、勝負はついた･･･
 CharaSerif_12_M	う･･･ あ･･･ ああ･･･
 CharaSerif_13_M	･･･オレは知ってるぜ？
 CharaSerif_14_M	あんた、昔はスシをひとつひとつ\nていねいに食べる･･･ そんな男だったそうだな。
-CharaSerif_15_M	\u000e\u0000\u0002\u0002\u0096\u0000ど、どうしてそれを･･･！\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_15_M	{s[150]}ど、どうしてそれを･･･！{s[100]}
 CharaSerif_16_M	だがそれを、大きな体に似合わないと笑われ\nわざと荒っぽく食べるようになった･･･
 CharaSerif_17_M	そうだ･･･ 本当はゆっくり味わいたい･･･ \nでも将軍だから･･･ 強くなきゃいけないから･･･
 CharaSerif_18_M	いいのかい？ ムリにそんな食べ方して･･･\nスシもあんたも泣いてるぜ･･･？
 CharaSerif_19_M	･･･せっかくのスシだ。\n笑顔で食べようや･･･
 CharaSerif_20_M	オレが･･･ オレが間違っていた･･･
-CharaSerif_21_M	\u000e\u0000\u0002\u0002\u0096\u0000すまねえ･･･ ムサシ！ユキチ！\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_21_M	{s[150]}すまねえ･･･ ムサシ！ユキチ！{s[100]}
 CharaSerif_22_M	オレ、ふつうのスシ好きの\nマッチョに戻るよ･･･
 CharaSerif_23_M	ありがとうな･･･\nスシライカー・ムサシ。
 \event\stageEndM111_After01.msbt
 CharaSerif_00_M	スシガミ『{c[91ff1e]}アラオウ{c[000000]}』と契約した！\nスキルは「{c[91ff1e]}スキルクリーン{c[000000]}」だ！
 \event\stageEndM116.msbt
 CharaSerif_00_M	ゴイスー!!\nこちらアゲちゃいます～！
-CharaSerif_40_M	『{c[91ff1e]}あぶりバーナー{c[000000]}』\u00d75 を手に入れた！
+CharaSerif_40_M	『{c[91ff1e]}あぶりバーナー{c[000000]}』\xd75 を手に入れた！
 CharaSerif_01_M	いやぁ･･･ ちょっと見ないうちに\nイケてるルックスになってきましたねぇ♪
 CharaSerif_02_M	ま・さ・に！\nザ★シースーライカー!! ･･･って感じ！
 CharaSerif_03_M	へへっ♪ サンキュー！
@@ -5898,8 +5898,8 @@ CharaSerif_05_M	あのころは･･･ そんなリソーに燃える目の\n�
 CharaSerif_06_M	･･･まあ、そのぶん\nブッソーでしたけどね♪
 CharaSerif_07_M	はて？ おヌシはそのころ\nどこで何をしていたんじゃ？
 CharaSerif_08_M	･･･ボクっすか!?\nボクはまぁ、いろいろと･･･
-CharaSerif_09_M	\u000e\u0000\u0002\u0002\u0096\u0000あ～しまった！ ケツカッチン！\u000e\u0000\u0002\u0002d\u0000
-CharaSerif_10_M	\u000e\u0000\u0002\u0002\u0096\u0000シータクとばしてギロッポン♪\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_09_M	{s[150]}あ～しまった！ ケツカッチン！{s[100]}
+CharaSerif_10_M	{s[150]}シータクとばしてギロッポン♪{s[100]}
 CharaSerif_11_M	そんじゃ♪
 CharaSerif_12_M	なんなんだ？ ･･･いろいろ？
 CharaSerif_12_F	なんなの？ ･･･いろいろ？
@@ -5974,9 +5974,9 @@ Text_Rate	レート
 Text_GetItem	かくとくアイテム
 Text_GachiRatingBattle	ガチレーティングバトル
 Text_ItemNone	なし
-Win_GachiRetry	{c[dc0000]}\u000e\u0001\u0010\u0000{c[000000]}さんとガチバトルで\nもう一度対戦しますか？
-Win_GachiRatingRetry	{c[dc0000]}\u000e\u0001\u0010\u0000{c[000000]}さんとガチレーティングバトルで\nもう一度対戦しますか？
-Win_VarietyRetry	{c[dc0000]}\u000e\u0001\u0010\u0000{c[000000]}さんとバラエティバトルで\nもう一度対戦しますか？
+Win_GachiRetry	{c[dc0000]}\x0e\x01\x10\0{c[000000]}さんとガチバトルで\nもう一度対戦しますか？
+Win_GachiRatingRetry	{c[dc0000]}\x0e\x01\x10\0{c[000000]}さんとガチレーティングバトルで\nもう一度対戦しますか？
+Win_VarietyRetry	{c[dc0000]}\x0e\x01\x10\0{c[000000]}さんとバラエティバトルで\nもう一度対戦しますか？
 Win_EnemyExit	対戦相手が退出しました。
 \scene\scene_battledata.msbt
 BattleDataSceneCommentary	スキル
@@ -6023,12 +6023,12 @@ Text_Rank	ランク
 Text_Exp	けいけんち
 Text_GetItem	かくとくアイテム
 Text_BattleResult	バトルけっか
-Text_StarBonus	かくとくボーナス\u00d7%d
+Text_StarBonus	かくとくボーナス\xd7%d
 Win_GetFavPower00	リミットまで食べた！
-Win_GetFavPower01	スシパワー『{c[91ff1e]}\u000e\u0001\u0017\u0000{c[000000]}』が\n体にやどった！
+Win_GetFavPower01	スシパワー『{c[91ff1e]}\x0e\x01\x17\0{c[000000]}』が\n体にやどった！
 Win_GetFavPowerTitle	スシパワーかくとく！
-Label_ExStage_Advent	エリアクリア ＆ スター40個の獲得で…\nエリア『{c[006e00]}\u000e\u0001\u0013\u0000{c[000000]}』の\n{c[dc0000]}かくしステージ{c[000000]}がオープン！
-Label_ExStage30_Advent	エリアクリア ＆ スター30個の獲得で…\nエリア『{c[006e00]}\u000e\u0001\u0013\u0000{c[000000]}』の\n{c[dc0000]}かくしステージ{c[000000]}がオープン！
+Label_ExStage_Advent	エリアクリア ＆ スター40個の獲得で…\nエリア『{c[006e00]}\x0e\x01\x13\0{c[000000]}』の\n{c[dc0000]}かくしステージ{c[000000]}がオープン！
+Label_ExStage30_Advent	エリアクリア ＆ スター30個の獲得で…\nエリア『{c[006e00]}\x0e\x01\x13\0{c[000000]}』の\n{c[dc0000]}かくしステージ{c[000000]}がオープン！
 \scene\scene_cmn.msbt
 Label_AreaNumber	エリア %ls
 Btn_Next	つぎへ
@@ -6237,10 +6237,10 @@ TxtItemImportant	だいじなもの
 TxtItemNum	もっている数
 TxtItemNothing	もちものがありません
 TxtWho	だれに？
-WinTxt_UseItemPlayer	『{c[006e00]}\u000e\u0001\u0015\u0000{c[000000]}』を\nムサシに使いますか？
-WinTxt_SetReadyItem01	『{c[006e00]}\u000e\u0001\u0015\u0000{c[000000]}』を\nじゅんびアイテムとして設定しますか？
-WinTxt_SetReadyItem02	『{c[006e00]}\u000e\u0001\u0015\u0000{c[000000]}』を\n『{c[dc0000]}\u000e\u0001\u0016\u0000{c[000000]}』と入れかえて\nじゅんびアイテムとして設定しますか？
-WinTxt_RemoveReadyItem	『{c[006e00]}\u000e\u0001\u0015\u0000{c[000000]}』を\nじゅんびアイテムから外しますか？
+WinTxt_UseItemPlayer	『{c[006e00]}\x0e\x01\x15\0{c[000000]}』を\nムサシに使いますか？
+WinTxt_SetReadyItem01	『{c[006e00]}\x0e\x01\x15\0{c[000000]}』を\nじゅんびアイテムとして設定しますか？
+WinTxt_SetReadyItem02	『{c[006e00]}\x0e\x01\x15\0{c[000000]}』を\n『{c[dc0000]}\x0e\x01\x16\0{c[000000]}』と入れかえて\nじゅんびアイテムとして設定しますか？
+WinTxt_RemoveReadyItem	『{c[006e00]}\x0e\x01\x15\0{c[000000]}』を\nじゅんびアイテムから外しますか？
 \scene\scene_menumydata.msbt
 TxtSceneName	マイデータ
 TxtNextLv	つぎのLvまで
@@ -6296,7 +6296,7 @@ DishColorName05	{c[fd592b]}①{c[000000]}
 DishColorName06	{c[d4e9ec]}①{c[000000]}
 DishColorName07	{c[6a6c49]}①{c[000000]}
 DishColorName08	{c[f0e8a5]}①{c[000000]}
-DishColorNameRainbow	\u000e\u0000\u0003\u0004\u00fc\u00fc\u00fc\u0000①{c[000000]}
+DishColorNameRainbow	\x0e\0\x03\x04\xfc\xfc\xfc\0①{c[000000]}
 GraphicText_VS	VS
 Text_Live	LIVE
 Text_Win	勝ち
@@ -7061,11 +7061,11 @@ PlayerAdvice005	たくさんの皿をつなげるほど、\n祭ゲージの上�
 PlayerAdvice006	虹皿をふくんだつみ皿ならば、\n敵の攻撃でもくずれぬのじゃ
 PlayerAdvice007	皿をつなげられる時間は7秒ある\n10皿20皿とつなげるのじゃ
 PlayerAdvice008	皿が通るすき間さえあれば、遠く\nのレーンとも皿はつなげられるぞ
-PlayerAdvice009	虎の巻の「バトルの極意」には\n  K0勝\u000f\u0001\u0000つためのヒントが満載じゃぞ
+PlayerAdvice009	虎の巻の「バトルの極意」には\n  K0勝\x0f\x01\0つためのヒントが満載じゃぞ
 PlayerAdvice010	勝負は時の運。次は勝てるやも\n知れぬ…あきらめてはいかんぞ。
 PlayerAdvice011	「スキルのおふだ」をスシガミに\n使えばスキルLvを上げられるぞ
-PlayerAdvice012	  K0勝\u000f\u0001\u0000てぬ時はスキルの組み合わせを\n考えてみるのも手じゃぞ
-PlayerAdvice013	  K0勝\u000f\u0001\u0000てぬ時はスキルとスシパワーの\n相性を考えるのも手じゃな
+PlayerAdvice012	  K0勝\x0f\x01\0てぬ時はスキルの組み合わせを\n考えてみるのも手じゃぞ
+PlayerAdvice013	  K0勝\x0f\x01\0てぬ時はスキルとスシパワーの\n相性を考えるのも手じゃな
 PlayerSpecialAdvice	ここは…「ふっかつのまめ」を\n使うのもいいかも知れぬな…
 Player_StgAdvice001	皿は短く何度もつなげるより\nとにかく長くつなげるべしじゃ
 Player_StgAdvice002	皿が通るすき間さえあれば、遠く\nのレーンとも皿はつなげられるぞ
@@ -7627,4 +7627,4 @@ Label_SushiLiker_Rank	スシライカーランク
 \scene\scene_title.msbt
 Label_Start	はじめる
 Label_HomeMsg	\ue073を押すとホームメニューに戻ります。
-Label_Credit	\u00a9 2018 Nintendo. Co-Developed by indieszero Co., Ltd.
+Label_Credit	\xa9 2018 Nintendo. Co-Developed by indieszero Co., Ltd.

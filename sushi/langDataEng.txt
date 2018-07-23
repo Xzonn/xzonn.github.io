@@ -865,100 +865,100 @@ GodInfo_God145	Quite crafty, but lacks the\ncourage to put it to use.
 GodInfo_God146	When its close to nightfall,\nit wants to sing love songs\nso passionate they burn.
 GodInfo_God148	If it's bandaged up,\nit's unstoppable.
 \database\database_godSkillInfo.msbt
-GodSkillInfo_Double	\u000e\u0001\u0005\u0000Makes attacks split in two\nand deal double damage!\u000f\u0001\u0005
-GodSkillEffective_Double	Number of shots: \u000e\u0001\u0006\u0000
-GodSkillInfo_ShockShoot	\u000e\u0001\u0005\u0000Charges plates with electricity,\nincreasing their attack power!\u000f\u0001\u0005
-GodSkillEffective_ShockShoot	Duration: \u000e\u0001\u0007\u0000 seconds
-GodSkillInfo_SoulShoot	\u000e\u0001\u0005\u0000For six seconds, allows user\nto deal more powerful attacks\nin exchange for HP.\u000f\u0001\u0005
-GodSkillEffective_SoulShoot	Soul Shot power: \u000e\u0001\u0008\u0000
-GodSkillInfo_DishAtkUp	\u000e\u0001\u0005\u0000For nine seconds, attacks\nwill be more likely to break\nopponent's plate stacks!\u000f\u0001\u0005
-GodSkillEffective_DishAtkUp	Likelihood increase: \u000e\u0001\t\u0000x
-GodSkillInfo_FesHunt	\u000e\u0001\u0005\u0000Steals some of opponent's\njubilee gauge when an\nattack lands!\u000f\u0001\u0005
-GodSkillEffective_FesHunt	Duration: \u000e\u0001\u0007\u0000 seconds
-GodSkillInfo_TableBreak	\u000e\u0001\u0005\u0000Slams a big pair of chopsticks\non opponent's table,\ndestroying any plate stacks!\u000f\u0001\u0005
-GodSkillEffective_TableBreak	Plates to activate: \u000e\u0001\n\u0000
-GodSkillInfo_DirectAttack	\u000e\u0001\u0005\u0000Slams a big pair of chopsticks\non opponent's head,\ndealing direct damage!\u000f\u0001\u0005
-GodSkillEffective_DirectAttack	Amount of damage: \u000e\u0001\u0008\u0000
-GodSkillInfo_ShockShoot2	\u000e\u0001\u0005\u0000Charges plates with lightning,\nincreasing attack power!\u000f\u0001\u0005
-GodSkillInfo_100Free	\u000e\u0001\u0005\u0000All user's plates turn the\nsame color, allowing\nmaximum linkage!\u000f\u0001\u0005
-GodSkillEffective_100Free	Plates to activate: \u000e\u0001\n\u0000
-GodSkillInfo_EatMyway	\u000e\u0001\u0005\u0000Allows user to link plates\neven if there are different\ncolor plates in the way!\u000f\u0001\u0005
-GodSkillEffective_EatMyway	Duration: \u000e\u0001\u0007\u0000 seconds
-GodSkillInfo_EatVacuum	\u000e\u0001\u0005\u0000Allows user to link any plates\nregardless of color!\u000f\u0001\u0005
-GodSkillEffective_EatVacuum	Duration: \u000e\u0001\u0007\u0000 seconds
-GodSkillInfo_AddInsidiouslyDish	\u000e\u0001\u0005\u0000Adds three plates to whatever\nnumber linked!\u000f\u0001\u0005
-GodSkillEffective_AddInsidiouslyDish	Duration: \u000e\u0001\u0007\u0000 seconds
-GodSkillInfo_DishRankEne	\u000e\u0001\u0005\u0000Lowers the quality of sushi\nflowing out of opponent's\nshrine by one plate color!\u000f\u0001\u0005
-GodSkillEffective_DishRankEne	Duration: \u000e\u0001\u0007\u0000 seconds
-GodSkillInfo_SushiDisappear	\u000e\u0001\u0005\u0000Makes the sushi flowing\nout of opponent's shrine\nvanish from its plates!\u000f\u0001\u0005
-GodSkillEffective_SushiDisappear	Duration: \u000e\u0001\u0007\u0000 seconds
-GodSkillInfo_LaneHighClass	\u000e\u0001\u0005\u0000Raises the quality of sushi\nflowing out of user's shrine!\u000f\u0001\u0005
-GodSkillEffective_LaneHighClass	Duration: \u000e\u0001\u0007\u0000 seconds
-GodSkillInfo_ComboBonus	\u000e\u0001\u0005\u0000Increases combo attack\ndamage for 10 seconds!\u000f\u0001\u0005
-GodSkillEffective_ComboBonus	Damage multiplier: \u000e\u0001\u0008\u0000x
-GodSkillInfo_LaneFill	\u000e\u0001\u0005\u0000Fills all empty spaces in user's\nlanes with fresh sushi!\u000f\u0001\u0005
-GodSkillEffective_LaneFill	Plates to activate: \u000e\u0001\n\u0000
-GodSkillInfo_DamageReflection	\u000e\u0001\u0005\u0000Allows user to deal damage\nin retaliation against one\nplate attack!\u000f\u0001\u0005
-GodSkillEffective_DamageReflection	Counterattack multiplier: \u000e\u0001\u0008\u0000x
-GodSkillInfo_Skeleton	\u000e\u0001\u0005\u0000Makes user invisible,\npreventing attack damage!\u000f\u0001\u0005
-GodSkillEffective_Skeleton	Duration: \u000e\u0001\u0007\u0000 seconds
-GodSkillInfo_LightClothes	\u000e\u0001\u0005\u0000Prevents damage from\nattacks containing plates\nof salmon or tuna!\u000f\u0001\u0005
-GodSkillInfo_BarrierShield	\u000e\u0001\u0005\u0000Creates a shield that reduces\ndamage taken from\nopponent's plates!\u000f\u0001\u0005
-GodSkillEffective_BarrierShield	Duration: \u000e\u0001\u0007\u0000 seconds
-GodSkillInfo_RobSheld	\u000e\u0001\u0005\u0000Steals all of the plates\nfrom opponent's attacks!\u000f\u0001\u0005
-GodSkillEffective_RobSheld	Duration: \u000e\u0001\u0007\u0000 seconds
-GodSkillInfo_SweetsHeaven	\u000e\u0001\u0005\u0000Makes sweets appear in user's\nlanes—tap them to eat them\nand restore HP!\u000f\u0001\u0005
-GodSkillEffective_SweetsHeaven	Quality of sweets: \u000e\u0001\u0008\u0000
-GodSkillInfo_FruitsParadise	\u000e\u0001\u0005\u0000Makes only plates of fruit\nflow out of user's shrine,\nrestoring HP when eaten!\u000f\u0001\u0005
-GodSkillEffective_FruitsParadise	Duration: \u000e\u0001\u0007\u0000 seconds
-GodSkillInfo_LifeHunter	\u000e\u0001\u0005\u0000Makes all attacks that hit\nopponent steal some HP!\u000f\u0001\u0005
-GodSkillEffective_LifeHunter	Duration: \u000e\u0001\u0007\u0000 seconds
-GodSkillInfo_TableDishLifeup	\u000e\u0001\u0005\u0000Converts all plate stacks\non user's table into energy\nthat restores HP!\u000f\u0001\u0005
-GodSkillEffective_TableDishLifeup	Restorative power: \u000e\u0001\u0008\u0000x
-GodSkillInfo_SkillCharge	\u000e\u0001\u0005\u0000Makes skill gauges fill\nthree times as fast!\u000f\u0001\u0005
-GodSkillEffective_SkillCharge	Duration: \u000e\u0001\u0007\u0000 seconds
-GodSkillInfo_SkillGaugeHunt	\u000e\u0001\u0005\u0000Makes all attacks that hit\nopponent steal some of\ntheir skill gauges!\u000f\u0001\u0005
-GodSkillEffective_SkillGaugeHunt	Duration: \u000e\u0001\u0007\u0000 seconds
-GodSkillInfo_SkillCopy	\u000e\u0001\u0005\u0000Copies an opponent's skill\nimmediately after use!\u000f\u0001\u0005
-GodSkillEffective_SkillCopy	Plates to activate: \u000e\u0001\n\u0000
-GodSkillInfo_SkillTerminate	\u000e\u0001\u0005\u0000Removes all active skill effects!\u000f\u0001\u0005
-GodSkillEffective_SkillTerminate	Plates to activate: \u000e\u0001\n\u0000
-GodSkillInfo_SkillUseNgAll	\u000e\u0001\u0005\u0000Prevents any skill usage!\u000f\u0001\u0005
-GodSkillEffective_SkillUseNgAll	Duration: \u000e\u0001\u0007\u0000 seconds
-GodSkillInfo_SkillUseNgEne	\u000e\u0001\u0005\u0000Prevents opponent\nfrom using any skills!\u000f\u0001\u0005
-GodSkillEffective_SkillUseNgEne	Duration: \u000e\u0001\u0007\u0000 seconds
-GodSkillInfo_HpChange	\u000e\u0001\u0005\u0000Swaps user's current HP\nwith opponent's!\u000f\u0001\u0005
-GodSkillEffective_HpChange	Plates to activate: \u000e\u0001\n\u0000
-GodSkillInfo_EnemyLaneSpd	\u000e\u0001\u0005\u0000Makes opponent's lanes\nmove three times as fast!\u000f\u0001\u0005
-GodSkillEffective_EnemyLaneSpd	Duration: \u000e\u0001\u0007\u0000 seconds
-GodSkillInfo_LaneSpdAll	\u000e\u0001\u0005\u0000Makes all lanes move\ntwice as fast!\u000f\u0001\u0005
-GodSkillEffective_LaneSpdAll	Duration: \u000e\u0001\u0007\u0000 seconds
-GodSkillInfo_CmnMonopoly	\u000e\u0001\u0005\u0000Hides shared lane\nfrom opponent!\u000f\u0001\u0005
-GodSkillEffective_CmnMonopoly	Duration: \u000e\u0001\u0007\u0000 seconds
-GodSkillInfo_ShrineBlind	\u000e\u0001\u0005\u0000Makes walls appear on\nopponent's lanes,\nreducing visibility!\u000f\u0001\u0005
-GodSkillEffective_ShrineBlind	Duration: \u000e\u0001\u0007\u0000 seconds
-GodSkillInfo_Oke	\u000e\u0001\u0005\u0000Makes rice tubs appear\nin opponent's lanes,\nblocking the way!\u000f\u0001\u0005
-GodSkillEffective_Oke	Tub appearance rate: \u000e\u0001\u0008\u0000%
-GodSkillInfo_Wasabi	\u000e\u0001\u0005\u0000Mixes plates of wasabi\ninto opponent's lanes!\u000f\u0001\u0005
-GodSkillEffective_Wasabi	Wasabi mix-in rate: \u000e\u0001\u0008\u0000%
-GodSkillInfo_NgAutoShoot	\u000e\u0001\u0005\u0000Disables opponent's\nautoshoot and removes\nany unshot plate stacks!\u000f\u0001\u0005
-GodSkillEffective_NgAutoShoot	Duration: \u000e\u0001\u0007\u0000 seconds
-GodSkillInfo_SushiShuffleer	\u000e\u0001\u0005\u0000Shuffles all plates\nin opponent's lanes!\u000f\u0001\u0005
-GodSkillEffective_SushiShuffleer	Plates to activate: \u000e\u0001\n\u0000
-GodSkillInfo_YoursIsMine	\u000e\u0001\u0005\u0000Allows linkage of plates\nin opponent's lanes!\u000f\u0001\u0005
-GodSkillInfo_DishInvisible	\u000e\u0001\u0005\u0000Makes all plates in opponent's\nlanes turn black!\u000f\u0001\u0005
-GodSkillEffective_DishInvisible	Duration: \u000e\u0001\u0007\u0000 seconds
-GodSkillInfo_BombSend	\u000e\u0001\u0005\u0000Temporarily allows user\nto throw bombs into\nopponent's lanes!\u000f\u0001\u0005
-GodSkillInfo_LivemonitorEne	\u000e\u0001\u0005\u0000Allows only opponent's\nimage to be displayed\non the live monitor!\u000f\u0001\u0005
-GodSkillEffective_LivemonitorEne	Duration: \u000e\u0001\u0007\u0000 seconds
-GodSkillInfo_LivemonitorOwn	\u000e\u0001\u0005\u0000Allows only user's image to be\ndisplayed on the live monitor!\u000f\u0001\u0005
-GodSkillEffective_LivemonitorOwn	Duration: \u000e\u0001\u0007\u0000 seconds
-GodSkillInfo_DishWall	\u000e\u0001\u0005\u0000Creates walls that block\nattacks of seven plates or less\nuntil the end of battle!\u000f\u0001\u0005
-GodSkillInfo_TubConveyor	\u000e\u0001\u0005\u0000Makes rice tubs continue\nto appear in both strikers'\nlanes until the end of battle!\u000f\u0001\u0005
-GodSkillInfo_DishReducer	\u000e\u0001\u0005\u0000Reduces the attack damage\nof both strikers' plates by\n90% until the end of battle!\u000f\u0001\u0005
-GodSkillInfo_LaneLowClass	\u000e\u0001\u0005\u0000Lowers the quality of sushi\nflowing out of user's shrine,\nmaking it easier to link!\u000f\u0001\u0005
-GodSkillEffective_LaneLowClass	Skill duration: \u000e\u0001\u0007\u0000 seconds
-GodSkillInfo_ComboWall	\u000e\u0001\u0005\u0000Creates walls that block\nall attacks except combos\nuntil the end of battle!\u000f\u0001\u0005
+GodSkillInfo_Double	{b}Makes attacks split in two\nand deal double damage!{/b}
+GodSkillEffective_Double	Number of shots: \x0e\x01\x06\0
+GodSkillInfo_ShockShoot	{b}Charges plates with electricity,\nincreasing their attack power!{/b}
+GodSkillEffective_ShockShoot	Duration: \x0e\x01\x07\0 seconds
+GodSkillInfo_SoulShoot	{b}For six seconds, allows user\nto deal more powerful attacks\nin exchange for HP.{/b}
+GodSkillEffective_SoulShoot	Soul Shot power: \x0e\x01\x08\0
+GodSkillInfo_DishAtkUp	{b}For nine seconds, attacks\nwill be more likely to break\nopponent's plate stacks!{/b}
+GodSkillEffective_DishAtkUp	Likelihood increase: \x0e\x01\t\0x
+GodSkillInfo_FesHunt	{b}Steals some of opponent's\njubilee gauge when an\nattack lands!{/b}
+GodSkillEffective_FesHunt	Duration: \x0e\x01\x07\0 seconds
+GodSkillInfo_TableBreak	{b}Slams a big pair of chopsticks\non opponent's table,\ndestroying any plate stacks!{/b}
+GodSkillEffective_TableBreak	Plates to activate: \x0e\x01\n\0
+GodSkillInfo_DirectAttack	{b}Slams a big pair of chopsticks\non opponent's head,\ndealing direct damage!{/b}
+GodSkillEffective_DirectAttack	Amount of damage: \x0e\x01\x08\0
+GodSkillInfo_ShockShoot2	{b}Charges plates with lightning,\nincreasing attack power!{/b}
+GodSkillInfo_100Free	{b}All user's plates turn the\nsame color, allowing\nmaximum linkage!{/b}
+GodSkillEffective_100Free	Plates to activate: \x0e\x01\n\0
+GodSkillInfo_EatMyway	{b}Allows user to link plates\neven if there are different\ncolor plates in the way!{/b}
+GodSkillEffective_EatMyway	Duration: \x0e\x01\x07\0 seconds
+GodSkillInfo_EatVacuum	{b}Allows user to link any plates\nregardless of color!{/b}
+GodSkillEffective_EatVacuum	Duration: \x0e\x01\x07\0 seconds
+GodSkillInfo_AddInsidiouslyDish	{b}Adds three plates to whatever\nnumber linked!{/b}
+GodSkillEffective_AddInsidiouslyDish	Duration: \x0e\x01\x07\0 seconds
+GodSkillInfo_DishRankEne	{b}Lowers the quality of sushi\nflowing out of opponent's\nshrine by one plate color!{/b}
+GodSkillEffective_DishRankEne	Duration: \x0e\x01\x07\0 seconds
+GodSkillInfo_SushiDisappear	{b}Makes the sushi flowing\nout of opponent's shrine\nvanish from its plates!{/b}
+GodSkillEffective_SushiDisappear	Duration: \x0e\x01\x07\0 seconds
+GodSkillInfo_LaneHighClass	{b}Raises the quality of sushi\nflowing out of user's shrine!{/b}
+GodSkillEffective_LaneHighClass	Duration: \x0e\x01\x07\0 seconds
+GodSkillInfo_ComboBonus	{b}Increases combo attack\ndamage for 10 seconds!{/b}
+GodSkillEffective_ComboBonus	Damage multiplier: \x0e\x01\x08\0x
+GodSkillInfo_LaneFill	{b}Fills all empty spaces in user's\nlanes with fresh sushi!{/b}
+GodSkillEffective_LaneFill	Plates to activate: \x0e\x01\n\0
+GodSkillInfo_DamageReflection	{b}Allows user to deal damage\nin retaliation against one\nplate attack!{/b}
+GodSkillEffective_DamageReflection	Counterattack multiplier: \x0e\x01\x08\0x
+GodSkillInfo_Skeleton	{b}Makes user invisible,\npreventing attack damage!{/b}
+GodSkillEffective_Skeleton	Duration: \x0e\x01\x07\0 seconds
+GodSkillInfo_LightClothes	{b}Prevents damage from\nattacks containing plates\nof salmon or tuna!{/b}
+GodSkillInfo_BarrierShield	{b}Creates a shield that reduces\ndamage taken from\nopponent's plates!{/b}
+GodSkillEffective_BarrierShield	Duration: \x0e\x01\x07\0 seconds
+GodSkillInfo_RobSheld	{b}Steals all of the plates\nfrom opponent's attacks!{/b}
+GodSkillEffective_RobSheld	Duration: \x0e\x01\x07\0 seconds
+GodSkillInfo_SweetsHeaven	{b}Makes sweets appear in user's\nlanes—tap them to eat them\nand restore HP!{/b}
+GodSkillEffective_SweetsHeaven	Quality of sweets: \x0e\x01\x08\0
+GodSkillInfo_FruitsParadise	{b}Makes only plates of fruit\nflow out of user's shrine,\nrestoring HP when eaten!{/b}
+GodSkillEffective_FruitsParadise	Duration: \x0e\x01\x07\0 seconds
+GodSkillInfo_LifeHunter	{b}Makes all attacks that hit\nopponent steal some HP!{/b}
+GodSkillEffective_LifeHunter	Duration: \x0e\x01\x07\0 seconds
+GodSkillInfo_TableDishLifeup	{b}Converts all plate stacks\non user's table into energy\nthat restores HP!{/b}
+GodSkillEffective_TableDishLifeup	Restorative power: \x0e\x01\x08\0x
+GodSkillInfo_SkillCharge	{b}Makes skill gauges fill\nthree times as fast!{/b}
+GodSkillEffective_SkillCharge	Duration: \x0e\x01\x07\0 seconds
+GodSkillInfo_SkillGaugeHunt	{b}Makes all attacks that hit\nopponent steal some of\ntheir skill gauges!{/b}
+GodSkillEffective_SkillGaugeHunt	Duration: \x0e\x01\x07\0 seconds
+GodSkillInfo_SkillCopy	{b}Copies an opponent's skill\nimmediately after use!{/b}
+GodSkillEffective_SkillCopy	Plates to activate: \x0e\x01\n\0
+GodSkillInfo_SkillTerminate	{b}Removes all active skill effects!{/b}
+GodSkillEffective_SkillTerminate	Plates to activate: \x0e\x01\n\0
+GodSkillInfo_SkillUseNgAll	{b}Prevents any skill usage!{/b}
+GodSkillEffective_SkillUseNgAll	Duration: \x0e\x01\x07\0 seconds
+GodSkillInfo_SkillUseNgEne	{b}Prevents opponent\nfrom using any skills!{/b}
+GodSkillEffective_SkillUseNgEne	Duration: \x0e\x01\x07\0 seconds
+GodSkillInfo_HpChange	{b}Swaps user's current HP\nwith opponent's!{/b}
+GodSkillEffective_HpChange	Plates to activate: \x0e\x01\n\0
+GodSkillInfo_EnemyLaneSpd	{b}Makes opponent's lanes\nmove three times as fast!{/b}
+GodSkillEffective_EnemyLaneSpd	Duration: \x0e\x01\x07\0 seconds
+GodSkillInfo_LaneSpdAll	{b}Makes all lanes move\ntwice as fast!{/b}
+GodSkillEffective_LaneSpdAll	Duration: \x0e\x01\x07\0 seconds
+GodSkillInfo_CmnMonopoly	{b}Hides shared lane\nfrom opponent!{/b}
+GodSkillEffective_CmnMonopoly	Duration: \x0e\x01\x07\0 seconds
+GodSkillInfo_ShrineBlind	{b}Makes walls appear on\nopponent's lanes,\nreducing visibility!{/b}
+GodSkillEffective_ShrineBlind	Duration: \x0e\x01\x07\0 seconds
+GodSkillInfo_Oke	{b}Makes rice tubs appear\nin opponent's lanes,\nblocking the way!{/b}
+GodSkillEffective_Oke	Tub appearance rate: \x0e\x01\x08\0%
+GodSkillInfo_Wasabi	{b}Mixes plates of wasabi\ninto opponent's lanes!{/b}
+GodSkillEffective_Wasabi	Wasabi mix-in rate: \x0e\x01\x08\0%
+GodSkillInfo_NgAutoShoot	{b}Disables opponent's\nautoshoot and removes\nany unshot plate stacks!{/b}
+GodSkillEffective_NgAutoShoot	Duration: \x0e\x01\x07\0 seconds
+GodSkillInfo_SushiShuffleer	{b}Shuffles all plates\nin opponent's lanes!{/b}
+GodSkillEffective_SushiShuffleer	Plates to activate: \x0e\x01\n\0
+GodSkillInfo_YoursIsMine	{b}Allows linkage of plates\nin opponent's lanes!{/b}
+GodSkillInfo_DishInvisible	{b}Makes all plates in opponent's\nlanes turn black!{/b}
+GodSkillEffective_DishInvisible	Duration: \x0e\x01\x07\0 seconds
+GodSkillInfo_BombSend	{b}Temporarily allows user\nto throw bombs into\nopponent's lanes!{/b}
+GodSkillInfo_LivemonitorEne	{b}Allows only opponent's\nimage to be displayed\non the live monitor!{/b}
+GodSkillEffective_LivemonitorEne	Duration: \x0e\x01\x07\0 seconds
+GodSkillInfo_LivemonitorOwn	{b}Allows only user's image to be\ndisplayed on the live monitor!{/b}
+GodSkillEffective_LivemonitorOwn	Duration: \x0e\x01\x07\0 seconds
+GodSkillInfo_DishWall	{b}Creates walls that block\nattacks of seven plates or less\nuntil the end of battle!{/b}
+GodSkillInfo_TubConveyor	{b}Makes rice tubs continue\nto appear in both strikers'\nlanes until the end of battle!{/b}
+GodSkillInfo_DishReducer	{b}Reduces the attack damage\nof both strikers' plates by\n90% until the end of battle!{/b}
+GodSkillInfo_LaneLowClass	{b}Lowers the quality of sushi\nflowing out of user's shrine,\nmaking it easier to link!{/b}
+GodSkillEffective_LaneLowClass	Skill duration: \x0e\x01\x07\0 seconds
+GodSkillInfo_ComboWall	{b}Creates walls that block\nall attacks except combos\nuntil the end of battle!{/b}
 \database\database_itemInfo.msbt
 ItemInfo_Burner	Use this on a sushi sprite, and one\nof the sushi types it produces will be\na higher-quality, seared version.\n(Only affects certain sushi.)
 ItemInfo_OhudaExpS	Holds the history of a sushi sprite.\nUse it on one of your sushi sprites\nto give it a small EXP boost.
@@ -1304,7 +1304,7 @@ MovieSerifText_1b_0038_M	Not just any sushi—it's salmon.
 MovieSerifText_1b_0039_M	What are you waiting for?\nSate that powerful hunger!
 MovieSerifText_1b_0077_M	Right!
 MovieSerifText_1b_0077_F	Right!
-MovieSerifText_1b_0040_M	Bon app\u00e9tit!
+MovieSerifText_1b_0040_M	Bon app\xe9tit!
 MovieSerifText_1b_0041_M	*munch*
 MovieSerifText_1b_0041_F	*munch*
 MovieSerifText_1b_0042_M	*chomp* *slarf*\n*gulp*
@@ -2388,11 +2388,11 @@ StaffName_134	LOCALIZATION STAFF
 StaffName_135	NOA LOCALIZATION MANAGEMENT
 StaffName_136	Nate Bihldorff\nReiko Ninomiya\nRich Amtower\nAnn Lin\nTim O'Leary\nScot Ritchey
 StaffName_137	NOA LOCALIZATION
-StaffName_138	Billy Carroll\nRyan Kelley\nLars Knudson\nNich Maragos\nAyaka Osakabe\nMorgan Ritchie\nGalia Rodr\u00edguez Hornedo
+StaffName_138	Billy Carroll\nRyan Kelley\nLars Knudson\nNich Maragos\nAyaka Osakabe\nMorgan Ritchie\nGalia Rodr\xedguez Hornedo
 StaffName_139	NOA PRODUCT TESTING
 StaffName_140	Kentaro Nishimura\nSeth Hanser\nQ Dequina\nTomoko Mikami\nKaylee Lewis\nAi Hund\nTom Hertzog\nDouglas Lynn\nCraig So\nDerek Hipple\nPatricia Rivereau\nProduct Testing Technicians
 StaffName_141	NOA COPY EDITING
-StaffName_142	Michael Benedetto\nAlain Dautricourt\nNicko Gonzalez De Santiago\nSara Hoad\nJos\u00e9e Lebeau-B\u00e9dard\nKarina Mora\nErin Peterson\nCarolina Quesada\nLudovic Tientcheu
+StaffName_142	Michael Benedetto\nAlain Dautricourt\nNicko Gonzalez De Santiago\nSara Hoad\nJos\xe9e Lebeau-B\xe9dard\nKarina Mora\nErin Peterson\nCarolina Quesada\nLudovic Tientcheu
 StaffName_143	SPECIAL THANKS
 StaffName_144	Jeff Miller
 StaffName_145	<EUROPEAN LOCALISATION>
@@ -2402,18 +2402,18 @@ StaffName_148	TRANSLATION
 StaffName_149	COORDINATION
 StaffName_150	Martina Leonor Bassani\nPierre Sanchez
 StaffName_151	FRENCH
-StaffName_152	Anthony Fouillen\nNatacha Faubert\nDavid Causs\u00e8que\nLaurent Godinot\nSylvain Gsell\nV\u00e9ronique Schneider\nGurvan Le Guen
+StaffName_152	Anthony Fouillen\nNatacha Faubert\nDavid Causs\xe8que\nLaurent Godinot\nSylvain Gsell\nV\xe9ronique Schneider\nGurvan Le Guen
 StaffName_153	GERMAN
 StaffName_154	Michael Hussinger\nFrithjof Koepp\nJessica Morandi\nThomas Ito\nGunnar Friedrich
 StaffName_155	ITALIAN
 StaffName_156	Mirko Capocelli\nGiovanna Canta\nTito Leati\nEmanuele Tonetti
 StaffName_157	SPANISH
-StaffName_158	Blanca Hueso Taul\u00e9s\nAlfonso D\u00edaz Jim\u00e9nez \nAriel del Rio de Angelis\nEnrique S\u00e1nchez Rosa\nSara Sainz Nieto
+StaffName_158	Blanca Hueso Taul\xe9s\nAlfonso D\xedaz Jim\xe9nez \nAriel del Rio de Angelis\nEnrique S\xe1nchez Rosa\nSara Sainz Nieto
 StaffName_159	DUTCH
 StaffName_160	Suzanne Turgeon\nThomas den Haan\nCarsten Harmans\nMark Hoefsteders\nPatrick Koudstaal\nLennart Rotteveel\nChristian Buter
 StaffName_161	QUALITY ASSURANCE
 StaffName_162	COORDINATION
-StaffName_163	J. Ignacio Le\u00f3n L\u00f3pez\nJes\u00fas Guti\u00e9rrez Cuadra\nNOE Quality Assurance\nKeywords Studios
+StaffName_163	J. Ignacio Le\xf3n L\xf3pez\nJes\xfas Guti\xe9rrez Cuadra\nNOE Quality Assurance\nKeywords Studios
 StaffName_164	PRODUCERS
 StaffName_165	Masanobu Suzui\nHitoshi Yamagami
 StaffName_166	GENERAL PRODUCER
@@ -2422,7 +2422,7 @@ StaffName_168	EXECUTIVE PRODUCER
 StaffName_169	Tatsumi Kimishima
 StaffName_170	PRODUCTION/COPYRIGHT
 StaffName_171	Nintendo Co., Ltd.
-StaffName_172	\u00a92018 Nintendo\n Co-Developed by indieszero Co., Ltd.
+StaffName_172	\xa92018 Nintendo\n Co-Developed by indieszero Co., Ltd.
 \database\database_stage.msbt
 stageName_stage001	Border Path 1
 stageName_stage002	Border Path 2
@@ -2798,7 +2798,7 @@ TipsPage4_025	-You cannot use {c[006e00]}Prepared Items{c[000000]}.\n-Each sprit
 \event\chapterAvantM003.msbt
 CharaSerif_00_M	I see. So on top of the incident with Jinrai,\nyou lost an important base to the enemy.
 CharaSerif_01_M	It's one blunder after another with you,\nisn't it, Kodiak?
-CharaSerif_02_M	\u000e\u0000\u0002\u0002\u0096\u0000That was the last one, honest!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_02_M	{s[150]}That was the last one, honest!{s[100]}
 CharaSerif_03_M	If the SLF grows entrenched in the Shrine\nGrove, they'll attack the border gate next.
 CharaSerif_04_M	And so I must ask myself, should I risk\nleaving its defense to you?
 CharaSerif_05_M	Y-you can count on me! I'll keep an iron\ngrip on the border!
@@ -2824,8 +2824,8 @@ Prologue01_01_M	There once was a boy who lived in\na remote village in the Repub
 Prologue01_01_F	There once was a girl who lived in\na remote village in the Republic.
 Prologue01_02_M	He lost his parents in the Sushi Struggles,\nand spent his early years in an orphanage.
 Prologue01_02_F	She lost her parents in the Sushi Struggles,\nand spent her early years in an orphanage.
-Prologue01_03_M	\u000e\u0000\u0002\u0002\u0096\u0000That's me! I'm Musashi!\u000e\u0000\u0002\u0002d\u0000
-Prologue01_03_F	\u000e\u0000\u0002\u0002\u0096\u0000That's me! I'm Musashi!\u000e\u0000\u0002\u0002d\u0000
+Prologue01_03_M	{s[150]}That's me! I'm Musashi!{s[100]}
+Prologue01_03_F	{s[150]}That's me! I'm Musashi!{s[100]}
 Prologue01_04_M	I'm also really...really...hungry.
 Prologue01_04_F	I'm also really...really...hungry.
 Prologue01_05_M	Us too!
@@ -2881,7 +2881,7 @@ CharaSerif_29_M	I think that the border would be a good\ndistance away from him,
 CharaSerif_30_M	Heheheh! I knew we were on the same\npage, buddy!
 CharaSerif_30_F	Heheheh! I knew we were on the same\npage, buddy!
 \event\chapterBeginM005.msbt
-CharaSerif_10_M	\u000e\u0000\u0002\u0002\u0096\u0000Fantastically done!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_10_M	{s[150]}Fantastically done!{s[100]}
 CharaSerif_11_M	Thanks to your contributions, we pushed all\nthe way to the trading city of Benteaux.
 CharaSerif_12_M	Glad I could help!
 CharaSerif_12_F	Glad I could help!
@@ -2889,8 +2889,8 @@ CharaSerif_13_M	From here, it's a short distance over the\nGreat Bridge to the I
 CharaSerif_14_M	Then what are we waiting for? Let's go!
 CharaSerif_14_F	Then what are we waiting for? Let's go!
 CharaSerif_15_M	Not yet. The time to move on the Empire\nis not quite right.
-CharaSerif_16_M	\u000e\u0000\u0002\u0002\u0096\u0000Why not?!\u000e\u0000\u0002\u0002d\u0000
-CharaSerif_16_F	\u000e\u0000\u0002\u0002\u0096\u0000Why not?!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_16_M	{s[150]}Why not?!{s[100]}
+CharaSerif_16_F	{s[150]}Why not?!{s[100]}
 CharaSerif_17_M	Between us and the Great Bridge is the\nImperial stronghold of Fort Fugu.
 CharaSerif_18_M	Fort...Fugu?
 CharaSerif_18_F	Fort...Fugu?
@@ -2933,12 +2933,12 @@ CharaSerif_03_F	I still have no way to deal with my\ndad's Sushido.
 CharaSerif_04_M	Hrrrh. It does seem to be a closely guarded\nsecret. Even I don't know where to begin.
 CharaSerif_05_M	If I can't counter that, then the fight is\nover before it starts.
 CharaSerif_05_F	If I can't counter that, then the fight is\nover before it starts.
-CharaSerif_06_M	\u000e\u0000\u0002\u0002\u0096\u0000Yo, guys! BIG news!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_06_M	{s[150]}Yo, guys! BIG news!{s[100]}
 CharaSerif_07_M	Yeah? What is it?
 CharaSerif_07_F	Yeah? What is it?
 CharaSerif_08_M	It's Franklin! I got the deets on where\nFranklin's at!
-CharaSerif_09_M	\u000e\u0000\u0002\u0002\u0096\u0000Say that again?!\u000e\u0000\u0002\u0002d\u0000
-CharaSerif_09_F	\u000e\u0000\u0002\u0002\u0096\u0000Say that again?!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_09_M	{s[150]}Say that again?!{s[100]}
+CharaSerif_09_F	{s[150]}Say that again?!{s[100]}
 CharaSerif_11_M	Way I heard it, Franklin's cooped up in\nthe snowy areas up north Imperial way.
 CharaSerif_12_M	They got this whole "Retraining Facility"\nfor Imperial soldiers there!
 CharaSerif_13_M	That sounds awful!
@@ -2956,13 +2956,13 @@ CharaSerif_04_M	Imperial Palace, here we come! I'm itching\nfor a fight!
 CharaSerif_05_M	Hmm...
 CharaSerif_06_M	Listen, everyone. I'm going in alone!
 CharaSerif_06_F	Listen, everyone. I'm going in alone!
-CharaSerif_07_M	\u000e\u0000\u0002\u0002\u0096\u0000What?!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_07_M	{s[150]}What?!{s[100]}
 CharaSerif_08_M	Somewhere in there, I'll be settling a score\nwith the Dread General Tiburon.
 CharaSerif_08_F	Somewhere in there, I'll be settling a score\nwith the Dread General Tiburon.
 CharaSerif_09_M	And when that comes, I want to beat him\nby myself! One on one!
 CharaSerif_09_F	And when that comes, I want to beat him\nby myself! One on one!
 CharaSerif_10_M	Commander...
-CharaSerif_11_M	\u000e\u0000\u0002\u0002\u0096\u0000Well put, Musashi!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_11_M	{s[150]}Well put, Musashi!{s[100]}
 CharaSerif_12_M	You were listening?!
 CharaSerif_12_F	You were listening?!
 CharaSerif_13_M	Though when you say "by myself," you of\ncourse mean with your sushi sprites, yes?
@@ -2991,7 +2991,7 @@ CharaSerif_11_F	Yeesh.
 CharaSerif_12_M	I somehow found my way home, but it was\ntoo late. Your mother...she...
 CharaSerif_13_M	No... Don't say it...
 CharaSerif_14_M	In her despair, she threw herself into the\nGreat Sushi Gate at the Shrine Grove.
-CharaSerif_15_M	\u000e\u0000\u0002\u0002\u0096\u0000Wait, what?!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_15_M	{s[150]}Wait, what?!{s[100]}
 CharaSerif_16_M	Ah, yes... The Great Sushi Gate which\ntowers over all other sushi gates...
 CharaSerif_17_M	Jinrai, do you know what happens to people\nwho go inside sushi gates?
 CharaSerif_17_F	Jinrai, do you know what happens to people\nwho go inside sushi gates?
@@ -3091,8 +3091,8 @@ BossEntryLabelEntry_M	is here!
 BuildUpLevel2_M	Renovated to LV2!
 BuildUpLevel3_M	Renovated to LV 3!
 \event\eventBattleM001.msbt
-EventBattleM001_01_M	\u000e\u0000\u0002\u0002\u0096\u0000Huh?! Where are we?!\u000e\u0000\u0002\u0002d\u0000
-EventBattleM001_01_F	\u000e\u0000\u0002\u0002\u0096\u0000Huh?! Where are we?!\u000e\u0000\u0002\u0002d\u0000
+EventBattleM001_01_M	{s[150]}Huh?! Where are we?!{s[100]}
+EventBattleM001_01_F	{s[150]}Huh?! Where are we?!{s[100]}
 EventBattleM001_02_M	Never fear. You are in a sushi field, a place\nwhere sushi flows from sushi sprites.
 EventBattleM001_03_M	But don't worry about that. I have much to\nteach you here!
 EventBattleM001_04_M	You see, there's a lot you can do with\nsushi here.
@@ -3104,16 +3104,16 @@ EventBattleM001_08_M	I'm seeing a lot of plates...but no sushi.
 EventBattleM001_08_F	I'm seeing a lot of plates...but no sushi.
 EventBattleM001_09_M	Ah, pardon me! For that, I'll need to have\nAra-o return to the shrine for a bit.
 EventBattleM001_10_M	Ara-o, if you please?
-EventBattleM001_12_M	\u000e\u0000\u0002\u0002\u0096\u0000Whoa! Look at all the sushi!\u000e\u0000\u0002\u0002d\u0000
-EventBattleM001_12_F	\u000e\u0000\u0002\u0002\u0096\u0000Whoa! Look at all the sushi!\u000e\u0000\u0002\u0002d\u0000
+EventBattleM001_12_M	{s[150]}Whoa! Look at all the sushi!{s[100]}
+EventBattleM001_12_F	{s[150]}Whoa! Look at all the sushi!{s[100]}
 EventBattleM001_13_M	Eat up! Link two or more plates of the\nsame color, just as before!
 EventBattleM001_14_M	Yum! I can't get enough!
 EventBattleM001_14_F	Yum! I can't get enough!
 EventBattleM001_16_M	I'm not surprised. Don't stop now!\nGrab as many as you can in one go!
 EventBattleM001_17_M	But you only have 7 seconds to link plates.\nAfter that, they'll slip through your fingers.
 EventBattleM001_18_M	The goal is to link and eat as many plates\nas you can within that 7 seconds. Try it!
-EventBattleM001_19_M	\u000e\u0000\u0002\u0002\u0096\u0000It's better than I dreamed!\u000e\u0000\u0002\u0002d\u0000
-EventBattleM001_19_F	\u000e\u0000\u0002\u0002\u0096\u0000It's better than I dreamed!\u000e\u0000\u0002\u0002d\u0000
+EventBattleM001_19_M	{s[150]}It's better than I dreamed!{s[100]}
+EventBattleM001_19_F	{s[150]}It's better than I dreamed!{s[100]}
 \event\eventBattleM002.msbt
 EventBattleM002_01_M	Hm? This is where we were before...
 EventBattleM002_01_F	Hm? This is where we were before...
@@ -3126,7 +3126,7 @@ EventBattleM002_08_M	After eating sushi, touch a {c[ffcc2f]}stack of plates{c[00
 EventBattleM002_10_M	There you go! You can shoot plates stacked\non the table whenever you want!
 EventBattleM002_11_M	Hit the enemy with {c[ffcc2f]}stacks of the same-\ncolored plates{c[000000]} for a superpowerful {c[5fd871]}combo{c[000000]}!
 EventBattleM002_12_M	Yeah, yeah, so you figured out how to shoot\nplates. Too bad it won't help!
-EventBattleM002_13_M	\u000e\u0000\u0002\u0002\u0096\u0000EAT THIS!\u000e\u0000\u0002\u0002d\u0000
+EventBattleM002_13_M	{s[150]}EAT THIS!{s[100]}
 EventBattleM002_15_M	Good eye! You can shoot plates stacked on\nyour table whenever you want!
 EventBattleM002_16_M	If you hit them with {c[ffcc2f]}multiple stacks of the\nsame color{c[000000]}, it makes a powerful {c[5fd871]}combo{c[000000]}!
 EventBattleM002_17_M	But you don't have to do everything yourself.\nTry stacking more plates without shooting!
@@ -3135,14 +3135,14 @@ EventBattleM002_19_M	There you go! Once the table is full of plates,\nthey'll sh
 CharaSerif_01_M	Woohoo! Just a little further to the village!
 CharaSerif_01_F	Woohoo! Just a little further to the village!
 CharaSerif_02_M	Careful. Don't overexcite yourself and get\na cramp.
-CharaSerif_03_M	\u000e\u0000\u0002\u0002\u0096\u0000Aha! It's Franklin!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_03_M	{s[150]}Aha! It's Franklin!{s[100]}
 CharaSerif_04_M	Why is the Empire here?!
 CharaSerif_04_F	Why is the Empire here?!
 CharaSerif_05_M	I don't know, but you should find\nsomewhere to hide.
 CharaSerif_06_M	So you're the guy, huh? I don't know why\nwe care... You look pretty scrawny to me.
 CharaSerif_07_M	Well, what a surprise. An Imperial general\npersonally leading the hunt for me?
 CharaSerif_08_M	My reps precede me, huh? Well, ain't\nthat something!
-CharaSerif_09_M	\u000e\u0000\u0002\u0002\u0096\u0000Hah! You're right—it's me...\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_09_M	{s[150]}Hah! You're right—it's me...{s[100]}
 CharaSerif_10_M	The most ripped general in the whole\nImperial Army, the one and only Kodiak!
 CharaSerif_11_M	All sushi sprites belong to the Empire!\nYou can't just waltz around with one!
 CharaSerif_12_M	Hand over that Ara-o and nobody has\nto get bruised!
@@ -3150,9 +3150,9 @@ CharaSerif_13_M	Alas... I won't be parting with Ara-o until\nI've fulfilled my d
 CharaSerif_14_M	Besides which, I doubt he would want\nto leave me anyway.
 CharaSerif_15_M	Yeah! I'm with Franklin! Whatever your\nEmpire wants me to do, I want none of it!
 CharaSerif_16_M	Of course. You could have made this easy,\nflab-brains, but we can do it the other way.
-CharaSerif_17_M	\u000e\u0000\u0002\u0002\u0096\u0000Go for it, men! Hit 'em hard!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_17_M	{s[150]}Go for it, men! Hit 'em hard!{s[100]}
 CharaSerif_18_M	Urgh... Such cruelty...
-CharaSerif_19_M	\u000e\u0000\u0002\u0002\u0096\u0000Hah! What'd you expect?!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_19_M	{s[150]}Hah! What'd you expect?!{s[100]}
 CharaSerif_20_M	Franklin! Are you OK?!
 CharaSerif_20_F	Franklin! Are you OK?!
 CharaSerif_21_M	Huh? Who's the kid?
@@ -3168,12 +3168,12 @@ CharaSerif_27_F	Well, if I have to! Bring it on!
 CharaSerif_10_M	Hahahah! It's always satisfying to see\nsomeone take their first taste of sushi.
 CharaSerif_11_M	Wow... Thank you. Sushi is so amazing\nthat I think I might cry!
 CharaSerif_11_F	Wow... Thank you. Sushi is so amazing\nthat I think I might cry!
-CharaSerif_12_M	\u000e\u0000\u0002\u0002\u0096\u0000Yep! There I go!\u000e\u0000\u0002\u0002d\u0000
-CharaSerif_12_F	\u000e\u0000\u0002\u0002\u0096\u0000Yep! There I go!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_12_M	{s[150]}Yep! There I go!{s[100]}
+CharaSerif_12_F	{s[150]}Yep! There I go!{s[100]}
 CharaSerif_13_M	Tears of joy, huh? Humans are so strange!
 CharaSerif_14_M	Quiet, you sushi spout!
 CharaSerif_14_F	Quiet, you sushi spout!
-CharaSerif_15_M	\u000e\u0000\u0002\u0002\u0096\u0000What'd you call me?!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_15_M	{s[150]}What'd you call me?!{s[100]}
 CharaSerif_16_M	Hmm... That's an interesting jacket.
 CharaSerif_17_M	You like it? My dad gave it to me when\nI was a kid.
 CharaSerif_17_F	You like it? My dad gave it to me when\nI was a kid.
@@ -3197,7 +3197,7 @@ CharaSerif_30_M	Some of that means doing battle with\nsushi, so they're called s
 CharaSerif_32_M	There are not many nowadays with access\nto sushi.
 CharaSerif_33_M	Don't you think that's a shame?
 CharaSerif_34_M	Wouldn't it be wonderful if everyone could\nhave sushi, regardless of circumstance?
-CharaSerif_35_M	\u000e\u0000\u0002\u0002\u0096\u0000Whoa! That's a tall order!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_35_M	{s[150]}Whoa! That's a tall order!{s[100]}
 CharaSerif_36_M	Maybe so, but I'm achieving it in my\ntravels, one person at a time.
 CharaSerif_37_M	(Sushi for...everyone? That has to\nhappen! It's too good to keep secret!)
 CharaSerif_37_F	(Sushi for...everyone? That has to\nhappen! It's too good to keep secret!)
@@ -3209,7 +3209,7 @@ CharaSerif_40_F	You should come to my village next!\nThe other orphans are going
 CharaSerif_41_M	I wanna see their faces when they get\nto try sushi too!
 CharaSerif_41_F	I wanna see their faces when they get\nto try sushi too!
 CharaSerif_43_M	Then that can be my next stop. Let's go\nspread the good word of sushi!
-CharaSerif_44_M	\u000e\u0000\u0002\u0002\u0096\u0000Yay! Thanks, Franklin!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_44_M	{s[150]}Yay! Thanks, Franklin!{s[100]}
 \event\homeArena.msbt
 homeArena_cmn_out_01_M	Come by anytime you wanna test\nyour strength!
 homeArena_cmn_in_01_M	Sup, Musashi! Welcome to the Arena!
@@ -3275,9 +3275,9 @@ homeKoziin_cmn_btn_party_M	Let's have a sushi party!
 homeKoziin_cmn_btn_party_F	Let's have a sushi party!
 homeKoziin_cmn_btn_healthy_M	How are you?
 homeKoziin_select_00_M	Sweet! Which sushi sprite should I\ninvite to the party?
-homeKoziin_select_01_M	Whoo hoo! We're having a sushi party!\n{c[91ff1e]}\u000e\u0001\u000d\u0000{c[000000]}, take it away!
+homeKoziin_select_01_M	Whoo hoo! We're having a sushi party!\n{c[91ff1e]}\x0e\x01\x0d\0{c[000000]}, take it away!
 homeKoziin_select_02_M	You had a sushi party with the kids!
-homeKoziin_select_03_M	Thanks for the food, \u000e\u0001\u000d\u0000!
+homeKoziin_select_03_M	Thanks for the food, \x0e\x01\x0d\0!
 homeKoziin_select_lv00_00_M	I appreciate the thought, Musashi. Look at\nall these full bellies and happy smiles.
 homeKoziin_select_lv01_00_M	Thanks a ton!
 homeKoziin_select_lv02_02_M	Thank you!
@@ -3405,8 +3405,8 @@ homeShrine_first_rank_09_M	All right. Please check the {c[91ff1e]}Secret Scroll 
 homeShrine_rank_00_M	I'd like to raise my {c[91ff1e]}striker rank{c[000000]}!
 homeShrine_rank_01_M	Understood. I'll send your request to\nthe Supreme Sprite.
 homeShrine_rank_02_M	Ah!
-homeShrine_rank_03_M	Congratulations, Musashi!\nYour {c[91ff1e]}striker rank{c[000000]} has increased to {c[ffae00]}\u000e\u0001\u0011\u0000{c[000000]}!
-homeShrine_rank_04_M	Well then, please take this {c[91ff1e]}\u000e\u0001\u000b\u0000\n{c[000000]}as a reward for raising your rank.
+homeShrine_rank_03_M	Congratulations, Musashi!\nYour {c[91ff1e]}striker rank{c[000000]} has increased to {c[ffae00]}\x0e\x01\x11\0{c[000000]}!
+homeShrine_rank_04_M	Well then, please take this {c[91ff1e]}\x0e\x01\x0b\0\n{c[000000]}as a reward for raising your rank.
 homeShrine_rank_06_M	Musashi, it seems you haven't completed\nthe {c[ffcc2f]}Triumphs necessary to raise your rank{c[000000]}.
 homeShrine_rank_07_M	Well then, check the {c[91ff1e]}Secret Scroll{c[000000]}, complete\nany unfulfilled {c[ffcc2f]}Triumphs{c[000000]}, and return here.
 homeShrine_first_word_00_M	What are {c[91ff1e]}divine orders{c[000000]}?
@@ -3443,31 +3443,31 @@ homeShrine_get_ContractDish_sg_M	You got a {c[91ff1e]}Potential Plate{c[000000]}
 homeShrine_get_GearSuper_sg_M	You got a {c[91ff1e]}Super Gear{c[000000]}!
 homeShrine_get_GearStream_sg_M	You got a {c[91ff1e]}Flowing Gear{c[000000]}!
 homeShrine_get_OhudaExpL_sg_M	You got an {c[91ff1e]}EXP Charm L{c[000000]}!
-homeShrine_get_OhudaExpL_pl_M	You got {c[ffae00]}\u000e\u0001\u0014\u0000{c[000000]} {c[91ff1e]}EXP Charm L{c[000000]}!
+homeShrine_get_OhudaExpL_pl_M	You got {c[ffae00]}\x0e\x01\x14\0{c[000000]} {c[91ff1e]}EXP Charm L{c[000000]}!
 homeShrine_get_OhudaDefS_sg_M	You got a {c[91ff1e]}Guardian Charm S{c[000000]}!
-homeShrine_get_OhudaDefS_pl_M	You got {c[ffae00]}\u000e\u0001\u0014\u0000 {c[000000]}{c[91ff1e]}Guardian Charm S{c[000000]}!
+homeShrine_get_OhudaDefS_pl_M	You got {c[ffae00]}\x0e\x01\x14\0 {c[000000]}{c[91ff1e]}Guardian Charm S{c[000000]}!
 homeShrine_get_OhudaDefM_sg_M	You got a {c[91ff1e]}Guardian Charm M{c[000000]}!
-homeShrine_get_OhudaDefM_pl_M	You got {c[ffae00]}\u000e\u0001\u0014\u0000 {c[000000]}{c[91ff1e]}Guardian Charm M{c[000000]}!
+homeShrine_get_OhudaDefM_pl_M	You got {c[ffae00]}\x0e\x01\x14\0 {c[000000]}{c[91ff1e]}Guardian Charm M{c[000000]}!
 homeShrine_get_OhudaDefL_sg_M	You got a {c[91ff1e]}Guardian Charm L{c[000000]}!
-homeShrine_get_OhudaDefL_pl_M	You got {c[ffae00]}\u000e\u0001\u0014\u0000 {c[000000]}{c[91ff1e]}Guardian Charm L{c[000000]}!
+homeShrine_get_OhudaDefL_pl_M	You got {c[ffae00]}\x0e\x01\x14\0 {c[000000]}{c[91ff1e]}Guardian Charm L{c[000000]}!
 homeShrine_get_OhudaSkill_sg_M	You got a {c[91ff1e]}Skill Charm{c[000000]}!
-homeShrine_get_OhudaSkill_pl_M	You got {c[ffae00]}\u000e\u0001\u0014\u0000 {c[000000]}{c[91ff1e]}Skill Charms{c[000000]}!
+homeShrine_get_OhudaSkill_pl_M	You got {c[ffae00]}\x0e\x01\x14\0 {c[000000]}{c[91ff1e]}Skill Charms{c[000000]}!
 homeShrine_get_OhudaSkillC_sg_M	You got a {c[91ff1e]}Great Skill Charm{c[000000]}!
-homeShrine_get_OhudaSkillC_pl_M	You got {c[ffae00]}\u000e\u0001\u0014\u0000 {c[000000]}{c[91ff1e]}Great Skill Charms{c[000000]}!
+homeShrine_get_OhudaSkillC_pl_M	You got {c[ffae00]}\x0e\x01\x14\0 {c[000000]}{c[91ff1e]}Great Skill Charms{c[000000]}!
 homeShrine_get_PlayerHpS_sg_M	You got a {c[91ff1e]}Canned Stamina{c[000000]}!
-homeShrine_get_PlayerHpS_pl_M	You got {c[ffae00]}\u000e\u0001\u0014\u0000 {c[000000]}{c[91ff1e]}Canned Staminas{c[000000]}!
+homeShrine_get_PlayerHpS_pl_M	You got {c[ffae00]}\x0e\x01\x14\0 {c[000000]}{c[91ff1e]}Canned Staminas{c[000000]}!
 homeShrine_get_PlayerAtkS_sg_M	You got a {c[91ff1e]}Canned Power{c[000000]}!
-homeShrine_get_PlayerAtkS_pl_M	You got {c[ffae00]}\u000e\u0001\u0014\u0000 {c[000000]}{c[91ff1e]}Canned Powers{c[000000]}!
+homeShrine_get_PlayerAtkS_pl_M	You got {c[ffae00]}\x0e\x01\x14\0 {c[000000]}{c[91ff1e]}Canned Powers{c[000000]}!
 homeShrine_get_ReadyRetryM_sg_M	You got a {c[91ff1e]}Renewal Bean{c[000000]}!
-homeShrine_get_ReadyRetryM_pl_M	You got {c[ffae00]}\u000e\u0001\u0014\u0000 {c[000000]}{c[91ff1e]}Renewal Beans{c[000000]}!
+homeShrine_get_ReadyRetryM_pl_M	You got {c[ffae00]}\x0e\x01\x14\0 {c[000000]}{c[91ff1e]}Renewal Beans{c[000000]}!
 homeShrine_get_ReadyRetryL_sg_M	You got a {c[91ff1e]}Big Renewal Bean{c[000000]}!
-homeShrine_get_ReadyRetryL_pl_M	You got {c[ffae00]}\u000e\u0001\u0014\u0000 {c[000000]}{c[91ff1e]}Big Renewal Beans{c[000000]}!
+homeShrine_get_ReadyRetryL_pl_M	You got {c[ffae00]}\x0e\x01\x14\0 {c[000000]}{c[91ff1e]}Big Renewal Beans{c[000000]}!
 homeShrine_get_ReadyRetryC_sg_M	You got a {c[91ff1e]}Great Renewal Bean{c[000000]}!
-homeShrine_get_ReadyRetryC_pl_M	You got {c[ffae00]}\u000e\u0001\u0014\u0000 {c[000000]}{c[91ff1e]}Great Renewal Beans{c[000000]}!
+homeShrine_get_ReadyRetryC_pl_M	You got {c[ffae00]}\x0e\x01\x14\0 {c[000000]}{c[91ff1e]}Great Renewal Beans{c[000000]}!
 homeShrine_get_OhudaPT_sg_M	You got a {c[91ff1e]}Party Charm{c[000000]}!
-homeShrine_get_OhudaPT_pl_M	You got {c[ffae00]}\u000e\u0001\u0014\u0000 {c[000000]}{c[91ff1e]}Party Charms{c[000000]}!
+homeShrine_get_OhudaPT_pl_M	You got {c[ffae00]}\x0e\x01\x14\0 {c[000000]}{c[91ff1e]}Party Charms{c[000000]}!
 homeShrine_get_Burner_sg_M	You got a {c[91ff1e]}Searing Torch{c[000000]}!
-homeShrine_get_Burner_pl_M	You got {c[ffae00]}\u000e\u0001\u0014\u0000 {c[000000]}{c[91ff1e]}Searing Torches{c[000000]}!
+homeShrine_get_Burner_pl_M	You got {c[ffae00]}\x0e\x01\x14\0 {c[000000]}{c[91ff1e]}Searing Torches{c[000000]}!
 \event\homeSushibar.msbt
 homeSushibar_cmn_out_01_M	All right, come again!
 homeSushibar_cmn_ret_01_M	Make yourself at home!
@@ -3576,7 +3576,7 @@ homeSushibar_06_b_02_M	Are you OK?! I got worried when I heard\nyou were taking 
 homeSushibar_06_b_03_M	But Masa said the best way to deal with a kid\nyour age is to let them have their way.
 homeSushibar_06_b_04_M	But I think if he was willing to give you such\nan important job, he must depend on you!
 homeSushibar_06_c_01_M	You wanna go see what the customers\nhave to say?
-homeSushibar_06_c_02_M	\u000e\u0000\u0002\u0002\u0096\u0000CHAAAARGE!\u000e\u0000\u0002\u0002d\u0000
+homeSushibar_06_c_02_M	{s[150]}CHAAAARGE!{s[100]}
 homeSushibar_06_c_03_M	Whoops, sorry about that. I just got my own\ncommand, so I'm practicing giving orders.
 homeSushibar_06_c_04_M	My real problem is sushi, though. The stuff\nI eat during battle is...kinda rough...
 homeSushibar_07_in_01_M	Yo, Musashi! I got some juicy info!
@@ -3736,8 +3736,8 @@ homeSushibar_16_a_06_M	Nice! I'm glad things are turning out well!
 homeSushibar_16_a_06_F	Nice! I'm glad things are turning out well!
 homeSushibar_16_a_07_M	Why, I can't even remember the last time\nI used Buff Buffet.
 homeSushibar_16_a_08_M	Ahahah! So I came to give you my old sushi\nsprite. Look grateful, hmm?
-homeSushibar_16_a_09_M	\u000e\u0000\u0002\u0002\u0096\u0000Whaaaa?!\u000e\u0000\u0002\u0002d\u0000
-homeSushibar_16_a_09_F	\u000e\u0000\u0002\u0002\u0096\u0000Whaaaa?!\u000e\u0000\u0002\u0002d\u0000
+homeSushibar_16_a_09_M	{s[150]}Whaaaa?!{s[100]}
+homeSushibar_16_a_09_F	{s[150]}Whaaaa?!{s[100]}
 homeSushibar_16_a_10_M	Oh, yes! It's yours for the taking. Consider\nit my way of apologizing.
 homeSushibar_16_a_12_M	Hmph. Name's Wani-o. You gonna eat\nmy pledge sushi or what?
 homeSushibar_16_a_13_M	You've befriended the sushi sprite {c[91ff1e]}Wani-o{c[000000]}!\nIts skill is {c[91ff1e]}Buff Buffet{c[000000]}!
@@ -3827,16 +3827,16 @@ BtnYes_M	I'll take it!
 BtnYes_F	I'll take it!
 BtnNo_M	Maybe some other time.
 BtnNo_F	Maybe some other time.
-NarrationInfomation_M	You've befriended the sushi sprite {c[91ff1e]}\u000e\u0001\u000d\u0000{c[000000]}!\nIts skill is {c[91ff1e]}\u000e\u0001\u0012\u0000{c[000000]}!
-NarrationEquipMain_M	{c[91ff1e]}\u000e\u0001\u000d\u0000{c[000000]}'s pledge plate has been\nadded to your jacket's {c[ffcc2f]}sleeve{c[000000]}!
-NarrationEquipSub_M	{c[91ff1e]}\u000e\u0001\u000d\u0000{c[000000]}'s pledge plate has been\ntucked into your jacket's {c[ffcc2f]}training pouch{c[000000]}!
-NarrationEquipNone_M	{c[91ff1e]}\u000e\u0001\u000d\u0000{c[000000]}'s pledge plate has been\nstored in your jacket's {c[ffcc2f]}lining{c[000000]}!
-NarrationAwakeLv2_M	The sushi sprite {c[91ff1e]}\u000e\u0001\u000d\u0000 \n{c[000000]}has awakened!
-NarrationAwakeLv3_M	The sushi sprite {c[91ff1e]}\u000e\u0001\u000d\u0000 \n{c[000000]}has ascended!
+NarrationInfomation_M	You've befriended the sushi sprite {c[91ff1e]}\x0e\x01\x0d\0{c[000000]}!\nIts skill is {c[91ff1e]}\x0e\x01\x12\0{c[000000]}!
+NarrationEquipMain_M	{c[91ff1e]}\x0e\x01\x0d\0{c[000000]}'s pledge plate has been\nadded to your jacket's {c[ffcc2f]}sleeve{c[000000]}!
+NarrationEquipSub_M	{c[91ff1e]}\x0e\x01\x0d\0{c[000000]}'s pledge plate has been\ntucked into your jacket's {c[ffcc2f]}training pouch{c[000000]}!
+NarrationEquipNone_M	{c[91ff1e]}\x0e\x01\x0d\0{c[000000]}'s pledge plate has been\nstored in your jacket's {c[ffcc2f]}lining{c[000000]}!
+NarrationAwakeLv2_M	The sushi sprite {c[91ff1e]}\x0e\x01\x0d\0 \n{c[000000]}has awakened!
+NarrationAwakeLv3_M	The sushi sprite {c[91ff1e]}\x0e\x01\x0d\0 \n{c[000000]}has ascended!
 NarrationPotentialPlate_M	A sushi sprite appeared from the\n{c[91ff1e]}Potential Plate{c[000000]}!
 Child_Contact1_M	Heehee! I can tell from how you eat that\nyou really love sushi!
 Child_Contact2_M	Do you wanna eat my pledge sushi?
-Child_ChoiceYes_M	Yay, we're pledged! I'm {c[91ff1e]}\u000e\u0001\u000d\u0000{c[000000]}!\nNice to meet you!
+Child_ChoiceYes_M	Yay, we're pledged! I'm {c[91ff1e]}\x0e\x01\x0d\0{c[000000]}!\nNice to meet you!
 Child_ChoiceNo_M	Awww... That's no good. Well, maybe\nnext time! See ya!
 Child_AlreadyFriend1_M	Oh! That's my friend you have there!\nLemme give you my {c[ffae00]}Sushi Essence{c[000000]}!
 Child_AlreadyFriend2_M	OK! Take care of my friend!
@@ -3844,7 +3844,7 @@ Child_AwakeBefore_M	Oh? Am I growing up?
 Child_AwakeAfter_M	Neat! I'm all bigger!
 AncMan_Contact1_M	Yes... You've given me a clear picture of\nyour love for sushi.
 AncMan_Contact2_M	I believe you should have a taste of my\npledge sushi.
-AncMan_ChoiceYes_M	Then the pledge is sealed!\nI am {c[91ff1e]}\u000e\u0001\u000d\u0000{c[000000]}. It's an honor.
+AncMan_ChoiceYes_M	Then the pledge is sealed!\nI am {c[91ff1e]}\x0e\x01\x0d\0{c[000000]}. It's an honor.
 AncMan_ChoiceNo_M	Ah. And I can't sway your decision?\nA pity, but I understand.
 AncMan_AlreadyFriend1_M	I see that you have my associate with you.\nIn which case, I offer you my {c[ffcc2f]}Sushi Essence{c[000000]}.
 AncMan_AlreadyFriend2_M	Farewell, sushi striker!
@@ -3852,14 +3852,14 @@ AncMan_AwakeBefore_M	Aha! I'm eager to advance.
 AncMan_AwakeAfter_M	Thank you for restoring my power.
 AncWoman_Contact1_M	Hmhmhm... You've made your appreciation\nfor sushi abundantly clear.
 AncWoman_Contact2_M	Come, won't you eat my pledge sushi?
-AncWoman_ChoiceYes_M	Very good. My name is {c[91ff1e]}\u000e\u0001\u000d\u0000{c[000000]}. \nI'll treat you right.
+AncWoman_ChoiceYes_M	Very good. My name is {c[91ff1e]}\x0e\x01\x0d\0{c[000000]}. \nI'll treat you right.
 AncWoman_ChoiceNo_M	Oh dear. That is a shame, but I respect\nyour decision.
 AncWoman_AlreadyFriend1_M	You're already traveling with a friend of mine.\nWhy don't I give you my {c[ffcc2f]}Sushi Essence{c[000000]}?
 AncWoman_AlreadyFriend2_M	Good-bye then, little sushi striker.
 AncWoman_AwakeAfter_M	I haven't felt this divine in ages.
 AncChild_Contact1_M	Your appetite is something to see!\nSushi must be very dear to you!
 AncChild_Contact2_M	If you don't mind, could you eat my sushi,\nso we could pledge together?
-AncChild_ChoiceYes_M	Great! I'm {c[91ff1e]}\u000e\u0001\u000d\u0000{c[000000]}.\nIt's nice meeting you!
+AncChild_ChoiceYes_M	Great! I'm {c[91ff1e]}\x0e\x01\x0d\0{c[000000]}.\nIt's nice meeting you!
 AncChild_ChoiceNo_M	Ohhh... That's too bad, but I'll try to\nbe brave about it.
 AncChild_AlreadyFriend1_M	Is that my friend there with you?\nThen you should take my {c[ffcc2f]}Sushi Essence{c[000000]}!
 AncChild_AlreadyFriend2_M	I'll be off, then. Look after my friend!
@@ -3867,7 +3867,7 @@ AncChild_AwakeBefore_M	Oh! Could it be? Is it time?
 AncChild_AwakeAfter_M	Huzzah! My power's back!
 Hermit_Contact1_M	Judging by that ear-to-ear grin on your\nface, you have a special love for sushi!
 Hermit_Contact2_M	That's the kind of joy I like to see when\nsomeone eats my sushi!
-Hermit_ChoiceYes_M	Pleasure pledging with you!\nYou can call me {c[91ff1e]}\u000e\u0001\u000d\u0000{c[000000]}.
+Hermit_ChoiceYes_M	Pleasure pledging with you!\nYou can call me {c[91ff1e]}\x0e\x01\x0d\0{c[000000]}.
 Hermit_ChoiceNo_M	A no, eh? Well, that's fine, that's fine.\nCan't blame a man for trying. Bye now!
 Hermit_AlreadyFriend1_M	Well, if it isn't my good friend with you!\nLet me offer you my {c[ffcc2f]}Sushi Essence{c[000000]}.
 Hermit_AlreadyFriend2_M	Treat my friend well, won't you?\nSee you around!
@@ -3875,7 +3875,7 @@ Hermit_AwakeBefore_M	Wanna see somethin' special?
 Hermit_AwakeAfter_M	Take a gander! Whaddaya think? Eh?
 Catten_Contact1_M	If you like sushi that much, then you're\ngoing to love me.
 Catten_Contact2_M	You'll eat my pledge sushi, hrrrrm?
-Catten_ChoiceYes_M	That makes us officially friends.\nAnd my friends call me {c[91ff1e]}\u000e\u0001\u000d\u0000{c[000000]}. 
+Catten_ChoiceYes_M	That makes us officially friends.\nAnd my friends call me {c[91ff1e]}\x0e\x01\x0d\0{c[000000]}. 
 Catten_ChoiceNo_M	Wh-what?! I see. Then I'll be on my way.
 Catten_AlreadyFriend1_M	Oh no? That sprite looks verrrry familiar...\nI'll give you my {c[ffcc2f]}Sushi Essence {c[000000]}instead.
 Catten_AlreadyFriend2_M	Take care of yourself, and safe travels.
@@ -3883,7 +3883,7 @@ Catten_AwakeBefore_M	Mrrrrrm? All my fur is standing on end…
 Catten_AwakeAfter_M	Ohoho! Now I'm even rrrrounder!
 Noblewoman_Contact1_M	To watch you eat sushi causes me to\ntremble with excitement.
 Noblewoman_Contact2_M	Partake of my sushi, and we shall enter\ninto a pledge together.
-Noblewoman_ChoiceYes_M	Very well. My name is {c[91ff1e]}\u000e\u0001\u000d\u0000{c[000000]},\nand my power is yours.
+Noblewoman_ChoiceYes_M	Very well. My name is {c[91ff1e]}\x0e\x01\x0d\0{c[000000]},\nand my power is yours.
 Noblewoman_ChoiceNo_M	That strikes me as an unwise decision, but it\nis yours to make. Farewell, sushi striker.
 Noblewoman_AlreadyFriend1_M	Oh? I believe I see my friend at your side.\nThen you shall have my {c[ffae00]}Sushi Essence{c[000000]}.
 Noblewoman_AlreadyFriend2_M	I entrust my friend's health to you, then.\nTake care, sushi striker.
@@ -3891,7 +3891,7 @@ Noblewoman_AwakeBefore_M	What power is this?
 Noblewoman_AwakeAfter_M	Behold my resplendence!
 Pomposity_Contact1_M	The way you eat sushi speaks very well\nof your keen judgment.
 Pomposity_Contact2_M	I'll leave it up to you whether or not to eat\nmy special pledge sushi.
-Pomposity_ChoiceYes_M	Excellent! But let's keep this professional.\nYou should call me {c[91ff1e]}\u000e\u0001\u000d\u0000{c[000000]}.
+Pomposity_ChoiceYes_M	Excellent! But let's keep this professional.\nYou should call me {c[91ff1e]}\x0e\x01\x0d\0{c[000000]}.
 Pomposity_ChoiceNo_M	How unfortunate. Do you already have all the\nsushi sprites you require? Then farewell.
 Pomposity_AlreadyFriend1_M	Hmph... I see I'm not needed. Then take\nmy {c[ffcc2f]}Sushi Essence{c[000000]} and be done with it!
 Pomposity_AlreadyFriend2_M	Tread boldly with my beloved friend!\nFarewell, young sushi striker!
@@ -3899,7 +3899,7 @@ Pomposity_AwakeBefore_M	A power surges within me.
 Pomposity_AwakeAfter_M	Marvel at my magnificence!
 Simplicity_Contact1_M	Your method of eating sushi is intriguing.
 Simplicity_Contact2_M	I recommend that you eat my pledge sushi.\nThis will form a pledge between us.
-Simplicity_ChoiceYes_M	Thank you. I am {c[91ff1e]}\u000e\u0001\u000d\u0000{c[000000]}.
+Simplicity_ChoiceYes_M	Thank you. I am {c[91ff1e]}\x0e\x01\x0d\0{c[000000]}.
 Simplicity_ChoiceNo_M	O...K. Understood. Offer withdrawn.
 Simplicity_AlreadyFriend1_M	That sprite there is similar to me. Weird.\nTake my {c[ffcc2f]}Sushi Essence{c[000000]} instead.
 Simplicity_AlreadyFriend2_M	Treat the similar sprite well. Good-bye.
@@ -3909,7 +3909,7 @@ Araoh_AwakeBefore_M	Oh! Your love for sushi... It's working!
 Araoh_AwakeAfter_M	Thanks to you, I've gotten my powers back. 
 Clown_Contact1_M	Far out! Watching you eat gets me stoked!
 Clown_Contact2_M	Hey, hey, do you want some of my good,\ngood pledge sushi while you're at it?
-Clown_ChoiceYes_M	Right on! Name's {c[91ff1e]}\u000e\u0001\u000d\u0000{c[000000]}.\nLet's party!
+Clown_ChoiceYes_M	Right on! Name's {c[91ff1e]}\x0e\x01\x0d\0{c[000000]}.\nLet's party!
 Clown_ChoiceNo_M	Aw, man. That is harsh. Well, hope you\nchange your mind! Laters!
 Clown_AlreadyFriend1_M	Whuuut? You already got my buddy along!\nWell, how about my {c[ffae00]}Sushi Essence {c[000000]}then?
 Clown_AlreadyFriend2_M	Have fun partying with my buddy!\nLater, gator!
@@ -3955,52 +3955,52 @@ tutorial05_09_M	Take capsules before the enemy can to\ngive yourself an advantag
 tutorial05_10_M	Ah, you noticed that? That {c[5fd871]}sound {c[000000]}plays\nwhen a capsule appears. Listen for it!
 \event\stageBattleM036.msbt
 CharaSerif_00_M	This is a special fight! Isn't that exciting?
-CharaSerif_01_M	\u000e\u0000\u0002\u0002\u0096\u0000It's a Timeout Battle!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_01_M	{s[150]}It's a Timeout Battle!{s[100]}
 CharaSerif_02_M	Grab this thing here to freeze your opponent\nfor {c[ffcc2f]}3 seconds{c[000000]}! Then STRIKE, BABY, STRIKE!
-CharaSerif_03_M	\u000e\u0000\u0002\u0002\u0096\u0000It's Timeout time!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_03_M	{s[150]}It's Timeout time!{s[100]}
 \event\stageBattleM046.msbt
 CharaSerif_00_M	This is a special fight! Isn't that exciting?
-CharaSerif_01_M	\u000e\u0000\u0002\u0002\u0096\u0000It's an explosive Bomb Battle!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_01_M	{s[150]}It's an explosive Bomb Battle!{s[100]}
 CharaSerif_02_M	Grab this thing here to send a bomb at your\nopponent. It's a real blast!
 CharaSerif_03_M	But act fast! If it rolls past without you taking\nit, the bomb goes off in YOUR face!
 CharaSerif_04_M	Eat the red plate? Or the black one?\nEither way, your heart is pounding!
-CharaSerif_05_M	\u000e\u0000\u0002\u0002\u0096\u0000Now let's light this fuse!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_05_M	{s[150]}Now let's light this fuse!{s[100]}
 \event\stageBattleM057.msbt
 CharaSerif_00_M	This is a special fight! Isn't that exciting?
-CharaSerif_01_M	\u000e\u0000\u0002\u0002\u0096\u0000It's an erratic Thunder Battle!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_01_M	{s[150]}It's an erratic Thunder Battle!{s[100]}
 CharaSerif_02_M	This thing here is a thunder plate.\nIt'll change from {c[ffae00]}blue{c[000000]} to {c[ffae00]}red{c[000000]} as it sails past!
 CharaSerif_03_M	Take it when it's {c[ffae00]}blue{c[000000]}, and your {c[ffae00]}opponent{c[000000]}\nis in for a {c[ffae00]}big shock{c[000000]}!
 CharaSerif_04_M	Then again! Take it when it's {c[ffae00]}red{c[000000]}, and the\nvolt's on {c[ffae00]}you{c[000000]}!
-CharaSerif_05_M	\u000e\u0000\u0002\u0002\u0096\u0000Now let's get charged up!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_05_M	{s[150]}Now let's get charged up!{s[100]}
 \event\stageBattleM078.msbt
 CharaSerif_00_M	This is a special fight! Isn't that exciting?
-CharaSerif_01_M	\u000e\u0000\u0002\u0002\u0096\u0000It's a Timeout Bomb Battle!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_01_M	{s[150]}It's a Timeout Bomb Battle!{s[100]}
 CharaSerif_02_M	You remember the Timeout capsule, yeah?\nWell, it's brought a friend...
 CharaSerif_03_M	What's up, bomby-kins! So nice of you\nto drop in!
 CharaSerif_04_M	Just...make sure not to use a Timeout on\nme when I've got a bomb on my lane, OK?
-CharaSerif_05_M	\u000e\u0000\u0002\u0002\u0096\u0000Time's a-wasting!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_05_M	{s[150]}Time's a-wasting!{s[100]}
 \event\stageBattleM088.msbt
 CharaSerif_00_M	This is a special fight! Isn't that exciting?
-CharaSerif_01_M	\u000e\u0000\u0002\u0002\u0096\u0000An Electro Paper Battle!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_01_M	{s[150]}An Electro Paper Battle!{s[100]}
 CharaSerif_02_M	I'll start by busting out a classic—\nmy personal fave, {c[91ff1e]}Paper Plates{c[000000]}!
 CharaSerif_03_M	These puny plates only do {c[ffae00]}a tenth of the\ndamage{c[000000]} your grandma's fine china would do!
 CharaSerif_04_M	So what you want are the thunder orbs!\nAnd relax—they'll stay true blue this time.
-CharaSerif_05_M	\u000e\u0000\u0002\u0002\u0096\u0000Let's! Get! Zapping!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_05_M	{s[150]}Let's! Get! Zapping!{s[100]}
 \event\stageBattleM116.msbt
 CharaSerif_00_M	This is a special fight! Isn't that exciting?
-CharaSerif_01_M	\u000e\u0000\u0002\u0002\u0096\u0000A Paper Bomb Battle!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_01_M	{s[150]}A Paper Bomb Battle!{s[100]}
 CharaSerif_02_M	Y'see, the "paper" part of it comes from my\ngood old {c[91ff1e]}Paper Plates{c[000000]} skill.
 CharaSerif_03_M	Which, quick refresher, makes plates do\na tenth of their normal damage.
 CharaSerif_04_M	And then the "Bomb" part is—you guessed\nit! That's where the real damage happens!
-CharaSerif_05_M	\u000e\u0000\u0002\u0002\u0096\u0000Commence the chaos!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_05_M	{s[150]}Commence the chaos!{s[100]}
 \event\stageBattleM136.msbt
 CharaSerif_00_M	This is a special fight! Isn't that exciting?
-CharaSerif_01_M	\u000e\u0000\u0002\u0002\u0096\u0000A Thunderous Bomb Battle!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_01_M	{s[150]}A Thunderous Bomb Battle!{s[100]}
 CharaSerif_02_M	This one'll blow your mittens off!
 CharaSerif_03_M	Not only do we got the shaky, shifty\nthunder orbs up in the shared lane...
 CharaSerif_04_M	We got bombaroos up in your own\npersonal lane, too!
 CharaSerif_05_M	Whew! You're about to have your hands full!
-CharaSerif_06_M	\u000e\u0000\u0002\u0002\u0096\u0000Cover your eardrums, kids!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_06_M	{s[150]}Cover your eardrums, kids!{s[100]}
 \event\stageBeginArea01Ex001.msbt
 CharaSerif_00_M	What? Musashi?! How did you find us?!
 CharaSerif_01_M	I'm not sure myself... What are you doing\nout here, anyway?
@@ -4053,7 +4053,7 @@ CharaSerif_03_M	Come, and receive the proper punishment\nfor these lies!
 \event\stageBeginArea03Ex008.msbt
 CharaSerif_00_M	All right! A sushi sprite shrine!
 CharaSerif_00_F	All right! A sushi sprite shrine!
-CharaSerif_01_M	\u000e\u0000\u0002\u0002\u0096\u0000Waaait!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_01_M	{s[150]}Waaait!{s[100]}
 CharaSerif_02_M	We saw this shrine first. The early bird\ngets the worm!
 CharaSerif_03_M	No, but I just saw you run past me.\nI was clearly here first.
 CharaSerif_03_F	No, but I just saw you run past me.\nI was clearly here first.
@@ -4093,7 +4093,7 @@ CharaSerif_03_M	That's right. And you've brought us just\nwhat we wanted.
 CharaSerif_04_M	Haha! Couldn't find it on your own, huh?
 CharaSerif_04_F	Hah! Couldn't find it on your own, huh?
 CharaSerif_05_M	No need, when we can steal it from you!\nPrepare for battle!
-CharaSerif_07_M	\u000e\u0000\u0002\u0002\u0096\u0000That rock is ours!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_07_M	{s[150]}That rock is ours!{s[100]}
 \event\stageBeginArea04sub010.msbt
 CharaSerif_00_M	Hmm. Archie said I'd find the engineer who\ncould make the ultimate gear here.
 CharaSerif_00_F	Hmm. Archie said I'd find the engineer who\ncould make the ultimate gear here.
@@ -4267,7 +4267,7 @@ Prologue04_38_M	Exactly, sir! The sky's the limit for us if\nwe're the ones who 
 Prologue04_41_M	Hands off! Jinrai's MY sushi sprite!
 Prologue04_41_F	Hands off! Jinrai's MY sushi sprite!
 Prologue04_42_M	I hate to break it to you, kid. But what\nthe Emperor wants...
-Prologue04_43_M	\u000e\u0000\u0002\u0002\u0096\u0000the Emperor gets!\u000e\u0000\u0002\u0002d\u0000
+Prologue04_43_M	{s[150]}the Emperor gets!{s[100]}
 \event\stageBeginM003.msbt
 stageBeginM004_01_M	Musashi, hold up!
 stageBeginM004_02_M	Gah! Don't do that!
@@ -4283,18 +4283,18 @@ stageBeginM004_09_M	That was you?! Why would you do that?!
 stageBeginM004_09_F	That was you?! Why would you do that?!
 stageBeginM004_10_M	Because I'm sick of living in this run-down\nRepublic without a bite of sushi to my name.
 stageBeginM004_11_M	Ratting on that goof was my ticket into the\nImperial Army! And you know what they get?
-stageBeginM004_12_M	\u000e\u0000\u0002\u0002\u0096\u0000Sushi for days!\u000e\u0000\u0002\u0002d\u0000
+stageBeginM004_12_M	{s[150]}Sushi for days!{s[100]}
 stageBeginM004_13_M	But...Franklin was trying to make it so that\neverybody could have sushi, not just them...
 stageBeginM004_14_M	He would have helped you too!
 stageBeginM004_14_F	He would have helped you too!
 stageBeginM004_15_M	So what? This way was easier for me.\nAnd in the end, that's what matters.
-stageBeginM004_16_M	\u000e\u0000\u0002\u0002\u0096\u0000Kojiro! You low-down punk!\u000e\u0000\u0002\u0002d\u0000
+stageBeginM004_16_M	{s[150]}Kojiro! You low-down punk!{s[100]}
 stageBeginM004_18_M	What am I looking at?!
 stageBeginM004_18_F	What am I looking at?!
 stageBeginM004_19_M	Oh, that? It's a {c[91ff1e]}lane-drive gear{c[000000]}.\nThey boost a sushi striker's powers!
 stageBeginM004_20_M	You'd never be seeing it if you didn't have\na deep, torrid love for sushi!
 \event\stageBeginM004.msbt
-stageBeginM005_01_M	\u000e\u0000\u0002\u0002\u0096\u0000Halt, food felon!\u000e\u0000\u0002\u0002d\u0000
+stageBeginM005_01_M	{s[150]}Halt, food felon!{s[100]}
 stageBeginM005_02_M	What do you guys want with me?!
 stageBeginM005_02_F	What do you guys want with me?!
 stageBeginM005_03_M	We got a tip from a promising new recruit\nby the name of Kojiro.
@@ -4303,49 +4303,49 @@ stageBeginM005_05_M	He's all yours, Scraps. Take Jinrai from\nthis brat by whate
 stageBeginM005_05_F	She's all yours, Scraps. Take Jinrai from\nthis brat by whatever means necessary!
 stageBeginM005_06_M	As you command!
 stageBeginM005_07_M	You're in for it this time, squirt. Wait until\nyou see what my sushi sprite can do.
-stageBeginM005_08_M	\u000e\u0000\u0002\u0002\u0096\u0000It's a {c[91ff1e]}Sweets Paradise{c[000000]}!\u000e\u0000\u0002\u0002d\u0000
-stageBeginM005_08_F	\u000e\u0000\u0002\u0002\u0096\u0000It's a {c[91ff1e]}Sweets Paradise{c[000000]}!\u000e\u0000\u0002\u0002d\u0000
+stageBeginM005_08_M	{s[150]}It's a {c[91ff1e]}Sweets Paradise{c[000000]}!{s[100]}
+stageBeginM005_08_F	{s[150]}It's a {c[91ff1e]}Sweets Paradise{c[000000]}!{s[100]}
 stageBeginM005_09_M	When he's in his paradise, he's surrounded\nby delicious {c[ffae00]}health-recovering{c[000000]} sweets.
 stageBeginM005_10_M	{c[91ff1e]}Sweets Paradise{c[000000]}, huh? Sounds yummy.
 stageBeginM005_10_F	{c[91ff1e]}Sweets Paradise{c[000000]}, huh? Sounds yummy.
 stageBeginM005_11_M	Hey, where do I know that name from?\nCouldn't Penzo do that?
 stageBeginM005_11_F	Hey, where do I know that name from?\nCouldn't Penzo do that?
 stageBeginM005_12_M	The best part about sweets is all I need to\ndo is {c[ffae00]}touch each one{c[000000]} to get the benefit!
-stageBeginM005_13_M	\u000e\u0000\u0002\u0002\u0096\u0000SWEET DREAMS, SUCKER!\u000e\u0000\u0002\u0002d\u0000
+stageBeginM005_13_M	{s[150]}SWEET DREAMS, SUCKER!{s[100]}
 \event\stageBeginM005.msbt
-stageBeginM006_01_M	\u000e\u0000\u0002\u0002\u0096\u0000SURPRISE!\u000e\u0000\u0002\u0002d\u0000
+stageBeginM006_01_M	{s[150]}SURPRISE!{s[100]}
 stageBeginM006_02_M	You're gonna give me a heart attack if you\nkeep this up.
 stageBeginM006_02_F	You're gonna give me a heart attack if you\nkeep this up.
 stageBeginM006_03_M	I expected better of Scraps. Though in\nhindsight, I'm not sure why.
 stageBeginM006_04_M	Crumbles! Let's see if you can do better\nthan your sorry excuse for a comrade!
 stageBeginM006_05_M	No sweat, sir!
 stageBeginM006_06_M	Heheh. I'm tingling with anticipation to\nshow off my sprite's special skill.
-stageBeginM006_07_M	\u000e\u0000\u0002\u0002\u0096\u0000Brace yourself for {c[91ff1e]}Electrozap{c[000000]}!\u000e\u0000\u0002\u0002d\u0000
+stageBeginM006_07_M	{s[150]}Brace yourself for {c[91ff1e]}Electrozap{c[000000]}!{s[100]}
 stageBeginM006_08_M	It's a jolting move that uses electrified\nplates to sizzle away your health.
 stageBeginM006_09_M	And it's called...{c[91ff1e]}Electrozap{c[000000]}?\n(Did you come up with that on your own?)
 stageBeginM006_09_F	And it's called...{c[91ff1e]}Electrozap{c[000000]}?\nDid you come up with that on your own?
-stageBeginM006_10_M	\u000e\u0000\u0002\u0002\u0096\u0000Let's light it up!\u000e\u0000\u0002\u0002d\u0000
+stageBeginM006_10_M	{s[150]}Let's light it up!{s[100]}
 \event\stageBeginM006.msbt
-stageBeginM007_01_M	\u000e\u0000\u0002\u0002\u0096\u0000NOT SO FAST!\u000e\u0000\u0002\u0002d\u0000
+stageBeginM007_01_M	{s[150]}NOT SO FAST!{s[100]}
 stageBeginM007_02_M	Can't you dopes take the hint?
 stageBeginM007_02_F	Can't you dopes take the hint?
 stageBeginM007_03_M	Hmph... I had high hopes for Crumbles.\nWhy can't you know your place?!
 stageBeginM007_04_M	Growlin! Make me proud and grab Jinrai!\nFOR THE EMPEROR!
 stageBeginM007_05_M	Heh. With my sushi sprite's skill?\nIt's as good as done.
-stageBeginM007_06_M	\u000e\u0000\u0002\u0002\u0096\u0000Ever seen a {c[91ff1e]}Sushi Shield{c[000000]}?!\u000e\u0000\u0002\u0002d\u0000
+stageBeginM007_06_M	{s[150]}Ever seen a {c[91ff1e]}Sushi Shield{c[000000]}?!{s[100]}
 stageBeginM007_07_M	All the power of that Jinrai you're so proud of\nis like soggy rice against this technique.
 stageBeginM007_08_M	So like...a {c[91ff1e]}Sushi Shield {c[000000]}makes attacks\nweaker or something? Good to know.
 stageBeginM007_08_F	So like...a {c[91ff1e]}Sushi Shield {c[000000]}makes attacks\nweaker or something? Good to know.
-stageBeginM007_09_M	\u000e\u0000\u0002\u0002\u0096\u0000HERE GOES NOTHING!\u000e\u0000\u0002\u0002d\u0000
+stageBeginM007_09_M	{s[150]}HERE GOES NOTHING!{s[100]}
 \event\stageBeginM007.msbt
 stageBeginM008_02_M	Hah! And then there was one.
 stageBeginM008_02_F	Hah! And then there was one.
 stageBeginM008_03_M	Fine. I don't normally do this, but let me\ndemonstrate what my sushi sprite can do.
-stageBeginM008_04_M	\u000e\u0000\u0002\u0002\u0096\u0000You're in the {c[91ff1e]}Runaway Lane{c[000000]}!\u000e\u0000\u0002\u0002d\u0000
+stageBeginM008_04_M	{s[150]}You're in the {c[91ff1e]}Runaway Lane{c[000000]}!{s[100]}
 stageBeginM008_05_M	Uh, you're running away? I thought we were\ngonna fight.
 stageBeginM008_05_F	Uh, you're running away? I thought we were\ngonna fight.
 stageBeginM008_06_M	When I activate this power, your plates will\nflow past too quickly to take!
-stageBeginM008_07_M	\u000e\u0000\u0002\u0002\u0096\u0000Pay attention to your doom!\u000e\u0000\u0002\u0002d\u0000
+stageBeginM008_07_M	{s[150]}Pay attention to your doom!{s[100]}
 \event\stageBeginM008.msbt
 stageBeginM009_01_M	Dang, nice digs.
 stageBeginM009_01_F	Dang, nice digs.
@@ -4355,8 +4355,8 @@ stageBeginM009_03_F	This is your hideout? So...who're you?
 stageBeginM009_04_M	My name is Masa. I am the leader of\nour righteous band.
 stageBeginM009_05_M	So you're the one Jinrai chose...
 stageBeginM009_06_M	I admit, I hadn't expected him to grant his\npower to a child.
-stageBeginM009_07_M	\u000e\u0000\u0002\u0002\u0096\u0000Better a kid than a rude jerk!\u000e\u0000\u0002\u0002d\u0000
-stageBeginM009_07_F	\u000e\u0000\u0002\u0002\u0096\u0000Better a kid than a rude jerk!\u000e\u0000\u0002\u0002d\u0000
+stageBeginM009_07_M	{s[150]}Better a kid than a rude jerk!{s[100]}
+stageBeginM009_07_F	{s[150]}Better a kid than a rude jerk!{s[100]}
 stageBeginM009_08_M	Rude? Ah, perhaps you are right. I did\nneglect to properly introduce our outfit.
 stageBeginM009_09_M	We are the Sushi Liberation Front, a loose\nband of rebels biting back at the Empire.
 stageBeginM009_10_M	Oh, you're against the Empire too?
@@ -4368,13 +4368,13 @@ stageBeginM009_12_F	The Empire got their mitts on him.\nHe helped me, so we gott
 stageBeginM009_13_M	I see.
 stageBeginM009_14_M	Very well. It's a reasonable request.
 stageBeginM009_15_M	We'll do it on the condition that you hand\nover Jinrai to our custody.
-stageBeginM009_16_M	\u000e\u0000\u0002\u0002\u0096\u0000What?!\u000e\u0000\u0002\u0002d\u0000
-stageBeginM009_16_F	\u000e\u0000\u0002\u0002\u0096\u0000What?!\u000e\u0000\u0002\u0002d\u0000
+stageBeginM009_16_M	{s[150]}What?!{s[100]}
+stageBeginM009_16_F	{s[150]}What?!{s[100]}
 stageBeginM009_17_M	You see, Jinrai is exceptional, even among\nthe upper echelon of sushi sprites.
 stageBeginM009_18_M	Our organization needs that level of power\nfar more than a child needs his plaything.
 stageBeginM009_18_F	Our organization needs that level of power\nfar more than a child needs her plaything.
-stageBeginM009_19_M	\u000e\u0000\u0002\u0002\u0096\u0000Are you for real?!\u000e\u0000\u0002\u0002d\u0000
-stageBeginM009_19_F	\u000e\u0000\u0002\u0002\u0096\u0000Are you for real?!\u000e\u0000\u0002\u0002d\u0000
+stageBeginM009_19_M	{s[150]}Are you for real?!{s[100]}
+stageBeginM009_19_F	{s[150]}Are you for real?!{s[100]}
 stageBeginM009_20_M	No deal. I'll save Franklin myself if I have to.
 stageBeginM009_20_F	No deal. I'll save Franklin myself if I have to.
 stageBeginM009_21_M	And I'll need Jinrai to do it!
@@ -4382,16 +4382,16 @@ stageBeginM009_21_F	And I'll need Jinrai to do it!
 stageBeginM009_22_M	Hmm.
 stageBeginM009_23_M	He said he wanted everyone in the world\nto have sushi, and I believe in that too!
 stageBeginM009_23_F	He said he wanted everyone in the world\nto have sushi, and I believe in that too!
-stageBeginM009_24_M	\u000e\u0000\u0002\u0002\u0096\u0000Splendid!\u000e\u0000\u0002\u0002d\u0000
+stageBeginM009_24_M	{s[150]}Splendid!{s[100]}
 stageBeginM009_25_M	Our goals align. Though in order to ensure\nthat it happens, we'll need you-know-who.
-stageBeginM009_26_M	\u000e\u0000\u0002\u0002\u0096\u0000That's not funny!\u000e\u0000\u0002\u0002d\u0000
-stageBeginM009_26_F	\u000e\u0000\u0002\u0002\u0096\u0000That's not funny!\u000e\u0000\u0002\u0002d\u0000
+stageBeginM009_26_M	{s[150]}That's not funny!{s[100]}
+stageBeginM009_26_F	{s[150]}That's not funny!{s[100]}
 stageBeginM009_27_M	You're pretty greedy for a so-called good\nguy. Why are you so obsessed with Jinrai?!
 stageBeginM009_27_F	You're pretty greedy for a so-called good\nguy. Why are you so obsessed with Jinrai?!
 stageBeginM009_28_M	If you try to take him, you're no better\nthan the Empire!
 stageBeginM009_28_F	If you try to take him, you're no better\nthan the Empire!
 stageBeginM009_29_M	What a pity. I had hoped you would see\nreason.
-stageBeginM009_30_M	\u000e\u0000\u0002\u0002\u0096\u0000Don't take this personally.\u000e\u0000\u0002\u0002d\u0000
+stageBeginM009_30_M	{s[150]}Don't take this personally.{s[100]}
 \event\stageBeginM009.msbt
 CharaSerif_00_M	This is the kid with Jinrai?! What have\nI gotten myself into?
 CharaSerif_01_M	So you've heard of me, huh? Heheh.
@@ -4404,7 +4404,7 @@ CharaSerif_04_F	Oh yeah? What's so hot about the\nHunter Division?
 CharaSerif_05_M	Glad you asked! Our squad's sushi sprite\nskill is the {c[91ff1e]}Hidden Plate Trick{c[000000]}!
 CharaSerif_06_M	Pay no mind if you see me stacking more\nplates than I ate, heheheh!
 CharaSerif_07_M	Not that a {c[ffae00]}striker{c[000000]} needs to play dirty to win!\nWe're tough enough on our own!
-CharaSerif_08_M	\u000e\u0000\u0002\u0002\u0096\u0000CLEAN YOUR PLATES!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_08_M	{s[150]}CLEAN YOUR PLATES!{s[100]}
 \event\stageBeginM010.msbt
 CharaSerif_00_M	I've got you in my sights, kid. Don't think\nyour precious Jinrai will save you from me!
 CharaSerif_01_M	You sure about that? All I see is one more\nspeed bump on my way to Franklin!
@@ -4416,25 +4416,25 @@ CharaSerif_05_M	Huh? Capsules aren't food!
 CharaSerif_05_F	Huh? Capsules aren't food!
 CharaSerif_06_M	Wrong as rain. This fight is all about who\ncracks the {c[91ff1e]}capsules{c[000000]} on the {c[91ff1e]}common lane{c[000000]}!
 CharaSerif_07_M	Only the one who opens the {c[91ff1e]}capsules{c[000000]} gets\nthe tide-turning {c[91ff1e]}items{c[000000]} inside, after all!
-CharaSerif_08_M	\u000e\u0000\u0002\u0002\u0096\u0000CAPSULES, HOOOO!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_08_M	{s[150]}CAPSULES, HOOOO!{s[100]}
 \event\stageBeginM011.msbt
 CharaSerif_00_M	Hey, is that Jinrai? Nice. This is my chance\nto get in good with the captain!
 CharaSerif_01_M	I'm the specialist of the Hunter Division.\nWhat do I specialize in? EVERYTHING!
 CharaSerif_02_M	Uhhh...then what makes you so special?
 CharaSerif_02_F	Uhhh...then what makes you so special?
-CharaSerif_03_M	\u000e\u0000\u0002\u0002\u0096\u0000Hah! THAT'S CLASSIFIED!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_03_M	{s[150]}Hah! THAT'S CLASSIFIED!{s[100]}
 CharaSerif_04_M	What I CAN say is that I have the same\n{c[91ff1e]}Hidden Plate Trick{c[000000]} as my squad buddies. 
 CharaSerif_05_M	In fact, all members of any given squad\nhave the same sushi sprite powers!
 CharaSerif_06_M	Why are you telling me this? Shouldn't that\nbe classified too?
 CharaSerif_06_F	Why are you telling me this? Shouldn't that\nbe classified too?
-CharaSerif_07_M	\u000e\u0000\u0002\u0002\u0096\u0000That answer is also classified!\u000e\u0000\u0002\u0002d\u0000
-CharaSerif_08_M	\u000e\u0000\u0002\u0002\u0096\u0000MY SPECIALTY IS WINNING!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_07_M	{s[150]}That answer is also classified!{s[100]}
+CharaSerif_08_M	{s[150]}MY SPECIALTY IS WINNING!{s[100]}
 \event\stageBeginM012.msbt
 CharaSerif_00_M	So you're the reason my troops keep\nresigning in shame.
 CharaSerif_01_M	Well, now you face the Hunter Division's\n{c[ffae00]}captain{c[000000]}. No more messing around!
 CharaSerif_02_M	It would take some fancy eating to beat me.\nYou might even impress our sushi sprite.
 CharaSerif_03_M	But I'd no sooner yield our sprite to you than\nI would let you win! It's a pride thing.
-CharaSerif_04_M	\u000e\u0000\u0002\u0002\u0096\u0000FOR THE HUNTER DIVISION!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_04_M	{s[150]}FOR THE HUNTER DIVISION!{s[100]}
 \event\stageBeginM013.msbt
 CharaSerif_00_M	Well, well. If it isn't Musashi.
 CharaSerif_01_M	What's with the badge?
@@ -4455,25 +4455,25 @@ CharaSerif_13_M	Check out Hakkan, the extra-special\nsushi sprite they hooked me
 CharaSerif_14_M	His {c[91ff1e]}8-Plate Wall{c[000000]} can {c[ffae00]}shut out{c[000000]} any attack\nof {c[ffae00]}seven plates or less{c[000000]}!
 CharaSerif_18_M	Good luck laying a finger on me! You won't\nland a single strike!
 \event\stageBeginM014.msbt
-CharaSerif_00_M	\u000e\u0000\u0002\u0002\u0096\u0000HEY!\u000e\u0000\u0002\u0002d\u0000
-CharaSerif_00_F	\u000e\u0000\u0002\u0002\u0096\u0000HEY!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_00_M	{s[150]}HEY!{s[100]}
+CharaSerif_00_F	{s[150]}HEY!{s[100]}
 CharaSerif_01_M	It's you! The jerks who kidnapped Franklin!
 CharaSerif_01_F	It's you! The jerks who kidnapped Franklin!
 CharaSerif_02_M	Do I know this kid? Why's he up in our\nbusiness?
 CharaSerif_02_F	Do I know this kid? Why's she up in our\nbusiness?
-CharaSerif_03_M	\u000e\u0000\u0002\u0002\u0096\u0000QUIT CALLING ME "KID"!\u000e\u0000\u0002\u0002d\u0000
-CharaSerif_03_F	\u000e\u0000\u0002\u0002\u0096\u0000QUIT CALLING ME "KID"!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_03_M	{s[150]}QUIT CALLING ME "KID"!{s[100]}
+CharaSerif_03_F	{s[150]}QUIT CALLING ME "KID"!{s[100]}
 CharaSerif_04_M	The name's Musashi! I'm with the Sushi\nLiberation Front!
 CharaSerif_04_F	The name's Musashi! I'm with the Sushi\nLiberation Front!
-CharaSerif_05_M	\u000e\u0000\u0002\u0002\u0096\u0000THIS scrawny sap?!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_05_M	{s[150]}THIS scrawny sap?!{s[100]}
 CharaSerif_06_M	You're telling me Jinrai threw in with this\nnoodle-armed half-pint?!
 CharaSerif_07_M	Now you're getting it.
-CharaSerif_08_M	\u000e\u0000\u0002\u0002\u0096\u0000WEAKSAUCE!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_08_M	{s[150]}WEAKSAUCE!{s[100]}
 CharaSerif_09_M	Then again...this might be the perfect\nchance to stretch my muscles.
 CharaSerif_10_M	Haw! A REAL sushi striker never passes\nup the chance for a little exercise!
 CharaSerif_11_M	You're just getting warmed up! You don't\nstand a chance against the real pros.
 CharaSerif_12_M	Work this clown over, men!
-CharaSerif_13_M	\u000e\u0000\u0002\u0002\u0096\u0000HUP!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_13_M	{s[150]}HUP!{s[100]}
 \event\stageBeginM018.msbt
 CharaSerif_00_M	These Sushi Liberation Front jokers don't\nknow when to quit...
 CharaSerif_01_M	Aw, who cares! Try all you want, but we'll\nnever back down!
@@ -4481,18 +4481,18 @@ CharaSerif_02_M	You're in charge here?
 CharaSerif_02_F	You're in charge here?
 CharaSerif_03_M	Nice! An easy win for the Sushi Liberation\nFront!
 CharaSerif_03_F	Sweet! An easy win for the Sushi Liberation\nFront!
-CharaSerif_04_M	\u000e\u0000\u0002\u0002\u0096\u0000HAW! You've got guts, kid!\u000e\u0000\u0002\u0002d\u0000
-CharaSerif_04_F	\u000e\u0000\u0002\u0002\u0096\u0000HAW! You've got guts, kid!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_04_M	{s[150]}HAW! You've got guts, kid!{s[100]}
+CharaSerif_04_F	{s[150]}HAW! You've got guts, kid!{s[100]}
 CharaSerif_05_M	But the Shrine Grove is too juicy to give up.\nIt's right in the heart of Republic turf!
 CharaSerif_06_M	You expect me to just do squats while you\nhand it over to the SLF?!
 CharaSerif_07_M	You heard the boss. Get ready to\nthrow down!
-CharaSerif_08_M	\u000e\u0000\u0002\u0002\u0096\u0000Stop the fight!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_08_M	{s[150]}Stop the fight!{s[100]}
 CharaSerif_09_M	Isn't this the new blood?
 CharaSerif_10_M	Hands off! If anybody's gonna beat this jerk\nMusashi, it's gonna be me! 
 CharaSerif_11_M	Huh! Big talk from a pipsqueak who already\nbit the dust once.
 CharaSerif_12_M	All I need is one more chance! You'll see!
 CharaSerif_13_M	Eh, sure. Take your shot. But I don't keep\nsofties around! If you lose, you're out!
-CharaSerif_14_M	\u000e\u0000\u0002\u0002\u0096\u0000Out?! Of the whole unit?!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_14_M	{s[150]}Out?! Of the whole unit?!{s[100]}
 CharaSerif_15_M	That does it! Musashi! This is all your fault!
 \event\stageBeginM019.msbt
 CharaSerif_00_M	Hmph! I shoulda known. Kid had no iron\nin his blood, is the problem.
@@ -4501,7 +4501,7 @@ CharaSerif_02_M	Spot me while I dish out\nthe {c[91ff1e]}Sushi Shuffle{c[000000]
 CharaSerif_03_M	Another power? What's this one do?
 CharaSerif_03_F	Another power? What's this one do?
 CharaSerif_04_M	Stay sharp, Musashi. They're going to try\nto rearrange the sushi on the belts.
-CharaSerif_05_M	\u000e\u0000\u0002\u0002\u0096\u0000Let's mix it up!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_05_M	{s[150]}Let's mix it up!{s[100]}
 \event\stageBeginM021.msbt
 CharaSerif_00_M	Musashi's here?! I guess you're out of\nthat other runt's league.
 CharaSerif_01_M	"Other runt"? Who?
@@ -4511,7 +4511,7 @@ CharaSerif_03_M	Our unit's {c[91ff1e]}Double-Edged Lanes{c[000000]} will\ncrush 
 CharaSerif_04_M	Hang on, WHAT? I don't get what your\npower is supposed to do!
 CharaSerif_04_F	Hang on, WHAT? I don't get what your\npower is supposed to do!
 CharaSerif_05_M	Oh. It makes it so that when your lane\nspeeds up, mine does too. Is that clearer?
-CharaSerif_06_M	\u000e\u0000\u0002\u0002\u0096\u0000This'll be over double-time!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_06_M	{s[150]}This'll be over double-time!{s[100]}
 CharaSerif_07_M	...That was a reference to my skill, which you\ncan review on the {c[91ff1e]}Enemy Data screen{c[000000]}. Sorry.
 \event\stageBeginM025.msbt
 CharaSerif_00_M	Hey, Celia! I hoped we might run into\neach other again.
@@ -4526,7 +4526,7 @@ CharaSerif_06_M	War?! Aren't you overreacting?!
 CharaSerif_06_F	War?! Aren't you overreacting?!
 CharaSerif_07_M	It's no use, Musashi. She's determined to\nfight, so let's oblige her!
 \event\stageBeginM026.msbt
-CharaSerif_00_M	\u000e\u0000\u0002\u0002\u0096\u0000Musashi?! Here?!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_00_M	{s[150]}Musashi?! Here?!{s[100]}
 CharaSerif_01_M	Haha. You can't run forever!
 CharaSerif_01_F	Hah. You can't run forever!
 CharaSerif_02_M	I don't believe this! That Celia is as useless\nas an inflatable dumbbell!
@@ -4538,9 +4538,9 @@ CharaSerif_06_M	"Forcing her"... What a joke!\nShe lives for this stuff!
 CharaSerif_07_M	That doesn't make it OK! Even if she\nvolunteered, you're still using her!
 CharaSerif_08_M	Sure am! I'll use whatever I can get!\nOnly the buffest survive, kid!
 CharaSerif_09_M	All right, men, don't let them reach the\nborder! Let me see you give 110%!
-CharaSerif_10_M	\u000e\u0000\u0002\u0002\u0096\u0000We're pumped to get started!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_10_M	{s[150]}We're pumped to get started!{s[100]}
 CharaSerif_11_M	Fail here, and the only thing you'll be\npressing is your suit for a new job interview!
-CharaSerif_12_M	\u000e\u0000\u0002\u0002\u0096\u0000We get it loud and clear, sir!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_12_M	{s[150]}We get it loud and clear, sir!{s[100]}
 CharaSerif_13_M	Sure, sure. Now get cracking!
 \event\stageBeginM030.msbt
 CharaSerif_00_M	Last chance. If I win here, the war ends!
@@ -4551,13 +4551,13 @@ CharaSerif_02_F	Well, if you insist. We can go out for\nsushi afterward sometime
 CharaSerif_03_M	No, idiot! Sushi is for fighting.
 CharaSerif_04_M	No way! Hmm... I'll use this fight to show\nyou the right way to appreciate sushi!
 CharaSerif_04_F	No way! Hmm... I'll use this fight to show\nyou the right way to appreciate sushi!
-CharaSerif_05_M	\u000e\u0000\u0002\u0002\u0096\u0000You dumb...\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_05_M	{s[150]}You dumb...{s[100]}
 CharaSerif_06_M	Don't you ever get tired of this? Fighting\nall the time, all alone?
 CharaSerif_07_M	Huh? Nah. Jinrai and the sushi sprites keep\nme company. I'm having a great time!
 CharaSerif_07_F	Huh? Nah. Jinrai and the sushi sprites keep\nme company. I'm having a great time!
 CharaSerif_08_M	After this, maybe I'll have you around too!
 CharaSerif_08_F	After this, maybe I'll have you around too!
-CharaSerif_09_M	\u000e\u0000\u0002\u0002\u0096\u0000Whatever!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_09_M	{s[150]}Whatever!{s[100]}
 \event\stageBeginM031.msbt
 CharaSerif_00_M	Urrgh... You're already here!
 CharaSerif_01_M	Celia too?! I'm surrounded by weaklings\nand traitors!
@@ -4567,11 +4567,11 @@ CharaSerif_03_F	Musashi is the first person I met who\nseemed like she could do 
 CharaSerif_04_M	Him? Don't be ridiculous! He doesn't\nhave half the brawn that I do!
 CharaSerif_04_F	Her? Don't be ridiculous! She doesn't\nhave half the brawn that I do!
 CharaSerif_05_M	I'll show you how it's done! Watch me\ncarb-load my way to your doom!
-CharaSerif_06_M	\u000e\u0000\u0002\u0002\u0096\u0000HERE I GO! {c[91ff1e]}BUFF BUFFET{c[000000]}!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_06_M	{s[150]}HERE I GO! {c[91ff1e]}BUFF BUFFET{c[000000]}!{s[100]}
 CharaSerif_07_M	Not this again!
 CharaSerif_07_F	Not this again!
 CharaSerif_08_M	He doesn't discriminate!\nHe'll inhale any dish, no matter its color!
-CharaSerif_09_M	\u000e\u0000\u0002\u0002\u0096\u0000Hawhawhaw! GET SERVED!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_09_M	{s[150]}Hawhawhaw! GET SERVED!{s[100]}
 \event\stageBeginM032.msbt
 CharaSerif_00_M	Grrr! The Sushi Liberation Front is here!\nThis was such a nice day, too!
 CharaSerif_01_M	I can handle this chump. Everyone else,\ngo on ahead!
@@ -4595,7 +4595,7 @@ CharaSerif_07_M	What a bewildering man. What shall we do\nwith him?
 CharaSerif_08_M	Good grief. Jinrai, give this weirdo\nsome sushi.
 CharaSerif_08_F	Good grief. Jinrai, give this weirdo\nsome sushi.
 CharaSerif_09_M	Very well!
-CharaSerif_10_M	\u000e\u0000\u0002\u0002\u0096\u0000Yowza! That's good soosh!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_10_M	{s[150]}Yowza! That's good soosh!{s[100]}
 CharaSerif_11_M	And I guess "soosh" means sushi?
 CharaSerif_11_F	And I guess "soosh" means sushi?
 CharaSerif_12_M	Ba-bam! This soosh is CHOICE!
@@ -4612,11 +4612,11 @@ CharaSerif_01_M	You're a long way from home, aren'tcha?\nHere, some sushi for th
 CharaSerif_02_M	Hey! Finally, some recognition!
 CharaSerif_02_F	Hey! Finally, some recognition!
 CharaSerif_03_M	Eheheh... You deserve it, I'd say. This one's\npacked with the true taste of sushi.
-CharaSerif_04_M	\u000e\u0000\u0002\u0002\u0096\u0000Snack time!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_04_M	{s[150]}Snack time!{s[100]}
 CharaSerif_05_M	Lemme see this "true taste of sushi"...
 CharaSerif_05_F	Lemme see this "true taste of sushi"...
-CharaSerif_06_M	\u000e\u0000\u0002\u0002\u0096\u0000Grkkk!\u000e\u0000\u0002\u0002d\u0000
-CharaSerif_06_F	\u000e\u0000\u0002\u0002\u0096\u0000Grkkk!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_06_M	{s[150]}Grkkk!{s[100]}
+CharaSerif_06_F	{s[150]}Grkkk!{s[100]}
 CharaSerif_07_M	Musashi! You look pale as rice!
 CharaSerif_08_M	Gehhhh! Th-this sushi... It's poisoned!
 CharaSerif_08_F	Gehhhh! Th-this sushi... It's poisoned!
@@ -4639,7 +4639,7 @@ CharaSerif_04_M	Hey, that reminds me. Is it true what they\nsay about how you ca
 CharaSerif_05_M	Are you saying you can?!
 CharaSerif_05_F	Are you saying you can?!
 CharaSerif_06_M	Hah! What do you think?
-CharaSerif_07_M	\u000e\u0000\u0002\u0002\u0096\u0000OF COURSE I CAN'T.\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_07_M	{s[150]}OF COURSE I CAN'T.{s[100]}
 CharaSerif_08_M	Kojiro... Why are you here?
 CharaSerif_08_F	Kojiro... Why are you here?
 CharaSerif_09_M	Easy. Look at all the power they give you\nin this unit!
@@ -4665,9 +4665,9 @@ CharaSerif_01_M	It's not the same at all without wasabi.\nYou're gonna stunt the
 CharaSerif_02_M	Funny, I was gonna say the same to—
 CharaSerif_02_F	Funny, I was gonna say the same to—
 CharaSerif_03_M	Foooound you! Now it's your turn to seek,\nGolden Boy.
-CharaSerif_04_M	\u000e\u0000\u0002\u0002\u0096\u0000Hoo boy! Here we go again!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_04_M	{s[150]}Hoo boy! Here we go again!{s[100]}
 CharaSerif_05_M	Looks like I'm about to have my hands full!\nDoes someone wanna finish up here?
-CharaSerif_06_M	\u000e\u0000\u0002\u0002\u0096\u0000We'll do it, hot stuff!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_06_M	{s[150]}We'll do it, hot stuff!{s[100]}
 CharaSerif_07_M	I've really had it with this guy...
 CharaSerif_07_F	I've really had it with this guy...
 \event\stageBeginM051.msbt
@@ -4676,23 +4676,23 @@ CharaSerif_01_M	Look, wasabi isn't all there is to sushi!\nSushi is great even w
 CharaSerif_01_F	Look, wasabi isn't all there is to sushi!\nSushi is great even without it!
 CharaSerif_02_M	Look at this kid who thinks he knows\neverything! I'll show you a thing or two!
 CharaSerif_02_F	Look at this kid who thinks she knows\neverything! I'll show you a thing or two!
-CharaSerif_03_M	\u000e\u0000\u0002\u0002\u0096\u0000Stooooop!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_03_M	{s[150]}Stooooop!{s[100]}
 CharaSerif_04_M	Another tyke? I'm drowning in 'em here...
 CharaSerif_05_M	Save your breath, gramps. I'll beat this\ntwo-bit striker for you!
 CharaSerif_06_M	You will, huh? Didn't you already take\nyour lumps once before?
 CharaSerif_07_M	One more chance! You gotta give me one\nmore chance! I'll clobber him!
 CharaSerif_07_F	One more chance! You gotta give me one\nmore chance! I'll clobber her!
 CharaSerif_08_M	Ehehheh. Well, fine. But if you lose, don't\ncome crawling back to me. You're out.
-CharaSerif_09_M	\u000e\u0000\u0002\u0002\u0096\u0000For real?!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_09_M	{s[150]}For real?!{s[100]}
 CharaSerif_10_M	That's it, Musashi. You're all that stands\nbetween me and the good life!
 \event\stageBeginM052.msbt
 CharaSerif_00_M	Ehehheh... Looks like that tyke struck out.
 CharaSerif_01_M	Good thing! Because now I get to teach you\nwhat real sushi tastes like: WASABI!
-CharaSerif_02_M	\u000e\u0000\u0002\u0002\u0096\u0000Get ready for a {c[91ff1e]}Wasabi Blast{c[000000]}!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_02_M	{s[150]}Get ready for a {c[91ff1e]}Wasabi Blast{c[000000]}!{s[100]}
 CharaSerif_03_M	Even your sushi sprite skill is about wasabi?!
 CharaSerif_03_F	Even your sushi sprite skill is about wasabi?!
 CharaSerif_04_M	It's a fearsome feat. You'll have to deal\nwith an excess of wasabi in your lane!
-CharaSerif_05_M	\u000e\u0000\u0002\u0002\u0096\u0000Lemme see those eyes water!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_05_M	{s[150]}Lemme see those eyes water!{s[100]}
 \event\stageBeginM053.msbt
 CharaSerif_00_M	It's the Sushi Liberation Front!\nThey're not supposed to be here at ALL!
 CharaSerif_01_M	Stay calm... I can't let them reach\nFort Fugu!
@@ -4727,15 +4727,15 @@ CharaSerif_06_F	Bad time to pick a fight, guys. I'm in a\nREAL crabby mood!
 CharaSerif_07_M	Anyone who doesn't want a whooping by\nthe great Musashi should stand down now!
 CharaSerif_07_F	Anyone who doesn't want a whooping by\nthe great Musashi should stand down now!
 CharaSerif_08_M	M...Mommy!
-CharaSerif_09_M	\u000e\u0000\u0002\u0002\u0096\u0000Stand your ground!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_09_M	{s[150]}Stand your ground!{s[100]}
 CharaSerif_10_M	This is how you act in the face of a child?\nYou disgrace yourselves.
 CharaSerif_11_M	Who's the guy in the mask?
 CharaSerif_11_F	Who's the guy in the mask?
 CharaSerif_12_M	You trespass on Imperial land, whelp.\nI cannot let you through.
 CharaSerif_12_F	You trespass on Imperial land, whelp.\nI cannot let you through.
-CharaSerif_13_M	\u000e\u0000\u0002\u0002\u0096\u0000Ready the Magnetic Shot!\u000e\u0000\u0002\u0002d\u0000
-CharaSerif_14_M	\u000e\u0000\u0002\u0002\u0096\u0000Whoa! What the heck?!\u000e\u0000\u0002\u0002d\u0000
-CharaSerif_14_F	\u000e\u0000\u0002\u0002\u0096\u0000Whoa! What the heck?!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_13_M	{s[150]}Ready the Magnetic Shot!{s[100]}
+CharaSerif_14_M	{s[150]}Whoa! What the heck?!{s[100]}
+CharaSerif_14_F	{s[150]}Whoa! What the heck?!{s[100]}
 CharaSerif_15_M	Beware, Musashi. I'd avoid being hit by\nthat thing at all costs.
 CharaSerif_16_M	You must destroy it before it's ready to fire!
 \event\stageBeginM067.msbt
@@ -4758,7 +4758,7 @@ CharaSerif_10_F	Did we now. Then know this, daughter\nof Jubay.
 CharaSerif_11_M	There are those who twist the truth to their\nown foul purpose, but it will always emerge.
 CharaSerif_12_M	Wait, what?
 CharaSerif_12_F	Wait, what?
-CharaSerif_13_M	\u000e\u0000\u0002\u0002\u0096\u0000Ready the Magnetic Shot!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_13_M	{s[150]}Ready the Magnetic Shot!{s[100]}
 CharaSerif_14_M	You can't run! We had a deal: I show up,\nyou fight!
 CharaSerif_14_F	You can't run! We had a deal: I show up,\nyou fight!
 CharaSerif_15_M	There's no time for that, Musashi. That\nhulking thing is back. Get ready!
@@ -4773,8 +4773,8 @@ CharaSerif_04_M	Sorry, but that's my line. I won't let you\ndisturb Dread Genera
 \event\stageBeginM072.msbt
 CharaSerif_00_M	What a shame that Fort Fugu fell so easily...
 CharaSerif_01_M	You are no ordinary striker, Musashi.
-CharaSerif_02_M	\u000e\u0000\u0002\u0002\u0096\u0000There you are!\u000e\u0000\u0002\u0002d\u0000
-CharaSerif_02_F	\u000e\u0000\u0002\u0002\u0096\u0000There you are!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_02_M	{s[150]}There you are!{s[100]}
+CharaSerif_02_F	{s[150]}There you are!{s[100]}
 CharaSerif_03_M	Don't even think about running away\nthis time!
 CharaSerif_03_F	Don't even think about running away\nthis time!
 CharaSerif_04_M	It was unavoidable. The Emperor calls.\nBut I can spare a moment for you.
@@ -4787,7 +4787,7 @@ CharaSerif_08_M	Enough posturing. You're far too weak to\nchallenge me.
 CharaSerif_09_M	So prove it! Let's go, Jinrai!
 CharaSerif_09_F	So prove it! Let's go, Jinrai!
 CharaSerif_10_M	Have it your way.
-CharaSerif_11_M	\u000e\u0000\u0002\u0002\u0096\u0000To me, Gourai!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_11_M	{s[150]}To me, Gourai!{s[100]}
 CharaSerif_12_M	Did he say Gourai?!
 CharaSerif_13_M	Are you for real?! Is THAT a sushi sprite?!
 CharaSerif_13_F	Are you for real?! Is THAT a sushi sprite?!
@@ -4840,13 +4840,13 @@ CharaSerif_04_M	Hmph!
 CharaSerif_04_F	Hmph!
 CharaSerif_05_M	...Their aunt, maybe?
 CharaSerif_05_F	...Their aunt, maybe?
-CharaSerif_06_M	\u000e\u0000\u0002\u0002\u0096\u0000Silence, you feckless boy!\u000e\u0000\u0002\u0002d\u0000
-CharaSerif_06_F	\u000e\u0000\u0002\u0002\u0096\u0000Silence, you feckless girl!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_06_M	{s[150]}Silence, you feckless boy!{s[100]}
+CharaSerif_06_F	{s[150]}Silence, you feckless girl!{s[100]}
 CharaSerif_07_M	Know your place when addressing me!\nI won't answer to anything but "Pwincess"!
 CharaSerif_08_M	Uh... I'm not calling you "Pwincess."
 CharaSerif_08_F	Uh... I'm not calling you "Pwincess."
 CharaSerif_09_M	It simply isn't dignified.
-CharaSerif_10_M	\u000e\u0000\u0002\u0002\u0096\u0000Listen, babies! My name is...\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_10_M	{s[150]}Listen, babies! My name is...{s[100]}
 \event\stageBeginM083.msbt
 CharaSerif_00_M	Hold it right there!
 CharaSerif_01_M	Kojiro?! Did you get transferred to this\nsquad or something?
@@ -4858,7 +4858,7 @@ CharaSerif_04_M	You sure goofed up, eating the forbidden\nsushi in front of our 
 CharaSerif_05_M	You mean salmon? I thought you loved\nsalmon sushi.
 CharaSerif_05_F	You mean salmon? I thought you loved\nsalmon sushi.
 CharaSerif_06_M	Yeah... Yeah, I do. I still get to sneak some\nin when no one is looking...
-CharaSerif_07_M	\u000e\u0000\u0002\u0002\u0096\u0000But that's just between us!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_07_M	{s[150]}But that's just between us!{s[100]}
 CharaSerif_08_M	Ha... Oh, Kojiro. You don't fool me.
 CharaSerif_08_F	Heheh... Oh, Kojiro. You don't fool me.
 CharaSerif_09_M	It doesn't matter. What DOES matter is that\nI finally have a better power than yours!
@@ -4880,13 +4880,13 @@ CharaSerif_06_M	Because I'M up for a game!
 \event\stageBeginM089.msbt
 CharaSerif_00_M	You still haven't gone home yet? Tsk, tsk.
 CharaSerif_01_M	Ahaha! Run along before you get hurt,\nsalmon-lover.
-CharaSerif_02_M	\u000e\u0000\u0002\u0002\u0096\u0000I'll eat all the salmon I want!\u000e\u0000\u0002\u0002d\u0000
-CharaSerif_02_F	\u000e\u0000\u0002\u0002\u0096\u0000I'll eat all the salmon I want!\u000e\u0000\u0002\u0002d\u0000
-CharaSerif_03_M	\u000e\u0000\u0002\u0002\u0096\u0000NOT ON MY TURF, BRAT!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_02_M	{s[150]}I'll eat all the salmon I want!{s[100]}
+CharaSerif_02_F	{s[150]}I'll eat all the salmon I want!{s[100]}
+CharaSerif_03_M	{s[150]}NOT ON MY TURF, BRAT!{s[100]}
 CharaSerif_04_M	*ahem*... We mustn't keep the patissier\nwaiting, Pwincess.
 CharaSerif_05_M	Is it time for my daily cupcake already?\nBut I was having fun here...
 CharaSerif_06_M	Fiiiiine! Mop up here, won't you, boys?
-CharaSerif_07_M	\u000e\u0000\u0002\u0002\u0096\u0000At once, Pwincess!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_07_M	{s[150]}At once, Pwincess!{s[100]}
 CharaSerif_08_M	I'm never going to get used to grown men\nsaying that...
 CharaSerif_08_F	I'm never going to get used to grown men\nsaying that...
 \event\stageBeginM093.msbt
@@ -4895,8 +4895,8 @@ CharaSerif_01_M	I see nothing wrong with salmon or tuna.\nEveryone who tries it 
 CharaSerif_02_M	Yeah, what's the harm? Didn't you used to\nlove that stuff not too long ago?
 CharaSerif_02_F	Yeah, what's the harm? Didn't you used to\nlove that stuff not too long ago?
 CharaSerif_03_M	I would NEVER! You're too young to\npawssibly understand my pain, babies!
-CharaSerif_04_M	\u000e\u0000\u0002\u0002\u0096\u0000Time to learn your place!\u000e\u0000\u0002\u0002d\u0000
-CharaSerif_05_M	\u000e\u0000\u0002\u0002\u0096\u0000NOT YET IT ISN'T!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_04_M	{s[150]}Time to learn your place!{s[100]}
+CharaSerif_05_M	{s[150]}NOT YET IT ISN'T!{s[100]}
 CharaSerif_06_M	Is this the new recruit? What's he\ndoing here?
 CharaSerif_07_M	Nobody gets to clobber Musashi but me!\nI'll handle this!
 CharaSerif_08_M	Don't be absurd, child. I've read your file.\nYou haven't won a single bout against him!
@@ -4904,15 +4904,15 @@ CharaSerif_08_F	Don't be absurd, child. I've read your file.\nYou haven't won a 
 CharaSerif_09_M	I know! I know! I'll do better! I promise!
 CharaSerif_10_M	Tsk, tsk.
 CharaSerif_11_M	Stop bawling and take your shot. But if you\nlose, you'll have to twansfer, understood?
-CharaSerif_12_M	\u000e\u0000\u0002\u0002\u0096\u0000Twansfer?! I mean, transfer?!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_12_M	{s[150]}Twansfer?! I mean, transfer?!{s[100]}
 CharaSerif_13_M	MUSASHI! Why do you have to ruin\neverything for me?!
 \event\stageBeginM094.msbt
 CharaSerif_00_M	Your little friend seems to have had a few\nscrews loose. Well, not my concern.
 CharaSerif_01_M	Now for the real bout... You and me!\nIt won't go well for you, I fear.
-CharaSerif_02_M	\u000e\u0000\u0002\u0002\u0096\u0000Gah! My eyes!\u000e\u0000\u0002\u0002d\u0000
-CharaSerif_02_F	\u000e\u0000\u0002\u0002\u0096\u0000Gah! My eyes!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_02_M	{s[150]}Gah! My eyes!{s[100]}
+CharaSerif_02_F	{s[150]}Gah! My eyes!{s[100]}
 CharaSerif_03_M	I was afraid of this.
-CharaSerif_04_M	\u000e\u0000\u0002\u0002\u0096\u0000Behold my {c[91ff1e]}Luxury Flash{c[000000]}!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_04_M	{s[150]}Behold my {c[91ff1e]}Luxury Flash{c[000000]}!{s[100]}
 CharaSerif_05_M	Its gleam cancels any damage from those\ndisgusting salmon and tuna plates.
 CharaSerif_09_M	Careful. With that skill active, she takes {c[ffae00]}zero\n{c[000000]}damage from {c[ffae00]}any stack of forbidden sushi{c[000000]}.
 CharaSerif_07_M	Unfortunately, that includes {c[ffae00]}salmon{c[000000]} and {c[ffae00]}tuna{c[000000]}.\nI may not be of much use to you here...
@@ -4932,16 +4932,16 @@ CharaSerif_03_M	You don't remember me? The very first\nguy you beat up?
 CharaSerif_04_M	I dunno... I have trouble telling all\nof you apart.
 CharaSerif_04_F	I dunno... I have trouble telling all\nof you apart.
 CharaSerif_05_M	The point is, I got stationed out in the\nmiddle of nowhere because of you.
-CharaSerif_06_M	\u000e\u0000\u0002\u0002\u0096\u0000Vengeance is mine!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_06_M	{s[150]}Vengeance is mine!{s[100]}
 \event\stageBeginM100.msbt
-CharaSerif_00_M	\u000e\u0000\u0002\u0002\u0096\u0000YO! IT'S BEEN A WHILE!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_00_M	{s[150]}YO! IT'S BEEN A WHILE!{s[100]}
 CharaSerif_01_M	Huh? Am I supposed to remember you?
 CharaSerif_01_F	Huh? Am I supposed to remember you?
 CharaSerif_02_M	Heh! Does this JOG your memory?
 CharaSerif_03_M	Oh, yeah! Kodiak's squad! Wow, you're\nreally reaching for those puns, huh.
 CharaSerif_03_F	Oh, yeah! Kodiak's squad! Wow, you're\nreally reaching for those puns, huh.
 CharaSerif_04_M	Whatever! Because of you, my six pack\nhas been going flat!
-CharaSerif_05_M	\u000e\u0000\u0002\u0002\u0096\u0000Time to come off the bench!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_05_M	{s[150]}Time to come off the bench!{s[100]}
 \event\stageBeginM104.msbt
 CharaSerif_00_M	Hmhmhm... So our paths cross again.\nIt must be fate.
 CharaSerif_01_M	Good grief... Remind me who you are?
@@ -4951,19 +4951,19 @@ CharaSerif_03_M	Oh, right! You were the {c[ffcc2f]}{c[ffae00]}old{c[ffcc2f]} {c[
 CharaSerif_03_F	Oh, right! You were the {c[ffcc2f]}{c[ffae00]}old{c[ffcc2f]} {c[000000]}commander!
 CharaSerif_04_M	Hey! Don't say "{c[ffae00]}old{c[000000]}" in orange text\nlike it's important!
 CharaSerif_06_M	Anyway... The battles here {c[ffae00]}have a special\nsecret{c[000000]}. And only I know what it is.
-CharaSerif_05_M	\u000e\u0000\u0002\u0002\u0096\u0000My victory is assured!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_05_M	{s[150]}My victory is assured!{s[100]}
 \event\stageBeginM110.msbt
 CharaSerif_00_M	This is it. His room is somewhere\naround here.
-CharaSerif_01_M	\u000e\u0000\u0002\u0002\u0096\u0000Ah! I found him!\u000e\u0000\u0002\u0002d\u0000
-CharaSerif_02_M	\u000e\u0000\u0002\u0002\u0096\u0000Franklin!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_01_M	{s[150]}Ah! I found him!{s[100]}
+CharaSerif_02_M	{s[150]}Franklin!{s[100]}
 CharaSerif_03_M	Hrrrh... He seems to have passed out.
 CharaSerif_04_M	Yeah, he's...not looking so good...
 CharaSerif_04_F	Yeah, he's...not looking so good...
-CharaSerif_05_M	\u000e\u0000\u0002\u0002\u0096\u0000Franklin! It's me!\u000e\u0000\u0002\u0002d\u0000
-CharaSerif_05_F	\u000e\u0000\u0002\u0002\u0096\u0000Franklin! It's me!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_05_M	{s[150]}Franklin! It's me!{s[100]}
+CharaSerif_05_F	{s[150]}Franklin! It's me!{s[100]}
 CharaSerif_06_M	Heads up, Musashi! We've got trouble...\nThe guard is back already!
 \event\stageBeginM111.msbt
-CharaSerif_00_M	\u000e\u0000\u0002\u0002\u0096\u0000Hahahah! Gotcha!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_00_M	{s[150]}Hahahah! Gotcha!{s[100]}
 CharaSerif_01_M	Wh— Kodiak?! You're here too?!
 CharaSerif_01_F	Wh— Kodiak?! You're here too?!
 CharaSerif_02_M	In the beefy, bulging flesh. And it's all\nyour fault!
@@ -4971,7 +4971,7 @@ CharaSerif_03_M	It should've been me leading this army!\nOnly I'M buff, rough, a
 CharaSerif_04_M	But no! You had to ruin my dreams like\na torn ligament!
 CharaSerif_05_M	Such griping is unseemly of a man who\nbelieves himself worthy to lead.
 CharaSerif_06_M	Quiet, you! I've been training hard out here\nin the cold, and I'm stronger than ever!
-CharaSerif_07_M	\u000e\u0000\u0002\u0002\u0096\u0000I'll prove it, too! {c[5fd871]}Buff Buffet{c[000000]}!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_07_M	{s[150]}I'll prove it, too! {c[5fd871]}Buff Buffet{c[000000]}!{s[100]}
 CharaSerif_08_M	You're the worst! You don't even taste\nany of the sushi you choke down!
 CharaSerif_08_F	You're the worst! You don't even taste\nany of the sushi you choke down!
 CharaSerif_09_M	Those who fail to properly appreciate sushi\ncan never be victorious in the end!
@@ -5022,14 +5022,14 @@ CharaSerif_06_M	A fair question. As a parent, I have failed.\nBut there was neve
 CharaSerif_07_M	Everything I have done, I did for sushi.
 CharaSerif_08_M	Of course, that decision had consequences.\nFor me, but especially for you.
 CharaSerif_09_M	But I feared the alternative would be worse.\nI didn't want you to be a casualty of my life.
-CharaSerif_10_M	\u000e\u0000\u0002\u0002\u0096\u0000What a bunch of hot air!\u000e\u0000\u0002\u0002d\u0000
-CharaSerif_10_F	\u000e\u0000\u0002\u0002\u0096\u0000What a bunch of hot air!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_10_M	{s[150]}What a bunch of hot air!{s[100]}
+CharaSerif_10_F	{s[150]}What a bunch of hot air!{s[100]}
 CharaSerif_11_M	Do you know what you sound like?! Breaking\nup your family over sushi is WEIRD!
 CharaSerif_11_F	Do you know what you sound like?! Breaking\nup your family over sushi is WEIRD!
 CharaSerif_12_M	Hmm. You have indeed come far if you think\nyou have lessons about sushi to teach me.
 CharaSerif_13_M	Nevertheless, I don't regret my actions.
 CharaSerif_14_M	If you disagree, then back your\nconvictions with strength!
-CharaSerif_15_M	\u000e\u0000\u0002\u0002\u0096\u0000Ready the Magnetic Shot!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_15_M	{s[150]}Ready the Magnetic Shot!{s[100]}
 CharaSerif_16_M	This old piece of scrap? I'll break it to bits!
 CharaSerif_16_F	This old piece of scrap? I'll break it to bits!
 \event\stageBeginM132.msbt
@@ -5045,14 +5045,14 @@ CharaSerif_04_M	Did you come all this way to play a game\nwith little old us? Yo
 CharaSerif_05_M	That's not why we're here! We're in\nkind of a hurry to—
 CharaSerif_05_F	That's not why we're here! We're in\nkind of a hurry to—
 CharaSerif_06_M	It's all right, Musashi. Let's play his game.
-CharaSerif_07_M	\u000e\u0000\u0002\u0002\u0096\u0000What?! WHY?!\u000e\u0000\u0002\u0002d\u0000
-CharaSerif_07_F	\u000e\u0000\u0002\u0002\u0096\u0000What?! WHY?!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_07_M	{s[150]}What?! WHY?!{s[100]}
+CharaSerif_07_F	{s[150]}What?! WHY?!{s[100]}
 CharaSerif_08_M	Because...he won't leave if you don't.\nIt's just simpler this way.
 CharaSerif_08_F	Because...he won't leave if you don't.\nIt's just simpler this way.
 CharaSerif_09_M	You know me too well, ol' buddy ol' pal!
 CharaSerif_10_M	Let's ALL play a game!
-CharaSerif_11_M	\u000e\u0000\u0002\u0002\u0096\u0000Help!\u000e\u0000\u0002\u0002d\u0000
-CharaSerif_11_F	\u000e\u0000\u0002\u0002\u0096\u0000Help!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_11_M	{s[150]}Help!{s[100]}
+CharaSerif_11_F	{s[150]}Help!{s[100]}
 \event\stageBeginM141.msbt
 CharaSerif_00_M	More of them?! There's no end to this!
 CharaSerif_00_F	More of them?! There's no end to this!
@@ -5221,10 +5221,10 @@ stageEndM003_02_F	(Her fighting style is exceptional for one\nso new to this.)
 stageEndM003_03_M	(Hrhrr... I think I made the right choice.)
 stageEndM003_04_M	Onward to the border, then. Perhaps we'll\npick up Franklin's trail there.
 \event\stageEndM003.msbt
-stageEndM004_01_M	\u000e\u0000\u0002\u0002\u0096\u0000I lost agaaaaaaaain!\u000e\u0000\u0002\u0002d\u0000
+stageEndM004_01_M	{s[150]}I lost agaaaaaaaain!{s[100]}
 stageEndM004_02_M	That's it! I'm telling the whole Imperial Army\nabout you!
 stageEndM004_03_M	Wait 'til they hear there's a brat walking\naround with a sushi sprite! That'll teach you!
-stageEndM004_04_M	\u000e\u0000\u0002\u0002\u0096\u0000WAAAAAH!\u000e\u0000\u0002\u0002d\u0000
+stageEndM004_04_M	{s[150]}WAAAAAH!{s[100]}
 stageEndM004_05_M	Hey, Kojiro, I think you dropped your...\nOh, he's gone.
 stageEndM004_05_F	Hey, Kojiro, I think you dropped your...\nOh, he's gone.
 stageEndM004_06_M	Well, well. A sushi sprite pledge plate.\nIt must have been issued by the Empire.
@@ -5265,19 +5265,19 @@ stageEndM008_01_M	At this pace, we'll be at the border before\ndinnertime!
 stageEndM008_01_F	At this pace, we'll be at the border before\ndinnertime!
 stageEndM008_02_M	Can it really be so easy?
 stageEndM008_03_M	There he is! Grab him! Get his master, too,\nwhile we're at it!
-stageEndM008_04_M	\u000e\u0000\u0002\u0002\u0096\u0000GRABBING, SIR!\u000e\u0000\u0002\u0002d\u0000
+stageEndM008_04_M	{s[150]}GRABBING, SIR!{s[100]}
 stageEndM008_05_M	Oof! They were waiting for us?!
 stageEndM008_05_F	Oof! They were waiting for us?!
 stageEndM008_06_M	So much for dinnertime...
 stageEndM008_06_F	So much for dinnertime...
 stageEndM008_07_M	Musashi! There's another squad closing\nin on us this way!
 stageEndM008_23_M	Wait... That isn't the Imperial Army.
-stageEndM008_08_M	\u000e\u0000\u0002\u0002\u0096\u0000CHAAAARGE!\u000e\u0000\u0002\u0002d\u0000
+stageEndM008_08_M	{s[150]}CHAAAARGE!{s[100]}
 stageEndM008_10_M	Hey, kid! Are you hurt?
 stageEndM008_11_M	Me? No...
 stageEndM008_11_F	Huh? No...
 stageEndM008_12_M	Might we know who you are?
-stageEndM008_13_M	\u000e\u0000\u0002\u0002\u0096\u0000The Sushi Liberation Front!\u000e\u0000\u0002\u0002d\u0000
+stageEndM008_13_M	{s[150]}The Sushi Liberation Front!{s[100]}
 stageEndM008_14_M	We heard the Empire found out about Jinrai,\nso we came to make sure you weren't taken!
 stageEndM008_15_M	Why does everyone make such a big deal\nabout Jinrai? You didn't even ask my name!
 stageEndM008_15_F	Why does everyone make such a big deal\nabout Jinrai? You didn't even ask my name!
@@ -5370,27 +5370,27 @@ stageEndM011_12_F	You know what, you're right! Better to use it\nthan let it sit
 CharaSerif_00_M	Hrrrr. It seems the decoy plan worked,\nif not in the way it was intended.
 CharaSerif_01_M	Whoa whoa whoa! Slow up!
 CharaSerif_02_M	Are you THE Musashi? The one everybody's\ntalkin' about?
-CharaSerif_03_M	\u000e\u0000\u0002\u0002\u0096\u0000Whaddaya know?\u000e\u0000\u0002\u0002d\u0000
-CharaSerif_04_M	\u000e\u0000\u0002\u0002\u0096\u0000Whoa! Personal space!\u000e\u0000\u0002\u0002d\u0000
-CharaSerif_04_F	\u000e\u0000\u0002\u0002\u0096\u0000Whoa! Personal space!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_03_M	{s[150]}Whaddaya know?{s[100]}
+CharaSerif_04_M	{s[150]}Whoa! Personal space!{s[100]}
+CharaSerif_04_F	{s[150]}Whoa! Personal space!{s[100]}
 CharaSerif_05_M	Name's Archie. I do some digging in the\nsushi sprite ruins over by the Shrine Grove.
 CharaSerif_06_M	I got word the SLF was comin' to the Shrine\nGrove, so I came to take a peek!
 CharaSerif_07_M	The lousy Imperials are all over my\nhometown. It's a bad scene, yanno?
 CharaSerif_08_M	Ya gotta help! Kick the Empire outta the\nShrine Grove and make it safe for us!
 CharaSerif_09_M	You know what? I'll do it! Shrine Grove,\nhere we come!
 CharaSerif_09_F	You know what? I'll do it! Shrine Grove,\nhere we come!
-CharaSerif_10_M	\u000e\u0000\u0002\u0002\u0096\u0000For serious?!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_10_M	{s[150]}For serious?!{s[100]}
 CharaSerif_11_M	Musashi, wait. Our role is to draw them out.\nIf we leave here, the plan will fail.
 CharaSerif_12_M	But look at poor Archie! I think he might\ncry if we say no.
 CharaSerif_12_F	But look at poor Archie! I think he might\ncry if we say no.
 CharaSerif_13_M	Yo, it'll be easy! I know a shortcut you can\ntake and everything!
 CharaSerif_14_M	Cool beans! Lead the way!
 CharaSerif_14_F	Cool beans! Lead the way!
-CharaSerif_15_M	\u000e\u0000\u0002\u0002\u0096\u0000Shrine Grove, here we come!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_15_M	{s[150]}Shrine Grove, here we come!{s[100]}
 \event\stageEndM013.msbt
-CharaSerif_00_M	\u000e\u0000\u0002\u0002\u0096\u0000ARE YOU KIDDING ME?!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_00_M	{s[150]}ARE YOU KIDDING ME?!{s[100]}
 CharaSerif_01_M	Don't think I'll forget this! You're gonna\nbe sorry the next time I see you!
-CharaSerif_02_M	\u000e\u0000\u0002\u0002\u0096\u0000WAAAAAH!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_02_M	{s[150]}WAAAAAH!{s[100]}
 CharaSerif_03_M	Sheesh, that guy just cannot stop dropping\nhis stuff all over.
 CharaSerif_03_F	Sheesh, that guy just cannot stop dropping\nhis stuff all over.
 CharaSerif_05_M	Looks like the least powerful lane-drive\ngear. This one's a {c[91ff1e]}Little Gear{c[000000]}.
@@ -5402,10 +5402,10 @@ CharaSerif_07_F	Huh. Well, maybe I'll hold on to it in case he\nwants it back th
 CharaSerif_00_M	Huh... You've got some muscle on you\nafter all!
 CharaSerif_01_M	General Kodiak! Sir!
 CharaSerif_02_M	We've got trouble! The Sushi Liberation\nFront has attacked the Shrine Grove!
-CharaSerif_03_M	\u000e\u0000\u0002\u0002\u0096\u0000WHAT A WEAK STUNT!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_03_M	{s[150]}WHAT A WEAK STUNT!{s[100]}
 CharaSerif_04_M	That weasel Masa! Talk about a bait\nand switch!
 CharaSerif_05_M	Looks like I got frustrations to work out\nelsewhere. You guys slam this kid for me.
-CharaSerif_06_M	\u000e\u0000\u0002\u0002\u0096\u0000SLAMMING, SIR!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_06_M	{s[150]}SLAMMING, SIR!{s[100]}
 \event\stageEndM015.msbt
 CharaSerif_00_M	Can't anybody in the Imperial Army pick up\nafter themselves?
 CharaSerif_00_F	Can't anybody in the Imperial Army pick up\nafter themselves?
@@ -5436,9 +5436,9 @@ CharaSerif_05_F	No joke?
 CharaSerif_07_M	Good thing I showed up! I'll send their\ncommander packing!
 CharaSerif_07_F	Good thing I showed up! I'll send their\ncommander packing!
 \event\stageEndM018.msbt
-CharaSerif_00_M	\u000e\u0000\u0002\u0002\u0096\u0000SERIOUSLY?! AGAIN?!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_00_M	{s[150]}SERIOUSLY?! AGAIN?!{s[100]}
 CharaSerif_01_M	This isn't over. I'll hold this grudge for\na thousand years if I have to!
-CharaSerif_02_M	\u000e\u0000\u0002\u0002\u0096\u0000Waaaaah!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_02_M	{s[150]}Waaaaah!{s[100]}
 CharaSerif_03_M	When did that guy get so wound up?
 CharaSerif_03_F	When did that guy get so wound up?
 \event\stageEndM019.msbt
@@ -5492,18 +5492,18 @@ CharaSerif_18_M	Musashi! Please think this through!
 CharaSerif_19_M	Are you sure? You may regret this.
 CharaSerif_20_M	Sure I'm sure! Maybe this way you'll realize\nhow yummy sushi is someday!
 CharaSerif_20_F	Sure I'm sure! Maybe this way you'll realize\nhow yummy sushi is someday!
-CharaSerif_21_M	\u000e\u0000\u0002\u0002\u0096\u0000You're still talking about that?\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_21_M	{s[150]}You're still talking about that?{s[100]}
 CharaSerif_22_M	Musashi, I think you did the right thing,\nbut...you realize she'll be back.
 CharaSerif_23_M	Aw, that's OK! We'll worry about that\nwhen it happens!
 CharaSerif_23_F	Aw, that's OK! We'll worry about that\nwhen it happens!
 \event\stageEndM029.msbt
 CharaSerif_00_M	Gaaaaahhh! We're too weak here!\nBack to the border!
-CharaSerif_01_M	\u000e\u0000\u0002\u0002\u0096\u0000G...General Kodiaaaak!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_01_M	{s[150]}G...General Kodiaaaak!{s[100]}
 \event\stageEndM031.msbt
 CharaSerif_00_M	Uuugghhh... I hurt all over...
 CharaSerif_01_M	Haha! You know what they say: no pain,\nno gain! Next time, try tasting your sushi!
 CharaSerif_01_F	Hah! You know what they say: no pain,\nno gain! Next time, try tasting your sushi!
-CharaSerif_02_M	\u000e\u0000\u0002\u0002\u0096\u0000I've had enough! Kodiak out!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_02_M	{s[150]}I've had enough! Kodiak out!{s[100]}
 CharaSerif_03_M	Did this belong to him?
 CharaSerif_03_F	Did this belong to him?
 CharaSerif_04_M	A key... What do you suppose it unlocks?
@@ -5542,7 +5542,7 @@ CharaSerif_04_M	Now that we've sent the Empire packing,\nyou can have sushi when
 CharaSerif_04_F	Now that we've sent the Empire packing,\nyou can have sushi whenever you want!
 CharaSerif_05_M	You're giving us...sushi?!
 CharaSerif_07_M	You heard true. Eat to your heart's content!
-CharaSerif_08_M	\u000e\u0000\u0002\u0002\u0096\u0000Aaaaah! It's sushi! Run away!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_08_M	{s[150]}Aaaaah! It's sushi! Run away!{s[100]}
 CharaSerif_09_M	Was it something I said?
 CharaSerif_09_F	Was it something I said?
 CharaSerif_10_M	I don't understand... All youths love the\ntaste of salmon on rice.
@@ -5555,28 +5555,28 @@ CharaSerif_01_M	Who the heck ARE you?
 CharaSerif_01_F	Who the heck ARE you?
 CharaSerif_02_M	Yes, we gave you food, and you haven't\neven introduced yourself.
 CharaSerif_03_M	SO glad you asked! SO great to be here!\nLadlemen and gennies, introducing...
-CharaSerif_04_M	\u000e\u0000\u0002\u0002\u0096\u0000No! All wrong! CUT!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_04_M	{s[150]}No! All wrong! CUT!{s[100]}
 CharaSerif_05_M	Cut...what? Corners?
-CharaSerif_06_M	\u000e\u0000\u0002\u0002\u0096\u0000To Giroppon, and step on it!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_06_M	{s[150]}To Giroppon, and step on it!{s[100]}
 CharaSerif_07_M	Catch and release ya later!
 CharaSerif_08_M	What just happened?
 CharaSerif_08_F	What just happened?
 \event\stageEndM037.msbt
 CharaSerif_00_M	Well... That was fun while it lasted,\nbut I'd better be getting home.
-CharaSerif_01_M	\u000e\u0000\u0002\u0002\u0096\u0000Golden boy!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_01_M	{s[150]}Golden boy!{s[100]}
 CharaSerif_02_M	Aha! Found you, honeymuffin.
 CharaSerif_03_M	You big silly! Why'd you run off during\nour playtime?
 CharaSerif_04_M	Have mercy, girls! I just wanted a few yuks\nwith this fresh-faced youngster.
 CharaSerif_05_M	But I've had my fun, so you can go ahead\nand have yours. Have at it, girls!
 CharaSerif_05_F	But I've had my fun, so you can go ahead\nand have yours. Have at it, girls!
-CharaSerif_06_M	\u000e\u0000\u0002\u0002\u0096\u0000We'll take good care of him!\u000e\u0000\u0002\u0002d\u0000
-CharaSerif_06_F	\u000e\u0000\u0002\u0002\u0096\u0000We'll take good care of her!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_06_M	{s[150]}We'll take good care of him!{s[100]}
+CharaSerif_06_F	{s[150]}We'll take good care of her!{s[100]}
 CharaSerif_07_M	What did I get myself into?
 CharaSerif_07_F	What did I get myself into?
 \event\stageEndM041.msbt
-CharaSerif_00_M	\u000e\u0000\u0002\u0002\u0096\u0000Why can't I catch a break?!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_00_M	{s[150]}Why can't I catch a break?!{s[100]}
 CharaSerif_01_M	I blame the weather! It's too... It's too...\nIT'S JUST TOO SUNNY AND PERFECT!
-CharaSerif_02_M	\u000e\u0000\u0002\u0002\u0096\u0000Shut uuuuuppp!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_02_M	{s[150]}Shut uuuuuppp!{s[100]}
 CharaSerif_03_M	"Shut up"? He never even lets me get\na word in. That guy, I swear...
 CharaSerif_03_F	"Shut up"? He never even lets me get\na word in. That guy, I swear...
 \event\stageEndM042.msbt
@@ -5607,13 +5607,13 @@ CharaSerif_11_M	Is this true?!
 CharaSerif_12_M	You're li'l Jubay then, huh? Jubay Junior?\nFar out!
 CharaSerif_13_M	What are you driving at? Are you saying\nyou actually know this man?
 CharaSerif_14_M	Jubay? Sure! I know him like the small\nof my back!
-CharaSerif_15_M	\u000e\u0000\u0002\u0002\u0096\u0000No! All wrong! CUT!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_15_M	{s[150]}No! All wrong! CUT!{s[100]}
 CharaSerif_16_M	Huh?!
 CharaSerif_16_F	Huh?!
-CharaSerif_17_M	\u000e\u0000\u0002\u0002\u0096\u0000To Giroppon, and step on it!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_17_M	{s[150]}To Giroppon, and step on it!{s[100]}
 CharaSerif_18_M	Catch and release ya later!
-CharaSerif_19_M	\u000e\u0000\u0002\u0002\u0096\u0000Hey! You can't leave NOW!\u000e\u0000\u0002\u0002d\u0000
-CharaSerif_19_F	\u000e\u0000\u0002\u0002\u0096\u0000Hey! You can't leave NOW!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_19_M	{s[150]}Hey! You can't leave NOW!{s[100]}
+CharaSerif_19_F	{s[150]}Hey! You can't leave NOW!{s[100]}
 CharaSerif_20_M	Hrrrh... I've heard of this Jubay, but I had no\ninkling that you were related.
 CharaSerif_21_M	Yeah...me either. So my dad was a legendary\nsushi striker, huh?
 CharaSerif_21_F	Yeah...me either. So my dad was a legendary\nsushi striker, huh?
@@ -5626,9 +5626,9 @@ CharaSerif_25_M	Jubay was the Republic's ace striker in the\nSushi Struggles. "L
 CharaSerif_26_M	He loved sushi with a fierce passion. He was\nknown as a man who'd give his life for sushi.
 CharaSerif_27_M	His... His life?
 CharaSerif_28_M	That's all I remember. After a certain point,\nI didn't hear much about him anymore.
-CharaSerif_29_M	\u000e\u0000\u0002\u0002\u0096\u0000Then the war...he must've...!\u000e\u0000\u0002\u0002d\u0000
-CharaSerif_29_F	\u000e\u0000\u0002\u0002\u0096\u0000Then the war...he must've...!\u000e\u0000\u0002\u0002d\u0000
-CharaSerif_30_M	\u000e\u0000\u0002\u0002\u0096\u0000Musashi! Contain yourself!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_29_M	{s[150]}Then the war...he must've...!{s[100]}
+CharaSerif_29_F	{s[150]}Then the war...he must've...!{s[100]}
+CharaSerif_30_M	{s[150]}Musashi! Contain yourself!{s[100]}
 CharaSerif_31_M	If all I've heard of the man is true, I don't\ndoubt he's alive somewhere in this world.
 CharaSerif_32_M	Those who appreciate sushi find that sushi\nrepays the favor.
 \event\stageEndM050.msbt
@@ -5646,9 +5646,9 @@ CharaSerif_10_M	Wonderful! Don't tell him I gave you this,\nbut maybe this pledg
 CharaSerif_11_M	You befriended the sushi sprite {c[91ff1e]}Cryten{c[000000]}!\nIts skill is {c[91ff1e]}Stealth Striker{c[000000]}!
 CharaSerif_12_M	Treat that sushi sprite as well as you'd\ntreat me, OK?
 \event\stageEndM051.msbt
-CharaSerif_00_M	\u000e\u0000\u0002\u0002\u0096\u0000Argh! AAAARRRRRGGGHH!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_00_M	{s[150]}Argh! AAAARRRRRGGGHH!{s[100]}
 CharaSerif_01_M	So you got a cheap win! So what?! I know\nyour tricks now! Next time, you're mine!
-CharaSerif_02_M	\u000e\u0000\u0002\u0002\u0096\u0000Waaaaah!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_02_M	{s[150]}Waaaaah!{s[100]}
 CharaSerif_03_M	"Cheap win"? If that's what makes him\nfeel better...
 CharaSerif_03_F	"Cheap win"? If that's what makes him\nfeel better...
 \event\stageEndM052.msbt
@@ -5698,8 +5698,8 @@ CharaSerif_12_M	Right, right, that's his name! Him and Jubay\nfought for the Rep
 CharaSerif_13_M	...Hoo boy. I sure have a heck of a known\nassociates list.
 CharaSerif_14_M	Wow. Masa was in the Republic Army, too?
 CharaSerif_14_F	Wow. Masa was in the Republic Army, too?
-CharaSerif_15_M	\u000e\u0000\u0002\u0002\u0096\u0000Yikes! Uh-oh! CUT!\u000e\u0000\u0002\u0002d\u0000
-CharaSerif_16_M	\u000e\u0000\u0002\u0002\u0096\u0000To Giroppon, and step on it!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_15_M	{s[150]}Yikes! Uh-oh! CUT!{s[100]}
+CharaSerif_16_M	{s[150]}To Giroppon, and step on it!{s[100]}
 CharaSerif_17_M	Catch and release ya later!
 CharaSerif_18_M	What's our next step? Shall we return\nto Benteaux?
 CharaSerif_19_M	Yeah. I don't think I can focus on battle\nuntil I get some answers.
@@ -5725,7 +5725,7 @@ CharaSerif_33_M	We lost Jubay in our fight to bring sushi\nto the people.
 CharaSerif_34_M	He's really...dead...?
 CharaSerif_34_F	He's really...dead...?
 CharaSerif_35_M	Musashi!
-CharaSerif_36_M	\u000e\u0000\u0002\u0002\u0096\u0000Get a hold of yourself!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_36_M	{s[150]}Get a hold of yourself!{s[100]}
 CharaSerif_37_M	Huh? Jinrai?
 CharaSerif_37_F	Huh? Jinrai?
 CharaSerif_38_M	I'm sorry, Musashi.
@@ -5795,8 +5795,8 @@ CharaSerif_12_M	Leave him.
 CharaSerif_13_M	His grave disrespect for sushi has been\nbrought into the light.
 CharaSerif_14_M	No sushi sprite will pledge themselves to\nhim ever again.
 \event\stageEndM074.msbt
-CharaSerif_00_M	\u000e\u0000\u0002\u0002\u0096\u0000Aah! Don't scare me like that!\u000e\u0000\u0002\u0002d\u0000
-CharaSerif_00_F	\u000e\u0000\u0002\u0002\u0096\u0000Aah! Don't scare me like that!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_00_M	{s[150]}Aah! Don't scare me like that!{s[100]}
+CharaSerif_00_F	{s[150]}Aah! Don't scare me like that!{s[100]}
 CharaSerif_01_M	Oh, those must have been the local kids!\nHeeey! It's safe to come out!
 CharaSerif_01_F	Oh, those must have been the local kids!\nHeeey! It's safe to come out!
 CharaSerif_02_M	Are you from the Republic?
@@ -5808,7 +5808,7 @@ CharaSerif_04_F	Me and my pals are here to make sure you\ncan eat sushi whenever
 CharaSerif_05_M	Sushi for us?! Yaaaaay!
 CharaSerif_07_M	That's right. Allow me to lay out the plates.
 CharaSerif_08_M	Huh? You said we could have sushi.\nBut this is sushi we can't have!
-CharaSerif_09_M	\u000e\u0000\u0002\u0002\u0096\u0000It's all red! That's a no-no!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_09_M	{s[150]}It's all red! That's a no-no!{s[100]}
 CharaSerif_10_M	Huh? Did I miss something?!
 CharaSerif_10_F	Huh? Did I miss something?!
 CharaSerif_11_M	I don't understand. The youths usually love\nmy sushi.
@@ -5831,8 +5831,8 @@ CharaSerif_07_F	Where is she now? If you know, please\ngive me a straight answer
 CharaSerif_08_M	Cards on the table... I didn't actually\nknow your mom that well.
 CharaSerif_09_M	Awww. It was a worth a try.
 CharaSerif_09_F	Awww. It was a worth a try.
-CharaSerif_10_M	\u000e\u0000\u0002\u0002\u0096\u0000No! All wrong! CUT!\u000e\u0000\u0002\u0002d\u0000
-CharaSerif_11_M	\u000e\u0000\u0002\u0002\u0096\u0000To Giroppon, and step on it!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_10_M	{s[150]}No! All wrong! CUT!{s[100]}
+CharaSerif_11_M	{s[150]}To Giroppon, and step on it!{s[100]}
 CharaSerif_12_M	Catch and release ya later!
 CharaSerif_13_M	Mom...
 CharaSerif_13_F	Mom...
@@ -5843,13 +5843,13 @@ CharaSerif_01_M	Just remember this—you'll never beat me by\nshoveling forbidde
 CharaSerif_02_M	A thousand pardons, but the hour of your\nnext appointment draws near.
 CharaSerif_03_M	Oh! What a pity I can't stay longer. But I\nmustn't be late for my spa time.
 CharaSerif_04_M	All right, my wuvwies! You're in charge here\nwhile I'm away!
-CharaSerif_05_M	\u000e\u0000\u0002\u0002\u0096\u0000As you command, pwincess!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_05_M	{s[150]}As you command, pwincess!{s[100]}
 CharaSerif_06_M	Wow. They actually call her that...
 CharaSerif_06_F	Wow. They actually call her that...
 \event\stageEndM083.msbt
-CharaSerif_00_M	\u000e\u0000\u0002\u0002\u0096\u0000Not again! NOT AGAAAAAIN!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_00_M	{s[150]}Not again! NOT AGAAAAAIN!{s[100]}
 CharaSerif_01_M	You only won today because I LET you win.\nNext time, I won't be so nice!
-CharaSerif_02_M	\u000e\u0000\u0002\u0002\u0096\u0000Waaaaah!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_02_M	{s[150]}Waaaaah!{s[100]}
 CharaSerif_03_M	Is he...OK?
 CharaSerif_03_F	Is he...OK?
 \event\stageEndM084.msbt
@@ -5871,13 +5871,13 @@ CharaSerif_04_M	I've never seen it firsthand, or known anyone\nwho could do it, 
 CharaSerif_06_M	Huh. So my dad must've learned it after\njoining up with the Empire.
 CharaSerif_06_F	Huh. So my dad must've learned it after\njoining up with the Empire.
 CharaSerif_07_M	Hey, but here's a hot tip! There's an even\nMORE secret technique that can counter it!
-CharaSerif_08_M	\u000e\u0000\u0002\u0002\u0096\u0000What? Are you serious?!\u000e\u0000\u0002\u0002d\u0000
-CharaSerif_08_F	\u000e\u0000\u0002\u0002\u0096\u0000What? Are you serious?!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_08_M	{s[150]}What? Are you serious?!{s[100]}
+CharaSerif_08_F	{s[150]}What? Are you serious?!{s[100]}
 CharaSerif_09_M	It's a nifty trick. Y'see...
-CharaSerif_10_M	\u000e\u0000\u0002\u0002\u0096\u0000No! All wrong! CUT!\u000e\u0000\u0002\u0002d\u0000
-CharaSerif_11_M	\u000e\u0000\u0002\u0002\u0096\u0000Not again!\u000e\u0000\u0002\u0002d\u0000
-CharaSerif_11_F	\u000e\u0000\u0002\u0002\u0096\u0000Not again!\u000e\u0000\u0002\u0002d\u0000
-CharaSerif_12_M	\u000e\u0000\u0002\u0002\u0096\u0000To Giroppon, and step on it!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_10_M	{s[150]}No! All wrong! CUT!{s[100]}
+CharaSerif_11_M	{s[150]}Not again!{s[100]}
+CharaSerif_11_F	{s[150]}Not again!{s[100]}
+CharaSerif_12_M	{s[150]}To Giroppon, and step on it!{s[100]}
 CharaSerif_13_M	Catch and release ya later!
 CharaSerif_14_M	Hrrrrh. A secret counter technique?\nIt sounds far-fetched, but perhaps...
 \event\stageEndM092.msbt
@@ -5897,11 +5897,11 @@ CharaSerif_12_F	All right. I'm on it!
 CharaSerif_13_M	(This all feels strangely familiar...)
 CharaSerif_14_M	Wonderful! If it will help, you may have this\npledge plate.
 CharaSerif_15_M	You've befriended {c[91ff1e]}Kumaten{c[000000]}!\nIts skill is {c[91ff1e]}Double Shot{c[000000]}!
-CharaSerif_16_M	\u000e\u0000\u0002\u0002\u0096\u0000Pwincess! We're on our way!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_16_M	{s[150]}Pwincess! We're on our way!{s[100]}
 \event\stageEndM093.msbt
-CharaSerif_00_M	\u000e\u0000\u0002\u0002\u0096\u0000I lost! AGAIN! This SUUUCKS!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_00_M	{s[150]}I lost! AGAIN! This SUUUCKS!{s[100]}
 CharaSerif_01_M	That's another one you owe me, Musashi!\nI hate you I hate you I hate you I hate you!
-CharaSerif_02_M	\u000e\u0000\u0002\u0002\u0096\u0000Waaaaah!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_02_M	{s[150]}Waaaaah!{s[100]}
 CharaSerif_03_M	...I just don't get him.
 CharaSerif_03_F	...I just don't get him.
 \event\stageEndM094.msbt
@@ -5946,22 +5946,22 @@ CharaSerif_02_F	Jinrai...
 CharaSerif_03_M	I wasn't kidding about the corny lectures.
 CharaSerif_03_F	I wasn't kidding about the corny lectures.
 \event\stageEndM105.msbt
-CharaSerif_00_M	\u000e\u0000\u0002\u0002\u0096\u0000Argh! I can't ever win!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_00_M	{s[150]}Argh! I can't ever win!{s[100]}
 CharaSerif_01_M	Forget about that! Where is Franklin?
 CharaSerif_01_F	Forget about that! Where is Franklin?
 CharaSerif_02_M	Oh, that guy?
 CharaSerif_03_M	He's got a special room in the training\ntower up ahead.
 CharaSerif_04_M	Can you show me the way?
 CharaSerif_04_F	Can you show me the way?
-CharaSerif_05_M	\u000e\u0000\u0002\u0002\u0096\u0000As if! Why should I?!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_05_M	{s[150]}As if! Why should I?!{s[100]}
 CharaSerif_06_M	Kojiro... Has it occurred to you that perhaps\nthe Empire isn't where you belong?
 CharaSerif_07_M	Go back to your home and live peacefully.\nUnless you haven't had your fill of wasabi.
 CharaSerif_08_M	*sniffle* This isn't how any of this was\nsupposed to go...
-CharaSerif_09_M	\u000e\u0000\u0002\u0002\u0096\u0000Waaaaah!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_09_M	{s[150]}Waaaaah!{s[100]}
 CharaSerif_10_M	Fine! I'll show you there on my way out.\nBut only because it's on the way!
 CharaSerif_11_M	But...isn't our village in the complete\nopposite direction?
 CharaSerif_11_F	But...isn't our village in the complete\nopposite direction?
-CharaSerif_12_M	\u000e\u0000\u0002\u0002\u0096\u0000SHUT UP AND FOLLOW ME!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_12_M	{s[150]}SHUT UP AND FOLLOW ME!{s[100]}
 \event\stageEndM110.msbt
 CharaSerif_00_M	Hrrrh... We can't help him here.\nCarry him outside!
 CharaSerif_01_M	Hey, Kojiro! Gimme a hand?
@@ -5975,17 +5975,17 @@ CharaSerif_00_M	Heheh! Well? Had enough yet?
 CharaSerif_00_F	Heheh! Well? Had enough yet?
 CharaSerif_01_M	No way... I've got more gas in the tank...\nY-you'll see!
 CharaSerif_02_M	Musashi, look out!
-CharaSerif_03_M	\u000e\u0000\u0002\u0002\u0096\u0000I'LL GET YOU, MUSASHI!\u000e\u0000\u0002\u0002d\u0000
-CharaSerif_04_M	\u000e\u0000\u0002\u0002\u0096\u0000BACK OFF!\u000e\u0000\u0002\u0002d\u0000
-CharaSerif_04_F	\u000e\u0000\u0002\u0002\u0096\u0000BACK OFF!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_03_M	{s[150]}I'LL GET YOU, MUSASHI!{s[100]}
+CharaSerif_04_M	{s[150]}BACK OFF!{s[100]}
+CharaSerif_04_F	{s[150]}BACK OFF!{s[100]}
 CharaSerif_05_M	The fight's over, Kodiak. You might as well\nsit down and enjoy some sushi with me.
 CharaSerif_05_F	The fight's over, Kodiak. You might as well\nsit down and enjoy some sushi with me.
 CharaSerif_06_M	Doesn't that sound good?
 CharaSerif_06_F	Doesn't that sound good?
 CharaSerif_07_M	Enjoy it? Y-you mean...
-CharaSerif_08_M	\u000e\u0000\u0002\u0002\u0096\u0000Hah! Well, bless my soul.\u000e\u0000\u0002\u0002d\u0000
-CharaSerif_09_M	\u000e\u0000\u0002\u0002\u0096\u0000Franklin?!\u000e\u0000\u0002\u0002d\u0000
-CharaSerif_09_F	\u000e\u0000\u0002\u0002\u0096\u0000Franklin?!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_08_M	{s[150]}Hah! Well, bless my soul.{s[100]}
+CharaSerif_09_M	{s[150]}Franklin?!{s[100]}
+CharaSerif_09_F	{s[150]}Franklin?!{s[100]}
 CharaSerif_10_M	It's been a long time, young man.\nYou've certainly changed.
 CharaSerif_10_F	It's been a long time, young woman.\nYou've certainly changed.
 CharaSerif_11_M	Kodiak, can't we let bygones be bygones?\nAs he said, the fight's over.
@@ -5993,13 +5993,13 @@ CharaSerif_11_F	Kodiak, can't we let bygones be bygones?\nAs she said, the fight
 CharaSerif_12_M	Uh... Are you for real?
 CharaSerif_13_M	I know your story, Kodiak.
 CharaSerif_14_M	You used to savor each sushi one by one,\neating delicately and taking your time.
-CharaSerif_15_M	\u000e\u0000\u0002\u0002\u0096\u0000Wh-where did you—!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_15_M	{s[150]}Wh-where did you—!{s[100]}
 CharaSerif_16_M	But when people mocked you for it due to\nyour stature, you began to shovel your food.
 CharaSerif_17_M	You're right. I prefer to take my time, but\na general has to be seen as powerful.
 CharaSerif_18_M	Don't force yourself to be what you're not.\nIt brings only pain to you and your sushi.
 CharaSerif_19_M	And sushi shouldn't be painful. A sushi\ndinner is a joyous occasion!
 CharaSerif_20_M	I admit...I haven't done right by sushi.
-CharaSerif_21_M	\u000e\u0000\u0002\u0002\u0096\u0000My sincerest apologies!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_21_M	{s[150]}My sincerest apologies!{s[100]}
 CharaSerif_22_M	I'm relieved to finally drop the act and go\nback to eating tenderly, the way one ought.
 CharaSerif_23_M	Thank you for showing me the light,\nMusashi.
 \event\stageEndM111_After01.msbt
@@ -6017,8 +6017,8 @@ CharaSerif_05_M	Back then, you couldn't throw a rock without\nhitting a young, f
 CharaSerif_06_M	And trust me—people WERE throwing rocks!
 CharaSerif_07_M	You were there? What exactly did you do\nin the Sushi Struggles?
 CharaSerif_08_M	Who, me? Oh, you know. This and that.\nThe usual.
-CharaSerif_09_M	\u000e\u0000\u0002\u0002\u0096\u0000No! All wrong! CUT!\u000e\u0000\u0002\u0002d\u0000
-CharaSerif_10_M	\u000e\u0000\u0002\u0002\u0096\u0000To Giroppon, and step on it!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_09_M	{s[150]}No! All wrong! CUT!{s[100]}
+CharaSerif_10_M	{s[150]}To Giroppon, and step on it!{s[100]}
 CharaSerif_11_M	Catch and release ya later!
 CharaSerif_12_M	"The usual"? That doesn't explain anything!
 CharaSerif_12_F	"The usual"? That doesn't explain anything!
@@ -6094,9 +6094,9 @@ Text_Rate	Rating:
 Text_GetItem	Reward
 Text_GachiRatingBattle	Rated Battle
 Text_ItemNone	None
-Win_GachiRetry	Try another Tasteful Battle\nagainst \u000e\u0001\u0010\u0000?
-Win_GachiRatingRetry	Try another Rated Battle\nagainst \u000e\u0001\u0010\u0000?
-Win_VarietyRetry	Try another Chaos Battle\nagainst \u000e\u0001\u0010\u0000?
+Win_GachiRetry	Try another Tasteful Battle\nagainst \x0e\x01\x10\0?
+Win_GachiRatingRetry	Try another Rated Battle\nagainst \x0e\x01\x10\0?
+Win_VarietyRetry	Try another Chaos Battle\nagainst \x0e\x01\x10\0?
 Win_EnemyExit	Your opponent quit the battle.
 \scene\scene_battledata.msbt
 BattleDataSceneCommentary	Skill
@@ -6145,10 +6145,10 @@ Text_GetItem	Reward
 Text_BattleResult	Battle Results
 Text_StarBonus	Got Bonus x%d
 Win_GetFavPower00	Ate your fill!
-Win_GetFavPower01	The Raw Power {c[91ff1e]}\u000e\u0001\u000f\u0000{c[000000]} \ncourses through you!
+Win_GetFavPower01	The Raw Power {c[91ff1e]}\x0e\x01\x0f\0{c[000000]} \ncourses through you!
 Win_GetFavPowerTitle	New Raw Power!
-Label_ExStage_Advent	Clearing the area and getting\n40 stars has opened the\n{c[006e00]}\u000e\u0001\u0013\u0000 {c[000000]}{c[dc0000]}hidden stages{c[000000]}!
-Label_ExStage30_Advent	Clearing the area and getting\n30 stars has opened the\n{c[006e00]}\u000e\u0001\u0013\u0000 {c[000000]}{c[dc0000]}hidden stages{c[000000]}!
+Label_ExStage_Advent	Clearing the area and getting\n40 stars has opened the\n{c[006e00]}\x0e\x01\x13\0 {c[000000]}{c[dc0000]}hidden stages{c[000000]}!
+Label_ExStage30_Advent	Clearing the area and getting\n30 stars has opened the\n{c[006e00]}\x0e\x01\x13\0 {c[000000]}{c[dc0000]}hidden stages{c[000000]}!
 \scene\scene_cmn.msbt
 Label_AreaNumber	Area %ls
 Btn_Next	Next
@@ -6357,10 +6357,10 @@ TxtItemImportant	Key Items
 TxtItemNum	On Hand
 TxtItemNothing	You don't have any items.
 TxtWho	Who gets it?
-WinTxt_UseItemPlayer	Use {c[006e00]}\u000e\u0001\u000b\u0000{c[000000]}\non Musashi?
-WinTxt_SetReadyItem01	Set {c[006e00]}\u000e\u0001\u000b\u0000{c[000000]}\nas your prepared item?
-WinTxt_SetReadyItem02	Swap {c[006e00]}\u000e\u0001\u000b\u0000{c[000000]} with {c[dc0000]}\u000e\u0001\u000c\u0000{c[000000]}\nas your prepared item?
-WinTxt_RemoveReadyItem	Remove {c[006e00]}\u000e\u0001\u000b\u0000\n{c[000000]}as your prepared item?
+WinTxt_UseItemPlayer	Use {c[006e00]}\x0e\x01\x0b\0{c[000000]}\non Musashi?
+WinTxt_SetReadyItem01	Set {c[006e00]}\x0e\x01\x0b\0{c[000000]}\nas your prepared item?
+WinTxt_SetReadyItem02	Swap {c[006e00]}\x0e\x01\x0b\0{c[000000]} with {c[dc0000]}\x0e\x01\x0c\0{c[000000]}\nas your prepared item?
+WinTxt_RemoveReadyItem	Remove {c[006e00]}\x0e\x01\x0b\0\n{c[000000]}as your prepared item?
 \scene\scene_menumydata.msbt
 TxtSceneName	Striker Specs
 TxtNextLv	To next level
@@ -6416,7 +6416,7 @@ DishColorName05	{c[fd592b]}①{c[000000]}
 DishColorName06	{c[d4e9ec]}①{c[000000]}
 DishColorName07	{c[6a6c49]}①{c[000000]}
 DishColorName08	{c[f0e8a5]}①{c[000000]}
-DishColorNameRainbow	\u000e\u0000\u0003\u0004\u00fc\u00fc\u00fc\u0000①{c[000000]}
+DishColorNameRainbow	\x0e\0\x03\x04\xfc\xfc\xfc\0①{c[000000]}
 GraphicText_VS	VS.
 Text_Live	LIVE
 Text_Win	Win
@@ -7749,4 +7749,4 @@ Label_SushiLiker_Rank	Striker Rank
 \scene\scene_title.msbt
 Label_Start	Start
 Label_HomeMsg	\ue073: Return to HOME Menu
-Label_Credit	\u00a9 2018 Nintendo. Co-Developed by indieszero Co., Ltd.
+Label_Credit	\xa9 2018 Nintendo. Co-Developed by indieszero Co., Ltd.

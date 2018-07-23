@@ -865,100 +865,100 @@ GodInfo_God145	カラスの{r[すがた]}姿{/r}をとったスシガミ。\n{r[
 GodInfo_God146	{r[ゆうぐ]}夕暮{/r}れが{r[ちかづ]}近付{/r}くと、{r[も]}燃{/r}えるような{r[あつ]}熱{/r}い\nラブソングを{r[うた]}歌{/r}いたくなってしまう。
 GodInfo_God148	{r[めいかい]}冥界{/r}の{r[かみ]}神{/r}の{r[すがた]}姿{/r}をとったスシガミ。\n{r[ほうたい]}包帯{/r}を{r[ま]}巻{/r}かせれば、{r[みぎ]}右{/r}に{r[で]}出{/r}る{r[もの]}者{/r}はいない。
 \database\database_godSkillInfo.msbt
-GodSkillInfo_Double	{r[いっていかいすう]}一定回数{/r}、シュートが２つに{r[ぶんれつ]}分裂{/r}し\n\u000e\u0001\u0005\u0000２{r[ばいきょうりょく]}倍強力{/r}\u000f\u0001\u0005な{r[こうげき]}攻撃{/r}になる！
-GodSkillEffective_Double	{r[こうかかいすう]}効果回数{/r}：\u000e\u0001\u0006\u0000{r[かい]}回{/r}
-GodSkillInfo_ShockShoot	{r[いっていじかん]}一定時間{/r}、シュートする{r[さら]}皿{/r}が{r[でんげき]}電撃{/r}に\nつつまれて\u000e\u0001\u0005\u0000{r[こうげきりょく]}攻撃力{/r}\u000f\u0001\u0005が\u000e\u0001\u0005\u0000アップ\u000f\u0001\u0005！
-GodSkillEffective_ShockShoot	{r[こうかじかん]}効果時間{/r}：\u000e\u0001\u0007\u0000{r[びょう]}秒{/r}
-GodSkillInfo_SoulShoot	{r[いっていじかん]}一定時間{/r}、{r[じぶん]}自分{/r}の\u000e\u0001\u0005\u0000HPをけずって\u000f\u0001\u0005\n\u000e\u0001\u0005\u0000{r[〿〿きょうりょく]}強力{/r}\u000f\u0001\u0005な\u000e\u0001\u0005\u0000シュート\u000f\u0001\u0005をうてる！
-GodSkillEffective_SoulShoot	シュート{r[こうげきりょく]}攻撃力{/r}：\u000e\u0001\u0008\u0000{r[ばい]}倍{/r}
-GodSkillInfo_DishAtkUp	９{r[びょうかん]}秒間{/r}、シュートによって\n\u000e\u0001\u0005\u0000{r[てき]}敵{/r}のつみ{r[ざら]}皿{/r}を{r[わ]}割{/r}る\u000f\u0001\u0005{r[ちから]}力{/r}がアップ！
-GodSkillEffective_DishAtkUp	{r[こうか]}効果{/r}：\u000e\u0001\t\u0000{r[ばい]}倍{/r}
-GodSkillInfo_FesHunt	{r[いっていじかん]}一定時間{/r}、{r[てき]}敵{/r}にシュートを{r[あ]}当{/r}てると\n\u000e\u0001\u0005\u0000{r[まつ]}祭{/r}りゲージ\u000f\u0001\u0005を\u000e\u0001\u0005\u0000うばいとれる\u000f\u0001\u0005！
-GodSkillEffective_FesHunt	{r[こうかじかん]}効果時間{/r}：\u000e\u0001\u0007\u0000{r[びょう]}秒{/r}
-GodSkillInfo_TableBreak	{r[てき]}敵{/r}の\u000e\u0001\u0005\u0000テーブル\u000f\u0001\u0005に{r[おお]}大{/r}きな{r[や]}矢{/r}が{r[ひらい]}飛来{/r}し、\n\u000e\u0001\u0005\u0000つみ{r[ざら]}皿{/r}\u000f\u0001\u0005をすべて\u000e\u0001\u0005\u0000{r[はかい]}破壊{/r}する\u000f\u0001\u0005！
-GodSkillEffective_TableBreak	{r[はつどう]}発動{/r}に{r[ひつよう]}必要{/r}な{r[さらすう]}皿数{/r}：\u000e\u0001\n\u0000{r[さら]}皿{/r}
-GodSkillInfo_DirectAttack	{r[てき]}敵{/r}の\u000e\u0001\u0005\u0000{r[ずじょう]}頭上{/r}\u000f\u0001\u0005に{r[おお]}大{/r}きな{r[や]}矢{/r}を{r[お]}落{/r}とし、\n\u000e\u0001\u0005\u0000{r[ちょくせつ]}直接{/r}ダメージ\u000f\u0001\u0005を{r[あた]}与{/r}える！
-GodSkillEffective_DirectAttack	{r[こうか]}効果{/r}ダメージ{r[りょう]}量{/r}：\u000e\u0001\u0008\u0000
-GodSkillInfo_ShockShoot2	{r[いっていじかん]}一定時間{/r}、シュートする{r[さら]}皿{/r}が{r[かみなり]}雷{/r}を\nおびて\u000e\u0001\u0005\u0000{r[こうげきりょく]}攻撃力{/r}\u000f\u0001\u0005が\u000e\u0001\u0005\u0000{r[おお]}大{/r}きくアップ\u000f\u0001\u0005！
-GodSkillInfo_100Free	{r[じぶん]}自分{/r}のレーンにあるスシ{r[ざら]}皿{/r}が\u000e\u0001\u0005\u0000すべて\u000f\u0001\u0005\n\u000e\u0001\u0005\u0000{r[おな]}同{/r}じ{r[とくべつしょく]}特別色{/r}\u000f\u0001\u0005に{r[へんか]}変化{/r}。\u000e\u0001\u0005\u0000つなげ{r[ほうだい]}放題{/r}\u000f\u0001\u0005に！
-GodSkillEffective_100Free	{r[はつどう]}発動{/r}に{r[ひつよう]}必要{/r}な{r[さらすう]}皿数{/r}：\u000e\u0001\n\u0000{r[さら]}皿{/r}
-GodSkillInfo_EatMyway	{r[いっていじかん]}一定時間{/r}、\u000e\u0001\u0005\u0000{r[たしょく]}他色{/r}の{r[さら]}皿{/r}にジャマされず\u000f\u0001\u0005\nに\u000e\u0001\u0005\u0000スシをつなぐ\u000f\u0001\u0005ことができる！
-GodSkillEffective_EatMyway	{r[こうかじかん]}効果時間{/r}：\u000e\u0001\u0007\u0000{r[びょう]}秒{/r}
-GodSkillInfo_EatVacuum	{r[いっていじかん]}一定時間{/r}、スシの\u000e\u0001\u0005\u0000{r[さらいろ]}皿色{/r}に{r[かんけい]}関係{/r}なく\u000f\u0001\u0005\nすべてのスシが\u000e\u0001\u0005\u0000つなげ{r[ほうだい]}放題{/r}\u000f\u0001\u0005に！
-GodSkillEffective_EatVacuum	{r[こうかじかん]}効果時間{/r}：\u000e\u0001\u0007\u0000{r[びょう]}秒{/r}
-GodSkillInfo_AddInsidiouslyDish	{r[いっていじかん]}一定時間{/r}、スシをつないだ{r[とき]}時{/r}に\n\u000e\u0001\u0005\u0000いつのまにか３{r[まいついか]}枚追加{/r}\u000f\u0001\u0005される！
-GodSkillEffective_AddInsidiouslyDish	{r[こうかじかん]}効果時間{/r}：\u000e\u0001\u0007\u0000{r[びょう]}秒{/r}
-GodSkillInfo_DishRankEne	{r[いっていじかん]}一定時間{/r}、\u000e\u0001\u0005\u0000{r[てき]}敵{/r}のほこら\u000f\u0001\u0005から{r[で]}出{/r}る\nスシの\u000e\u0001\u0005\u0000{r[さらいろ]}皿色{/r}が１{r[だんかい]}段階{/r}ダウン\u000f\u0001\u0005する！
-GodSkillEffective_DishRankEne	{r[こうかじかん]}効果時間{/r}：\u000e\u0001\u0007\u0000{r[びょう]}秒{/r}
-GodSkillInfo_SushiDisappear	{r[いっていじかん]}一定時間{/r}、\u000e\u0001\u0005\u0000{r[てき]}敵{/r}のほこら\u000f\u0001\u0005から{r[で]}出{/r}る\n{r[さら]}皿{/r}から\u000e\u0001\u0005\u0000スシが{r[き]}消{/r}える\u000f\u0001\u0005！
-GodSkillEffective_SushiDisappear	{r[こうかじかん]}効果時間{/r}：\u000e\u0001\u0007\u0000{r[びょう]}秒{/r}
-GodSkillInfo_LaneHighClass	{r[いっていじかん]}一定時間{/r}、\u000e\u0001\u0005\u0000{r[じぶん]}自分{/r}のほこら\u000f\u0001\u0005から{r[で]}出{/r}る\n{r[さら]}皿{/r}に\u000e\u0001\u0005\u0000{r[こう]}高{/r}グレードの{r[さら]}皿{/r}が{r[ふ]}増{/r}える\u000f\u0001\u0005！
-GodSkillEffective_LaneHighClass	{r[こうかじかん]}効果時間{/r}：\u000e\u0001\u0007\u0000{r[びょう]}秒{/r}
-GodSkillInfo_ComboBonus	10{r[びょうかん]}秒間{/r}、\u000e\u0001\u0005\u0000コンボによる\u000f\u0001\u0005ダメージの\n\u000e\u0001\u0005\u0000ボーナスが{r[ふ]}増{/r}える\u000f\u0001\u0005！
-GodSkillEffective_ComboBonus	{r[こうか]}効果{/r}：\u000e\u0001\u0008\u0000{r[ばい]}倍{/r}
-GodSkillInfo_LaneFill	{r[じぶん]}自分{/r}のレーンにあるスキマを\nすべて\u000e\u0001\u0005\u0000スシで{r[う]}埋{/r}める\u000f\u0001\u0005！
-GodSkillEffective_LaneFill	{r[はつどう]}発動{/r}に{r[ひつよう]}必要{/r}な{r[さらすう]}皿数{/r}：\u000e\u0001\n\u0000{r[さら]}皿{/r}
-GodSkillInfo_DamageReflection	{r[じぶん]}自分{/r}が{r[つぎ]}次{/r}に{r[さら]}皿{/r}ダメージを{r[う]}受{/r}けると、\n\u000e\u0001\u0005\u0000１{r[かい]}回{/r}だけ\u000f\u0001\u0005{r[あいて]}相手{/r}に\u000e\u0001\u0005\u0000しっぺ{r[がえ]}返{/r}し\u000f\u0001\u0005する！
-GodSkillEffective_DamageReflection	{r[はんげきこうか]}反撃効果{/r}：\u000e\u0001\u0008\u0000{r[ばい]}倍{/r}
-GodSkillInfo_Skeleton	{r[いっていじかん]}一定時間{/r}、{r[じぶん]}自分{/r}の{r[からだ]}体{/r}が\u000e\u0001\u0005\u0000{r[とうめい]}透明{/r}\u000f\u0001\u0005になり、\n\u000e\u0001\u0005\u0000{r[てき]}敵{/r}の{r[こうげき]}攻撃{/r}\u000f\u0001\u0005が\u000e\u0001\u0005\u0000{r[あ]}当{/r}たらなく\u000f\u0001\u0005なる！
-GodSkillEffective_Skeleton	{r[こうかじかん]}効果時間{/r}：\u000e\u0001\u0007\u0000{r[びょう]}秒{/r}
-GodSkillInfo_LightClothes	{r[いっていじかん]}一定時間{/r}、\u000e\u0001\u0005\u0000サーモン\u000f\u0001\u0005や\u000e\u0001\u0005\u0000まぐろ\u000f\u0001\u0005を{r[ふく]}含{/r}む\nつみ{r[ざら]}皿{/r}から\u000e\u0001\u0005\u0000ダメージ\u000f\u0001\u0005を\u000e\u0001\u0005\u0000{r[う]}受{/r}けなく\u000f\u0001\u0005なる
-GodSkillInfo_BarrierShield	{r[いっていじかん]}一定時間{/r}、{r[め]}目{/r}の{r[まえ]}前{/r}に\u000e\u0001\u0005\u0000バリア\u000f\u0001\u0005が{r[しゅつげん]}出現{/r}！\n{r[てき]}敵{/r}からの\u000e\u0001\u0005\u0000{r[さら]}皿{/r}ダメージ\u000f\u0001\u0005を\u000e\u0001\u0005\u0000{r[けいげん]}軽減{/r}\u000f\u0001\u0005する！
-GodSkillEffective_BarrierShield	{r[こうかじかん]}効果時間{/r}：\u000e\u0001\u0007\u0000{r[びょう]}秒{/r}
-GodSkillInfo_RobSheld	{r[いっていじかん]}一定時間{/r}、{r[てき]}敵{/r}がシュートしてきた\n{r[さら]}皿{/r}を\u000e\u0001\u0005\u0000{r[じぶん]}自分{/r}のものにしてしまう\u000f\u0001\u0005！
-GodSkillEffective_RobSheld	{r[こうかじかん]}効果時間{/r}：\u000e\u0001\u0007\u0000{r[びょう]}秒{/r}
-GodSkillInfo_SweetsHeaven	{r[じぶん]}自分{/r}のレーンに\u000e\u0001\u0005\u0000スイーツ\u000f\u0001\u0005が{r[しゅつげん]}出現{/r}！\n\u000e\u0001\u0005\u0000タッチ\u000f\u0001\u0005で{r[た]}食{/r}べて\u000e\u0001\u0005\u0000HPを{r[かいふく]}回復{/r}\u000f\u0001\u0005できる！
-GodSkillEffective_SweetsHeaven	{r[しゅつげん]}出現{/r}スイーツレベル：\u000e\u0001\u0008\u0000
-GodSkillInfo_FruitsParadise	{r[いっていじかん]}一定時間{/r}、ほこらから{r[で]}出{/r}る\u000e\u0001\u0005\u0000{r[さら]}皿{/r}が{r[ぜんぶ]}全部{/r}\u000f\u0001\u0005\n\u000e\u0001\u0005\u0000{r[かいふく]}回復{/r}\u000f\u0001\u0005{r[こうか]}効果{/r}を{r[も]}持{/r}つ\u000e\u0001\u0005\u0000フルーツ\u000f\u0001\u0005になる！
-GodSkillEffective_FruitsParadise	{r[こうかじかん]}効果時間{/r}：\u000e\u0001\u0007\u0000{r[びょう]}秒{/r}
-GodSkillInfo_LifeHunter	{r[いっていじかん]}一定時間{/r}、{r[てき]}敵{/r}にシュートを{r[あ]}当{/r}てると\n\u000e\u0001\u0005\u0000HP\u000f\u0001\u0005を\u000e\u0001\u0005\u0000うばいとれる\u000f\u0001\u0005！
-GodSkillEffective_LifeHunter	{r[こうかじかん]}効果時間{/r}：\u000e\u0001\u0007\u0000{r[びょう]}秒{/r}
-GodSkillInfo_TableDishLifeup	テーブルにある\u000e\u0001\u0005\u0000{r[さら]}皿{/r}\u000f\u0001\u0005を{r[ぜんぶ]}全部{/r}\u000e\u0001\u0005\u0000エネルギー\nに{r[か]}変{/r}えて\u000f\u0001\u0005、\u000e\u0001\u0005\u0000HPを{r[かいふく]}回復{/r}\u000f\u0001\u0005する！
-GodSkillEffective_TableDishLifeup	{r[かいふくこうか]}回復効果{/r}：\u000e\u0001\u0008\u0000{r[ばい]}倍{/r}
-GodSkillInfo_SkillCharge	{r[いっていじかん]}一定時間{/r}、\u000e\u0001\u0005\u0000スキルゲージ\u000f\u0001\u0005の{r[あ]}上{/r}がり{r[かた]}方{/r}\nが\u000e\u0001\u0005\u0000３{r[ばい]}倍{/r}\u000f\u0001\u0005になる！
-GodSkillEffective_SkillCharge	{r[こうかじかん]}効果時間{/r}：\u000e\u0001\u0007\u0000{r[びょう]}秒{/r}
-GodSkillInfo_SkillGaugeHunt	{r[いっていじかん]}一定時間{/r}、{r[てき]}敵{/r}にシュートを{r[あ]}当{/r}てると\n\u000e\u0001\u0005\u0000スキルゲージ\u000f\u0001\u0005を\u000e\u0001\u0005\u0000うばいとれる\u000f\u0001\u0005！
-GodSkillEffective_SkillGaugeHunt	{r[こうかじかん]}効果時間{/r}：\u000e\u0001\u0007\u0000{r[びょう]}秒{/r}
-GodSkillInfo_SkillCopy	{r[てき]}敵{/r}が\u000e\u0001\u0005\u0000{r[ちょくぜん]}直前{/r}に{r[つか]}使{/r}ったスキル\u000f\u0001\u0005を、\nコピーして{r[つか]}使{/r}える！
-GodSkillEffective_SkillCopy	{r[はつどう]}発動{/r}に{r[ひつよう]}必要{/r}な{r[さらすう]}皿数{/r}：\u000e\u0001\n\u0000{r[さら]}皿{/r}
-GodSkillInfo_SkillTerminate	{r[はつどうじ]}発動時{/r}に\u000e\u0001\u0005\u0000{r[じぶん]}自分{/r}と{r[てき]}敵{/r}\u000f\u0001\u0005にかかっていた\n\u000e\u0001\u0005\u0000スキル{r[こうか]}効果{/r}を{r[け]}消{/r}してしまう\u000f\u0001\u0005！
-GodSkillEffective_SkillTerminate	{r[はつどう]}発動{/r}に{r[ひつよう]}必要{/r}な{r[さらすう]}皿数{/r}：\u000e\u0001\n\u0000{r[さら]}皿{/r}
-GodSkillInfo_SkillUseNgAll	{r[いっていじかん]}一定時間{/r}、\u000e\u0001\u0005\u0000{r[りょうしゃ]}両者{/r}\u000f\u0001\u0005のスキルの\n\u000e\u0001\u0005\u0000{r[はつどう]}発動{/r}\u000f\u0001\u0005をすべて\u000e\u0001\u0005\u0000{r[ふう]}封{/r}じる\u000f\u0001\u0005！
-GodSkillEffective_SkillUseNgAll	{r[こうかじかん]}効果時間{/r}：\u000e\u0001\u0007\u0000{r[びょう]}秒{/r}
-GodSkillInfo_SkillUseNgEne	{r[いっていじかん]}一定時間{/r}、\u000e\u0001\u0005\u0000{r[てき]}敵{/r}\u000f\u0001\u0005のスキルの\n\u000e\u0001\u0005\u0000{r[はつどう]}発動{/r}\u000f\u0001\u0005をすべて\u000e\u0001\u0005\u0000{r[ふう]}封{/r}じる\u000f\u0001\u0005！
-GodSkillEffective_SkillUseNgEne	{r[こうかじかん]}効果時間{/r}：\u000e\u0001\u0007\u0000{r[びょう]}秒{/r}
-GodSkillInfo_HpChange	{r[はつどう]}発動{/r}すると、\u000e\u0001\u0005\u0000{r[じぶん]}自分{/r}と{r[てき]}敵{/r}の{r[げんざい]}現在{/r}HP\u000f\u0001\u0005を\n\u000e\u0001\u0005\u0000{r[い]}入{/r}れ{r[か]}替{/r}えてしまう\u000f\u0001\u0005！
-GodSkillEffective_HpChange	{r[はつどう]}発動{/r}に{r[ひつよう]}必要{/r}な{r[さらすう]}皿数{/r}：\u000e\u0001\n\u0000{r[さら]}皿{/r}
-GodSkillInfo_EnemyLaneSpd	{r[いっていじかん]}一定時間{/r}、\u000e\u0001\u0005\u0000{r[てき]}敵{/r}レーン\u000f\u0001\u0005のスピードを\n\u000e\u0001\u0005\u0000３{r[ばいそく]}倍速{/r}\u000f\u0001\u0005にする！
-GodSkillEffective_EnemyLaneSpd	{r[こうかじかん]}効果時間{/r}：\u000e\u0001\u0007\u0000{r[びょう]}秒{/r}
-GodSkillInfo_LaneSpdAll	{r[いっていじかん]}一定時間{/r}、\u000e\u0001\u0005\u0000{r[りょうしゃ]}両者{/r}のレーン\u000f\u0001\u0005のスピード\nを\u000e\u0001\u0005\u0000２{r[ばいそく]}倍速{/r}\u000f\u0001\u0005にする！
-GodSkillEffective_LaneSpdAll	{r[こうかじかん]}効果時間{/r}：\u000e\u0001\u0007\u0000{r[びょう]}秒{/r}
-GodSkillInfo_CmnMonopoly	{r[いっていじかん]}一定時間{/r}、{r[てき]}敵{/r}からは\u000e\u0001\u0005\u0000{r[きょうつう]}共通{/r}レーン\u000f\u0001\u0005が\n{r[み]}見{/r}えなくなり、\u000e\u0001\u0005\u0000{r[じぶん]}自分{/r}が{r[どくせん]}独占{/r}\u000f\u0001\u0005できる！
-GodSkillEffective_CmnMonopoly	{r[こうかじかん]}効果時間{/r}：\u000e\u0001\u0007\u0000{r[びょう]}秒{/r}
-GodSkillInfo_ShrineBlind	{r[いっていじかん]}一定時間{/r}、\u000e\u0001\u0005\u0000{r[てき]}敵{/r}の{r[かく]}各{/r}レーンに{r[かべ]}壁{/r}\u000f\u0001\u0005が\n{r[の]}伸{/r}びて、\u000e\u0001\u0005\u0000スシを{r[み]}見{/r}えにくく\u000f\u0001\u0005する！
-GodSkillEffective_ShrineBlind	{r[こうかじかん]}効果時間{/r}：\u000e\u0001\u0007\u0000{r[びょう]}秒{/r}
-GodSkillInfo_Oke	{r[いっていじかん]}一定時間{/r}、\u000e\u0001\u0005\u0000{r[てき]}敵{/r}レーン\u000f\u0001\u0005に\u000e\u0001\u0005\u0000じゃま\u000f\u0001\u0005な\n\u000e\u0001\u0005\u0000オケ\u000f\u0001\u0005がどんどん{r[で]}出{/r}てくる！
-GodSkillEffective_Oke	オケ{r[しゅつげんりつ]}出現率{/r}：\u000e\u0001\u0008\u0000％
-GodSkillInfo_Wasabi	{r[いっていじかん]}一定時間{/r}、\u000e\u0001\u0005\u0000{r[てき]}敵{/r}レーン\u000f\u0001\u0005に\u000e\u0001\u0005\u0000ワサビ\u000f\u0001\u0005の\n\u000e\u0001\u0005\u0000{r[やまも]}山盛{/r}り{r[ざら]}皿{/r}\u000f\u0001\u0005をまぎれこませる！
-GodSkillEffective_Wasabi	ワサビ{r[こんにゅうりつ]}混入率{/r}：\u000e\u0001\u0008\u0000％
-GodSkillInfo_NgAutoShoot	{r[いっていじかん]}一定時間{/r}、{r[てき]}敵{/r}の\u000e\u0001\u0005\u0000{r[じどう]}自動{/r}シュートを{r[ふういん]}封印{/r}\u000f\u0001\u0005\nあふれた{r[さら]}皿{/r}は\u000e\u0001\u0005\u0000{r[き]}消{/r}えてしまう\u000f\u0001\u0005！
-GodSkillEffective_NgAutoShoot	{r[こうかじかん]}効果時間{/r}：\u000e\u0001\u0007\u0000{r[びょう]}秒{/r}
-GodSkillInfo_SushiShuffleer	\u000e\u0001\u0005\u0000{r[てき]}敵{/r}レーンにあるスシ\u000f\u0001\u0005を、\nすべて\u000e\u0001\u0005\u0000シャッフルしてしまう\u000f\u0001\u0005！
-GodSkillEffective_SushiShuffleer	{r[はつどう]}発動{/r}に{r[ひつよう]}必要{/r}な{r[さらすう]}皿数{/r}：\u000e\u0001\n\u0000{r[さら]}皿{/r}
-GodSkillInfo_YoursIsMine	{r[いっていじかん]}一定時間{/r}、\u000e\u0001\u0005\u0000{r[てき]}敵{/r}レーン\u000f\u0001\u0005で\n\u000e\u0001\u0005\u0000スシをつなぐことができる\u000f\u0001\u0005！
-GodSkillInfo_DishInvisible	{r[いっていじかん]}一定時間{/r}、\u000e\u0001\u0005\u0000{r[てき]}敵{/r}レーン\u000f\u0001\u0005にある\n\u000e\u0001\u0005\u0000スシ{r[ざら]}皿{/r}の{r[み]}見{/r}た{r[め]}目{/r}\u000f\u0001\u0005だけ\u000e\u0001\u0005\u0000{r[ま]}真{/r}っ{r[くろ]}黒{/r}に\u000f\u0001\u0005なる！
-GodSkillEffective_DishInvisible	{r[こうかじかん]}効果時間{/r}：\u000e\u0001\u0007\u0000{r[びょう]}秒{/r}
-GodSkillInfo_BombSend	{r[いっていじかん]}一定時間{/r}、{r[てき]}敵{/r}レーンに\n\u000e\u0001\u0005\u0000ボムカプセル\u000f\u0001\u0005をまぎれこませる！
+GodSkillInfo_Double	{r[いっていかいすう]}一定回数{/r}、シュートが２つに{r[ぶんれつ]}分裂{/r}し\n{b}２{r[ばいきょうりょく]}倍強力{/r}{/b}な{r[こうげき]}攻撃{/r}になる！
+GodSkillEffective_Double	{r[こうかかいすう]}効果回数{/r}：\x0e\x01\x06\0{r[かい]}回{/r}
+GodSkillInfo_ShockShoot	{r[いっていじかん]}一定時間{/r}、シュートする{r[さら]}皿{/r}が{r[でんげき]}電撃{/r}に\nつつまれて{b}{r[こうげきりょく]}攻撃力{/r}{/b}が{b}アップ{/b}！
+GodSkillEffective_ShockShoot	{r[こうかじかん]}効果時間{/r}：\x0e\x01\x07\0{r[びょう]}秒{/r}
+GodSkillInfo_SoulShoot	{r[いっていじかん]}一定時間{/r}、{r[じぶん]}自分{/r}の{b}HPをけずって{/b}\n{b}{r[〿〿きょうりょく]}強力{/r}{/b}な{b}シュート{/b}をうてる！
+GodSkillEffective_SoulShoot	シュート{r[こうげきりょく]}攻撃力{/r}：\x0e\x01\x08\0{r[ばい]}倍{/r}
+GodSkillInfo_DishAtkUp	９{r[びょうかん]}秒間{/r}、シュートによって\n{b}{r[てき]}敵{/r}のつみ{r[ざら]}皿{/r}を{r[わ]}割{/r}る{/b}{r[ちから]}力{/r}がアップ！
+GodSkillEffective_DishAtkUp	{r[こうか]}効果{/r}：\x0e\x01\t\0{r[ばい]}倍{/r}
+GodSkillInfo_FesHunt	{r[いっていじかん]}一定時間{/r}、{r[てき]}敵{/r}にシュートを{r[あ]}当{/r}てると\n{b}{r[まつ]}祭{/r}りゲージ{/b}を{b}うばいとれる{/b}！
+GodSkillEffective_FesHunt	{r[こうかじかん]}効果時間{/r}：\x0e\x01\x07\0{r[びょう]}秒{/r}
+GodSkillInfo_TableBreak	{r[てき]}敵{/r}の{b}テーブル{/b}に{r[おお]}大{/r}きな{r[や]}矢{/r}が{r[ひらい]}飛来{/r}し、\n{b}つみ{r[ざら]}皿{/r}{/b}をすべて{b}{r[はかい]}破壊{/r}する{/b}！
+GodSkillEffective_TableBreak	{r[はつどう]}発動{/r}に{r[ひつよう]}必要{/r}な{r[さらすう]}皿数{/r}：\x0e\x01\n\0{r[さら]}皿{/r}
+GodSkillInfo_DirectAttack	{r[てき]}敵{/r}の{b}{r[ずじょう]}頭上{/r}{/b}に{r[おお]}大{/r}きな{r[や]}矢{/r}を{r[お]}落{/r}とし、\n{b}{r[ちょくせつ]}直接{/r}ダメージ{/b}を{r[あた]}与{/r}える！
+GodSkillEffective_DirectAttack	{r[こうか]}効果{/r}ダメージ{r[りょう]}量{/r}：\x0e\x01\x08\0
+GodSkillInfo_ShockShoot2	{r[いっていじかん]}一定時間{/r}、シュートする{r[さら]}皿{/r}が{r[かみなり]}雷{/r}を\nおびて{b}{r[こうげきりょく]}攻撃力{/r}{/b}が{b}{r[おお]}大{/r}きくアップ{/b}！
+GodSkillInfo_100Free	{r[じぶん]}自分{/r}のレーンにあるスシ{r[ざら]}皿{/r}が{b}すべて{/b}\n{b}{r[おな]}同{/r}じ{r[とくべつしょく]}特別色{/r}{/b}に{r[へんか]}変化{/r}。{b}つなげ{r[ほうだい]}放題{/r}{/b}に！
+GodSkillEffective_100Free	{r[はつどう]}発動{/r}に{r[ひつよう]}必要{/r}な{r[さらすう]}皿数{/r}：\x0e\x01\n\0{r[さら]}皿{/r}
+GodSkillInfo_EatMyway	{r[いっていじかん]}一定時間{/r}、{b}{r[たしょく]}他色{/r}の{r[さら]}皿{/r}にジャマされず{/b}\nに{b}スシをつなぐ{/b}ことができる！
+GodSkillEffective_EatMyway	{r[こうかじかん]}効果時間{/r}：\x0e\x01\x07\0{r[びょう]}秒{/r}
+GodSkillInfo_EatVacuum	{r[いっていじかん]}一定時間{/r}、スシの{b}{r[さらいろ]}皿色{/r}に{r[かんけい]}関係{/r}なく{/b}\nすべてのスシが{b}つなげ{r[ほうだい]}放題{/r}{/b}に！
+GodSkillEffective_EatVacuum	{r[こうかじかん]}効果時間{/r}：\x0e\x01\x07\0{r[びょう]}秒{/r}
+GodSkillInfo_AddInsidiouslyDish	{r[いっていじかん]}一定時間{/r}、スシをつないだ{r[とき]}時{/r}に\n{b}いつのまにか３{r[まいついか]}枚追加{/r}{/b}される！
+GodSkillEffective_AddInsidiouslyDish	{r[こうかじかん]}効果時間{/r}：\x0e\x01\x07\0{r[びょう]}秒{/r}
+GodSkillInfo_DishRankEne	{r[いっていじかん]}一定時間{/r}、{b}{r[てき]}敵{/r}のほこら{/b}から{r[で]}出{/r}る\nスシの{b}{r[さらいろ]}皿色{/r}が１{r[だんかい]}段階{/r}ダウン{/b}する！
+GodSkillEffective_DishRankEne	{r[こうかじかん]}効果時間{/r}：\x0e\x01\x07\0{r[びょう]}秒{/r}
+GodSkillInfo_SushiDisappear	{r[いっていじかん]}一定時間{/r}、{b}{r[てき]}敵{/r}のほこら{/b}から{r[で]}出{/r}る\n{r[さら]}皿{/r}から{b}スシが{r[き]}消{/r}える{/b}！
+GodSkillEffective_SushiDisappear	{r[こうかじかん]}効果時間{/r}：\x0e\x01\x07\0{r[びょう]}秒{/r}
+GodSkillInfo_LaneHighClass	{r[いっていじかん]}一定時間{/r}、{b}{r[じぶん]}自分{/r}のほこら{/b}から{r[で]}出{/r}る\n{r[さら]}皿{/r}に{b}{r[こう]}高{/r}グレードの{r[さら]}皿{/r}が{r[ふ]}増{/r}える{/b}！
+GodSkillEffective_LaneHighClass	{r[こうかじかん]}効果時間{/r}：\x0e\x01\x07\0{r[びょう]}秒{/r}
+GodSkillInfo_ComboBonus	10{r[びょうかん]}秒間{/r}、{b}コンボによる{/b}ダメージの\n{b}ボーナスが{r[ふ]}増{/r}える{/b}！
+GodSkillEffective_ComboBonus	{r[こうか]}効果{/r}：\x0e\x01\x08\0{r[ばい]}倍{/r}
+GodSkillInfo_LaneFill	{r[じぶん]}自分{/r}のレーンにあるスキマを\nすべて{b}スシで{r[う]}埋{/r}める{/b}！
+GodSkillEffective_LaneFill	{r[はつどう]}発動{/r}に{r[ひつよう]}必要{/r}な{r[さらすう]}皿数{/r}：\x0e\x01\n\0{r[さら]}皿{/r}
+GodSkillInfo_DamageReflection	{r[じぶん]}自分{/r}が{r[つぎ]}次{/r}に{r[さら]}皿{/r}ダメージを{r[う]}受{/r}けると、\n{b}１{r[かい]}回{/r}だけ{/b}{r[あいて]}相手{/r}に{b}しっぺ{r[がえ]}返{/r}し{/b}する！
+GodSkillEffective_DamageReflection	{r[はんげきこうか]}反撃効果{/r}：\x0e\x01\x08\0{r[ばい]}倍{/r}
+GodSkillInfo_Skeleton	{r[いっていじかん]}一定時間{/r}、{r[じぶん]}自分{/r}の{r[からだ]}体{/r}が{b}{r[とうめい]}透明{/r}{/b}になり、\n{b}{r[てき]}敵{/r}の{r[こうげき]}攻撃{/r}{/b}が{b}{r[あ]}当{/r}たらなく{/b}なる！
+GodSkillEffective_Skeleton	{r[こうかじかん]}効果時間{/r}：\x0e\x01\x07\0{r[びょう]}秒{/r}
+GodSkillInfo_LightClothes	{r[いっていじかん]}一定時間{/r}、{b}サーモン{/b}や{b}まぐろ{/b}を{r[ふく]}含{/r}む\nつみ{r[ざら]}皿{/r}から{b}ダメージ{/b}を{b}{r[う]}受{/r}けなく{/b}なる
+GodSkillInfo_BarrierShield	{r[いっていじかん]}一定時間{/r}、{r[め]}目{/r}の{r[まえ]}前{/r}に{b}バリア{/b}が{r[しゅつげん]}出現{/r}！\n{r[てき]}敵{/r}からの{b}{r[さら]}皿{/r}ダメージ{/b}を{b}{r[けいげん]}軽減{/r}{/b}する！
+GodSkillEffective_BarrierShield	{r[こうかじかん]}効果時間{/r}：\x0e\x01\x07\0{r[びょう]}秒{/r}
+GodSkillInfo_RobSheld	{r[いっていじかん]}一定時間{/r}、{r[てき]}敵{/r}がシュートしてきた\n{r[さら]}皿{/r}を{b}{r[じぶん]}自分{/r}のものにしてしまう{/b}！
+GodSkillEffective_RobSheld	{r[こうかじかん]}効果時間{/r}：\x0e\x01\x07\0{r[びょう]}秒{/r}
+GodSkillInfo_SweetsHeaven	{r[じぶん]}自分{/r}のレーンに{b}スイーツ{/b}が{r[しゅつげん]}出現{/r}！\n{b}タッチ{/b}で{r[た]}食{/r}べて{b}HPを{r[かいふく]}回復{/r}{/b}できる！
+GodSkillEffective_SweetsHeaven	{r[しゅつげん]}出現{/r}スイーツレベル：\x0e\x01\x08\0
+GodSkillInfo_FruitsParadise	{r[いっていじかん]}一定時間{/r}、ほこらから{r[で]}出{/r}る{b}{r[さら]}皿{/r}が{r[ぜんぶ]}全部{/r}{/b}\n{b}{r[かいふく]}回復{/r}{/b}{r[こうか]}効果{/r}を{r[も]}持{/r}つ{b}フルーツ{/b}になる！
+GodSkillEffective_FruitsParadise	{r[こうかじかん]}効果時間{/r}：\x0e\x01\x07\0{r[びょう]}秒{/r}
+GodSkillInfo_LifeHunter	{r[いっていじかん]}一定時間{/r}、{r[てき]}敵{/r}にシュートを{r[あ]}当{/r}てると\n{b}HP{/b}を{b}うばいとれる{/b}！
+GodSkillEffective_LifeHunter	{r[こうかじかん]}効果時間{/r}：\x0e\x01\x07\0{r[びょう]}秒{/r}
+GodSkillInfo_TableDishLifeup	テーブルにある{b}{r[さら]}皿{/r}{/b}を{r[ぜんぶ]}全部{/r}{b}エネルギー\nに{r[か]}変{/r}えて{/b}、{b}HPを{r[かいふく]}回復{/r}{/b}する！
+GodSkillEffective_TableDishLifeup	{r[かいふくこうか]}回復効果{/r}：\x0e\x01\x08\0{r[ばい]}倍{/r}
+GodSkillInfo_SkillCharge	{r[いっていじかん]}一定時間{/r}、{b}スキルゲージ{/b}の{r[あ]}上{/r}がり{r[かた]}方{/r}\nが{b}３{r[ばい]}倍{/r}{/b}になる！
+GodSkillEffective_SkillCharge	{r[こうかじかん]}効果時間{/r}：\x0e\x01\x07\0{r[びょう]}秒{/r}
+GodSkillInfo_SkillGaugeHunt	{r[いっていじかん]}一定時間{/r}、{r[てき]}敵{/r}にシュートを{r[あ]}当{/r}てると\n{b}スキルゲージ{/b}を{b}うばいとれる{/b}！
+GodSkillEffective_SkillGaugeHunt	{r[こうかじかん]}効果時間{/r}：\x0e\x01\x07\0{r[びょう]}秒{/r}
+GodSkillInfo_SkillCopy	{r[てき]}敵{/r}が{b}{r[ちょくぜん]}直前{/r}に{r[つか]}使{/r}ったスキル{/b}を、\nコピーして{r[つか]}使{/r}える！
+GodSkillEffective_SkillCopy	{r[はつどう]}発動{/r}に{r[ひつよう]}必要{/r}な{r[さらすう]}皿数{/r}：\x0e\x01\n\0{r[さら]}皿{/r}
+GodSkillInfo_SkillTerminate	{r[はつどうじ]}発動時{/r}に{b}{r[じぶん]}自分{/r}と{r[てき]}敵{/r}{/b}にかかっていた\n{b}スキル{r[こうか]}効果{/r}を{r[け]}消{/r}してしまう{/b}！
+GodSkillEffective_SkillTerminate	{r[はつどう]}発動{/r}に{r[ひつよう]}必要{/r}な{r[さらすう]}皿数{/r}：\x0e\x01\n\0{r[さら]}皿{/r}
+GodSkillInfo_SkillUseNgAll	{r[いっていじかん]}一定時間{/r}、{b}{r[りょうしゃ]}両者{/r}{/b}のスキルの\n{b}{r[はつどう]}発動{/r}{/b}をすべて{b}{r[ふう]}封{/r}じる{/b}！
+GodSkillEffective_SkillUseNgAll	{r[こうかじかん]}効果時間{/r}：\x0e\x01\x07\0{r[びょう]}秒{/r}
+GodSkillInfo_SkillUseNgEne	{r[いっていじかん]}一定時間{/r}、{b}{r[てき]}敵{/r}{/b}のスキルの\n{b}{r[はつどう]}発動{/r}{/b}をすべて{b}{r[ふう]}封{/r}じる{/b}！
+GodSkillEffective_SkillUseNgEne	{r[こうかじかん]}効果時間{/r}：\x0e\x01\x07\0{r[びょう]}秒{/r}
+GodSkillInfo_HpChange	{r[はつどう]}発動{/r}すると、{b}{r[じぶん]}自分{/r}と{r[てき]}敵{/r}の{r[げんざい]}現在{/r}HP{/b}を\n{b}{r[い]}入{/r}れ{r[か]}替{/r}えてしまう{/b}！
+GodSkillEffective_HpChange	{r[はつどう]}発動{/r}に{r[ひつよう]}必要{/r}な{r[さらすう]}皿数{/r}：\x0e\x01\n\0{r[さら]}皿{/r}
+GodSkillInfo_EnemyLaneSpd	{r[いっていじかん]}一定時間{/r}、{b}{r[てき]}敵{/r}レーン{/b}のスピードを\n{b}３{r[ばいそく]}倍速{/r}{/b}にする！
+GodSkillEffective_EnemyLaneSpd	{r[こうかじかん]}効果時間{/r}：\x0e\x01\x07\0{r[びょう]}秒{/r}
+GodSkillInfo_LaneSpdAll	{r[いっていじかん]}一定時間{/r}、{b}{r[りょうしゃ]}両者{/r}のレーン{/b}のスピード\nを{b}２{r[ばいそく]}倍速{/r}{/b}にする！
+GodSkillEffective_LaneSpdAll	{r[こうかじかん]}効果時間{/r}：\x0e\x01\x07\0{r[びょう]}秒{/r}
+GodSkillInfo_CmnMonopoly	{r[いっていじかん]}一定時間{/r}、{r[てき]}敵{/r}からは{b}{r[きょうつう]}共通{/r}レーン{/b}が\n{r[み]}見{/r}えなくなり、{b}{r[じぶん]}自分{/r}が{r[どくせん]}独占{/r}{/b}できる！
+GodSkillEffective_CmnMonopoly	{r[こうかじかん]}効果時間{/r}：\x0e\x01\x07\0{r[びょう]}秒{/r}
+GodSkillInfo_ShrineBlind	{r[いっていじかん]}一定時間{/r}、{b}{r[てき]}敵{/r}の{r[かく]}各{/r}レーンに{r[かべ]}壁{/r}{/b}が\n{r[の]}伸{/r}びて、{b}スシを{r[み]}見{/r}えにくく{/b}する！
+GodSkillEffective_ShrineBlind	{r[こうかじかん]}効果時間{/r}：\x0e\x01\x07\0{r[びょう]}秒{/r}
+GodSkillInfo_Oke	{r[いっていじかん]}一定時間{/r}、{b}{r[てき]}敵{/r}レーン{/b}に{b}じゃま{/b}な\n{b}オケ{/b}がどんどん{r[で]}出{/r}てくる！
+GodSkillEffective_Oke	オケ{r[しゅつげんりつ]}出現率{/r}：\x0e\x01\x08\0％
+GodSkillInfo_Wasabi	{r[いっていじかん]}一定時間{/r}、{b}{r[てき]}敵{/r}レーン{/b}に{b}ワサビ{/b}の\n{b}{r[やまも]}山盛{/r}り{r[ざら]}皿{/r}{/b}をまぎれこませる！
+GodSkillEffective_Wasabi	ワサビ{r[こんにゅうりつ]}混入率{/r}：\x0e\x01\x08\0％
+GodSkillInfo_NgAutoShoot	{r[いっていじかん]}一定時間{/r}、{r[てき]}敵{/r}の{b}{r[じどう]}自動{/r}シュートを{r[ふういん]}封印{/r}{/b}\nあふれた{r[さら]}皿{/r}は{b}{r[き]}消{/r}えてしまう{/b}！
+GodSkillEffective_NgAutoShoot	{r[こうかじかん]}効果時間{/r}：\x0e\x01\x07\0{r[びょう]}秒{/r}
+GodSkillInfo_SushiShuffleer	{b}{r[てき]}敵{/r}レーンにあるスシ{/b}を、\nすべて{b}シャッフルしてしまう{/b}！
+GodSkillEffective_SushiShuffleer	{r[はつどう]}発動{/r}に{r[ひつよう]}必要{/r}な{r[さらすう]}皿数{/r}：\x0e\x01\n\0{r[さら]}皿{/r}
+GodSkillInfo_YoursIsMine	{r[いっていじかん]}一定時間{/r}、{b}{r[てき]}敵{/r}レーン{/b}で\n{b}スシをつなぐことができる{/b}！
+GodSkillInfo_DishInvisible	{r[いっていじかん]}一定時間{/r}、{b}{r[てき]}敵{/r}レーン{/b}にある\n{b}スシ{r[ざら]}皿{/r}の{r[み]}見{/r}た{r[め]}目{/r}{/b}だけ{b}{r[ま]}真{/r}っ{r[くろ]}黒{/r}に{/b}なる！
+GodSkillEffective_DishInvisible	{r[こうかじかん]}効果時間{/r}：\x0e\x01\x07\0{r[びょう]}秒{/r}
+GodSkillInfo_BombSend	{r[いっていじかん]}一定時間{/r}、{r[てき]}敵{/r}レーンに\n{b}ボムカプセル{/b}をまぎれこませる！
 GodSkillInfo_LivemonitorEne	{r[いっていじかん]}一定時間{/r}、ライブモニターに\n{r[たいせんあいて]}対戦相手{/r}の{r[えいぞう]}映像{/r}だけが{r[うつ]}映{/r}る。
-GodSkillEffective_LivemonitorEne	{r[こうかじかん]}効果時間{/r}：\u000e\u0001\u0007\u0000{r[びょう]}秒{/r}
+GodSkillEffective_LivemonitorEne	{r[こうかじかん]}効果時間{/r}：\x0e\x01\x07\0{r[びょう]}秒{/r}
 GodSkillInfo_LivemonitorOwn	{r[いっていじかん]}一定時間{/r}、ライブモニターに\n{r[じぶん]}自分{/r}の{r[えいぞう]}映像{/r}だけが{r[うつ]}映{/r}る。
-GodSkillEffective_LivemonitorOwn	{r[こうかじかん]}効果時間{/r}：\u000e\u0001\u0007\u0000{r[びょう]}秒{/r}
-GodSkillInfo_DishWall	バトル{r[ちゅう]}中{/r}ずっと、\u000e\u0001\u0005\u0000{r[りょうしゃ]}両者{/r}\u000f\u0001\u0005の\u000e\u0001\u0005\u0000７{r[さらいか]}皿以下{/r}の\n{r[こうげき]}攻撃{/r}\u000f\u0001\u0005を\u000e\u0001\u0005\u0000{r[かんぜん]}完全{/r}に{r[ふせ]}防{/r}ぐ\u000f\u0001\u0005カベが{r[あらわ]}現{/r}れる！
-GodSkillInfo_TubConveyor	バトル{r[ちゅう]}中{/r}ずっと、\u000e\u0001\u0005\u0000{r[りょうしゃ]}両者{/r}のレーン\u000f\u0001\u0005に\n\u000e\u0001\u0005\u0000{r[ていきてき]}定期的{/r}\u000f\u0001\u0005に\u000e\u0001\u0005\u0000オケ\u000f\u0001\u0005が{r[なが]}流{/r}れてくる！
-GodSkillInfo_DishReducer	バトル{r[ちゅう]}中{/r}ずっと、\u000e\u0001\u0005\u0000{r[りょうしゃ]}両者{/r}\u000f\u0001\u0005とも\u000e\u0001\u0005\u0000{r[さら]}皿{/r}による\nダメージ\u000f\u0001\u0005が\u000e\u0001\u0005\u00001/10\u000f\u0001\u0005になってしまう！
-GodSkillInfo_LaneLowClass	{r[いっていじかん]}一定時間{/r}、\u000e\u0001\u0005\u0000{r[じぶん]}自分{/r}のほこら\u000f\u0001\u0005から{r[で]}出{/r}る{r[さら]}皿{/r}\nが{r[てい]}低{/r}グレードに{r[かたよ]}偏{/r}り\u000e\u0001\u0005\u0000つなぎやすく\u000f\u0001\u0005！
-GodSkillEffective_LaneLowClass	{r[こうかじかん]}効果時間{/r}：\u000e\u0001\u0007\u0000{r[びょう]}秒{/r}
-GodSkillInfo_ComboWall	バトル{r[ちゅう]}中{/r}ずっと、\u000e\u0001\u0005\u0000{r[りょうしゃ]}両者{/r}\u000f\u0001\u0005の\u000e\u0001\u0005\u0000コンボでな\nい{r[こうげき]}攻撃{/r}\u000f\u0001\u0005を\u000e\u0001\u0005\u0000{r[かんぜん]}完全{/r}に{r[ふせ]}防{/r}ぐ\u000f\u0001\u0005カベが{r[あらわ]}現{/r}れる！
+GodSkillEffective_LivemonitorOwn	{r[こうかじかん]}効果時間{/r}：\x0e\x01\x07\0{r[びょう]}秒{/r}
+GodSkillInfo_DishWall	バトル{r[ちゅう]}中{/r}ずっと、{b}{r[りょうしゃ]}両者{/r}{/b}の{b}７{r[さらいか]}皿以下{/r}の\n{r[こうげき]}攻撃{/r}{/b}を{b}{r[かんぜん]}完全{/r}に{r[ふせ]}防{/r}ぐ{/b}カベが{r[あらわ]}現{/r}れる！
+GodSkillInfo_TubConveyor	バトル{r[ちゅう]}中{/r}ずっと、{b}{r[りょうしゃ]}両者{/r}のレーン{/b}に\n{b}{r[ていきてき]}定期的{/r}{/b}に{b}オケ{/b}が{r[なが]}流{/r}れてくる！
+GodSkillInfo_DishReducer	バトル{r[ちゅう]}中{/r}ずっと、{b}{r[りょうしゃ]}両者{/r}{/b}とも{b}{r[さら]}皿{/r}による\nダメージ{/b}が{b}1/10{/b}になってしまう！
+GodSkillInfo_LaneLowClass	{r[いっていじかん]}一定時間{/r}、{b}{r[じぶん]}自分{/r}のほこら{/b}から{r[で]}出{/r}る{r[さら]}皿{/r}\nが{r[てい]}低{/r}グレードに{r[かたよ]}偏{/r}り{b}つなぎやすく{/b}！
+GodSkillEffective_LaneLowClass	{r[こうかじかん]}効果時間{/r}：\x0e\x01\x07\0{r[びょう]}秒{/r}
+GodSkillInfo_ComboWall	バトル{r[ちゅう]}中{/r}ずっと、{b}{r[りょうしゃ]}両者{/r}{/b}の{b}コンボでな\nい{r[こうげき]}攻撃{/r}{/b}を{b}{r[かんぜん]}完全{/r}に{r[ふせ]}防{/r}ぐ{/b}カベが{r[あらわ]}現{/r}れる！
 \database\database_itemInfo.msbt
 ItemInfo_Burner	スシガミに{r[つか]}使{/r}うと、{r[だ]}出{/r}せるスシの{r[なか]}中{/r}の\nひとつがあぶられてグレードアップする。\n{r[いちぶ]}一部{/r}のスシにのみ{r[ゆうこう]}有効{/r}。
 ItemInfo_OhudaExpS	スシガミに{r[つか]}使{/r}うと、ちょっと{r[けいけんち]}経験値{/r}が\n{r[ふ]}増{/r}えるおふだ。どこかのスシガミの\n{r[にが]}苦{/r}い{r[けいけん]}経験{/r}が{r[ふう]}封{/r}じこめられている。
@@ -2269,11 +2269,11 @@ StaffName_134	LOCALIZATION STAFF
 StaffName_135	NOA LOCALIZATION MANAGEMENT
 StaffName_136	Nate Bihldorff\nReiko Ninomiya\nRich Amtower\nAnn Lin\nTim O'Leary\nScot Ritchey
 StaffName_137	NOA LOCALIZATION
-StaffName_138	Billy Carroll\nRyan Kelley\nLars Knudson\nNich Maragos\nAyaka Osakabe\nMorgan Ritchie\nGalia Rodr\u00edguez Hornedo
+StaffName_138	Billy Carroll\nRyan Kelley\nLars Knudson\nNich Maragos\nAyaka Osakabe\nMorgan Ritchie\nGalia Rodr\xedguez Hornedo
 StaffName_139	NOA PRODUCT TESTING
 StaffName_140	Kentaro Nishimura\nSeth Hanser\nQ Dequina\nTomoko Mikami\nKaylee Lewis\nAi Hund\nTom Hertzog\nDouglas Lynn\nCraig So\nDerek Hipple\nPatricia Rivereau\nProduct Testing Technicians
 StaffName_141	NOA COPY EDITING
-StaffName_142	Michael Benedetto\nAlain Dautricourt\nNicko Gonzalez De Santiago\nSara Hoad\nJos\u00e9e Lebeau-B\u00e9dard\nKarina Mora\nErin Peterson\nCarolina Quesada\nLudovic Tientcheu
+StaffName_142	Michael Benedetto\nAlain Dautricourt\nNicko Gonzalez De Santiago\nSara Hoad\nJos\xe9e Lebeau-B\xe9dard\nKarina Mora\nErin Peterson\nCarolina Quesada\nLudovic Tientcheu
 StaffName_143	SPECIAL THANKS
 StaffName_144	Jeff Miller
 StaffName_145	<EUROPEAN LOCALISATION>
@@ -2283,18 +2283,18 @@ StaffName_148	TRANSLATION
 StaffName_149	COORDINATION
 StaffName_150	Martina Leonor Bassani\nPierre Sanchez
 StaffName_151	FRENCH
-StaffName_152	Anthony Fouillen\nNatacha Faubert\nDavid Causs\u00e8que\nLaurent Godinot\nSylvain Gsell\nV\u00e9ronique Schneider\nGurvan Le Guen
+StaffName_152	Anthony Fouillen\nNatacha Faubert\nDavid Causs\xe8que\nLaurent Godinot\nSylvain Gsell\nV\xe9ronique Schneider\nGurvan Le Guen
 StaffName_153	GERMAN
 StaffName_154	Michael Hussinger\nFrithjof Koepp\nJessica Morandi\nThomas Ito\nGunnar Friedrich
 StaffName_155	ITALIAN
 StaffName_156	Mirko Capocelli\nGiovanna Canta\nTito Leati\nEmanuele Tonetti
 StaffName_157	SPANISH
-StaffName_158	Blanca Hueso Taul\u00e9s\nAlfonso D\u00edaz Jim\u00e9nez \nAriel del Rio de Angelis\nEnrique S\u00e1nchez Rosa\nSara Sainz Nieto
+StaffName_158	Blanca Hueso Taul\xe9s\nAlfonso D\xedaz Jim\xe9nez \nAriel del Rio de Angelis\nEnrique S\xe1nchez Rosa\nSara Sainz Nieto
 StaffName_159	DUTCH
 StaffName_160	Suzanne Turgeon\nThomas den Haan\nCarsten Harmans\nMark Hoefsteders\nPatrick Koudstaal\nLennart Rotteveel\nChristian Buter
 StaffName_161	QUALITY ASSURANCE
 StaffName_162	COORDINATION
-StaffName_163	J. Ignacio Le\u00f3n L\u00f3pez\nJes\u00fas Guti\u00e9rrez Cuadra\nNOE Quality Assurance\nKeywords Studios
+StaffName_163	J. Ignacio Le\xf3n L\xf3pez\nJes\xfas Guti\xe9rrez Cuadra\nNOE Quality Assurance\nKeywords Studios
 StaffName_164	プロデューサー
 StaffName_165	鈴井 匡伸\n山上 仁志
 StaffName_166	ゼネラルプロデューサー
@@ -2303,7 +2303,7 @@ StaffName_168	エグゼクティブプロデューサー
 StaffName_169	君島 達己
 StaffName_170	制作・著作
 StaffName_171	任天堂株式会社
-StaffName_172	\u00a92018 Nintendo\n Co-Developed by indieszero Co., Ltd.
+StaffName_172	\xa92018 Nintendo\n Co-Developed by indieszero Co., Ltd.
 \database\database_stage.msbt
 stageName_stage001	{r[こっきょう]}国境{/r}への{r[みち]}道{/r}１
 stageName_stage002	{r[こっきょう]}国境{/r}への{r[みち]}道{/r}２
@@ -2602,7 +2602,7 @@ TipsName_004	フルーツとスイーツ
 TipsPage1_004	スシの{r[ほか]}他{/r}に、ほこらからは{r[さら]}皿{/r}に{r[の]}乗{/r}った\n{c[006e00]}フルーツ{c[000000]}が{r[なが]}流{/r}れてくることがある。\nまた、スキル「{c[006e00]}スイーツ{r[てんごく]}天国{/r}{c[000000]}」を{r[つか]}使{/r}うと\nレーンに{c[006e00]}スイーツ{c[000000]}が{r[しゅつげん]}出現{/r}するぞ！
 TipsPage2_004	{c[006e00]}フルーツ{c[000000]}を{r[た]}食{/r}べると{c[dc0000]}HPが{r[すこ]}少{/r}し{r[かいふく]}回復{/r}{c[000000]}する！\n{r[いっぽう]}一方{/r}、{c[006e00]}スイーツ{c[000000]}はスシ{r[ざら]}皿{/r}に{r[の]}乗{/r}っていないので\n１つ１つ{c[dc0000]}タッチ{c[000000]}して{r[と]}取{/r}る{r[ひつよう]}必要{/r}があるが、\n{c[006e00]}フルーツ{c[000000]}より{c[dc0000]}{r[おお]}多{/r}くのHPが{r[かいふく]}回復{/r}{c[000000]}するのだ！
 TipsName_005	{r[さら]}皿{/r}の{r[まいすう]}枚数{/r}と{r[こうげきりょく]}攻撃力{/r}
-TipsPage1_005	{r[さら]}皿{/r}{r[いろ]}色{/r}には{c[dc0000]}９{r[だんかい]}段階{/r}{c[000000]}の{c[006e00]}グレード{c[000000]}があり、{c[006e00]}グレード{c[000000]}が\n{r[たか]}高{/r}い{r[さら]}皿{/r}ほど１{r[まい]}枚{/r}あたりの{r[こうげきりょく]}攻撃力{/r}が{r[たか]}高{/r}い。\nしかし、{r[てき]}敵{/r}に{r[あた]}与{/r}えるダメージは、{r[たんじゅん]}単純{/r}に\n「{c[dc0000]}１{r[まい]}枚{/r}の{r[こうげきりょく]}攻撃力{/r}\u00d7{r[まいすう]}枚数{/r}{c[000000]}」では{c[dc0000]}{r[き]}決{/r}まらない{c[000000]}のだ！
+TipsPage1_005	{r[さら]}皿{/r}{r[いろ]}色{/r}には{c[dc0000]}９{r[だんかい]}段階{/r}{c[000000]}の{c[006e00]}グレード{c[000000]}があり、{c[006e00]}グレード{c[000000]}が\n{r[たか]}高{/r}い{r[さら]}皿{/r}ほど１{r[まい]}枚{/r}あたりの{r[こうげきりょく]}攻撃力{/r}が{r[たか]}高{/r}い。\nしかし、{r[てき]}敵{/r}に{r[あた]}与{/r}えるダメージは、{r[たんじゅん]}単純{/r}に\n「{c[dc0000]}１{r[まい]}枚{/r}の{r[こうげきりょく]}攻撃力{/r}\xd7{r[まいすう]}枚数{/r}{c[000000]}」では{c[dc0000]}{r[き]}決{/r}まらない{c[000000]}のだ！
 TipsPage2_005	{r[さら]}皿{/r}はたくさん{c[dc0000]}{r[かさ]}重{/r}ねるほど{c[000000]}{r[こうげきりょく]}攻撃力{/r}が{c[dc0000]}より{r[たか]}高{/r}まる{c[000000]}！\n{r[かさ]}重{/r}ねれば{r[かさ]}重{/r}ねるほどボーナスダメージが{r[ふ]}増{/r}え、\n{r[かさ]}重{/r}ねた{r[まいすう]}枚数{/r}{r[いじょう]}以上{/r}に{r[つよ]}強{/r}い{r[こうげき]}攻撃{/r}ができるのだ！\nそれは、{c[dc0000]}20{r[さら]}皿{/r}{r[いじょう]}以上{/r}{c[000000]}つんだときに{r[さいだい]}最大{/r}になる！
 TipsName_006	{r[てき]}敵{/r}のつみ{r[ざら]}皿{/r}を{r[わ]}割{/r}る！
 TipsPage1_006	{r[さら]}皿{/r}をシュートすると、{r[てき]}敵{/r}にダメージを{r[あた]}与{/r}えら\nれるだけでなく、{c[dc0000]}{r[な]}投{/r}げた{r[さら]}皿{/r}の{r[こうげきりょく]}攻撃力{/r}{c[000000]}に{r[おう]}応{/r}じて、\n{r[てき]}敵{/r}のテーブルにある{c[dc0000]}つみ{r[ざら]}皿{/r}を{r[わ]}割{/r}って{r[へ]}減{/r}らす{c[000000]}\nことができるぞ！
@@ -2679,7 +2679,7 @@ TipsPage4_025	※{c[006e00]}じゅんびアイテム{c[000000]}は{r[しよう]}
 \event\chapterAvantM003.msbt
 CharaSerif_00_M	ほう･･･ ジンライの{r[けん]}件{/r}のみならず\n{r[てき]}敵{/r}に{r[きち]}基地{/r}をうばわれるとは･･･
 CharaSerif_01_M	･･･どうしたアブリコス？\n{r[しったい]}失態{/r}{r[つづ]}続{/r}きだな。
-CharaSerif_02_M	\u000e\u0000\u0002\u0002\u0096\u0000も、もうしわけございません!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_02_M	{s[150]}も、もうしわけございません!!{s[100]}
 CharaSerif_03_M	{r[かいほうせんせん]}解放戦線{/r}め･･･ {r[ちんじゅ]}鎮守{/r}の{r[もり]}森{/r}で{r[ちから]}力{/r}をたくわえたら\nいずれ{r[こっきょう]}国境{/r}ゲートにも{r[せ]}攻{/r}めてくるだろう。
 CharaSerif_04_M	･･･はたして、その{r[まも]}守{/r}りをキサマに\nまかせておいて{r[よ]}良{/r}いものかな？
 CharaSerif_05_M	ももも･･･もちろんです！\n{r[こっきょう]}国境{/r}は、かならず{r[まも]}守{/r}ってみせます!!
@@ -2705,8 +2705,8 @@ Prologue01_01_M	とある{r[きょうわこく]}共和国{/r}、{r[へんきょ�
 Prologue01_01_F	とある{r[きょうわこく]}共和国{/r}、{r[へんきょう]}辺境{/r}の{r[むら]}村{/r}―\nそこに１人の{r[しょうじょ]}少女{/r}がいた･･･
 Prologue01_02_M	{r[せかい]}世界{/r}スシ{r[たいせん]}大戦{/r}で{r[りょうしん]}両親{/r}と{r[い]}生{/r}き{r[わか]}別{/r}れ、{r[こじいん]}孤児院{/r}で\n{r[おな]}同{/r}じ{r[きょうぐう]}境遇{/r}の{r[こども]}子供{/r}たちとくらす、{r[しょうねん]}少年{/r}の{r[な]}名{/r}は･･･
 Prologue01_02_F	{r[せかい]}世界{/r}スシ{r[たいせん]}大戦{/r}で{r[りょうしん]}両親{/r}と{r[い]}生{/r}き{r[わか]}別{/r}れ、{r[こじいん]}孤児院{/r}で\n{r[おな]}同{/r}じ{r[きょうぐう]}境遇{/r}の{r[こども]}子供{/r}たちとくらす、{r[しょうじょ]}少女{/r}の{r[な]}名{/r}は･･･
-Prologue01_03_M	\u000e\u0000\u0002\u0002\u0096\u0000じゃーん！オレがムサシだ!!\u000e\u0000\u0002\u0002d\u0000
-Prologue01_03_F	\u000e\u0000\u0002\u0002\u0096\u0000じゃーん！わたしがムサシよ!!\u000e\u0000\u0002\u0002d\u0000
+Prologue01_03_M	{s[150]}じゃーん！オレがムサシだ!!{s[100]}
+Prologue01_03_F	{s[150]}じゃーん！わたしがムサシよ!!{s[100]}
 Prologue01_04_M	あ～･･･ ハラへったぁ。
 Prologue01_04_F	あ～･･･ おなかへったぁ。
 Prologue01_05_M	ムサシにいちゃん！\nボクらも、おなかすいたよう･･･
@@ -2760,15 +2760,15 @@ CharaSerif_28_M	･･･しかしまぁ、ワシもあのリョーマだけは\
 CharaSerif_29_M	フフン♪ {r[かって]}勝手{/r}きままを{r[とお]}通{/r}すのも\nワシららしいかもしれん。
 CharaSerif_30_M	へへっ♪ そうこなくっちゃ！
 \event\chapterBeginM005.msbt
-CharaSerif_10_M	\u000e\u0000\u0002\u0002\u0096\u0000すばらしい!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_10_M	{s[150]}すばらしい!!{s[100]}
 CharaSerif_11_M	ムサシくん！ キミの{r[かつやく]}活躍{/r}のおかげで\n{r[こうえき]}交易{/r}の{r[まち]}町{/r}バランまでくることができました！
 CharaSerif_12_M	へへっ♪ それほどでもあるかな？
 CharaSerif_13_M	･･･ここを{r[あし]}足{/r}がかりに、{r[ていこく]}帝国{/r}{r[おおはし]}大橋{/r}をこえれば\nいよいよ{r[こうてい]}皇帝{/r}グラードのいる{r[ていと]}帝都{/r}です。
 CharaSerif_14_M	よし！ このままイッキにいこうぜ!!
 CharaSerif_14_F	よーし！ このままイッキにいきましょ!!
 CharaSerif_15_M	･･･いえ、これ{r[いじょう]}以上{/r}の{r[しんぐん]}進軍{/r}は\nいったん{r[み]}見{/r}{r[あ]}合{/r}わせようと{r[おも]}思{/r}います。
-CharaSerif_16_M	\u000e\u0000\u0002\u0002\u0096\u0000ええっ!? なんだそりゃ！\u000e\u0000\u0002\u0002d\u0000
-CharaSerif_16_F	\u000e\u0000\u0002\u0002\u0096\u0000ええっ！なんで!?\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_16_M	{s[150]}ええっ!? なんだそりゃ！{s[100]}
+CharaSerif_16_F	{s[150]}ええっ！なんで!?{s[100]}
 CharaSerif_17_M	{r[ていこく]}帝国{/r}{r[おおはし]}大橋{/r}をこえるには、{r[ていと]}帝都{/r}{r[ぼうえい]}防衛{/r}のかなめ･･･\n「{r[ていこく]}帝国{/r}{r[ぐん]}軍{/r}{r[ようさい]}要塞{/r}ナバ」の{r[こうりゃく]}攻略{/r}が{r[ひつよう]}必要{/r}なのです。
 CharaSerif_18_M	へえ、ようさい･･･ナバ？\n
 CharaSerif_18_F	ふーん、ようさい･･･ナバ？\n
@@ -2809,12 +2809,12 @@ CharaSerif_03_F	とうさんの『{r[かんしゃ]}感謝{/r}{r[た]}食{/r}べ�
 CharaSerif_04_M	むぅ･･･ あれは{r[おうぎちゅう]}奥義中{/r}の{r[おうぎ]}奥義{/r}じゃからな･･･\nさすがのワシにも、{r[けんとう]}見当{/r}がつかん･･･
 CharaSerif_05_M	でも！ それがなきゃ\n{r[たたか]}戦{/r}ったって、また{r[ま]}負{/r}けちまう･･･!!
 CharaSerif_05_F	でも！ それがないと、{r[たたか]}戦{/r}っても\nまた{r[ま]}負{/r}けちゃう･･･!!
-CharaSerif_06_M	\u000e\u0000\u0002\u0002\u0096\u0000ちょ、ちょっと！ ニュースやで!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_06_M	{s[150]}ちょ、ちょっと！ ニュースやで!!{s[100]}
 CharaSerif_07_M	なんだ？ ･･･ドートン？
 CharaSerif_07_F	えっ!?  ･･･ドートン？
 CharaSerif_08_M	ユキチはんの･･･！\nユキチはんの{r[しょざい]}所在{/r}がわかりましてん！
-CharaSerif_09_M	\u000e\u0000\u0002\u0002\u0096\u0000なんだって!?\u000e\u0000\u0002\u0002d\u0000
-CharaSerif_09_F	\u000e\u0000\u0002\u0002\u0096\u0000なんですって!?\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_09_M	{s[150]}なんだって!?{s[100]}
+CharaSerif_09_F	{s[150]}なんですって!?{s[100]}
 CharaSerif_11_M	なんでも、{r[かいてんずし]}回転寿司{/r}の{r[きゃく]}客{/r}の{r[じょうほう]}情報{/r}によると\nユキチはんは{r[ていこくりょうない]}帝国領内{/r}の{r[ほっぽう]}北方{/r}･･･
 CharaSerif_12_M	{r[せつげん]}雪原{/r}{r[ちたい]}地帯{/r}をこえた、{r[ていこくぐん]}帝国軍{/r}{r[へいし]}兵士{/r}の\n「{r[さいくんれん]}再訓練{/r}{r[しせつ]}施設{/r}」におるそーですわ！
 CharaSerif_13_M	なにっ!? ･･･{r[さいくんれん]}再訓練{/r}{r[しせつ]}施設{/r}だって？
@@ -2831,12 +2831,12 @@ CharaSerif_04_M	リーダー！ いよいよ{r[ていと]}帝都{/r}ですね。
 CharaSerif_05_M	んー･･････
 CharaSerif_06_M	みんな、{r[き]}聞{/r}いてくれ！\nオレ、{r[こんかい]}今回{/r}は{r[ひとり]}一人{/r}で{r[い]}行{/r}くぜ！
 CharaSerif_06_F	みんな{r[き]}聞{/r}いて！\nわたし、{r[こんかい]}今回{/r}は{r[ひとり]}一人{/r}で{r[い]}行{/r}く！
-CharaSerif_07_M	\u000e\u0000\u0002\u0002\u0096\u0000ええっ!?\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_07_M	{s[150]}ええっ!?{s[100]}
 CharaSerif_08_M	たぶん、この{r[たたか]}戦{/r}いで\n{r[げんすい]}元帥{/r}グロムとの{r[けっちゃく]}決着{/r}がつく･･･
 CharaSerif_09_M	オレは･･･ {r[じぶん]}自分{/r}のチカラだけで\nとうちゃんと{r[たたか]}戦{/r}いたいんだ！
 CharaSerif_09_F	わたしは･･･ {r[じぶん]}自分{/r}のチカラだけで\nとうさんと{r[たたか]}戦{/r}ってみたいの！
 CharaSerif_10_M	リーダー･･････
-CharaSerif_11_M	\u000e\u0000\u0002\u0002\u0096\u0000うむ！ よく{r[い]}言{/r}った!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_11_M	{s[150]}うむ！ よく{r[い]}言{/r}った!!{s[100]}
 CharaSerif_12_M	えっ、ジンライ･･･？
 CharaSerif_13_M	･･･だが、その「{r[じぶん]}自分{/r}のチカラ」\nとうぜんワシらスシガミも{r[はい]}入{/r}っておろうな？
 CharaSerif_14_M	･･･ああ！\nオレは、スシライカーだからな！
@@ -2863,7 +2863,7 @@ CharaSerif_11_M	･･････！
 CharaSerif_12_M	･･･その{r[ご]}後{/r}、なんとか{r[いえ]}家{/r}には{r[かえ]}帰{/r}りついたが\n{r[ときおそ]}時遅{/r}く{r[かあ]}母{/r}さんは･･･
 CharaSerif_13_M	ま、まさか･･･
 CharaSerif_14_M	すべてに{r[ぜつぼう]}絶望{/r}した{r[かのじょ]}彼女{/r}は、{r[ちんじゅ]}鎮守{/r}の{r[もり]}森{/r}にある\n「{r[だい]}大{/r}スシゲート」の{r[なか]}中{/r}に{r[み]}身{/r}を{r[とう]}投{/r}じていたのだ･･･
-CharaSerif_15_M	\u000e\u0000\u0002\u0002\u0096\u0000!!?\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_15_M	{s[150]}!!?{s[100]}
 CharaSerif_16_M	ううむ「{r[だい]}大{/r}スシゲート」･･･\nすべてのスシゲートの{r[ちょうてん]}頂点{/r}である、あれか･･･
 CharaSerif_17_M	ジンライ！ スシゲートの{r[なか]}中{/r}に\n{r[はい]}入{/r}った{r[にんげん]}人間{/r}は、どうなるんだ？
 CharaSerif_17_F	ジンライ！ スシゲートの{r[なか]}中{/r}に\n{r[はい]}入{/r}った{r[にんげん]}人間{/r}は、どうなるの？
@@ -2905,9 +2905,9 @@ CharaSerif_04_F	うん！ いま{r[てもと]}手元{/r}にあるのは２つだ
 CharaSerif_05_M	うむ！ {r[かいがん]}海岸{/r}{r[ちたい]}地帯{/r}のバンブークが\n{r[も]}持{/r}っているに{r[ちが]}違{/r}いない！
 CharaSerif_06_M	うむ！ {r[かざん]}火山{/r}{r[ちたい]}地帯{/r}のソスナが\n{r[も]}持{/r}っているに{r[ちが]}違{/r}いない！
 \event\DbgEventProcess.msbt
-Sample_Label_00_M	\u000e\u0001\u0005\u0000サンプル\u000f\u0001\u0005テキスト。\n{r[かいぎょう]}改行{/r}{c[ffae00]}も{r[おこな]}行{/r}えます。{c[000000]}\u000e\u0000\u0004\u0000{r[にぎょうめ]}二行目{/r}の{c[91ff1e]}もじれつ{c[000000]}\nもじてすと\u000e\u0000\u0004\u0000{c[dc0000]}さん{c[000000]}ぎょうめ\n\n
-Sample_Label_00_F	\u000e\u0001\u0005\u0000サンプル\u000f\u0001\u0005テキスト。{c[ffae00]}\n{r[かいぎょう]}改行{/r}も{r[おこな]}行{/r}{c[000000]}えます。
-Sample_Label_01_M	\u000e\u0000\u0002\u0002\u0096\u0000これは{r[おお]}大{/r}きな{r[もじ]}文字{/r}です。\u000e\u0000\u0002\u0002d\u0000
+Sample_Label_00_M	{b}サンプル{/b}テキスト。\n{r[かいぎょう]}改行{/r}{c[ffae00]}も{r[おこな]}行{/r}えます。{c[000000]}\x0e\0\x04\0{r[にぎょうめ]}二行目{/r}の{c[91ff1e]}もじれつ{c[000000]}\nもじてすと\x0e\0\x04\0{c[dc0000]}さん{c[000000]}ぎょうめ\n\n
+Sample_Label_00_F	{b}サンプル{/b}テキスト。{c[ffae00]}\n{r[かいぎょう]}改行{/r}も{r[おこな]}行{/r}{c[000000]}えます。
+Sample_Label_01_M	{s[150]}これは{r[おお]}大{/r}きな{r[もじ]}文字{/r}です。{s[100]}
 Sample_Label_02_M	選択肢１
 Sample_Label_03_M	選択肢２
 Sample_Label_04_M	選択肢３
@@ -3057,8 +3057,8 @@ BossEntryLabelEntry_M	{r[とうじょう]}登場{/r}！！！！
 BuildUpLevel2_M	たてものLV2にアップ！！
 BuildUpLevel3_M	たてものLV3にアップ！！
 \event\eventBattleM001.msbt
-EventBattleM001_01_M	\u000e\u0000\u0002\u0002\u0096\u0000なっ、なんだ!? ここは!?\u000e\u0000\u0002\u0002d\u0000
-EventBattleM001_01_F	\u000e\u0000\u0002\u0002\u0096\u0000なっ、なに!? ここ!?\u000e\u0000\u0002\u0002d\u0000
+EventBattleM001_01_M	{s[150]}なっ、なんだ!? ここは!?{s[100]}
+EventBattleM001_01_F	{s[150]}なっ、なに!? ここ!?{s[100]}
 EventBattleM001_02_M	ハッハッハ！ ここは「{c[91ff1e]}スシフィールド{c[000000]}」\nスシガミがスシをバンバン{r[だ]}出{/r}せる{r[ばしょ]}場所{/r}さ。
 EventBattleM001_03_M	まぁ、こまかいコトは{r[き]}気{/r}にすんな！\nジャンジャンいってくれ！
 EventBattleM001_04_M	フフッ♪ ただしスシには\nちょっとした{r[さほう]}作法{/r}があってな。
@@ -3070,16 +3070,16 @@ EventBattleM001_08_M	･･･なんだよ？\nスシなんて{r[で]}出{/r}て
 EventBattleM001_08_F	･･･なんなのよ？\nスシなんて{r[で]}出{/r}てこないじゃん！
 EventBattleM001_09_M	おっと、わりぃ！ まずはアラオウに\nほこらへ{r[はい]}入{/r}ってもらわないとな･･･
 EventBattleM001_10_M	アラオウ！ よろしく！
-EventBattleM001_12_M	\u000e\u0000\u0002\u0002\u0096\u0000うぉぉ！スシがこんなに!!\u000e\u0000\u0002\u0002d\u0000
-EventBattleM001_12_F	\u000e\u0000\u0002\u0002\u0096\u0000うゎぁ♪スシがこんなに!!\u000e\u0000\u0002\u0002d\u0000
+EventBattleM001_12_M	{s[150]}うぉぉ！スシがこんなに!!{s[100]}
+EventBattleM001_12_F	{s[150]}うゎぁ♪スシがこんなに!!{s[100]}
 EventBattleM001_13_M	さあ{r[た]}食{/r}べな！ さっきと{r[おな]}同{/r}じように\n{c[ffae00]}{r[おな]}同{/r}じ{r[いろ]}色{/r}の{r[さら]}皿{/r}{c[000000]}を{c[ffae00]}２つ{r[いじょう]}以上{/r}{c[000000]}つなぐんだ！
 EventBattleM001_14_M	うまい！ なんておいしいんだ！
 EventBattleM001_14_F	おいしい！ なんておいしいの！
 EventBattleM001_16_M	フフッ･･･ ドンドン{r[た]}食{/r}べな。\nなるべくたくさん、{r[いっき]}一気{/r}にいくんだ！
 EventBattleM001_17_M	ただし、{r[さら]}皿{/r}をつなげられるのは{c[ffae00]}7{r[びょうかん]}秒間{/r}{c[000000]}！\n７{r[びょう]}秒{/r}たつと、{r[さら]}皿{/r}は{c[ffae00]}{r[き]}消{/r}えちまう{c[000000]}から{r[ちゅうい]}注意{/r}しな！
 EventBattleM001_18_M	{c[ffae00]}７{r[びょう]}秒{/r}{r[いない]}以内{/r}{c[000000]}に、なるべく{c[ffae00]}たくさん{c[000000]}{r[さら]}皿{/r}をつないで\n{r[いっき]}一気{/r}に{r[た]}食{/r}べる･･･ それがイキってもんだぜ！
-EventBattleM001_19_M	\u000e\u0000\u0002\u0002\u0096\u0000おいしい！ おいしいよ！\u000e\u0000\u0002\u0002d\u0000
-EventBattleM001_19_F	\u000e\u0000\u0002\u0002\u0096\u0000おいしい！ チョーおいしい！\u000e\u0000\u0002\u0002d\u0000
+EventBattleM001_19_M	{s[150]}おいしい！ おいしいよ！{s[100]}
+EventBattleM001_19_F	{s[150]}おいしい！ チョーおいしい！{s[100]}
 \event\eventBattleM002.msbt
 EventBattleM002_01_M	ん？ ここはさっきの･･･
 EventBattleM002_02_M	なあ、それで･･･ {r[さら]}皿{/r}で{r[こうげき]}攻撃{/r}って\nどうやるんだ？
@@ -3091,7 +3091,7 @@ EventBattleM002_08_M	スシを{r[た]}食{/r}べた{r[あと]}後{/r}、{c[ffae0
 EventBattleM002_10_M	よいぞ！ テーブルに{r[つ]}積{/r}まれた{r[さら]}皿{/r}は\nいつでも{r[てき]}敵{/r}にシュートできるのだ！
 EventBattleM002_11_M	{c[ffae00]}{r[おな]}同{/r}じ{r[いろ]}色{/r}の{r[さら]}皿{/r}{c[000000]}を{c[ffae00]}{r[つづ]}続{/r}けて{c[000000]}{r[あ]}当{/r}てると{c[91ff1e]}コンボ{c[000000]}となり\nより{r[おお]}大{/r}きいダメージを{r[あた]}与{/r}えられるぞ！
 EventBattleM002_12_M	おのれ･･･ {r[さら]}皿{/r}シュートを{r[つか]}使{/r}いこなすとは。\nだがオマエと{r[あそ]}遊{/r}んでいるヒマはない！
-EventBattleM002_13_M	\u000e\u0000\u0002\u0002\u0096\u0000{r[く]}食{/r}らえい！\u000e\u0000\u0002\u0002d\u0000
+EventBattleM002_13_M	{s[150]}{r[く]}食{/r}らえい！{s[100]}
 EventBattleM002_15_M	よくぞ{r[き]}気{/r}づいた！ テーブルに{r[つ]}積{/r}まれた{r[さら]}皿{/r}は\nいつでも{r[てき]}敵{/r}にシュートできるのだ！
 EventBattleM002_16_M	{c[ffae00]}{r[おな]}同{/r}じ{r[いろ]}色{/r}の{r[さら]}皿{/r}{c[000000]}を{c[ffae00]}{r[つづ]}続{/r}けて{c[000000]}{r[あ]}当{/r}てると{c[91ff1e]}コンボ{c[000000]}となり\nより{r[おお]}大{/r}きいダメージを{r[あた]}与{/r}えられるぞ！
 EventBattleM002_17_M	しかし、シュートの{r[ほうほう]}方法{/r}はそれだけではない。\n{r[さら]}皿{/r}を{r[な]}投{/r}げずに、スシをどんどん{r[た]}食{/r}べてみよ！
@@ -3100,14 +3100,14 @@ EventBattleM002_19_M	そうじゃ！ テーブルが{r[さら]}皿{/r}でいっ�
 CharaSerif_01_M	よし！ {r[むら]}村{/r}までもうちょいだ。
 CharaSerif_01_F	よーし！ {r[むら]}村{/r}まであと\nもうちょい！
 CharaSerif_02_M	おいおい、あわててころぶなよ？
-CharaSerif_03_M	\u000e\u0000\u0002\u0002\u0096\u0000いたぞ！ユキチだ!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_03_M	{s[150]}いたぞ！ユキチだ!!{s[100]}
 CharaSerif_04_M	なんだ？ なんで{r[ていこく]}帝国{/r}{r[ぐん]}軍{/r}が\nこんなところに？
 CharaSerif_04_F	なに？ なんで{r[ていこく]}帝国{/r}{r[ぐん]}軍{/r}が\nこんなところに？
 CharaSerif_05_M	･･･まずいな。\n オマエはかくれていろ。
 CharaSerif_06_M	フフフ･･･ キサマだな？\n{r[てはい]}手配{/r}のあった、ユキチとかいうのは。
 CharaSerif_07_M	ほう･･･ おどろいたな。\n{r[ていこく]}帝国{/r}{r[ぐん]}軍{/r}の{r[しょうぐん]}将軍{/r}が、じきじきにお{r[で]}出{/r}ましか？
 CharaSerif_08_M	んん？ オレさまを{r[し]}知{/r}っているとは\nなかなかナイスな{r[こころ]}心{/r}がけ！
-CharaSerif_09_M	\u000e\u0000\u0002\u0002\u0096\u0000グハハハ！ そう、オレさまが･･･\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_09_M	{s[150]}グハハハ！ そう、オレさまが･･･{s[100]}
 CharaSerif_10_M	ぬはは！ {r[ていこくぐんさんしょうぐん]}帝国軍三将軍{/r}がひとり\nアブリコスさまだ!!
 CharaSerif_11_M	フン！ すべてのスシとスシガミは{r[ていこく]}帝国{/r}のモノ･･･\nそれを{r[かって]}勝手{/r}につれあるくとは･･･！
 CharaSerif_12_M	さぁ、おとなしくスシガミを･･･\nアラオウをわたせ！
@@ -3115,9 +3115,9 @@ CharaSerif_13_M	･･･ゴメンだな。 オレは{r[じぶん]}自分{/r}の
 CharaSerif_14_M	そもそも、アイツだって\nそれをのぞんじゃいねぇさ。
 CharaSerif_15_M	うむ！ わが{r[こころ]}心{/r}はユキチと{r[とも]}共{/r}にある。\nウヌら{r[ていこく]}帝国{/r}になど、したがわぬぞ!!
 CharaSerif_16_M	フン、ぬかしたな･･･\nバカめ！ {r[ぜんりょく]}全力{/r}で{r[こうかい]}後悔{/r}させてやる。
-CharaSerif_17_M	\u000e\u0000\u0002\u0002\u0096\u0000ヤロウども！ やっちまえ!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_17_M	{s[150]}ヤロウども！ やっちまえ!!{s[100]}
 CharaSerif_18_M	くっ、コンチクショー･･･め･･･
-CharaSerif_19_M	\u000e\u0000\u0002\u0002\u0096\u0000グハハハハ!! ざまあみろ！\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_19_M	{s[150]}グハハハハ!! ざまあみろ！{s[100]}
 CharaSerif_20_M	ユキチさん！
 CharaSerif_21_M	んん？ なんだこのガキは？
 CharaSerif_21_F	んん？ なんだこの{r[こむすめ]}小娘{/r}は？
@@ -3131,12 +3131,12 @@ CharaSerif_27_F	こーなりゃヤケよ！ やってやる!!
 CharaSerif_10_M	ハッハッハ！\nどうだ、はじめてのスシの{r[あじ]}味{/r}は！
 CharaSerif_11_M	くっ･･･ ありがとう。カンドーしたよ\nスシが、こんなにすばらしいなんて･･･！
 CharaSerif_11_F	くっ･･･ ありがとう。カンドーしたわ\nスシが、こんなにすばらしいなんて･･･！
-CharaSerif_12_M	\u000e\u0000\u0002\u0002\u0096\u0000うわぁーん！うまかったよー!!\u000e\u0000\u0002\u0002d\u0000
-CharaSerif_12_F	\u000e\u0000\u0002\u0002\u0096\u0000うわぁーん！おいしかったー!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_12_M	{s[150]}うわぁーん！うまかったよー!!{s[100]}
+CharaSerif_12_F	{s[150]}うわぁーん！おいしかったー!!{s[100]}
 CharaSerif_13_M	やれやれ、ないたりわらったり\nいそがしいヤツじゃな･･･
-CharaSerif_14_M	\u000e\u0000\u0002\u0002\u0096\u0000るせえ！スシダヌキ!!\u000e\u0000\u0002\u0002d\u0000
-CharaSerif_14_F	\u000e\u0000\u0002\u0002\u0096\u0000るさいわね！スシダヌキ!!\u000e\u0000\u0002\u0002d\u0000
-CharaSerif_15_M	\u000e\u0000\u0002\u0002\u0096\u0000なんじゃと!?\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_14_M	{s[150]}るせえ！スシダヌキ!!{s[100]}
+CharaSerif_14_F	{s[150]}るさいわね！スシダヌキ!!{s[100]}
+CharaSerif_15_M	{s[150]}なんじゃと!?{s[100]}
 CharaSerif_16_M	･･･おや？\nおい、そのジャケットは･･･
 CharaSerif_17_M	ん･･･ これか？ オレが{r[ちい]}小{/r}さいころ\nとうちゃんがくれたんだ。
 CharaSerif_17_F	ん･･･ これ？ わたしが{r[ちい]}小{/r}さいころ\nとうさんがくれたの。
@@ -3159,7 +3159,7 @@ CharaSerif_30_M	それが、{c[ffae00]}{r[すし]}寿司{/r}ストライカー{c
 CharaSerif_32_M	このご{r[じせい]}時世{/r}、スシを{r[た]}食{/r}べられる{r[にんげん]}人間{/r}は\nごくわずかだ。だがな･･･
 CharaSerif_33_M	このうまさを{r[し]}知{/r}らない{r[ひと]}人{/r}がいるなんて･･･\nもったいないと{r[おも]}思{/r}わないか？
 CharaSerif_34_M	{r[くに]}国{/r}も{r[じんしゅ]}人種{/r}も{r[かんけい]}関係{/r}なく･･･ {r[せかい]}世界{/r}{r[じゅう]}中{/r}の{r[ひと]}人{/r}たちと\nスシをわかちあいたいと{r[おも]}思{/r}わないか？
-CharaSerif_35_M	\u000e\u0000\u0002\u0002\u0096\u0000ええっ!? {r[せかい]}世界{/r}{r[じゅう]}中{/r}の{r[ひと]}人{/r}と･･･ スシ!?\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_35_M	{s[150]}ええっ!? {r[せかい]}世界{/r}{r[じゅう]}中{/r}の{r[ひと]}人{/r}と･･･ スシ!?{s[100]}
 CharaSerif_36_M	オレは、そのために{r[たび]}旅{/r}をしている。\n･･･スシで、{r[せかい]}世界{/r}{r[じゅう]}中{/r}を{r[えがお]}笑顔{/r}にしたいんだ。
 CharaSerif_37_M	（すげえ･･･ せ、{r[せかい]}世界{/r}？\n　よくわかんないけど･･･ すげえ！）
 CharaSerif_37_F	（すごい･･･ せ、{r[せかい]}世界{/r}？\n　よくわかんないけど･･･ すごい！）
@@ -3171,7 +3171,7 @@ CharaSerif_40_F	じゃあ、ウチの{r[むら]}村{/r}にもきてよ！\n{r[�
 CharaSerif_41_M	へへっ♪ オレ･･･ アイツらにも\nスシを{r[く]}食{/r}わせてやりてえ！
 CharaSerif_41_F	へへっ♪ わたし･･･ あの{r[こ]}子{/r}たちにも\nスシを{r[た]}食{/r}べさせてあげたい！
 CharaSerif_43_M	わかった、いこう！\n{r[つぎ]}次{/r}は、その{r[こ]}子{/r}たちを{r[えがお]}笑顔{/r}にしよう！
-CharaSerif_44_M	\u000e\u0000\u0002\u0002\u0096\u0000やった！ ありがとう!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_44_M	{s[150]}やった！ ありがとう!!{s[100]}
 \event\homeArena.msbt
 homeArena_cmn_out_01_M	ほな、またウデだめしにきてや！
 homeArena_cmn_in_01_M	{r[とうぎじょう]}闘技場{/r}へようこそ！ ムサシはん！
@@ -3241,10 +3241,10 @@ homeKoziin_cmn_btn_healthy_M	みんな{r[げんき]}元気{/r}か？
 homeKoziin_cmn_btn_healthy_F	みんな{r[げんき]}元気{/r}？
 homeKoziin_select_00_M	へへっ♪ どのスシガミに\nおねがいしようかな･･･
 homeKoziin_select_00_F	ふふっ♪ どのスシガミに\nおねがいしよっかな･･･
-homeKoziin_select_01_M	よし、{r[きょう]}今日{/r}はスシパーティーだ！\n{c[91ff1e]}\u000e\u0001\u000d\u0000{c[000000]}、たのんだぜ！
-homeKoziin_select_01_F	よーし、{r[きょう]}今日{/r}はスシパーティーよ！\n{c[91ff1e]}\u000e\u0001\u000d\u0000{c[000000]}、おねがいね！
+homeKoziin_select_01_M	よし、{r[きょう]}今日{/r}はスシパーティーだ！\n{c[91ff1e]}\x0e\x01\x0d\0{c[000000]}、たのんだぜ！
+homeKoziin_select_01_F	よーし、{r[きょう]}今日{/r}はスシパーティーよ！\n{c[91ff1e]}\x0e\x01\x0d\0{c[000000]}、おねがいね！
 homeKoziin_select_02_M	{r[こども]}子供{/r}たちとスシパーティーをひらいた！
-homeKoziin_select_03_M	ごちそうさま！ \u000e\u0001\u000d\u0000!!
+homeKoziin_select_03_M	ごちそうさま！ \x0e\x01\x0d\0!!
 homeKoziin_select_lv00_00_M	ありがとう、ムサシ･･･\n{r[こども]}子供{/r}たち、とても{r[よろこ]}喜{/r}んでたわ！
 homeKoziin_select_lv01_00_M	ありがとう！ わたしも{r[たの]}楽{/r}しかった･･･\nムサシって、とても{r[こども]}子供{/r}たち{r[おも]}思{/r}いなのね！
 homeKoziin_select_lv02_02_M	ありがとう･･･ ムサシ！\nみんなの{r[えがお]}笑顔{/r}は、あなたのおかげよ。
@@ -3374,8 +3374,8 @@ homeShrine_rank_00_M	じゃあ、{c[91ff1e]}スシライカーランク{c[000000
 homeShrine_rank_00_F	じゃあ、{c[91ff1e]}スシライカーランク{c[000000]}を{r[あ]}上{/r}げて！
 homeShrine_rank_01_M	かしこまりました。\nこの{r[ねが]}願{/r}いを{r[おお]}大{/r}スシガミ{r[さま]}様{/r}にお{r[つた]}伝{/r}えしましょう･･･
 homeShrine_rank_02_M	えいっ！
-homeShrine_rank_03_M	おめでとうございます！ムサシさん！\n{c[91ff1e]}スシライカーランク{c[000000]}{c[ffae00]}\u000e\u0001\u0011\u0000{r[だん]}段{/r}{c[000000]}に{r[しょうだん]}昇段{/r}しましたよ！
-homeShrine_rank_04_M	では、{r[しょうだん]}昇段{/r}のお{r[いわ]}祝{/r}いに『{c[91ff1e]}\u000e\u0001\u000b\u0000{c[000000]}』を\n{r[さ]}差{/r}し{r[あ]}上{/r}げます。お{r[う]}受{/r}け{r[と]}取{/r}りください。
+homeShrine_rank_03_M	おめでとうございます！ムサシさん！\n{c[91ff1e]}スシライカーランク{c[000000]}{c[ffae00]}\x0e\x01\x11\0{r[だん]}段{/r}{c[000000]}に{r[しょうだん]}昇段{/r}しましたよ！
+homeShrine_rank_04_M	では、{r[しょうだん]}昇段{/r}のお{r[いわ]}祝{/r}いに『{c[91ff1e]}\x0e\x01\x0b\0{c[000000]}』を\n{r[さ]}差{/r}し{r[あ]}上{/r}げます。お{r[う]}受{/r}け{r[と]}取{/r}りください。
 homeShrine_rank_06_M	ムサシさん･･･ まだ{r[つぎ]}次{/r}の{c[ffae00]}{r[しょうだんじょうけん]}昇段条件{/r}{c[000000]}を\n{r[たっせい]}達成{/r}できていないようです。
 homeShrine_rank_07_M	では、{c[91ff1e]}{r[とら]}虎{/r}の{r[まき]}巻{/r}{c[000000]}で{c[91ff1e]}スシライカーランク{c[000000]}を{r[かくにん]}確認{/r}し\n{c[ffae00]}{r[しょうだんじょうけん]}昇段条件{/r}{c[000000]}を{r[み]}満{/r}たしたら、いらしてください。
 homeShrine_first_word_00_M	『{c[91ff1e]}いのりの{r[ことば]}言葉{/r}{c[000000]}』って？
@@ -3413,31 +3413,31 @@ homeShrine_get_ContractDish_sg_M	『{c[91ff1e]}みけいやくの{r[さら]}皿{
 homeShrine_get_GearSuper_sg_M	『{c[91ff1e]}スーパーギア{c[000000]}』を{r[て]}手{/r}に{r[い]}入{/r}れた！\n
 homeShrine_get_GearStream_sg_M	『{c[91ff1e]}ストリームギア{c[000000]}』を{r[て]}手{/r}に{r[い]}入{/r}れた！\n
 homeShrine_get_OhudaExpL_sg_M	『{c[91ff1e]}けいけんのおふだ{r[だい]}大{/r}{c[000000]}』を{r[て]}手{/r}に{r[い]}入{/r}れた！\n
-homeShrine_get_OhudaExpL_pl_M	『{c[91ff1e]}けいけんのおふだ{r[だい]}大{/r}{c[000000]}』\u00d7{c[ffae00]}\u000e\u0001\u0014\u0000 {c[000000]}を{r[て]}手{/r}に{r[い]}入{/r}れた！\n
+homeShrine_get_OhudaExpL_pl_M	『{c[91ff1e]}けいけんのおふだ{r[だい]}大{/r}{c[000000]}』\xd7{c[ffae00]}\x0e\x01\x14\0 {c[000000]}を{r[て]}手{/r}に{r[い]}入{/r}れた！\n
 homeShrine_get_OhudaDefS_sg_M	『{c[91ff1e]}まもりのおふだ{r[しょう]}小{/r}{c[000000]}』を{r[て]}手{/r}に{r[い]}入{/r}れた！\n
-homeShrine_get_OhudaDefS_pl_M	『{c[91ff1e]}まもりのおふだ{r[しょう]}小{/r}{c[000000]}』\u00d7{c[ffae00]}\u000e\u0001\u0014\u0000{c[000000]} を{r[て]}手{/r}に{r[い]}入{/r}れた！\n
+homeShrine_get_OhudaDefS_pl_M	『{c[91ff1e]}まもりのおふだ{r[しょう]}小{/r}{c[000000]}』\xd7{c[ffae00]}\x0e\x01\x14\0{c[000000]} を{r[て]}手{/r}に{r[い]}入{/r}れた！\n
 homeShrine_get_OhudaDefM_sg_M	『{c[91ff1e]}まもりのおふだ{r[ちゅう]}中{/r}{c[000000]}』を{r[て]}手{/r}に{r[い]}入{/r}れた！\n
-homeShrine_get_OhudaDefM_pl_M	『{c[91ff1e]}まもりのおふだ{r[ちゅう]}中{/r}{c[000000]}』\u00d7{c[ffae00]}\u000e\u0001\u0014\u0000{c[000000]} を{r[て]}手{/r}に{r[い]}入{/r}れた！\n
+homeShrine_get_OhudaDefM_pl_M	『{c[91ff1e]}まもりのおふだ{r[ちゅう]}中{/r}{c[000000]}』\xd7{c[ffae00]}\x0e\x01\x14\0{c[000000]} を{r[て]}手{/r}に{r[い]}入{/r}れた！\n
 homeShrine_get_OhudaDefL_sg_M	『{c[91ff1e]}まもりのおふだ{r[だい]}大{/r}{c[000000]}』を{r[て]}手{/r}に{r[い]}入{/r}れた！\n
-homeShrine_get_OhudaDefL_pl_M	『{c[91ff1e]}まもりのおふだ{r[だい]}大{/r}{c[000000]}』\u00d7{c[ffae00]}\u000e\u0001\u0014\u0000{c[000000]} を{r[て]}手{/r}に{r[い]}入{/r}れた！\n
+homeShrine_get_OhudaDefL_pl_M	『{c[91ff1e]}まもりのおふだ{r[だい]}大{/r}{c[000000]}』\xd7{c[ffae00]}\x0e\x01\x14\0{c[000000]} を{r[て]}手{/r}に{r[い]}入{/r}れた！\n
 homeShrine_get_OhudaSkill_sg_M	『{c[91ff1e]}スキルのおふだ{c[000000]}』を{r[て]}手{/r}に{r[い]}入{/r}れた！\n
-homeShrine_get_OhudaSkill_pl_M	『{c[91ff1e]}スキルのおふだ{c[000000]}』\u00d7{c[ffae00]}\u000e\u0001\u0014\u0000{c[000000]} を{r[て]}手{/r}に{r[い]}入{/r}れた！\n
+homeShrine_get_OhudaSkill_pl_M	『{c[91ff1e]}スキルのおふだ{c[000000]}』\xd7{c[ffae00]}\x0e\x01\x14\0{c[000000]} を{r[て]}手{/r}に{r[い]}入{/r}れた！\n
 homeShrine_get_OhudaSkillC_sg_M	『{c[91ff1e]}スキルのおふだ{r[だい]}大{/r}{c[000000]}』を{r[て]}手{/r}に{r[い]}入{/r}れた！\n
-homeShrine_get_OhudaSkillC_pl_M	『{c[91ff1e]}スキルのおふだ{r[だい]}大{/r}{c[000000]}』\u00d7{c[ffae00]}\u000e\u0001\u0014\u0000{c[000000]} を{r[て]}手{/r}に{r[い]}入{/r}れた！\n
+homeShrine_get_OhudaSkillC_pl_M	『{c[91ff1e]}スキルのおふだ{r[だい]}大{/r}{c[000000]}』\xd7{c[ffae00]}\x0e\x01\x14\0{c[000000]} を{r[て]}手{/r}に{r[い]}入{/r}れた！\n
 homeShrine_get_PlayerHpS_sg_M	『{c[91ff1e]}スタミナのかんづめ{c[000000]}』を{r[て]}手{/r}に{r[い]}入{/r}れた！\n
-homeShrine_get_PlayerHpS_pl_M	『{c[91ff1e]}スタミナのかんづめ{c[000000]}』\u00d7{c[ffae00]}\u000e\u0001\u0014\u0000{c[000000]} を{r[て]}手{/r}に{r[い]}入{/r}れた！\n
+homeShrine_get_PlayerHpS_pl_M	『{c[91ff1e]}スタミナのかんづめ{c[000000]}』\xd7{c[ffae00]}\x0e\x01\x14\0{c[000000]} を{r[て]}手{/r}に{r[い]}入{/r}れた！\n
 homeShrine_get_PlayerAtkS_sg_M	『{c[91ff1e]}ちからのかんづめ{c[000000]}』を{r[て]}手{/r}に{r[い]}入{/r}れた！\n
-homeShrine_get_PlayerAtkS_pl_M	『{c[91ff1e]}ちからのかんづめ{c[000000]}』\u00d7{c[ffae00]}\u000e\u0001\u0014\u0000{c[000000]} を{r[て]}手{/r}に{r[い]}入{/r}れた！\n
+homeShrine_get_PlayerAtkS_pl_M	『{c[91ff1e]}ちからのかんづめ{c[000000]}』\xd7{c[ffae00]}\x0e\x01\x14\0{c[000000]} を{r[て]}手{/r}に{r[い]}入{/r}れた！\n
 homeShrine_get_ReadyRetryM_sg_M	『{c[91ff1e]}ふっかつのまめ{r[ちゅう]}中{/r}{c[000000]}』を{r[て]}手{/r}に{r[い]}入{/r}れた！\n
-homeShrine_get_ReadyRetryM_pl_M	『{c[91ff1e]}ふっかつのまめ{r[ちゅう]}中{/r}{c[000000]}』\u00d7{c[ffae00]}\u000e\u0001\u0014\u0000{c[000000]} を{r[て]}手{/r}に{r[い]}入{/r}れた！\n
+homeShrine_get_ReadyRetryM_pl_M	『{c[91ff1e]}ふっかつのまめ{r[ちゅう]}中{/r}{c[000000]}』\xd7{c[ffae00]}\x0e\x01\x14\0{c[000000]} を{r[て]}手{/r}に{r[い]}入{/r}れた！\n
 homeShrine_get_ReadyRetryL_sg_M	『{c[91ff1e]}ふっかつのまめ{r[だい]}大{/r}{c[000000]}』を{r[て]}手{/r}に{r[い]}入{/r}れた！\n
-homeShrine_get_ReadyRetryL_pl_M	『{c[91ff1e]}ふっかつのまめ{r[だい]}大{/r}{c[000000]}』\u00d7{c[ffae00]}\u000e\u0001\u0014\u0000{c[000000]} を{r[て]}手{/r}に{r[い]}入{/r}れた！\n
+homeShrine_get_ReadyRetryL_pl_M	『{c[91ff1e]}ふっかつのまめ{r[だい]}大{/r}{c[000000]}』\xd7{c[ffae00]}\x0e\x01\x14\0{c[000000]} を{r[て]}手{/r}に{r[い]}入{/r}れた！\n
 homeShrine_get_ReadyRetryC_sg_M	『{c[91ff1e]}{r[ちょう]}超{/r}ふっかつのまめ{c[000000]}』を{r[て]}手{/r}に{r[い]}入{/r}れた！\n
-homeShrine_get_ReadyRetryC_pl_M	『{c[91ff1e]}{r[ちょう]}超{/r}ふっかつのまめ{c[000000]}』\u00d7{c[ffae00]}\u000e\u0001\u0014\u0000{c[000000]} を{r[て]}手{/r}に{r[い]}入{/r}れた！\n
+homeShrine_get_ReadyRetryC_pl_M	『{c[91ff1e]}{r[ちょう]}超{/r}ふっかつのまめ{c[000000]}』\xd7{c[ffae00]}\x0e\x01\x14\0{c[000000]} を{r[て]}手{/r}に{r[い]}入{/r}れた！\n
 homeShrine_get_OhudaPT_sg_M	『{c[91ff1e]}パーティーのおふだ{c[000000]}』を{r[て]}手{/r}に{r[い]}入{/r}れた！\n
-homeShrine_get_OhudaPT_pl_M	『{c[91ff1e]}パーティーのおふだ{c[000000]}』\u00d7{c[ffae00]}\u000e\u0001\u0014\u0000{c[000000]} を{r[て]}手{/r}に{r[い]}入{/r}れた！\n
+homeShrine_get_OhudaPT_pl_M	『{c[91ff1e]}パーティーのおふだ{c[000000]}』\xd7{c[ffae00]}\x0e\x01\x14\0{c[000000]} を{r[て]}手{/r}に{r[い]}入{/r}れた！\n
 homeShrine_get_Burner_sg_M	『{c[91ff1e]}あぶりバーナー{c[000000]}』を{r[て]}手{/r}に{r[い]}入{/r}れた！\n
-homeShrine_get_Burner_pl_M	『{c[91ff1e]}あぶりバーナー{c[000000]}』\u00d7{c[ffae00]}\u000e\u0001\u0014\u0000{c[000000]} を{r[て]}手{/r}に{r[い]}入{/r}れた！\n
+homeShrine_get_Burner_pl_M	『{c[91ff1e]}あぶりバーナー{c[000000]}』\xd7{c[ffae00]}\x0e\x01\x14\0{c[000000]} を{r[て]}手{/r}に{r[い]}入{/r}れた！\n
 \event\homeSushibar.msbt
 homeSushibar_cmn_out_01_M	ほな、またきてや！
 homeSushibar_cmn_ret_01_M	まあ、ゆっくりしてってや！
@@ -3544,7 +3544,7 @@ homeSushibar_06_b_02_M	ごぶじでしたか、ムサシさん！ ひとりで\n
 homeSushibar_06_b_03_M	リョーマさんは、{r[ほんとう]}本当{/r}はムサシさんくらいの\n{r[としごろ]}年頃{/r}の{r[こ]}子{/r}が{r[にがて]}苦手{/r}だとおっしゃってました。
 homeSushibar_06_b_04_M	それでも{r[じゅうよう]}重要{/r}な{r[やくめ]}役目{/r}を{r[まか]}任{/r}されるムサシさんは\nやはりたよりにされてると{r[おも]}思{/r}いますよ！
 homeSushibar_06_c_01_M	そうやなぁ･･･ じゃあ\nお{r[きゃく]}客{/r}さんのお{r[はなし]}話{/r}でも{r[き]}聞{/r}いてみましょか。
-homeSushibar_06_c_02_M	\u000e\u0000\u0002\u0002\u0096\u0000かかれーっ!!\u000e\u0000\u0002\u0002d\u0000
+homeSushibar_06_c_02_M	{s[150]}かかれーっ!!{s[100]}
 homeSushibar_06_c_03_M	･･･おっと{r[しつれい]}失礼{/r}。こんど{r[しき]}指揮{/r}をまかされたもので\n{r[ごうれい]}号令{/r}の{r[れんしゅう]}練習{/r}をしていたんです。
 homeSushibar_06_c_04_M	しかし{r[もんだい]}問題{/r}はスシです。いくさの{r[なか]}中{/r}で{r[た]}食{/r}べるスシは\nどうしてもツライ･･･ {r[ほんとう]}本当{/r}にツライのです･･･
 homeSushibar_07_in_01_M	ムサシはん！ ええ{r[ネタ]}情報{/r}が{r[はい]}入{/r}ったで！
@@ -3702,7 +3702,7 @@ homeSushibar_16_a_06_M	へへっ♪ そうか･･･\n{r[げんき]}元気{/r}
 homeSushibar_16_a_06_F	へへっ♪ そっか･･･\n{r[げんき]}元気{/r}そうでなによりよ！
 homeSushibar_16_a_07_M	フフフ･･･ そんなわけでバキューム{r[ぐ]}食{/r}いは\nもう{r[つか]}使{/r}わなくなってな･･･
 homeSushibar_16_a_08_M	ぐははははっ！ おまえにオレさまのスシガミを\nゆずってやりに{r[き]}来{/r}たのだ！ ありがたく{r[おも]}思{/r}え!!
-homeSushibar_16_a_09_M	\u000e\u0000\u0002\u0002\u0096\u0000ええっ!?\u000e\u0000\u0002\u0002d\u0000
+homeSushibar_16_a_09_M	{s[150]}ええっ!?{s[100]}
 homeSushibar_16_a_10_M	ええい！ とっとと{r[う]}受{/r}けとれい!!\nこれは、かつてのつぐないでもあるのだ･･･！
 homeSushibar_16_a_12_M	ふむ･･･ {r[わ]}我{/r}が{r[な]}名{/r}はワニオウ。\n{r[わ]}我{/r}が{r[けいやく]}契約{/r}のスシ、{r[た]}食{/r}べてくれるな？
 homeSushibar_16_a_13_M	スシガミ『{c[91ff1e]}ワニオウ{c[000000]}』と{r[けいやく]}契約{/r}した！\nスキルは「{c[91ff1e]}バキューム{r[ぐ]}食{/r}い{c[000000]}」だ！
@@ -3792,16 +3792,16 @@ BtnYes_M	いただくぜ！
 BtnYes_F	いただくわ！
 BtnNo_M	またこんどな！
 BtnNo_F	またこんどね！
-NarrationInfomation_M	スシガミ『{c[91ff1e]}\u000e\u0001\u000d\u0000{c[000000]}』と{r[けいやく]}契約{/r}した！\nスキルは「{c[91ff1e]}\u000e\u0001\u0012\u0000{c[000000]}」だ！
-NarrationEquipMain_M	{c[91ff1e]}\u000e\u0001\u000d\u0000{c[000000]}の{r[けいやくざら]}契約皿{/r}は、\nスカジャンの{c[ffae00]}ソデ{c[000000]}に{r[そうちゃく]}装着{/r}された！
-NarrationEquipSub_M	{c[91ff1e]}\u000e\u0001\u000d\u0000{c[000000]}の{r[けいやくざら]}契約皿{/r}は、\nスカジャンの{c[ffae00]}{r[いくせいわく]}育成枠{/r}{c[000000]}に{r[そうちゃく]}装着{/r}された！
-NarrationEquipNone_M	{c[91ff1e]}\u000e\u0001\u000d\u0000{c[000000]}の{r[けいやくざら]}契約皿{/r}は、\nスカジャンの{c[ffae00]}{r[うらじ]}裏地{/r}にストック{c[000000]}された！
-NarrationAwakeLv2_M	スシガミ『{c[91ff1e]}\u000e\u0001\u000d\u0000{c[000000]}』は{r[かくせい]}覚醒{/r}した！
-NarrationAwakeLv3_M	スシガミ『{c[91ff1e]}\u000e\u0001\u000d\u0000{c[000000]}』は{r[ちょうかくせい]}超覚醒{/r}した！
+NarrationInfomation_M	スシガミ『{c[91ff1e]}\x0e\x01\x0d\0{c[000000]}』と{r[けいやく]}契約{/r}した！\nスキルは「{c[91ff1e]}\x0e\x01\x12\0{c[000000]}」だ！
+NarrationEquipMain_M	{c[91ff1e]}\x0e\x01\x0d\0{c[000000]}の{r[けいやくざら]}契約皿{/r}は、\nスカジャンの{c[ffae00]}ソデ{c[000000]}に{r[そうちゃく]}装着{/r}された！
+NarrationEquipSub_M	{c[91ff1e]}\x0e\x01\x0d\0{c[000000]}の{r[けいやくざら]}契約皿{/r}は、\nスカジャンの{c[ffae00]}{r[いくせいわく]}育成枠{/r}{c[000000]}に{r[そうちゃく]}装着{/r}された！
+NarrationEquipNone_M	{c[91ff1e]}\x0e\x01\x0d\0{c[000000]}の{r[けいやくざら]}契約皿{/r}は、\nスカジャンの{c[ffae00]}{r[うらじ]}裏地{/r}にストック{c[000000]}された！
+NarrationAwakeLv2_M	スシガミ『{c[91ff1e]}\x0e\x01\x0d\0{c[000000]}』は{r[かくせい]}覚醒{/r}した！
+NarrationAwakeLv3_M	スシガミ『{c[91ff1e]}\x0e\x01\x0d\0{c[000000]}』は{r[ちょうかくせい]}超覚醒{/r}した！
 NarrationPotentialPlate_M	『{c[91ff1e]}みけいやくの{r[さら]}皿{/r}{c[000000]}』からスシガミが{r[あらわ]}現{/r}れた！
 Child_Contact1_M	フフッ･･･ スシが{r[だいす]}大好{/r}きみたいだな！\nあんたの{r[た]}食{/r}べっぷりでわかったぞ！
 Child_Contact2_M	さあ、オイラとの{r[けいやく]}契約{/r}のスシ、\nもちろん{r[た]}食{/r}べてくれるよな？
-Child_ChoiceYes_M	よっし{r[けいやくせいりつ]}契約成立{/r}だ！ オイラは{c[91ff1e]}\u000e\u0001\u000d\u0000{c[000000]}！\nこれからよろしくな！
+Child_ChoiceYes_M	よっし{r[けいやくせいりつ]}契約成立{/r}だ！ オイラは{c[91ff1e]}\x0e\x01\x0d\0{c[000000]}！\nこれからよろしくな！
 Child_ChoiceNo_M	そっか･･･ {r[ざんねん]}残念{/r}だなあ･･･\nじゃあまたな！ さいなら！
 Child_AlreadyFriend1_M	お！ {r[なかま]}仲間{/r}のスシガミがいるみたいだな！\nじゃあオイラの{c[ffae00]}スシソウル{c[000000]}をあげるぜ！
 Child_AlreadyFriend2_M	それじゃあ{r[なかま]}仲間{/r}をよろしくな！
@@ -3809,7 +3809,7 @@ Child_AwakeBefore_M	おお？ なんだかチカラがわいてきたぞ！
 Child_AwakeAfter_M	よっしゃあ！ チカラがもどったぜ！
 AncMan_Contact1_M	ふむ･･･ おぬしのスシへの{r[あいじょう]}愛情{/r}、\nしかと{r[み]}見{/r}させてもらったぞ。
 AncMan_Contact2_M	さあ、{r[われ]}我{/r}との{r[けいやく]}契約{/r}のスシ、\nぜひともおぬしに{r[た]}食{/r}べてほしい。
-AncMan_ChoiceYes_M	うむ、{r[けいやくせいりつ]}契約成立{/r}だ！\n{r[われ]}我{/r}は{c[91ff1e]}\u000e\u0001\u000d\u0000{c[000000]}！ よろしくたのみ{r[もう]}申{/r}す。
+AncMan_ChoiceYes_M	うむ、{r[けいやくせいりつ]}契約成立{/r}だ！\n{r[われ]}我{/r}は{c[91ff1e]}\x0e\x01\x0d\0{c[000000]}！ よろしくたのみ{r[もう]}申{/r}す。
 AncMan_ChoiceNo_M	さようか･･･\nそれも{r[しかた]}仕方{/r}あるまい。
 AncMan_AlreadyFriend1_M	ん？ すでに{r[なかま]}仲間{/r}のスシガミがいるようだな。\nならば{r[われ]}我{/r}の{c[ffae00]}スシソウル{c[000000]}を{r[わた]}渡{/r}しておこう。
 AncMan_AlreadyFriend2_M	さらばだ、スシライカーよ！
@@ -3817,14 +3817,14 @@ AncMan_AwakeBefore_M	ふはは、{r[かくせい]}覚醒{/r}の{r[とき]}時{/r
 AncMan_AwakeAfter_M	おぬしのおかげで\n{r[わ]}我{/r}がチカラを{r[と]}取{/r}りもどしたぞ！
 AncWoman_Contact1_M	ふふっ･･･ あなたのスシに{r[たい]}対{/r}する{r[かんしゃ]}感謝{/r}の{r[きも]}気持{/r}ち、\nわたくしにしっかりと{r[つた]}伝{/r}わってきました。
 AncWoman_Contact2_M	さあ、わたくしとの{r[けいやく]}契約{/r}のスシを\n{r[た]}食{/r}べてくださいませんか？
-AncWoman_ChoiceYes_M	うれしいですわ。\nわたくしは{c[91ff1e]}\u000e\u0001\u000d\u0000{c[000000]}。 よろしくどうぞ。
+AncWoman_ChoiceYes_M	うれしいですわ。\nわたくしは{c[91ff1e]}\x0e\x01\x0d\0{c[000000]}。 よろしくどうぞ。
 AncWoman_ChoiceNo_M	そうですか･･･\n{r[ざんねん]}残念{/r}ですが、お{r[かんが]}考{/r}えを{r[そんちょう]}尊重{/r}いたしますわ。
 AncWoman_AlreadyFriend1_M	あら。 もう{r[なかま]}仲間{/r}がいるみたいですわね。\nでは{c[ffae00]}スシソウル{c[000000]}をお{r[わた]}渡{/r}ししますわ。
 AncWoman_AlreadyFriend2_M	それではさようなら。\nちいさなスシライカーさん。
 AncWoman_AwakeAfter_M	ふふっ、おかげでチカラがもどりましたわ。
 AncChild_Contact1_M	きみ、みごとなスシのたべっぷりだね～！\nスシがすきなんだって、つたわってきたぞ！
 AncChild_Contact2_M	ねえ！ そんなきみに、ウチのスシをたべて\nケイヤクしてもらいたいな！ どうかな～？
-AncChild_ChoiceYes_M	ヤッタぁ～！\nウチは{c[91ff1e]}\u000e\u0001\u000d\u0000{c[000000]}！ ヨロシクな！
+AncChild_ChoiceYes_M	ヤッタぁ～！\nウチは{c[91ff1e]}\x0e\x01\x0d\0{c[000000]}！ ヨロシクな！
 AncChild_ChoiceNo_M	うう･･･ ざんねんだけど\nないたりしないんだからな！
 AncChild_AlreadyFriend1_M	ありゃ？ なかまのスシガミがもういるのか～。\nそれだったらウチの{c[ffae00]}スシソウル{c[000000]}をあげる！
 AncChild_AlreadyFriend2_M	そんじゃウチはいくね！\nなかまをよろしく～！
@@ -3832,7 +3832,7 @@ AncChild_AwakeBefore_M	おお!? キてる･･･ キてるぞ･･･!!
 AncChild_AwakeAfter_M	じゃーん！ チカラがもどったぁ～！
 Hermit_Contact1_M	おまえさん、スシが{r[だいす]}大好{/r}きなようじゃな。\nずいぶんと{r[しあわ]}幸{/r}せそうな{r[かお]}顔{/r}で{r[た]}食{/r}べておったわい。
 Hermit_Contact2_M	さあ、ワシとの{r[けいやく]}契約{/r}のスシも、\nさっきのような{r[えがお]}笑顔{/r}で{r[た]}食{/r}べてくれるかの？
-Hermit_ChoiceYes_M	ほっほっほっ、{r[けいやく]}契約{/r}はここに{r[な]}成{/r}った。\nワシは{c[91ff1e]}\u000e\u0001\u000d\u0000{c[000000]}じゃ、スシライカーよ。
+Hermit_ChoiceYes_M	ほっほっほっ、{r[けいやく]}契約{/r}はここに{r[な]}成{/r}った。\nワシは{c[91ff1e]}\x0e\x01\x0d\0{c[000000]}じゃ、スシライカーよ。
 Hermit_ChoiceNo_M	{r[ことわ]}断{/r}ると{r[もう]}申{/r}すか。･･･まあ{r[よ]}良{/r}い{r[よ]}良{/r}い。\n{r[かんが]}考{/r}えあっての{r[けつだん]}決断{/r}じゃろうて。ではな。
 Hermit_AlreadyFriend1_M	ほむ？ {r[なかま]}仲間{/r}のスシガミがもういるようじゃな。\nそれではワシの{c[ffae00]}スシソウル{c[000000]}を{r[さず]}授{/r}けようぞ。
 Hermit_AlreadyFriend2_M	{r[なかま]}仲間{/r}のことはたのんだぞい。\nさらばじゃ。
@@ -3840,7 +3840,7 @@ Hermit_AwakeBefore_M	おまえさんの{r[かくご]}覚悟{/r}、ワシに{r[�
 Hermit_AwakeAfter_M	ワシの{r[ほんらい]}本来{/r}の{r[すがた]}姿{/r}、イカすじゃろう？
 Catten_Contact1_M	ほう！ そちはスシが{r[だいす]}大好{/r}きなのかえ？\nまろと{r[き]}気{/r}が{r[あ]}合{/r}いそうぞよ～。
 Catten_Contact2_M	ささ、まろとの{r[けいやく]}契約{/r}のスシも\nもちろん{r[た]}食{/r}べてくれるのであろう？
-Catten_ChoiceYes_M	これでまろとそちは{r[なかま]}仲間{/r}ぞよ～。\nまろのことは{c[91ff1e]}\u000e\u0001\u000d\u0000{c[000000]}と{r[よ]}呼{/r}ぶぞよ。
+Catten_ChoiceYes_M	これでまろとそちは{r[なかま]}仲間{/r}ぞよ～。\nまろのことは{c[91ff1e]}\x0e\x01\x0d\0{c[000000]}と{r[よ]}呼{/r}ぶぞよ。
 Catten_ChoiceNo_M	なななんと！ そうであるか～。\nではでは、まろは{r[い]}行{/r}くとするぞよ～。
 Catten_AlreadyFriend1_M	ほろ？ もう{r[なかま]}仲間{/r}スシガミがいるみたいぞよ～。\nではではまろの{c[ffae00]}スシソウル{c[000000]}をあげちゃうぞい。
 Catten_AlreadyFriend2_M	{r[なかま]}仲間{/r}のこと、よろしくたのむぞよ～！\nばいばいぞよ。
@@ -3848,7 +3848,7 @@ Catten_AwakeBefore_M	ほろ？ {r[からだ]}体{/r}が{r[あつ]}熱{/r}いぞ�
 Catten_AwakeAfter_M	ほほほ、まろのチカラがもどったぞよ～！
 Noblewoman_Contact1_M	そなた、たのもしいスシの{r[た]}食{/r}べっぷりだな。\n{r[た]}食{/r}べている{r[すがた]}姿{/r}を{r[み]}見{/r}てそなたに{r[きょうみ]}興味{/r}がわいたぞ。
 Noblewoman_Contact2_M	さあ、わらわのスシを{r[しょく]}食{/r}すがよい。\nそなたにわらわとの{r[けいやく]}契約{/r}を{r[むす]}結{/r}ばせてやろう。
-Noblewoman_ChoiceYes_M	よろしい。 わらわは{c[91ff1e]}\u000e\u0001\u000d\u0000{c[000000]}。\nそなたにわらわのチカラを{r[あた]}与{/r}えよう。
+Noblewoman_ChoiceYes_M	よろしい。 わらわは{c[91ff1e]}\x0e\x01\x0d\0{c[000000]}。\nそなたにわらわのチカラを{r[あた]}与{/r}えよう。
 Noblewoman_ChoiceNo_M	･･･まあ{r[よ]}良{/r}い。 {r[けんめい]}賢明{/r}な{r[はんだん]}判断{/r}とは{r[おも]}思{/r}えぬが･･･\nではさらばだスシライカーよ。
 Noblewoman_AlreadyFriend1_M	ほう？ すでにわらわの{r[なかま]}仲間{/r}がいるようだ。\nならばわらわの{c[ffae00]}スシソウル{c[000000]}を{r[あた]}与{/r}えてやろう。
 Noblewoman_AlreadyFriend2_M	{r[なかま]}仲間{/r}のことはそなたにまかせた。\nさらばだ、スシライカーよ。
@@ -3856,7 +3856,7 @@ Noblewoman_AwakeBefore_M	おお、{r[からだ]}体{/r}が、{r[からだ]}体{/
 Noblewoman_AwakeAfter_M	ははっ、チカラがみなぎってくるぞ。
 Pomposity_Contact1_M	ふふん･･･ うぬのスシの{r[た]}食{/r}べっぷり、\n{r[だれ]}誰{/r}にも{r[ひ]}引{/r}けを{r[と]}取{/r}らない{r[みごと]}見事{/r}なものよ。
 Pomposity_Contact2_M	{r[とくべつ]}特別{/r}だ。\n{r[われ]}我{/r}との{r[けいやく]}契約{/r}スシを{r[た]}食{/r}べさせてやる。
-Pomposity_ChoiceYes_M	ふん。 {r[い]}言{/r}っておくが、なれ{r[あ]}合{/r}うつもりはない。\n{r[われ]}我{/r}のことは{c[91ff1e]}\u000e\u0001\u000d\u0000{c[000000]}と{r[よ]}呼{/r}ぶがよい。
+Pomposity_ChoiceYes_M	ふん。 {r[い]}言{/r}っておくが、なれ{r[あ]}合{/r}うつもりはない。\n{r[われ]}我{/r}のことは{c[91ff1e]}\x0e\x01\x0d\0{c[000000]}と{r[よ]}呼{/r}ぶがよい。
 Pomposity_ChoiceNo_M	ほう、{r[ことわ]}断{/r}るとは{r[たい]}大{/r}した{r[どきょう]}度胸{/r}だ。\nうぬは{r[おおもの]}大物{/r}の{r[うつわ]}器{/r}なのやも{r[し]}知{/r}れぬな。さらばだ。
 Pomposity_AlreadyFriend1_M	すでに{r[なかま]}仲間{/r}のスシガミがいるではないか。\nならば{r[われ]}我{/r}は{c[ffae00]}スシソウル{c[000000]}を{r[さず]}授{/r}けて{r[さ]}去{/r}るまでだ。
 Pomposity_AlreadyFriend2_M	{r[わ]}我{/r}が{r[どうほう]}同胞{/r}とともにしっかりと{r[あゆ]}歩{/r}むがよい。\nさらばだ。 {r[わか]}若{/r}きスシライカーよ。
@@ -3864,7 +3864,7 @@ Pomposity_AwakeBefore_M	･･･{r[き]}来{/r}たぞ。\nさあ、{r[かつも
 Pomposity_AwakeAfter_M	うおお･･･！ チカラがほとばしるぞ･･･！
 Simplicity_Contact1_M	オゥ！ アナタのスシの{r[た]}食{/r}べっぷり、\nトテモすばらしいデス。
 Simplicity_Contact2_M	サァ･･･ ワタシとスシ{r[けいやく]}契約{/r}を{r[むす]}結{/r}んで、\nたくさんワタシのスシを{r[た]}食{/r}べて{r[ほ]}欲{/r}しいデス。
-Simplicity_ChoiceYes_M	アリガトウございマス。\nワタシは{c[91ff1e]}\u000e\u0001\u000d\u0000{c[000000]}といいマス。
+Simplicity_ChoiceYes_M	アリガトウございマス。\nワタシは{c[91ff1e]}\x0e\x01\x0d\0{c[000000]}といいマス。
 Simplicity_ChoiceNo_M	そうデスか。 わかりマシタ。\nイサギよく{r[あきら]}諦{/r}めようと{r[おも]}思{/r}いマス。
 Simplicity_AlreadyFriend1_M	{r[なかま]}仲間{/r}のスシガミがいるようデスね。\nでは{c[ffae00]}スシソウル{c[000000]}を{r[う]}受{/r}け{r[と]}取{/r}ってくだサイ。
 Simplicity_AlreadyFriend2_M	{r[なかま]}仲間{/r}をヨロシクお{r[ねが]}願{/r}いしマス。\nそれではサヨウナラ。
@@ -3874,7 +3874,7 @@ Araoh_AwakeBefore_M	んん…お{r[まえ]}前{/r}のスシへの{r[きも]}気�
 Araoh_AwakeAfter_M	チカラを{r[と]}取{/r}り{r[もど]}戻{/r}せたようだ。{r[かんしゃ]}感謝{/r}する。
 Clown_Contact1_M	うひゃー！ おめっちの{r[た]}食{/r}べっぷり！\nカンドーした！
 Clown_Contact2_M	なあなあ、おれっちの{r[けいやく]}契約{/r}のスシも\nついでにペロっといってみる？
-Clown_ChoiceYes_M	いやっほーい！\nオレっちは{c[91ff1e]}\u000e\u0001\u000d\u0000{c[000000]}！ ヨロシクな！
+Clown_ChoiceYes_M	いやっほーい！\nオレっちは{c[91ff1e]}\x0e\x01\x0d\0{c[000000]}！ ヨロシクな！
 Clown_ChoiceNo_M	あちゃー･･･ {r[わかもの]}若者{/r}のスシばなれかー･･･\nそんじゃまた！ {r[き]}気{/r}が{r[む]}向{/r}いたらヨロシク！
 Clown_AlreadyFriend1_M	ありゃ？ お{r[なかま]}仲間{/r}とヨロシクずみか！\nじゃ、おれっちの{c[ffae00]}スシソウル{c[000000]}もってきな！
 Clown_AlreadyFriend2_M	{r[なかま]}仲間{/r}をすえながくヨロシクな！\nさいなも！
@@ -3918,52 +3918,52 @@ tutorial05_09_M	よいか？ {r[てき]}敵{/r}より{r[さき]}先{/r}に{c[91f
 tutorial05_10_M	ふふん♪ ちなみにカプセルが{r[あらわ]}現{/r}れるときには\nいまの 「{c[91ff1e]}{r[おと]}音{/r}{c[000000]}」が{r[な]}鳴{/r}る。よく{r[ちゅうい]}注意{/r}せよ！
 \event\stageBattleM036.msbt
 CharaSerif_00_M	どもども♪\n{r[こんかい]}今回{/r}のムーゲーはこれっす！
-CharaSerif_01_M	\u000e\u0000\u0002\u0002\u0096\u0000タイムストップバトル――!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_01_M	{s[150]}タイムストップバトル――!!{s[100]}
 CharaSerif_02_M	これこれ！ これ{r[と]}取{/r}ると、{r[あいて]}相手{/r}が{c[ffae00]}３{r[びょうかん]}秒間{/r}\n{c[000000]}うごけなくなるんで、チャンスっすよ！
-CharaSerif_03_M	\u000e\u0000\u0002\u0002\u0096\u0000じゃ、いってみまショー!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_03_M	{s[150]}じゃ、いってみまショー!!{s[100]}
 \event\stageBattleM046.msbt
 CharaSerif_00_M	どもども♪\n{r[こんかい]}今回{/r}のムーゲーはこれっす！
-CharaSerif_01_M	\u000e\u0000\u0002\u0002\u0096\u0000どきどきボムバトル――!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_01_M	{s[150]}どきどきボムバトル――!!{s[100]}
 CharaSerif_02_M	これこれ！ これ{r[と]}取{/r}ると、{r[あいて]}相手{/r}に{c[ffae00]}ボム{c[000000]}が{r[と]}飛{/r}んでって\nボカン！と{c[ffae00]}{r[だい]}大{/r}ダメージ{c[000000]}を{r[あた]}与{/r}えちゃいます。
 CharaSerif_03_M	でも、{r[と]}取{/r}れずに{c[ffae00]}{r[なが]}流{/r}れちゃう{c[000000]}と\nボムは{c[ffae00]}{r[じぶん]}自分{/r}のところ{c[000000]}に{r[と]}飛{/r}んできてボカン！
 CharaSerif_04_M	{r[と]}取{/r}れば{r[てんごく]}天国{/r}、{r[と]}取{/r}れなきゃ{r[じごく]}地獄{/r}･･･\nまさにドキドキの{r[たたか]}戦{/r}いっす！
-CharaSerif_05_M	\u000e\u0000\u0002\u0002\u0096\u0000じゃ、いってみまショー!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_05_M	{s[150]}じゃ、いってみまショー!!{s[100]}
 \event\stageBattleM057.msbt
 CharaSerif_00_M	どもども♪\n{r[こんかい]}今回{/r}のムーゲーはこれっす！
-CharaSerif_01_M	\u000e\u0000\u0002\u0002\u0096\u0000きまぐれサンダーバトル――!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_01_M	{s[150]}きまぐれサンダーバトル――!!{s[100]}
 CharaSerif_02_M	これこれ！ これはカミナリパワーのある{r[いし]}石{/r}で\n{r[いろ]}色{/r}が{c[ffae00]} {r[あお]}青{/r}{c[000000]}と{c[ffae00]}{r[あか]}赤{/r}{c[000000]}で{r[こうご]}交互{/r}に{r[か]}変{/r}わっちゃいます！
 CharaSerif_03_M	んで、{c[ffae00]}{r[あお]}青{/r}{c[000000]}の{r[とき]}時{/r}に{r[と]}取{/r}ると{c[ffae00]}{r[あいて]}相手{/r}{c[000000]}にカミナリが{r[と]}飛{/r}んで\n{c[ffae00]}{r[だい]}大{/r}ダメージ{c[000000]}!! なんすけど･･･
 CharaSerif_04_M	なんと！ {c[ffae00]}{r[あか]}赤{/r}{c[000000]}の{r[とき]}時{/r}に{r[と]}取{/r}ると{c[ffae00]}{r[じぶん]}自分{/r}{c[000000]}にカミナリが!!\n･･･マジヤバイっす。
-CharaSerif_05_M	\u000e\u0000\u0002\u0002\u0096\u0000じゃ、いってみまショー!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_05_M	{s[150]}じゃ、いってみまショー!!{s[100]}
 \event\stageBattleM078.msbt
 CharaSerif_00_M	どもども♪\n{r[こんかい]}今回{/r}のムーゲーはこれっす！
-CharaSerif_01_M	\u000e\u0000\u0002\u0002\u0096\u0000タイムストップ＆ボムバトルー!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_01_M	{s[150]}タイムストップ＆ボムバトルー!!{s[100]}
 CharaSerif_02_M	これこれ！ これは{r[まえ]}前{/r}にも{r[で]}出{/r}たタイムストップっす！\nで、{r[こんかい]}今回{/r}はさらに･･･
 CharaSerif_03_M	なんと！ {r[まえ]}前{/r}に{r[で]}出{/r}てきたボムまで{r[とうじょう]}登場{/r}っす！
 CharaSerif_04_M	あー･･･ くれぐれも、ボクがボムを{r[と]}取{/r}るのを\nタイムストップでジャマしちゃダメっすよ！
-CharaSerif_05_M	\u000e\u0000\u0002\u0002\u0096\u0000じゃ、いってみまショー!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_05_M	{s[150]}じゃ、いってみまショー!!{s[100]}
 \event\stageBattleM088.msbt
 CharaSerif_00_M	どもども♪\n{r[こんかい]}今回{/r}のムーゲーはこれっす！
-CharaSerif_01_M	\u000e\u0000\u0002\u0002\u0096\u0000{r[さら]}皿{/r}ちぢみサンダーバトル――!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_01_M	{s[150]}{r[さら]}皿{/r}ちぢみサンダーバトル――!!{s[100]}
 CharaSerif_02_M	{r[こんかい]}今回{/r}は、ボクが{r[さいしょ]}最初{/r}に『{c[91ff1e]}{r[さら]}皿{/r}ちぢ～む{c[000000]}』のスキルを\n{r[つか]}使{/r}ってから、バトルスタートっす！
 CharaSerif_03_M	このスキル･･･ バトル{r[ちゅう]}中{/r}ずっとテーブルの{r[うえ]}上{/r}の\n{r[さら]}皿{/r}がちぢんで、{c[ffae00]}{r[さら]}皿{/r}ダメージがいつもの1/10{c[000000]}に！
 CharaSerif_04_M	なので、このサンダーでの{r[こうげき]}攻撃{/r}が{r[き]}決{/r}め{r[て]}手{/r}っす！\nちなみに{r[こんかい]}今回{/r}は、{r[いろ]}色{/r}は{r[あお]}青{/r}のまま{r[か]}変{/r}わりません。
-CharaSerif_05_M	\u000e\u0000\u0002\u0002\u0096\u0000じゃ、いってみまショー!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_05_M	{s[150]}じゃ、いってみまショー!!{s[100]}
 \event\stageBattleM116.msbt
 CharaSerif_00_M	どもども♪\n{r[こんかい]}今回{/r}のムーゲーはこれっす！
-CharaSerif_01_M	\u000e\u0000\u0002\u0002\u0096\u0000{r[さら]}皿{/r}ちぢみボムバトル――!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_01_M	{s[150]}{r[さら]}皿{/r}ちぢみボムバトル――!!{s[100]}
 CharaSerif_02_M	{r[こんかい]}今回{/r}も、ボクが{r[さいしょ]}最初{/r}に『{c[91ff1e]}{r[さら]}皿{/r}ちぢ～む{c[000000]}』の\nスキルを{r[つか]}使{/r}ってから、バトルスタートっす！
 CharaSerif_03_M	そうすると･･･ テーブル{r[じょう]}上{/r}の{r[さら]}皿{/r}がちぢんで、\n{r[さら]}皿{/r}ダメージがいつもの1/10になり～の･･･
 CharaSerif_04_M	でもって！ ボムでの{r[こうげき]}攻撃{/r}が\n{r[しょうぶ]}勝負{/r}の{r[き]}決{/r}め{r[て]}手{/r}になり～の･･･ ってことっすね。
-CharaSerif_05_M	\u000e\u0000\u0002\u0002\u0096\u0000じゃ、いってみまショー!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_05_M	{s[150]}じゃ、いってみまショー!!{s[100]}
 \event\stageBattleM136.msbt
 CharaSerif_00_M	どもども♪\n{r[こんかい]}今回{/r}のムーゲーはこれっす！
-CharaSerif_01_M	\u000e\u0000\u0002\u0002\u0096\u0000{r[き]}気{/r}まぐれ{r[サンダー]}雷{/r}＆ボムバトル――!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_01_M	{s[150]}{r[き]}気{/r}まぐれ{r[サンダー]}雷{/r}＆ボムバトル――!!{s[100]}
 CharaSerif_02_M	なんと！ {r[こんかい]}今回{/r}はすごいっすよ!!
 CharaSerif_03_M	これこれ！ {r[きょうつう]}共通{/r}レーンには、くるくる{r[いろ]}色{/r}が{r[か]}変{/r}わる\nきまぐれサンダーが{r[とうじょう]}登場{/r}し～の･･･
 CharaSerif_04_M	でもって！ {r[じぶん]}自分{/r}のレーンには\nあのドキドキのボムが{r[とうじょう]}登場{/r}し～の･･･
 CharaSerif_05_M	もう、かな～り{r[いそが]}忙{/r}しいっすよ!!
-CharaSerif_06_M	\u000e\u0000\u0002\u0002\u0096\u0000じゃ、いってみまショー!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_06_M	{s[150]}じゃ、いってみまショー!!{s[100]}
 \event\stageBeginArea01Ex001.msbt
 CharaSerif_00_M	･･･むむっ！ おまえはムサシ！\nどうしてここに!?
 CharaSerif_01_M	ん？ こんなところに{r[ていこくぐん]}帝国軍{/r}･･･\nそっちこそ、なにやってんだ？
@@ -4015,7 +4015,7 @@ CharaSerif_03_M	さっ、お{r[あいて]}相手{/r}いたしましょう！\n�
 \event\stageBeginArea03Ex008.msbt
 CharaSerif_00_M	やった！ スシガミのほこらだ！
 CharaSerif_00_F	やったあ！ スシガミのほこらだ！
-CharaSerif_01_M	\u000e\u0000\u0002\u0002\u0096\u0000まてーい！\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_01_M	{s[150]}まてーい！{s[100]}
 CharaSerif_02_M	フン･･･ このほこらは{r[われわれ]}我々{/r}が{r[さき]}先{/r}に{r[み]}見{/r}つけた。\nはやいもの{r[が]}勝{/r}ちだ！
 CharaSerif_03_M	いや･･･ あんた{r[いま]}今{/r}{r[き]}来{/r}たよな？\nオレのほうが{r[さき]}先{/r}に･･･
 CharaSerif_03_F	いや･･･ あなた{r[いま]}今{/r}{r[き]}来{/r}たわよね？\nわたしのほうが{r[さき]}先{/r}に･･･
@@ -4054,7 +4054,7 @@ CharaSerif_03_M	フフフ･･･ やはり{r[き]}来{/r}たか。\n{r[れい]
 CharaSerif_04_M	へへっ♪ さてはおまえら･･･\nあの{r[いし]}石{/r}を{r[て]}手{/r}に{r[い]}入{/r}れてないな？
 CharaSerif_04_F	へえ･･･ さてはあなたたち\nあの{r[いし]}石{/r}を{r[て]}手{/r}に{r[い]}入{/r}れてないわね？
 CharaSerif_05_M	ええい！ だからキサマから{r[うば]}奪{/r}おうというのだ！\nかくごしろ！
-CharaSerif_07_M	\u000e\u0000\u0002\u0002\u0096\u0000いくぞおおっ！\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_07_M	{s[150]}いくぞおおっ！{s[100]}
 \event\stageBeginArea04sub010.msbt
 CharaSerif_00_M	へぇ･･･ ドートンの{r[はなし]}話{/r}だと、{r[きゅうきょく]}究極{/r}のギアを\n{r[つく]}作{/r}る{r[ぎし]}技師{/r}がいるのはこの{r[じんじゃ]}神社{/r}か･･･？
 CharaSerif_00_F	ふーん･･･ドートンの{r[はなし]}話{/r}だと、{r[きゅうきょく]}究極{/r}のギアを\n{r[つく]}作{/r}る{r[ぎし]}技師{/r}がいるのはこの{r[じんじゃ]}神社{/r}･･･？
@@ -4224,7 +4224,7 @@ Prologue04_41_M	やめろ！ ジンライはオレと{r[けいやく]}契約{/r}
 Prologue04_41_F	やめて！ ジンライはわたしと{r[けいやく]}契約{/r}したのよ。\nこの{r[こ]}子{/r}はもう、わたしのスシガミなんだから！
 Prologue04_42_M	フン･･･ なんだ？ このガキ･･･\n
 Prologue04_42_F	フン･･･ なんだ？ この{r[こむすめ]}小娘{/r}･･･
-Prologue04_43_M	\u000e\u0000\u0002\u0002\u0096\u0000ひねりつぶしてやる！\u000e\u0000\u0002\u0002d\u0000
+Prologue04_43_M	{s[150]}ひねりつぶしてやる！{s[100]}
 \event\stageBeginM003.msbt
 stageBeginM004_01_M	まて！ ムサシ!!
 stageBeginM004_02_M	･･･コジロー!?
@@ -4240,18 +4240,18 @@ stageBeginM004_09_M	ええっ!!\nおまえがユキチさんを!?
 stageBeginM004_09_F	ええっ!!\nあんたがユキチさんを!?
 stageBeginM004_10_M	･･･フン。オレはスシひとつない\n{r[きょうわこく]}共和国{/r}なんてウンザリなんだ。
 stageBeginM004_11_M	この{r[てがら]}手柄{/r}をもとに、オレは{r[ていこく]}帝国{/r}{r[ぐん]}軍{/r}に{r[はい]}入{/r}って\nハラいっぱいスシを{r[た]}食{/r}べてやる！
-stageBeginM004_12_M	\u000e\u0000\u0002\u0002\u0096\u0000ハラいっぱいにな!!\u000e\u0000\u0002\u0002d\u0000
+stageBeginM004_12_M	{s[150]}ハラいっぱいにな!!{s[100]}
 stageBeginM004_13_M	くっ･･･ ユキチさんは{r[せかい]}世界{/r}{r[じゅう]}中{/r}のみんなが\nスシを{r[た]}食{/r}べられるよう、がんばってるのに･･･
 stageBeginM004_14_M	コジロー！ それをおまえは･･･!!
 stageBeginM004_14_F	コジロー！ それをあんた･･･!!
 stageBeginM004_15_M	{r[し]}知{/r}ったことか！\nオレは、オレさえよけりゃいいのさ！
-stageBeginM004_16_M	\u000e\u0000\u0002\u0002\u0096\u0000コジロォォォ!!\u000e\u0000\u0002\u0002d\u0000
+stageBeginM004_16_M	{s[150]}コジロォォォ!!{s[100]}
 stageBeginM004_18_M	なっ、なんだ!?
 stageBeginM004_18_F	なっ、なに!?
 stageBeginM004_19_M	むっ！ これは{c[91ff1e]}レーンドライブギア{c[000000]}!!\nスシライカーの{r[のうりょく]}能力{/r}を{r[たか]}高{/r}めるもの･･･！
 stageBeginM004_20_M	ムサシよ！ スシにたいする\nおヌシのあつい{r[おも]}思{/r}いに{r[こた]}応{/r}えたのじゃ!!
 \event\stageBeginM004.msbt
-stageBeginM005_01_M	\u000e\u0000\u0002\u0002\u0096\u0000まてーい！\u000e\u0000\u0002\u0002d\u0000
+stageBeginM005_01_M	{s[150]}まてーい！{s[100]}
 stageBeginM005_02_M	でたな、{r[ていこく]}帝国{/r}{r[ぐん]}軍{/r}！
 stageBeginM005_02_F	でたわね、{r[ていこく]}帝国{/r}{r[ぐん]}軍{/r}！
 stageBeginM005_03_M	フン･･･ コジローとかいう{r[しん]}新{/r}{r[い]}入{/r}りから\n{r[はなし]}話{/r}は{r[き]}聞{/r}いているぞ。
@@ -4259,46 +4259,46 @@ stageBeginM005_04_M	フフフ･･･ めずらしいスシガミを\nつれて
 stageBeginM005_05_M	いけ、コブリン！\nジンライをうばえ！
 stageBeginM005_06_M	ハッ！
 stageBeginM005_07_M	フフフ･･･ オレのスシガミのスキルを{r[み]}見{/r}て\nビビるんじゃねえぞ･･･
-stageBeginM005_08_M	\u000e\u0000\u0002\u0002\u0096\u0000その{r[な]}名{/r}も『{c[91ff1e]}スイーツ{r[てんごく]}天国{/r}{c[000000]}』！\u000e\u0000\u0002\u0002d\u0000
+stageBeginM005_08_M	{s[150]}その{r[な]}名{/r}も『{c[91ff1e]}スイーツ{r[てんごく]}天国{/r}{c[000000]}』！{s[100]}
 stageBeginM005_09_M	それは･･･ バトル{r[ちゅう]}中{/r}に{r[むすう]}無数{/r}のスイーツを{r[よ]}呼{/r}び{r[だ]}出{/r}し\n{c[ffae00]}{r[たいりょく]}体力{/r}を{r[かいふく]}回復{/r}{c[000000]}させる、{r[きょうい]}驚異{/r}のスキル･･･！
 stageBeginM005_10_M	ん･･･ 『{c[91ff1e]}スイーツ{r[てんごく]}天国{/r}{c[000000]}』？
 stageBeginM005_11_M	そういえば、さっき{r[けいやく]}契約{/r}した\nペンゾーもたしか･･･
 stageBeginM005_12_M	いいか？ スイーツは{r[さら]}皿{/r}に{r[の]}乗{/r}っていない！\n{c[ffae00]}１つ１つタッチ{c[000000]}して{r[た]}食{/r}べるのだ!!
-stageBeginM005_13_M	\u000e\u0000\u0002\u0002\u0096\u0000ハッ!!\u000e\u0000\u0002\u0002d\u0000
+stageBeginM005_13_M	{s[150]}ハッ!!{s[100]}
 \event\stageBeginM005.msbt
-stageBeginM006_01_M	\u000e\u0000\u0002\u0002\u0096\u0000まてーい!!\u000e\u0000\u0002\u0002d\u0000
+stageBeginM006_01_M	{s[150]}まてーい!!{s[100]}
 stageBeginM006_02_M	ちぇっ、また{r[で]}出{/r}たな･･･
 stageBeginM006_02_F	ちぇっ、また{r[で]}出{/r}たわね･･･
 stageBeginM006_03_M	フン、さきほどは\nコブリンが{r[せわ]}世話{/r}になったな･･･
 stageBeginM006_04_M	いけ、クドリン！\nこんどこそジンライをうばえ！
 stageBeginM006_05_M	ハッ！
 stageBeginM006_06_M	ヘヘッ、オレのスシガミのスキルは\nちょいとシビれるぜぇ･･･
-stageBeginM006_07_M	\u000e\u0000\u0002\u0002\u0096\u0000その{r[な]}名{/r}も『{c[91ff1e]}{r[でんげき]}電撃{/r}シュート{c[000000]}』！\u000e\u0000\u0002\u0002d\u0000
+stageBeginM006_07_M	{s[150]}その{r[な]}名{/r}も『{c[91ff1e]}{r[でんげき]}電撃{/r}シュート{c[000000]}』！{s[100]}
 stageBeginM006_08_M	それは･･･ {r[でんき]}電気{/r}をおびた{r[さら]}皿{/r}で{r[あいて]}相手{/r}の{r[たいりょく]}体力{/r}を\nゴリゴリッとけずる、{r[せんりつ]}戦慄{/r}のスキル･･･！
 stageBeginM006_09_M	なんだって･･･ 『{c[91ff1e]}{r[でんげき]}電撃{/r}シュート{c[000000]}』？
 stageBeginM006_09_F	なんですって･･･ 『{c[91ff1e]}{r[でんげき]}電撃{/r}シュート{c[000000]}』？
-stageBeginM006_10_M	\u000e\u0000\u0002\u0002\u0096\u0000いくぜええっ！\u000e\u0000\u0002\u0002d\u0000
+stageBeginM006_10_M	{s[150]}いくぜええっ！{s[100]}
 \event\stageBeginM006.msbt
-stageBeginM007_01_M	\u000e\u0000\u0002\u0002\u0096\u0000･･･まてーい!!!\u000e\u0000\u0002\u0002d\u0000
+stageBeginM007_01_M	{s[150]}･･･まてーい!!!{s[100]}
 stageBeginM007_02_M	やれやれ･･･ しつこいなぁ。
 stageBeginM007_02_F	やれやれ･･･ しつこいわねぇ。
 stageBeginM007_03_M	むう･･･ クドリンまでやられるとは\nなんたるナマイキ！
 stageBeginM007_04_M	いけ、カレリン！\nなんとしてもジンライをうばうのだ！
 stageBeginM007_05_M	フフフ･･･ オレのスシガミのスキルは･･･
-stageBeginM007_06_M	\u000e\u0000\u0002\u0002\u0096\u0000その{r[な]}名{/r}も『{c[91ff1e]}バリアシールド{c[000000]}』！\u000e\u0000\u0002\u0002d\u0000
+stageBeginM007_06_M	{s[150]}その{r[な]}名{/r}も『{c[91ff1e]}バリアシールド{c[000000]}』！{s[100]}
 stageBeginM007_07_M	それは･･･ キサマの{r[こうげき]}攻撃{/r}でうけるダメージを\nガクン！と{r[さ]}下{/r}げる、{r[ひっしょう]}必勝{/r}のスキル･･･！
 stageBeginM007_08_M	くっ･･･ 『{c[91ff1e]}バリアシールド{c[000000]}』\n{r[こんど]}今度{/r}は{r[ぼうぎょ]}防御{/r}だな？
 stageBeginM007_08_F	くっ･･･ 『{c[91ff1e]}バリアシールド{c[000000]}』\n{r[こんど]}今度{/r}は{r[ぼうぎょ]}防御{/r}ね？
-stageBeginM007_09_M	\u000e\u0000\u0002\u0002\u0096\u0000･･･いくぞおおっ！\u000e\u0000\u0002\u0002d\u0000
+stageBeginM007_09_M	{s[150]}･･･いくぞおおっ！{s[100]}
 \event\stageBeginM007.msbt
 stageBeginM008_02_M	へへっ♪ とうとう１人になったな。
 stageBeginM008_02_F	へへっ♪ とうとう１人に\nなったみたいね。
 stageBeginM008_03_M	･･･よかろう。わがスシガミのスキル\n{r[とくべつ]}特別{/r}に{r[み]}見{/r}せてやる。
-stageBeginM008_04_M	\u000e\u0000\u0002\u0002\u0096\u0000その{r[な]}名{/r}も『{c[91ff1e]}{r[ぼうそうとっきゅう]}暴走特急{/r}レーン{c[000000]}』！\u000e\u0000\u0002\u0002d\u0000
+stageBeginM008_04_M	{s[150]}その{r[な]}名{/r}も『{c[91ff1e]}{r[ぼうそうとっきゅう]}暴走特急{/r}レーン{c[000000]}』！{s[100]}
 stageBeginM008_05_M	なんだ!? ･･････{r[ぼうそう]}暴走{/r}？
 stageBeginM008_05_F	なに!? ･･････{r[ぼうそう]}暴走{/r}？
 stageBeginM008_06_M	フッ、このスキルが{r[はつどう]}発動{/r}する{r[とき]}時{/r}･･･\nキサマのレーンは、ブレーキしらずの{r[とっきゅう]}特急{/r}となる！
-stageBeginM008_07_M	\u000e\u0000\u0002\u0002\u0096\u0000{r[しょうぶ]}勝負{/r}だ！{r[め]}目{/r}をまわすなよ!!\u000e\u0000\u0002\u0002d\u0000
+stageBeginM008_07_M	{s[150]}{r[しょうぶ]}勝負{/r}だ！{r[め]}目{/r}をまわすなよ!!{s[100]}
 \event\stageBeginM008.msbt
 stageBeginM009_01_M	へえ、ここがアジトか･･･
 stageBeginM009_01_F	ふーん、ここがアジトか･･･
@@ -4308,8 +4308,8 @@ stageBeginM009_03_F	･･･ん？ あなたは？
 stageBeginM009_04_M	{r[わたし]}私{/r}はリョーマ。\nこの{r[そしき]}組織{/r}のリーダーです。
 stageBeginM009_05_M	ほう･･･ あのジンライに{r[みと]}認{/r}められたとは\n{r[いったい]}一体{/r}どんな{r[ひと]}人{/r}かと{r[おも]}思{/r}いましたが･･･
 stageBeginM009_06_M	フフフ･･･ まさかこんな{r[こども]}子供{/r}とは。
-stageBeginM009_07_M	\u000e\u0000\u0002\u0002\u0096\u0000{r[こども]}子供{/r}あつかいするな！\u000e\u0000\u0002\u0002d\u0000
-stageBeginM009_07_F	\u000e\u0000\u0002\u0002\u0096\u0000{r[こども]}子供{/r}あつかいしないで！\u000e\u0000\u0002\u0002d\u0000
+stageBeginM009_07_M	{s[150]}{r[こども]}子供{/r}あつかいするな！{s[100]}
+stageBeginM009_07_F	{s[150]}{r[こども]}子供{/r}あつかいしないで！{s[100]}
 stageBeginM009_08_M	おや？ これは{r[しつれい]}失礼{/r}･･･
 stageBeginM009_09_M	われわれはスシ{r[かいほうせんせん]}解放戦線{/r}。{r[ていこく]}帝国{/r}に{r[たいこう]}対抗{/r}し\n{r[かくち]}各地{/r}でゲリラ{r[かつどう]}活動{/r}を{r[おこな]}行{/r}っているものです。
 stageBeginM009_10_M	･･･えっ、{r[ていこく]}帝国{/r}と{r[たたか]}戦{/r}ってるって？
@@ -4321,10 +4321,10 @@ stageBeginM009_12_F	おねがい！{r[ていこく]}帝国{/r}に{r[つ]}連{/r}
 stageBeginM009_13_M	なるほど･･･
 stageBeginM009_14_M	･･･わかりました。\nその{r[ねが]}願{/r}い、{r[き]}聞{/r}かないこともありません。
 stageBeginM009_15_M	ただし、{r[じょうけん]}条件{/r}がひとつ。\nジンライをゆずってください。
-stageBeginM009_16_M	\u000e\u0000\u0002\u0002\u0096\u0000ええっ!?\u000e\u0000\u0002\u0002d\u0000
+stageBeginM009_16_M	{s[150]}ええっ!?{s[100]}
 stageBeginM009_17_M	フフッ･･･ ジンライのチカラは\n{r[かず]}数{/r}あるスシガミの{r[なか]}中{/r}でもトップクラス･･･
 stageBeginM009_18_M	そのチカラは、われわれにこそ{r[ひつよう]}必要{/r}なのです。\nキミのような{r[こども]}子供{/r}ではなく･･･ね。
-stageBeginM009_19_M	\u000e\u0000\u0002\u0002\u0096\u0000!!\u000e\u0000\u0002\u0002d\u0000
+stageBeginM009_19_M	{s[150]}!!{s[100]}
 stageBeginM009_20_M	それは･･･ できない。\nユキチさんは、オレの{r[て]}手{/r}で{r[たす]}助{/r}けたいんだ。
 stageBeginM009_20_F	それはダメ･･･！\nユキチさんは、わたしの{r[て]}手{/r}で{r[たす]}助{/r}けたいの。
 stageBeginM009_21_M	それには、ジンライの{r[ちから]}力{/r}が{r[ひつよう]}必要{/r}だ！
@@ -4332,16 +4332,16 @@ stageBeginM009_21_F	それには、ジンライの{r[ちから]}力{/r}が{r[ひ
 stageBeginM009_22_M	･･･ほう。
 stageBeginM009_23_M	それに、ヤツと{r[やくそく]}約束{/r}したんだ！\nいっしょに、{r[せかい]}世界{/r}{r[じゅう]}中{/r}の{r[ひと]}人{/r}にスシを{r[た]}食{/r}べさせるって！
 stageBeginM009_23_F	それに･･･ {r[やくそく]}約束{/r}したの！\nいっしょに、{r[せかい]}世界{/r}{r[じゅう]}中{/r}の{r[ひと]}人{/r}にスシを{r[た]}食{/r}べさせるって！
-stageBeginM009_24_M	\u000e\u0000\u0002\u0002\u0096\u0000すばらしい！\u000e\u0000\u0002\u0002d\u0000
+stageBeginM009_24_M	{s[150]}すばらしい！{s[100]}
 stageBeginM009_25_M	それは、われらの{r[りそう]}理想{/r}でもあります。\nその{r[じつげん]}実現{/r}のためにも･･･
-stageBeginM009_26_M	\u000e\u0000\u0002\u0002\u0096\u0000ふざけるな！\u000e\u0000\u0002\u0002d\u0000
-stageBeginM009_26_F	\u000e\u0000\u0002\u0002\u0096\u0000ふざけないで！\u000e\u0000\u0002\u0002d\u0000
+stageBeginM009_26_M	{s[150]}ふざけるな！{s[100]}
+stageBeginM009_26_F	{s[150]}ふざけないで！{s[100]}
 stageBeginM009_27_M	{r[かって]}勝手{/r}なこと{r[い]}言{/r}って･･･ なんだよ\nいきなりジンライをよこせだなんて！
 stageBeginM009_27_F	{r[かって]}勝手{/r}なこと{r[い]}言{/r}って･･･ なによ\nいきなりジンライをよこせだなんて！
 stageBeginM009_28_M	それじゃ{r[ていこく]}帝国{/r}のヤツらと\nかわらないじゃないか！
 stageBeginM009_28_F	それじゃ{r[ていこく]}帝国{/r}のやりかたと\nかわらないじゃん！
 stageBeginM009_29_M	･･････{r[ざんねん]}残念{/r}です。\n{r[てあら]}手荒{/r}なマネはしたくなかったのですが･･･
-stageBeginM009_30_M	\u000e\u0000\u0002\u0002\u0096\u0000うらまないでくださいよ!?\u000e\u0000\u0002\u0002d\u0000
+stageBeginM009_30_M	{s[150]}うらまないでくださいよ!?{s[100]}
 \event\stageBeginM009.msbt
 CharaSerif_00_M	ぬっ！ ジンライをつれた{r[こども]}子供{/r}･･･\nさてはウワサの{r[けいやく]}契約{/r}{r[しゃ]}者{/r}か!?
 CharaSerif_01_M	へへっ♪ すっかり{r[ゆうめい]}有名{/r}{r[じん]}人{/r}だなぁ･･･
@@ -4353,7 +4353,7 @@ CharaSerif_04_F	･･･ん？ {r[せんとう]}戦闘{/r}･･･なんです
 CharaSerif_05_M	ちなみに、わが{r[たい]}隊{/r}の{r[はいび]}配備{/r}スシガミの\nスキルは『{c[91ff1e]}いつの{r[ま]}間{/r}に{r[ついかざら]}追加皿{/r}{c[000000]}』！
 CharaSerif_06_M	フフフ･･･ {r[と]}取{/r}った{r[かず]}数{/r}{r[いじょう]}以上{/r}の{r[さら]}皿{/r}が{r[ついか]}追加{/r}で\nテーブルに{r[つ]}積{/r}まれるという{r[おそ]}恐{/r}ろしい{r[わざ]}技{/r}だ！
 CharaSerif_07_M	そして、{r[せんとう]}戦闘{/r}{r[ぶたい]}部隊{/r}１人{r[め]}目{/r}のオレは{c[ffae00]}トツゲキ{r[へい]}兵{/r}{c[000000]}！\n{r[こざいく]}小細工{/r}なしで、トツゲキあるのみ!!
-CharaSerif_08_M	\u000e\u0000\u0002\u0002\u0096\u0000いくぞおおっ！\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_08_M	{s[150]}いくぞおおっ！{s[100]}
 \event\stageBeginM010.msbt
 CharaSerif_00_M	むむっ、ジンライをつれた{r[こども]}子供{/r}･･･！\nひょっとして･･･
 CharaSerif_01_M	へへっ♪ よーし･･･\nつぎはおまえをやっつけてやる！
@@ -4364,25 +4364,25 @@ CharaSerif_04_M	{r[せんとう]}戦闘{/r}{r[ぶたい]}部隊{/r}の２人{r[�
 CharaSerif_05_M	えっ!? カプセル･･･？
 CharaSerif_06_M	フッ･･･ オレとの{r[たたか]}戦{/r}いは、{c[91ff1e]}{r[きょうつう]}共通{/r}レーン{c[000000]}に{r[あらわ]}現{/r}れる\n{c[91ff1e]}カプセル{c[000000]}を{r[さき]}先{/r}に{r[あ]}開{/r}けられるかどうかで{r[き]}決{/r}まる！
 CharaSerif_07_M	なぜなら･･･ {c[91ff1e]}カプセル{c[000000]}には、スゴい{r[こうか]}効果{/r}の\n{c[91ff1e]}アイテム{c[000000]}が{r[い]}入{/r}れてあるのだ！
-CharaSerif_08_M	\u000e\u0000\u0002\u0002\u0096\u0000いくぜええっ！\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_08_M	{s[150]}いくぜええっ！{s[100]}
 \event\stageBeginM011.msbt
 CharaSerif_00_M	フッ･･･ ジンライをつれた{r[こども]}子供{/r}か。\n{r[たいちょう]}隊長{/r}へのいいみやげになりそうだ･･･
 CharaSerif_01_M	{r[せんとう]}戦闘{/r}{r[ぶたい]}部隊{/r}３{r[にんめ]}人目{/r}は、{c[ffae00]}トクシュ{r[へい]}兵{/r}{c[000000]}！\nなにからなにまで{r[とくしゅ]}特殊{/r}！ とにかく{r[とくしゅ]}特殊{/r}！
 CharaSerif_02_M	･･･なんだ？ なにが{r[とくしゅ]}特殊{/r}だって？
 CharaSerif_02_F	･･･なに？ なにが{r[とくしゅ]}特殊{/r}なの？
-CharaSerif_03_M	\u000e\u0000\u0002\u0002\u0096\u0000フフフ･･･ それは{r[い]}言{/r}えない！\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_03_M	{s[150]}フフフ･･･ それは{r[い]}言{/r}えない！{s[100]}
 CharaSerif_04_M	ちなみに、トツゲキ{r[へい]}兵{/r}やコウサク{r[へい]}兵{/r}と{r[おな]}同{/r}じく\nオレも『{c[91ff1e]}いつの{r[ま]}間{/r}に{r[ついかざら]}追加皿{/r}{c[000000]}』を{r[つか]}使{/r}う･･･
 CharaSerif_05_M	つまり、{r[たい]}隊{/r}に{r[はいび]}配備{/r}されてるスシガミのスキルは\nその{r[たい]}隊{/r}のメンバー{r[ぜんいん]}全員{/r}が{r[つか]}使{/r}えるのだ･･･！
 CharaSerif_06_M	なんだって？ なぜそんなことが･･･
 CharaSerif_06_F	なんですって？ なぜそんなことが･･･
-CharaSerif_07_M	\u000e\u0000\u0002\u0002\u0096\u0000フフフ･･･ それも{r[い]}言{/r}えない！\u000e\u0000\u0002\u0002d\u0000
-CharaSerif_08_M	\u000e\u0000\u0002\u0002\u0096\u0000いくぞ！{r[とくしゅ]}特殊{/r}の{r[おそ]}恐{/r}ろしさを{r[し]}知{/r}れ!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_07_M	{s[150]}フフフ･･･ それも{r[い]}言{/r}えない！{s[100]}
+CharaSerif_08_M	{s[150]}いくぞ！{r[とくしゅ]}特殊{/r}の{r[おそ]}恐{/r}ろしさを{r[し]}知{/r}れ!!{s[100]}
 \event\stageBeginM012.msbt
 CharaSerif_00_M	むう･･･ {r[ぶか]}部下{/r}たちが{r[もど]}戻{/r}らんのは\nどうやら、おまえのしわざらしいな･･･
 CharaSerif_01_M	{r[せんとう]}戦闘{/r}{r[ぶたい]}部隊{/r}ラストの４{r[にんめ]}人目{/r}は{c[ffae00]}{r[たいちょう]}隊長{/r}{c[000000]}！\nとうぜん{r[しょうたい]}小隊{/r}でイチバン{r[つよ]}強{/r}い！
 CharaSerif_02_M	フフフ･･･ {r[たいちょう]}隊長{/r}の{r[わたし]}私{/r}に{r[か]}勝{/r}てば、その{r[た]}食{/r}べっぷりが\n{r[たい]}隊{/r}の{r[はいび]}配備{/r}スシガミの{r[こころ]}心{/r}を{r[うご]}動{/r}かすかも{r[し]}知{/r}れんが･･･
 CharaSerif_03_M	しかーし！ {r[しょうたい]}小隊{/r}の{r[めいよ]}名誉{/r}にかけて{r[ま]}負{/r}けん!!\n{r[さいけいやく]}再契約{/r}などさせてたまるか！
-CharaSerif_04_M	\u000e\u0000\u0002\u0002\u0096\u0000{r[しょうぶ]}勝負{/r}だ！{r[ぶか]}部下{/r}のカリはかえす!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_04_M	{s[150]}{r[しょうぶ]}勝負{/r}だ！{r[ぶか]}部下{/r}のカリはかえす!!{s[100]}
 \event\stageBeginM013.msbt
 CharaSerif_00_M	まて！ ムサシ!!
 CharaSerif_01_M	･･･コジロー!?\nなんだそのワッペンは？
@@ -4403,23 +4403,23 @@ CharaSerif_13_M	オレだけが{r[けいやく]}契約{/r}できた\n{r[きゅ�
 CharaSerif_14_M	コイツのスキルは『{c[91ff1e]}{r[はちさら]}八皿{/r}ウォール{c[000000]}』！ バトル{r[ちゅう]}中{/r}\nずっと{c[ffae00]}７{r[さら]}皿{/r}{r[いか]}以下{/r}{c[000000]}の{r[こうげき]}攻撃{/r}を{c[ffae00]}{r[かんぜん]}完全{/r}にはね{r[かえ]}返{/r}す{c[000000]}ぜ!!
 CharaSerif_18_M	ハハハ！ オマエは{r[ゆびいっぽん]}指一本{/r}･･･ いや！\n{r[さら]}皿{/r}１{r[まい]}枚{/r}オレに{r[あ]}当{/r}てられずに{r[ま]}負{/r}けるのさ!!
 \event\stageBeginM014.msbt
-CharaSerif_00_M	\u000e\u0000\u0002\u0002\u0096\u0000あーっ!!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_00_M	{s[150]}あーっ!!!{s[100]}
 CharaSerif_01_M	おまえら！ ユキチさんを\nつれさったヤツラだな!!
 CharaSerif_01_F	あんたたち！ ユキチさんを\nつれさったヤツラね!?
 CharaSerif_02_M	･･･んん？ あの{r[とき]}時{/r}のガキか！\nなんでこんなところに？
-CharaSerif_03_M	\u000e\u0000\u0002\u0002\u0096\u0000{r[こども]}子供{/r}あつかいするな!!\u000e\u0000\u0002\u0002d\u0000
-CharaSerif_03_F	\u000e\u0000\u0002\u0002\u0096\u0000{r[こども]}子供{/r}あつかいしないで!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_03_M	{s[150]}{r[こども]}子供{/r}あつかいするな!!{s[100]}
+CharaSerif_03_F	{s[150]}{r[こども]}子供{/r}あつかいしないで!!{s[100]}
 CharaSerif_04_M	オレはムサシ！\nスシ{r[かいほうせんせん]}解放戦線{/r}のスシライカー・ムサシだ!!
 CharaSerif_04_F	このっ！ わたしはムサシ！\nスシ{r[かいほうせんせん]}解放戦線{/r}のスシライカー・ムサシよ!!
-CharaSerif_05_M	\u000e\u0000\u0002\u0002\u0096\u0000なんてこった!?\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_05_M	{s[150]}なんてこった!?{s[100]}
 CharaSerif_06_M	バカな！ あのダメダメだったガキが\nジンライの{r[けいやく]}契約{/r}{r[しゃ]}者{/r}ムサシだと!?
 CharaSerif_07_M	うむ！ そのムサシじゃ。
-CharaSerif_08_M	\u000e\u0000\u0002\u0002\u0096\u0000ジンライ!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_08_M	{s[150]}ジンライ!!{s[100]}
 CharaSerif_09_M	フン！ だが{r[かんが]}考{/r}えようによっちゃ\nこりゃ{r[ぜっこう]}絶好{/r}のチャンスだぜ･･･
 CharaSerif_10_M	グハハハハッ！\nスシライカーは{r[じっせん]}実戦{/r}{r[けいけん]}経験{/r}がすべて！
 CharaSerif_11_M	ニワカ{r[じ]}仕{/r}{r[こ]}込{/r}みのオマエに\n{r[か]}勝{/r}ち{r[め]}目{/r}などない！
 CharaSerif_12_M	ヤロウども！ たたきのめして\nジンライをうばいとれ！
-CharaSerif_13_M	\u000e\u0000\u0002\u0002\u0096\u0000オス!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_13_M	{s[150]}オス!!{s[100]}
 \event\stageBeginM018.msbt
 CharaSerif_00_M	フン･･･ {r[かいほうせんせん]}解放戦線{/r}のヤツらは\nあきらめが{r[わる]}悪{/r}いようだな。
 CharaSerif_01_M	ええい！ なんど{r[せ]}攻{/r}めてきてもムダだ。\nまた{r[お]}追{/r}い{r[かえ]}返{/r}してやる!!
@@ -4427,18 +4427,18 @@ CharaSerif_02_M	･･･そうか、{r[しれいかん]}司令官{/r}っての�
 CharaSerif_02_F	･･･そうか、{r[しれいかん]}司令官{/r}ってのは\nあなたね？
 CharaSerif_03_M	へへっ♪ オレがきたからには\nここは{r[かいほうせんせん]}解放戦線{/r}がいただくぜ!!
 CharaSerif_03_F	へへっ♪ わたしがきたからには\nここは{r[かいほうせんせん]}解放戦線{/r}がいただくわ!!
-CharaSerif_04_M	\u000e\u0000\u0002\u0002\u0096\u0000グハハハ!! いきがるな！ガキ!!\u000e\u0000\u0002\u0002d\u0000
-CharaSerif_04_F	\u000e\u0000\u0002\u0002\u0096\u0000グハハハ!! いきがるな！{r[こむすめ]}小娘{/r}!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_04_M	{s[150]}グハハハ!! いきがるな！ガキ!!{s[100]}
+CharaSerif_04_F	{s[150]}グハハハ!! いきがるな！{r[こむすめ]}小娘{/r}!!{s[100]}
 CharaSerif_05_M	フン！ この{r[ちんじゅ]}鎮守{/r}の{r[もり]}森{/r}は\n{r[きょうわこく]}共和国{/r}{r[ない]}内{/r}における{r[ていこく]}帝国{/r}の{r[じゅうようきょてん]}重要拠点{/r}！
 CharaSerif_06_M	キサマら{r[かいほうせんせん]}解放戦線{/r}になど\nわたしてたまるか!!
 CharaSerif_07_M	･･･そういうわけだ。\n{r[わたし]}私{/r}があいてになろう！
-CharaSerif_08_M	\u000e\u0000\u0002\u0002\u0096\u0000ま･･･ まってぇぇぇ!!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_08_M	{s[150]}ま･･･ まってぇぇぇ!!!{s[100]}
 CharaSerif_09_M	おまえは･･･ {r[しん]}新{/r}{r[い]}入{/r}り!?
 CharaSerif_10_M	コイツは･･･ ムサシは･･･\nオレにたおさせてください!!
 CharaSerif_11_M	なんだと？\nオマエさっき{r[ま]}負{/r}けただろうが！
 CharaSerif_12_M	もういちど！ もういちどチャンスを!!\nかならずコイツをたおしてみせますぅ！
 CharaSerif_13_M	･･･よーし、やってみろ！\nただし{r[ま]}負{/r}けたら、ウチの{r[たい]}隊{/r}をクビだ！
-CharaSerif_14_M	\u000e\u0000\u0002\u0002\u0096\u0000く･･･ クビ!?\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_14_M	{s[150]}く･･･ クビ!?{s[100]}
 CharaSerif_15_M	ちくしょう･･･ ムサシ！\nこれもぜんぶオマエのせいだ!!
 \event\stageBeginM019.msbt
 CharaSerif_00_M	フン！ あんな{r[な]}泣{/r}き{r[むし]}虫{/r}\nさいしょからアテになんかしてねえぜ！
@@ -4447,7 +4447,7 @@ CharaSerif_02_M	フフフ･･･ わがスシガミのスキル\n『{c[91ff1e]
 CharaSerif_03_M	なんだって･･･ スシシャッフラー？
 CharaSerif_03_F	なんですって･･･ スシシャッフラー？
 CharaSerif_04_M	{r[き]}気{/r}をつけろ！ こちらのスシのならびが\nかきまぜられてしまうぞ!!
-CharaSerif_05_M	\u000e\u0000\u0002\u0002\u0096\u0000{r[しょうぶ]}勝負{/r}だ！ かくごしろ!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_05_M	{s[150]}{r[しょうぶ]}勝負{/r}だ！ かくごしろ!!{s[100]}
 \event\stageBeginM021.msbt
 CharaSerif_00_M	ゲッ･･･ おまえはムサシ！\nさてはあのガキ、しくじったな･･･
 CharaSerif_01_M	ン？ なんのことだ･･･？
@@ -4457,7 +4457,7 @@ CharaSerif_03_M	いくぞ！ わが{r[たい]}隊{/r}の{r[はいび]}配備{/r}
 CharaSerif_04_M	なにっ、ダブル･･･ {r[きゅうこう]}急行{/r}!?
 CharaSerif_04_F	なに!? ダブル･･･ {r[きゅうこう]}急行{/r}!?
 CharaSerif_05_M	フフッ･･･ {r[じぶん]}自分{/r}のレーンのスピードを{r[すこ]}少{/r}し{r[はや]}速{/r}めつつ\n{r[てき]}敵{/r}のレーンも{r[はや]}速{/r}める、まさに{r[こうぼういったい]}攻防一体{/r}の{r[わざ]}技{/r}だ!!
-CharaSerif_06_M	\u000e\u0000\u0002\u0002\u0096\u0000ひねりつぶしてやる！\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_06_M	{s[150]}ひねりつぶしてやる！{s[100]}
 CharaSerif_07_M	･･･ちなみに、{r[しよう]}使用{/r}スキルの{r[しょうかい]}紹介{/r}はここまでだ。\n{r[いこう]}以降{/r}は、{r[つぎ]}次{/r}の{c[91ff1e]}{r[じょうほうがめん]}情報画面{/r}{c[000000]}でみずから{r[たし]}確{/r}かめろよ？
 \event\stageBeginM025.msbt
 CharaSerif_00_M	･･･よう、ユーリア。\nまたあえると{r[おも]}思{/r}ってたぜ♪
@@ -4472,7 +4472,7 @@ CharaSerif_06_M	なんだって･･･ {r[せんそう]}戦争{/r}!?\nちが�
 CharaSerif_06_F	なんですって･･･ {r[せんそう]}戦争{/r}!?\nちがう！ わたしは･･･!!
 CharaSerif_07_M	ムサシ！ {r[はな]}話{/r}してもムダなようじゃ。\nしかたない!!
 \event\stageBeginM026.msbt
-CharaSerif_00_M	\u000e\u0000\u0002\u0002\u0096\u0000･･･ぬおっ？ ムサシ!?\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_00_M	{s[150]}･･･ぬおっ？ ムサシ!?{s[100]}
 CharaSerif_01_M	へへっ♪ やっと{r[み]}見{/r}つけたぜ！
 CharaSerif_01_F	へへっ♪ やっと{r[み]}見{/r}つけた！
 CharaSerif_02_M	なんてこった！ ここまでくるとは･･･\nユーリアめ、つかえねえ!!
@@ -4484,9 +4484,9 @@ CharaSerif_06_M	グハハハハッ!!\nそうでもしなきゃ、{r[い]}生{/r}
 CharaSerif_07_M	むう･･･ {r[せんそう]}戦争{/r}で{r[こころ]}心{/r}にキズを{r[お]}負{/r}った{r[もの]}者{/r}を\n{r[たたか]}戦{/r}いに{r[りよう]}利用{/r}するとは･･･！
 CharaSerif_08_M	うるせえ！ どんな{r[て]}手{/r}を{r[つか]}使{/r}おうと\n{r[か]}勝{/r}てば{r[せいぎ]}正義{/r}なんだよ!!
 CharaSerif_09_M	ヤロウども、{r[き]}気{/r}{r[あ]}合{/r}いを{r[い]}入{/r}れろ！\nなんとしても{r[こっきょう]}国境{/r}にはいかせるなよ!!
-CharaSerif_10_M	\u000e\u0000\u0002\u0002\u0096\u0000オス！この{r[キンニク]}筋肉{/r}にかけて!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_10_M	{s[150]}オス！この{r[キンニク]}筋肉{/r}にかけて!!{s[100]}
 CharaSerif_11_M	さもないとオレたちゃ･･･\nあぁ、かんがえただけでもオソロシイ･･･！
-CharaSerif_12_M	\u000e\u0000\u0002\u0002\u0096\u0000オス！ ぶるぶるぶる･･･\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_12_M	{s[150]}オス！ ぶるぶるぶる･･･{s[100]}
 CharaSerif_13_M	さぁ、やれ！\nとにかく{r[ま]}負{/r}けるなよ!!
 \event\stageBeginM030.msbt
 CharaSerif_00_M	･･･これで{r[さいご]}最後{/r}よ。\n{r[こんど]}今度{/r}こそたおして、{r[せんそう]}戦争{/r}をおわらせる！
@@ -4496,13 +4496,13 @@ CharaSerif_02_F	よーし･･･ じゃあまた\nふたりでスシ{r[た]}�
 CharaSerif_03_M	バカみたい！\nスシバトルは{r[たたか]}戦{/r}いよ。それを･･･
 CharaSerif_04_M	だから、そのバトルでおまえに\nスシのうまさを{r[おし]}教{/r}えてやるぜ！
 CharaSerif_04_F	だから、そのバトルであなたに\nスシのおいしさを{r[おし]}教{/r}えてあげる！
-CharaSerif_05_M	\u000e\u0000\u0002\u0002\u0096\u0000バ･･････!!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_05_M	{s[150]}バ･･････!!!{s[100]}
 CharaSerif_06_M	ムサシ･･･ むなしくならないの？\nそうやって、いつも１人で{r[たたか]}戦{/r}って･･･
 CharaSerif_07_M	いや、オレにはスシがある！\nジンライたちスシガミもいる！
 CharaSerif_07_F	ううん、わたしにはスシがある！\nジンライたちスシガミもいる！
 CharaSerif_08_M	それに･･･ もうすぐ、おまえとも\n{r[なかま]}仲間{/r}になれそうな{r[き]}気{/r}がするぜ!!
 CharaSerif_08_F	それに･･･ もうすぐ、あなたとも\n{r[ともだち]}友達{/r}になれそうな{r[き]}気{/r}がするわ!!
-CharaSerif_09_M	\u000e\u0000\u0002\u0002\u0096\u0000･････････!!\u000e\u0000\u0002\u0002d\u0000\n
+CharaSerif_09_M	{s[150]}･････････!!{s[100]}\n
 \event\stageBeginM031.msbt
 CharaSerif_00_M	ぬうう･･･ ついにここまで！
 CharaSerif_01_M	おまえはユーリア！\nうらぎりやがったな!?
@@ -4510,10 +4510,10 @@ CharaSerif_02_M	わたしは、{r[せんそう]}戦争{/r}を{r[お]}終{/r}わ�
 CharaSerif_03_M	それと･･･ この{r[ひと]}人{/r}の{r[えがお]}笑顔{/r}に\nかけてみたくなっただけよ･･･
 CharaSerif_04_M	フン！ くだらねぇ!!\nだったら、まとめてかたづけてやる！
 CharaSerif_05_M	うおりゃあっ!! {r[み]}見{/r}やがれ！ あらあらしくも\nカッコよくスシを{r[く]}食{/r}う、オレ{r[さま]}様{/r}の{r[ゆうし]}勇姿{/r}を!!!
-CharaSerif_06_M	\u000e\u0000\u0002\u0002\u0096\u0000いくぜ！『{c[91ff1e]}バキューム{r[ぐ]}食{/r}い{c[000000]}』!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_06_M	{s[150]}いくぜ！『{c[91ff1e]}バキューム{r[ぐ]}食{/r}い{c[000000]}』!!{s[100]}
 CharaSerif_07_M	これは･･･！ あの{r[とき]}時{/r}の!?
 CharaSerif_08_M	むぅ･･･！ {r[さら]}皿{/r}の{r[いろ]}色{/r}すらムシして\n{r[す]}吸{/r}い{r[こ]}込{/r}むように{r[く]}食{/r}うという、あのスキルか!!
-CharaSerif_09_M	\u000e\u0000\u0002\u0002\u0096\u0000グハハハハ！ かくごしろ!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_09_M	{s[150]}グハハハハ！ かくごしろ!!{s[100]}
 \event\stageBeginM032.msbt
 CharaSerif_00_M	むむっ、{r[かいほうせんせん]}解放戦線{/r}！\nスシ{r[かいほうせんせん]}解放戦線{/r}があらわれたぞ！
 CharaSerif_01_M	みんな！ ここはオレにまかせて\n{r[さき]}先{/r}に{r[すす]}進{/r}んでくれ!!
@@ -4537,7 +4537,7 @@ CharaSerif_07_M	ぬう･･･ みょうなヤツじゃな。\nどうする？
 CharaSerif_08_M	やれやれ･･･ ジンライ、コイツに\nスシを{r[く]}食{/r}わせてやってくれ。
 CharaSerif_08_F	やれやれ･･･ ジンライ、この{r[ひと]}人{/r}に\nスシを{r[た]}食{/r}べさせてあげて。
 CharaSerif_09_M	うむ、よかろう！
-CharaSerif_10_M	\u000e\u0000\u0002\u0002\u0096\u0000マイウー！ シースーマイウー!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_10_M	{s[150]}マイウー！ シースーマイウー!!{s[100]}
 CharaSerif_11_M	へへっ♪ “シースー”って\nスシのことか？
 CharaSerif_11_F	へへっ♪ “シースー”って\nそれスシのこと？
 CharaSerif_12_M	そそ！\nシースー、サイコー！
@@ -4554,10 +4554,10 @@ CharaSerif_01_M	こんな{r[とお]}遠{/r}い{r[ところ]}所{/r}まで、ご�
 CharaSerif_02_M	おおっ!! ウマそう！
 CharaSerif_02_F	うおぅ♪ おいしそう！
 CharaSerif_03_M	ふほほ･･･ そうじゃろう♪ なにしろ\nスシの{r[ほんとう]}本当{/r}のおいしさがつまっておる。
-CharaSerif_04_M	\u000e\u0000\u0002\u0002\u0096\u0000いただきまーす！\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_04_M	{s[150]}いただきまーす！{s[100]}
 CharaSerif_05_M	へえ、ホントのおいしさねぇ･･･
 CharaSerif_05_F	ふーん、ホントのおいしさかぁ･･･
-CharaSerif_06_M	\u000e\u0000\u0002\u0002\u0096\u0000うぐっ！\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_06_M	{s[150]}うぐっ！{s[100]}
 CharaSerif_07_M	ムサシ！ どうした!?
 CharaSerif_08_M	くぅ～っ!!!!!\nこ、このスシ･･･ なかにドクが･･････！
 CharaSerif_09_M	これは!? ドクではない･･･\nワサビ！ それも{r[たいりょう]}大量{/r}じゃ!!
@@ -4567,7 +4567,7 @@ CharaSerif_11_M	むぅ、ワサビはスシの{r[ふうみ]}風味{/r}を{r[た�
 CharaSerif_12_M	ふほほっ！ ワガハイには\nそれでもたりんぐらいじゃよ♪
 CharaSerif_13_M	ワサビこそスシ！ スシこそワサビ！\nとくと{r[あじ]}味{/r}わうんじゃな!!
 CharaSerif_14_M	ええい！ {r[なにもの]}何者{/r}だ!?
-CharaSerif_15_M	\u000e\u0000\u0002\u0002\u0096\u0000よ～く{r[き]}聞{/r}けい！ ワガハイこそ･･･\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_15_M	{s[150]}よ～く{r[き]}聞{/r}けい！ ワガハイこそ･･･{s[100]}
 \event\stageBeginM041.msbt
 CharaSerif_00_M	まて！ ムサシ!!
 CharaSerif_01_M	コジロー!?\nなんだ、この{r[ぶたい]}部隊{/r}にいたのか？
@@ -4579,7 +4579,7 @@ CharaSerif_04_M	ヒヒッ♪  そういや{r[き]}聞{/r}いたぞ。\nオマエ
 CharaSerif_05_M	えっ!? オマエ{r[た]}食{/r}べられんの？
 CharaSerif_05_F	えっ!? あんた{r[た]}食{/r}べられるの？
 CharaSerif_06_M	へへへ･･･ そりゃもちろん･･･
-CharaSerif_07_M	\u000e\u0000\u0002\u0002\u0096\u0000{r[た]}食{/r}べられるわけないだろ!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_07_M	{s[150]}{r[た]}食{/r}べられるわけないだろ!!{s[100]}
 CharaSerif_08_M	やれやれ･･･ なんだそりゃ。
 CharaSerif_08_F	やれやれ･･･ なによそれ？
 CharaSerif_09_M	フン！ そんなことはどうでもいい。\n{r[あら]}新{/r}たに{r[て]}手{/r}にした、オレのチカラを{r[み]}見{/r}やがれ！
@@ -4605,9 +4605,9 @@ CharaSerif_01_M	やれやれ･･･ なんと{r[つみぶか]}罪深{/r}い。
 CharaSerif_02_M	ふざけるな！ それはこっちのセリ･･･
 CharaSerif_02_F	ふざけないで！ それはこっちのセリ･･･
 CharaSerif_03_M	み～つけた！\nこんどはバンブークさまがオニですよ♪
-CharaSerif_04_M	\u000e\u0000\u0002\u0002\u0096\u0000ふほっ！ こりゃいかん!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_04_M	{s[150]}ふほっ！ こりゃいかん!!{s[100]}
 CharaSerif_05_M	んじゃ、あとはテキトーにたのむわ。\nワガハイ、まだいそがしいんじゃ♪
-CharaSerif_06_M	\u000e\u0000\u0002\u0002\u0096\u0000は～い♪ バンブークさま!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_06_M	{s[150]}は～い♪ バンブークさま!!{s[100]}
 CharaSerif_07_M	ちぇっ、チョーシくるうなぁ･･･
 CharaSerif_07_F	ふう･･･ チョーシくるうなぁ。
 \event\stageBeginM051.msbt
@@ -4615,22 +4615,22 @@ CharaSerif_00_M	ふほほっ♪ よくここまで{r[こ]}来{/r}れたものよ
 CharaSerif_01_M	いや！ ワサビぬきだってスシはおいしい！\nあんたは{r[まちが]}間違{/r}ってる！
 CharaSerif_01_F	ううん、ワサビぬきだってスシはおいしい！\nあなたは{r[まちが]}間違{/r}ってる！
 CharaSerif_02_M	バカめ！ {r[まちが]}間違{/r}っとるのはおまえらじゃ！\nそのおかしな{r[した]}舌{/r}を{r[ただ]}正{/r}してくれる!!
-CharaSerif_03_M	\u000e\u0000\u0002\u0002\u0096\u0000ま･･･ まってぇぇぇ!!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_03_M	{s[150]}ま･･･ まってぇぇぇ!!!{s[100]}
 CharaSerif_04_M	おまえさんは･･･ {r[しん]}新{/r}{r[い]}入{/r}り!?
 CharaSerif_05_M	コイツは･･･ ムサシは･･･\nオレにたおさせてください!!
 CharaSerif_06_M	なんじゃと？ さっきコテンパンに\n{r[ま]}負{/r}けたばかりではないか。
 CharaSerif_07_M	もういちど！ もういちどチャンスを!!\nかならずコイツをたおしてみせますぅ！
 CharaSerif_08_M	ふほほ♪ まあよかろう･･･\nただし！ {r[ま]}負{/r}けたらウチの{r[たい]}隊{/r}をクビじゃぞ？
-CharaSerif_09_M	\u000e\u0000\u0002\u0002\u0096\u0000く･･･ クビ!?\u000e\u0000\u0002\u0002d\u0000\n
+CharaSerif_09_M	{s[150]}く･･･ クビ!?{s[100]}\n
 CharaSerif_10_M	ちくしょう･･･ ムサシ！\nオレの{r[しゅっせ]}出世{/r}のジャマばっかしやがって!!
 \event\stageBeginM052.msbt
 CharaSerif_00_M	ふほほっ♪ さきほどは\nとんだジャマが{r[はい]}入{/r}ったのう。
 CharaSerif_01_M	ムサシ！ やはりキサマもスシライカーなら\n{r[ほんとう]}本当{/r}のスシの･･･ ワサビの{r[あじ]}味{/r}わいを{r[し]}知{/r}るべきじゃ！
-CharaSerif_02_M	\u000e\u0000\u0002\u0002\u0096\u0000わが『{c[91ff1e]}ワサビ{r[だい]}大{/r}サービス{c[000000]}』でな！\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_02_M	{s[150]}わが『{c[91ff1e]}ワサビ{r[だい]}大{/r}サービス{c[000000]}』でな！{s[100]}
 CharaSerif_03_M	なんだ？ スシガミスキルか!?
 CharaSerif_03_F	なに!? スシガミスキル？
 CharaSerif_04_M	うむ！ こちらのレーンにムリヤリ\n{r[やまも]}山盛{/r}りワサビ{r[ざら]}皿{/r}を{r[なが]}流{/r}すスキルじゃ！
-CharaSerif_05_M	\u000e\u0000\u0002\u0002\u0096\u0000ふほほっ！シビれさせるぞい!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_05_M	{s[150]}ふほほっ！シビれさせるぞい!!{s[100]}
 \event\stageBeginM053.msbt
 CharaSerif_00_M	{r[かいほうせんせん]}解放戦線{/r}だ!!\nこ･･･ こんな{r[ところ]}所{/r}までくるとは！
 CharaSerif_01_M	･･･くそっ！ ナバには\nぜったい{r[ちか]}近{/r}づけさせんぞ!!
@@ -4663,15 +4663,15 @@ CharaSerif_06_F	でたわね･･･！ こっちはいま\nムシのいどこ�
 CharaSerif_07_M	おう！ オレがムサシだ!!\nケガしたくないヤツは、ひっこんでろ！
 CharaSerif_07_F	そうよ･･･！ わたしがムサシ!!\nケガしたくなかったら、ひっこんでて！
 CharaSerif_08_M	ひ･･･ ヒイッ!!
-CharaSerif_09_M	\u000e\u0000\u0002\u0002\u0096\u0000うろたえるなッ！\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_09_M	{s[150]}うろたえるなッ！{s[100]}
 CharaSerif_10_M	みぐるしい･･･\n{r[あいて]}相手{/r}は{r[こども]}子供{/r}だというのに。
 CharaSerif_11_M	だれだ!? あのお{r[めん]}面{/r}ヤロウ･･･
 CharaSerif_11_F	だれ!? あのお{r[めん]}面{/r}のオトコ･･･
 CharaSerif_12_M	･･･こぞう、キサマに{r[ていと]}帝都{/r}の{r[ち]}地{/r}を\nふませるわけにはいかん。
 CharaSerif_12_F	･･･{r[こむすめ]}小娘{/r}、キサマに{r[ていと]}帝都{/r}の{r[ち]}地{/r}を\nふませるわけにはいかん。
-CharaSerif_13_M	\u000e\u0000\u0002\u0002\u0096\u0000{r[でんじほう]}電磁砲{/r}{r[ようい]}用意{/r}！\u000e\u0000\u0002\u0002d\u0000
-CharaSerif_14_M	\u000e\u0000\u0002\u0002\u0096\u0000なっ、なんだ!?\u000e\u0000\u0002\u0002d\u0000
-CharaSerif_14_F	\u000e\u0000\u0002\u0002\u0096\u0000なっ、なに!?\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_13_M	{s[150]}{r[でんじほう]}電磁砲{/r}{r[ようい]}用意{/r}！{s[100]}
+CharaSerif_14_M	{s[150]}なっ、なんだ!?{s[100]}
+CharaSerif_14_F	{s[150]}なっ、なに!?{s[100]}
 CharaSerif_15_M	いかん！ あんなの{r[う]}撃{/r}たれたら\nひとたまりも{r[な]}無{/r}いぞ!!
 CharaSerif_16_M	ムサシ！ {r[はっしゃ]}発射{/r}{r[じゅんび]}準備{/r}が{r[お]}終{/r}わるまでに\nいそいで{r[はかい]}破壊{/r}するのじゃ！
 \event\stageBeginM067.msbt
@@ -4693,7 +4693,7 @@ CharaSerif_10_M	･･･なるほど。\nではジュウベエの{r[こ]}子{/r
 CharaSerif_11_M	{r[しんじつ]}真実{/r}はいつも、{r[あくい]}悪意{/r}によって{r[かく]}隠{/r}される･･･\nだが、いずれ{r[あき]}明{/r}らかになることもあるだろう･･･
 CharaSerif_12_M	なんだ？ {r[なに]}何{/r}いってやがる？
 CharaSerif_12_F	なに？ {r[なに]}何{/r}をいってるの？
-CharaSerif_13_M	\u000e\u0000\u0002\u0002\u0096\u0000{r[でんじほう]}電磁砲{/r}{r[ようい]}用意{/r}！\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_13_M	{s[150]}{r[でんじほう]}電磁砲{/r}{r[ようい]}用意{/r}！{s[100]}
 CharaSerif_14_M	まて！ にげるのか!?
 CharaSerif_14_F	まって！ にげるつもり!?
 CharaSerif_15_M	ムサシ！またあのデカブツじゃ。\n{r[き]}気{/r}をつけろ!!
@@ -4708,7 +4708,7 @@ CharaSerif_04_M	それはこっちのセリフだ！\nグロム{r[さま]}様{/r
 \event\stageBeginM072.msbt
 CharaSerif_00_M	このナバが、こうも{r[かんたん]}簡単{/r}に{r[お]}落{/r}ちるとは･･･
 CharaSerif_01_M	スシライカー・ムサシ･･･\nやはり{r[ただもの]}只者{/r}ではなかったか。
-CharaSerif_02_M	\u000e\u0000\u0002\u0002\u0096\u0000あーっ!! みつけた！\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_02_M	{s[150]}あーっ!! みつけた！{s[100]}
 CharaSerif_03_M	まて！ にげようったって\nそうはいかないぞ！
 CharaSerif_03_F	まって！ にげようったって\nそうはいかないわよ！
 CharaSerif_04_M	フン･･･ {r[こうてい]}皇帝{/r}{r[へいか]}陛下{/r}の{r[きゅう]}急{/r}なお{r[め]}召{/r}しでな。\nだが、{r[わたし]}私{/r}の{r[もくてき]}目的{/r}はすでに{r[は]}果{/r}たした。
@@ -4721,7 +4721,7 @@ CharaSerif_08_M	･･･やめておけ。\n{r[いま]}今{/r}のおまえに{r
 CharaSerif_09_M	るせえ！\nいくぜ、ジンライ！
 CharaSerif_09_F	このっ！ ゴチャゴチャうるさい!! \nいくよ、ジンライ！
 CharaSerif_10_M	･･･しかたあるまい。
-CharaSerif_11_M	\u000e\u0000\u0002\u0002\u0096\u0000いでよ、ゴウライ!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_11_M	{s[150]}いでよ、ゴウライ!!{s[100]}
 CharaSerif_12_M	･･･なにっ！\nゴウライじゃと!?
 CharaSerif_13_M	なっ、なんだ!?\nあれも･･･ スシガミなのか!?
 CharaSerif_13_F	なっ、なに!?\nあれも･･･ スシガミなの!?
@@ -4770,13 +4770,13 @@ CharaSerif_01_F	えっ･･･ なに？ オバサンだれ？
 CharaSerif_02_M	でも、かわいそうに･･･\nアンタのたびは、ここでおわりさ･･･！
 CharaSerif_03_M	･･･ひょっとして\nオバサン、{r[ていこく]}帝国{/r}{r[ぐん]}軍{/r}か？
 CharaSerif_03_F	あっ！ ひょっとして･･･\nオバサン、{r[ていこく]}帝国{/r}{r[ぐん]}軍{/r}？
-CharaSerif_04_M	\u000e\u0000\u0002\u0002\u0096\u0000･････････！\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_04_M	{s[150]}･････････！{s[100]}
 CharaSerif_05_M	･･･オバサン？
-CharaSerif_06_M	\u000e\u0000\u0002\u0002\u0096\u0000おだまり！ {r[しつれい]}失礼{/r}なガキだね!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_06_M	{s[150]}おだまり！ {r[しつれい]}失礼{/r}なガキだね!!{s[100]}
 CharaSerif_07_M	アタイのことは\n“おじょうさま”とお{r[よ]}呼{/r}び！
 CharaSerif_08_M	えーっ、さすがにそれは･･･
 CharaSerif_09_M	うむ、ムリムリじゃな。
-CharaSerif_10_M	\u000e\u0000\u0002\u0002\u0096\u0000フン、よくお{r[き]}聞{/r}き!! アタイは･･･\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_10_M	{s[150]}フン、よくお{r[き]}聞{/r}き!! アタイは･･･{s[100]}
 \event\stageBeginM083.msbt
 CharaSerif_00_M	まて！ ムサシ!!
 CharaSerif_01_M	コジロー!?\nなんだ、この{r[ぶたい]}部隊{/r}にいたのか？
@@ -4788,7 +4788,7 @@ CharaSerif_04_M	ヒヒッ♪ しかしソスナ{r[さま]}様{/r}の{r[まえ]}�
 CharaSerif_05_M	あれ？ おまえだって\n{r[あか]}赤{/r}いスシはスキだろ？
 CharaSerif_05_F	あれ？ あんただって\n{r[あか]}赤{/r}いスシはスキでしょ？
 CharaSerif_06_M	へへへ･･･ まあな。\nだから{r[さいきん]}最近{/r}は、かくれてコッソリ･･･
-CharaSerif_07_M	\u000e\u0000\u0002\u0002\u0096\u0000･･･って、{r[いま]}今{/r}のはナイショだ!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_07_M	{s[150]}･･･って、{r[いま]}今{/r}のはナイショだ!!{s[100]}
 CharaSerif_08_M	へへっ♪ いいこと{r[き]}聞{/r}いたぜ･･･
 CharaSerif_08_F	へへっ♪ いいこと{r[き]}聞{/r}いちゃった。
 CharaSerif_09_M	フン！ そんなことはどうでもいい。\n{r[あら]}新{/r}たに{r[て]}手{/r}にした、オレのチカラを{r[み]}見{/r}やがれ！
@@ -4811,13 +4811,13 @@ CharaSerif_06_M	マーヒーならムーゲーしまショー！
 CharaSerif_00_M	おやおや･･･\nま～だウロチョロしてたのかい？
 CharaSerif_01_M	フフッ･･･ ケガしないうちにお{r[かえ]}帰{/r}り？\n{r[あか]}赤{/r}いスシの ボ・ウ・ヤ♪
 CharaSerif_01_F	フフッ･･･ ケガしないうちにお{r[かえ]}帰{/r}り？\n{r[あか]}赤{/r}いスシの お・じょ・う・ちゃん♪
-CharaSerif_02_M	\u000e\u0000\u0002\u0002\u0096\u0000{r[こども]}子供{/r}あつかいするな！オバサン!!\u000e\u0000\u0002\u0002d\u0000
-CharaSerif_02_F	\u000e\u0000\u0002\u0002\u0096\u0000{r[こども]}子供{/r}{r[あつか]}扱{/r}いしないで！オバサン!!\u000e\u0000\u0002\u0002d\u0000
-CharaSerif_03_M	\u000e\u0000\u0002\u0002\u0096\u0000そっちもオバサンいうな！ガキ!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_02_M	{s[150]}{r[こども]}子供{/r}あつかいするな！オバサン!!{s[100]}
+CharaSerif_02_F	{s[150]}{r[こども]}子供{/r}{r[あつか]}扱{/r}いしないで！オバサン!!{s[100]}
+CharaSerif_03_M	{s[150]}そっちもオバサンいうな！ガキ!!{s[100]}
 CharaSerif_04_M	･･･お{r[はな]}話{/r}し{r[ちゅう]}中{/r}、{r[しつれい]}失礼{/r}します。\n{r[つぎ]}次{/r}の{r[よてい]}予定{/r}のお{r[じかん]}時間{/r}です。
 CharaSerif_05_M	･･･あら、もうスイーツタイム？\nざ～んねん。
 CharaSerif_06_M	じゃ、ボーイズたち！\nあとはまかせたわ♪
-CharaSerif_07_M	\u000e\u0000\u0002\u0002\u0096\u0000はい！ おじょうさま!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_07_M	{s[150]}はい！ おじょうさま!!{s[100]}
 CharaSerif_08_M	やれやれ、おじょうさまねえ･･･
 \event\stageBeginM093.msbt
 CharaSerif_00_M	おやおや･･・ よくここまで{r[こ]}来{/r}れたねぇ♪\n{r[あか]}赤{/r}くてマズ～いスシで！
@@ -4825,23 +4825,23 @@ CharaSerif_01_M	ええい！ {r[あか]}赤{/r}いスシはおいしいんじゃ
 CharaSerif_02_M	あんた･･･ {r[むかし]}昔{/r}は{r[す]}好{/r}きだったんだろ？\n{r[あか]}赤{/r}いスシには、{r[なん]}何{/r}の{r[つみ]}罪{/r}もないぜ？
 CharaSerif_02_F	あなた･･･ {r[むかし]}昔{/r}は{r[す]}好{/r}きだったんでしょ？\n{r[あか]}赤{/r}いスシには、{r[なん]}何{/r}の{r[つみ]}罪{/r}もないわよ？
 CharaSerif_03_M	おだまり！ お{r[こ]}子{/r}{r[さま]}様{/r}にゃアタイの\n{r[かな]}悲{/r}しみはわかりゃしないよ！
-CharaSerif_04_M	\u000e\u0000\u0002\u0002\u0096\u0000{r[しょうぶ]}勝負{/r}よ！ {r[かくご]}覚悟{/r}おし!!\u000e\u0000\u0002\u0002d\u0000
-CharaSerif_05_M	\u000e\u0000\u0002\u0002\u0096\u0000ま･･･ まってぇぇぇ!!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_04_M	{s[150]}{r[しょうぶ]}勝負{/r}よ！ {r[かくご]}覚悟{/r}おし!!{s[100]}
+CharaSerif_05_M	{s[150]}ま･･･ まってぇぇぇ!!!{s[100]}
 CharaSerif_06_M	あんたは･･･ {r[しん]}新{/r}{r[い]}入{/r}り!?
 CharaSerif_07_M	コイツは･･･ ムサシは･･･\nオレにたおさせてください!!
 CharaSerif_08_M	なに{r[い]}言{/r}ってんだい！\nさっきケチョンケチョンに{r[ま]}負{/r}けといて！
 CharaSerif_09_M	もういちど！ もういちどチャンスを!!\nかならずコイツをたおしてみせますぅ！
 CharaSerif_10_M	･････････！
 CharaSerif_11_M	･･･じゃあ、おやり。\nただし、{r[ま]}負{/r}けたらウチの{r[たい]}隊{/r}をクビだよ？
-CharaSerif_12_M	\u000e\u0000\u0002\u0002\u0096\u0000く･･･ クビ!?\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_12_M	{s[150]}く･･･ クビ!?{s[100]}
 CharaSerif_13_M	ちくしょう･･･ ムサシ！\nオレに{r[なん]}何{/r}のウラミがあるってんだ!!
 \event\stageBeginM094.msbt
 CharaSerif_00_M	･･･フン！ なんだったんだい？\nあの{r[な]}泣{/r}き{r[むし]}虫{/r}は！
 CharaSerif_01_M	じゃあ、しきりなおしだよ！\nかかっておいで！
-CharaSerif_02_M	\u000e\u0000\u0002\u0002\u0096\u0000なっ、なんだ!? この{r[ひかり]}光{/r}!!\u000e\u0000\u0002\u0002d\u0000
-CharaSerif_02_F	\u000e\u0000\u0002\u0002\u0096\u0000なっ、なに!? この{r[ひかり]}光{/r}!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_02_M	{s[150]}なっ、なんだ!? この{r[ひかり]}光{/r}!!{s[100]}
+CharaSerif_02_F	{s[150]}なっ、なに!? この{r[ひかり]}光{/r}!!{s[100]}
 CharaSerif_03_M	これは･･･！ まさか･･･!!
-CharaSerif_04_M	\u000e\u0000\u0002\u0002\u0096\u0000そう！『{c[91ff1e]}ヒカリノコロモ{c[000000]}』さ!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_04_M	{s[150]}そう！『{c[91ff1e]}ヒカリノコロモ{c[000000]}』さ!!{s[100]}
 CharaSerif_05_M	あはははは！ この{r[ひかり]}光{/r}は、{r[あか]}赤{/r}いスシで{r[かさ]}重{/r}ねた\n{r[さら]}皿{/r}の{r[こうげき]}攻撃{/r}を、すべて{r[う]}受{/r}け{r[なが]}流{/r}しちまうのさ！
 CharaSerif_09_M	いかん！{c[ffae00]} {r[あか]}赤{/r}いスシ{c[000000]}が{c[ffae00]}{r[いちまい]}１枚{/r}でも{c[000000]}{r[はい]}入{/r}った{r[つ]}積{/r}み{r[ざら]}皿{/r}は\nこのスキル{r[はつどうちゅう]}発動中{/r}･･･ {r[こうげきりょく]}攻撃力{/r}が「{c[ffae00]}0{c[000000]}」になるぞ!!
 CharaSerif_07_M	{r[き]}気{/r}をつけろ！ {c[ffae00]}サーモン{c[000000]}や{c[ffae00]}まぐろ{c[000000]}は{c[ffae00]}{r[あか]}赤{/r}いスシ{c[000000]}･･･\nつまりワシにとって{r[てんてき]}天敵{/r}といえるスキルじゃ･･･!!
@@ -4860,36 +4860,36 @@ CharaSerif_03_M	このっ！ オレだよ！\nジンライをつれたおまえ�
 CharaSerif_04_M	んー･･･ でも{r[おな]}同{/r}じカオのヤツが\nけっこういたからなぁ･･･
 CharaSerif_04_F	んー･･･ でも{r[おな]}同{/r}じカオが\nけっこういたからなぁ･･･
 CharaSerif_05_M	･･･ともかく、おまえのせいで\nこんな{r[さむ]}寒{/r}い{r[ところ]}所{/r}におくられたんだ。
-CharaSerif_06_M	\u000e\u0000\u0002\u0002\u0096\u0000いくぞ！このウラミおもいしれ!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_06_M	{s[150]}いくぞ！このウラミおもいしれ!!{s[100]}
 \event\stageBeginM100.msbt
-CharaSerif_00_M	\u000e\u0000\u0002\u0002\u0096\u0000オス！ ごぶさただな！ オス！\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_00_M	{s[150]}オス！ ごぶさただな！ オス！{s[100]}
 CharaSerif_01_M	えっ？ ･･･だれだ？
 CharaSerif_01_F	えっ？ ･･･だれ？
 CharaSerif_02_M	ふふん♪ この{r[じょうわんにとうきん]}上腕二頭筋{/r}に\n{r[み]}見{/r}おぼえはないか？
 CharaSerif_03_M	あぁ！ アブリコス{r[たい]}隊{/r}!!\n･･････の、だれかか。
 CharaSerif_04_M	フン！ おまえに{r[やぶ]}敗{/r}れたばかりに\nオレのシックスパックはカゼぎみだ！
-CharaSerif_05_M	\u000e\u0000\u0002\u0002\u0096\u0000かくごしろ！ {r[ぜったい]}絶対{/r}ゆるさん！\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_05_M	{s[150]}かくごしろ！ {r[ぜったい]}絶対{/r}ゆるさん！{s[100]}
 \event\stageBeginM104.msbt
 CharaSerif_00_M	フフフ･･･ しばらくだな。\nここで{r[あ]}会{/r}ったが100{r[ねんめ]}年目{/r}！
 CharaSerif_01_M	やれやれ･･･ こんどはだれだ？
 CharaSerif_01_F	やれやれ･･･ こんどはだれ？
 CharaSerif_02_M	フン･･･ ものおぼえの{r[わる]}悪{/r}いヤツめ。\n{r[わたし]}私{/r}は{r[ちんじゅ]}鎮守{/r}の{r[もり]}森{/r}{r[きち]}基地{/r}の･･･
-CharaSerif_03_M	\u000e\u0000\u0002\u0002d\u0000あーっ！ {c[91ff1e]}{c[ffae00]}もと{c[91ff1e]} {c[000000]}{r[しれいかん]}司令官{/r}か!!\u000e\u0000\u0002\u0002d\u0000
-CharaSerif_03_F	\u000e\u0000\u0002\u0002d\u0000あーっ！ {c[91ff1e]}{c[ffae00]}もと{c[91ff1e]} {c[000000]}{r[しれいかん]}司令官{/r}!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_03_M	{s[100]}あーっ！ {c[91ff1e]}{c[ffae00]}もと{c[91ff1e]} {c[000000]}{r[しれいかん]}司令官{/r}か!!{s[100]}
+CharaSerif_03_F	{s[100]}あーっ！ {c[91ff1e]}{c[ffae00]}もと{c[91ff1e]} {c[000000]}{r[しれいかん]}司令官{/r}!!{s[100]}
 CharaSerif_04_M	ええい！ {r[おお]}大{/r}きな{r[もじ]}文字{/r}で\n「{c[ffae00]}もと{c[000000]}」とか{r[い]}言{/r}うな！
 CharaSerif_06_M	フッ･･･ この{r[しま]}島{/r}でのバトルには、{c[ffae00]}{r[ほか]}他{/r}の{r[ばしょ]}場所{/r}にはない\n{r[ひみつ]}秘密{/r}{c[000000]}がある･･･ それを{r[し]}知{/r}るこちらが{r[ゆうり]}有利{/r}･･･
-CharaSerif_05_M	\u000e\u0000\u0002\u0002\u0096\u0000{r[しょうぶ]}勝負{/r}だ！ {r[こんど]}今度{/r}は{r[ま]}負{/r}けん!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_05_M	{s[150]}{r[しょうぶ]}勝負{/r}だ！ {r[こんど]}今度{/r}は{r[ま]}負{/r}けん!!{s[100]}
 \event\stageBeginM110.msbt
 CharaSerif_00_M	･･･ついたぞ、ここが{r[とくべつ]}特別{/r}{r[とう]}棟{/r}だ。
-CharaSerif_01_M	\u000e\u0000\u0002\u0002\u0096\u0000あーっ！ここだ!!\u000e\u0000\u0002\u0002d\u0000
-CharaSerif_02_M	\u000e\u0000\u0002\u0002\u0096\u0000ユキチさん！\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_01_M	{s[150]}あーっ！ここだ!!{s[100]}
+CharaSerif_02_M	{s[150]}ユキチさん！{s[100]}
 CharaSerif_03_M	むう･･･ {r[き]}気{/r}を{r[うしな]}失{/r}ってるようじゃ。
 CharaSerif_04_M	こんな･･････ \nこんなボロボロになって･･･
-CharaSerif_05_M	\u000e\u0000\u0002\u0002\u0096\u0000たのむよ!! へんじをしてくれ！\u000e\u0000\u0002\u0002d\u0000
-CharaSerif_05_F	\u000e\u0000\u0002\u0002\u0096\u0000おねがい!! へんじをして！\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_05_M	{s[150]}たのむよ!! へんじをしてくれ！{s[100]}
+CharaSerif_05_F	{s[150]}おねがい!! へんじをして！{s[100]}
 CharaSerif_06_M	･･･む、ムサシ!!\nまずいぞ、{r[かんしゅ]}看守{/r}がきた！
 \event\stageBeginM111.msbt
-CharaSerif_00_M	\u000e\u0000\u0002\u0002\u0096\u0000グハハハハッ！ まてぇい!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_00_M	{s[150]}グハハハハッ！ まてぇい!!{s[100]}
 CharaSerif_01_M	ゲッ･･･ アブリコス！\nおまえもここに!?
 CharaSerif_01_F	ゲッ･･･ アブリコス！\nあんたもここに!?
 CharaSerif_02_M	フン！ あぁそうだ･･･\nおまえのせいでな！
@@ -4897,7 +4897,7 @@ CharaSerif_03_M	オレさまは、ホントだったら\n{r[ていこく]}帝国
 CharaSerif_04_M	よくも{r[えいこう]}栄光{/r}の{r[じんせい]}人生{/r}{r[けいかく]}計画{/r}を･･･\nライフプランを！ プロテインを!!
 CharaSerif_05_M	ふふん♪ {r[よま]}世迷{/r}い{r[ごと]}言{/r}を･･･\nそんな{r[みらい]}未来{/r}など、きっとなかった！
 CharaSerif_06_M	うるせえ！ {r[くんれん]}訓練{/r}でさらに{r[つよ]}強{/r}くなった\nオレさまのチカラを{r[み]}見{/r}やがれ！
-CharaSerif_07_M	\u000e\u0000\u0002\u0002\u0096\u0000いくぜ！『{c[91ff1e]}バキューム{r[ぐ]}食{/r}い{c[000000]}』!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_07_M	{s[150]}いくぜ！『{c[91ff1e]}バキューム{r[ぐ]}食{/r}い{c[000000]}』!!{s[100]}
 CharaSerif_08_M	このっ！ まだそんな\nもったいない{r[た]}食{/r}べかたを･･･！
 CharaSerif_09_M	おろかな！スシを{r[そまつ]}粗末{/r}にする{r[こころ]}心{/r}を\nあらためぬ{r[かぎ]}限{/r}り、ワシらには{r[か]}勝{/r}てぬ！
 \event\stageBeginM112.msbt
@@ -4945,14 +4945,14 @@ CharaSerif_06_M	･･･そうだな。{r[おや]}親{/r}として{r[ゆる]}�
 CharaSerif_07_M	すべてはスシのため･･･
 CharaSerif_08_M	なにごとも、ひとつの{r[みち]}道{/r}をきわめんとすれば\nそれは{r[かなら]}必{/r}ず {r[いちこじん]}一個人{/r}の{r[もんだい]}問題{/r}ではなくなる･･･
 CharaSerif_09_M	オレは、これ{r[いじょう]}以上{/r}{r[だれ]}誰{/r}もまきこみたくなかった･･･\nおまえという{r[そんざい]}存在{/r}を、{r[ぎせい]}犠牲{/r}にしたくなかったのだ。
-CharaSerif_10_M	\u000e\u0000\u0002\u0002\u0096\u0000ふざけるな!!\u000e\u0000\u0002\u0002d\u0000
-CharaSerif_10_F	\u000e\u0000\u0002\u0002\u0096\u0000ふざけないで!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_10_M	{s[150]}ふざけるな!!{s[100]}
+CharaSerif_10_F	{s[150]}ふざけないで!!{s[100]}
 CharaSerif_11_M	{r[かって]}勝手{/r}なこと{r[い]}言{/r}って･･･ スシが{r[かぞく]}家族{/r}を\nバラバラにするなんて、おかしいぜ!!
 CharaSerif_11_F	{r[かって]}勝手{/r}なこと{r[い]}言{/r}って･･･ スシが{r[かぞく]}家族{/r}を\nバラバラにするなんて、おかしいよ!!
 CharaSerif_12_M	フン･･･ {r[わたし]}私{/r}にスシのなんたるかを{r[と]}説{/r}くとは\nリッパになったものだ。
 CharaSerif_13_M	･･･だがオレは、{r[みずか]}自{/r}らの{r[すす]}進{/r}んだ{r[みち]}道{/r}を\nあやまりだったとは{r[おも]}思{/r}わん。
 CharaSerif_14_M	ムサシ！ それがおまえの{r[かんが]}考{/r}えるスシならば･･･\nその{r[ただ]}正{/r}しさは、{r[じぶん]}自分{/r}のチカラでつらぬき{r[とお]}通{/r}せ！
-CharaSerif_15_M	\u000e\u0000\u0002\u0002\u0096\u0000{r[でんじほう]}電磁砲{/r}{r[ようい]}用意{/r}！\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_15_M	{s[150]}{r[でんじほう]}電磁砲{/r}{r[ようい]}用意{/r}！{s[100]}
 CharaSerif_16_M	こんなもの･･･\nぶっこわしてやる!!
 CharaSerif_16_F	こんなもの･･･\nぶっこわしてやるわ!!
 \event\stageBeginM132.msbt
@@ -4968,11 +4968,11 @@ CharaSerif_04_M	マーヒーならムーゲーしません？
 CharaSerif_05_M	このっ！ {r[いま]}今{/r}はマーヒーじゃねぇ。\nそれどころじゃ･･･
 CharaSerif_05_F	ちょっと！ {r[いま]}今{/r}はマーヒーじゃないの。\nそれどころじゃ･･･
 CharaSerif_06_M	･･･いや、つきあってやれ。
-CharaSerif_07_M	\u000e\u0000\u0002\u0002\u0096\u0000ええっ!?\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_07_M	{s[150]}ええっ!?{s[100]}
 CharaSerif_08_M	ムサシ･･･ つきあってやらんと{r[かえ]}帰{/r}らない。\nこいつはそういう{r[おとこ]}男{/r}だ。
 CharaSerif_09_M	そそ！ さっすがパイセン♪
 CharaSerif_10_M	マーヒーならムーゲーしまショー！
-CharaSerif_11_M	\u000e\u0000\u0002\u0002\u0096\u0000え～～っ!?\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_11_M	{s[150]}え～～っ!?{s[100]}
 \event\stageBeginM141.msbt
 CharaSerif_00_M	くっ･･･ つぎからつぎへと！\nキリがねえ!!
 CharaSerif_00_F	くっ、つぎからつぎへと･･･！\nこれじゃキリがない！
@@ -5134,10 +5134,10 @@ stageEndM003_02_M	（ふむ･･･ スシライカーになったばかり\n�
 stageEndM003_03_M	（フフン♪ やはりおもしろいヤツじゃ･･･）
 stageEndM003_04_M	･･･よし、では{r[こっきょう]}国境{/r}に{r[い]}行{/r}ってみよう。\nユキチの{r[て]}手{/r}がかりがつかめるかもしれん！
 \event\stageEndM003.msbt
-stageEndM004_01_M	\u000e\u0000\u0002\u0002\u0096\u0000くそぉ･･･ また{r[ま]}負{/r}けたあああ！\u000e\u0000\u0002\u0002d\u0000
+stageEndM004_01_M	{s[150]}くそぉ･･･ また{r[ま]}負{/r}けたあああ！{s[100]}
 stageEndM004_02_M	おぼえてろよ！ おまえのことは\n{r[ていこく]}帝国{/r}{r[ぐん]}軍{/r}の{r[みなさま]}皆様{/r}に{r[い]}言{/r}いつけてやる！
 stageEndM004_03_M	スシガミをつれた、ヘンなガキがいるってな！\nオマエもつかまっちまえ！
-stageEndM004_04_M	\u000e\u0000\u0002\u0002\u0096\u0000うわぁーん!!\u000e\u0000\u0002\u0002d\u0000
+stageEndM004_04_M	{s[150]}うわぁーん!!{s[100]}
 stageEndM004_05_M	･･･ん？ なにか{r[お]}落{/r}としたぞ。
 stageEndM004_05_F	･･･ん？ なにか{r[お]}落{/r}としたみたい。
 stageEndM004_06_M	･･･ほう、スシガミの{r[けいやく]}契約{/r}{r[ざら]}皿{/r}じゃな。\nおそらく{r[ていこく]}帝国{/r}からもらったのじゃろう。
@@ -5176,17 +5176,17 @@ stageEndM008_01_M	よし、このぶんなら\nじき{r[こっきょう]}国境{
 stageEndM008_01_F	よーし！ このぶんなら\nもうチョイで{r[こっきょう]}国境{/r}よ♪
 stageEndM008_02_M	うむ、なかなか{r[じゅんちょう]}順調{/r}じゃな。
 stageEndM008_03_M	きたぞ！\n{r[けいやく]}契約{/r}{r[しゃ]}者{/r}ごと、つかまえろ!!
-stageEndM008_04_M	\u000e\u0000\u0002\u0002\u0096\u0000おおぉっ!!\u000e\u0000\u0002\u0002d\u0000
+stageEndM008_04_M	{s[150]}おおぉっ!!{s[100]}
 stageEndM008_05_M	ゲッ！ {r[こんど]}今度{/r}は{r[ま]}待{/r}ちぶせ!?
 stageEndM008_06_M	くっ！ ヤバい･･･ かも･･･
 stageEndM008_07_M	ムサシ！ あっちにも{r[べつ]}別{/r}の{r[いちだん]}一団{/r}が!!
 stageEndM008_23_M	･･･いや、{r[ていこく]}帝国{/r}{r[ぐん]}軍{/r}ではないのか？
-stageEndM008_08_M	\u000e\u0000\u0002\u0002\u0096\u0000かかれーっ!!\u000e\u0000\u0002\u0002d\u0000
+stageEndM008_08_M	{s[150]}かかれーっ!!{s[100]}
 stageEndM008_10_M	ごぶじでしたか？\nジンライの{r[けいやく]}契約{/r}{r[しゃ]}者{/r}！
 stageEndM008_11_M	えっ？ うん･･･
 stageEndM008_11_F	えっ？ えーっと･･･
 stageEndM008_12_M	ぬう･･･ なにものじゃ？
-stageEndM008_13_M	\u000e\u0000\u0002\u0002\u0096\u0000われわれは、スシ{r[かいほうせんせん]}解放戦線{/r}です！\u000e\u0000\u0002\u0002d\u0000
+stageEndM008_13_M	{s[150]}われわれは、スシ{r[かいほうせんせん]}解放戦線{/r}です！{s[100]}
 stageEndM008_14_M	{r[ていこく]}帝国{/r}が、あのジンライを{r[はっけん]}発見{/r}し\n{r[かくほ]}確保{/r}に{r[の]}乗{/r}り{r[だ]}出{/r}したと{r[き]}聞{/r}き、{r[たす]}助{/r}けにきました！
 stageEndM008_15_M	･･･なんだ？ なんでみんな\nジンライを{r[とくべつ]}特別{/r}あつかいするんだ？
 stageEndM008_15_F	･･･なに？ なんでみんな\nジンライを{r[とくべつ]}特別{/r}あつかいするの？
@@ -5276,27 +5276,27 @@ stageEndM011_12_F	うん！ わかった！
 CharaSerif_00_M	･･･うむ。{r[ふほんい]}不本意{/r}ながら\nオトリ{r[やく]}役{/r}は{r[じゅんちょう]}順調{/r}なようじゃな。
 CharaSerif_01_M	ちょ、ちょっと！ {r[ま]}待{/r}ってえぇな！
 CharaSerif_02_M	ムサシはん！ あんた･･･\nいまウワサのムサシはんやんな？
-CharaSerif_03_M	\u000e\u0000\u0002\u0002\u0096\u0000な？\u000e\u0000\u0002\u0002d\u0000
-CharaSerif_04_M	\u000e\u0000\u0002\u0002\u0096\u0000ええっ！だれだ!? ･･･てか {r[ちか]}近{/r}い!!\u000e\u0000\u0002\u0002d\u0000
-CharaSerif_04_F	\u000e\u0000\u0002\u0002\u0096\u0000ええっ！だれ!? ･･･てか {r[ちか]}近{/r}い!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_03_M	{s[150]}な？{s[100]}
+CharaSerif_04_M	{s[150]}ええっ！だれだ!? ･･･てか {r[ちか]}近{/r}い!!{s[100]}
+CharaSerif_04_F	{s[150]}ええっ！だれ!? ･･･てか {r[ちか]}近{/r}い!!{s[100]}
 CharaSerif_05_M	わいはドートン。{r[かく]}隠{/r}れ{r[ざと]}里{/r}で\nスシガミ{r[いせき]}遺跡{/r}を{r[けんきゅう]}研究{/r}しとるモンです。
 CharaSerif_06_M	あの{r[かいほうせんせん]}解放戦線{/r}が、{r[ちんじゅ]}鎮守{/r}の{r[もり]}森{/r}に{r[き]}来{/r}たと{r[き]}聞{/r}き\nハラくくって{r[むら]}村{/r}を{r[で]}出{/r}てきましてん！
 CharaSerif_07_M	というのも、{r[むら]}村{/r}には{r[ていこく]}帝国{/r}{r[ぐん]}軍{/r}の{r[きち]}基地{/r}があって\nみーんなヒドいめにあってますのや･･･
 CharaSerif_08_M	おたのみします！ {r[ていこく]}帝国{/r}を{r[お]}追{/r}っぱらい\n{r[ちんじゅ]}鎮守{/r}の{r[もり]}森{/r}に{r[へいわ]}平和{/r}を･･･！ {r[やす]}安{/r}らぎを･･･!!
 CharaSerif_09_M	･･･わかった！\n{r[かく]}隠{/r}れ{r[ざと]}里{/r}の{r[ひと]}人{/r}たちは、オレが{r[たす]}助{/r}ける！
 CharaSerif_09_F	･･･わかった！\n{r[かく]}隠{/r}れ{r[ざと]}里{/r}の{r[ひと]}人{/r}たちは、わたしが{r[たす]}助{/r}ける！
-CharaSerif_10_M	\u000e\u0000\u0002\u0002\u0096\u0000ほんまでっか!?\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_10_M	{s[150]}ほんまでっか!?{s[100]}
 CharaSerif_11_M	まてムサシ、ワシらはオトリじゃ！\n{r[ちんじゅ]}鎮守{/r}の{r[もり]}森{/r}に{r[い]}行{/r}けば、{r[さくせん]}作戦{/r}がだいなしに･･･
 CharaSerif_12_M	だって、こんなに{r[ひっし]}必死{/r}なんだぜ。\nことわれないだろ？
 CharaSerif_12_F	だって、こんなに{r[ひっし]}必死{/r}なのよ？\nことわれないじゃない♪
 CharaSerif_13_M	おおきに!! ほな{r[ちかみち]}近道{/r}がありますよって\nこっそり{r[おし]}教{/r}えまっさ！
 CharaSerif_14_M	よし、たのむぜ!!
 CharaSerif_14_F	うん、おねがい!!
-CharaSerif_15_M	\u000e\u0000\u0002\u0002\u0096\u0000はいっ！ このさきです～！\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_15_M	{s[150]}はいっ！ このさきです～！{s[100]}
 \event\stageEndM013.msbt
-CharaSerif_00_M	\u000e\u0000\u0002\u0002\u0096\u0000くそぉ･･･ また{r[ま]}負{/r}けたあああ！\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_00_M	{s[150]}くそぉ･･･ また{r[ま]}負{/r}けたあああ！{s[100]}
 CharaSerif_01_M	おぼえてろよ！\nつぎこそホンキを{r[だ]}出{/r}してやる!!
-CharaSerif_02_M	\u000e\u0000\u0002\u0002\u0096\u0000うわぁーん!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_02_M	{s[150]}うわぁーん!!{s[100]}
 CharaSerif_03_M	ん？ またなにか{r[お]}落{/r}としやがった･･･
 CharaSerif_03_F	ん？ またなにか{r[お]}落{/r}とした･･･
 CharaSerif_05_M	ほう･･･ これはレーンドライブギアの{r[なか]}中{/r}でも\n{r[いちばん]}一番{/r}{r[いりょく]}威力{/r}が{r[ちい]}小{/r}さい『{c[91ff1e]}リトルギア{c[000000]}』じゃな。
@@ -5308,10 +5308,10 @@ CharaSerif_07_F	ふーん･･･ それにしても\nよく{r[もの]}物{/r}�
 CharaSerif_00_M	なっ･･･ なかなかやるじゃねぇか･･･！
 CharaSerif_01_M	アブリコスさまーっ!!
 CharaSerif_02_M	たいへんです！ {r[ちんじゅ]}鎮守{/r}の{r[もり]}森{/r}の{r[きち]}基地{/r}が\n{r[かいほうせんせん]}解放戦線{/r}に{r[こうげき]}攻撃{/r}されています!!
-CharaSerif_03_M	\u000e\u0000\u0002\u0002\u0096\u0000なんてこった!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_03_M	{s[150]}なんてこった!!{s[100]}
 CharaSerif_04_M	おのれ･･･ リョーマめ。\nまさかジンライをオトリにつかうとは!!
 CharaSerif_05_M	ヤロウども！ この{r[ば]}場{/r}はまかせる。\nかならずガキを{r[しまつ]}始末{/r}しろ!!
-CharaSerif_06_M	\u000e\u0000\u0002\u0002\u0096\u0000オス!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_06_M	{s[150]}オス!!{s[100]}
 \event\stageEndM015.msbt
 CharaSerif_00_M	やれやれ･･･ また{r[お]}落{/r}としものか？
 CharaSerif_00_F	やれやれ･･･ また{r[お]}落{/r}としもの？
@@ -5340,9 +5340,9 @@ CharaSerif_05_M	えっ、そうなの!?
 CharaSerif_07_M	よし、まかせろ！\nオレがその{r[しれいかん]}司令官{/r}ってのをブッたおしてやる!!
 CharaSerif_07_F	よーし、まかせて！ わたしが\nその{r[しれいかん]}司令官{/r}ってのを、たおしてあげる!!
 \event\stageEndM018.msbt
-CharaSerif_00_M	\u000e\u0000\u0002\u0002\u0096\u0000くそぉ･･･ また{r[ま]}負{/r}けたあああ！\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_00_M	{s[150]}くそぉ･･･ また{r[ま]}負{/r}けたあああ！{s[100]}
 CharaSerif_01_M	おぼえてろよ！\nこのカリは1,000{r[ばい]}倍{/r}にしてかえしてやる！
-CharaSerif_02_M	\u000e\u0000\u0002\u0002\u0096\u0000うわぁーん!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_02_M	{s[150]}うわぁーん!!{s[100]}
 CharaSerif_03_M	･･･なんなんだ、あいつ。
 CharaSerif_03_F	･･･なんなの？ あいつ。
 \event\stageEndM019.msbt
@@ -5393,18 +5393,18 @@ CharaSerif_18_M	ムサシ！ おヌシ･･･!!
 CharaSerif_19_M	･･･いいの？ {r[こうかい]}後悔{/r}するわよ。
 CharaSerif_20_M	おう！ で、いつかオマエも\nスシがうまいって{r[おも]}思{/r}えるといいな♪
 CharaSerif_20_F	うん！ で、いつかあなたも\nスシがおいしいって{r[おも]}思{/r}えるといいね♪
-CharaSerif_21_M	\u000e\u0000\u0002\u0002\u0096\u0000ば･･･バカみたい!!\u000e\u0000\u0002\u0002d\u0000\n
+CharaSerif_21_M	{s[150]}ば･･･バカみたい!!{s[100]}\n
 CharaSerif_22_M	ムサシ、よくぞ{r[もう]}申{/r}したと{r[い]}言{/r}いたいが･･･\nあやつ、きっとまたくるぞ？
 CharaSerif_23_M	･･･まぁ、いいさ！\nそんときゃそんときだ!!
 CharaSerif_23_F	･･･まぁ、いいわ！\nそんときゃそんときよ!!
 \event\stageEndM029.msbt
 CharaSerif_00_M	くそっ･･･ {r[こっきょう]}国境{/r}まで{r[たいきゃく]}退却{/r}だ！
-CharaSerif_01_M	\u000e\u0000\u0002\u0002\u0096\u0000あ･･･ アブリコス{r[さま]}様{/r}～！\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_01_M	{s[150]}あ･･･ アブリコス{r[さま]}様{/r}～！{s[100]}
 \event\stageEndM031.msbt
 CharaSerif_00_M	ううっ、{r[ま]}負{/r}けた･･･ {r[ま]}負{/r}けちまった･･･!!
 CharaSerif_01_M	へへっ♪ スシはもっとだいじに！\nおちついて{r[た]}食{/r}べやがれ！
 CharaSerif_01_F	へへっ♪ スシはもっとだいじに！\nおちついて{r[た]}食{/r}べなさい！
-CharaSerif_02_M	\u000e\u0000\u0002\u0002\u0096\u0000ちくしょー！ {r[たいきゃく]}退却{/r}だ!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_02_M	{s[150]}ちくしょー！ {r[たいきゃく]}退却{/r}だ!!{s[100]}
 CharaSerif_03_M	･･･ん？ なんだこりゃ？
 CharaSerif_03_F	･･･ん？ なにこれ？
 CharaSerif_04_M	ふむ、{r[なに]}何{/r}かのカギのようじゃな。
@@ -5442,7 +5442,7 @@ CharaSerif_04_M	へへっ♪ このオレが{r[き]}来{/r}たからには\n{r[�
 CharaSerif_04_F	へへっ♪ わたしが{r[き]}来{/r}たからには\n{r[じゆう]}自由{/r}にスシが{r[た]}食{/r}べられるようになるわよ！
 CharaSerif_05_M	え？ スシ･･･!?
 CharaSerif_07_M	うむ、たくさん{r[た]}食{/r}べるがよい！
-CharaSerif_08_M	\u000e\u0000\u0002\u0002\u0096\u0000うえ～んスシだ！ こわいよう!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_08_M	{s[150]}うえ～んスシだ！ こわいよう!!{s[100]}
 CharaSerif_09_M	なんだ？ どうなってんだ??
 CharaSerif_09_F	なに？ どうなってんの??
 CharaSerif_10_M	そんな･･･ {r[こども]}子供{/r}たちの{r[にんき]}人気{/r}{r[もの]}者{/r}で\nあるはずの、ワシのスシが･･･
@@ -5455,26 +5455,26 @@ CharaSerif_01_M	おい！ あんたなにもんだ？
 CharaSerif_01_F	ちょっと！ あなたナニモノ？
 CharaSerif_02_M	そうじゃ！ {r[なまえ]}名前{/r}ぐらいなのれ！
 CharaSerif_03_M	どもども♪ ボクはですね～･･･
-CharaSerif_04_M	\u000e\u0000\u0002\u0002\u0096\u0000あ～しまった！ ケツカッチン！\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_04_M	{s[150]}あ～しまった！ ケツカッチン！{s[100]}
 CharaSerif_05_M	えっ？
-CharaSerif_06_M	\u000e\u0000\u0002\u0002\u0096\u0000シータクとばしてギロッポン♪\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_06_M	{s[150]}シータクとばしてギロッポン♪{s[100]}
 CharaSerif_07_M	そんじゃ♪
 CharaSerif_08_M	･･････なんだ？
 CharaSerif_08_F	･･････なに？
 \event\stageEndM037.msbt
 CharaSerif_00_M	チッ、つまらんのう･･･\nワガハイ、とっとと{r[かえ]}帰{/r}らにゃならんのに･･･
-CharaSerif_01_M	\u000e\u0000\u0002\u0002\u0096\u0000バンブークさま～！\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_01_M	{s[150]}バンブークさま～！{s[100]}
 CharaSerif_02_M	みつけましたよ♪ バンブークさま。
 CharaSerif_03_M	もう･･･ かくれんぼ{r[ちゅう]}中{/r}に\nいなくなるなんて、ヒドいですぅ。
 CharaSerif_04_M	ふほほっ、わるかった わるかった♪\nこのガキと、ちょいと{r[あそ]}遊{/r}んでみたくてのぅ。
 CharaSerif_05_M	んじゃ、あとはテキトーにたのむわ♪\nワガハイ、いそがしいんでな！
-CharaSerif_06_M	\u000e\u0000\u0002\u0002\u0096\u0000は～い♪ バンブークさま!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_06_M	{s[150]}は～い♪ バンブークさま!!{s[100]}
 CharaSerif_07_M	やれやれ、なんだありゃ･･･
 CharaSerif_07_F	やれやれ、なによあれ･･･
 \event\stageEndM041.msbt
-CharaSerif_00_M	\u000e\u0000\u0002\u0002\u0096\u0000くそぉ･･･ また{r[ま]}負{/r}けたあああ！\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_00_M	{s[150]}くそぉ･･･ また{r[ま]}負{/r}けたあああ！{s[100]}
 CharaSerif_01_M	おぼえてろよ！\n{r[きょう]}今日{/r}はちょうしが{r[わる]}悪{/r}かっただけだ！
-CharaSerif_02_M	\u000e\u0000\u0002\u0002\u0096\u0000うわぁーん!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_02_M	{s[150]}うわぁーん!!{s[100]}
 CharaSerif_03_M	･･･なんなんだ、あいつ。
 CharaSerif_03_F	･･･なんなの？ あいつ。
 \event\stageEndM042.msbt
@@ -5506,12 +5506,12 @@ CharaSerif_12_M	えええっ！ ジュウベエさんの\nジュニアさんす�
 CharaSerif_12_F	えええっ！ ジュウベエさんの\nおじょーさんすか？ パネェ！
 CharaSerif_13_M	どういうことじゃ？\nおヌシ、{r[しゃしん]}写真{/r}の{r[おとこ]}男{/r}を{r[し]}知{/r}ってるのか!?
 CharaSerif_14_M	モチっす♪ {r[し]}知{/r}ってるも{r[なに]}何{/r}も･･･
-CharaSerif_15_M	\u000e\u0000\u0002\u0002\u0096\u0000あ～しまった！ ケツカッチン！\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_15_M	{s[150]}あ～しまった！ ケツカッチン！{s[100]}
 CharaSerif_16_M	えっ？
-CharaSerif_17_M	\u000e\u0000\u0002\u0002\u0096\u0000シータクとばしてギロッポン♪\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_17_M	{s[150]}シータクとばしてギロッポン♪{s[100]}
 CharaSerif_18_M	そんじゃ♪
-CharaSerif_19_M	\u000e\u0000\u0002\u0002\u0096\u0000お、おい！ {r[い]}行{/r}っちゃうんかよ!?\u000e\u0000\u0002\u0002d\u0000
-CharaSerif_19_F	\u000e\u0000\u0002\u0002\u0096\u0000ちょ、ちょっと！{r[い]}行{/r}っちゃうの!?\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_19_M	{s[150]}お、おい！ {r[い]}行{/r}っちゃうんかよ!?{s[100]}
+CharaSerif_19_F	{s[150]}ちょ、ちょっと！{r[い]}行{/r}っちゃうの!?{s[100]}
 CharaSerif_20_M	ぬう･･･ ジュウベエの{r[な]}名{/r}は、ワシも{r[みみ]}耳{/r}にしておる。\nまさか、おヌシの{r[ちち]}父{/r}じゃったとは･･･
 CharaSerif_21_M	そうか･･･ {r[し]}知{/r}らなかったぜ･･･\nオレのとうちゃんが、{r[でんせつ]}伝説{/r}のスシライカー？
 CharaSerif_21_F	そうか･･･ {r[し]}知{/r}らなかったわ･･･\nとうさんが、{r[でんせつ]}伝説{/r}のスシライカー？
@@ -5524,9 +5524,9 @@ CharaSerif_25_M	･･･ジュウベエは、{r[さき]}先{/r}の{r[たいせ�
 CharaSerif_26_M	スシを{r[あい]}愛{/r}し、スシと{r[とも]}共{/r}に{r[い]}生{/r}きる。\nすべてをスシにささげた{r[おとこ]}男{/r}だったと{r[き]}聞{/r}く･･･
 CharaSerif_27_M	すべてを･･･ スシに･･･？
 CharaSerif_28_M	･･･じゃが、いつのころからかウワサを\nまったく{r[き]}聞{/r}かなくなってな･･････
-CharaSerif_29_M	\u000e\u0000\u0002\u0002\u0096\u0000そうか！ とうちゃん･･･{r[せんそう]}戦争{/r}で!!\u000e\u0000\u0002\u0002d\u0000
-CharaSerif_29_F	\u000e\u0000\u0002\u0002\u0096\u0000そうか！ とうさん･･･{r[せんそう]}戦争{/r}で!!\u000e\u0000\u0002\u0002d\u0000
-CharaSerif_30_M	\u000e\u0000\u0002\u0002\u0096\u0000ムサシ！ {r[こころ]}心{/r}を{r[つよ]}強{/r}くもて!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_29_M	{s[150]}そうか！ とうちゃん･･･{r[せんそう]}戦争{/r}で!!{s[100]}
+CharaSerif_29_F	{s[150]}そうか！ とうさん･･･{r[せんそう]}戦争{/r}で!!{s[100]}
+CharaSerif_30_M	{s[150]}ムサシ！ {r[こころ]}心{/r}を{r[つよ]}強{/r}くもて!!{s[100]}
 CharaSerif_31_M	あんずるな･･･ それほどの{r[おとこ]}男{/r}じゃ\nきっとどこかで{r[い]}生{/r}きておろう。
 CharaSerif_32_M	スシを{r[あい]}愛{/r}するものは、スシにもまた\n{r[あい]}愛{/r}されるのじゃ･･･！
 \event\stageEndM050.msbt
@@ -5544,9 +5544,9 @@ CharaSerif_10_M	うふふっ･･･ そういってくれると{r[おも]}思{
 CharaSerif_11_M	スシガミ『{c[91ff1e]}クリステン{c[000000]}』と{r[けいやく]}契約{/r}した！\nスキルは「{c[91ff1e]}{r[とうめい]}透明{/r}ライカー{c[000000]}」だ！
 CharaSerif_12_M	うふふっ♪ そのスシガミ･･･\nわたしだと{r[おも]}思{/r}ってかわいがってね？
 \event\stageEndM051.msbt
-CharaSerif_00_M	\u000e\u0000\u0002\u0002\u0096\u0000くそぉ･･･ また{r[ま]}負{/r}けたあああ！\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_00_M	{s[150]}くそぉ･･･ また{r[ま]}負{/r}けたあああ！{s[100]}
 CharaSerif_01_M	おぼえてろよ！\n{r[て]}手{/r}の{r[うち]}内{/r}は{r[み]}見{/r}せてもらった･･･ {r[つぎ]}次{/r}はない！
-CharaSerif_02_M	\u000e\u0000\u0002\u0002\u0096\u0000うわぁーん!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_02_M	{s[150]}うわぁーん!!{s[100]}
 CharaSerif_03_M	･･･なんなんだ、あいつ。
 CharaSerif_03_F	･･･なんなの？ あいつ。
 \event\stageEndM052.msbt
@@ -5594,8 +5594,8 @@ CharaSerif_12_M	そっす！ {r[きょうわこく]}共和国{/r}でジュウベ
 CharaSerif_13_M	･･･って、とっくに{r[し]}知{/r}りあいっすか？\nパネエ！
 CharaSerif_14_M	そうか、リョーマさんも\n{r[きょうわこく]}共和国{/r}{r[ぐん]}軍{/r}にいたのか･･･
 CharaSerif_14_F	そうか、リョーマさんも\n{r[きょうわこく]}共和国{/r}{r[ぐん]}軍{/r}にいたのね･･･
-CharaSerif_15_M	\u000e\u0000\u0002\u0002\u0096\u0000あ～しまった！ ケツカッチン！\u000e\u0000\u0002\u0002d\u0000
-CharaSerif_16_M	\u000e\u0000\u0002\u0002\u0096\u0000シータクとばしてギロッポン♪\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_15_M	{s[150]}あ～しまった！ ケツカッチン！{s[100]}
+CharaSerif_16_M	{s[150]}シータクとばしてギロッポン♪{s[100]}
 CharaSerif_17_M	そんじゃ♪
 CharaSerif_18_M	ムサシ、どうする？\nいったん{r[こうえき]}交易{/r}の{r[まち]}町{/r}にもどるか？
 CharaSerif_19_M	ああ、{r[き]}気{/r}になったままじゃ\nバトルにも{r[しゅうちゅう]}集中{/r}できないしな･･･
@@ -5619,7 +5619,7 @@ CharaSerif_32_M	･･･{r[し]}死{/r}んだんですよ、{r[せんそう]}�
 CharaSerif_33_M	{r[どうし]}同志{/r}ジュウベエは、スシの{r[じゆう]}自由{/r}のために\n{r[たたか]}戦{/r}って{r[いのち]}命{/r}をおとしたのですから･･･ね。
 CharaSerif_34_M	{r[し]}死{/r}んだ･･･？
 CharaSerif_35_M	･･･ムサシ！
-CharaSerif_36_M	\u000e\u0000\u0002\u0002\u0096\u0000しっかりせんか！ムサシ!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_36_M	{s[150]}しっかりせんか！ムサシ!!{s[100]}
 CharaSerif_37_M	あれっ･･････ ジンライ？
 CharaSerif_38_M	ムサシ･･････
 CharaSerif_39_M	オレ、なんとなくだけど･･･ いつかきっと\nかえってくる{r[き]}気{/r}がしてたんだ。
@@ -5688,8 +5688,8 @@ CharaSerif_12_M	ムサシ･･･ {r[ほう]}放{/r}っておけ。
 CharaSerif_13_M	あそこまでスシを\nないがしろにしたのじゃ･･･
 CharaSerif_14_M	もはや{r[にど]}二度{/r}と\nスシガミとの{r[けいやく]}契約{/r}は{r[むす]}結{/r}べまい･･･
 \event\stageEndM074.msbt
-CharaSerif_00_M	\u000e\u0000\u0002\u0002\u0096\u0000なっ、なんだ!?\u000e\u0000\u0002\u0002d\u0000
-CharaSerif_00_F	\u000e\u0000\u0002\u0002\u0096\u0000なっ、なに!?\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_00_M	{s[150]}なっ、なんだ!?{s[100]}
+CharaSerif_00_F	{s[150]}なっ、なに!?{s[100]}
 CharaSerif_01_M	そうか、このあたりのチビたちだな？\nこっちこいよ！
 CharaSerif_01_F	そうか、このあたりのチビちゃんたちね？\nおいでおいで！
 CharaSerif_02_M	おにいちゃん、{r[きょうわこく]}共和国{/r}のひと？
@@ -5701,7 +5701,7 @@ CharaSerif_04_F	へへっ♪ わたしが{r[き]}来{/r}たからには\n{r[じ�
 CharaSerif_05_M	わ～い！ やったぁ！
 CharaSerif_07_M	うむ、たくさん{r[た]}食{/r}べるがよい！
 CharaSerif_08_M	･･･なにこれ？\nこんなのスシじゃないよ!!
-CharaSerif_09_M	\u000e\u0000\u0002\u0002\u0096\u0000うえ～ん！ {r[あか]}赤{/r}くてヘンなの～!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_09_M	{s[150]}うえ～ん！ {r[あか]}赤{/r}くてヘンなの～!!{s[100]}
 CharaSerif_10_M	なんだ？ どうなってんだ??
 CharaSerif_10_F	なに？ どうなってるの??
 CharaSerif_11_M	そんな･･･ ワシのスシは\nとくに{r[こども]}子供{/r}に{r[にんき]}人気{/r}のはずなのに･･･
@@ -5709,7 +5709,7 @@ CharaSerif_12_M	まあまあ、{r[き]}気{/r}にすんなって。\nきっと{r
 CharaSerif_12_F	まあまあ、{r[き]}気{/r}にしない{r[き]}気{/r}にしない。\nきっと{r[た]}食{/r}べたことないだけよ･･･
 \event\stageEndM078.msbt
 CharaSerif_00_M	ゴイスー!!\nこちらアゲちゃいます～！
-CharaSerif_40_M	『{c[91ff1e]}パーティーのおふだ{c[000000]}』\u00d75 を{r[て]}手{/r}に{r[い]}入{/r}れた！
+CharaSerif_40_M	『{c[91ff1e]}パーティーのおふだ{c[000000]}』\xd75 を{r[て]}手{/r}に{r[い]}入{/r}れた！
 CharaSerif_01_M	なあ･･･ あんた、オレのとうちゃんと\n{r[し]}知{/r}りあいなんだよな？
 CharaSerif_01_F	ねえ･･･ あなた、とうさんと\n{r[し]}知{/r}りあいなのよね？
 CharaSerif_02_M	はい！ ていうかマブっす!!
@@ -5722,8 +5722,8 @@ CharaSerif_07_M	{r[いま]}今{/r}どうしているか{r[し]}知{/r}りたい�
 CharaSerif_07_F	{r[いま]}今{/r}どうしているか{r[し]}知{/r}りたいの。\nなにか{r[し]}知{/r}ってたら、おしえて！
 CharaSerif_08_M	あー･･･ わっかんないっすね～\nとくにカラミなかったんで･･･
 CharaSerif_09_M	そうか･･･
-CharaSerif_10_M	\u000e\u0000\u0002\u0002\u0096\u0000あ～しまった！ ケツカッチン！\u000e\u0000\u0002\u0002d\u0000
-CharaSerif_11_M	\u000e\u0000\u0002\u0002\u0096\u0000シータクとばしてギロッポン♪\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_10_M	{s[150]}あ～しまった！ ケツカッチン！{s[100]}
+CharaSerif_11_M	{s[150]}シータクとばしてギロッポン♪{s[100]}
 CharaSerif_12_M	そんじゃ♪
 CharaSerif_13_M	かあちゃん･･････
 CharaSerif_13_F	かあさん･･････
@@ -5733,12 +5733,12 @@ CharaSerif_01_M	でもね！ {r[あか]}赤{/r}いスシなんて{r[た]}食{/r}
 CharaSerif_02_M	･･･お{r[はな]}話{/r}し{r[ちゅう]}中{/r}、{r[しつれい]}失礼{/r}します。\n{r[つぎ]}次{/r}の{r[よてい]}予定{/r}のお{r[じかん]}時間{/r}です。
 CharaSerif_03_M	･･･あら、もうエステタイム？\nざ～んねん。
 CharaSerif_04_M	じゃ、ボーイズたち！\nあとはまかせたわ♪
-CharaSerif_05_M	\u000e\u0000\u0002\u0002\u0096\u0000はい！ おじょうさま!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_05_M	{s[150]}はい！ おじょうさま!!{s[100]}
 CharaSerif_06_M	うわぁ、ホントにそうよぶんだ･･･
 \event\stageEndM083.msbt
-CharaSerif_00_M	\u000e\u0000\u0002\u0002\u0096\u0000くそぉ･･･ また{r[ま]}負{/r}けたあああ！\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_00_M	{s[150]}くそぉ･･･ また{r[ま]}負{/r}けたあああ！{s[100]}
 CharaSerif_01_M	おぼえてろよ！\n{r[きょう]}今日{/r}のところは、おとなしく{r[ま]}負{/r}けといてやる！
-CharaSerif_02_M	\u000e\u0000\u0002\u0002\u0096\u0000うわぁーん!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_02_M	{s[150]}うわぁーん!!{s[100]}
 CharaSerif_03_M	･･･なんなんだ、あいつ。
 CharaSerif_03_F	･･･なんなの？ あいつ。
 \event\stageEndM084.msbt
@@ -5760,13 +5760,13 @@ CharaSerif_04_M	あー･･･ でもナマで{r[み]}見{/r}たことはない
 CharaSerif_06_M	へえ･･･ じゃあ、とうちゃんは\n{r[ていこく]}帝国{/r}に{r[い]}行{/r}ってからあの{r[わざ]}技{/r}を･･･？
 CharaSerif_06_F	ふーん･･･ じゃあ、とうさんは\n{r[ていこく]}帝国{/r}に{r[い]}行{/r}ってからあの{r[わざ]}技{/r}を･･･？
 CharaSerif_07_M	あっ！ でもでも～♪ {r[かんしゃ]}感謝{/r}{r[た]}食{/r}べに{r[たいこう]}対抗{/r}できる\nウラワザなら{r[き]}聞{/r}いたことあるっす！
-CharaSerif_08_M	\u000e\u0000\u0002\u0002\u0096\u0000えっ！ マジか!?\u000e\u0000\u0002\u0002d\u0000
-CharaSerif_08_F	\u000e\u0000\u0002\u0002\u0096\u0000えっ！ ホント!?\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_08_M	{s[150]}えっ！ マジか!?{s[100]}
+CharaSerif_08_F	{s[150]}えっ！ ホント!?{s[100]}
 CharaSerif_09_M	モチっす♪\nそれはっすね～･･･
-CharaSerif_10_M	\u000e\u0000\u0002\u0002\u0096\u0000あ～しまった！ ケツカッチン！\u000e\u0000\u0002\u0002d\u0000
-CharaSerif_11_M	\u000e\u0000\u0002\u0002\u0096\u0000･･･おっ、おい！\u000e\u0000\u0002\u0002d\u0000
-CharaSerif_11_F	\u000e\u0000\u0002\u0002\u0096\u0000･･･ちょ、ちょっと！\u000e\u0000\u0002\u0002d\u0000
-CharaSerif_12_M	\u000e\u0000\u0002\u0002\u0096\u0000シータクとばしてギロッポン♪\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_10_M	{s[150]}あ～しまった！ ケツカッチン！{s[100]}
+CharaSerif_11_M	{s[150]}･･･おっ、おい！{s[100]}
+CharaSerif_11_F	{s[150]}･･･ちょ、ちょっと！{s[100]}
+CharaSerif_12_M	{s[150]}シータクとばしてギロッポン♪{s[100]}
 CharaSerif_13_M	そんじゃ♪
 CharaSerif_14_M	むう、ウラワザか･･･\nそんなものが、{r[ほんとう]}本当{/r}にあるのか･･･？
 \event\stageEndM092.msbt
@@ -5786,11 +5786,11 @@ CharaSerif_12_F	よーし、まかせて！
 CharaSerif_13_M	（･･･はて？\n　{r[まえ]}前{/r}にも、こんな{r[はなし]}話{/r}があったような･･･）
 CharaSerif_14_M	なんと！ さすがはムサシさま･･･\nでは、この{r[けいやくざら]}契約皿{/r}をお{r[も]}持{/r}ちください･･･！
 CharaSerif_15_M	スシガミ『{c[91ff1e]}クマテン{c[000000]}』と{r[けいやく]}契約{/r}した！\nスキルは「{c[91ff1e]}{r[ばいばい]}倍々{/r}シュート{c[000000]}」だ！
-CharaSerif_16_M	\u000e\u0000\u0002\u0002\u0096\u0000すべてはソスナさまのために!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_16_M	{s[150]}すべてはソスナさまのために!!{s[100]}
 \event\stageEndM093.msbt
-CharaSerif_00_M	\u000e\u0000\u0002\u0002\u0096\u0000くそぉ･･･ また{r[ま]}負{/r}けたあああ！\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_00_M	{s[150]}くそぉ･･･ また{r[ま]}負{/r}けたあああ！{s[100]}
 CharaSerif_01_M	おぼえてろよ！\nムサシのバーカ！バーカ！バーカ！バーカ!!
-CharaSerif_02_M	\u000e\u0000\u0002\u0002\u0096\u0000うわぁーん!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_02_M	{s[150]}うわぁーん!!{s[100]}
 CharaSerif_03_M	･･･なんなんだ、あいつ。
 CharaSerif_03_F	･･･なんなの？ あいつ。
 \event\stageEndM094.msbt
@@ -5830,22 +5830,22 @@ CharaSerif_02_M	ジンライ･･･
 CharaSerif_03_M	やっぱおまえ、{r[せっきょう]}説教{/r}くさくなったな？
 CharaSerif_03_F	やっぱあんた、{r[せっきょう]}説教{/r}くさくなったわ。
 \event\stageEndM105.msbt
-CharaSerif_00_M	\u000e\u0000\u0002\u0002\u0096\u0000くそぉ･･･ また{r[ま]}負{/r}けたあああ！\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_00_M	{s[150]}くそぉ･･･ また{r[ま]}負{/r}けたあああ！{s[100]}
 CharaSerif_01_M	おい、コジロー！\nユキチさんはどこだ？
 CharaSerif_01_F	ちょっと、コジロー！\nユキチさんはどこ？
 CharaSerif_02_M	フン･･･ ユキチだって？
 CharaSerif_03_M	ヒヒッ♪ それならこの{r[さき]}先{/r}の\n{r[とくべつ]}特別{/r}{r[くんれん]}訓練{/r}{r[とう]}棟{/r}に{r[と]}閉{/r}じこめられてるぜ！
 CharaSerif_04_M	じゃあ、そこまで{r[あんない]}案内{/r}しろ！
 CharaSerif_04_F	じゃあ、そこまで{r[あんない]}案内{/r}して！
-CharaSerif_05_M	\u000e\u0000\u0002\u0002\u0096\u0000やだね！ なんでオレが!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_05_M	{s[150]}やだね！ なんでオレが!!{s[100]}
 CharaSerif_06_M	コジローよ･･･ ここまでダメダメでは\nもはや{r[ていこく]}帝国{/r}に{r[いばしょ]}居場所{/r}はあるまい？
 CharaSerif_07_M	おとなしく{r[こきょう]}故郷{/r}の{r[むら]}村{/r}に{r[もど]}戻{/r}るがよい。\nそれとも･･･ まだワサビが{r[く]}食{/r}い{r[た]}足{/r}りぬか？
 CharaSerif_08_M	ううっ･･･ こんな、こんなハズじゃ･･･
-CharaSerif_09_M	\u000e\u0000\u0002\u0002\u0096\u0000うわぁぁぁぁん!!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_09_M	{s[150]}うわぁぁぁぁん!!!{s[100]}
 CharaSerif_10_M	いいだろう！ {r[むら]}村{/r}に{r[かえ]}帰{/r}るついでに{r[あんない]}案内{/r}してやる。\n･･･あくまでついでにな！
 CharaSerif_11_M	ん？ ･･･でも{r[むら]}村{/r}は\nぜんぜんちがう{r[ほうこう]}方向{/r}だぞ？
 CharaSerif_11_F	えっ？ ･･･でも{r[むら]}村{/r}は\nぜんぜんちがう{r[ほうこう]}方向{/r}よ？
-CharaSerif_12_M	\u000e\u0000\u0002\u0002\u0096\u0000うるさい! だまってついてこい!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_12_M	{s[150]}うるさい! だまってついてこい!!{s[100]}
 \event\stageEndM110.msbt
 CharaSerif_00_M	むう･･･ ここでは{r[かいほう]}介抱{/r}もできん。\n{r[そと]}外{/r}に{r[はこ]}運{/r}びだすのじゃ！
 CharaSerif_01_M	おいコジロー！ {r[てつだ]}手伝{/r}え！
@@ -5859,36 +5859,36 @@ CharaSerif_00_M	へへっ♪\nどうだ！ まいったか！
 CharaSerif_00_F	へへっ♪\nどんなもんよ？ まいったか！
 CharaSerif_01_M	うぅっ･･･ まだだ･･･\nまだ、{r[ま]}負{/r}けねぇ･･････！
 CharaSerif_02_M	ムサシ！ {r[き]}気{/r}をつけろ！
-CharaSerif_03_M	\u000e\u0000\u0002\u0002\u0096\u0000ちくしょう！ムサシィィッ!!!\u000e\u0000\u0002\u0002d\u0000
-CharaSerif_04_M	\u000e\u0000\u0002\u0002\u0096\u0000やめろ!!\u000e\u0000\u0002\u0002d\u0000
-CharaSerif_04_F	\u000e\u0000\u0002\u0002\u0096\u0000やめて!!\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_03_M	{s[150]}ちくしょう！ムサシィィッ!!!{s[100]}
+CharaSerif_04_M	{s[150]}やめろ!!{s[100]}
+CharaSerif_04_F	{s[150]}やめて!!{s[100]}
 CharaSerif_05_M	･･･もう{r[しょうぶ]}勝負{/r}はついたんだ。\nあとはおいしく、{r[あじ]}味{/r}わってスシを{r[く]}食{/r}おうぜ。
 CharaSerif_05_F	･･･もう{r[しょうぶ]}勝負{/r}はついたわ。\nあとはおいしく、{r[あじ]}味{/r}わってスシを{r[た]}食{/r}べましょ♪
 CharaSerif_06_M	･･･な？
 CharaSerif_06_F	･･･ね？
 CharaSerif_07_M	あ･･･ {r[あじ]}味{/r}わって･･････!?
-CharaSerif_08_M	\u000e\u0000\u0002\u0002\u0096\u0000ハッハッハ！･･･たいしたもんだ。\u000e\u0000\u0002\u0002d\u0000
-CharaSerif_09_M	\u000e\u0000\u0002\u0002\u0096\u0000ゆ･･･ ユキチさん!?\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_08_M	{s[150]}ハッハッハ！･･･たいしたもんだ。{s[100]}
+CharaSerif_09_M	{s[150]}ゆ･･･ ユキチさん!?{s[100]}
 CharaSerif_10_M	･･･ひさしぶりだな、ボウズ。\nすっかり{r[み]}見{/r}ちがえちまって･･･！
 CharaSerif_10_F	･･･ひさしぶりだな、お{r[じょう]}嬢{/r}ちゃん。\nすっかり{r[み]}見{/r}ちがえちまって･･･！
 CharaSerif_11_M	アブリコスさんよ･･･ もういいだろう。\nこいつの{r[い]}言{/r}う{r[とお]}通{/r}り、{r[しょうぶ]}勝負{/r}はついた･･･
 CharaSerif_12_M	う･･･ あ･･･ ああ･･･
 CharaSerif_13_M	･･･オレは{r[し]}知{/r}ってるぜ？
 CharaSerif_14_M	あんた、{r[むかし]}昔{/r}はスシをひとつひとつ\nていねいに{r[た]}食{/r}べる･･･ そんな{r[おとこ]}男{/r}だったそうだな。
-CharaSerif_15_M	\u000e\u0000\u0002\u0002\u0096\u0000ど、どうしてそれを･･･！\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_15_M	{s[150]}ど、どうしてそれを･･･！{s[100]}
 CharaSerif_16_M	だがそれを、{r[おお]}大{/r}きな{r[からだ]}体{/r}に{r[にあ]}似合{/r}わないと{r[わら]}笑{/r}われ\nわざと{r[あら]}荒{/r}っぽく{r[た]}食{/r}べるようになった･･･
 CharaSerif_17_M	そうだ･･･ {r[ほんとう]}本当{/r}はゆっくり{r[あじ]}味{/r}わいたい･･･ \nでも{r[しょうぐん]}将軍{/r}だから･･･ {r[つよ]}強{/r}くなきゃいけないから･･･
 CharaSerif_18_M	いいのかい？ ムリにそんな{r[た]}食{/r}べ{r[かた]}方{/r}して･･･\nスシもあんたも{r[な]}泣{/r}いてるぜ･･･？
 CharaSerif_19_M	･･･せっかくのスシだ。\n{r[えがお]}笑顔{/r}で{r[た]}食{/r}べようや･･･
 CharaSerif_20_M	オレが･･･ オレが{r[まちが]}間違{/r}っていた･･･
-CharaSerif_21_M	\u000e\u0000\u0002\u0002\u0096\u0000すまねえ･･･ ムサシ！ユキチ！\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_21_M	{s[150]}すまねえ･･･ ムサシ！ユキチ！{s[100]}
 CharaSerif_22_M	オレ、ふつうのスシ{r[ず]}好{/r}きの\nマッチョに{r[もど]}戻{/r}るよ･･･
 CharaSerif_23_M	ありがとうな･･･\nスシライカー・ムサシ。
 \event\stageEndM111_After01.msbt
 CharaSerif_00_M	スシガミ『{c[91ff1e]}アラオウ{c[000000]}』と{r[けいやく]}契約{/r}した！\nスキルは「{c[91ff1e]}スキルクリーン{c[000000]}」だ！
 \event\stageEndM116.msbt
 CharaSerif_00_M	ゴイスー!!\nこちらアゲちゃいます～！
-CharaSerif_40_M	『{c[91ff1e]}あぶりバーナー{c[000000]}』\u00d75 を{r[て]}手{/r}に{r[い]}入{/r}れた！
+CharaSerif_40_M	『{c[91ff1e]}あぶりバーナー{c[000000]}』\xd75 を{r[て]}手{/r}に{r[い]}入{/r}れた！
 CharaSerif_01_M	いやぁ･･･ ちょっと{r[み]}見{/r}ないうちに\nイケてるルックスになってきましたねぇ♪
 CharaSerif_02_M	ま・さ・に！\nザ★シースーライカー!! ･･･って{r[かん]}感{/r}じ！
 CharaSerif_03_M	へへっ♪ サンキュー！
@@ -5898,8 +5898,8 @@ CharaSerif_05_M	あのころは･･･ そんなリソーに{r[も]}燃{/r}え
 CharaSerif_06_M	･･･まあ、そのぶん\nブッソーでしたけどね♪
 CharaSerif_07_M	はて？ おヌシはそのころ\nどこで{r[なに]}何{/r}をしていたんじゃ？
 CharaSerif_08_M	･･･ボクっすか!?\nボクはまぁ、いろいろと･･･
-CharaSerif_09_M	\u000e\u0000\u0002\u0002\u0096\u0000あ～しまった！ ケツカッチン！\u000e\u0000\u0002\u0002d\u0000
-CharaSerif_10_M	\u000e\u0000\u0002\u0002\u0096\u0000シータクとばしてギロッポン♪\u000e\u0000\u0002\u0002d\u0000
+CharaSerif_09_M	{s[150]}あ～しまった！ ケツカッチン！{s[100]}
+CharaSerif_10_M	{s[150]}シータクとばしてギロッポン♪{s[100]}
 CharaSerif_11_M	そんじゃ♪
 CharaSerif_12_M	なんなんだ？ ･･･いろいろ？
 CharaSerif_12_F	なんなの？ ･･･いろいろ？
@@ -5974,9 +5974,9 @@ Text_Rate	レート
 Text_GetItem	かくとくアイテム
 Text_GachiRatingBattle	ガチレーティングバトル
 Text_ItemNone	なし
-Win_GachiRetry	{c[dc0000]}\u000e\u0001\u0010\u0000{c[000000]}さんとガチバトルで\nもう{r[いちどたいせん]}一度対戦{/r}しますか？
-Win_GachiRatingRetry	{c[dc0000]}\u000e\u0001\u0010\u0000{c[000000]}さんとガチレーティングバトルで\nもう{r[いちどたいせん]}一度対戦{/r}しますか？
-Win_VarietyRetry	{c[dc0000]}\u000e\u0001\u0010\u0000{c[000000]}さんとバラエティバトルで\nもう{r[いちどたいせん]}一度対戦{/r}しますか？
+Win_GachiRetry	{c[dc0000]}\x0e\x01\x10\0{c[000000]}さんとガチバトルで\nもう{r[いちどたいせん]}一度対戦{/r}しますか？
+Win_GachiRatingRetry	{c[dc0000]}\x0e\x01\x10\0{c[000000]}さんとガチレーティングバトルで\nもう{r[いちどたいせん]}一度対戦{/r}しますか？
+Win_VarietyRetry	{c[dc0000]}\x0e\x01\x10\0{c[000000]}さんとバラエティバトルで\nもう{r[いちどたいせん]}一度対戦{/r}しますか？
 Win_EnemyExit	{r[たいせんあいて]}対戦相手{/r}が{r[たいしゅつ]}退出{/r}しました。
 \scene\scene_battledata.msbt
 BattleDataSceneCommentary	スキル
@@ -6023,12 +6023,12 @@ Text_Rank	ランク
 Text_Exp	けいけんち
 Text_GetItem	かくとくアイテム
 Text_BattleResult	バトルけっか
-Text_StarBonus	かくとくボーナス\u00d7%d
+Text_StarBonus	かくとくボーナス\xd7%d
 Win_GetFavPower00	リミットまで{r[た]}食{/r}べた！
-Win_GetFavPower01	スシパワー『{c[91ff1e]}\u000e\u0001\u0017\u0000{c[000000]}』が\n{r[からだ]}体{/r}にやどった！
+Win_GetFavPower01	スシパワー『{c[91ff1e]}\x0e\x01\x17\0{c[000000]}』が\n{r[からだ]}体{/r}にやどった！
 Win_GetFavPowerTitle	スシパワーかくとく！
-Label_ExStage_Advent	エリアクリア ＆ スター40個の{r[かくとく]}獲得{/r}で…\nエリア『{c[006e00]}\u000e\u0001\u0013\u0000{c[000000]}』の\n{c[dc0000]}かくしステージ{c[000000]}がオープン！
-Label_ExStage30_Advent	エリアクリア ＆ スター30個の{r[かくとく]}獲得{/r}で…\nエリア『{c[006e00]}\u000e\u0001\u0013\u0000{c[000000]}』の\n{c[dc0000]}かくしステージ{c[000000]}がオープン！
+Label_ExStage_Advent	エリアクリア ＆ スター40個の{r[かくとく]}獲得{/r}で…\nエリア『{c[006e00]}\x0e\x01\x13\0{c[000000]}』の\n{c[dc0000]}かくしステージ{c[000000]}がオープン！
+Label_ExStage30_Advent	エリアクリア ＆ スター30個の{r[かくとく]}獲得{/r}で…\nエリア『{c[006e00]}\x0e\x01\x13\0{c[000000]}』の\n{c[dc0000]}かくしステージ{c[000000]}がオープン！
 \scene\scene_cmn.msbt
 Label_AreaNumber	エリア %ls
 Btn_Next	つぎへ
@@ -6237,10 +6237,10 @@ TxtItemImportant	だいじなもの
 TxtItemNum	もっている{r[かず]}数{/r}
 TxtItemNothing	もちものがありません
 TxtWho	だれに？
-WinTxt_UseItemPlayer	『{c[006e00]}\u000e\u0001\u0015\u0000{c[000000]}』を\nムサシに{r[つか]}使{/r}いますか？
-WinTxt_SetReadyItem01	『{c[006e00]}\u000e\u0001\u0015\u0000{c[000000]}』を\nじゅんびアイテムとして{r[せってい]}設定{/r}しますか？
-WinTxt_SetReadyItem02	『{c[006e00]}\u000e\u0001\u0015\u0000{c[000000]}』を\n『{c[dc0000]}\u000e\u0001\u0016\u0000{c[000000]}』と{r[い]}入{/r}れかえて\nじゅんびアイテムとして{r[せってい]}設定{/r}しますか？
-WinTxt_RemoveReadyItem	『{c[006e00]}\u000e\u0001\u0015\u0000{c[000000]}』を\nじゅんびアイテムから{r[はず]}外{/r}しますか？
+WinTxt_UseItemPlayer	『{c[006e00]}\x0e\x01\x15\0{c[000000]}』を\nムサシに{r[つか]}使{/r}いますか？
+WinTxt_SetReadyItem01	『{c[006e00]}\x0e\x01\x15\0{c[000000]}』を\nじゅんびアイテムとして{r[せってい]}設定{/r}しますか？
+WinTxt_SetReadyItem02	『{c[006e00]}\x0e\x01\x15\0{c[000000]}』を\n『{c[dc0000]}\x0e\x01\x16\0{c[000000]}』と{r[い]}入{/r}れかえて\nじゅんびアイテムとして{r[せってい]}設定{/r}しますか？
+WinTxt_RemoveReadyItem	『{c[006e00]}\x0e\x01\x15\0{c[000000]}』を\nじゅんびアイテムから{r[はず]}外{/r}しますか？
 \scene\scene_menumydata.msbt
 TxtSceneName	マイデータ
 TxtNextLv	つぎのLvまで
@@ -6296,7 +6296,7 @@ DishColorName05	{c[fd592b]}①{c[000000]}
 DishColorName06	{c[d4e9ec]}①{c[000000]}
 DishColorName07	{c[6a6c49]}①{c[000000]}
 DishColorName08	{c[f0e8a5]}①{c[000000]}
-DishColorNameRainbow	\u000e\u0000\u0003\u0004\u00fc\u00fc\u00fc\u0000①{c[000000]}
+DishColorNameRainbow	\x0e\0\x03\x04\xfc\xfc\xfc\0①{c[000000]}
 GraphicText_VS	VS
 Text_Live	LIVE
 Text_Win	勝ち
@@ -7061,11 +7061,11 @@ PlayerAdvice005	たくさんの{r[さら]}皿{/r}をつなげるほど、\n{r[�
 PlayerAdvice006	{r[にじざら]}虹皿{/r}をふくんだつみ{r[ざら]}皿{/r}ならば、\n{r[てき]}敵{/r}の{r[こうげき]}攻撃{/r}でもくずれぬのじゃ
 PlayerAdvice007	{r[さら]}皿{/r}をつなげられる{r[じかん]}時間{/r}は7{r[びょう]}秒{/r}ある\n10{r[さら]}皿{/r}20{r[さら]}皿{/r}とつなげるのじゃ
 PlayerAdvice008	{r[さら]}皿{/r}が{r[とお]}通{/r}るすき{r[ま]}間{/r}さえあれば、{r[とお]}遠{/r}く\nのレーンとも{r[さら]}皿{/r}はつなげられるぞ
-PlayerAdvice009	{r[とら]}虎{/r}の{r[まき]}巻{/r}の「バトルの{r[ごくい]}極意{/r}」には\n{r[か]}  K0勝{/r}\u000f\u0001\u0000つためのヒントが{r[まんさい]}満載{/r}じゃぞ
+PlayerAdvice009	{r[とら]}虎{/r}の{r[まき]}巻{/r}の「バトルの{r[ごくい]}極意{/r}」には\n{r[か]}  K0勝{/r}\x0f\x01\0つためのヒントが{r[まんさい]}満載{/r}じゃぞ
 PlayerAdvice010	{r[しょうぶ]}勝負{/r}は{r[とき]}時{/r}の{r[うん]}運{/r}。{r[つぎ]}次{/r}は{r[か]}勝{/r}てるやも\n{r[し]}知{/r}れぬ…あきらめてはいかんぞ。
 PlayerAdvice011	「スキルのおふだ」をスシガミに\n{r[つか]}使{/r}えばスキルLvを{r[あ]}上{/r}げられるぞ
-PlayerAdvice012	{r[か]}  K0勝{/r}\u000f\u0001\u0000てぬ{r[とき]}時{/r}はスキルの{r[く]}組{/r}み{r[あ]}合{/r}わせを\n{r[かんが]}考{/r}えてみるのも{r[て]}手{/r}じゃぞ
-PlayerAdvice013	{r[か]}  K0勝{/r}\u000f\u0001\u0000てぬ{r[とき]}時{/r}はスキルとスシパワーの\n{r[あいしょう]}相性{/r}を{r[かんが]}考{/r}えるのも{r[て]}手{/r}じゃな
+PlayerAdvice012	{r[か]}  K0勝{/r}\x0f\x01\0てぬ{r[とき]}時{/r}はスキルの{r[く]}組{/r}み{r[あ]}合{/r}わせを\n{r[かんが]}考{/r}えてみるのも{r[て]}手{/r}じゃぞ
+PlayerAdvice013	{r[か]}  K0勝{/r}\x0f\x01\0てぬ{r[とき]}時{/r}はスキルとスシパワーの\n{r[あいしょう]}相性{/r}を{r[かんが]}考{/r}えるのも{r[て]}手{/r}じゃな
 PlayerSpecialAdvice	ここは…「ふっかつのまめ」を\n{r[つか]}使{/r}うのもいいかも{r[し]}知{/r}れぬな…
 Player_StgAdvice001	{r[さら]}皿{/r}は{r[みじか]}短{/r}く{r[なんど]}何度{/r}もつなげるより\nとにかく{r[なが]}長{/r}くつなげるべしじゃ
 Player_StgAdvice002	{r[さら]}皿{/r}が{r[とお]}通{/r}るすき{r[ま]}間{/r}さえあれば、{r[とお]}遠{/r}く\nのレーンとも{r[さら]}皿{/r}はつなげられるぞ
@@ -7627,4 +7627,4 @@ Label_SushiLiker_Rank	スシライカーランク
 \scene\scene_title.msbt
 Label_Start	はじめる
 Label_HomeMsg	\ue073を{r[お]}押{/r}すとホームメニューに{r[もど]}戻{/r}ります。
-Label_Credit	\u00a9 2018 Nintendo. Co-Developed by indieszero Co., Ltd.
+Label_Credit	\xa9 2018 Nintendo. Co-Developed by indieszero Co., Ltd.
