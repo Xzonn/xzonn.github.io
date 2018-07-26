@@ -71,24 +71,33 @@ table.listTable {
     margin-right: auto;
     margin-left: auto;
     text-align: center;
-    font-size: .9em;
     border-collapse: collapse;
 }
 
-table.listTable>*>tr>td {
+table.listTable > * > tr > td {
     border: 1px dashed var(--secondary);
+    padding: 3px;
 }
 
-table.listTable>*>tr>th {
+table.listTable > * > tr > th {
     border: 1px solid var(--dark);
+    padding: 5px;
 }
 
-table.listTable>*>tr>:first-child {
+table.listTable > * > tr > :first-child {
     border-left: none;
 }
 
-table.listTable>*>tr>:last-child {
+table.listTable > * > tr > :last-child {
     border-right: none;
+}
+
+table.listTable > * > tr:first-child > * {
+    border-top: 1px solid var(--dark);
+}
+
+table.listTable > * > tr:last-child > * {
+    border-bottom: 1px solid var(--dark);
 }
 
 code, kbd {
