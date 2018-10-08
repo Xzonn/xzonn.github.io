@@ -216,6 +216,23 @@ ref, .reficon {
     outline: none;
 }
 
+text {
+        font-family: var(--font-family-sans-serif) !important;
+}
+
+
+.chemSvg {
+    fill: #000;
+    stroke: #000;
+    shape-rendering: geometricPrecision;
+    text-rendering: geometricPrecision;
+    stroke-width: 0;
+    fill-rule: evenodd;
+    stroke-linejoin: miter;
+    font-size: 10px;
+    text-anchor: start;
+}
+
 .hide {
     display: none;
 }
