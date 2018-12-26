@@ -286,6 +286,13 @@ p.at-c, p.at-l, p.at-r {
     background: transparent !important;
 }
 
+.bilibiliVideo {
+    display: block;
+    margin: 0 auto;
+    width: 960px;
+    height: 540px;
+}
+
 #content {
     position: relative;
     margin: 1em auto;
