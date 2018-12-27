@@ -13,9 +13,9 @@
 body {
     background-image: url(background.png);
     background-attachment: fixed;
+    font-size: 16px;
     font-family: var(--font-family-sans-serif);
     line-height: 1.8em;
-    font-size: 16px;
 }
 
 h1 {
@@ -71,18 +71,18 @@ ul ul, ul ol, ol ol, ol ul {
 table {
     margin-right: auto;
     margin-left: auto;
-    text-align: center;
     border-collapse: collapse;
+    text-align: center;
 }
 
 table > * > tr > td {
-    border: 1px dashed var(--secondary);
     padding: 3px;
+    border: 1px dashed var(--secondary);
 }
 
 table > * > tr > th {
-    border: 1px solid var(--dark);
     padding: 5px;
+    border: 1px solid var(--dark);
 }
 
 table > * > tr > :first-child {
@@ -226,6 +226,7 @@ text {
 }
 
 .chemSvg {
+    font-size: 10px;
     fill: #000;
     stroke: #000;
     shape-rendering: geometricPrecision;
@@ -233,7 +234,6 @@ text {
     stroke-width: 0;
     fill-rule: evenodd;
     stroke-linejoin: miter;
-    font-size: 10px;
     text-anchor: start;
 }
 
@@ -291,6 +291,25 @@ p.at-c, p.at-l, p.at-r {
     margin: 0 auto;
     width: 960px;
     height: 540px;
+    max-width: 100%;
+}
+
+.navbar {
+    padding-left: 65px;
+    min-height: 60px;
+}
+
+.navbar:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    background-image: url(https://avatars0.githubusercontent.com/u/30619816);
+    background-size: 100%;
+    content: '';
 }
 
 #content {
@@ -344,8 +363,8 @@ p.at-c, p.at-l, p.at-r {
 }
 
 .pageBlock {
-    border-bottom: 2px dashed #777;
     padding: 0.5em 0;
+    border-bottom: 2px dashed #777;
 }
 
 .pageBlock:last-child {
