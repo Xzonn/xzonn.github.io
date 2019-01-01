@@ -101,7 +101,12 @@ $(function() {
         var toc = $("<div/>")
           , lastRank = 1
           , tocID = [];
-        $("#content").find("h2, h3, h4, h5").each(function(n, t) {
+          , headings = $("#content").find("h2, h3, h4, h5");
+        if (!headings) {
+            $("#tocBlock").slideUp();
+            return;
+        }
+        headings.each(function(n, t) {
             var thisRank = +this.tagName[1];
             while (thisRank > lastRank) {
                 tocID.push(0);
@@ -129,6 +134,7 @@ $(function() {
             toc = toc.children();
         }
         toc.children().prependTo($("#tocBlock").empty());
+        $("tocBlock").slideDown();
     })();
 
     // MathJax
