@@ -100,7 +100,7 @@ $(function() {
     (function() {
         var toc = $("<div/>")
           , lastRank = 1
-          , tocID = [];
+          , tocID = [],
           , headings = $("#content").find("h2, h3, h4, h5");
         if (!headings) {
             $("#tocBlock").slideUp();
