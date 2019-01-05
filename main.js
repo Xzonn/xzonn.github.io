@@ -97,13 +97,27 @@ $(function() {
     });
 
     // 目录
+    $(".leftToggleItemLink").click(function (){
+        var toggleItem = ["#leftNavigation", "#leftToc"],
+            thisItem = this.dataset.toggleItem;
+        for (var i = 0; i < toggleItem.length; i++) {
+            var item = toggleItem[i];
+            if (item == thisItem) {
+                $(item).show();
+            } else {
+                $(item).hide();
+            }
+        }
+        $(".leftToggleItemLink").removeClass("leftToggleItemLinkOn");
+        $(this).addClass("leftToggleItemLinkOn");
+    });
+
     (function() {
         var toc = $("<div/>")
           , lastRank = 1
           , tocID = []
           , headings = $("#content").find("h2, h3, h4, h5");
         if (!headings) {
-            $("#tocBlock").slideUp();
             return;
         }
         headings.each(function(n, t) {
@@ -133,8 +147,7 @@ $(function() {
         while (toc.children().length == 1 && (!(toc.children()[0].tagName.toLowerCase() == "li") || toc.children()[0].classList.contains("no-list-style"))) {
             toc = toc.children();
         }
-        toc.children().prependTo($("#tocBlock").empty());
-        $("tocBlock").slideDown();
+        toc.children().prependTo($("#leftToc"));
     })();
 
     // MathJax

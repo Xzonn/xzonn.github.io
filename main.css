@@ -2,18 +2,31 @@
     --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, 'Noto Sans CJK SC', 'Source Han Sans CN', 'Microsoft Yahei', Simhei, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     --font-family-serif: 'Times New Roman', 'Source Han Serif CN', Simsun, serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", 'Noto Sans CJK SC', 'Source Han Sans CN', 'Microsoft Yahei', Simhei, monospace;
+    --color-link-unvisited: #08F;
+    --color-left-block: #F3D274;
+    --color-left-block-light: #F9E6B1;
+    --color-left-block-dark: #9E7F26;
+    --color-content: #5D61A9;
+    --color-content-light: #A0A2D4;
+    --color-content-light-transparent: rgba(160, 162, 212, 0.2);
+    --color-content-dark: #1E226E;
 }
 
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
     border: 0;
 }
 
+a, div {
+    transition: all 0.3s ease-out;
+}
+
 body {
     background-image: url(background.png);
     background-attachment: fixed;
-    font-size: 16px;
+    font-size: 15px;
     font-family: var(--font-family-sans-serif);
     line-height: 1.8em;
 }
@@ -145,6 +158,16 @@ pre code ul li {
 
 pre code ul li:nth-child(2n) {
     background: rgba(255, 255, 255, 0.4);
+}
+
+a {
+    color: var(--color-content-dark);
+    text-decoration: none;
+}
+
+a[href]:hover {
+    color: var(--color-content-light);
+    text-decoration: underline;
 }
 
 img, svg {
@@ -294,64 +317,124 @@ p.at-c, p.at-l, p.at-r {
     max-width: 100%;
 }
 
-.navbar {
-    padding-left: 65px;
-    min-height: 60px;
+.transparent {
+    border: none !important;
+    opacity: 0 !important;
 }
 
-.navbar:before {
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: block;
-    width: 60px;
-    height: 60px;
-    border-radius: 30px;
+#leftBlock {
+    position: fixed;
+    top: 20px;
+    left: 15%;
+    width: 240px;
+    height: calc(100% - 40px);
+    max-height: 600px;
+    border: 1px solid;
+    border-color: #FFF;
+    border-style: dashed;
+    border-width: 2px 0 2px 2px;
+    border-radius: 10px 0 0 10px;
+    background-color: var(--color-left-block-light);
+    box-shadow: #888 -3px 3px 3px;
+    text-align: center;
+}
+
+#leftrightBlock {
+    height: calc(100% - 12.8em);
+}
+
+#leftAvatar {
+    margin: 0.6em auto;
+    width: 8em;
+    height: 8em;
+    border-radius: 60px;
     background-image: url(https://avatars0.githubusercontent.com/u/30619816);
     background-size: 100%;
-    content: '';
+}
+
+#leftTopLink {
+    display: block;
+    color: var(--color-left-block-dark);
+    font-size: 1.6em;
+}
+
+#leftToggle {
+    margin: 1em 0 0 0;
+    padding: 0;
+    border-radius: 1em 1em 0 0;
+    background-color: var(--color-left-block);
+    list-style: none;
+}
+
+.leftToggleItem {
+    display: inline-block;
+}
+
+.leftToggleItem:after {
+    content: ' |';
+}
+
+.leftToggleItem:last-child:after {
+    content: none;
+}
+
+.leftToggleItemLink {
+    color: #888;
+    cursor: pointer;
+}
+
+.leftToggleItemLinkOn {
+    color: #000;
+    font-weight: bold;
+    cursor: auto;
+}
+
+#leftNavigation, #leftToc {
+    overflow: auto;
+    margin: 0;
+    padding: 0 0.66em 0 1.66em;
+    height: calc(100% - 2.8em);
+    border-bottom-left-radius: 10px;
+    background-color: var(--color-left-block-dark);
+    text-align: left;
+}
+
+#leftNavigation a, #leftToc a {
+    color: var(--color-left-block-light);
 }
 
 #content {
     position: relative;
-    margin: 1em auto;
+    margin: 20px 15% 20px calc(15% + 240px);
     padding: 1em;
-    border: 2px dashed #fff;
-    border-radius: 10px;
-    background-color: rgba(210, 255, 255, 0.4);
+    border-color: #FFF;
+    border-style: dashed;
+    border-width: 2px 2px 2px 0;
+    border-radius: 0 10px 10px 0;
+    background-color: var(--color-content-light-transparent);
     box-shadow: #888 3px 3px 3px;
     text-align: justify;
 }
 
-#tocBlock {
-    padding-right: 0.66em;
-    width: 60%;
-    border: 2px dotted #FFF;
-    border-radius: 10px;
-    background-color: rgba(230, 230, 230, 0.7);
-}
-
-#tocBlock:before {
-    content: '目录';
-    font-weight: bold;
-    font-size: 20px;
-}
-
-#contentTime:before, .pageTime:before {
+#contentTime:before, .pageDate:before {
     content: '创建时间：';
 }
 
-#contentTime, .pageTime {
+#contentTime, .pageDate {
     margin: 2px 0;
     padding: 0 15px;
-    border-left: 4px solid #AAA;
-    color: #777;
+    border-left: 4px solid var(--color-content-light);
+    color: var(--color-content-light);
     font-size: 12px;
     font-family: var(--font-family-monospace);
 }
 
 #contentBody>*:last-child {
     margin-bottom: 0 !important;
+}
+
+#contentComment {
+    clear: both;
 }
 
 #footer {
@@ -363,7 +446,7 @@ p.at-c, p.at-l, p.at-r {
 }
 
 .pageBlock {
-    padding: 0.5em 0;
+    padding: 2em 0;
     border-bottom: 2px dashed #777;
 }
 
@@ -371,19 +454,93 @@ p.at-c, p.at-l, p.at-r {
     border: none;
 }
 
+.pageBlock * {
+    margin: 0;
+}
+
 .pageInfo {
-    color: #777;
+    width: 40em;
+    max-width: 100%;
+    border-color: var(--color-content-dark);
+    border-style: solid;
+    border-width: 2px 2px 0 2px;
+    border-top-right-radius: 2em 3em;
+    border-top-left-radius: 1em;
+    background-color: #FFF;
 }
 
-.transparent {
-    border: none !important;
-    opacity: 0 !important;
+.pageTitle {
+    margin: 0 0.5em;
+    line-height: 2em;
 }
 
-@media screen {
-    #content {
-        max-width: 1200px;
-    }
+.pageEntry {
+    position: relative;
+    min-height: 5.4em;
+    border-color: var(--color-content-dark);
+    border-style: solid;
+    border-width: 2px 2px 2px;
+    border-radius: 0 1em 1em 1em;
+    background-color: var(--color-content-light-transparent);
+}
+
+.pageContent {
+    padding: 0 1em;
+    font-style: italic;
+}
+
+.pageRead {
+    position: absolute;
+    position: absolute;
+    bottom: 0;
+    bottom: 0;
+    left: 0;
+    display: block;
+    display: block;
+    padding-top: 1.8em;
+    width: 100%;
+    height: 3.6em;
+    border-radius: 0 0 1em 1em;
+    background-image: linear-gradient(transparent, var(--color-content-light) 75%);
+    content: '';
+    text-align: center;
+}
+
+.pageRead:hover {
+    text-decoration: none !important;
+    text-shadow: var(--color-content-dark) -1px -1px 1px,
+        var(--color-content-dark) -1px 0px 1px,
+        var(--color-content-dark) -1px 1px 1px,
+        var(--color-content-dark) 0px -1px 1px,
+        var(--color-content-dark) 0px 0px 1px,
+        var(--color-content-dark) 0px 1px 1px,
+        var(--color-content-dark) 1px -1px 1px,
+        var(--color-content-dark) 1px 0px 1px,
+        var(--color-content-dark) 1px 1px 1px;
+}
+
+.pagePagination {
+    position: relative;
+    height: 1.8em;
+    text-align: center;
+}
+
+.pagePrev {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+}
+
+.pageNext {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+}
+
+.pageCount {
+    margin: 0 4em;
 }
 
 @media print, screen and (max-width: 800px) {
@@ -399,9 +556,72 @@ p.at-c, p.at-l, p.at-r {
         border-radius: 0 !important;
         box-shadow: none;
     }
-    
-    #tocBlock {
+}
+
+@media screen and (max-width: 800px) {
+    #leftBlock {
+        position: relative;
+        top: 0;
+        left: 0;
         width: 100%;
+        height: 12.8em;
+        border: 0;
+        border-radius: 0 !important;
+        box-shadow: none;
+    }
+
+    #leftleftBlock {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 12em;
+    }
+
+    #leftrightBlock {
+        position: absolute;
+        top: 0;
+        left: 12em;
+        width: calc(100% - 12em);
+    }
+
+    #leftToggle {
+        margin: 0;
+    }
+
+    #leftNavigation, #leftToc {
+        height: 11em;
+        border-bottom-left-radius: 0;
+    }
+
+    .pageInfo {
+        width: 100%;
+    }
+
+    .pageEntry {
+        border-top-right-radius: 0;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #leftBlock, #leftleftBlock, #leftrightBlock {
+        position: static;
+        width: 100%;
+        height: auto;
+    }
+
+    #leftAvatar {
+        float: left;
+        margin: 0 -4.6em 0 1em;
+        width: 3.6em;
+        height: 3.6em;
+    }
+
+    #leftrightBlock {
+        clear: both;
+    }
+
+    #leftNavigation, #leftToc {
+        height: auto;
     }
 }
 

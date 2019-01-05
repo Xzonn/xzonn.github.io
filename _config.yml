@@ -4,8 +4,11 @@ url:
 markdown: kramdown
 permalink: /:title/
 version: v2.0
-gems:
+plugins:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
+  - jekyll-paginate
 exclude:
     - LICENSE
     - README.md
+paginate: 10
+paginate_path: /page/:num/
