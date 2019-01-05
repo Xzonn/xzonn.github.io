@@ -445,6 +445,14 @@ p.at-c, p.at-l, p.at-r {
     text-align: center;
 }
 
+#footerCounter {
+    display: block;
+}
+
+#footer > a:last-child {
+    display: none;
+}
+
 .pageBlock {
     padding: 2em 0;
     border-bottom: 2px dashed #777;
