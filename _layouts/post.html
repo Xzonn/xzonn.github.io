@@ -1,7 +1,8 @@
 ---
 layout: default
 ---
-<h1 id="contentTitle">{{ page.title }}</h1>
-<div id="contentTime">{{ page.date | date: "%Y-%m-%d" }}</div>
-<div id="contentBody">{{ content }}</div>
-<div id="contentComment"><div id="lv-container" data-id="city" data-uid="MTAyMC80MTk5MS8xODUzOA=="></div></div>
+<h1 id="rightTitle">{{ page.title }}</h1>
+<div id="rightTime">{{ page.date | date: "%Y-%m-%d" }}</div>{% if page.info %}
+<blockquote id="rightInfo">{{ page.info }}</blockquote>{% endif %}
+<div id="content">{{ content }}</div>
+<div id="rightComment"><div id="lv-container" data-id="city" data-uid="MTAyMC80MTk5MS8xODUzOA=="><script src="https://cdn-city.livere.com/js/embed.dist.js"></script></div></div>

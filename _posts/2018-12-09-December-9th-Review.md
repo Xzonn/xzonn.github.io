@@ -18,12 +18,11 @@ info: 你看，那颗星。
 
 以下是每次推送的责编（如有遗漏请指出）：
 
-| 周次 | 封面 | 摄影 | 责编 |
-| :--: | :--: | :--: | :--: |
+| 周次 | 封面 | 责编 |
+| :--: | :--: | :--: |
 | 一 | <a href="https://mp.weixin.qq.com/s/TBqMXXKzVXB4rT0zIH8Qcw"><img alt="第一周" src="https://pku-cese-su.github.io/xcb/images/2018-129-Week-1.png" data-disp="auto" width="240"></a> | 蒋徐琳 |
 | 二 | <a href="https://mp.weixin.qq.com/s/Jkn-7471U5V-w8P24_OHpQ"><img alt="第二周" src="https://pku-cese-su.github.io/xcb/images/2018-129-Week-2.png" data-disp="auto" width="240"></a> | 孟瑶<br>田嘉慧 |
 | 三 | <a href="https://mp.weixin.qq.com/s/YSHzacI2SFjeuxomhoHeaQ"><img alt="第三周" src="https://pku-cese-su.github.io/xcb/images/2018-129-Week-3.png" data-disp="auto" width="240"></a> | 万子超 |
-| — | —<br>（男生节特别活动） | — |
 | 四 | <a href="https://mp.weixin.qq.com/s/01jP0PizKEZQTpQ0bV52Xw"><img alt="第四周" src="https://pku-cese-su.github.io/xcb/images/2018-129-Week-4.png" data-disp="auto" width="240"></a> | 张荣凯<br>于欣然 |
 | 五 | <a href="https://mp.weixin.qq.com/s/TfYT38a20AXFVNEDPz-RSQ"><img alt="第五周" src="https://pku-cese-su.github.io/xcb/images/2018-129-Week-5.png" data-disp="auto" width="240"></a> | 肖逸龙<br>张淑婕 |
 | 六 | <a href="https://mp.weixin.qq.com/s/tpJ5sjUJrak8RNpqwWIfTw"><img alt="第六周" src="https://pku-cese-su.github.io/xcb/images/2018-129-Week-6.png" data-disp="auto" width="240"></a> | 李天泽<br>刘瑰琦 |

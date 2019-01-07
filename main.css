@@ -1,8 +1,11 @@
 :root {
     --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, 'Noto Sans CJK SC', 'Source Han Sans CN', 'Microsoft Yahei', Simhei, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    --font-family-sans-serif-print: Arial, Simhei, sans-serif;
     --font-family-serif: 'Times New Roman', 'Source Han Serif CN', Simsun, serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    --font-family-serif-print: 'Times New Roman', Simsun, serif;
     --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", 'Noto Sans CJK SC', 'Source Han Sans CN', 'Microsoft Yahei', Simhei, monospace;
-    --color-link-unvisited: #08F;
+    --font-family-reference: 'Times New Roman', FangSong, Simfang, KaiTi, Simkai, Simsun, serif;
+
     --color-left-block: #F3D274;
     --color-left-block-light: #F9E6B1;
     --color-left-block-dark: #9E7F26;
@@ -10,6 +13,8 @@
     --color-content-light: #A0A2D4;
     --color-content-light-transparent: rgba(160, 162, 212, 0.2);
     --color-content-dark: #1E226E;
+
+    --image-note: url(data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22UTF-8%22%20standalone%3D%22no%22%3F%3E%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20720%20720%22%3E%3Ccircle%20cx%3D%22360%22%20cy%3D%22360%22%20r%3D%22320%22%20style%3D%22fill%3Anone%3Bstroke%3A%231E226E%3Bstroke-width%3A80px%22%2F%3E%3Cpath%20d%3D%22M264%2C418c-19-15-61-37-91-52l37-52c28%2C12%2C71%2C32%2C93%2C46Zm64%2C59c-25%2C50-54%2C102-84%2C150l-59-47c25-36%2C62-94%2C91-150ZM290%2C285c-19-15-60-39-89-54l39-51c27%2C12%2C70%2C33%2C91%2C48ZM627%2C551v66H315V551H441V467H349V401h91V329H330V263H449c-6-20-18-48-29-69l64-22c13%2C23%2C29%2C53%2C35%2C73l-49%2C17H613v66H514v72h83v66H514v84Z%22%20transform%3D%22translate%28-40%20-40%29%22%20style%3D%22fill%3A%231E226E%22%2F%3E%3C%2Fsvg%3E);
 }
 
 * {
@@ -19,7 +24,7 @@
     border: 0;
 }
 
-a, div {
+a, div, input, button {
     transition: all 0.3s ease-out;
 }
 
@@ -33,31 +38,37 @@ body {
 
 h1 {
     font-size: 1.8em;
+    line-height: 1.8em;
 }
 
-h1#contentTitle:after {
+h1#rightTitle:after {
     display: block;
     padding-left: 30px;
     content: "来自 Xzonn 的小站";
     font-weight: normal;
     font-style: italic;
     font-size: 12px;
+    line-height: 1em;
 }
 
 h2 {
     font-size: 1.6em;
+    line-height: 1.8em;
 }
 
 h3 {
     font-size: 1.4em;
+    line-height: 1.8em;
 }
 
 h4 {
     font-size: 1.2em;
+    line-height: 1.8em;
 }
 
 h5, h6 {
     font-size: 1em;
+    line-height: 1.8em;
 }
 
 p, blockquote, ul, ol, dl, table, pre {
@@ -66,6 +77,10 @@ p, blockquote, ul, ol, dl, table, pre {
 
 p {
     text-indent: 2em;
+}
+
+blockquote {
+    font-family: var(--font-family-serif);
 }
 
 ul, ol {
@@ -82,20 +97,24 @@ ul ul, ul ol, ol ol, ol ul {
 }
 
 table {
-    margin-right: auto;
-    margin-left: auto;
+    margin: 0.5em auto;
+    min-width: 75%;
+    border: double var(--color-content-dark);
     border-collapse: collapse;
+    border-width: 3px 0;
     text-align: center;
+    font-size: 0.9em;
+    line-height: 1.8em;
 }
 
 table > * > tr > td {
-    padding: 3px;
-    border: 1px dashed var(--secondary);
+    padding: 0 3px;
+    border: 1px dashed var(--color-content);
 }
 
 table > * > tr > th {
-    padding: 5px;
-    border: 1px solid var(--dark);
+    padding: 0 5px;
+    border: 1px solid var(--color-content-dark);
 }
 
 table > * > tr > :first-child {
@@ -107,11 +126,11 @@ table > * > tr > :last-child {
 }
 
 table > * > tr:first-child > * {
-    border-top: 1px solid var(--dark);
+    border-top: 1px solid var(--color-content-dark);
 }
 
 table > * > tr:last-child > * {
-    border-bottom: 1px solid var(--dark);
+    border-bottom: 1px solid var(--color-content-dark);
 }
 
 code, kbd {
@@ -121,18 +140,20 @@ code, kbd {
 }
 
 code, tt {
-    border: 1px solid #EAEAEA;
+    padding: 0.1em 0.4em;
+    border: 1px solid var(--color-content);
     border-radius: 3px;
-    background-color: rgba(240, 240, 240, 0.8);
+    background-color: var(--color-content-light);
+    color: var(--color-content-dark);
     white-space: pre-wrap;
 }
 
 pre {
     clear: both;
     overflow: auto;
-    border: 1px solid #ccc;
+    border: 1px solid var(--color-content-dark);
     border-radius: 10px;
-    background-color: rgba(200, 200, 200, 0.7);
+    background-color: var(--color-content-light);
     text-align: left;
     line-height: 20px;
 }
@@ -152,7 +173,7 @@ pre code ul {
 
 pre code ul li {
     padding: 0 0.5em;
-    border-left: 1px solid rgba(88, 88, 88, 0.7);
+    border-left: 1px solid var(--color-content);
     background: rgba(255, 255, 255, 0.7);
 }
 
@@ -182,8 +203,9 @@ img, svg {
     overflow: hidden;
     margin: 0 0 2px 16px;
     padding: 1px;
-    border: 1px solid #ccc;
-    background-color: rgba(255, 255, 255, 0.9);
+    border: 1px solid var(--color-content);
+    background-color: var(--color-content-light);
+    color: var(--color-content-dark);
     text-align: center;
     font-size: 0.8em;
 }
@@ -197,13 +219,13 @@ img, svg {
 .imgBlock > img {
     display: block;
     margin: 0 auto;
-    border: 1px solid #ccc;
+    border: 1px solid var(--color-content-light);
     background-color: #FFF;
 }
 
 ::selection {
-    background-color: #4671D5;
-    color: #FFA;
+    background-color: var(--color-content-dark);
+    color: var(--color-left-block-light);
 }
 
 ref {
@@ -214,14 +236,15 @@ ref {
     display: block;
     padding: 3px 3px 3px 26px;
     width: calc(100% - 33px);
-    border: 1px dashed #09A8F7;
+    border: 1px dashed var(--color-content-dark);
     border-radius: 10px 10px;
     background-color: rgba(255, 255, 255, 0.9);
     background-position: 3px;
     background-size: 20px;
+    color: var(--color-content-dark);
     text-indent: 0;
     font-size: 0.8em;
-    font-family: serif;
+    font-family: var(--font-family-serif);
 }
 
 .reficon {
@@ -232,7 +255,7 @@ ref {
 }
 
 ref, .reficon {
-    background-image: url(data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22UTF-8%22%20standalone%3D%22no%22%3F%3E%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20720%20720%22%3E%3Ctitle%3E%E6%9C%AA%E6%A0%87%E9%A2%98-1%3C%2Ftitle%3E%3Ccircle%20cx%3D%22360%22%20cy%3D%22360%22%20r%3D%22320%22%20style%3D%22fill%3Anone%3Bstroke%3A%2309a8f7%3Bstroke-width%3A80px%22%2F%3E%3Cpath%20d%3D%22M264%2C418c-19-15-61-37-91-52l37-52c28%2C12%2C71%2C32%2C93%2C46Zm64%2C59c-25%2C50-54%2C102-84%2C150l-59-47c25-36%2C62-94%2C91-150ZM290%2C285c-19-15-60-39-89-54l39-51c27%2C12%2C70%2C33%2C91%2C48ZM627%2C551v66H315V551H441V467H349V401h91V329H330V263H449c-6-20-18-48-29-69l64-22c13%2C23%2C29%2C53%2C35%2C73l-49%2C17H613v66H514v72h83v66H514v84Z%22%20transform%3D%22translate%28-40%20-40%29%22%20style%3D%22fill%3A%2309a8f7%22%2F%3E%3C%2Fsvg%3E);
+    background-image: var(--image-note);
     background-repeat: no-repeat;
 }
 
@@ -335,7 +358,7 @@ p.at-c, p.at-l, p.at-r {
     border-width: 2px 0 2px 2px;
     border-radius: 10px 0 0 10px;
     background-color: var(--color-left-block-light);
-    box-shadow: #888 -3px 3px 3px;
+    box-shadow: var(--color-left-block-dark) -3px 3px 3px;
     text-align: center;
 }
 
@@ -347,6 +370,7 @@ p.at-c, p.at-l, p.at-r {
     margin: 0.6em auto;
     width: 8em;
     height: 8em;
+    border: 2px solid var(--color-left-block-dark);
     border-radius: 60px;
     background-image: url(https://avatars0.githubusercontent.com/u/30619816);
     background-size: 100%;
@@ -403,7 +427,7 @@ p.at-c, p.at-l, p.at-r {
     color: var(--color-left-block-light);
 }
 
-#content {
+#rightBlock {
     position: relative;
     margin: 20px 15% 20px calc(15% + 240px);
     padding: 1em;
@@ -412,28 +436,28 @@ p.at-c, p.at-l, p.at-r {
     border-width: 2px 2px 2px 0;
     border-radius: 0 10px 10px 0;
     background-color: var(--color-content-light-transparent);
-    box-shadow: #888 3px 3px 3px;
+    box-shadow: var(--color-content-dark) 3px 3px 3px;
     text-align: justify;
 }
 
-#contentTime:before, .pageDate:before {
+#rightTime:before, .pageDate:before {
     content: '创建时间：';
 }
 
-#contentTime, .pageDate {
+#rightTime, .pageDate {
     margin: 2px 0;
     padding: 0 15px;
-    border-left: 4px solid var(--color-content-light);
-    color: var(--color-content-light);
+    border-left: 4px solid var(--color-content);
+    color: var(--color-content);
     font-size: 12px;
     font-family: var(--font-family-monospace);
 }
 
-#contentBody>*:last-child {
+#content>*:last-child {
     margin-bottom: 0 !important;
 }
 
-#contentComment {
+#rightComment {
     clear: both;
 }
 
@@ -449,7 +473,7 @@ p.at-c, p.at-l, p.at-r {
     display: block;
 }
 
-#footer > a:last-child {
+#footerCnzz {
     display: none;
 }
 
@@ -484,6 +508,8 @@ p.at-c, p.at-l, p.at-r {
 
 .pageEntry {
     position: relative;
+    overflow: hidden;
+    max-height: 9em;
     min-height: 5.4em;
     border-color: var(--color-content-dark);
     border-style: solid;
@@ -529,34 +555,130 @@ p.at-c, p.at-l, p.at-r {
 
 .pagePagination {
     position: relative;
-    height: 1.8em;
     text-align: center;
 }
 
 .pagePrev {
     position: absolute;
-    top: 0;
+    top: 0.9em;
     left: 0;
     display: block;
+    text-align: left;
+}
+
+.pagePrev:before {
+    content: '←';
 }
 
 .pageNext {
     position: absolute;
-    top: 0;
+    top: 0.9em;
     right: 0;
     display: block;
+    text-align: right;
+}
+
+.pageNext:after {
+    content: '→';
+}
+
+.pageFirstLink:after {
+    content: ' | ';
+}
+
+.pageLastLink:before {
+    content: ' | ';
 }
 
 .pageCount {
-    margin: 0 4em;
+    margin: 0 10em;
+}
+
+.pageNumber {
+    width: 5em;
+    height: 1.8em;
+    border-color: var(--color-content-dark);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px 0 0 5px;
+    background-color: var(--color-content-light);
+    color: var(--color-content-dark);
+    text-align: center;
+}
+
+.pageNumber:focus {
+    width: 10em;
+}
+
+.pageGoto {
+    width: 5em;
+    height: 1.8em;
+    border-color: var(--color-content-dark);
+    border-style: solid;
+    border-width: 1px 1px 1px 0;
+    border-radius: 0 5px 5px 0;
+    background-color: var(--color-content-dark);
+    color: var(--color-content-light);
+    cursor: pointer;
+}
+
+.pageGoto:hover {
+    background-color: var(--color-content-light);
+    color: var(--color-content-dark);
+}
+
+#pagesList {
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.pagesItemTime {
+    float: right;
+}
+
+.pagesItemTime:before {
+    content: '[';
+}
+
+.pagesItemTime:after {
+    content: ']';
+}
+
+.alert404 {
+    margin: 1em auto;
+    width: 400px;
+    height: 400px;
+    border: 2px solid var(--color-left-block-dark);
+    border-radius: 200px;
+    background-image: url(https://avatars0.githubusercontent.com/u/30619816);
+    background-size: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+    #leftBlock {
+        left: 0;
+    }
+
+    #rightBlock {
+        margin-right: 0;
+        margin-left: 240px;
+    }
+
+    .pageInfo {
+        width: 100%;
+    }
+
+    .pageEntry {
+        border-top-right-radius: 0;
+    }
 }
 
 @media print, screen and (max-width: 800px) {
-    .no-mobile {
+    .noMobile {
         display: none !important;
     }
 
-    #content {
+    #rightBlock {
         margin: 0;
         width: 100%;
         max-width: 100%;
@@ -600,13 +722,14 @@ p.at-c, p.at-l, p.at-r {
         height: 11em;
         border-bottom-left-radius: 0;
     }
+}
 
-    .pageInfo {
-        width: 100%;
+@media screen and (max-width: 600px) {
+    .pagePrev, .pageNext {
+        position: static;
     }
-
-    .pageEntry {
-        border-top-right-radius: 0;
+    .pageCount {
+        margin: 0;
     }
 }
 
@@ -615,6 +738,7 @@ p.at-c, p.at-l, p.at-r {
         position: static;
         width: 100%;
         height: auto;
+        max-height: none;
     }
 
     #leftAvatar {
@@ -631,25 +755,43 @@ p.at-c, p.at-l, p.at-r {
     #leftNavigation, #leftToc {
         height: auto;
     }
+
+    .alert404 {
+        width: 200px;
+        height: 200px;
+    }
 }
 
 @media print {
+    :root {
+        --color-left-block: #888;
+        --color-left-block-light: #DDD;
+        --color-left-block-dark: #333;
+        --color-content: #888;
+        --color-content-light: #DDD;
+        --color-content-light-transparent: rgba(221, 221, 221, 0.4);
+        --color-content-dark: #333;
+
+        --image-note: url(data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22UTF-8%22%20standalone%3D%22no%22%3F%3E%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20720%20720%22%3E%3Ccircle%20cx%3D%22360%22%20cy%3D%22360%22%20r%3D%22320%22%20style%3D%22fill%3Anone%3Bstroke%3A%23000%3Bstroke-width%3A80px%22%2F%3E%3Cpath%20d%3D%22M264%2C418c-19-15-61-37-91-52l37-52c28%2C12%2C71%2C32%2C93%2C46Zm64%2C59c-25%2C50-54%2C102-84%2C150l-59-47c25-36%2C62-94%2C91-150ZM290%2C285c-19-15-60-39-89-54l39-51c27%2C12%2C70%2C33%2C91%2C48ZM627%2C551v66H315V551H441V467H349V401h91V329H330V263H449c-6-20-18-48-29-69l64-22c13%2C23%2C29%2C53%2C35%2C73l-49%2C17H613v66H514v72h83v66H514v84Z%22%20transform%3D%22translate%28-40%20-40%29%22%20style%3D%22fill%3A%23000%22%2F%3E%3C%2Fsvg%3E);
+    }
+
     @page {
         margin: 6mm;
         size: auto;
     }
 
-    .no-print, #contentMenu, #tocBlock {
+    .noPrint, #leftBlock, #rightComment, #footerCounter {
         display: none !important;
     }
 
     body {
         color: #000;
         font-size: 12pt;
+        font-family: var(--font-family-serif-print);
         line-height: 1.5;
     }
 
-    body, #content {
+    body, #rightBlock {
         margin: 0 auto !important;
         padding: 0 !important;
         min-width: 0 !important;
@@ -658,14 +800,14 @@ p.at-c, p.at-l, p.at-r {
         box-shadow: none !important;
     }
 
-    #content:after {
+    #rightBlock:after {
         position: fixed;
         top: 50%;
         left: 0;
         z-index: -1;
         display: block;
         width: 100%;
-        color: #ddd;
+        color: var(--color-content-light);
         content: "整理：Xzonn";
         text-align: center;
         white-space: nowrap;
@@ -676,35 +818,42 @@ p.at-c, p.at-l, p.at-r {
         transform: rotateZ(30deg);
     }
 
-    #footer {
-        font-size: 12pt;
+    blockquote, ref {
+        font-family: var(--font-family-reference);
     }
 
     h1 {
         text-align: center;
     }
 
-    h1#contentTitle:after {
-        display: block;
+    h1#rightTitle:after {
         font-style: normal;
     }
 
-    body, h1#contentTitle:after {
-        font-size: 12pt;
-        font-family: Times New Roman, simsun, serif;
+    table {
+        line-height: 1.5em;
+    }
+
+    pre {
+        border-radius: 0;
+    }
+
+    #rightBlock a[href] {
+        text-decoration: underline;
+    }
+
+    #rightBlock a[href]:after {
+        color: var(--color-content);
+        content: ' (' attr(href) ')';
+        font-size: 0.8em;
     }
     
     text {
-        font-family: Times New Roman, simsun, serif;
+        font-family: var(--font-family-serif-print) !important;
     }
 
-    #contentBody b, #contentBody strong, #contentBody th, h1, h2, h3, h4, h5, h6, #content:after {
-        font-family: Arial, simhei, sans-serif;
-    }
-
-    ref, blockquote {
-        color: #000;
-        font-family: Times New Roman, simkai, serif;
+    #content b, #content strong, #content th, h1, h2, h3, h4, h5, h6, #rightBlock:after {
+        font-family: var(--font-family-sans-serif-print);
     }
 
     .imgBlock {
@@ -720,36 +869,6 @@ p.at-c, p.at-l, p.at-r {
         margin: 1em;
     }
 
-    table.listTable {
-        margin: 1em auto;
-        border: double #000;
-        border-width: 3px 0;
-    }
-
-    table.listTable {
-        font-size: .9em;
-    }
-
-    table.listTable > * > tr:nth-child(2n) > td, table.listTable > * > tr:nth-child(2n-1) > td, table.listTable > * > tr > th, table.listTable > tr:nth-child(2n) > td, table.listTable > tr:nth-child(2n-1) > td {
-        background: 0 0;
-    }
-
-    table.listTable > * > tr > td {
-        border-style: dashed;
-    }
-
-    table.listTable > * > tr > th {
-        border-color: #000;
-    }
-
-    table.listTable > * > tr > :first-child {
-        border-left: none;
-    }
-
-    table.listTable > * > tr > :last-child {
-        border-right: none;
-    }
-
     ref {
         position: initial !important;
         display: block !important;
@@ -760,6 +879,6 @@ p.at-c, p.at-l, p.at-r {
     }
 
     ref, .reficon {
-        background-image: url(data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22UTF-8%22%20standalone%3D%22no%22%3F%3E%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20720%20720%22%3E%3Ctitle%3E%E6%9C%AA%E6%A0%87%E9%A2%98-1%3C%2Ftitle%3E%3Ccircle%20cx%3D%22360%22%20cy%3D%22360%22%20r%3D%22320%22%20style%3D%22fill%3Anone%3Bstroke%3A%23000%3Bstroke-width%3A80px%22%2F%3E%3Cpath%20d%3D%22M264%2C418c-19-15-61-37-91-52l37-52c28%2C12%2C71%2C32%2C93%2C46Zm64%2C59c-25%2C50-54%2C102-84%2C150l-59-47c25-36%2C62-94%2C91-150ZM290%2C285c-19-15-60-39-89-54l39-51c27%2C12%2C70%2C33%2C91%2C48ZM627%2C551v66H315V551H441V467H349V401h91V329H330V263H449c-6-20-18-48-29-69l64-22c13%2C23%2C29%2C53%2C35%2C73l-49%2C17H613v66H514v72h83v66H514v84Z%22%20transform%3D%22translate%28-40%20-40%29%22%20style%3D%22fill%3A%23000%22%2F%3E%3C%2Fsvg%3E);
+        background-image: var(--image-note);
     }
 }

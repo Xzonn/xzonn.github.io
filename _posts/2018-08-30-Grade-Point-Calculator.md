@@ -1,11 +1,19 @@
+---
+layout: post
+title: 分数绩点计算器
+---
 <style>
     input {
         width: calc(100% + 2px);
+        height: 1.8em;
         margin: -1px;
         text-align: center;
         font-weight: bold;
     }
 </style>
+
+这是一个分数与绩点相互转换的页面。绩点精确到小数点后三位，分数精确到小数点后两位。如果您觉得这个页面有用，欢迎收藏。
+
 <table class="listTable">
     <tr>
         <th>课程分数</th>
