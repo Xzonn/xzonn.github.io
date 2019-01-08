@@ -3,6 +3,6 @@ layout: default
 ---
 <h1 id="rightTitle">{{ page.title }}</h1>
 <div id="rightTime">{{ page.date | date: "%Y-%m-%d" }}</div>{% if page.info %}
-<blockquote id="rightInfo">{{ page.info }}</blockquote>{% endif %}
+<blockquote id="rightInfo"><p>{{ page.info }}</p></blockquote>{% endif %}
 <div id="content">{{ content }}</div>
-<div id="rightComment"><div id="lv-container" data-id="city" data-uid="MTAyMC80MTk5MS8xODUzOA=="><script src="https://cdn-city.livere.com/js/embed.dist.js"></script></div></div>
+{% include comment.html %}

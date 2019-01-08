@@ -1,14 +1,15 @@
 name: Xzonn 的小站
 description: 这是 Xzonn 的小站。
-url: 
+url: https://xzonn.github.io
+author: Xzonn
 markdown: kramdown
 permalink: /:title/
 version: v2.0
 plugins:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-paginate
+  - jekyll-feed
 exclude:
-    - LICENSE
-    - README.md
+  - LICENSE
 paginate: 10
 paginate_path: /page/:num/

@@ -1,10 +1,12 @@
+@charset "UTF-8";
+
 :root {
-    --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, 'Noto Sans CJK SC', 'Source Han Sans CN', 'Microsoft Yahei', Simhei, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans CJK SC", "Source Han Sans CN", "Microsoft Yahei", Simhei, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     --font-family-sans-serif-print: Arial, Simhei, sans-serif;
-    --font-family-serif: 'Times New Roman', 'Source Han Serif CN', Simsun, serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    --font-family-serif-print: 'Times New Roman', Simsun, serif;
-    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", 'Noto Sans CJK SC', 'Source Han Sans CN', 'Microsoft Yahei', Simhei, monospace;
-    --font-family-reference: 'Times New Roman', FangSong, Simfang, KaiTi, Simkai, Simsun, serif;
+    --font-family-serif: "Times New Roman", "Source Han Serif CN", Simsun, serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    --font-family-serif-print: "Times New Roman", Simsun, serif;
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", "Noto Sans CJK SC", "Source Han Sans CN", "Microsoft Yahei", Simhei, monospace;
+    --font-family-reference: "Times New Roman", FangSong, Simfang, KaiTi, Simkai, Simsun, serif;
 
     --color-left-block: #F3D274;
     --color-left-block-light: #F9E6B1;
@@ -24,7 +26,7 @@
     border: 0;
 }
 
-a, div, input, button {
+a, button, div, input {
     transition: all 0.3s ease-out;
 }
 
@@ -44,7 +46,7 @@ h1 {
 h1#rightTitle:after {
     display: block;
     padding-left: 30px;
-    content: "来自 Xzonn 的小站";
+    content: "\6765\81ea Xzonn \7684\5c0f\7ad9";
     font-weight: normal;
     font-style: italic;
     font-size: 12px;
@@ -71,7 +73,7 @@ h5, h6 {
     line-height: 1.8em;
 }
 
-p, blockquote, ul, ol, dl, table, pre {
+#content p, #content blockquote, #content ul, #content ol, #content dl, #content table, #content pre {
     margin-bottom: 2px;
 }
 
@@ -80,7 +82,31 @@ p {
 }
 
 blockquote {
+    position: relative;
+    margin: 0.6em;
+    padding: 0 1.8em;
+    color: var(--color-content-dark);
     font-family: var(--font-family-serif);
+}
+
+blockquote:before, blockquote:after {
+    position: absolute;
+    display: block;
+    color: var(--color-content-light);
+    font-size: 3.6em;
+    line-height: 1em;
+}
+
+blockquote:before {
+    top: 0;
+    left: 0;
+    content: "\201c";
+}
+
+blockquote:after {
+    right: 0;
+    bottom: 0;
+    content: "\201e";
 }
 
 ul, ol {
@@ -96,7 +122,7 @@ ul ul, ul ol, ol ol, ol ul {
     list-style: none;
 }
 
-table {
+#content table {
     margin: 0.5em auto;
     min-width: 75%;
     border: double var(--color-content-dark);
@@ -107,29 +133,29 @@ table {
     line-height: 1.8em;
 }
 
-table > * > tr > td {
+#content table > * > tr > td {
     padding: 0 3px;
     border: 1px dashed var(--color-content);
 }
 
-table > * > tr > th {
+#content table > * > tr > th {
     padding: 0 5px;
     border: 1px solid var(--color-content-dark);
 }
 
-table > * > tr > :first-child {
+#content table > * > tr > :first-child {
     border-left: none;
 }
 
-table > * > tr > :last-child {
+#content table > * > tr > :last-child {
     border-right: none;
 }
 
-table > * > tr:first-child > * {
+#content table > * > tr:first-child > * {
     border-top: 1px solid var(--color-content-dark);
 }
 
-table > * > tr:last-child > * {
+#content table > * > tr:last-child > * {
     border-bottom: 1px solid var(--color-content-dark);
 }
 
@@ -197,12 +223,16 @@ img, svg {
     vertical-align: middle;
 }
 
+canvas {
+    display: block;
+}
+
 .imgBlock {
-    float: right;
-    clear: right;
     overflow: hidden;
-    margin: 0 0 2px 16px;
-    padding: 1px;
+    margin: 0.5em auto;
+    padding: 1em 1em 0 1em;
+    width: max-content;
+    max-width: 100%;
     border: 1px solid var(--color-content);
     background-color: var(--color-content-light);
     color: var(--color-content-dark);
@@ -213,10 +243,16 @@ img, svg {
 .imgBlock.a-l {
     float: left;
     clear: left;
-    margin: 0 16px 2px 0;
+    margin: 0 1em 2px 0;
 }
 
-.imgBlock > img {
+.imgBlock.a-r {
+    float: right;
+    clear: right;
+    margin: 0 0 2px 1em;
+}
+
+.imgBlock > a > img {
     display: block;
     margin: 0 auto;
     border: 1px solid var(--color-content-light);
@@ -257,6 +293,10 @@ ref {
 ref, .reficon {
     background-image: var(--image-note);
     background-repeat: no-repeat;
+}
+
+.MathJax_SVG_Display {
+    margin: 0 !important;
 }
 
 .MathJax_SVG {
@@ -345,13 +385,89 @@ p.at-c, p.at-l, p.at-r {
     opacity: 0 !important;
 }
 
+.infoBox, .infoBoxMultiple {
+    position: relative;
+    padding: 2px;
+    min-height: calc(1.8em + 8px);
+    border-color: var(--color-left-block-dark);
+    border-style: solid;
+    border-width: 2px;
+    border-bottom-right-radius: 60px 100px;
+    border-top-left-radius: 60px 100px;
+    background-color: #FFF;
+}
+
+.infoBoxMultiple > .infoBox {
+    margin-top: 2px;
+    padding: 0;
+    min-height: 0;
+    border-width: 0;
+}
+
+.infoBoxMultiple > .infoBox:first-child {
+    margin-top: 0;
+}
+
+.infoBoxHide {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.infoBoxHide:before {
+    content: '[';
+}
+
+.infoBoxHide:after {
+    content: ']';
+}
+
+.infoBoxIcon, .infoBoxMultiple > .infoBox:first-child > .infoBoxIcon {
+    float: left;
+    width: 2em;
+    height: 2em;
+    border-top-left-radius: 58px 98px;
+    background-color: var(--color-left-block);
+    color: var(--color-content-dark);
+    text-align: center;
+    font-weight: 900;
+    font-size: 3.6em;
+    font-family: "Font Awesome 5 Free";
+    line-height: 2em;
+}
+
+.infoBoxMultiple > .infoBox > .infoBoxIcon {
+    border-top-left-radius: 0;
+}
+
+.infoBoxInfo, .infoBoxMultiple > .infoBox:last-child > .infoBoxInfo {
+    overflow: auto;
+    margin-left: calc(7.2em + 2px);
+    padding: 0 2em;
+    height: 7.2em;
+    border-bottom-right-radius: 58px 98px;
+    background-color: var(--color-left-block-light);
+}
+
+.infoBoxMultiple > .infoBox > .infoBoxInfo {
+    border-bottom-right-radius: 0;
+}
+
+#content .infoBox p {
+    margin-bottom: 0;
+    min-height: 1.8em;
+    text-align: center;
+    text-indent: 0;
+}
+
 #leftBlock {
     position: fixed;
     top: 20px;
     left: 15%;
-    width: 240px;
-    height: calc(100% - 40px);
+    width: 300px;
+    height: calc(100% - 190px);
     max-height: 600px;
+    min-height: 360px;
     border: 1px solid;
     border-color: #FFF;
     border-style: dashed;
@@ -395,7 +511,7 @@ p.at-c, p.at-l, p.at-r {
 }
 
 .leftToggleItem:after {
-    content: ' |';
+    content: " |";
 }
 
 .leftToggleItem:last-child:after {
@@ -423,13 +539,17 @@ p.at-c, p.at-l, p.at-r {
     text-align: left;
 }
 
-#leftNavigation a, #leftToc a {
+#leftNavigation a, #leftNavigation i, #leftToc a, #leftToc i {
     color: var(--color-left-block-light);
+}
+
+#leftNavigation i, #leftToc i {
+    width: 1.5em;
 }
 
 #rightBlock {
     position: relative;
-    margin: 20px 15% 20px calc(15% + 240px);
+    margin: 20px 15% 20px calc(15% + 300px);
     padding: 1em;
     border-color: #FFF;
     border-style: dashed;
@@ -441,7 +561,7 @@ p.at-c, p.at-l, p.at-r {
 }
 
 #rightTime:before, .pageDate:before {
-    content: '创建时间：';
+    content: "\521b\5efa\65f6\95f4\ff1a";
 }
 
 #rightTime, .pageDate {
@@ -459,6 +579,117 @@ p.at-c, p.at-l, p.at-r {
 
 #rightComment {
     clear: both;
+}
+
+#payBlock {
+    position: fixed;
+    bottom: 20px;
+    left: 15%;
+    width: 300px;
+}
+
+#payBlock:before {
+    position: fixed;
+    bottom: 122px;
+    left: 15%;
+    display: block;
+    box-sizing: border-box;
+    padding: 16px;
+    width: 300px;
+    border-radius: 24px 24px 0 0;
+    background: var(--color-left-block-light);
+    content: "\6b22\8fce\6295\5582\ff5e";
+    text-align: center;
+    font-size: 14px;
+    line-height: 16px;
+    opacity: 0;
+    transition: all 0.3s ease-out;
+    page-break-before: always;
+}
+
+#payBlock:hover:before {
+    bottom: 170px;
+    opacity: 1;
+}
+
+#alipayQrcodeBlock, #wxpayQrcodeBlock {
+    position: relative;
+    float: left;
+    display: block;
+    box-sizing: border-box;
+    padding: 15px;
+    width: 150px;
+    height: 150px;
+    border: 6px solid;
+    background: #FFF;
+    text-align: center;
+    opacity: 0.15;
+    transition: opacity 0.5s ease-out;
+}
+
+#alipayQrcodeBlock > canvas, #wxpayQrcodeBlock > canvas {
+    margin: 0 auto;
+}
+
+#alipayQrcodeBlock:hover, #wxpayQrcodeBlock:hover {
+    opacity: 1;
+}
+
+#alipayQrcodeBlock {
+    border-color: #019FE8;
+}
+
+#wxpayQrcodeBlock {
+    border-color: #22AB38;
+}
+
+#alipayQrcodeBlock:after, #wxpayQrcodeBlock:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 15px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+#alipayQrcodeBlock:after {
+    color: #019FE8;
+    content: "\963f\91cc\6295\5582";
+}
+
+#wxpayQrcodeBlock:after {
+    color: #22AB38;
+    content: "\817e\8baf\6295\5582";
+}
+
+#topLink:before {
+    position: fixed;
+    right: 32px;
+    bottom: 32px;
+    display: block;
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+    background-color: var(--color-content-light);
+    content: "\f0a6";
+    text-align: center;
+    font-weight: 900;
+    font-size: 80px;
+    font-family: "Font Awesome 5 Free";
+    line-height: 128px;
+    opacity: 0.25;
+    transition: opacity 0.3s ease-out;
+}
+
+#topLink:hover {
+    color: var(--color-content-dark);
+}
+
+#topLink:hover:before {
+    opacity: 1;
 }
 
 #footer {
@@ -536,7 +767,6 @@ p.at-c, p.at-l, p.at-r {
     height: 3.6em;
     border-radius: 0 0 1em 1em;
     background-image: linear-gradient(transparent, var(--color-content-light) 75%);
-    content: '';
     text-align: center;
 }
 
@@ -567,7 +797,7 @@ p.at-c, p.at-l, p.at-r {
 }
 
 .pagePrev:before {
-    content: '←';
+    content: "\2190";
 }
 
 .pageNext {
@@ -579,15 +809,15 @@ p.at-c, p.at-l, p.at-r {
 }
 
 .pageNext:after {
-    content: '→';
+    content: "\2192";
 }
 
 .pageFirstLink:after {
-    content: ' | ';
+    content: " | ";
 }
 
 .pageLastLink:before {
-    content: ' | ';
+    content: " | ";
 }
 
 .pageCount {
@@ -632,16 +862,20 @@ p.at-c, p.at-l, p.at-r {
     max-width: 600px;
 }
 
+.pagesItem {
+    clear: right;
+}
+
 .pagesItemTime {
     float: right;
 }
 
 .pagesItemTime:before {
-    content: '[';
+    content: "[";
 }
 
 .pagesItemTime:after {
-    content: ']';
+    content: "]";
 }
 
 .alert404 {
@@ -655,13 +889,13 @@ p.at-c, p.at-l, p.at-r {
 }
 
 @media screen and (max-width: 1200px) {
-    #leftBlock {
+    #leftBlock, #payBlock, #payBlock:before {
         left: 0;
     }
 
     #rightBlock {
         margin-right: 0;
-        margin-left: 240px;
+        margin-left: 300px;
     }
 
     .pageInfo {
@@ -695,6 +929,8 @@ p.at-c, p.at-l, p.at-r {
         left: 0;
         width: 100%;
         height: 12.8em;
+        max-height: none;
+        min-height: 0;
         border: 0;
         border-radius: 0 !important;
         box-shadow: none;
@@ -722,23 +958,47 @@ p.at-c, p.at-l, p.at-r {
         height: 11em;
         border-bottom-left-radius: 0;
     }
+
+    #payBlock {
+        position: initial;
+        width: 100%;
+    }
+
+    #payBlock:before {
+        position: initial;
+        width: 100%;
+        border-radius: 24px 24px 0 0;
+        opacity: 1;
+    }
+
+    #alipayQrcodeBlock, #wxpayQrcodeBlock {
+        width: 50%;
+        opacity: 0.6;
+    }
 }
 
 @media screen and (max-width: 600px) {
-    .pagePrev, .pageNext {
-        position: static;
+    .infoBox, .infoBoxMultiple {
+        height: auto;
     }
-    .pageCount {
-        margin: 0;
-    }
-}
 
-@media screen and (max-width: 400px) {
+    .infoBoxIcon, .infoBoxMultiple > .infoBox:first-child > .infoBoxIcon {
+        float: none;
+        width: 100%;
+    }
+
+    .infoBoxInfo, .infoBoxMultiple > .infoBox:last-child > .infoBoxInfo {
+        overflow: unset;
+        margin-top: 2px;
+        margin-left: 0;
+        height: auto;
+        min-height: 7.2em;
+    }
+
     #leftBlock, #leftleftBlock, #leftrightBlock {
         position: static;
         width: 100%;
         height: auto;
-        max-height: none;
     }
 
     #leftAvatar {
@@ -754,6 +1014,24 @@ p.at-c, p.at-l, p.at-r {
 
     #leftNavigation, #leftToc {
         height: auto;
+    }
+
+    .pagePrev, .pageNext {
+        position: static;
+    }
+
+    .pageCount {
+        margin: 0;
+    }
+
+    #topLink:before {
+        right: 10px;
+        bottom: 10px;
+        width: 40px;
+        height: 40px;
+        font-size: 30px;
+        line-height: 40px;
+        opacity: 0.6;
     }
 
     .alert404 {
@@ -780,7 +1058,7 @@ p.at-c, p.at-l, p.at-r {
         size: auto;
     }
 
-    .noPrint, #leftBlock, #rightComment, #footerCounter {
+    .noPrint, .infoBox, #leftBlock, #rightComment, #topLink, #footerCounter, .google-auto-placed {
         display: none !important;
     }
 
@@ -808,7 +1086,7 @@ p.at-c, p.at-l, p.at-r {
         display: block;
         width: 100%;
         color: var(--color-content-light);
-        content: "整理：Xzonn";
+        content: "\6765\81ea Xzonn \7684\5c0f\7ad9";
         text-align: center;
         white-space: nowrap;
         letter-spacing: 20px;
@@ -844,7 +1122,7 @@ p.at-c, p.at-l, p.at-r {
 
     #rightBlock a[href]:after {
         color: var(--color-content);
-        content: ' (' attr(href) ')';
+        content: " (" attr(href) ")";
         font-size: 0.8em;
     }
     
@@ -857,10 +1135,13 @@ p.at-c, p.at-l, p.at-r {
     }
 
     .imgBlock {
+        float: right;
+        clear: right;
+        padding: 0;
         width: 100%;
     }
 
-    .imgBlock, .imgBlock>img {
+    .imgBlock, .imgBlock > a > img {
         border: none;
         background: none;
     }

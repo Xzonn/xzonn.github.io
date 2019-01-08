@@ -1,0 +1,14 @@
+<div class="infoBox infoBox{{ include.name }}">
+    <style class="infoBox{{ include.name }}Style"> .infoBox{{ include.name }} { --color-left-block: {{ include.color }}; --color-left-block-light: {{ include.colorLight }}; --color-left-block-dark: {{ include.colorDark }}; } {{ include.style }} </style>
+    <div class="infoBoxIcon">{{ include.icon }}</div>{% unless include.multiple %}
+    <span class="infoBoxHide">
+        <a class="infoBoxHideButton" href data-status="show">隐藏</a>
+    </span>{% endunless %}
+    <div class="infoBoxInfo">{% if include.multiple %}
+        <p></p>{% endif %}
+        <p>{{ include.line1 }}</p>
+        <p>{{ include.line2 }}</p>{% unless include.multiple %}
+        <p>如果你想和我一起建设这个小站，或是发现了什么错误，</p>
+        <p>欢迎 <strong><a href="https://github.com/Xzonn/xzonn.github.io/issues">在此页面</a></strong> 和我联系，或是在 <strong><a href="#rightComment">页面下方</a></strong> 留言。</p>{% endunless %}
+    </div>
+</div>

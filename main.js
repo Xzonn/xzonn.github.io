@@ -42,22 +42,6 @@ Date.prototype.format = function(fmt="YYYY年MM月DD日 EEE HH:mm:ss") {
 }
 
 $(function() {
-    var lastHash = "";
-
-    // MathJax 初始化
-    MathJax.Ajax.config.path["mhchem"] = "//cdnjs.cloudflare.com/ajax/libs/mathjax-mhchem/3.2.0";
-    MathJax.Hub.Config({
-        tex2jax: {
-            inlineMath: [["$", "$"], ["\\(", "\\)"]],
-            displayMath: [["$$", "$$"], ["\\[", "\\]"]],
-            processEscapes: true,
-        },
-        TeX: {
-            extensions: ["[mhchem]/mhchem.js"]
-        },
-        showMathMenu: false
-    });
-
     // 代码高亮
     hljs.initHighlighting();
     $("#content pre code").each(function() {
@@ -65,21 +49,49 @@ $(function() {
     });
 
     //img标签相关
+    var imageDisplay = ["auto", "none", "block", "left", "right", "center"],
+        imageSize = 360,
+        imageSizeUnit = /(pt|px|em|%)$/;
     $("#content img").each(function() {
-        var data = this.dataset;
+        var data = this.dataset,
+            disp = data.disp,
+            size = (data.size || imageSize),
+            alt = this.alt.split("|"),
+            title = this.alt;
         while (!$(this).siblings().length && ($(this).parent()[0].tagName.toLowerCase() == "p"))
             $(this).unwrap();
-        switch (data.disp) {
+        for (var i = 0; i < alt.length; i++) {
+            if (imageDisplay.indexOf(alt[i]) > -1) {
+                disp = alt[i];
+            } else if (!isNaN(alt[i])) {
+                size = imageSize * (+alt[i]);
+            } else if (alt[i].match(imageSizeUnit)) {
+                size = alt[i];
+            } else {
+                title = alt[i];
+            }
+        }
+        switch (disp) {
         case "auto":
+        case "none":
             return;
         case "block":
-            $(this).css("display", "block");
+            $(this).css({
+                "display": "block"
+            });
             break;
         default:
-            $(this).wrap($("<div/>").addClass("imgBlock" + (data.disp == "left" ? " a-l" : "")));
-            $(this).attr("alt") && $("<div/>").addClass("imgDisc").text($(this).attr("alt")).appendTo($(this).parent());
+            $(this).wrap($("<div/>").addClass("imgBlock" + (disp == "left" ? " a-l" : disp == "right" ? " a-r" : "")));
+            title && $("<div/>").addClass("imgDisc").text(title).appendTo($(this).parent());
+            $(this).wrap($("<a/>").attr({
+                "href": this.src,
+                "target": "_blank"
+            }));
         }
-        $(this).css("width", +data.size || 240).attr("title", $(this).attr("alt"));
+        this.alt = title;
+        $(this).css({
+            "width": size
+        });
     });
 
     // 注释
@@ -150,13 +162,29 @@ $(function() {
         toc.children().prependTo($("#leftToc"));
     })();
 
-    // MathJax
-    MathJax.Hub.Queue(["Typeset", MathJax.Hub, "output"]);
+    // 信息框
+    $(".infoBoxHideButton").click(function(e) {
+        switch (this.dataset.status) {
+            case "show":
+                $(".infoBoxIcon, .infoBoxInfo").fadeOut();
+                this.dataset.status = "hide";
+                this.innerHTML = "显示";
+                break;
+            case "hide":
+                $(".infoBoxIcon, .infoBoxInfo").fadeIn();
+                this.dataset.status = "show";
+                this.innerHTML = "隐藏";
+                break;                
+        }
+        e.preventDefault();
+    });
 
-    $("#topLink").click(function() {
+    // 返回页面顶端
+    $("#topLink").click(function(e) {
         $("html").animate({
             scrollTop: 0
         }, 500);
+        e.preventDefault();
     });
 
     // 复制带版权
@@ -189,5 +217,17 @@ $(function() {
             selection.addRange(range);
             newdiv.remove();
         });
+    });
+
+    // 投喂
+    $("#alipayQrcodeBlock").qrcode({
+        text: ["https://qr.alipay.com/FKX05443CDRZJP85NBKH9A", "https://qr.alipay.com/c1x09344nhvijwtryw28r68"][Math.round(Math.random())],
+        width: 108,
+        height: 108
+    });
+    $("#wxpayQrcodeBlock").qrcode({
+        text: "wxp://f2f0tRrkOkpu3KRGCoBxAXCOjrqNKoQOk5p3",
+        width: 108,
+        height: 108
     });
 });
