@@ -73,7 +73,7 @@ h5, h6 {
     line-height: 1.8em;
 }
 
-#content p, #content blockquote, #content ul, #content ol, #content dl, #content table, #content pre {
+p, blockquote, ul, ol, dl, table {
     margin-bottom: 2px;
 }
 
@@ -181,7 +181,7 @@ pre {
     border-radius: 10px;
     background-color: var(--color-content-light);
     text-align: left;
-    line-height: 20px;
+    line-height: 1.5em;
 }
 
 pre code, pre tt {
@@ -1058,7 +1058,7 @@ p.at-c, p.at-l, p.at-r {
         size: auto;
     }
 
-    .noPrint, .infoBox, #leftBlock, #rightComment, #topLink, #footerCounter, .google-auto-placed {
+    .noPrint, .infoBox, .infoBoxMultiple, #leftBlock, #rightComment, #topLink, #footerCounter, .google-auto-placed {
         display: none !important;
     }
 

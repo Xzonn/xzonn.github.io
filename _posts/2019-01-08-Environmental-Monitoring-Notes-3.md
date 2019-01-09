@@ -2,7 +2,7 @@
 title: 《环境监测》知识点整理（三）
 layout: post
 ---
-{% include complete.html %}
+{% include incomplete.html %}
 
 <p class="noPrint">这是《环境监测》课程谢曙光老师部分的思考题整理。</p>
 
