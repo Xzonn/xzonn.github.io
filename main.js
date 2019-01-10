@@ -42,6 +42,22 @@ Date.prototype.format = function(fmt="YYYY年MM月DD日 EEE HH:mm:ss") {
 }
 
 $(function() {
+    // 目录
+    $(".leftToggleItemLink").click(function (){
+        var toggleItem = ["#leftNavigation", "#leftToc"],
+            thisItem = this.dataset.toggleItem;
+        for (var i = 0; i < toggleItem.length; i++) {
+            var item = toggleItem[i];
+            if (item == thisItem) {
+                $(item).show();
+            } else {
+                $(item).hide();
+            }
+        }
+        $(".leftToggleItemLink").removeClass("leftToggleItemLinkOn");
+        $(this).addClass("leftToggleItemLinkOn");
+    });
+
     // 代码高亮
     hljs.initHighlighting();
     $("#content pre code").each(function() {
@@ -106,22 +122,6 @@ $(function() {
         $(this).before(reficon);
         $(p).append($(this).detach());
         $(p).css("position", "relative");
-    });
-
-    // 目录
-    $(".leftToggleItemLink").click(function (){
-        var toggleItem = ["#leftNavigation", "#leftToc"],
-            thisItem = this.dataset.toggleItem;
-        for (var i = 0; i < toggleItem.length; i++) {
-            var item = toggleItem[i];
-            if (item == thisItem) {
-                $(item).show();
-            } else {
-                $(item).hide();
-            }
-        }
-        $(".leftToggleItemLink").removeClass("leftToggleItemLinkOn");
-        $(this).addClass("leftToggleItemLinkOn");
     });
 
     (function() {
@@ -219,15 +219,28 @@ $(function() {
         });
     });
 
-    // 投喂
-    $("#alipayQrcodeBlock").qrcode({
-        text: ["https://qr.alipay.com/FKX05443CDRZJP85NBKH9A", "https://qr.alipay.com/c1x09344nhvijwtryw28r68"][Math.round(Math.random())],
-        width: 108,
-        height: 108
+    // 二维码
+    var alipayLink = ["https://qr.alipay.com/FKX05443CDRZJP85NBKH9A", "https://qr.alipay.com/c1x09344nhvijwtryw28r68"][Math.round(Math.random())],
+        wxpayLink = "wxp://f2f0tRrkOkpu3KRGCoBxAXCOjrqNKoQOk5p3";
+    $("#rightQrcodeBlock").attr({
+        "href": location.href
+    }).qrcode({
+        "text": location.href,
+        "width": 80,
+        "height": 80
+    }).click(e => e.preventDefault());
+    $("#alipayQrcodeBlock").attr({
+        "href": alipayLink
+    }).qrcode({
+        "text": alipayLink,
+        "width": 108,
+        "height": 108
     });
-    $("#wxpayQrcodeBlock").qrcode({
-        text: "wxp://f2f0tRrkOkpu3KRGCoBxAXCOjrqNKoQOk5p3",
-        width: 108,
-        height: 108
+    $("#wxpayQrcodeBlock").attr({
+        "href": wxpayLink
+    }).qrcode({
+        "text": wxpayLink,
+        "width": 108,
+        "height": 108
     });
 });
