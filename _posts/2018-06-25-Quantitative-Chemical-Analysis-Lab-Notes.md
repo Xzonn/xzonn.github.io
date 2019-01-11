@@ -1,3 +1,8 @@
+---
+layout: post
+title: 《定量分析化学》知识点整理
+infoBox: complete
+---
 ### 第1章 绪论
 #### 1.1 定量分析过程
 * 样品的分类：
@@ -7,10 +12,14 @@
 
 <table class="listTable">
 <caption>按试样大小</caption>
+<thead>
 <tr><th></th><th>固体试样质量（$\text{mg}$）</th><th>液体试样体积（$\text{mL}$）</th></tr>
+</thead>
+<tbody>
 <tr><td>常量</td><td>$> 100$</td><td>$> 10$</td></tr>
 <tr><td>半微量</td><td>$10 \sim 100$</td><td>$1 \sim 10$</td></tr>
 <tr><td>微量</td><td>$< 10$</td><td>$< 1$</td></tr>
+</tbody>
 </table>
 
 #### 1.2 定量分析方法

@@ -1,9 +1,8 @@
 ---
 layout: post
 title: 《初级日语 第一册》语法整理
+infoBox: complete
 ---
-{% include complete.html %}
-
 因技术限制，本资料仅提供 pdf 版本。
 
 下载链接：**[点击此处下载](/attach/Elementary-Japanese-Book-1-Notes.pdf)**。

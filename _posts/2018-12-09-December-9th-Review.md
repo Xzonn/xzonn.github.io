@@ -44,7 +44,7 @@ info: 你看，那颗星。
 
 以下是视频的预览：
 
-<iframe class="bilibiliVideo" src="//player.bilibili.com/player.html?aid=37013306&cid=65034891&page=3"></iframe>
+<div class="bilibiliBox" data-aid="37013306" data-cid="65034891" data-page="3"></div>
 
 ### 2.2 统分视频
 “统分视频”，这个名字我一开始不知道它是啥意思。按照我的理解，应该是“统一”和“分离”的辩证关系。然而现实是如此的残酷：这两个字是“统计分数”的简写。行吧。
@@ -55,7 +55,7 @@ info: 你看，那颗星。
 
 以下是视频的预览：
 
-<iframe class="bilibiliVideo" src="//player.bilibili.com/player.html?aid=37013306&cid=65034891&page=2"></iframe>
+<div class="bilibiliBox" data-aid="37013306" data-cid="65034891" data-page="2"></div>
 
 ### 2.3 开场视频
 这个视频是所有视频里面最重要的。要是这个视频做不好，就等于是在半个学校的院系里面丢尽了脸。
@@ -86,7 +86,7 @@ info: 你看，那颗星。
 
 以下是视频的预览：
 
-<iframe class="bilibiliVideo" src="//player.bilibili.com/player.html?aid=37013306&cid=65034891&page=1"></iframe>
+<div class="bilibiliBox" data-aid="37013306" data-cid="65034891" data-page="1"></div>
 
 ### 2.4 总结视频
 这个就是简单的选照片和加视频了。我在 12 月 9 日的下午才想起来，一台相机拍照，一台相机录像，也就是需要两台相机，而我只带过去了一台。因此我临时向周厚华借了他的相机，并请李伟帮忙带过来。
@@ -97,7 +97,7 @@ info: 你看，那颗星。
 
 以下是视频的预览：
 
-<iframe class="bilibiliVideo" src="//player.bilibili.com/player.html?aid=37013306&cid=65034891&page=4"></iframe>
+<div class="bilibiliBox" data-aid="37013306" data-cid="65034891" data-page="4"></div>
 
 ## 3 拍照
 > * 这段之后是我在一二·九结束好久之后才补的，有些地方可能忘掉了。特此说明。
@@ -109,5 +109,3 @@ info: 你看，那颗星。
 平时的拍照都是在光线充足的地方拍的，因此自动设置完全没有问题，我也从来没有想过要学习摄影技术。然而有一个让我万万没有想到的事情发生了：由于演出现场观众席的灯光暗，舞台灯光亮，因此自动模式拍出来的照片完全不能看。我只得临时抱佛脚，求助老部长王道钦，结果发出的消息石沉大海没有了回音。没办法，我只能硬着头皮自己摸索。凭借我记忆中的碎片，我将自动模式调整为手动模式，然后调整了一些参数做比较，最后终于调出了一个能看的参数。当然，由于曝光时间的问题，伴舞的动作拍出来全是糊的，但这是后话了。
 
 演出结束后，大家一起照了一张合影。我由于要操作相机就没有入镜，而是在回到宿舍后将自己的头 P 了上去。这张合影也被用作了总结推送的结尾图。当然，由于这张合影太过于不正式，在[一篇正式的推送](https://mp.weixin.qq.com/s/X2a-adTCPtUOIC5n0pXTEA)中，主管部长下令将我的头裁减掉。
-
-## 4 感受

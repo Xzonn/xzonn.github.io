@@ -1,8 +1,17 @@
 ---
 layout: default
 ---
-<h1 id="rightTitle">{{ page.title }}</h1>
-<div id="rightTime">{{ page.date | date: "%Y-%m-%d" }}</div>{% if page.info %}
-<blockquote id="rightInfo"><p>{{ page.info }}</p></blockquote>{% endif %}
-<div id="content">{{ content }}</div>
-{% include comment.html %}
+                <h1 id="rightTitle">{{ page.title }}</h1>
+                <div id="rightTime">{{ page.date | date: "%Y-%m-%d" }}</div>{% if page.info %}
+                <blockquote id="rightInfo"><p>{{ page.info }}</p></blockquote>{% endif %}
+                <div id="rightInfoBox">{% if page.infoBox %}{% assign infoBoxes = page.infoBox | split: " " %}{% assign infoBox = infoBoxes[0] %}
+{% include {{ infoBox | append: ".html" }} %}{% for infoBox in infoBoxes offset: 1 %}
+{% include {{ infoBox | append: ".html" }} multiple=true %}
+{% endfor %}{% else %}
+{% include infoBox.html name="Blank" icon="&#61485;" %}
+{% endif %}</div>
+                <div id="content">
+{{ content }}
+                </div>
+                <ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-8317643192080236" data-ad-slot="4580015282"></ins>
+<!-- {% include comment.html %} -->

@@ -9,7 +9,7 @@ title: 《精灵宝可梦》第二世代游戏漏洞梳理
 
 ## 1 克隆漏洞
 * 参考视频：
-<iframe class="bilibiliVideo" src="https://player.bilibili.com/player.html?aid=6082189&cid=9874341&page=2"></iframe>
+<div class="bilibiliBox" data-aid="6082189" data-cid="9874341" data-page="2"></div>
 * 存在游戏：所有语言 金银水晶版
 * 实用程度：高
 * 副作用：低
@@ -33,7 +33,7 @@ title: 《精灵宝可梦》第二世代游戏漏洞梳理
 4. 然而，若控制好关机的时机，系统会在电脑中预设宝可梦的位置，但没有录入数据，借由这种情况，玩家有可能获得“失败克隆”。这是之后“时拉比的蛋”漏洞的基础。
 5. 此漏洞其实在第一世代中也存在，但是对时间要求非常严格而且如果操作不当很有可能造成存档消失。
 
-<iframe class="bilibiliVideo" src="https://player.bilibili.com/player.html?aid=6967049&cid=11355008&page=1"></iframe>
+<div class="bilibiliBox" data-aid="6967049" data-cid="11355008" data-page="1"></div>
 
 这个视频是水晶版中获得全部最初拿到的宝可梦（御三家）的流程，一方面提醒一下水晶版的重启时间，另一方面教授一下如何在一开始就拿到御三家；但这种方法不能得到前两只宝可梦的图鉴信息，需要后期孵蛋解决。
 
@@ -41,7 +41,7 @@ title: 《精灵宝可梦》第二世代游戏漏洞梳理
 
 ## 2. 捕虫大赛数据复制漏洞
 * 参考视频：
-<iframe class="bilibiliVideo" src="https://player.bilibili.com/player.html?aid=13241389&cid=21711503&page=1"></iframe>
+<div class="bilibiliBox" data-aid="13241389" data-cid="21711503" data-page="1"></div>
 * 存在游戏：日文版 金银版
 * 实用程度：高
 * 副作用：较低
@@ -75,7 +75,7 @@ title: 《精灵宝可梦》第二世代游戏漏洞梳理
 下面举两个简单的实例：
 
 ### 实例1：读取未使用的游戏数据
-<iframe class="bilibiliVideo" src="https://player.bilibili.com/player.html?aid=6993359&cid=11633805&page=1"></iframe>
+<div class="bilibiliBox" data-aid="6993359" data-cid="11633805" data-page="1"></div>
 
 准备：
 
@@ -98,7 +98,7 @@ title: 《精灵宝可梦》第二世代游戏漏洞梳理
 [](http://i0.hdslb.com/bfs/article/90f2dbf4f4101a2708ccd503d09ce53455c908e8.gif)
 
 ### 实例2：获得时拉比
-<iframe class="bilibiliVideo" src="https://player.bilibili.com/player.html?aid=6993359&cid=11633806&page=2"></iframe>
+<div class="bilibiliBox" data-aid="6993359" data-cid="11633806" data-page="2"></div>
 
 准备：
 
@@ -135,9 +135,9 @@ title: 《精灵宝可梦》第二世代游戏漏洞梳理
 ### 其它实例
 在整理资料时我还找到了其它玩家给出的实例，列出链接，供有兴趣的玩家研究：
 * 获得?????家族：
-<iframe class="bilibiliVideo" src="https://player.bilibili.com/player.html?aid=5055108&cid=8211605&page=5"></iframe>
+<div class="bilibiliBox" data-aid="5055108" data-cid="8211605" data-page="5"></div>
 * 贪吃蛇：
-<iframe class="bilibiliVideo" src="https://player.bilibili.com/player.html?aid=5055108&cid=8211606&page=6"></iframe>
+<div class="bilibiliBox" data-aid="5055108" data-cid="8211606" data-page="6"></div>
 * Hello world：[http://glitchcity.info/wiki/Coin_Case_glitch](http://glitchcity.info/wiki/Coin_Case_glitch)
 
 ### 原理
@@ -154,7 +154,7 @@ title: 《精灵宝可梦》第二世代游戏漏洞梳理
 
 ## 4. 错误维度
 * 参考视频：
-<iframe class="bilibiliVideo" src="https://player.bilibili.com/player.html?aid=3307247&cid=5227908&page=2"></iframe>
+<div class="bilibiliBox" data-aid="3307247" data-cid="5227908" data-page="2"></div>
 * 存在游戏：所有版本 金银水晶版＆皮卡丘版
 * 实用程度：中
 * 副作用：无
@@ -184,7 +184,7 @@ title: 《精灵宝可梦》第二世代游戏漏洞梳理
 
 ## 5. 时拉比的蛋
 * 参考视频：
-<iframe class="bilibiliVideo" src="https://player.bilibili.com/player.html?aid=6474032&cid=10529825&page=1"></iframe>
+<div class="bilibiliBox" data-aid="6474032" data-cid="10529825" data-page="1"></div>
 * 存在游戏：所有语言 金银水晶版
 * 实用程度：高
 * 副作用：高
@@ -222,7 +222,7 @@ title: 《精灵宝可梦》第二世代游戏漏洞梳理
 
 ## 6. 不战而胜漏洞
 * 参考视频：
-<iframe class="bilibiliVideo" src="https://player.bilibili.com/player.html?aid=6474032&cid=10529825&page=1"></iframe>
+<div class="bilibiliBox" data-aid="6474032" data-cid="10529825" data-page="1"></div>
 * 存在游戏：所有语言 金银水晶版
 * 实用程度：高
 * 副作用：低

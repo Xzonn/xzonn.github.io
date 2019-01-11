@@ -2,8 +2,8 @@
 title: 《线性代数》试题
 layout: post
 info: 一小时速成？不可能的，想啥呢。
+infoBox: complete
 ---
-{% include complete.html %}
 
 这是《线性代数 (B)》（主讲：王保祥）的试题。
 

@@ -1,9 +1,8 @@
 ---
 title: 《环境监测》知识点整理（一）
 layout: post
+infoBox: complete
 ---
-{% include complete.html %}
-
 <p class="noPrint">这是《环境监测》课程孙卫玲老师部分的知识点整理。</p>
 
 ## 1 水体金属监测

@@ -1,9 +1,8 @@
 ---
 title: 《计算概论》知识点整理
 layout: post
+infoBox: complete
 ---
-{% include complete.html %}
-
 ## 一、硬件和软件
 ### 1. 计算机系统组成
 ![计算机系统组成](http://wx2.sinaimg.cn/large/63368e3fly1fl7hn7sx19j20yi0n2tai.jpg)

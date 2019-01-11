@@ -1,9 +1,8 @@
 ---
 layout: post
 title: 《普通化学》知识点整理
+infoBox: complete formula
 ---
-{% include complete.html %}
-
 ### 第2章 气体
 #### 提纲
 * 理想气体：**理想气体状态方程和气体的分压**。

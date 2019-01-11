@@ -2,9 +2,8 @@
 title: 《线性代数》一小时速成
 layout: post
 info: 《线性代数》一小时速成指南。
+infoBox: complete formula
 ---
-{% include complete.html %}
-
 ## 1 线性方程组的解
 * $n$个方程$n$元线性方程组：
   * 有唯一解$\iff \|A\| \neq 0$。这个解是$\left(\cfrac{\|B\_1\|}{\|A\|}, \cfrac{\|B\_2\|}{\|A\|}, \cdots \cfrac{\|B\_n\|}{\|A\|}\right)$，其中$\|A\|$是方程组的系数行列式，$\|B_j\| = $ $$ \begin{vmatrix} a_{11} & \cdots & a_{1, j - 1} & b_1 & a_{1, j + 1} & \cdots & a_{1n} \\\\ a_{21} & \cdots & a_{2, j - 1} & b_2 & a_{2, j + 1} & \cdots & a_{2n} \\\\ \vdots & & \vdots & \vdots & \vdots & & \vdots \\\\  a_{n1} & \cdots & a_{n, j - 1} & b_n & a_{n, j + 1} & \cdots & a_{nn}\end{vmatrix}$$，$j = 1, 2, \cdots , n$。
