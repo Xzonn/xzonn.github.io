@@ -228,7 +228,7 @@ canvas {
 .imgBlock {
     overflow: hidden;
     margin: 0.5em auto;
-    padding: 1em 1em 0 1em;
+    padding: 1em;
     width: max-content;
     max-width: 100%;
     border: 1px solid var(--color-content);
@@ -250,11 +250,15 @@ canvas {
     margin: 0 0 2px 1em;
 }
 
-.imgBlock > a > img {
+.imgBlock > a > * {
     display: block;
     margin: 0 auto;
     border: 1px solid var(--color-content-light);
     background-color: #FFF;
+}
+
+.imgDisc {
+    margin-bottom: -1em;
 }
 
 ::selection {
@@ -1218,7 +1222,16 @@ p.at-c, p.at-l, p.at-r {
         width: 100%;
     }
 
-    .imgBlock, .imgBlock > a > img {
+    .imgBlock.a-l, .imgBlock.a-r {
+        width: auto;
+    }
+
+    .imgBlock.a-l {
+        float: left;
+        clear: left;
+    }
+
+    .imgBlock, .imgBlock > a > * {
         border: none;
         background: none;
     }

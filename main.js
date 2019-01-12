@@ -58,6 +58,44 @@ $(function() {
         $(this).addClass("leftToggleItemLinkOn");
     });
 
+    (function() {
+        var toc = $("<div/>")
+          , lastRank = 1
+          , tocID = []
+          , headings = $("#content").find("h2, h3, h4, h5");
+        if (!headings) {
+            return;
+        }
+        headings.each(function(n, t) {
+            var thisRank = +this.tagName[1];
+            while (thisRank > lastRank) {
+                tocID.push(0);
+                if (toc.children().length == 0) {
+                    toc = $("<li/>").addClass("no-list-style").appendTo($(toc));
+                }
+                toc = $("<ul/>").appendTo($(toc.children()[toc.children().length - 1] || toc));
+                thisRank--;
+            }
+            while (lastRank > thisRank) {
+                tocID.pop();
+                toc = toc.parent().parent();
+                thisRank++;
+            }
+            tocID.push(tocID.pop() + 1);
+            toc.append($("<li/>").append($("<a/>").attr({
+                href: "#" + this.id
+            }).text(this.innerText)))
+            lastRank = +this.tagName[1];
+        });
+        while (toc.parent()[0]) {
+            toc = toc.parent();
+        }
+        while (toc.children().length == 1 && (!(toc.children()[0].tagName.toLowerCase() == "li") || toc.children()[0].classList.contains("no-list-style"))) {
+            toc = toc.children();
+        }
+        toc.children().prependTo($("#leftToc"));
+    })();
+
     // 代码高亮
     hljs.initHighlighting();
     $("#content pre code").each(function() {
@@ -68,15 +106,19 @@ $(function() {
     var imageDisplay = ["auto", "none", "block", "left", "right", "center"],
         imageSize = 360,
         imageSizeUnit = /(pt|px|em|%)$/;
-    $("#content img").each(function() {
+    $("#content img, #content svg.svgImage").each(function() {
         var data = this.dataset,
             disp = data.disp,
             size = (data.size || imageSize),
-            alt = this.alt.split("|"),
-            title = this.alt;
-        while (!$(this).siblings().length && ($(this).parent()[0].tagName.toLowerCase() == "p"))
+            alt = (this.alt || data.alt || "").split("|"),
+            title = alt[0];
+        while (!$(this).siblings().length && ($(this).parent()[0].tagName.toLowerCase() == "p")) {
             $(this).unwrap();
+        }
         for (var i = 0; i < alt.length; i++) {
+            if (!alt[i]) {
+                continue;
+            }
             if (imageDisplay.indexOf(alt[i]) > -1) {
                 disp = alt[i];
             } else if (!isNaN(alt[i])) {
@@ -123,44 +165,6 @@ $(function() {
         $(p).append($(this).detach());
         $(p).css("position", "relative");
     });
-
-    (function() {
-        var toc = $("<div/>")
-          , lastRank = 1
-          , tocID = []
-          , headings = $("#content").find("h2, h3, h4, h5");
-        if (!headings) {
-            return;
-        }
-        headings.each(function(n, t) {
-            var thisRank = +this.tagName[1];
-            while (thisRank > lastRank) {
-                tocID.push(0);
-                if (toc.children().length == 0) {
-                    toc = $("<li/>").addClass("no-list-style").appendTo($(toc));
-                }
-                toc = $("<ul/>").appendTo($(toc.children()[toc.children().length - 1] || toc));
-                thisRank--;
-            }
-            while (lastRank > thisRank) {
-                tocID.pop();
-                toc = toc.parent().parent();
-                thisRank++;
-            }
-            tocID.push(tocID.pop() + 1);
-            toc.append($("<li/>").append($("<a/>").attr({
-                href: "#" + this.id
-            }).text(this.innerText)))
-            lastRank = +this.tagName[1];
-        });
-        while (toc.parent()[0]) {
-            toc = toc.parent();
-        }
-        while (toc.children().length == 1 && (!(toc.children()[0].tagName.toLowerCase() == "li") || toc.children()[0].classList.contains("no-list-style"))) {
-            toc = toc.children();
-        }
-        toc.children().prependTo($("#leftToc"));
-    })();
 
     // 信息框
     $(".infoBoxHideButton").click(function(e) {
