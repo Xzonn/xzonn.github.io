@@ -116,6 +116,14 @@ ul ul, ul ol, ol ol, ol ul {
     padding-left: 0.84em;
 }
 
+dt {
+    font-weight: bold;
+}
+
+dd {
+    margin-left: 1.66em;
+}
+
 .no-list-style {
     list-style: none;
 }
