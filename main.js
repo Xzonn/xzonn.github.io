@@ -284,12 +284,13 @@ $(function() {
     });
 
     // 二维码
-    var alipayLink = ["https://qr.alipay.com/FKX05443CDRZJP85NBKH9A", "https://qr.alipay.com/c1x09344nhvijwtryw28r68"][Math.round(Math.random())],
+    var selfLink = location.origin + location.pathname,
+        alipayLink = ["https://qr.alipay.com/FKX05443CDRZJP85NBKH9A", "https://qr.alipay.com/c1x09344nhvijwtryw28r68"][Math.round(Math.random())],
         wxpayLink = "wxp://f2f0tRrkOkpu3KRGCoBxAXCOjrqNKoQOk5p3";
     $("#rightQrcodeBlock").attr({
-        "href": location.href
+        "href": selfLink
     }).qrcode({
-        "text": location.href,
+        "text": selfLink,
         "width": 80,
         "height": 80
     }).click(e => e.preventDefault());
