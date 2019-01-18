@@ -6,7 +6,6 @@ title: 分数绩点计算器
     input {
         width: calc(100% + 2px);
         height: 1.8em;
-        margin: -1px;
         text-align: center;
         font-weight: bold;
     }

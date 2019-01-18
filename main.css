@@ -71,12 +71,13 @@ h5, h6 {
     line-height: 1.8em;
 }
 
-p, blockquote, ul, ol, dl, table {
-    margin-bottom: 2px;
+ul, ol, dl, table, pre, .imgBlock, .bilibiliBox {
+    margin: 0.6em auto;
 }
 
 p {
     text-indent: 2em;
+    margin: 0.2em auto;
 }
 
 blockquote {
@@ -112,7 +113,7 @@ ul, ol {
 }
 
 ul ul, ul ol, ol ol, ol ul {
-    margin-bottom: 0;
+    margin: 0 auto;
     padding-left: 0.84em;
 }
 
@@ -129,7 +130,6 @@ dd {
 }
 
 #content table {
-    margin: 0.5em auto;
     min-width: 75%;
     border: double var(--color-content-dark);
     border-collapse: collapse;
@@ -235,7 +235,6 @@ canvas {
 
 .imgBlock {
     overflow: hidden;
-    margin: 0.5em auto;
     padding: 1em;
     width: max-content;
     max-width: 100%;
@@ -384,7 +383,6 @@ p.at-c, p.at-l, p.at-r {
 
 .bilibiliBox {
     position: relative;
-    margin: 0.5em auto;
     height: calc(1.8em + 2px);
     max-width: 640px;
     border-color: var(--color-content-dark);
@@ -498,6 +496,11 @@ p.at-c, p.at-l, p.at-r {
     line-height: 2.4em;
 }
 
+.infoBoxIcon > img, .infoBoxIcon > svg {
+    width: 1em;
+    height: 1em;
+}
+
 #rightInfoBox > .infoBox:first-child > .infoBoxIcon {
     border-top-left-radius: 1.5em 2em;
 }
@@ -515,7 +518,7 @@ p.at-c, p.at-l, p.at-r {
 }
 
 #rightInfoBox p {
-    margin-bottom: 0;
+    margin: 0;
     min-height: 1.8em;
     text-align: center;
     text-indent: 0;
@@ -649,6 +652,10 @@ p.at-c, p.at-l, p.at-r {
 
 #content > *:last-child {
     margin-bottom: 0 !important;
+}
+
+#content > *:first-child {
+    margin-top: 0 !important;
 }
 
 #rightComment {

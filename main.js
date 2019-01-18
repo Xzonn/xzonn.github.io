@@ -186,9 +186,11 @@ $(function() {
     // Bilibili 视频
     var bilibiliVideo = function(boxBlock, aid, cid, page, title, subTitle = "") {
         boxBlock.empty();
-        var titleBlock = $("<a/>").addClass("bilibiliTitle").attr({
-                "href": "https://www.bilibili.com/video/av" + aid + "/index_" + page + ".html"
-            }).text((title || "av" + aid) + " - " + (subTitle || "p" + page)).appendTo(boxBlock),
+        var fullTitle = (title || "av" + aid) + " - " + (subTitle || "p" + page),
+            titleBlock = $("<a/>").addClass("bilibiliTitle").attr({
+                "href": "https://www.bilibili.com/video/av" + aid + "/index_" + page + ".html",
+                "title": fullTitle
+            }).text(fullTitle).appendTo(boxBlock),
             iframeBlock = $("<iframe/>").addClass("bilibiliVideo").attr({
                  allowfullscreen: "true"
             }).appendTo(boxBlock),
