@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 《气象学基础》期末复习
-infoBox: incomplete
+infoBox: complete
 ---
 <style> ol ol { list-style: lower-alpha; } .chsName { display: inline-block; min-width: 10em; margin-right: 1em; } .engName { font-weight: lighter; font-style: italic; } </style>
 
