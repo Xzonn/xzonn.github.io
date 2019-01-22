@@ -2,14 +2,18 @@
 layout: default
 ---
                 <h1 id="rightTitle">{{ page.title }}</h1>
-                <div id="rightTime">{{ page.date | date: "%Y-%m-%d" }}</div>{% if page.info %}
+                <div id="rightInfos">
+                    <div id="rightDate">{{ page.date | date: "%Y-%m-%d" }}</div>{% if page.update %}
+                    <div id="rightUpdate">{{ page.update | date: "%Y-%m-%d" }}</div>{% endif %}{% if page.tags %}
+                    <div id="rightTags"></div>{% endif %}
+                </div>{% if page.info %}
                 <blockquote id="rightInfo"><p>{{ page.info }}</p></blockquote>{% endif %}
                 <div id="rightInfoBox">{% if page.infoBox %}{% assign infoBoxes = page.infoBox | split: " " %}{% assign infoBox = infoBoxes[0] %}
 {% include {{ infoBox | append: ".html" }} %}{% for infoBox in infoBoxes offset: 1 %}
 {% include {{ infoBox | append: ".html" }} multiple=true %}
 {% endfor %}{% else %}
 {% include infoBox.html name="Blank" icon="&#61485;" %}
-{% endif %}</div>
+{% endif %}                </div>
                 <div id="content">
 {{ content }}
                 </div>

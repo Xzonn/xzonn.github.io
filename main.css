@@ -240,13 +240,32 @@ canvas {
     display: block;
 }
 
-.imgBlock {
+.imgGallery, .imgBlock {
     overflow: hidden;
-    padding: 1em;
     width: max-content;
     max-width: 100%;
     border: 1px solid var(--color-content);
     background-color: var(--color-content-light);
+}
+
+.imgGallery:after {
+    clear: left;
+    display: block;
+    content: "";
+}
+
+.imgGallery .imgBlock {
+    float: left;
+    clear: none;
+    margin: 0;
+    width: 25%;
+    min-width: 240px;
+    border: 0;
+    background: none;
+}
+
+.imgBlock {
+    padding: 1em;
     color: var(--color-content-dark);
     text-align: center;
     font-size: 0.8em;
@@ -455,82 +474,6 @@ p.at-c, p.at-l, p.at-r {
     opacity: 0 !important;
 }
 
-#rightInfoBox {
-    position: relative;
-    clear: right;
-    padding: 2px;
-    min-height: calc(1.8em + 8px);
-    border-color: var(--color-left-block-dark);
-    border-style: solid;
-    border-width: 2px;
-    border-bottom-right-radius: calc(4.5em + 2px) calc(6em + 2px);
-    border-top-left-radius: calc(4.5em + 2px) calc(6em + 2px);
-    background-color: #FFF;
-}
-
-#rightInfoBox > .infoBox {
-    margin-top: 2px;
-}
-
-#rightInfoBox > .infoBox:first-child {
-    margin-top: 0;
-}
-
-.infoBoxHide {
-    position: absolute;
-    top: 0;
-    right: 0;
-}
-
-.infoBoxHide:before {
-    content: '[';
-}
-
-.infoBoxHide:after {
-    content: ']';
-}
-
-.infoBoxIcon {
-    float: left;
-    width: 2.4em;
-    height: 2.4em;
-    background-color: var(--color-left-block);
-    color: var(--color-content-dark);
-    text-align: center;
-    font-weight: 900;
-    font-size: 3em;
-    font-family: "Font Awesome 5 Free";
-    line-height: 2.4em;
-}
-
-.infoBoxIcon > img, .infoBoxIcon > svg {
-    width: 1em;
-    height: 1em;
-}
-
-#rightInfoBox > .infoBox:first-child > .infoBoxIcon {
-    border-top-left-radius: 1.5em 2em;
-}
-
-.infoBoxInfo {
-    overflow: auto;
-    margin-left: calc(7.2em + 2px);
-    padding: 0 2em;
-    height: 7.2em;
-    background-color: var(--color-left-block-light);
-}
-
-#rightInfoBox > .infoBox:last-child > .infoBoxInfo {
-    border-bottom-right-radius: 4.5em 6em;
-}
-
-#rightInfoBox p {
-    margin: 0;
-    min-height: 1.8em;
-    text-align: center;
-    text-indent: 0;
-}
-
 #leftBlock {
     position: fixed;
     top: 20px;
@@ -640,17 +583,109 @@ p.at-c, p.at-l, p.at-r {
     height: 80px;
 }
 
-#rightTime:before, .pageDate:before {
+#rightInfos, .pageInfos {
+    margin: 2px 0;
+    padding: 0 15px;
+    border-left: 4px solid var(--color-content-dark);
+    color: var(--color-content-dark);
+    font-size: 12px;
+    font-family: var(--font-family-monospace);
+    line-height: 1.5em;
+}
+
+#rightInfos:after, .pageInfos:after {
+    content: "";
+    display: block;
+    clear: left;
+}
+
+#rightDate, .pageDate, #rightUpdate, .pageUpdate {
+    width: 50%;
+    float: left;
+}
+
+#rightDate:before, .pageDate:before {
     content: "\521b\5efa\65f6\95f4\ff1a";
 }
 
-#rightTime, .pageDate {
-    margin: 2px 0;
-    padding: 0 15px;
-    border-left: 4px solid var(--color-content);
-    color: var(--color-content);
-    font-size: 12px;
-    font-family: var(--font-family-monospace);
+#rightUpdate:before, .pageUpdate:before {
+    content: "\66f4\65b0\65f6\95f4\ff1a";
+}
+
+#rightInfoBox {
+    position: relative;
+    clear: right;
+    padding: 2px;
+    min-height: calc(1.8em + 8px);
+    border-color: var(--color-left-block-dark);
+    border-style: solid;
+    border-width: 2px;
+    border-bottom-right-radius: calc(4.5em + 2px) calc(6em + 2px);
+    border-top-left-radius: calc(4.5em + 2px) calc(6em + 2px);
+    background-color: #FFF;
+}
+
+#rightInfoBox > .infoBox {
+    margin-top: 2px;
+}
+
+#rightInfoBox > .infoBox:first-child {
+    margin-top: 0;
+}
+
+.infoBoxHide {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.infoBoxHide:before {
+    content: '[';
+}
+
+.infoBoxHide:after {
+    content: ']';
+}
+
+.infoBoxIcon {
+    float: left;
+    width: 2.4em;
+    height: 2.4em;
+    background-color: var(--color-left-block);
+    color: var(--color-content-dark);
+    text-align: center;
+    font-weight: 900;
+    font-size: 3em;
+    font-family: "Font Awesome 5 Free";
+    line-height: 2.4em;
+}
+
+.infoBoxIcon > img, .infoBoxIcon > svg {
+    width: 1em;
+    height: 1em;
+}
+
+#rightInfoBox > .infoBox:first-child > .infoBoxIcon {
+    border-top-left-radius: 1.5em 2em;
+}
+
+.infoBoxInfo {
+    overflow: auto;
+    margin-left: calc(7.2em + 2px);
+    padding: 0 2em;
+    height: 7.2em;
+    background-color: var(--color-left-block-light);
+}
+
+#rightInfoBox > .infoBox:last-child > .infoBoxInfo {
+    border-bottom-right-radius: 4.5em 6em;
+}
+
+#rightInfoBox p {
+    margin: 0;
+    min-height: 1.8em;
+    text-align: center;
+    text-indent: 0;
 }
 
 #content {

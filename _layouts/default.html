@@ -55,7 +55,8 @@
                 google_ad_client: "ca-pub-8317643192080236",
                 enable_page_level_ads: true
             });
-        </script>
+        </script>{% assign csses = page.css | split: " " %}{% for css in csses %}
+        <link rel="stylesheet" href="/{{ css }}.css"/>{% endfor %}
         <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.name }}</title>
     </head>
     <body>
