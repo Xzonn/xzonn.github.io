@@ -71,7 +71,7 @@ h5, h6 {
     line-height: 1.8em;
 }
 
-ul, ol, dl, table, pre, .imgBlock, .bilibiliBox {
+ul, ol, dl, table, pre, .imgBlock {
     margin: 0.6em auto;
 }
 
@@ -407,68 +407,6 @@ p.at-c, p.at-l, p.at-r {
     background: transparent !important;
 }
 
-.bilibiliBox {
-    position: relative;
-    height: calc(1.8em + 2px);
-    max-width: 640px;
-    border-color: var(--color-content-dark);
-    border-style: solid;
-    border-width: 2px;
-    border-radius: 10px 0 10px 0;
-    background-color: #FFF;
-    text-align: center;
-}
-
-@font-face {
-    font-family: bilibili;
-    src: url(//s1.hdslb.com/bfs/static/jinkela/home/asserts/iconfont.ttf) format("truetype");
-}
-
-.bilibiliTitle {
-    display: block;
-    overflow: hidden;
-    margin: 0 3em;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-}
-
-.bilibiliTitle:before {
-    margin-right: 0.5em;
-    color: #00A1D6;
-    content: '\E668';
-    font-family: bilibili;
-}
-
-.bilibiliHide {
-    position: absolute;
-    top: 0;
-    right: 0;
-}
-
-.bilibiliHide:before {
-    content: '[';
-}
-
-.bilibiliHide:after {
-    content: ']';
-}
-
-.bilibiliVideo {
-    display: none;
-}
-
-.bilibiliBoxShow {
-    height: 480px;
-}
-
-.bilibiliBoxShow > .bilibiliVideo {
-    display: block;
-    margin: 0.5em;
-    width: calc(100% - 1em);
-    height: calc(100% - 2.8em);
-    border-bottom-right-radius: 10px;
-}
-
 .transparent {
     border: none !important;
     opacity: 0 !important;
@@ -574,6 +512,12 @@ p.at-c, p.at-l, p.at-r {
     text-align: justify;
 }
 
+#rightBlock:after {
+    clear: both;
+    display: block;
+    content: "";
+}
+
 #rightQrcodeBlock {
     position: absolute;
     top: 1em;
@@ -594,14 +538,14 @@ p.at-c, p.at-l, p.at-r {
 }
 
 #rightInfos:after, .pageInfos:after {
-    content: "";
-    display: block;
     clear: left;
+    display: block;
+    content: "";
 }
 
 #rightDate, .pageDate, #rightUpdate, .pageUpdate {
-    width: 50%;
     float: left;
+    width: 50%;
 }
 
 #rightDate:before, .pageDate:before {
@@ -863,8 +807,9 @@ p.at-c, p.at-l, p.at-r {
 .pageEntry {
     position: relative;
     overflow: hidden;
-    max-height: 9em;
-    min-height: 5.4em;
+    padding: 0.6em;
+    max-height: 10.2em;
+    min-height: 6.6em;
     border-color: var(--color-content-dark);
     border-style: solid;
     border-width: 2px 2px 2px;
@@ -872,8 +817,14 @@ p.at-c, p.at-l, p.at-r {
     background-color: var(--color-content-light-transparent);
 }
 
+.pageImage {
+    float: left;
+    display: block;
+    margin-right: 0.6em;
+    height: -webkit-fill-available;
+}
+
 .pageContent {
-    padding: 0 1em;
     font-style: italic;
 }
 
@@ -1098,10 +1049,6 @@ p.at-c, p.at-l, p.at-r {
 }
 
 @media screen and (max-width: 600px) {
-    .bilibiliBoxShow {
-        height: 360px;
-    }
-
     .infoBox, #rightInfoBox {
         height: auto;
         border-bottom-right-radius: calc(3em + 2px) calc(4em + 2px);
@@ -1222,7 +1169,7 @@ p.at-c, p.at-l, p.at-r {
         box-shadow: none !important;
     }
 
-    #rightBlock:after {
+    #rightBlock:before {
         position: fixed;
         top: 50%;
         left: 0;
@@ -1274,7 +1221,7 @@ p.at-c, p.at-l, p.at-r {
         font-family: var(--font-family-serif-print) !important;
     }
 
-    #content b, #content strong, #content th, h1, h2, h3, h4, h5, h6, #rightBlock:after {
+    #content b, #content strong, #content th, h1, h2, h3, h4, h5, h6, #rightBlock:before {
         font-family: var(--font-family-sans-serif-print);
     }
 

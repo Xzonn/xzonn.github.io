@@ -55,8 +55,9 @@
                 google_ad_client: "ca-pub-8317643192080236",
                 enable_page_level_ads: true
             });
-        </script>{% assign csses = page.css | split: " " %}{% for css in csses %}
-        <link rel="stylesheet" href="/{{ css }}.css"/>{% endfor %}
+        </script>{% assign css = page.css | split: " " %}{% for i in css %}
+        <link rel="stylesheet" href="/{{ i }}.css"/>{% endfor %}{% assign js = page.js | split: " " %}{% for i in js %}
+        <script src="/{{ i }}.js"></script>{% endfor %}
         <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.name }}</title>
     </head>
     <body>

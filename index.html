@@ -13,13 +13,13 @@ layout: default
         <div class="pageInfos">
             <div class="pageDate">{{ post.date | date: "%Y-%m-%d" }}</div>{% if post.update %}
             <div class="pageUpdate">{{ post.update | date: "%Y-%m-%d" }}</div>{% endif %}{% if post.tags %}
-            <div class="pageTags"></div>{% endif %}
+            <ul class="pageTag">{% for tag in post.tags %}
+                <li><a href="/tags#{{ tag }}">{{ tag }}</a></li>{% endfor %}
+            </ul>{% endif %}
         </div>
-        <ul class="pageTag">{% if post.tags %}{% for tag in post.tags %}
-            <li><a href="/tags#{{ tag }}">{{ tag }}</a></li>{% endfor %}{% endif %}
-        </ul>
     </div>
-    <div class="pageEntry">
+    <div class="pageEntry">{% if post.headImage %}
+        <img class="pageImage" src="{{ post.headImage }}" alt="{{ post.title }}">{% endif %}
         <div class="pageContent">{{ post.content | strip_html | remove: "$" | replace: '
 ', ' ' | truncate: 300, "……" }}</div>
         <a href="{{ post.url }}" class="pageRead">阅读全文</a>

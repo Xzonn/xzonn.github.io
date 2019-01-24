@@ -2,7 +2,12 @@
 layout: post
 title: 《精灵宝可梦》四天王房间冲浪漏洞
 infoBox: pokemon pokemonGlitch
+css: bilibili
+js: bilibili
+headImage: https://i.imgur.com/pGvnq7F.png
 ---
+![漏洞触发后的效果\|right\|256px](https://i.imgur.com/pGvnq7F.png)
+
 ## 1 概述
 **四天王房间冲浪漏洞**是存在于第四世代《精灵宝可梦》系列游戏《钻石／珍珠》日本发行版中的游戏漏洞。此漏洞在海外发行版和《精灵宝可梦 白金》中被修复。该漏洞被任天堂官方称为“<span lang="ja">壁の中から戻れなくなる</span>”，即“无法从墙壁内返回”，并在当时[提供了免费修复的服务](https://www.nintendo.co.jp/ds/adaj/info/index.html)（服务已于 2018 年 2 月结束）。
 
