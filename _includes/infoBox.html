@@ -1,4 +1,4 @@
-                    <div class="infoBox infoBox{{ include.name }}">{% if include.color %}
+                    <div class="infoBox infoBox{{ include.name }}"{% if include.data %} data-data="{{ include.data }}"{% endif %}>{% if include.color %}
                         <style class="infoBox{{ include.name }}Style"> .infoBox{{ include.name }} { --color-left-block: {{ include.color }}; --color-left-block-light: {{ include.colorLight }}; --color-left-block-dark: {{ include.colorDark }}; } {{ include.style }} </style>{% endif %}
                         <div class="infoBoxIcon">{{ include.icon }}</div>{% unless include.multiple %}
                         <span class="infoBoxHide">
