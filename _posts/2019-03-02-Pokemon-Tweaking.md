@@ -9,7 +9,7 @@ headImage: https://i.imgur.com/HoP6zRY.png
 ![漏洞触发后的效果\|right\|256px](https://i.imgur.com/HoP6zRY.png)
 
 ## 1 概述
-**地图图块漏洞**是存在于第四世代《精灵宝可梦》系列游戏中的游戏漏洞。此漏洞在英文玩家中也被称为“Tweaking”。该漏洞通过快速切换地图图块，游戏会产生载入错误，从而使玩家进入原本无法进入的区域，走出地图并进入“迷之空间”。此漏洞最早由 GameSpot 论坛的用户 Holepunch 发现，但原贴如今已经不存在。
+**地图图块漏洞**是存在于第四世代《精灵宝可梦》系列游戏中的游戏漏洞。此漏洞在英文玩家中也被称为“Tweaking”。该漏洞通过快速切换地图图块，使游戏产生载入错误，并可以使玩家进入原本无法进入的区域，走出地图并进入“谜之空间”。此漏洞最早由 GameSpot 论坛的用户 Holepunch 发现，但原贴如今已经不存在。
 
 ## 2 漏洞原理
 在全部第四世代游戏中，所有的地图都以 32 × 32 格大小的区块存储。游戏同时可以读取 4 个区块，即玩家所在的区块以及相邻的 3 个区块。在区块中间具有不可见的“载入线”，当玩家通过这条线时，下一个区块将会被读取。当玩家以最高速骑着自行车通过载入线时，游戏载入区块的速度慢于玩家通过的速度，这样会触发“竞争冒险”机制，可能会使游戏冻结、出现不可见的墙、出现黑色区域、出现白色区域、Z 轴改变、载入其他区块等。
@@ -57,7 +57,9 @@ headImage: https://i.imgur.com/HoP6zRY.png
 在《白金／心金／魂银》中，谜之空间中有许多看不见的墙，这会使玩家陷在谜之空间中，因此这一漏洞在这三部游戏中难以实现，除非使用特殊手段。
 
 ## 5 参考视频
-<div class="bilibiliBox" data-aid="av44978212" data-page="1"></div>
+<div class="bilibiliBox" data-aid="44978212" data-page="1"></div>
+
+<div class="bilibiliBox" data-aid="44978212" data-page="2"></div>
 
 ## 6 参考资料
 1. <span id="ref-1"></span>Bulbapedia. Tweaking[OL]. [https://bulbapedia.bulbagarden.net/w/index.php?title=Tweaking&oldid=2772930](https://bulbapedia.bulbagarden.net/w/index.php?title=Tweaking&oldid=2772930), 2018-05-04/2019-03-02.
