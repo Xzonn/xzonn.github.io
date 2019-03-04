@@ -114,6 +114,7 @@ headImage: https://media.st.dl.bscstorage.net/steam/apps/802450/header.jpg
 <img src="" alt="地图 8">-->
 <img src="https://wx1.sinaimg.cn/large/63368e3fly1fzfp99rxouj20qo0f07jf.jpg" alt="地图 9">
 </div>
+
 * （地图 7）向下、向下、向下、向下、向下，回到地图 2。
 * （地图 2）向左前往地图 8。
 * （地图 8）与门口的楚布斯对话，出现门。进入地图 9。

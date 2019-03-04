@@ -1,5 +1,7 @@
 ---
 layout: post
+css: bilibili
+js: bilibili
 title: 3DS《路易吉洋馆》汉化笔记
 info: 3DS《路易吉洋馆》汉化：从开坑到弃坑。
 ---
@@ -61,6 +63,8 @@ Cスティックで\x7f\x16にゅうりょく\x00入力\x7f\x17した\x7f\x16ほ
 
 ![游戏界面](https://github.com/Xzonn/LuigiMansionChineseTranslation/raw/master/images/04.png)
 
+<div class="bilibiliBox" data-aid="45332875" data-page="1"></div>
+
 ## 6 汉化进度
 * 2018/10/12：
   * 开始项目，尝试汉化北美发行版，但因问题太多而搁置。
@@ -74,6 +78,8 @@ Cスティックで\x7f\x16にゅうりょく\x00入力\x7f\x17した\x7f\x16ほ
   * 标题图片问题解决。
 * 2019/02/15：
   * 字库问题基本解决。
+* 2019/03/04：
+  * 发布机翻汉化预览视频。
 
 ## 7 致谢
 * 感谢 [IcySon55](https://github.com/IcySon55) 的 [Kuriimu](https://github.com/IcySon55/Kuriimu) 项目及该项目的贡献者。
