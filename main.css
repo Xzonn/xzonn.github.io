@@ -737,6 +737,7 @@ p.at-c, p.at-l, p.at-r {
     position: fixed;
     right: 32px;
     bottom: 32px;
+    z-index: 200;
     display: block;
     width: 128px;
     height: 128px;
