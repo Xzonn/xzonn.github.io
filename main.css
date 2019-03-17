@@ -144,6 +144,10 @@ dd {
     border: 1px dashed var(--color-content);
 }
 
+#content table > * > tr > td > img:only-child {
+    margin: 3px 0;
+}
+
 #content table > * > tr > th {
     padding: 0 5px;
     border: 1px solid var(--color-content-dark);
