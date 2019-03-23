@@ -5,6 +5,7 @@ infoBox: incomplete pokemon pokemonGlitch
 css: bilibili
 js: bilibili
 headImage: https://i.imgur.com/HoP6zRY.png
+update: 2019-03-23
 ---
 ![漏洞触发后的效果\|right\|256px](https://i.imgur.com/HoP6zRY.png)
 
@@ -56,11 +57,95 @@ headImage: https://i.imgur.com/HoP6zRY.png
 
 在《白金／心金／魂银》中，谜之空间中有许多看不见的墙，这会使玩家陷在谜之空间中，因此这一漏洞在这三部游戏中难以实现，除非使用特殊手段。
 
+#### 4.2.1 捕捉阿尔宙斯
+利用“朋友公园返回漏洞”可以捕捉阿尔宙斯。<sup>[[4](#ref-4)]</sup>步骤如下（原文如此，详细说明请参考原贴）：
+
+```
+=======
+Step 1
+=======
+1 S
+17 W
+14 N
+2015 W
+512 S
+Save & Reset
+
+=======
+Step 2
+=======
+32 E
+384 S
+32 W
+1792 S
+128 W
+32 S
+192 W
+64 S
+160 W
+
+=======
+Step 3
+=======
+96 S
+96 E
+32 S
+63 E
+1 N
+63 E (or 64 E if you've already been to Pal Park before)
+191 N
+1 N (注1)
+
+=======
+Step 4
+=======
+192 E
+66 S
+1 N
+
+=======
+Step 5
+=======
+192 W
+64 N
+64 W
+32 N
+128 W
+64 N
+64 W
+96 N
+226 E
+Start -> RETIRE
+
+=======
+Step 6
+=======
+34 S
+33 W
+128 S
+160 W
+160 S
+160 E
+31 S
+1 S
+64 E
+166 N
+1 N
+Start -> RETIRE
+
+------
+注1：根据本人测试，如果玩家已经进入过朋友公园，此处不需要向上 1 格。
+```
+
 ## 5 参考视频
 <div class="bilibiliBox" data-aid="44978212" data-page="1"></div>
 
 <div class="bilibiliBox" data-aid="44978212" data-page="2"></div>
 
+<div class="bilibiliBox" data-aid="47147308" data-page="2"></div>
+
 ## 6 参考资料
 1. <span id="ref-1"></span>Bulbapedia. Tweaking[OL]. [https://bulbapedia.bulbagarden.net/w/index.php?title=Tweaking&oldid=2772930](https://bulbapedia.bulbagarden.net/w/index.php?title=Tweaking&oldid=2772930), 2018-05-04/2019-03-02.
 2. <span id="ref-2"></span>Johnstone. POKEMON GLITCHES: The Tweaking Glitch (Part 1) - Darkrai and Shaymin[V/OL]. [https://www.youtube.com/watch?v=b15M3VU_MPA](https://www.youtube.com/watch?v=b15M3VU_MPA), 2018-01-20/2019-03-02.
+3. <span id="ref-3"></span>Ganix. Void Glitch - How to Catch Arceus in Pokemon D/P[V/OL]. [https://www.youtube.com/watch?v=VrhHXG3cuAw](https://www.youtube.com/watch?v=VrhHXG3cuAw), 2017-01-22/2019-03-23.
+4. <span id="ref-4"></span>Cryo. Obtaining Arceus via the Void Glitch[EB/OL]. [https://forums.glitchcity.info/index.php?topic=7770.0](https://forums.glitchcity.info/index.php?topic=7770.0), 2017-01-10/2019-03-23.
