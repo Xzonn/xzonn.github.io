@@ -33,3 +33,9 @@ infoBox: pokemon
 <tr><td><img src="https://raw.githubusercontent.com/Xzonn/PokemonChineseTranslationRevise/master/images/Pt_0_3.png" alt="预览图" data-disp="auto" /></td><td><img src="https://raw.githubusercontent.com/Xzonn/PokemonChineseTranslationRevise/master/images/Pt_1_3.png" alt="预览图" data-disp="auto" /></td></tr>
 </tbody>
 </table>
+
+## 5 更新记录
+- 0.9.0（2018/10/12）：
+  - 发布最初版本。
+- 0.9.1（2019/04/27）：
+  - 修正“快乐”替换为“幸运蛋”的问题。

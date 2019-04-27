@@ -142,7 +142,7 @@ Start -> RETIRE
 
 <div class="bilibiliBox" data-aid="44978212" data-page="2"></div>
 
-<div class="bilibiliBox" data-aid="47147308" data-page="2"></div>
+<div class="bilibiliBox" data-aid="47147308" data-page="1"></div>
 
 ## 6 参考资料
 1. <span id="ref-1"></span>Bulbapedia. Tweaking[OL]. [https://bulbapedia.bulbagarden.net/w/index.php?title=Tweaking&oldid=2772930](https://bulbapedia.bulbagarden.net/w/index.php?title=Tweaking&oldid=2772930), 2018-05-04/2019-03-02.
