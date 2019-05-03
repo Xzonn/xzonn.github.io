@@ -781,6 +781,29 @@ p.at-c, p.at-l, p.at-r {
     display: none;
 }
 
+.headerPicList {
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+}
+
+.headerPicItem {
+    float: left;
+    display: block;
+    max-width: 400px;
+    transition: all 0.3s ease-out;
+}
+
+.headerPicItem:hover {
+    filter: drop-shadow(0 0 3px #eee);
+}
+
+.headerPicList:after {
+    clear: both;
+    display: block;
+    content: "";
+}
+
 .pageBlock {
     padding: 2em 0;
     border-bottom: 2px dashed #777;
