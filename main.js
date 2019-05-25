@@ -237,8 +237,8 @@ $(function() {
         "href": selfLink
     }).qrcode({
         "text": selfLink,
-        "width": 80,
-        "height": 80
+        "width": 240,
+        "height": 240
     }).click(e => e.preventDefault());
     $("#alipayQrcodeBlock").attr({
         "href": alipayLink

@@ -532,6 +532,11 @@ p.at-c, p.at-l, p.at-r {
     height: 80px;
 }
 
+#rightQrcodeBlock > canvas {
+    width: 80px;
+    height: 80px;
+}
+
 #rightInfos, .pageInfos {
     margin: 2px 0;
     padding: 0 15px;
