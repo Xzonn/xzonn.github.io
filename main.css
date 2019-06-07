@@ -69,11 +69,11 @@ h4 {
 h5, h6 {
     font-size: 1em;
     line-height: 1.8em;
-}
+}/*
 
 ul, ol, dl, table, pre, .imgBlock {
     margin: 0.6em auto;
-}
+}*/
 
 p {
     margin: 0.2em auto;
