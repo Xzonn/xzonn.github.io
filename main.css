@@ -69,11 +69,11 @@ h4 {
 h5, h6 {
     font-size: 1em;
     line-height: 1.8em;
-}/*
+}
 
-ul, ol, dl, table, pre, .imgBlock {
+/*ul, ol, dl, */table, pre, .imgBlock {
     margin: 0.6em auto;
-}*/
+}
 
 p {
     margin: 0.2em auto;
@@ -347,7 +347,7 @@ ref, .reficon {
     font-size: 16px;
 }
 
-text {
+text, tspan {
     font-family: var(--font-family-sans-serif) !important;
 }
 
@@ -1251,7 +1251,7 @@ p.at-c, p.at-l, p.at-r {
         font-size: 0.8em;
     }
 
-    text {
+    text, tspan {
         font-family: var(--font-family-serif-print) !important;
     }
 
