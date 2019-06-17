@@ -68,7 +68,7 @@ infoBox: incomplete formula
     - 燃料中的氮在燃烧室转化为 $$\ce{N2}$$ 和 $$\ce{NO}$$，一般以 $$\ce{N2}$$ 为主。
     - 燃料的化学式为 $$\ce{C_xH_yS_zO_w}$$。
   - 由此可得燃料与空气中氧完全燃烧的化学反应方程式：$$\ce{C_xH_yS_zO_w + (\mathit{x} + y/4 + \mathit{z} - w/2)O3 + 3.78(\mathit{x} + y/4 + \mathit{z} - w/2)N2 }$$ $$\ce{-> xCO2 + y/2H2O + zSO2 + 3.78(\mathit{x} + y/4 + \mathit{z} - w/2)N2 + }Q$$。
-  - 理论空气量 $$V_{\mathrm a}^0 = \cfrac {22.4 \times 4.78\left(x + \cfrac y4 + z - \cfrac w2\right)}{12x + 1.008y + 32z + 16w)}$$。
+  - 理论空气量 $$V_{\mathrm a}^0 = \cfrac {22.4 \times 4.78\left(x + \cfrac y4 + z - \cfrac w2\right)}{12x + 1.008y + 32z + 16w}$$。
   - 气体组成通常以摩尔分数表示，它不随气体温度和压力变化。
   - 一般煤的理论空气量 $$4 \sim \pu{9 m3/kg}$$，液体燃料 $$10 \sim \pu{11 m3/kg}$$。
 - 空气过剩系数：在实际的燃烧装置中不可能达到理想化，为使燃料完全燃烧必须供给过量的空气。定义空气过剩系数 $$\alpha = \cfrac {V_{\mathrm a}}{V_{\mathrm a}^0}$$，其中 $$V_{\mathrm a}$$ 为实际空气量。通常 $$\alpha > 1$$，取决于燃料种类、燃烧装置形式和燃烧条件等因素。
@@ -87,15 +87,15 @@ infoBox: incomplete formula
 ### 2.3 烟气体积及污染物排放量计算
 - 理论烟气体积 $$V_{\mathrm {fg}}^0$$：在理论空气量下，燃料完全燃烧所生成的烟气体积。烟气成分主要是 $$\ce{CO2}$$、$$\ce{SO2}$$、$$\ce{N2}$$ 和水蒸气。
   - 干烟气：烟气中除了水蒸气以外的部分。湿烟气：包括水蒸气在内的烟气。理论烟气量 = 干烟气量 + 水蒸气体积。
-  - 实际烟气量 = 理论烟气量 + 过剰空气量。$$V_{\mathrm {fg}} = V_{\mathrm {fg}}^0 +(\alpha - 1)V_{\mathrm a}^0$$
+  - 实际烟气量 = 理论烟气量 + 过剩空气量。$$V_{\mathrm {fg}} = V_{\mathrm {fg}}^0 +(\alpha - 1)V_{\mathrm a}^0$$
 - 烟气体积和密度的校正：$$V_{\mathrm N} = V_{\mathrm s}\cfrac{p_{\mathrm s}T_{\mathrm N}}{p_{\mathrm N}T_{\mathrm s}}$$，其中 $$_{\mathrm N}$$ 是标准状态 $$\pu{273 K}$$、$$\pu{101325 Pa}$$，$$_{\mathrm s}$$ 是观测状态。
 - 过剩空气校正：
-  - 以碳在空气中的完全燃烧为例：$$\ce{C + O2 + 3.78N2 -> CO2 + 3.78N2}$$，若空气过量则变为 $$\ce{C + (1+\mathit{a})O2 + 3.78(1+\mathit{a})N2 }$$ $$\ce{-> CO2 + aO2 + 3.78(1+a)N2}$$。
+  - 以碳在空气中的完全燃烧为例：$$\ce{C + O2 + 3.78N2 -> CO2 + 3.78N2}$$，若空气过量则变为 $$\ce{C + (1+\mathit{a})O2 + 3.78(1+\mathit{a})N2 }$$ $$\ce{-> CO2 + aO2 + 3.78(1+\mathit{a})N2}$$。
   - 空气过剩系数：$$\alpha = \cfrac {V_{\mathrm a}}{V_{\mathrm a}^0} = 1 + a$$。
   - 若燃烧完全，过剩空气中氧以 $$\ce{O2}$$ 的形式存在，假如燃烧产物以下标 $$_{\mathrm p}$$ 表示：$$\ce{C + (1+\mathit{a})O2 + 3.78(1+\mathit{a})N2 ->} \mathrm{CO_{2p} + O_{2p} + N_{2p}}$$。
   - 假设空气体积组成为 $$20.9~\%~\ce{O2}$$ 和 $$79.1~\%~\ce{N2}$$，则实际空气中所含的总氧量为 $$\cfrac {20.9}{79.1}\varphi(\mathrm{N_{2p}}) = 0.264\varphi(\mathrm{N_{2p}})$$。
   - 理论需氧量为 $$0.264\varphi(\mathrm{N_{2p}}) - \varphi(\mathrm{O_{2p}})$$，因此空气过剩系数 $$\alpha = 1 + \cfrac{\varphi(\mathrm{O_{2p}})}{0.264\varphi(\mathrm{N_{2p}}) - \varphi(\mathrm{O_{2p}})}$$。
-  - 假如燃烧过程产生 $$\ce{CO}$$，过剩氧量必须加以校正，即从测得的过剩氧中减去氧化 $$\ce{CO}$$ 为 $$\ce{CO2}$$ 所需要的氧。因此：$$\alpha = 1 + \cfrac{\varphi(\mathrm{O_{2p}}) - 0.5\varphi(\mathrm{CO_{2p}})}{0.264\varphi(\mathrm{N_{2p}}) - [\varphi(\mathrm{O_{2p}}) - 0.5\varphi(\mathrm{CO_{2p}})]}$$。
+  - 假如燃烧过程产生 $$\ce{CO}$$，过剩氧量必须加以校正，即从测得的过剩氧中减去氧化 $$\ce{CO}$$ 为 $$\ce{CO2}$$ 所需要的氧。因此：$$\alpha = 1 + \cfrac{\varphi(\mathrm{O_{2p}}) - 0.5\varphi(\mathrm{CO_{p}})}{0.264\varphi(\mathrm{N_{2p}}) - [\varphi(\mathrm{O_{2p}}) - 0.5\varphi(\mathrm{CO_{p}})]}$$。
 - 通过测定烟气中污染物的浓度，根据实际排烟量，很容易计算污染物的排放量。
 
 ## 第三章 颗粒污染物控制技术基础
@@ -160,7 +160,7 @@ infoBox: incomplete formula
 - 对数正态分布：是最常用的粒径分布函数。以粒径的对数 $$\ln d_{\mathrm p}$$ 代替粒径 $$d_{\mathrm p}$$ 作出频率密度 $$p$$ 曲线，得到一向正态分布一样的对称性钟形曲线，则认为该粉尘粒径分布符合对数正态分布。
   - $$F(d_{\mathrm p}) = \cfrac {1}{\sqrt{2\pi}\ln\sigma_{\mathrm g}}\int_{-\infty}^{\ln d_{\mathrm p}}\mathrm e^{-\left(\frac {\ln d_{\mathrm p}/{d_{\mathrm g}}}{\sqrt 2\ln\sigma_{\mathrm g}}\right)^2}\mathrm d(\ln d_{\mathrm p})$$。
   - $$p(d_{\mathrm p}) = \cfrac {1}{\sqrt{2\pi}d_{\mathrm p}\ln\sigma_{\mathrm g}}\mathrm e^{-\left(\frac {\ln d_{\mathrm p}/{d_{\mathrm g}}}{\sqrt 2\ln\sigma_{\mathrm g}}\right)^2}$$。
-  - 其中，$$d_{\mathrm g}$$ 为几何平均粒径，$$\sigma_{\mathrm g}$$ 为几何标准差，$$\sigma_{\mathrm g} = \sqrt{\cfrac {\sum{n_i(\ln d_{\mathrm pi}/d_{\mathrm g})^2}}{N - 1}}$$。
+  - 其中，$$d_{\mathrm g}$$ 为几何平均粒径，$$\sigma_{\mathrm g}$$ 为几何标准差，$$\ln \sigma_{\mathrm g} = \sqrt{\cfrac {\sum{n_i(\ln d_{\mathrm pi}/d_{\mathrm g})^2}}{N - 1}}$$。
   - $$\sigma_{\mathrm g} = \cfrac{d_{84.1}}{d_{50}} = \cfrac{d_{50}}{d_{15.9}} = \sqrt{\cfrac{d_{84.1}}{d_{15.9}}}$$。
   - 如果某种粉尘的粒径分布符合对数正态分布，则无论是质量分布、个数分布，还是表面积分布，它们的几何标准差 $$\sigma_{\mathrm g}$$ 相等。$$\text{MMD}$$ 表示质量中位直径，$$\text{NMD}$$ 表示个数中位直径，$$\text{SMD}$$ 表示表面积中位直径，则三者的换算关系为：$$\ln \text{MMD} = \ln \text{NMD} + 3\ln^2 \sigma_{\mathrm g}$$，$$\ln \text{SMD} = \ln \text{NMD} + 2\ln^2 \sigma_{\mathrm g}$$。
   - 算术平均粒径：$$\ln \overline{d_L} = \ln \text{NMD} + \cfrac12\ln^2 \sigma_{\mathrm g}$$。
@@ -178,16 +178,16 @@ infoBox: incomplete formula
   - 安息角：粉尘从漏斗连续落到水平面上，自然堆积成一个圆锥体，圆锥体母线与水平面的交角。安息角小的粉尘，其流动性好。
   - 滑动角：自然堆放在光滑平板上的粉尘，随平板做倾斜运动时，粉尘开始发生滑动时的平板倾斜角。
 - 比表面积：
-  - 以粉尘自身体积（净体积）为基准表示的比表面积 $$\S_V = \cfrac {\bar S}{\bar V} = \cfrac {6}{\overline{d}{SV}}$$。
-  - 以粉尘质量为基准表示的比表面积 $$S_m = \cfrac {\bar S}{\rho_{\mathrm p}\bar V} = \cfrac {6}{\rho_{\mathrm p}\overline{d}{SV}}$$。
-  - 以堆积体积为基准表示的比表面积 $$S_{\mathrm b} = (1 - \varepsilon)\S_V = (1 - \varepsilon)\cfrac {\bar S}{\bar V} = (1 - \varepsilon)\cfrac {6}{\overline{d}{SV}}$$。
+  - 以粉尘自身体积（净体积）为基准表示的比表面积 $$S_V = \cfrac {\bar S}{\bar V} = \cfrac {6}{\overline{d_SV}}$$。
+  - 以粉尘质量为基准表示的比表面积 $$S_m = \cfrac {\bar S}{\rho_{\mathrm p}\bar V} = \cfrac {6}{\rho_{\mathrm p}\overline{d_SV}}$$。
+  - 以堆积体积为基准表示的比表面积 $$S_{\mathrm b} = (1 - \varepsilon)S_V = (1 - \varepsilon)\cfrac {\bar S}{\bar V} = (1 - \varepsilon)\cfrac {6}{\overline{d_SV}}$$。
 - 含水率：粉尘中所含水分质量与粉尘总质量之比。
 - 润湿性：粉尘颗粒与液体接触后能否相互附着或附着难易程度的性质。
   - 当尘粒与液体接触时，如果接触面能扩大而相互附着，则称为润湿性粉尘；如果接触面趋于缩小而不能附着，则称为非润湿性粉尘。
   - 粉尘的润湿性是选用湿式除尘器的主要依据。
 - 荷电性和导电性：
   - 荷电性：天然粉尘和工业粉尘几乎都带有一定的电荷（正电荷或负电荷）。电除尘器就是利用粉尘荷电而除尘的，在袋式除尘器和湿式除尘器中也可利用粉尘或液滴荷电来进一步提高对细尘粒的不急性能。
-  - 导电性：通常用电阻率来表示：$$rho_{\mathrm d} = \cfrac {V}{J\delta}$$，其中 $$V$$ 为通过粉尘层的电压，$$J$$ 为通过粉尘层的电流密度，$$\delta$$ 为粉尘层的厚度。
+  - 导电性：通常用电阻率来表示：$$\rho_{\mathrm d} = \cfrac {V}{J\delta}$$，其中 $$V$$ 为通过粉尘层的电压，$$J$$ 为通过粉尘层的电流密度，$$\delta$$ 为粉尘层的厚度。
     - 高温时主要靠粉尘本体内部的电子或离子进行，低温时主要靠尘粒表面吸附的水分或其他化学物质中的离子进行。中间温度均存在。
     - 高温范围内电阻率随温度升高而降低，低温范围内电阻率随温度升高而增大。中间温度均较弱，电阻率达到最大值。
 - 黏附性：粉尘颗粒附着在固体表面上，或者颗粒彼此相互附着的现象称为黏附。
@@ -301,7 +301,7 @@ infoBox: incomplete formula
     - 在沉降室内气流为柱塞流，流速为 $$v_0$$，流动状态保持在层流范围内，颗粒均匀地分布在烟气中。
     - 在垂直方向，忽略浮力，仅在重力和气体阻力的作用下，每个例子以其沉降速度 $$u_{\mathrm s}$$ 独立沉降。
     - 在水平方向，粒子和气流具有相同的速度。
-  - 设沉降室长 $$L$$、宽 $$W$$、高 $$H$$，处理烟气量 $$q_V$$。气流在沉降室内的停留时间为 $$t = \cfrac {L}{v_0} = \cfrac {LQH}{q_V}$$。
+  - 设沉降室长 $$L$$、宽 $$W$$、高 $$H$$，处理烟气量 $$q_V$$。气流在沉降室内的停留时间为 $$t = \cfrac {L}{v_0} = \cfrac {LWH}{q_V}$$。
     - 在时间 $$t$$ 内，粒径为 $$d_{\mathrm p}$$ 的离子的沉降距离为：$$h_{\mathrm c} = u_{\mathrm s}t = \cfrac {u_{\mathrm s}L}{v_0} = \cfrac {u_{\mathrm s}LWH}{q_V}$$。
     - 当 $$h_{\mathrm c} < H$$ 时，粒子的分级除尘效率 $$\eta_i = \cfrac {h_{\mathrm c}}{H} = \cfrac {u_{\mathrm s}L}{v_0H} = \cfrac {u_{\mathrm s}LW}{q_V}$$。
     - 假设位于斯托克斯区，则能 $$100~\%$$ 捕集的最小粒子直径 $$d_{\mathrm {min}} = \sqrt{\cfrac {18\mu v_0H}{\rho_{\mathrm p}gL}} = \sqrt{\cfrac{18\mu q_V}{\rho_{\mathrm p}gWL}}$$。在 $$\pu{293 K}$$ 和 $$\pu{101325 Pa}$$ 下，对于 $$\rho = \pu{1 g/cm3}$$、$$d_{\mathrm p} < \pu{100 \mu m}$$ 的粒子都可行。
@@ -374,7 +374,7 @@ infoBox: incomplete formula
 - 工作原理：
   - 三个基本过程：悬浮粒子荷电、带电粒子在电场内迁移和捕集、将捕集物从集尘表面上清除。
   - 高压直流电晕是使粒子荷电的最有效办法，广泛应用于静电除尘过程。
-  - 荷电粒子的补给是使其通过延续的电晕电场或光滑的不放电的电极之间的纯静电场而实现。
+  - 荷电粒子的捕集是使其通过延续的电晕电场或光滑的不放电的电极之间的纯静电场而实现。
   - 通过振打除去接地电极上的灰层并使其落入灰斗。
 - 电晕放电：发生在细金属电晕线和集尘板之间，或者发生在金属丝和金属管之间。
   - 放电电极（电晕极）是一根曲率半径很小的纤细裸露电线，上端与直流电源的一极相连，下端由吊锤固定位置。集尘电极是具有一定面积的管和板，它与电源的另一极相连。
@@ -386,7 +386,7 @@ infoBox: incomplete formula
 - 影响电晕特性的因素：电极的形状、电极间距离，气体组成、压力、温度，气流中要捕集的粉尘的浓度、粒度、电阻率以及它们在电晕极和集尘极上的沉积。
 - 粒子荷电机制：
   - 电场荷电（碰撞荷电）：离子在静电力作用下作定向运动，与粒子碰撞而使粒子荷电。
-  - 扩散和垫：由离子的扩散现象而导致的粒子荷电过程。依赖于离子的热能，不依赖于电场。
+  - 扩散荷电：由离子的扩散现象而导致的粒子荷电过程。依赖于离子的热能，不依赖于电场。
   - $$d_{\mathrm p} > \pu{0.5 \mu m}$$ 的粒子，以电场荷电为主；$$d_{\mathrm p} < \pu{0.15 \mu m}$$ 的粒子，以扩散荷电为主；$$\pu{0.15 \mu m} < d_{\mathrm p} < \pu{0.5 \mu m}$$ 的粒子，需要同时考虑两种过程。
 - 电场荷电饱和粒子电荷 $$Q = 3\pi \left(\cfrac {\varepsilon_{\mathrm r}}{\varepsilon_{\mathrm r} + 2}\right)\varepsilon_0d_{\mathrm p}^2E_0$$，其中 $$\varepsilon_{\mathrm r}$$ 是粒子相对介电常数，$$\varepsilon_0$$ 是真空介电常数。
 - 扩散荷电不存在最大极限值，时间 $$t$$ 内粒子获得的电荷 $$Q_{\mathrm n} = \cfrac {2\pi\varepsilon_0 kTd_{\mathrm p}}{e^2}\ln\left(1 + \cfrac{e^2\bar ud_{\mathrm p}N_0t}{8\varepsilon_0kT}\right)$$，其中 $$k$$ 为玻尔兹曼常数，$$N_0$$ 为离子密度，$$e$$ 为电子电量，$$\bar u$$ 为气体离子的平均热运动速度。
