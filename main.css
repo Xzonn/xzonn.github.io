@@ -1,10 +1,10 @@
 ﻿@charset "UTF-8";
 
 :root {
-    --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans CJK SC", "Source Han Sans CN", "Microsoft Yahei", Simhei, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    --font-family-sans-serif-print: Arial, Simhei, sans-serif;
-    --font-family-serif: "Times New Roman", "Source Han Serif CN", Simsun, serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    --font-family-serif-print: "Times New Roman", Simsun, serif;
+    --font-family-sans-serif: "Punctuation Sans Serif", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans CJK SC", "Source Han Sans CN", "Microsoft Yahei", Simhei, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    --font-family-sans-serif-print: "Punctuation Sans Serif Print", Arial, Simhei, sans-serif;
+    --font-family-serif: TeX, "Punctuation Serif", "Times New Roman", "Source Han Serif CN", Simsun, serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    --font-family-serif-print: TeX, "Punctuation Serif Print", "Times New Roman", Simsun, serif;
     --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", "Noto Sans CJK SC", "Source Han Sans CN", "Microsoft Yahei", Simhei, monospace;
     --font-family-reference: "Times New Roman", FangSong, Simfang, KaiTi, Simkai, Simsun, serif;
     --color-left-block: #888;
@@ -15,15 +15,6 @@
     --color-content-light-transparent: rgba(221, 221, 221, 0.4);
     --color-content-dark: #333;
     --image-note: url(data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22UTF-8%22%20standalone%3D%22no%22%3F%3E%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20720%20720%22%3E%3Ccircle%20cx%3D%22360%22%20cy%3D%22360%22%20r%3D%22320%22%20style%3D%22fill%3Anone%3Bstroke%3A%23000%3Bstroke-width%3A80px%22%2F%3E%3Cpath%20d%3D%22M264%2C418c-19-15-61-37-91-52l37-52c28%2C12%2C71%2C32%2C93%2C46Zm64%2C59c-25%2C50-54%2C102-84%2C150l-59-47c25-36%2C62-94%2C91-150ZM290%2C285c-19-15-60-39-89-54l39-51c27%2C12%2C70%2C33%2C91%2C48ZM627%2C551v66H315V551H441V467H349V401h91V329H330V263H449c-6-20-18-48-29-69l64-22c13%2C23%2C29%2C53%2C35%2C73l-49%2C17H613v66H514v72h83v66H514v84Z%22%20transform%3D%22translate%28-40%20-40%29%22%20style%3D%22fill%3A%23000%22%2F%3E%3C%2Fsvg%3E);
-}
-
-html {
-    filter: grayscale(100%);
-    -webkit-filter: grayscale(100%);
-    -moz-filter: grayscale(100%);
-    -ms-filter: grayscale(100%);
-    -o-filter: grayscale(100%);
-    // Pray for KyoAni
 }
 
 *, *:before, *:after {
@@ -42,7 +33,7 @@ body {
     background-attachment: fixed;
     font-size: 15px;
     font-family: var(--font-family-sans-serif);
-    line-height: 1.8em;
+    line-height: 1.8;
 }
 
 h1 {
@@ -344,8 +335,19 @@ ref, .reficon {
     background-repeat: no-repeat;
 }
 
+/* MathJax */
+.MathJax, .MathJax_CHTML, .MathJax_SVG {
+    margin-right: 0.25em !important;
+    margin-left: 0.25em !important;
+}
+
 .MathJax_SVG_Display {
-    margin: 0 !important;
+    text-indent: -2.2em !important;
+}
+
+.MathJax_SVG_Display .MathJax_SVG {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
 }
 
 .MathJax_SVG {
@@ -358,6 +360,17 @@ ref, .reficon {
 
 text, tspan {
     font-family: var(--font-family-sans-serif) !important;
+}
+
+/* Han.js */
+h-hws, h-hws[hidden] {
+    display: inline;
+    visibility: hidden;
+    font: .89em Arial;
+}
+
+code h-hws, code h-hws[hidden], kbd h-hws, kbd h-hws[hidden], samp h-hws, samp h-hws[hidden], pre h-hws, pre h-hws[hidden], h-hws.quote-inner, h-hws[hidden].quote-inner, h-hws.quote-outer:lang(zh-Hans), h-hws[hidden].quote-outer:lang(zh-Hans), h-hws.quote-outer:lang(zh-CN), h-hws[hidden].quote-outer:lang(zh-CN) {
+    display: none;
 }
 
 .chemSvg {
@@ -997,6 +1010,17 @@ p.at-c, p.at-l, p.at-r {
     background-size: 100%;
 }
 
+@media screen {
+    html {
+        filter: grayscale(100%);
+        -webkit-filter: grayscale(100%);
+        -moz-filter: grayscale(100%);
+        -ms-filter: grayscale(100%);
+        -o-filter: grayscale(100%);
+        // Pray for KyoAni
+    }
+}
+
 @media screen and (max-width: 1200px) {
     #leftBlock, #payBlock, #payBlock:before {
         left: 0;
@@ -1305,4 +1329,49 @@ p.at-c, p.at-l, p.at-r {
     ref, .reficon {
         background-image: var(--image-note);
     }
+}
+
+/* TeX */
+@font-face {
+    font-family: "TeX";
+    src: url("https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/woff/MathJax_Main-Regular.woff");
+    unicode-range: U+0000-00B6, U+00B8-1FFF;
+}
+
+@font-face {
+    font-style: italic;
+    font-family: "TeX";
+    src: url("https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/woff/MathJax_Main-Italic.woff");
+    unicode-range: U+0000-00B6, U+00B8-1FFF;
+}
+
+@font-face {
+    font-weight: bold;
+    font-family: "TeX";
+    src: url("https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/woff/MathJax_Main-Bold.woff");
+    unicode-range: U+0000-00B6, U+00B8-1FFF;
+}
+
+/* 标点符号 */
+@font-face {
+    font-family: "Punctuation Sans Serif";
+    src: local("Noto Sans CJK SC"), local("Source Han Sans CN"), local("Microsoft Yahei"), local(Simhei);
+    unicode-range: U+00B7, U+2014, U+2018-2019, U+201C-201D, U+2026, U+25CF, U+3001, U+3002, U+3008-3009, U+300A-300B, U+300C-300F, U+3014-3015, U+FF01, U+FF08-FF09, U+FF0C, U+FF0D, U+FF0E, U+FF0F, U+FF1A, U+FF1B, U+FF1F, U+FF3C;
+}
+
+@font-face {
+    font-family: "Punctuation Sans Serif Print";
+    src: local(Simhei);
+    unicode-range: U+00B7, U+2014, U+2018-2019, U+201C-201D, U+2026, U+25CF, U+3001, U+3002, U+3008-3009, U+300A-300B, U+300C-300F, U+3014-3015, U+FF01, U+FF08-FF09, U+FF0C, U+FF0D, U+FF0E, U+FF0F, U+FF1A, U+FF1B, U+FF1F, U+FF3C;
+}
+@font-face {
+    font-family: "Punctuation Serif";
+    src: local("Noto Serif CJK SC"), local("Source Han Serif CN"), local(Simsun);
+    unicode-range: U+00B7, U+2014, U+2018-2019, U+201C-201D, U+2026, U+25CF, U+3001, U+3002, U+3008-3009, U+300A-300B, U+300C-300F, U+3014-3015, U+FF01, U+FF08-FF09, U+FF0C, U+FF0D, U+FF0E, U+FF0F, U+FF1A, U+FF1B, U+FF1F, U+FF3C;
+}
+
+@font-face {
+    font-family: "Punctuation Serif Print";
+    src: local(Simsun);
+    unicode-range: U+00B7, U+2014, U+2018-2019, U+201C-201D, U+2026, U+25CF, U+3001, U+3002, U+3008-3009, U+300A-300B, U+300C-300F, U+3014-3015, U+FF01, U+FF08-FF09, U+FF0C, U+FF0D, U+FF0E, U+FF0F, U+FF1A, U+FF1B, U+FF1F, U+FF3C;
 }
