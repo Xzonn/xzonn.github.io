@@ -3,10 +3,10 @@
 :root {
     --font-family-sans-serif: "Punctuation Sans Serif", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans CJK SC", "Source Han Sans CN", "Microsoft Yahei", Simhei, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     --font-family-sans-serif-print: "Punctuation Sans Serif Print", Arial, Simhei, sans-serif;
-    --font-family-serif: TeX, "Punctuation Serif", "Times New Roman", "Source Han Serif CN", Simsun, serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    --font-family-serif-print: TeX, "Punctuation Serif Print", "Times New Roman", Simsun, serif;
+    --font-family-serif: "Punctuation Serif", TeX, "Times New Roman", "Source Han Serif CN", Simsun, serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    --font-family-serif-print: "Punctuation Serif Print", TeX, "Times New Roman", Simsun, serif;
     --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", "Noto Sans CJK SC", "Source Han Sans CN", "Microsoft Yahei", Simhei, monospace;
-    --font-family-reference: "Times New Roman", FangSong, Simfang, KaiTi, Simkai, Simsun, serif;
+    --font-family-reference: TeX, "Times New Roman", FangSong, Simfang, KaiTi, Simkai, Simsun, serif;
     --color-left-block: #888;
     --color-left-block-light: #DDD;
     --color-left-block-dark: #333;
@@ -17,7 +17,7 @@
     --image-note: url(data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22UTF-8%22%20standalone%3D%22no%22%3F%3E%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20720%20720%22%3E%3Ccircle%20cx%3D%22360%22%20cy%3D%22360%22%20r%3D%22320%22%20style%3D%22fill%3Anone%3Bstroke%3A%23000%3Bstroke-width%3A80px%22%2F%3E%3Cpath%20d%3D%22M264%2C418c-19-15-61-37-91-52l37-52c28%2C12%2C71%2C32%2C93%2C46Zm64%2C59c-25%2C50-54%2C102-84%2C150l-59-47c25-36%2C62-94%2C91-150ZM290%2C285c-19-15-60-39-89-54l39-51c27%2C12%2C70%2C33%2C91%2C48ZM627%2C551v66H315V551H441V467H349V401h91V329H330V263H449c-6-20-18-48-29-69l64-22c13%2C23%2C29%2C53%2C35%2C73l-49%2C17H613v66H514v72h83v66H514v84Z%22%20transform%3D%22translate%28-40%20-40%29%22%20style%3D%22fill%3A%23000%22%2F%3E%3C%2Fsvg%3E);
 }
 
-*, *:before, *:after {
+*, *::before, *::after {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -29,7 +29,7 @@ a, button, div, input {
 }
 
 body {
-    background-image: url(background.png);
+    background-image: url(/images/background.png);
     background-attachment: fixed;
     font-size: 15px;
     font-family: var(--font-family-sans-serif);
@@ -41,7 +41,7 @@ h1 {
     line-height: 1.8em;
 }
 
-h1#rightTitle:after {
+h1#rightTitle::after {
     display: block;
     padding-left: 30px;
     content: "\6765\81ea Xzonn \7684\5c0f\7ad9";
@@ -88,7 +88,7 @@ blockquote {
     font-family: var(--font-family-serif);
 }
 
-blockquote:before, blockquote:after {
+blockquote::before, blockquote::after {
     position: absolute;
     display: block;
     color: var(--color-content-light);
@@ -96,13 +96,13 @@ blockquote:before, blockquote:after {
     line-height: 1em;
 }
 
-blockquote:before {
+blockquote::before {
     top: 0;
     left: 0;
     content: "\201c";
 }
 
-blockquote:after {
+blockquote::after {
     right: 0;
     bottom: 0;
     content: "\201e";
@@ -235,7 +235,7 @@ a[href]:hover {
     text-decoration: underline;
 }
 
-img, svg {
+img, svg.svgImage {
     margin: 0 auto;
     max-width: 100%;
     vertical-align: middle;
@@ -253,7 +253,7 @@ canvas {
     background-color: var(--color-content-light);
 }
 
-.imgGallery:after {
+.imgGallery::after {
     clear: left;
     display: block;
     content: "";
@@ -489,11 +489,11 @@ p.at-c, p.at-l, p.at-r {
     display: inline-block;
 }
 
-.leftToggleItem:after {
+.leftToggleItem::after {
     content: " |";
 }
 
-.leftToggleItem:last-child:after {
+.leftToggleItem:last-child::after {
     content: none;
 }
 
@@ -539,7 +539,7 @@ p.at-c, p.at-l, p.at-r {
     text-align: justify;
 }
 
-#rightBlock:after {
+#rightBlock::after {
     clear: both;
     display: block;
     content: "";
@@ -569,7 +569,7 @@ p.at-c, p.at-l, p.at-r {
     line-height: 1.5em;
 }
 
-#rightInfos:after, .pageInfos:after {
+#rightInfos::after, .pageInfos::after, .pageInfosSimp::after {
     clear: left;
     display: block;
     content: "";
@@ -580,12 +580,30 @@ p.at-c, p.at-l, p.at-r {
     width: 50%;
 }
 
-#rightDate:before, .pageDate:before {
+#rightDate::before, .pageDate::before {
     content: "\521b\5efa\65f6\95f4\ff1a";
 }
 
-#rightUpdate:before, .pageUpdate:before {
+#rightUpdate::before, .pageUpdate::before {
     content: "\66f4\65b0\65f6\95f4\ff1a";
+}
+
+.pageTags {
+    clear: left;
+    list-style: none;
+    padding-left: 0;
+}
+
+.pageTags::before {
+    content: '\6807\7b7e\ff1a';
+}
+
+.pageTag {
+    display: inline-block;
+}
+
+.pageTagLink::before {
+    content: '#';
 }
 
 #rightInfoBox {
@@ -615,11 +633,11 @@ p.at-c, p.at-l, p.at-r {
     right: 0;
 }
 
-.infoBoxHide:before {
+.infoBoxHide::before {
     content: '[';
 }
 
-.infoBoxHide:after {
+.infoBoxHide::after {
     content: ']';
 }
 
@@ -687,7 +705,7 @@ p.at-c, p.at-l, p.at-r {
     width: 300px;
 }
 
-#payBlock:before {
+#payBlock::before {
     position: fixed;
     bottom: 122px;
     left: 15%;
@@ -706,7 +724,7 @@ p.at-c, p.at-l, p.at-r {
     page-break-before: always;
 }
 
-#payBlock:hover:before {
+#payBlock:hover::before {
     bottom: 170px;
     opacity: 1;
 }
@@ -742,7 +760,7 @@ p.at-c, p.at-l, p.at-r {
     border-color: #22AB38;
 }
 
-#alipayQrcodeBlock:after, #wxpayQrcodeBlock:after {
+#alipayQrcodeBlock::after, #wxpayQrcodeBlock::after {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -754,17 +772,17 @@ p.at-c, p.at-l, p.at-r {
     line-height: 15px;
 }
 
-#alipayQrcodeBlock:after {
+#alipayQrcodeBlock::after {
     color: #019FE8;
     content: "\963f\91cc\6295\5582";
 }
 
-#wxpayQrcodeBlock:after {
+#wxpayQrcodeBlock::after {
     color: #22AB38;
     content: "\817e\8baf\6295\5582";
 }
 
-#topLink:before {
+#topLink::before {
     position: fixed;
     right: 32px;
     bottom: 32px;
@@ -788,7 +806,7 @@ p.at-c, p.at-l, p.at-r {
     color: var(--color-content-dark);
 }
 
-#topLink:hover:before {
+#topLink:hover::before {
     opacity: 1;
 }
 
@@ -825,7 +843,7 @@ p.at-c, p.at-l, p.at-r {
     filter: drop-shadow(0 0 3px #eee);
 }
 
-.headerPicList:after {
+.headerPicList::after {
     clear: both;
     display: block;
     content: "";
@@ -918,7 +936,7 @@ p.at-c, p.at-l, p.at-r {
     text-align: left;
 }
 
-.pagePrev:before {
+.pagePrev::before {
     content: "\2190";
 }
 
@@ -930,15 +948,15 @@ p.at-c, p.at-l, p.at-r {
     text-align: right;
 }
 
-.pageNext:after {
+.pageNext::after {
     content: "\2192";
 }
 
-.pageFirstLink:after {
+.pageFirstLink::after {
     content: " | ";
 }
 
-.pageLastLink:before {
+.pageLastLink::before {
     content: " | ";
 }
 
@@ -992,12 +1010,29 @@ p.at-c, p.at-l, p.at-r {
     float: right;
 }
 
-.pagesItemTime:before {
+.pagesItemTime::before {
     content: "[";
 }
 
-.pagesItemTime:after {
+.pagesItemTime::after {
     content: "]";
+}
+
+.pageTitleSimp {
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+.pageTitleSimp::before {
+    content: '·';
+}
+
+.pageInfosSimp {
+    margin: 0 2em;
+    color: var(--color-content-dark);
+    font-size: 12px;
+    font-family: var(--font-family-monospace);
+    line-height: 1.5em;
 }
 
 .alert404 {
@@ -1022,7 +1057,7 @@ p.at-c, p.at-l, p.at-r {
 }
 
 @media screen and (max-width: 1200px) {
-    #leftBlock, #payBlock, #payBlock:before {
+    #leftBlock, #payBlock, #payBlock::before {
         left: 0;
     }
 
@@ -1102,7 +1137,7 @@ p.at-c, p.at-l, p.at-r {
         width: 100%;
     }
 
-    #payBlock:before {
+    #payBlock::before {
         position: initial;
         width: 100%;
         border-radius: 24px 24px 0 0;
@@ -1183,7 +1218,7 @@ p.at-c, p.at-l, p.at-r {
         margin: 0;
     }
 
-    #topLink:before {
+    #topLink::before {
         right: 10px;
         bottom: 10px;
         width: 40px;
@@ -1236,7 +1271,7 @@ p.at-c, p.at-l, p.at-r {
         box-shadow: none !important;
     }
 
-    #rightBlock:before {
+    #rightBlock::before {
         position: fixed;
         top: 50%;
         left: 0;
@@ -1262,7 +1297,7 @@ p.at-c, p.at-l, p.at-r {
         text-align: center;
     }
 
-    h1#rightTitle:after {
+    h1#rightTitle::after {
         font-style: normal;
     }
 
@@ -1278,7 +1313,7 @@ p.at-c, p.at-l, p.at-r {
         text-decoration: underline;
     }
 
-    #content a[href]:after {
+    #content a[href]::after {
         color: var(--color-content);
         content: " (" attr(href) ")";
         font-size: 0.8em;
@@ -1288,7 +1323,7 @@ p.at-c, p.at-l, p.at-r {
         font-family: var(--font-family-serif-print) !important;
     }
 
-    #content b, #content strong, #content th, h1, h2, h3, h4, h5, h6, #rightBlock:before {
+    #content b, #content strong, #content th, h1, h2, h3, h4, h5, h6, #rightBlock::before {
         font-family: var(--font-family-sans-serif-print);
     }
 
@@ -1335,43 +1370,41 @@ p.at-c, p.at-l, p.at-r {
 @font-face {
     font-family: "TeX";
     src: url("https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/woff/MathJax_Main-Regular.woff");
-    unicode-range: U+0000-00B6, U+00B8-1FFF;
 }
 
 @font-face {
     font-style: italic;
     font-family: "TeX";
     src: url("https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/woff/MathJax_Main-Italic.woff");
-    unicode-range: U+0000-00B6, U+00B8-1FFF;
 }
 
 @font-face {
     font-weight: bold;
     font-family: "TeX";
     src: url("https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/woff/MathJax_Main-Bold.woff");
-    unicode-range: U+0000-00B6, U+00B8-1FFF;
 }
 
 /* 标点符号 */
 @font-face {
     font-family: "Punctuation Sans Serif";
-    src: local("Noto Sans CJK SC"), local("Source Han Sans CN"), local("Microsoft Yahei"), local(Simhei);
+    src: local("Noto Sans CJK SC"), local("Source Han Sans CN"), local("Microsoft Yahei"), local(Simhei), local(sans-serif);
     unicode-range: U+00B7, U+2014, U+2018-2019, U+201C-201D, U+2026, U+25CF, U+3001, U+3002, U+3008-3009, U+300A-300B, U+300C-300F, U+3014-3015, U+FF01, U+FF08-FF09, U+FF0C, U+FF0D, U+FF0E, U+FF0F, U+FF1A, U+FF1B, U+FF1F, U+FF3C;
 }
 
 @font-face {
     font-family: "Punctuation Sans Serif Print";
-    src: local(Simhei);
+    src: local(Simhei), local(sans-serif);
     unicode-range: U+00B7, U+2014, U+2018-2019, U+201C-201D, U+2026, U+25CF, U+3001, U+3002, U+3008-3009, U+300A-300B, U+300C-300F, U+3014-3015, U+FF01, U+FF08-FF09, U+FF0C, U+FF0D, U+FF0E, U+FF0F, U+FF1A, U+FF1B, U+FF1F, U+FF3C;
 }
+
 @font-face {
     font-family: "Punctuation Serif";
-    src: local("Noto Serif CJK SC"), local("Source Han Serif CN"), local(Simsun);
+    src: local("Noto Serif CJK SC"), local("Source Han Serif CN"), local(Simsun), local(serif);
     unicode-range: U+00B7, U+2014, U+2018-2019, U+201C-201D, U+2026, U+25CF, U+3001, U+3002, U+3008-3009, U+300A-300B, U+300C-300F, U+3014-3015, U+FF01, U+FF08-FF09, U+FF0C, U+FF0D, U+FF0E, U+FF0F, U+FF1A, U+FF1B, U+FF1F, U+FF3C;
 }
 
 @font-face {
     font-family: "Punctuation Serif Print";
-    src: local(Simsun);
+    src: local(Simsun), local(serif);
     unicode-range: U+00B7, U+2014, U+2018-2019, U+201C-201D, U+2026, U+25CF, U+3001, U+3002, U+3008-3009, U+300A-300B, U+300C-300F, U+3014-3015, U+FF01, U+FF08-FF09, U+FF0C, U+FF0D, U+FF0E, U+FF0F, U+FF1A, U+FF1B, U+FF1F, U+FF3C;
 }

@@ -1,0 +1,73 @@
+.tagBlock {
+    padding: 1em;
+    list-style: none;
+}
+
+.tagBlock::after {
+    clear: left;
+    display: block;
+    content: '';
+}
+
+.tagBlockRendering {
+    display: none;
+}
+
+.tagItem {
+    float: left;
+    margin: 0.2em 0.5em;
+    padding: 0 0.5em;
+    border-color: var(--color-content-dark);
+    border-style: dashed;
+    border-width: 2px;
+    border-radius: 1em;
+    background-color: var(--color-content-light);
+    color: var(--color-content-dark);
+    white-space: nowrap;
+}
+
+.tagItem .tagLink, .tagItem .tagLink:hover {
+    color: var(--color-content-dark);
+}
+
+.tagItem.tagItemOn {
+    border-color: var(--color-left-block-dark);
+    background-color: var(--color-left-block-light);
+    color: var(--color-left-block-dark);
+    font-weight: bold;
+}
+
+.tagItem.tagItemOn .tagLink, .tagItem.tagItemOn .tagLink:hover {
+    color: var(--color-left-block-dark);
+}
+
+.tagPostBlockRendering {
+    display: none;
+}
+
+.tagPostTagName {
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+
+.tagPostTagName::before {
+    color: var(--color-left-block);
+    content: '#';
+}
+
+.tagPost {
+}
+
+.tagPostDate {
+    float: left;
+    margin-right: 1em;
+    height: 100%;
+}
+
+.tagPostDate::before {
+    content: '[';
+}
+
+.tagPostDate::after {
+    content: ']';
+}

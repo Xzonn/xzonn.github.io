@@ -1,0 +1,19 @@
+---
+permalink: /tags/
+layout: default
+js: tags
+css: tags
+---
+<h1 id="rightTitle">标签一览</h1>
+<div id="content">
+    <ul class="tagBlock tagBlockRendering">{% for tag in site.tags %}
+        <li id="tag-{{ tag[0] }}" class="tagItem" data-sort="{{ tag[1].size }}">
+            <a class="tagLink" href="#{{ tag[0] }}">{{ tag[0] }}</a>
+            <span class="tagSize">{{ tag[1].size }}</span>
+        </li>{% endfor %}
+    </ul>
+    <div class="tagPostBlock tagPostBlockRendering">
+        <div class="tagPostTagName"></div>{% for post in site.posts %}
+{% include pageNavSimp.html post=post %}{% endfor %}
+    </div>
+</div>

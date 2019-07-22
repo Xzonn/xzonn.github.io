@@ -6,6 +6,7 @@ css: bilibili
 js: bilibili
 headImage: https://i.imgur.com/HoP6zRY.png
 update: 2019-03-23
+tags: 精灵宝可梦 二次元
 ---
 ![漏洞触发后的效果\|right\|256px](https://i.imgur.com/HoP6zRY.png)
 

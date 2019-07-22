@@ -4,8 +4,10 @@ layout: default
                 <h1 id="rightTitle">{{ page.title }}</h1>
                 <div id="rightInfos">
                     <div id="rightDate">{{ page.date | date: "%Y-%m-%d" }}</div>{% if page.update %}
-                    <div id="rightUpdate">{{ page.update | date: "%Y-%m-%d" }}</div>{% endif %}{% if page.tags %}
-                    <div id="rightTags"></div>{% endif %}
+                    <div id="rightUpdate">{{ page.update | date: "%Y-%m-%d" }}</div>{% endif %}{% if page.tags.size > 1 %}
+                    <ul class="pageTags">{% for tag in page.tags %}
+                        <li class="pageTag"><a class="pageTagLink" href="/tags/#{{ tag }}">{{ tag }}</a></li>{% endfor %}
+                    </ul>{% endif %}
                 </div>{% if page.info %}
                 <blockquote id="rightInfo"><p>{{ page.info }}</p></blockquote>{% endif %}
                 <div id="rightInfoBox">{% if page.infoBox %}{% assign infoBoxes = page.infoBox | split: " " %}{% assign infoBox = infoBoxes[0] %}

@@ -2,6 +2,7 @@
 layout: post
 title: 《环境工程学二》一小时速成
 infoBox: incomplete formula
+tags: 学习资料 环院专业课 知识点整理 三次元
 ---
 ## 1 名词解释
 ### 1.1 水环境容量
@@ -62,7 +63,7 @@ infoBox: incomplete formula
 - 测定方法：中和滴定法，标准浓度盐酸滴定，分别以酚酞和甲基橙作指示剂计算滴定耗用的盐酸溶液量，得到酚酞碱度 $$P = \ce{[OH-] + [CO3^2-]}$$ 和甲基橙碱度（总碱度）$$T = \ce{[OH-] + 2[CO3^2-] + [HCO3-]}$$。
 - 计算方法：如表 2-1 所示。
 <table class="listTable">
-<caption>表2-1 碱度计算方法</caption>
+<caption>表 2-1 碱度计算方法</caption>
 <thead>
 <tr><th>滴定结果</th><th>$\ce{[OH-]}$</th><th>$\ce{2[CO3^2-]}$</th><th>$\ce{[HCO3-]}$</th></tr>
 </thead>
@@ -79,7 +80,7 @@ infoBox: incomplete formula
 - 测定方法：EDTA 络合滴定法。总硬度记为 $$H$$，总碱度记为 $$S$$。
 - 计算方法：如表 2-2 所示。
 <table class="listTable">
-<caption>表2-2 硬度计算方法</caption>
+<caption>表 2-2 硬度计算方法</caption>
 <thead>
 <tr><th>滴定结果</th><th>碳酸盐<br>（暂时硬度）</th><th>非碳酸盐<br>（永久硬度）</th><th>负硬度</th></tr>
 </thead>
@@ -91,7 +92,7 @@ infoBox: incomplete formula
 </table>
 - 单位换算：
   - 硬度 $$\pu{1 mmol/L} = \pu{100 mg/L}$$（以 $$\ce{CaCO3}$$ 计）
-  - 硬度 $$\pu{1 度} = \pu{10 mg/L}$$（以 $$\ce{CaO}$$ 计）
+  - 硬度 $$\pu{1 \text{度}} = \pu{10 mg/L}$$（以 $$\ce{CaO}$$ 计）
   - 硬度 $$\pu{1 mmol/L} = \pu{56 mg/L}$$（以 $$\ce{CaCO3}$$ 计）$$ = \pu{5.6 度}$$
   - 硬度 $$\pu{1 度} = \pu{17.9 mg/L}$$（以 $$\ce{CaCO3}$$ 计）
 
@@ -106,7 +107,7 @@ infoBox: incomplete formula
   - 流量：$$Q_{\mathrm mix} = q + aQ$$，流速较高时可认为 $$a = 1$$。
   - BOD<sub>5</sub> 初始值：$$\mathrm{BOD_{5mix}} = \cfrac {\mathrm{BOD}_{5污}q + \mathrm{BOD}_{5河}aQ}{q + aQ}$$。
   - DO 初始值：$$\mathrm{DO_{mix}} = \cfrac {\mathrm{DO}_污q + \mathrm{DO}_河aQ}{q + aQ}$$。
-  - 水温：$$T_{\mathrm{mix}} = \cfrac {T_污q + T_河aQ}{q + aQ}$$。
+  - 水温：$$T_{\mathrm{mix}} = \cfrac {T_{\text{污}}q + T_河aQ}{q + aQ}$$。
   - 有机物初始浓度：$$L_0 = \cfrac {\mathrm{BOD_{5mix}}}{1 - 10^{-k_1t}}$$。
 - 温度校正：
   - $$k_{1(T)} = k_{1(20)} \times 1.047^{T - 20}$$。

@@ -2,6 +2,7 @@
 title: 《计算概论》知识点整理
 layout: post
 infoBox: complete
+tags: 学习资料 编程 知识点整理 三次元
 ---
 ## 一、硬件和软件
 ### 1. 计算机系统组成

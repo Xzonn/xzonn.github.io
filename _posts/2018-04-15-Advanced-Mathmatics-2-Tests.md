@@ -2,6 +2,7 @@
 title: 《高等数学（下）》试题
 layout: post
 infoBox: incomplete
+tags: 学习资料 数学 往年题整理 三次元
 ---
 ## 2014年春季学期
 ### 期中试题

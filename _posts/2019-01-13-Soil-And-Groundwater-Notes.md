@@ -3,6 +3,7 @@ layout: post
 title: 《土壤与地下水》期末复习
 info: 一小时速成有点不太可能，还是老老实实准备期末复习吧。
 infoBox: complete formula
+tags: 学习资料 环院专业课 知识点整理 三次元
 ---
 <style> .chsName { display: inline-block; min-width: 10em; margin-right: 1em; } .engName { font-weight: lighter; font-style: italic; } </style>
 

@@ -231,7 +231,7 @@ $(function() {
 
     // 二维码
     var selfLink = location.origin + location.pathname,
-        alipayLink = ["https://qr.alipay.com/FKX05443CDRZJP85NBKH9A", "https://qr.alipay.com/c1x09344nhvijwtryw28r68"][Math.round(Math.random())],
+        alipayLink = "https://qr.alipay.com/FKX05443CDRZJP85NBKH9A",
         wxpayLink = "wxp://f2f0tRrkOkpu3KRGCoBxAXCOjrqNKoQOk5p3";
     $("#rightQrcodeBlock").attr({
         "href": selfLink

@@ -2,6 +2,7 @@
 layout: post
 title: 《环境工程学一》知识点整理
 infoBox: incomplete formula
+tags: 学习资料 环院专业课 知识点整理 三次元
 ---
 ## 第二章 燃烧与大气污染
 ### 2.1 燃料的性质

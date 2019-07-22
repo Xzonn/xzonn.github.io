@@ -2,6 +2,7 @@
 layout: post
 title: 《有机化学》一小时速成
 infoBox: complete formula
+tags: 学习资料 化学 知识点整理 三次元
 ---
 <p class="noPrint">《有机化学》知识点整理：<a href="/Organic-Chemistry-Notes-A">（上）</a> | <a href="/Organic-Chemistry-Notes-B">（下）</a>。</p>
 

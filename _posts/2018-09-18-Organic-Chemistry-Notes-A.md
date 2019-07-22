@@ -2,6 +2,7 @@
 layout: post
 title: 《有机化学》知识点整理（上）
 infoBox: complete formula
+tags: 学习资料 化学 知识点整理 三次元
 ---
 <p class="noPrint">因技术限制，本页面仅提供期中考试前（第1 ~ 6章）的内容。期中考试后的内容请移步 <strong><a href="/Organic-Chemistry-Notes-B/">此页</a></strong>。</p>
 

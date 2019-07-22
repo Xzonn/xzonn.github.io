@@ -3,6 +3,7 @@ title: 《线性代数》一小时速成
 layout: post
 info: 《线性代数》一小时速成指南。
 infoBox: complete formula
+tags: 学习资料 数学 知识点整理 三次元
 ---
 ## 1 线性方程组的解
 * $n$个方程$n$元线性方程组：

@@ -2,6 +2,7 @@
 layout: post
 title: 《普通物理·电磁学》知识点整理
 infoBox: complete formula
+tags: 学习资料 物理 知识点整理 三次元
 ---
 ### 第1章 静电场
 #### 1.1 静电的基本现象和基本规律

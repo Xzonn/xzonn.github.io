@@ -5,6 +5,7 @@ info: 你看，那颗星。
 css: bilibili
 js: bilibili
 headImage: https://pku-cese-su.github.io/xcb/images/2018-129-Week-7.png
+tags: 杂记 三次元
 ---
 这篇笔记很枯燥，没啥意思。但是既然我从前到后忙了将近两个月，写点东西来吹嘘一下自己还是应该的。全文以我本人的视角来写，所以写的都是我干了什么。如果想看 2018 级的小可爱们做了什么，请移步 **[这里](https://pku-cese-su.github.io/xcb/2018-129/)**，里面是每次的排练手记和中期的精彩视频。
 

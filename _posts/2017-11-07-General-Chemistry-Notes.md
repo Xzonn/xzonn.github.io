@@ -2,6 +2,7 @@
 layout: post
 title: 《普通化学》知识点整理
 infoBox: complete formula
+tags: 学习资料 化学 知识点整理 三次元
 ---
 ### 第2章 气体
 #### 提纲
