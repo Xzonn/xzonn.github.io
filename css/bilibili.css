@@ -7,7 +7,7 @@
     position: relative;
     height: calc(1.8em + 2px);
     max-width: 640px;
-    border-color: var(--color-content-dark);
+    border-color: var(--color-warm-dark);
     border-style: solid;
     border-width: 2px;
     border-radius: 10px 0 10px 0;

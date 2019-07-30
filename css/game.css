@@ -1,7 +1,7 @@
 .gameIntroBox {
-    border: 1px solid var(--color-content-dark);
+    border: 1px solid var(--color-warm-dark);
     border-radius: 1.2em;
-    background: var(--color-content-light);
+    background: var(--color-warm-light);
 }
 
 .gameIntroFirstLine {
@@ -28,7 +28,7 @@
 }
 
 .gameIntroTitle {
-    color: var(--color-content-dark);
+    color: var(--color-warm-dark);
     font-weight: bold;
     font-size: 2em;
     line-height: 1.5em;
@@ -70,7 +70,7 @@
 }
 
 .gameIntroWebsite > li > a:hover {
-    color: var(--color-content-dark);
+    color: var(--color-warm-dark);
 }
 
 .gameIntroWebsiteOfficial > a:before {

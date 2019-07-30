@@ -3,7 +3,7 @@ $(function () {
     function handleHashChange (e) {
         let hash = decodeURIComponent(location.hash).slice(1);
         if (hash.length < 1) {
-            hash = $(".tagPostTagBlock")[1].id;
+            hash = $(".tagLink")[0].innerText;
         }
         $(".tagItem").removeClass("tagItemOn");
         $("#tag-" + hash).addClass("tagItemOn");
