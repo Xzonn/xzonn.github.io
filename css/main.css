@@ -98,7 +98,7 @@ blockquote::before, blockquote::after {
 
 blockquote::before {
     top: 0;
-    left: 0;
+    left: -0.5em;
     content: "\201c";
 }
 
