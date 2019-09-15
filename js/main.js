@@ -97,12 +97,9 @@ $(function() {
     })();
 
     // 代码高亮
-    if (window.hljs) {
-        hljs.initHighlighting();
-        $("#content pre code").each(function() {
-            $(this).html("<ul><li>" + $(this).html().replace(/^\s+/, "").replace(/\s+$/, "").replace(/\n/g, "</li><li>") + "</li></ul>");
-        });
-    }
+    $("#content pre code").each(function() {
+        $(this).html("<ul><li>" + $(this).html().replace(/^\s+/, "").replace(/\s+$/, "").replace(/\n/g, "</li><li>") + "</li></ul>");
+    });
 
     //img标签相关
     var imageDisplay = ["auto", "none", "block", "left", "right", "center"],
