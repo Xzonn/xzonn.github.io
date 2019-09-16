@@ -1,10 +1,9 @@
 ---
 title: 塞罕坝存活指南
-info: 能不能活下去，取决于你能不能抱住一条大腿。
 layout: post
 tags: 杂记 三次元
 update: 2019-09-15
-infoBox: incomplete
+infoBox: complete
 ---
 <blockquote>
     <p>我来这里之前就想问了，这种东西为什么之前没有人做？？？</p>
