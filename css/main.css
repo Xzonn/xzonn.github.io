@@ -31,6 +31,7 @@ a, button, div, input {
 body {
     background-image: url(/images/background.png);
     background-attachment: fixed;
+    counter-reset: chapnum fignum tablenum h2num h3num h4num;
     font-size: 15px;
     font-family: var(--font-family-sans-serif);
     line-height: 1.8;
@@ -49,7 +50,7 @@ h1#rightTitle::after {
     font-style: italic;
     font-size: 12px;
     line-height: 1em;
-}
+    }
 
 h2 {
     font-size: 1.6em;
@@ -71,7 +72,7 @@ h5, h6 {
     line-height: 1.8em;
 }
 
-/*ul, ol, dl, */table, pre, .imgBlock {
+/*ul, ol, dl, */table, pre, figure {
     margin: 0.6em auto;
 }
 
@@ -169,6 +170,10 @@ dd {
     border-bottom: 1px solid var(--color-warm-dark);
 }
 
+sub, sup {
+    line-height: none;
+}
+
 code, kbd {
     margin: 0 0.4em;
     padding: 0.1em 0.4em;
@@ -245,7 +250,7 @@ canvas {
     display: block;
 }
 
-.imgGallery, .imgBlock {
+.imgGallery, figure {
     overflow: hidden;
     width: max-content;
     max-width: 100%;
@@ -259,7 +264,7 @@ canvas {
     content: "";
 }
 
-.imgGallery .imgBlock {
+.imgGallery figure {
     float: left;
     clear: none;
     margin: 0;
@@ -269,34 +274,63 @@ canvas {
     background: none;
 }
 
-.imgBlock {
+figure {
     padding: 1em;
     color: var(--color-warm-dark);
     text-align: center;
     font-size: 0.8em;
+    font-family: var(--font-family-sans-serif);
 }
 
-.imgBlock.a-l {
+figure.a-l {
     float: left;
     clear: left;
     margin: 0 1em 2px 0;
 }
 
-.imgBlock.a-r {
+figure.a-r {
     float: right;
     clear: right;
     margin: 0 0 2px 1em;
 }
 
-.imgBlock > a > * {
+figure > a > * {
     display: block;
     margin: 0 auto;
     border: 1px solid var(--color-warm-light);
     background-color: #FFF;
 }
 
-.imgDisc {
+figcaption {
+    clear: both;
     margin-bottom: -1em;
+}
+
+figcaption, .figureCaption {
+    counter-increment: fignum;
+}
+
+figcaption::before, .figureCaption::before {
+    margin-right: 1em;
+    content: '图 ' counter(fignum);
+}
+
+caption {
+    clear: both;
+    font-family: var(--font-family-sans-serif);
+}
+
+caption.figureCaption {
+    caption-side: bottom;
+}
+
+.tableCaption {
+    counter-increment: tablenum;
+}
+
+.tableCaption::before {
+    margin-right: 1em;
+    content: '表 ' counter(tablenum);
 }
 
 ::selection {
@@ -590,8 +624,8 @@ p.at-c, p.at-l, p.at-r {
 
 .pageTags {
     clear: left;
-    list-style: none;
     padding-left: 0;
+    list-style: none;
 }
 
 .pageTags::before {
@@ -1316,28 +1350,29 @@ p.at-c, p.at-l, p.at-r {
         font-family: var(--font-family-sans-serif-print);
     }
 
-    .imgBlock {
+    figure {
         float: right;
         clear: right;
         padding: 0;
         width: 100%;
+        font-family: var(--font-family-sans-serif-print);
     }
 
-    .imgBlock.a-l, .imgBlock.a-r {
+    figure.a-l, figure.a-r {
         width: auto;
     }
 
-    .imgBlock.a-l {
+    figure.a-l {
         float: left;
         clear: left;
     }
 
-    .imgBlock, .imgBlock > a > * {
+    figure, figure > a > * {
         border: none;
         background: none;
     }
 
-    .imgDisc {
+    figcaption {
         margin: 1em;
     }
 
@@ -1352,6 +1387,10 @@ p.at-c, p.at-l, p.at-r {
 
     ref, .reficon {
         background-image: var(--image-note);
+    }
+    
+    caption {
+        font-family: var(--font-family-sans-serif-print);
     }
 }
 
