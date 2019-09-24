@@ -43,21 +43,6 @@ Date.prototype.format = function(fmt="YYYY年MM月DD日 EEE HH:mm:ss") {
 
 $(function() {
     // 目录
-    $(".leftToggleItemLink").click(function (){
-        var toggleItem = ["#leftNavigation", "#leftToc"],
-            thisItem = this.dataset.toggleItem;
-        for (var i = 0; i < toggleItem.length; i++) {
-            var item = toggleItem[i];
-            if (item == thisItem) {
-                $(item).show();
-            } else {
-                $(item).hide();
-            }
-        }
-        $(".leftToggleItemLink").removeClass("leftToggleItemLinkOn");
-        $(this).addClass("leftToggleItemLinkOn");
-    });
-
     (function() {
         var toc = $("<div/>")
           , lastRank = 1
@@ -93,7 +78,7 @@ $(function() {
         while (toc.children().length == 1 && (!(toc.children()[0].tagName.toLowerCase() == "li") || toc.children()[0].classList.contains("no-list-style"))) {
             toc = toc.children();
         }
-        toc.children().prependTo($("#leftToc"));
+        toc.children().prependTo($(".leftToc"));
     })();
 
     // 代码高亮

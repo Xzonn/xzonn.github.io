@@ -1,12 +1,12 @@
 ﻿@charset "UTF-8";
 
 :root {
-    --font-family-sans-serif: "Punctuation Sans Serif", "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans CJK SC", "Source Han Sans CN", "Microsoft Yahei", Simhei, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    --font-family-sans-serif-print: "Punctuation Sans Serif Print", Arial, Simhei, sans-serif;
-    --font-family-serif: "Punctuation Serif", TeX, "Times New Roman", "Source Han Serif CN", Simsun, serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    --font-family-serif-print: "Punctuation Serif Print", TeX, "Times New Roman", Simsun, serif;
+    --font-family-sans-serif: "Punctuation Sans Serif", "Segoe UI", Roboto, "Helvetica Neue", Arial, HeiTi, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    --font-family-sans-serif-print: "Punctuation Sans Serif Print", Arial, "HeiTi Print", sans-serif;
+    --font-family-serif: "Punctuation Serif", STIX-Web，TeX, "Times New Roman", SongTi, serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    --font-family-serif-print: "Punctuation Serif Print", STIX-Web，TeX, "Times New Roman", "SongTi Print", serif;
     --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", "Noto Sans CJK SC", "Source Han Sans CN", "Microsoft Yahei", Simhei, monospace;
-    --font-family-reference: TeX, "Times New Roman", FangSong, Simfang, KaiTi, Simkai, Simsun, serif;
+    --font-family-reference: STIX-Web，TeX, "Times New Roman", FangSong, Simfang, KaiTi, Simkai, Simsun, serif;
     --color-cold: #006FC5;
     --color-cold-light: #8CC2EB;
     --color-cold-dark: #003C6A;
@@ -24,6 +24,10 @@
     border: 0;
 }
 
+html {
+    font-size: 15px;
+}
+
 a, button, div, input {
     transition: all 0.3s ease-out;
 }
@@ -32,9 +36,11 @@ body {
     background-image: url(/images/background.png);
     background-attachment: fixed;
     counter-reset: chapnum fignum tablenum h2num h3num h4num;
-    font-size: 15px;
     font-family: var(--font-family-sans-serif);
+    font-size: 1rem;
     line-height: 1.8;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 h1 {
@@ -168,6 +174,10 @@ dd {
 
 #content table > * > tr:last-child > * {
     border-bottom: 1px solid var(--color-warm-dark);
+}
+
+#content strong {
+    color: var(--color-cold-dark);
 }
 
 sub, sup {
@@ -473,10 +483,10 @@ p.at-c, p.at-l, p.at-r {
     opacity: 0 !important;
 }
 
-#leftBlock {
+.leftBlock {
     position: fixed;
     top: 20px;
-    left: 15%;
+    left: calc(50% - 600px);
     width: 300px;
     height: calc(100% - 190px);
     max-height: 600px;
@@ -491,78 +501,49 @@ p.at-c, p.at-l, p.at-r {
     text-align: center;
 }
 
-#leftrightBlock {
-    height: calc(100% - 12.8em);
-}
-
-#leftAvatar {
-    margin: 0.6em auto;
-    width: 8em;
-    height: 8em;
+.leftAvatar {
+    margin: 0.6rem auto;
+    width: 8rem;
+    height: 8rem;
     border: 2px solid var(--color-cold-dark);
-    border-radius: 60px;
+    border-radius: 4rem;
     background-image: url(https://avatars0.githubusercontent.com/u/30619816);
     background-size: 100%;
 }
 
-#leftTopLink {
+.leftTopLink {
     display: block;
     color: var(--color-cold-dark);
-    font-size: 1.6em;
+    font-size: 1.6rem;
+    line-height: 2rem;
 }
 
-#leftToggle {
+.leftTocTitle {
     margin: 0;
     padding: 0;
     border-radius: 1em 1em 0 0;
     background-color: var(--color-cold);
     list-style: none;
-}
-
-.leftToggleItem {
-    display: inline-block;
-}
-
-.leftToggleItem::after {
-    content: " |";
-}
-
-.leftToggleItem:last-child::after {
-    content: none;
-}
-
-.leftToggleItemLink {
-    color: var(--color-cold-light);
-    cursor: pointer;
-}
-
-.leftToggleItemLinkOn {
-    color: #000;
     font-weight: bold;
-    cursor: auto;
 }
 
-#leftNavigation, #leftToc {
+.leftToc {
     overflow: auto;
     margin: 0;
     padding: 0 0.66em 0 1.66em;
-    height: calc(100% - 2.8em);
+    height: calc(100% - 14.8rem);
     border-bottom-left-radius: 10px;
     background-color: var(--color-cold-dark);
     text-align: left;
 }
 
-#leftNavigation a, #leftNavigation i, #leftToc a, #leftToc i {
+.leftToc, .leftToc a {
     color: var(--color-cold-light);
-}
-
-#leftNavigation i, #leftToc i {
-    width: 1.5em;
 }
 
 #rightBlock {
     position: relative;
-    margin: 20px 15% 20px calc(15% + 300px);
+    margin: 20px 0 20px 300px;
     padding: 1em;
     border-color: #FFF;
     border-style: dashed;
@@ -735,14 +716,14 @@ p.at-c, p.at-l, p.at-r {
 #payBlock {
     position: fixed;
     bottom: 20px;
-    left: 15%;
+    left: calc(50% - 600px);
     width: 300px;
 }
 
 #payBlock::before {
     position: fixed;
     bottom: 122px;
-    left: 15%;
+    left: calc(50% - 600px);
     display: block;
     box-sizing: border-box;
     padding: 16px;
@@ -844,19 +825,45 @@ p.at-c, p.at-l, p.at-r {
     opacity: 1;
 }
 
-#footer {
+footer {
     margin: 1em auto;
     max-width: 800px;
     border-radius: 10px;
     background-color: rgba(255, 255, 255, 0.8);
     text-align: center;
+    color: var(--color-warm);
+    font-size: 0.8rem;
 }
 
-#footerCounter {
+.footerLicenseLink {
     display: block;
+    width: 120px;
+    height: 42px;
+    background: url(https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-nc-sa.svg);
+    margin: 0.32rem auto;
 }
 
-#footerCnzz {
+.footerLink {
+    list-style: none;
+}
+
+.footerLink::before {
+    content: '\94fe\63a5\ff1a';
+}
+
+.footerLinkItem {
+    display: inline-block;
+}
+
+.footerLinkItem::after {
+    content: ' | ';
+}
+
+.footerLinkItem:last-child::after {
+    content: normal;
+}
+
+.footerCnzz {
     display: none;
 }
 
@@ -1080,13 +1087,8 @@ p.at-c, p.at-l, p.at-r {
 }
 
 @media screen and (max-width: 1200px) {
-    #leftBlock, #payBlock, #payBlock::before {
+    .leftBlock, #payBlock, #payBlock::before {
         left: 0;
-    }
-
-    #rightBlock {
-        margin-right: 0;
-        margin-left: 300px;
     }
 
     .pageInfo {
@@ -1119,12 +1121,9 @@ p.at-c, p.at-l, p.at-r {
 }
 
 @media screen and (max-width: 800px) {
-    #leftBlock {
-        position: relative;
-        top: 0;
-        left: 0;
+    .leftBlock {
+        position: static;
         width: 100%;
-        height: 12.8em;
         max-height: none;
         min-height: 0;
         border: 0;
@@ -1132,25 +1131,19 @@ p.at-c, p.at-l, p.at-r {
         box-shadow: none;
     }
 
-    #leftleftBlock {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 12em;
+    .leftAvatar {
+        float: left;
+        height: 3.8rem;
+        width: 3.8rem;
+        margin: 0 0.5rem;
     }
 
-    #leftrightBlock {
-        position: absolute;
-        top: 0;
-        left: 12em;
-        width: calc(100% - 12em);
+    .leftTopLink, .leftDescription {
+        margin-left: 4.8rem;
+        margin-right: 0.5rem;
     }
 
-    #leftToggle {
-        margin: 0;
-    }
-
-    #leftNavigation, #leftToc {
+    .leftToc {
         height: 11em;
         border-bottom-left-radius: 0;
     }
@@ -1212,27 +1205,6 @@ p.at-c, p.at-l, p.at-r {
         min-height: 0;
     }
 
-    #leftBlock, #leftleftBlock, #leftrightBlock {
-        position: static;
-        width: 100%;
-        height: auto;
-    }
-
-    #leftAvatar {
-        float: left;
-        margin: 0 -4.6em 0 1em;
-        width: 3.6em;
-        height: 3.6em;
-    }
-
-    #leftrightBlock {
-        clear: both;
-    }
-
-    #leftNavigation, #leftToc {
-        height: auto;
-    }
-
     .pagePrev, .pageNext {
         position: static;
     }
@@ -1274,7 +1246,7 @@ p.at-c, p.at-l, p.at-r {
         size: auto;
     }
 
-    .noPrint, .infoBox, #rightInfoBox, #leftBlock, #rightComment, #topLink, #payBlock, #footerCounter, .google-auto-placed {
+    .noPrint, .infoBox, #rightInfoBox, .leftBlock, #rightComment, #topLink, #payBlock, #footerCounter, .google-auto-placed {
         display: none !important;
     }
 
@@ -1394,7 +1366,7 @@ p.at-c, p.at-l, p.at-r {
     }
 }
 
-/* TeX */
+/* 数学字体 */
 @font-face {
     font-family: "TeX";
     src: url("https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/woff/MathJax_Main-Regular.woff");
@@ -1412,10 +1384,48 @@ p.at-c, p.at-l, p.at-r {
     src: url("https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/woff/MathJax_Main-Bold.woff");
 }
 
+@font-face {
+    font-family: "STIX-Web";
+    src: url("https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/fonts/HTML-CSS/STIX-Web/woff/STIXMathJax_Main-Regular.woff");
+}
+
+@font-face {
+    font-style: italic;
+    font-family: "STIX-Web";
+    src: url("https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/fonts/HTML-CSS/STIX-Web/woff/STIXMathJax_Main-Italic.woff");
+}
+
+@font-face {
+    font-weight: bold;
+    font-family: "STIX-Web";
+    src: url("https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/fonts/HTML-CSS/STIX-Web/woff/STIXMathJax_Main-Bold.woff");
+}
+
+/* 字体名定义 */
+@font-face {
+    font-family: "HeiTi";
+    src: local("Noto Sans CJK SC"), local("Source Han Sans CN"), local("Source Han Sans"), local("Microsoft Yahei"), local(Simhei), local(sans-serif);
+}
+
+@font-face {
+    font-family: "HeiTi Print";
+    src: local(Simhei), local(sans-serif);
+}
+
+@font-face {
+    font-family: "SongTi";
+    src: local("Noto Serif CJK SC"), local("Source Han Serif CN"), local("Source Han Serif"), local(Simsun), local(serif);
+}
+
+@font-face {
+    font-family: "SongTi Print";
+    src: local(Simsun), local(serif);
+}
+
 /* 标点符号 */
 @font-face {
     font-family: "Punctuation Sans Serif";
-    src: local("Noto Sans CJK SC"), local("Source Han Sans CN"), local("Microsoft Yahei"), local(Simhei), local(sans-serif);
+    src: local("Noto Sans CJK SC"), local("Source Han Sans CN"), local("Source Han Sans"), local("Microsoft Yahei"), local(Simhei), local(sans-serif);
     unicode-range: U+00B7, U+2014, U+2018-2019, U+201C-201D, U+2026, U+25CF, U+3001, U+3002, U+3008-3009, U+300A-300B, U+300C-300F, U+3014-3015, U+FF01, U+FF08-FF09, U+FF0C, U+FF0D, U+FF0E, U+FF0F, U+FF1A, U+FF1B, U+FF1F, U+FF3C;
 }
 
@@ -1427,7 +1437,7 @@ p.at-c, p.at-l, p.at-r {
 
 @font-face {
     font-family: "Punctuation Serif";
-    src: local("Noto Serif CJK SC"), local("Source Han Serif CN"), local(Simsun), local(serif);
+    src: local("Noto Serif CJK SC"), local("Source Han Serif CN"), local("Source Han Serif"), local(Simsun), local(serif);
     unicode-range: U+00B7, U+2014, U+2018-2019, U+201C-201D, U+2026, U+25CF, U+3001, U+3002, U+3008-3009, U+300A-300B, U+300C-300F, U+3014-3015, U+FF01, U+FF08-FF09, U+FF0C, U+FF0D, U+FF0E, U+FF0F, U+FF1A, U+FF1B, U+FF1F, U+FF3C;
 }
 
