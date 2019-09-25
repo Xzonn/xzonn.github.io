@@ -33,14 +33,14 @@ a, button, div, input {
 }
 
 body {
+    margin: 0 auto;
+    max-width: 1200px;
     background-image: url(/images/background.png);
     background-attachment: fixed;
     counter-reset: chapnum fignum tablenum h2num h3num h4num;
-    font-family: var(--font-family-sans-serif);
     font-size: 1rem;
+    font-family: var(--font-family-sans-serif);
     line-height: 1.8;
-    max-width: 1200px;
-    margin: 0 auto;
 }
 
 h1 {
@@ -387,6 +387,8 @@ ref, .reficon {
 
 .MathJax_SVG_Display {
     text-indent: -2.2em !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
 }
 
 .MathJax_SVG_Display .MathJax_SVG {
@@ -830,17 +832,17 @@ footer {
     max-width: 800px;
     border-radius: 10px;
     background-color: rgba(255, 255, 255, 0.8);
-    text-align: center;
     color: var(--color-warm);
+    text-align: center;
     font-size: 0.8rem;
 }
 
 .footerLicenseLink {
     display: block;
+    margin: 0.32rem auto;
     width: 120px;
     height: 42px;
     background: url(https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-nc-sa.svg);
-    margin: 0.32rem auto;
 }
 
 .footerLink {
@@ -1133,14 +1135,14 @@ footer {
 
     .leftAvatar {
         float: left;
-        height: 3.8rem;
-        width: 3.8rem;
         margin: 0 0.5rem;
+        width: 3.8rem;
+        height: 3.8rem;
     }
 
     .leftTopLink, .leftDescription {
-        margin-left: 4.8rem;
         margin-right: 0.5rem;
+        margin-left: 4.8rem;
     }
 
     .leftToc {

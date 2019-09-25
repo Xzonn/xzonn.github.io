@@ -128,7 +128,7 @@ $(function() {
             break;
         default:
             $(this).wrap($("<figure/>").addClass(disp == "left" ? "a-l" : disp == "right" ? "a-r" : ""));
-            title && $("<figcaption/>").text(title).appendTo($(this).parent());
+            title && $("<figcaption/>").addClass("figureCaption").html(title).appendTo($(this).parent());
             $(this).wrap($("<a/>").attr({
                 "href": this.src,
                 "target": "_blank"
