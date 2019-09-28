@@ -66,7 +66,7 @@
         <script src="/js/{{ i }}.js"></script>{% endfor %}
         <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.name }}</title>
     </head>
-    <body>
+    <body{% if page.class %} class="{{ page.class }}"{% endif %}>
         <div class="leftBlock">
             <div class="leftAvatar"></div>
             <a class="leftTopLink" href="/">{{ site.name }}</a>
