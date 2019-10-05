@@ -76,7 +76,7 @@ div, input, a, button {
     transition: all 0.3s ease-out;
 }
 
-#content ul, #content ol, dl, #content table, pre, figure {
+#content table, pre, figure {
     margin: 0.6rem auto;
 }
 
@@ -1448,22 +1448,22 @@ footer {
 /* 字体名定义 */
 @font-face {
     font-family: "HeiTi";
-    src: local("Noto Sans CJK SC"), local("Source Han Sans CN Regular"), local("Source Han Sans"), local("Microsoft Yahei"), local(Simhei), local(sans-serif);
+    src: local("Noto Sans CJK SC"), local("Source Han Sans CN Regular"), local("Source Han Sans"), local("Microsoft Yahei"), local(Simhei);
 }
 
 @font-face {
     font-family: "HeiTi Print";
-    src: local("FZHei-B01"), local(Simhei), local(sans-serif);
+    src: local("FZHei-B01"), local(Simhei);
 }
 
 @font-face {
     font-family: "SongTi";
-    src: local("Noto Serif CJK SC"), local("Source Han Serif CN"), local("Source Han Serif"), local(Simsun), local(serif);
+    src: local("Noto Serif CJK SC"), local("Source Han Serif CN"), local("Source Han Serif"), local(Simsun);
 }
 
 @font-face {
     font-family: "SongTi Print";
-    src: local("FZShuSong-Z01"), local(Simsun), local(serif);
+    src: local("FZShuSong-Z01"), local(Simsun);
 }
 
 /* 标点符号 */
