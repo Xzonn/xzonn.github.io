@@ -128,7 +128,9 @@ $(function() {
             break;
         default:
             $(this).wrap($("<figure/>").addClass(disp == "left" ? "a-l" : disp == "right" ? "a-r" : ""));
-            title && $("<figcaption/>").addClass("figureCaption").html(title).appendTo($(this).parent());
+            title && $("<figcaption/>").addClass("figureCaption").attr({
+                "id": "figure-" + this.src.split("/").slice(-1)[0]
+            }).html(title).appendTo($(this).parent());
             $(this).wrap($("<a/>").attr({
                 "href": this.src,
                 "target": "_blank"
@@ -139,6 +141,36 @@ $(function() {
             "width": size
         });
     });
+
+    // 图注、表注显示
+    (function() {
+        let figureCaptions = $(".figureCaption"),
+            figureCaptionId = {};
+        $(".figureCaption").each(function (n) {
+            if (this.id) {
+                figureCaptionId[this.id] = n + 1;
+            }
+        });
+        $("a.xrefFigure").each(function() {
+            let hash = this.href.split("#").slice(-1)[0];
+            if (figureCaptionId[hash]) {
+                $(this).text("图 " + figureCaptionId[hash]);
+            }
+        });
+        let tableCaptions = $(".tableCaption"),
+            tableCaptionId = {};
+        $(".tableCaption").each(function (n) {
+            if (this.id) {
+                tableCaptionId[this.id] = n + 1;
+            }
+        });
+        $("a.xrefTable").each(function() {
+            let hash = this.href.split("#").slice(-1)[0];
+            if (tableCaptionId[hash]) {
+                $(this).text("表 " + tableCaptionId[hash]);
+            }
+        });
+    })();
 
     // 注释
     $("#content ref").each(function(count) {

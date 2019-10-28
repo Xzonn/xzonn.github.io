@@ -1,12 +1,12 @@
 ﻿@charset "UTF-8";
 
 :root {
-    --font-family-sans-serif: "Punctuation Sans Serif", "Segoe UI", Roboto, "Helvetica Neue", Arial, HeiTi, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    --font-family-sans-serif-print: "Punctuation Sans Serif Print", Arial, "HeiTi Print", sans-serif;
-    --font-family-serif: "Punctuation Serif", STIX-Web，TeX, "Times New Roman", SongTi, serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    --font-family-serif-print: "Punctuation Serif Print", STIX-Web，TeX, "Times New Roman", "SongTi Print", serif;
+    --font-family-sans-serif: "Punctuation Sans Serif", "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans CJK SC", "Source Han Sans CN", "Microsoft Yahei", Simhei, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    --font-family-sans-serif-print: "Punctuation Sans Serif Print", Arial, Simhei, sans-serif;
+    --font-family-serif: "Punctuation Serif", STIX-Web, "Times New Roman", "Source Han Serif CN", Simsun, serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    --font-family-serif-print: "Punctuation Serif Print", STIX-Web, "Times New Roman", Simsun, serif;
     --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", "Noto Sans CJK SC", "Source Han Sans CN", "Microsoft Yahei", Simhei, monospace;
-    --font-family-reference: STIX-Web，TeX, "Times New Roman", FangSong, Simfang, KaiTi, Simkai, Simsun, serif;
+    --font-family-reference: STIX-Web, "Times New Roman", FangSong, Simfang, KaiTi, Simkai, Simsun, serif;
     --color-cold: #006FC5;
     --color-cold-light: #8CC2EB;
     --color-cold-dark: #003C6A;
@@ -1412,23 +1412,6 @@ footer {
 
 /* 数学字体 */
 @font-face {
-    font-family: "TeX";
-    src: url("https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/woff/MathJax_Main-Regular.woff");
-}
-
-@font-face {
-    font-style: italic;
-    font-family: "TeX";
-    src: url("https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/woff/MathJax_Main-Italic.woff");
-}
-
-@font-face {
-    font-weight: bold;
-    font-family: "TeX";
-    src: url("https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/fonts/HTML-CSS/TeX/woff/MathJax_Main-Bold.woff");
-}
-
-@font-face {
     font-family: "STIX-Web";
     src: url("https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/fonts/HTML-CSS/STIX-Web/woff/STIXMathJax_Main-Regular.woff");
 }
@@ -1443,27 +1426,6 @@ footer {
     font-weight: bold;
     font-family: "STIX-Web";
     src: url("https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/fonts/HTML-CSS/STIX-Web/woff/STIXMathJax_Main-Bold.woff");
-}
-
-/* 字体名定义 */
-@font-face {
-    font-family: "HeiTi";
-    src: local("Noto Sans CJK SC"), local("Source Han Sans CN Regular"), local("Source Han Sans"), local("Microsoft Yahei"), local(Simhei);
-}
-
-@font-face {
-    font-family: "HeiTi Print";
-    src: local("FZHei-B01"), local(Simhei);
-}
-
-@font-face {
-    font-family: "SongTi";
-    src: local("Noto Serif CJK SC"), local("Source Han Serif CN"), local("Source Han Serif"), local(Simsun);
-}
-
-@font-face {
-    font-family: "SongTi Print";
-    src: local("FZShuSong-Z01"), local(Simsun);
 }
 
 /* 标点符号 */
