@@ -3,7 +3,7 @@ layout: post
 title: 《有机化学》知识点整理（下）
 infoBox: complete formula
 tags: 学习资料 化学 知识点整理 三次元
-update: 2019-10-28
+update: 2019-10-29
 ---
 <p class="noPrint">因技术限制，本页面仅提供期中考试后（第7 ~ 12章）的内容。期中考试前的内容请移步 <strong><a href="/Organic-Chemistry-Notes-A/">此页</a></strong>。</p>
 
@@ -67,8 +67,8 @@ update: 2019-10-28
 <tr><td>稀$\ce{HNO3}$</td><td>醛→酸</td><td>不反应</td><td>不反应</td><td>酸性条件</td></tr>
 <tr><td>浓$\ce{HNO3}$</td><td>酸</td><td>酮<br>环醇→环酮</td><td>小分子酸、酮<br>环醇→酮、酸</td><td>酸性条件</td></tr>
 <tr><td>新制$\ce{MnO2}$</td><td>烯丙位、苯甲位氧化为醛</td><td>酮</td><td>不反应</td><td>中性，不饱和键不受影响</td></tr>
-<tr><td>沙瑞特试剂<br>$\ce{CrO3.吡啶}$</td><td>醛</td><td>酮</td><td>不反应</td><td>弱碱，条件温和，不饱和键不受影响</td></tr>
-<tr><td>PCC<br>$\ce{CrO3/吡啶/HCl}$</td><td>醛</td><td>酮</td><td>不反应</td><td>酸性，条件温和，不饱和键不受影响</td></tr>
+<tr><td>沙瑞特试剂<br>$\ce{CrO3.}$吡啶</td><td>醛</td><td>酮</td><td>不反应</td><td>弱碱，条件温和，不饱和键不受影响</td></tr>
+<tr><td>PCC<br>$\ce{CrO3/}$吡啶/$\ce{HCl}$</td><td>醛</td><td>酮</td><td>不反应</td><td>酸性，条件温和，不饱和键不受影响</td></tr>
 </tbody>
 </table>
 * 脱氢氧化反应：$\ce{RCH2OH ->\[CuCrO4\]\[高温\] RCHO + H2}$，$\ce{R2CHOH ->\[CuCrO4\]\[高温\] R(C=O)R' + H2}$。$3^\circ$醇不发生此反应。

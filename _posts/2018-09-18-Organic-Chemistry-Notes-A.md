@@ -3,7 +3,7 @@ layout: post
 title: 《有机化学》知识点整理（上）
 infoBox: complete formula
 tags: 学习资料 化学 知识点整理 三次元
-update: 2019-09-28
+update: 2019-10-29
 ---
 <p class="noPrint">因技术限制，本页面仅提供期中考试前（第1 ~ 6章）的内容。期中考试后的内容请移步 <strong><a href="/Organic-Chemistry-Notes-B/">此页</a></strong>。</p>
 
@@ -502,23 +502,23 @@ update: 2019-09-28
   - 格氏试剂很活泼，卤代物上带有烷基、芳香基、烷氧基、卤素可以制备格氏试剂。
 - 格氏试剂的反应：
   - 带有活泼氢的化合物：通常是需要注意避免的副反应
-    - $\ce{R-MgX + HOH -> RH + Mg(OH)X}$。
-    - $\ce{R-MgX + R'OH -> RH + Mg(OR')X}$。
-    - $\ce{R-MgX + R'NH2 -> RH + Mg(NHR')X}$。
-    - $\ce{R-MgX + HC#CR' -> RH + R'C#CMgX}$。
+    - $$\ce{R-MgX + HOH -> RH + Mg(OH)X}$$。
+    - $$\ce{R-MgX + R'OH -> RH + Mg(OR')X}$$。
+    - $$\ce{R-MgX + R'NH2 -> RH + Mg(NHR')X}$$。
+    - $$\ce{R-MgX + HC#CR' -> RH + R'C#CMgX}$$。
   - 与活泼卤代烷反应：这是增长碳链的重要方法，适用于三级、烯丙型、苯甲型活泼卤代烷，一级、二级卤代烷不发生此反应。
-    - $\ce{R-MgX + (CH3)3CCl -> (CH3)3C-R + MgClX}$。
-    - $\ce{R-MgX + CH2=CHCH2Cl -> CH2=CHCH2-R + MgClX}$。
-    - $\ce{R-MgX + PhCH2X -> PhCH2-R + MgClX}$。
-  - 与羰基化合物加成：分析带电情况，羰基化合物中$\ce{C}$带正电，$\ce{O}$带负电。格氏试剂中$\ce{R}$带正电，$\ce{MgX}$带负电。
-    - $\ce{R-MgX + HCHO -> RCH2OMgX ->\[H+\]\[H2O\] RCH2OH}$。
-    - $\ce{R-MgX +}$<svg class="chemSvg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="268.65 357.99 15.45 16.79" width="19" height="20"><g><g><g><text xml:space="preserve"><tspan x="272.47" y="374.66">O</tspan></text></g><g><path d="M279.2 366.47 L279.2 366.47 L278.94 366.31 L278.68 366.16 L283.06 358.59 L283.58 358.29 L284.1 357.99 Z" /></g><g><path d="M284.1 357.99 L284.1 357.99 L283.58 358.29 L283.06 358.59 L269.69 358.59 L269.17 358.29 L268.65 357.99 Z" /></g><g><path d="M268.65 357.99 L268.65 357.99 L269.17 358.29 L269.69 358.59 L274.06 366.16 L273.8 366.31 L273.54 366.46 Z" /></g></g></g></svg>$\ce{-> RCH2CH2OMgX ->\[H+\]\[H2O\] RCH2CH2OH}$。
-    - $\ce{R-MgX + R'CHO -> R(R')CHOMgX ->\[H+\]\[H2O\] R(R')CHOH}$。
-    - $\ce{R-MgX + R'COR'' -> R(R')(R'')OMgX ->\[H+\]\[H2O\] R(R')(R'')OH}$。
-    - $\ce{R-MgX + R'COOR'' -> R'OR ->\[R-MgX\] ->\[H+\]\[H2O\] R2(R')COH}$。
-    - $\ce{R-MgX + R'COCl -> R'COR ->\[R-MgX\] ->\[H+\]\[H2O\] R2(R')COH}$。
-    - $\ce{R-MgX + R'CN -> R(R')C=NMgX ->\[H+\]\[H2O\] RCOR'}$。
-    - $\ce{R-MgX + CO2 -> RCOOMgX ->\[H+\]\[H2O\] RCOOH}$。
+    - $$\ce{R-MgX + (CH3)3CCl -> (CH3)3C-R + MgClX}$$。
+    - $$\ce{R-MgX + CH2=CHCH2Cl -> CH2=CHCH2-R + MgClX}$$。
+    - $$\ce{R-MgX + PhCH2X -> PhCH2-R + MgClX}$$。
+  - 与羰基化合物加成：分析带电情况，羰基化合物中$$\ce{C}$$带正电，$$\ce{O}$$带负电。格氏试剂中$$\ce{R}$$带正电，$$\ce{MgX}$$带负电。
+    - $$ce{R-MgX + HCHO -> RCH2OMgX ->[H+][H2O] RCH2OH}$$。
+    - $$ce{R-MgX +}$$<svg class="chemSvg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="268.65 357.99 15.45 16.79" width="19" height="20"><g><g><g><text xml:space="preserve"><tspan x="272.47" y="374.66">O</tspan></text></g><g><path d="M279.2 366.47 L279.2 366.47 L278.94 366.31 L278.68 366.16 L283.06 358.59 L283.58 358.29 L284.1 357.99 Z" /></g><g><path d="M284.1 357.99 L284.1 357.99 L283.58 358.29 L283.06 358.59 L269.69 358.59 L269.17 358.29 L268.65 357.99 Z" /></g><g><path d="M268.65 357.99 L268.65 357.99 L269.17 358.29 L269.69 358.59 L274.06 366.16 L273.8 366.31 L273.54 366.46 Z" /></g></g></g></svg>$$ce{-> RCH2CH2OMgX ->[H+][H2O] RCH2CH2OH}$$。
+    - $$ce{R-MgX + R'CHO -> R(R')CHOMgX ->[H+][H2O] R(R')CHOH}$$。
+    - $$ce{R-MgX + R'COR'' -> R(R')(R'')OMgX ->[H+][H2O] R(R')(R'')OH}$$。
+    - $$ce{R-MgX + R'COOR'' -> R'OR ->[R-MgX] ->[H+][H2O] R2(R')COH}$$。
+    - $$ce{R-MgX + R'COCl -> R'COR ->[R-MgX] ->[H+][H2O] R2(R')COH}$$。
+    - $$ce{R-MgX + R'CN -> R(R')C=NMgX ->[H+][H2O] RCOR'}$$。
+    - $$ce{R-MgX + CO2 -> RCOOMgX ->[H+][H2O] RCOOH}$$。
 
 #### 4.5.2 其它金属有机化合物
 - 有机锂试剂：$\ce{CH3(CH2)3Br + 2Li ->\[无水乙醚\]\[-10 ^\circ C\] CH3CH2CH2CH2Li + LiBr}$。
@@ -741,7 +741,7 @@ update: 2019-09-28
     - 酰基是一个钝化的间位定位基，所以反应能控制在一元取代阶段，产率很好。
     - 反应是不可逆的，不会发生取代基的转移反应。
   - 应用：制备芳香酮；制备直链烷烃。<svg class="chemSvg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="249.2 350.51 54.35 31.73" width="65" height="38"><g><g><g><path d="M256.58 382.24 L256.58 382.24 L256.75 381.94 L256.92 381.64 L270.98 381.64 L271.15 381.94 L271.32 382.24 Z" /><line x1="258.25" y1="379.35" x2="269.65" y2="379.35" stroke-width="0.6" shape-rendering="auto" /></g><g><path d="M271.32 382.24 L271.32 382.24 L271.15 381.94 L270.98 381.64 L278 369.47 L278.35 369.47 L278.52 369.77 Z" /></g><g><path d="M278.52 369.17 L278.52 369.17 L278.35 369.47 L278 369.47 L270.98 357.3 L271.15 357 L271.32 356.7 Z" /><line x1="275.36" y1="369.47" x2="269.65" y2="359.59" stroke-width="0.6" shape-rendering="auto" /></g><g><path d="M271.32 356.7 L271.32 356.7 L271.15 357 L270.98 357.3 L256.92 357.3 L256.75 357 L256.58 356.7 Z" /></g><g><path d="M256.58 356.7 L256.58 356.7 L256.75 357 L256.92 357.3 L249.9 369.47 L249.55 369.47 L249.2 369.47 Z" /><line x1="258.25" y1="359.59" x2="252.54" y2="369.47" stroke-width="0.6" shape-rendering="auto" /></g><g><path d="M249.2 369.47 L249.2 369.47 L249.55 369.47 L249.9 369.47 L256.92 381.64 L256.75 381.94 L256.58 382.24 Z" /></g><g><text xml:space="preserve"><tspan x="289.15" y="373.37" font-size="9.95">CR</tspan></text></g><g><path d="M278.52 369.77 L278.52 369.77 L278.35 369.47 L278.52 369.17 L288.1 369.17 L288.1 369.47 L288.1 369.77 Z" /></g><g><text xml:space="preserve"><tspan x="287.55" y="358.97">O</tspan></text></g><g><path d="M293.05 364.6 L293.05 364.6 L292.75 364.6 L292.45 364.6 L292.45 360.7 L292.75 360.7 L293.05 360.7 Z" /><line x1="290.16" y1="364.6" x2="290.16" y2="360.7" stroke-width="0.6" shape-rendering="auto" /></g></g></g></svg>$\ce{->[Zn-Hg/HCl] Ph-CH2R}$。
-- 氯甲基化反应：$\ce{C6H6 + HCHO + HCl(浓) ->[ZnCl2, 60 ^\circ C] Ph-CH2Cl}$。
+- 氯甲基化反应：$\ce{C6H6 + HCHO + HCl(}$浓$\ce{) ->[ZnCl2, 60 ^\circ C] Ph-CH2Cl}$。
   - 反应机理：$\ce{HCHO + H+ <=> H2C+-OH}$。
 - 加特曼-科赫反应：$\ce{C6H6 + CO + HCl ->[AlCl3-CuCl] Ph-CHO}$。
 
