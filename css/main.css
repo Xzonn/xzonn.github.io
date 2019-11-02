@@ -116,12 +116,12 @@ blockquote::after {
 
 /* 列表 */
 ul, ol {
-    padding-left: 2rem;
+    padding-left: 2em;
 }
 
 ul ul, ul ol, ol ol, ol ul {
     margin: 0 auto;
-    padding-left: 1rem;
+    padding-left: 1em;
 }
 
 dl {
@@ -138,7 +138,7 @@ dt {
 }
 
 dd {
-    margin-left: 2em;
+    padding-left: 2em;
 }
 
 .no-list-style {
@@ -373,35 +373,23 @@ a[href]:hover {
     text-decoration: underline;
 }
 
-ref {
-    position: absolute;
-    bottom: 0;
-    left: 1px;
-    z-index: 2;
-    display: block;
-    padding: 3px 3px 3px 26px;
-    width: calc(100% - 33px);
-    border: 1px dashed var(--color-warm-dark);
-    border-radius: 10px 10px;
-    background-color: rgba(255, 255, 255, 0.9);
-    background-position: 3px;
-    background-size: 20px;
-    color: var(--color-warm-dark);
-    text-indent: 0;
-    font-size: 0.8rem;
-    font-family: var(--font-family-serif);
+span.fn {
+    display: none;
 }
 
-.reficon {
-    display: inline-block;
-    width: 1em;
-    height: 1em;
+sup.refIcon {
     cursor: pointer;
 }
 
-ref, .reficon {
-    background-image: var(--image-note);
-    background-repeat: no-repeat;
+.refBox {
+    position: absolute;
+    padding: 0 0.5rem;
+    width: 100%;
+    border: 2px solid var(--color-cold-dark);
+    border-radius: 0.5rem;
+    background: var(--color-cold-light);
+    color: var(--color-cold-dark);
+    transition: none;
 }
 
 /* MathJax */
@@ -431,6 +419,11 @@ ref, .reficon {
 
 text, tspan {
     font-family: var(--font-family-sans-serif) !important;
+}
+
+/* 语言 */
+[lang="en"] {
+    font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial;
 }
 
 /* Han.js */
@@ -716,6 +709,7 @@ p.at-c, p.at-l, p.at-r {
 }
 
 #content {
+    position: relative;
     clear: right;
 }
 

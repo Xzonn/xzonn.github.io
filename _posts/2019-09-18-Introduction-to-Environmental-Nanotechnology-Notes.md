@@ -7,8 +7,8 @@ update: 2019-09-25
 ---
 <style>
     .importance-1, .importance-2, .importance-3 {
-        float: right;
-        clear: right;
+        position: absolute;
+        left: 0;
         display: block;
         box-sizing: content-box;
         width: 1.6rem;
@@ -51,6 +51,10 @@ update: 2019-09-25
     .importance-3::before {
         content: '3';
     }
+    
+    #content > ul, #content > ol, #content > p {
+        margin-left: 2rem;
+    }
 </style>
 
 ## 第1讲 环境纳米材料绪论
@@ -84,7 +88,7 @@ update: 2019-09-25
 ### 1.2. 尺度
 <figure>
     <a href="https://i.loli.net/2019/09/18/FJriVajf6cnZAbg.png" target="_blank"><img class="image" src="https://i.loli.net/2019/09/18/FJriVajf6cnZAbg.png" alt="常见微观尺度物质" /></a>
-    <figcaption>常见微观尺度物质<span class="importance-1"></span></figcaption>
+    <figcaption class="figureCaption"><span class="importance-1"></span>常见微观尺度物质</figcaption>
 </figure>
 
 - <span class="importance-1"></span>纳米科学的基本概念：

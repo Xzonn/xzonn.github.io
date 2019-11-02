@@ -3,7 +3,8 @@ layout: post
 title: 《环境化学》讨论题整理（大气部分）
 infoBox: incomplete
 tags: 学习资料 环院专业课 知识点整理 三次元
-update: 2019-10-29
+update: 2019-11-01
+headImage: https://s2.ax1x.com/2019/10/26/KBXcuj.png
 ---
 <style>
     h2 {

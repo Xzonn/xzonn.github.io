@@ -511,14 +511,14 @@ update: 2019-10-29
     - $$\ce{R-MgX + CH2=CHCH2Cl -> CH2=CHCH2-R + MgClX}$$。
     - $$\ce{R-MgX + PhCH2X -> PhCH2-R + MgClX}$$。
   - 与羰基化合物加成：分析带电情况，羰基化合物中$$\ce{C}$$带正电，$$\ce{O}$$带负电。格氏试剂中$$\ce{R}$$带正电，$$\ce{MgX}$$带负电。
-    - $$ce{R-MgX + HCHO -> RCH2OMgX ->[H+][H2O] RCH2OH}$$。
-    - $$ce{R-MgX +}$$<svg class="chemSvg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="268.65 357.99 15.45 16.79" width="19" height="20"><g><g><g><text xml:space="preserve"><tspan x="272.47" y="374.66">O</tspan></text></g><g><path d="M279.2 366.47 L279.2 366.47 L278.94 366.31 L278.68 366.16 L283.06 358.59 L283.58 358.29 L284.1 357.99 Z" /></g><g><path d="M284.1 357.99 L284.1 357.99 L283.58 358.29 L283.06 358.59 L269.69 358.59 L269.17 358.29 L268.65 357.99 Z" /></g><g><path d="M268.65 357.99 L268.65 357.99 L269.17 358.29 L269.69 358.59 L274.06 366.16 L273.8 366.31 L273.54 366.46 Z" /></g></g></g></svg>$$ce{-> RCH2CH2OMgX ->[H+][H2O] RCH2CH2OH}$$。
-    - $$ce{R-MgX + R'CHO -> R(R')CHOMgX ->[H+][H2O] R(R')CHOH}$$。
-    - $$ce{R-MgX + R'COR'' -> R(R')(R'')OMgX ->[H+][H2O] R(R')(R'')OH}$$。
-    - $$ce{R-MgX + R'COOR'' -> R'OR ->[R-MgX] ->[H+][H2O] R2(R')COH}$$。
-    - $$ce{R-MgX + R'COCl -> R'COR ->[R-MgX] ->[H+][H2O] R2(R')COH}$$。
-    - $$ce{R-MgX + R'CN -> R(R')C=NMgX ->[H+][H2O] RCOR'}$$。
-    - $$ce{R-MgX + CO2 -> RCOOMgX ->[H+][H2O] RCOOH}$$。
+    - $$\ce{R-MgX + HCHO -> RCH2OMgX ->[H+][H2O] RCH2OH}$$。
+    - $$\ce{R-MgX +}$$<svg class="chemSvg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="268.65 357.99 15.45 16.79" width="19" height="20"><g><g><g><text xml:space="preserve"><tspan x="272.47" y="374.66">O</tspan></text></g><g><path d="M279.2 366.47 L279.2 366.47 L278.94 366.31 L278.68 366.16 L283.06 358.59 L283.58 358.29 L284.1 357.99 Z" /></g><g><path d="M284.1 357.99 L284.1 357.99 L283.58 358.29 L283.06 358.59 L269.69 358.59 L269.17 358.29 L268.65 357.99 Z" /></g><g><path d="M268.65 357.99 L268.65 357.99 L269.17 358.29 L269.69 358.59 L274.06 366.16 L273.8 366.31 L273.54 366.46 Z" /></g></g></g></svg>$$\ce{-> RCH2CH2OMgX ->[H+][H2O] RCH2CH2OH}$$。
+    - $$\ce{R-MgX + R'CHO -> R(R')CHOMgX ->[H+][H2O] R(R')CHOH}$$。
+    - $$\ce{R-MgX + R'COR'' -> R(R')(R'')OMgX ->[H+][H2O] R(R')(R'')OH}$$。
+    - $$\ce{R-MgX + R'COOR'' -> R'OR ->[R-MgX] ->[H+][H2O] R2(R')COH}$$。
+    - $$\ce{R-MgX + R'COCl -> R'COR ->[R-MgX] ->[H+][H2O] R2(R')COH}$$。
+    - $$\ce{R-MgX + R'CN -> R(R')C=NMgX ->[H+][H2O] RCOR'}$$。
+    - $$\ce{R-MgX + CO2 -> RCOOMgX ->[H+][H2O] RCOOH}$$。
 
 #### 4.5.2 其它金属有机化合物
 - 有机锂试剂：$\ce{CH3(CH2)3Br + 2Li ->\[无水乙醚\]\[-10 ^\circ C\] CH3CH2CH2CH2Li + LiBr}$。

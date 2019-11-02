@@ -117,24 +117,26 @@ $(function() {
                 title = alt[i];
             }
         }
-        switch (disp) {
-        case "auto":
-        case "none":
-            return;
-        case "block":
-            $(this).css({
-                "display": "block"
-            });
-            break;
-        default:
-            $(this).wrap($("<figure/>").addClass(disp == "left" ? "a-l" : disp == "right" ? "a-r" : ""));
-            title && $("<figcaption/>").addClass("figureCaption").attr({
-                "id": "figure-" + this.src.split("/").slice(-1)[0]
-            }).html(title).appendTo($(this).parent());
-            $(this).wrap($("<a/>").attr({
-                "href": this.src,
-                "target": "_blank"
-            }));
+            switch (disp) {
+            case "auto":
+            case "none":
+                return;
+            case "block":
+                $(this).css({
+                    "display": "block"
+                });
+                break;
+            default:
+                if ($(this).parents("figure").length == 0) {
+                    $(this).wrap($("<figure/>").addClass(disp == "left" ? "a-l" : disp == "right" ? "a-r" : ""));
+                    title && $("<figcaption/>").addClass("figureCaption").attr({
+                        "id": "figure-" + this.src.split("/").slice(-1)[0]
+                    }).html(title).appendTo($(this).parent());
+                }
+                $(this).addClass("figureImage").wrap($("<a/>").addClass("figureLink").attr({
+                    "href": this.src,
+                    "target": "_blank"
+                }));
         }
         this.alt = title;
         $(this).css({
@@ -173,17 +175,28 @@ $(function() {
     })();
 
     // 注释
-    $("#content ref").each(function(count) {
-        $(this).css("bottom", -2 - this.clientHeight).hide();
-        var p = $(this).parent()[0]
-          , reficon = $("<sup/>").addClass("reficon").attr("data-id", count).click(function(event) {
-            $($("ref").fadeOut()[reficon[0].dataset.id]).click(function() {
-                $(this).fadeOut();
+    $("span.fn").each(function(count) {
+        let popper = $("<div/>").addClass("refBox").html(this.innerHTML).attr({
+            "data-id": count + 1
+        }).click(function(e) {
+            e.stopPropagation();
+        }).hide(),
+            refIcon = $("<sup/>").addClass("refIcon").text(count + 1).attr({
+            "data-id": count + 1
+        }).click(function(e) {
+            e.stopPropagation();
+            popper.css({
+                "top": $(this).offset().top + $(this).height() - $(this).offsetParent().offset().top,
+                "left": 0
             }).fadeIn();
+            let fadeOut = function () {
+                popper.fadeOut();
+                $("body").unbind("click", fadeOut);
+            }
+            $("body").bind("click", fadeOut);
         });
-        $(this).before(reficon);
-        $(p).append($(this).detach());
-        $(p).css("position", "relative");
+        $(this).after(refIcon);
+        $("#content").append(popper);
     });
 
     // 信息框
