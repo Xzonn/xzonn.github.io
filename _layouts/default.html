@@ -31,7 +31,7 @@
             });
             MathJax.Hub.Register.StartupHook('End', function () {
                 try {
-                    Han($("#content")[0]).render();
+                    Han(document.body).render();
                 } catch (e) {}
                 window.allDone = 1;
             });

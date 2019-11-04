@@ -84,6 +84,11 @@ $(function() {
     // 代码高亮
     $("#content pre code").each(function() {
         $(this).html("<ul><li>" + $(this).html().replace(/^\s+/, "").replace(/\s+$/, "").replace(/\n/g, "</li><li>") + "</li></ul>");
+        $(this).find("li:last-child").each(function () {
+            if (!this.innerHTML) {
+                $(this).remove();
+            }
+        });
     });
 
     //img标签相关

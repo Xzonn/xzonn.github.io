@@ -14,7 +14,6 @@
     --color-warm-light: #FFB597;
     --color-warm-light-transparent: rgba(255, 181, 151, 0.4);
     --color-warm-dark: #892700;
-    --image-note: url(data:image/svg+xml, '<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 720"><circle cx="360" cy="360" r="320" style="fill:none;stroke:#000;stroke-width:80px"/><path d="M264,418c-19-15-61-37-91-52l37-52c28,12,71,32,93,46Zm64,59c-25,50-54,102-84,150l-59-47c25-36,62-94,91-150ZM290,285c-19-15-60-39-89-54l39-51c27,12,70,33,91,48ZM627,551v66H315V551H441V467H349V401h91V329H330V263H449c-6-20-18-48-29-69l64-22c13,23,29,53,35,73l-49,17H613v66H514v72h83v66H514v84Z" transform="translate(-40 -40)" style="fill:#003C6A"/></svg>');
 }
 
 *, *::before, *::after {
@@ -255,9 +254,10 @@ pre code ul {
 }
 
 pre code ul li {
-    padding: 0 0.5rem;
+    padding: 0 0.5rem 0 2.5rem;
     border-left: 1px solid var(--color-warm);
     background: rgba(255, 255, 255, 0.7);
+    text-indent: -2rem;
 }
 
 pre code ul li:nth-child(2n) {
@@ -378,6 +378,15 @@ span.fn {
 }
 
 sup.refIcon {
+    display: inline-block;
+    box-sizing: content-box;
+    height: 1rem;
+    min-width: 1rem;
+    border: 1px solid var(--color-warm-dark);
+    border-radius: 50%;
+    color: var(--color-warm-dark);
+    text-align: center;
+    line-height: 1rem;
     cursor: pointer;
 }
 
