@@ -151,8 +151,7 @@ $(function() {
 
     // 图注、表注显示
     (function() {
-        let figureCaptions = $(".figureCaption"),
-            figureCaptionId = {};
+        let figureCaptionId = {};
         $(".figureCaption").each(function (n) {
             if (this.id) {
                 figureCaptionId[this.id] = n + 1;
@@ -164,8 +163,7 @@ $(function() {
                 $(this).text("图 " + figureCaptionId[hash]);
             }
         });
-        let tableCaptions = $(".tableCaption"),
-            tableCaptionId = {};
+        let tableCaptionId = {};
         $(".tableCaption").each(function (n) {
             if (this.id) {
                 tableCaptionId[this.id] = n + 1;
@@ -175,6 +173,22 @@ $(function() {
             let hash = this.href.split("#").slice(-1)[0];
             if (tableCaptionId[hash]) {
                 $(this).text("表 " + tableCaptionId[hash]);
+            }
+        });
+    })();
+
+    // 参考文献显示
+    (function() {
+        let endnoteId = {};
+        $(".endnoteRefList li").each(function (n) {
+            if (this.id) {
+                endnoteId[this.id] = n + 1;
+            }
+        });
+        $("sup.endnoteRef > a").each(function() {
+            let hash = this.href.split("#").slice(-1)[0];
+            if (endnoteId[hash]) {
+                $(this).text(endnoteId[hash]);
             }
         });
     })();

@@ -55,19 +55,56 @@ h1#rightTitle::after {
 }
 
 h2 {
+    counter-increment: h2num;
+    counter-reset: h3num h4num;
     font-size: 1.6rem;
 }
 
+h2.prefix-new {
+    counter-reset: h2num;
+}
+
+.prefix h2::before, h2.prefix::before {
+    content: counter(h2num) ". ";
+}
+
+h2.prefix-upper-alpha::before {
+    content: counter(h2num, upper-alpha) ". ";
+}
+
 h3 {
+    counter-increment: h3num;
+    counter-reset: h4num;
     font-size: 1.4rem;
 }
 
+.prefix h3::before, h3.prefix::before {
+    content: counter(h2num) "." counter(h3num) ". ";
+}
+
+h3.prefix-upper-alpha::before {
+    content: counter(h2num, upper-alpha) "." counter(h3num) ". ";
+}
+
 h4 {
+    counter-increment: h4num;
     font-size: 1.2rem;
+}
+
+.prefix h4::before, h4.prefix::before {
+    content: counter(h2num) "." counter(h3num) "." counter(h4num) ". ";
 }
 
 h5, h6 {
     font-size: 1rem;
+}
+
+h5 {
+    font-size: 1rem;
+}
+
+.no-prefix::before, .prefix .no-prefix::before {
+    content: normal;
 }
 
 /* 区块 */
@@ -145,7 +182,11 @@ dd {
 }
 
 /* 表格 */
-#content table {
+table {
+    box-decoration-break: clone;
+}
+
+#content table:not(.figureTable) {
     min-width: 75%;
     border: double var(--color-warm-dark);
     border-collapse: collapse;
@@ -154,33 +195,33 @@ dd {
     font-size: 0.9rem;
 }
 
-#content table > * > tr > td {
+#content table:not(.figureTable) > * > tr > td {
     padding: 0 3px;
     border: 1px dashed var(--color-warm);
 }
 
-#content table > * > tr > td > img:only-child {
+#content table:not(.figureTable) > * > tr > td > img:only-child {
     margin: 3px 0;
 }
 
-#content table > * > tr > th {
+#content table:not(.figureTable) > * > tr > th {
     padding: 0 5px;
     border: 1px solid var(--color-warm-dark);
 }
 
-#content table > * > tr > :first-child {
+#content table:not(.figureTable) > * > tr > :first-child {
     border-left: none;
 }
 
-#content table > * > tr > :last-child {
+#content table:not(.figureTable) > * > tr > :last-child {
     border-right: none;
 }
 
-#content table > * > tr:first-child > * {
+#content table:not(.figureTable) > * > tr:first-child > * {
     border-top: 1px solid var(--color-warm-dark);
 }
 
-#content table > * > tr:last-child > * {
+#content table:not(.figureTable) > * > tr:last-child > * {
     border-bottom: 1px solid var(--color-warm-dark);
 }
 
@@ -310,6 +351,14 @@ figure, .imgGallery {
     background-color: var(--color-warm-light);
 }
 
+.figureTable {
+    width: 100%;
+}
+
+.figureTable-2 > tbody > tr > td:not(::only-child) {
+    width: 50%;
+}
+
 .imgGallery::after {
     clear: left;
     display: block;
@@ -399,6 +448,21 @@ sup.refIcon {
     background: var(--color-cold-light);
     color: var(--color-cold-dark);
     transition: none;
+}
+
+sup.endnoteRef {
+    margin-right: 0.25em;
+    margin-left: 0.25em;
+    font-size: 0.8rem;
+    line-height: none;
+}
+
+sup.endnoteRef::before {
+    content: '[';
+}
+
+sup.endnoteRef::after {
+    content: ']';
 }
 
 /* MathJax */
