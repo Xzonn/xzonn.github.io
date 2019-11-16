@@ -1,8 +1,9 @@
 ---
-title: 《高等数学（下）》试题
+title: 《高等数学（下）》试题整理
 layout: post
 infoBox: incomplete
-tags: 学习资料 数学 往年题整理 三次元
+tags: 学习资料 数学 试题整理 三次元
+update: 2019-11-13
 ---
 ## 2014年春季学期
 ### 期中试题

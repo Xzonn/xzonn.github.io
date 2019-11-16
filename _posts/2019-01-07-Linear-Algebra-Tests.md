@@ -1,9 +1,10 @@
 ---
-title: 《线性代数》试题
+title: 《线性代数》试题整理
 layout: post
 info: 一小时速成？不可能的，想啥呢。
 infoBox: complete
-tags: 学习资料 数学 往年题整理 三次元
+tags: 学习资料 数学 试题整理 三次元
+update: 2019-11-13
 ---
 
 这是《线性代数 (B)》的试题。

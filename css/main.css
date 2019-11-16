@@ -121,6 +121,13 @@ div, input, a, button {
     text-indent: 2em;
 }
 
+hr {
+    border-color: var(--color-warm-dark);
+    border-style: inset;
+    border-style: dashed;
+    border-width: 1px;
+}
+
 /* 引用 */
 blockquote {
     position: relative;
