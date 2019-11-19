@@ -25,7 +25,8 @@
                 SVG: {
                     scale: 86,
                     blacker: 0,
-                    font: "STIX-Web",
+                    font: "STIX-Web",{% if page.print %}
+                    useGlobalCache: false,{% endif %}
                     undefinedFamily: "SongTi"
                 }
             });
@@ -36,7 +37,7 @@
                 window.allDone = 1;
             });
         </script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_SVG" integrity="sha384-Ra6zh6uYMmH5ydwCqqMoykyf1T/+ZcnOQfFPhDrp2kI4OIxadnhsvvA2vv9A7xYv" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js?config=TeX-AMS_SVG" integrity="sha256-nlrDrBTHxJJlDDX22AS33xYI1OJHnGMDhiYMSe2U0e0=" crossorigin="anonymous"></script>
         <!-- Qrcode -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.qrcode/1.0/jquery.qrcode.min.js" integrity="sha256-9MzwK2kJKBmsJFdccXoIDDtsbWFh8bjYK/C7UjB1Ay0=" crossorigin="anonymous"></script>
         <!-- Font Awesome-->
