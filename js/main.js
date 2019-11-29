@@ -52,6 +52,9 @@ $(function() {
             return;
         }
         headings.each(function(n, t) {
+            if (this.classList.contains("no-screen") || this.classList.contains("no-toc")) {
+                return;
+            }
             var thisRank = +this.tagName[1];
             while (thisRank > lastRank) {
                 tocID.push(0);
