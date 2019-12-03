@@ -189,51 +189,138 @@ dd {
 }
 
 /* 表格 */
-table {
-    box-decoration-break: clone;
-}
-
-#content table:not(.figureTable) {
+#content table[class]:not(.figureTable) {
     min-width: 75%;
-    border: double var(--color-warm-dark);
-    border-collapse: collapse;
-    border-width: 3px 0;
     text-align: center;
-    font-size: 0.9rem;
+    border-spacing: 0;
 }
 
-#content table:not(.figureTable) > * > tr > td {
+#content table[class]:not(.figureTable) > * > tr > td, #content table[class]:not(.figureTable) > tbody > tr > th {
     padding: 0 3px;
-    border: 1px dashed var(--color-warm);
 }
 
-#content table:not(.figureTable) > * > tr > td > img:only-child {
+#content table[class]:not(.figureTable) > * > tr > td > img:only-child {
     margin: 3px 0;
 }
 
-#content table:not(.figureTable) > * > tr > th {
+#content table[class]:not(.figureTable) > thead > tr > th {
     padding: 0 5px;
-    border: 1px solid var(--color-warm-dark);
 }
 
-#content table:not(.figureTable) > * > tr > :first-child {
+table.listTable {
+    border-collapse: collapse;
+    border-color: var(--color-warm-dark);
+    border-style: double;
+    border-width: 3px 0;
+}
+
+table.listTable > * > tr > td, table.listTable > tbody > tr > th {
+    border-color: var(--color-warm);
+    border-style: dashed;
+    border-width: 1px;
+}
+
+table.listTable > thead > tr > th {
+    border-color: var(--color-warm);
+    border-style: solid;
+    border-width: 1px;
+}
+
+table.listTable > * > tr > :first-child {
     border-left: none;
 }
 
-#content table:not(.figureTable) > * > tr > :last-child {
+table.listTable > * > tr > :last-child {
     border-right: none;
 }
 
-#content table:not(.figureTable) > * > tr:first-child > * {
-    border-top: 1px solid var(--color-warm-dark);
+table.listTable > * > tr:first-child > * {
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: var(--color-warm);
 }
 
-#content table:not(.figureTable) > * > tr:last-child > * {
-    border-bottom: 1px solid var(--color-warm-dark);
+table.listTable > * > tr:last-child > * {
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: var(--color-warm);
 }
 
-#content strong {
-    color: var(--color-cold-dark);
+table.borderTable {
+    border-collapse: collapse;
+    border-color: var(--color-warm);
+    border-style: double;
+    border-width: 3px;
+}
+
+table.borderTable > * > tr > td, table.borderTable > tbody > tr > th {
+    border-color: var(--color-warm);
+    border-style: solid;
+    border-width: 1px;
+}
+
+table.borderTable > thead > tr > th {
+    border-color: var(--color-warm);
+    border-style: solid;
+    border-width: 1px;
+}
+
+table.borderTable > * > tr > :first-child {
+    border-left: none;
+}
+
+table.borderTable > * > tr > :last-child {
+    border-right: none;
+}
+
+table.borderTable > * > tr:first-child > * {
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: var(--color-warm);
+}
+
+table.borderTable > * > tr:last-child > * {
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: var(--color-warm);
+}
+
+table.lineTable {
+    border-collapse: separate;
+    border-color: var(--color-warm);
+    border-style: double;
+    border-width: 3px 0;
+    vertical-align: top;
+}
+
+table.lineTable > thead > tr > * {
+    border-color: var(--color-warm);
+    border-style: solid;
+    border-bottom-width: 1px;
+}
+
+table.lineTable > * > tr.lineTop > * {
+    border-top-color: var(--color-warm);
+    border-top-style: dotted;
+    border-top-width: 1px;
+}
+
+table.lineTable > * > tr > *.lineLeft {
+    border-left-color: var(--color-warm);
+    border-left-style: dotted;
+    border-left-width: 1px;
+}
+
+table.rightTable {
+    float: right;
+    margin-left: 1rem;
+    min-width: auto;
+}
+
+table.leftTable {
+    float: left;
+    margin-right: 1rem;
+    min-width: auto;
 }
 
 caption {
@@ -414,6 +501,10 @@ figcaption::before, .figureCaption::before {
 ::selection {
     background-color: var(--color-warm-dark);
     color: var(--color-cold-light);
+}
+
+#content strong {
+    color: var(--color-cold-dark);
 }
 
 sub, sup {

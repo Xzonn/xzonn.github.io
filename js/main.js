@@ -97,7 +97,7 @@ $(function() {
     //img标签相关
     var imageDisplay = ["auto", "none", "block", "left", "right", "center"],
         imageSize = 360,
-        imageSizeUnit = /(pt|px|em|%)$/;
+        imageSizeUnit = /(pt|px|em|rem|%)$/;
     $("#content img, #content svg.svgImage").each(function() {
         if (this.nodeName == "IMG" && this.classList.length) {
             return;
@@ -147,9 +147,15 @@ $(function() {
                 }));
         }
         this.alt = title;
-        $(this).css({
-            "width": size
-        });
+        if (size[0] == "x") {
+            $(this).css({
+                "height": size.slice(1)
+            });
+        } else {
+            $(this).css({
+                "width": size
+            });
+        }
     });
 
     // 图注、表注显示
