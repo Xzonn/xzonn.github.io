@@ -311,18 +311,6 @@ table.lineTable > * > tr > *.lineLeft {
     border-left-width: 1px;
 }
 
-table.rightTable {
-    float: right;
-    margin-left: 1rem;
-    min-width: auto;
-}
-
-table.leftTable {
-    float: left;
-    margin-right: 1rem;
-    min-width: auto;
-}
-
 caption {
     clear: both;
     font-family: var(--font-family-sans-serif);
