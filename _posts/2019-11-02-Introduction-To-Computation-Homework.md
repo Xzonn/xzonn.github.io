@@ -1,9 +1,19 @@
 ---
 layout: post
-title: 《计算概论》作业参考代码
+title: 《计算概论（B）》（马思伟）作业参考代码（2017）
 tags: 学习资料 编程 作业 三次元
-update: 2019-11-02
+update: 2019-12-05
 ---
+<style>
+    h4, h5 {
+        bookmark-level: none;
+    }
+
+    .leftToc > li > ul > li > ul {
+        display: none;
+    }
+</style>
+
 这是2017年秋季学期《计算概论（B）》（主讲：马思伟）课程作业的参考代码，仅供学习交流，切勿抄袭。
 
 ## 作业2
