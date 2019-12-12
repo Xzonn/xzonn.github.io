@@ -543,7 +543,7 @@ update: 2019-10-29
     * Tollens试剂甲醛、脂肪醛、芳香醛都反应。
     * Fehling试剂甲醛、脂肪醛反应，芳香醛不反应。
     * Benedict试剂脂肪醛反应，甲醛、芳香醛不反应。
-  * Cannizzaro反应：没有$\ce{\alpha-活泼氢}$的醛在强碱作用下，发生分子间的氧化还原而生成相应醇和相应酸的反应。
+  * Cannizzaro反应：没有$\alpha\text{-}$活泼氢的醛在强碱作用下，发生分子间的氧化还原而生成相应醇和相应酸的反应。
     * $\ce{2Ph-CHO ->\[浓NaOH, C2H5OH\]\[\sim 50 ^\circ C\] Ph-COONa + Ph-CH2OH}$。
     * 甲醛总是作为还原剂：$\ce{Ph-CHO + HCHO ->[NaOH] Ph-CH2OH + HCOONa}$。
     * 分子内也能发生该反应。

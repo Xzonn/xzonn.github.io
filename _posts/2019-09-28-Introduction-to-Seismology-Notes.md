@@ -61,6 +61,46 @@ update: 2019-12-05
 - 地震资料解释的成功率不高，约为25%。
   - *说明：实际应用中应综合前人已经做出的成果、钻井的资料、重力数据、地磁数据、地质资料等来进行解释。*
 
+### 第10章 海啸
+- 浅水波：用$$h$$代表海水的深度，$$\lambda$$代表波长，则$$\lambda \gg h$$的这种具有非常长的波长的重力波就叫做海水波。
+- 浅水波的传播速度只与海水深度有关，有$$v = \sqrt{gh}$$，其中：$$v$$为波的传播速度，$$g$$为重力加速度，$$h$$为海水深度。
+- 海啸的波长约100 miles，传播速度约500 miles/h。
+- 计算题：如<a class="xrefFigure" href="#figure-ItS-10-01.svg"></a>，计算浅水波从$$A$$点传播到$$D$$点所用的时间。
+
+![第10章计算题图](/images/ItS-10-01.svg)
+
+计算过程如下：
+
+先证明$$BC$$、$$CD$$段为匀变速直线运动。由公式，$$v = \sqrt{gh}$$，也即：
+
+$$v^2 = gh.$$
+
+两边对$$t$$取微分，得：
+
+$$2v \cfrac {\mathrm dv}{\mathrm dt} = g \cfrac {\mathrm dh}{\mathrm dt},$$
+
+由于倾斜角一定，有：
+
+$$\cfrac {\mathrm dh}{\mathrm dx} = \tan \theta,$$
+
+故：
+
+$$2v \cfrac {\mathrm dv}{\mathrm dt} = g \cfrac {\mathrm dh}{\mathrm dx}\cfrac {\mathrm dx}{\mathrm dt} = g \tan \theta v,$$
+
+两边约去$$v$$后得到：
+
+$$\cfrac {\mathrm dv}{\mathrm dt} = \cfrac {g \tan \theta v} {2},$$
+
+即加速度为定值，故该运动为匀变速直线运动，可用平均速度公式。
+
+求得$$v_A = v_B = \pu{200 m/s}$$，$$v_C = \pu{100 m/s}$$，$$v_D = 0$$。
+
+则$$v_{AB} = \pu{200 m/s}$$，$$v_{BC} = \pu{150 m/s}$$，$$v_{CD} = \pu{50 m/s}$$。
+
+则$$t_{AB} = \pu{1000 s}$$，$$t_{BC} = \pu{2000 s}$$，$$t_{CD} = \pu{600 s}$$。
+
+总时长为3600 s = 1 h。
+
 ## 课程作业
 ### 1. 直达波、反射波和首波
 ##### 题干
