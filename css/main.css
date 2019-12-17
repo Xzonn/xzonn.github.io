@@ -419,7 +419,7 @@ figure.a-r {
     margin: 0 0 2px 1rem;
 }
 
-figure > a > * {
+figure img {
     display: block;
     margin: 0 auto;
     border: 1px solid var(--color-warm-light);
@@ -436,6 +436,12 @@ figure, .imgGallery {
 
 .figureTable {
     width: 100%;
+}
+
+#content figure .figureTable {
+    padding: 0;
+    margin: 0 auto;
+    border-spacing: 0;
 }
 
 .figureTable-2 > tbody > tr > td:not(::only-child) {
