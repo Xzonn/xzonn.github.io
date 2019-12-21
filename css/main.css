@@ -421,6 +421,7 @@ figure.a-r {
 
 figure img {
     display: block;
+    box-sizing: content-box;
     margin: 0 auto;
     border: 1px solid var(--color-warm-light);
     background-color: #FFF;
@@ -439,8 +440,8 @@ figure, .imgGallery {
 }
 
 #content figure .figureTable {
-    padding: 0;
     margin: 0 auto;
+    padding: 0;
     border-spacing: 0;
 }
 
