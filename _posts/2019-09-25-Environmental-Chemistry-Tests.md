@@ -2,39 +2,15 @@
 layout: post
 title: 《环境化学》小测验（2019秋）
 tags: 学习资料 环院专业课 试题整理 三次元
-update: 2019-12-17
+update: 2019-12-23
 infoBox: complete
+class: exercise
 ---
 <style>
     h2 {
         page-break-before: always;
-        counter-reset: h5-counter;
     }
 
-    h4 {
-        padding-left: 2rem;
-        text-indent: -2rem;
-        position: relative;
-        counter-increment: h5-counter;
-    }
-
-    h4::before {
-        display: inline-block;
-        width: 1.5rem;
-        padding-right: 0.5rem;
-        text-align: right;
-        content: counter(h5-counter) ".";
-        box-sizing: content-box;
-    }
-
-    #content > p, #content > h5 {
-        padding-left: 2rem;
-    }
-
-    #content > ul, #content > ol {
-        padding-left: 3rem;
-    }
-    
     style + h2 {
         page-break-before: avoid;
     }

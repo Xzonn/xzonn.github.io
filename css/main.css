@@ -1054,6 +1054,29 @@ footer {
 }
 
 /* 其他 */
+/* 题目列表 */
+.exercise h4 {
+    padding-left: 2rem;
+    text-indent: -2rem;
+}
+
+.exercise h4::before {
+    display: inline-block;
+    box-sizing: content-box;
+    padding-right: 0.5rem;
+    width: 1.5rem;
+    content: counter(h4num) ".";
+    text-align: right;
+}
+
+.exercise #content > p, .exercise #content > h5 {
+    padding-left: 2rem;
+}
+
+.exercise #content > ul, .exercise #content > ol {
+    padding-left: 3rem;
+}
+
 /* 首页用 */
 .headerPicList {
     margin: 0 auto;

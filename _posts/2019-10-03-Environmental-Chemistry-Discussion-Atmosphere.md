@@ -5,37 +5,8 @@ infoBox: incomplete
 tags: 学习资料 环院专业课 知识点整理 三次元
 update: 2019-11-01
 headImage: https://s2.ax1x.com/2019/10/26/KBXcuj.png
+class: exercise
 ---
-<style>
-    h2 {
-        counter-reset: h5-counter;
-    }
-
-    h4 {
-        padding-left: 2rem;
-        text-indent: -2rem;
-        position: relative;
-        counter-increment: h5-counter;
-    }
-
-    h4::before {
-        display: inline-block;
-        width: 1.5rem;
-        padding-right: 0.5rem;
-        text-align: right;
-        content: counter(h5-counter) ".";
-        box-sizing: content-box;
-    }
-
-    #content > p, #content > h5 {
-        padding-left: 2rem;
-    }
-
-    #content > ul, #content > ol {
-        padding-left: 3rem;
-    }
-</style>
-
 ## 说明
 本资料整理者：朱颖（3 ~ 18）；张祥伟（1 ~ 2；19 ~ 30）。在整理过程中参考了屈玥坤、刘珂凡等人提供的整理资料，在此表示感谢。本资料的所有内容均为已有研究的整合，整理者不对资料的正确性提供保证。
 

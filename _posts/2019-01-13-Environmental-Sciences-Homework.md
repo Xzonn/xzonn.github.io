@@ -3,36 +3,8 @@ layout: post
 title: 《环境科学》作业
 tags: 学习资料 环院专业课 作业 三次元
 update: 2019-11-12
+class: exercise
 ---
-<style>
-    h2 {
-        counter-reset: h5-counter;
-    }
-
-    h4 {
-        padding-left: 2rem;
-        text-indent: -2rem;
-        position: relative;
-        counter-increment: h5-counter;
-    }
-
-    h4::before {
-        display: inline-block;
-        width: 1.5rem;
-        padding-right: 0.5rem;
-        text-align: right;
-        content: counter(h5-counter) ".";
-        box-sizing: content-box;
-    }
-
-    #content > p, #content > h5 {
-        padding-left: 2rem;
-    }
-
-    #content > ul, #content > ol {
-        padding-left: 3rem;
-    }
-</style>
 ## 物化部分
 #### 请写出计算地球大气温室效应所需要的物理概念。取太阳常数$$S_0 = \pu{1367 W*m-2}$$，地表反照率$$A = 0.3$$，计算地气系统辐射平衡时的地球有效温度。
 对于地球系统，其温度保持相对平衡，其接收的辐射等于其发射的辐射。太阳队地球辐射面积为地球截面积$$\pi R^2$$，其中$$R$$为地球半径，

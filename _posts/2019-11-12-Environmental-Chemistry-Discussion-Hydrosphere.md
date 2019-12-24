@@ -5,37 +5,8 @@ infoBox: incomplete
 tags: 学习资料 环院专业课 知识点整理 三次元
 update: 2019-11-26
 headImage: /images/ECD-02-01.svg
+class: exercise
 ---
-<style>
-    h2 {
-        counter-reset: h4-counter;
-    }
-
-    h4 {
-        padding-left: 2rem;
-        text-indent: -2rem;
-        position: relative;
-        counter-increment: h4-counter;
-    }
-
-    h4::before {
-        display: inline-block;
-        width: 1.5rem;
-        padding-right: 0.5rem;
-        text-align: right;
-        content: counter(h4-counter) ".";
-        box-sizing: content-box;
-    }
-
-    #content > p, #content > h5 {
-        padding-left: 2rem;
-    }
-
-    #content > ul, #content > ol {
-        padding-left: 3rem;
-    }
-</style>
-
 ## 说明
 本资料整理者：张祥伟（1 ~ 3；11 ~ 15）、朱颖（4 ~ 10）、刘毅（16 ~ 23）、屈玥坤（24 ~ 30）。在整理过程中参考了刘珂凡等人提供的整理资料，在此表示感谢。本资料的所有内容均为已有研究的整合，整理者不对资料的正确性提供保证。
 
