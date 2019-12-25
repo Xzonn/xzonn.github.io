@@ -74,7 +74,7 @@ $$t = \int_A^B \sqrt{1 + y'R} \mathrm dx.$$
 $$\cfrac {\sin\theta_{\alpha1}} {v_{\alpha1}} = \cfrac {\sin\theta_{\beta1}} {v_{\beta1}} = \cfrac {\sin\theta_{\alpha2}} {v_{\alpha2}} = \cfrac {\sin\theta_{\beta2}} {v_{\beta2}}.$$
 
 - 地球内部体波的传播：<a class="xrefFigure" href="#figure-liOO4U.gif"></a>。
-  - PcPS可能存在（$$v_P > v_S$$导出$$\theta_P > \theta_S$$），ScSP不可能存在。P夹角比S大。
+  - PcPS不可能存在（$$v_P > v_S$$导出$$\theta_P > \theta_S$$），ScSP可能存在。P夹角比S大。*（感谢[树洞Hans](https://pkuhelper.pku.edu.cn/hole/##1061096)提醒）*
   - *说明：P、S分别表示从震源发出、向地球内部传播的纵波和横波；c表示在地核界面上波的反射；K表示通过外核的纵波地球的外核是液态，所以只有通过外核的纵波，而没有通过外核的横波；K表示通过外核的纵波；I、S分别表示通过内核的纵波、横波；i表示在内核界面的反射；p、s分别表示由震源向上（地面）传播的射线。*
 - *SH波不能产生P波：在水平面内振动不能引起垂直面振动。*
 - *面波的走时曲线为直线。*
