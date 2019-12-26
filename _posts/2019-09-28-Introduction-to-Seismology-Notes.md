@@ -88,9 +88,9 @@ $$\cfrac {\sin\theta_{\alpha1}} {v_{\alpha1}} = \cfrac {\sin\theta_{\beta1}} {v_
 
 参考作业1（<a class="xref" href="#chap-shou-bo"></a>），Pn波走时公式：
 
-$$T = \cfrac {X - 2h\tan\theta_c} {v_2} + \cfrac {2h~/ \cos\theta_c} {v_1} = \cfrac {1} {v_2} + \left( \cfrac {2h~/ \cos\theta_c} {v_1} - \cfrac {2h\tan\theta_c} {v_2} \right),$$
+$$T = \cfrac {X - (2H - h)\tan\theta_c} {v_2} + \cfrac {(2H - h)~/ \cos\theta_c} {v_1} = \cfrac {1} {v_2} + \left( \cfrac {2h~/ \cos\theta_c} {v_1} - \cfrac {2h\tan\theta_c} {v_2} \right),$$
 
-$$\text{斜率 } k = \cfrac {1} {v_2},~ \text{截距 } b = 2h \cfrac {v_2 - v_1 \sin \theta_c} {v_1 v_2 \cos \theta_c}.$$
+$$\text{斜率 } k = \cfrac {1} {v_2},~ \text{截距 } b = (2H - h) \cfrac {v_2 - v_1 \sin \theta_c} {v_1 v_2 \cos \theta_c}.$$
 
 其中：$$v_1$$题干已给出，为6&nbsp;km/s，求解变量$$h$$和$$v_2$$。
 
@@ -100,7 +100,7 @@ $$v_2 = \cfrac {1} {k} = \pu{8 km/s},$$
 
 $$\sin \theta_c = \cfrac {v_1} {v_2} = \cfrac {3} {4}, ~ \cos \theta_c = \sqrt {1 - \sin^2 \theta_c} = \cfrac {\sqrt{7}} {4},$$
 
-$$h = \cfrac {b v_1 v_2 \cos \theta_c} {2(v_2 - v_1 \sin \theta_c)} = \pu{36 km}.$$
+$$2H - h = \cfrac {b v_1 v_2 \cos \theta_c} {2(v_2 - v_1 \sin \theta_c)} = \pu{36 km},~ H = \pu{41 km}.$$
 
 ### 第4章 地球内部的结构
 - 地壳是通过研究首波而发现的。
@@ -131,7 +131,7 @@ $$h = \cfrac {b v_1 v_2 \cos \theta_c} {2(v_2 - v_1 \sin \theta_c)} = \pu{36 km}
   - 震源机制解，可以确定板块活动的力学性质。
   - 地震测深所得深度速度分布，可以给出板块运动的物理条件。
 - 全球性的地震带有三个：环太平洋地震带、阿尔卑斯-喜马拉雅地震带（亚欧地震带）和海岭地震带（大洋中脊地震带）。
-- 地震较多的国家：日本、意大利、秘鲁、土耳其。
+- 地震较多的国家：日本、意大利、智利、秘鲁、土耳其。
 - 我国地震较多的省级行政区：四川、云南、甘肃、新疆、西藏、台湾。
 - 地震按来源分类：
   - 天然地震：构造、火山、陷落。
@@ -151,7 +151,7 @@ $$\lg E = 11.8 + 1.5M.$$
 
 ### 第7章 地震预报
 - 地震灾害具有某种周期性。
-- 地震预报不等于地震预测。地震预测的精度差，地震预报要求三要素（时间、地点、强度）。
+- 地震预报不等于地震预测。地震预测的精度差，地震预报要求三要素（时间、地点、震级大小）。
 
 ### 第8章 宏观地震学
 - 震级和烈度的主要区别：
