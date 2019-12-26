@@ -75,12 +75,32 @@ $$\cfrac {\sin\theta_{\alpha1}} {v_{\alpha1}} = \cfrac {\sin\theta_{\beta1}} {v_
 
 - 地球内部体波的传播：<a class="xrefFigure" href="#figure-liOO4U.gif"></a>。
   - PcPS不可能存在（$$v_P > v_S$$导出$$\theta_P > \theta_S$$），ScSP可能存在。P夹角比S大。*（感谢[树洞Hans](https://pkuhelper.pku.edu.cn/hole/##1061096)提醒）*
-  - *说明：P、S分别表示从震源发出、向地球内部传播的纵波和横波；c表示在地核界面上波的反射；K表示通过外核的纵波地球的外核是液态，所以只有通过外核的纵波，而没有通过外核的横波；K表示通过外核的纵波；I、S分别表示通过内核的纵波、横波；i表示在内核界面的反射；p、s分别表示由震源向上（地面）传播的射线。*
+  - *说明：P、S分别表示从震源发出、向地球内部传播的纵波和横波；c表示在地核界面上波的反射；K表示通过外核的纵波，地球的外核是液态，所以只有通过外核的纵波，而没有通过外核的横波；I、J分别表示通过内核的纵波、横波；i表示在内核界面的反射；p、s分别表示由震源向上（地面）传播的射线。*
+
+![地球内部体波的传播](https://s2.ax1x.com/2019/12/25/liOO4U.gif)
+
 - *SH波不能产生P波：在水平面内振动不能引起垂直面振动。*
 - *面波的走时曲线为直线。*
 - *S-P的走时差较多依赖于距离而较少依赖于深度；而pP-P走时差主要由震源深度决定，较少得依赖于震中距。*
+- 计算题：（《地震概论》课本第41页，思考题2）一个震源深度为10&nbsp;km的地震，多个区域台站记到的Pn波走时直线的斜率为0.125&nbsp;s/km，截距为$$\pu{3\sqrt{7} s}$$（约8&nbsp;s），若均匀地壳内P波速度已知为6&nbsp;km/s，试估计地幔顶部的P波速度和地壳厚度。*（感谢[树洞Louis](https://pkuhelper.pku.edu.cn/hole/##1061096)提醒）*
 
-![地球内部体波的传播](https://s2.ax1x.com/2019/12/25/liOO4U.gif)
+计算过程如下：
+
+参考作业1（<a class="xref" href="#chap-shou-bo"></a>），Pn波走时公式：
+
+$$T = \cfrac {X - 2h\tan\theta_c} {v_2} + \cfrac {2h~/ \cos\theta_c} {v_1} = \cfrac {1} {v_2} + \left( \cfrac {2h~/ \cos\theta_c} {v_1} - \cfrac {2h\tan\theta_c} {v_2} \right),$$
+
+$$\text{斜率 } k = \cfrac {1} {v_2},~ \text{截距 } b = 2h \cfrac {v_2 - v_1 \sin \theta_c} {v_1 v_2 \cos \theta_c}.$$
+
+其中：$$v_1$$题干已给出，为6&nbsp;km/s，求解变量$$h$$和$$v_2$$。
+
+代入求解得：
+
+$$v_2 = \cfrac {1} {k} = \pu{8 km/s},$$
+
+$$\sin \theta_c = \cfrac {v_1} {v_2} = \cfrac {3} {4}, ~ \cos \theta_c = \sqrt {1 - \sin^2 \theta_c} = \cfrac {\sqrt{7}} {4},$$
+
+$$h = \cfrac {b v_1 v_2 \cos \theta_c} {2(v_2 - v_1 \sin \theta_c)} = \pu{36 km}.$$
 
 ### 第4章 地球内部的结构
 - 地壳是通过研究首波而发现的。
@@ -92,8 +112,8 @@ $$\cfrac {\sin\theta_{\alpha1}} {v_{\alpha1}} = \cfrac {\sin\theta_{\beta1}} {v_
   - 古登堡利用了更丰富的地震记录。
   - 古登堡更精确地计算了地核深度。
 - 应用地震波去透视地球内部首先要研究地震图。
-- 上地幔（410&nbsp;km以上）、过度层（410 ~ 670&nbsp;km之间）及下地幔（670&nbsp;km以下）。
-- 古登堡教授拥有更丰富的地震纪录，得出了更精确的核介面深度估计，首次估计出地核深度为2900&nbsp;km。
+- 上地幔（410&nbsp;km以上）、过渡层（410 ~ 670&nbsp;km之间）及下地幔（670&nbsp;km以下）。
+- 古登堡教授拥有更丰富的地震记录，得出了更精确的核介面深度估计，首次估计出地核深度为2900&nbsp;km。
 - 地球内核是固体，最硬。地球外核是液态的，故横波不能通过外核。
 - 壳幔介面是莫霍面（M介面），幔核介面是古登堡面（G介面）。
 - 反演不一定准确。
@@ -126,7 +146,7 @@ $$\lg E = 11.8 + 1.5M.$$
 
 ### 第6章 地震仪及地震基本参数的测定
 - 三角测量法：通过直接的三角测量发现震中的位置。
-- 里氏震级ML是最大地震波振幅以10为底的对数。
+- 里氏震级$$M_{\text{L}}$$是最大地震波振幅以10为底的对数。
 - 伍德-安德森的特殊地震仪记录到的振幅测量精度达到1&nbsp;<i>μ</i>m。*（感谢[@mike.frank](#rightComment)提醒）*
 
 ### 第7章 地震预报
@@ -154,7 +174,7 @@ $$\lg E = 11.8 + 1.5M.$$
   - *说明：实际应用中应综合前人已经做出的成果、钻井的资料、重力数据、地磁数据、地质资料等来进行解释。*
 
 ### 第10章 海啸
-- 浅水波：用$$h$$代表海水的深度，$$\lambda$$代表波长，则$$\lambda \gg h$$的这种具有非常长的波长的重力波就叫做海水波。
+- 浅水波：用$$h$$代表海水的深度，$$\lambda$$代表波长，则$$\lambda \gg h$$的这种具有非常长的波长的重力波就叫做潜水波。
 - 浅水波的传播速度只与海水深度有关，有$$v = \sqrt{gh}$$，其中：$$v$$为波的传播速度，$$g$$为重力加速度，$$h$$为海水深度。
 - *海啸的波长约100 miles，传播速度约500 miles/h。*
 - 计算题：如<a class="xrefFigure" href="#figure-ItS-10-01.svg"></a>，计算浅水波从$$A$$点传播到$$D$$点所用的时间。
@@ -177,11 +197,11 @@ $$\cfrac {\mathrm dh}{\mathrm dx} = \tan \theta,$$
 
 故：
 
-$$2v \cfrac {\mathrm dv}{\mathrm dt} = g \cfrac {\mathrm dh}{\mathrm dx}\cfrac {\mathrm dx}{\mathrm dt} = g \tan \theta v,$$
+$$2v \cfrac {\mathrm dv}{\mathrm dt} = g \cfrac {\mathrm dh}{\mathrm dx}\cfrac {\mathrm dx}{\mathrm dt} = g \tan \theta \cdot v,$$
 
 两边约去$$v$$后得到：
 
-$$\cfrac {\mathrm dv}{\mathrm dt} = \cfrac {g \tan \theta v} {2},$$
+$$\cfrac {\mathrm dv}{\mathrm dt} = \cfrac {g \tan \theta} {2},$$
 
 即加速度为定值，故该运动为匀变速直线运动，可用平均速度公式。
 
@@ -194,7 +214,7 @@ $$\cfrac {\mathrm dv}{\mathrm dt} = \cfrac {g \tan \theta v} {2},$$
 总时长为3600 s = 1 h。
 
 ### 讨论课
-- 中国古代木质结构建筑的抗震原理：柔性框架、台基隔震、斗拱擎托、榫卯链接。
+- 中国古代木质结构建筑的抗震原理：柔性框架、台基隔震、斗拱擎托、榫卯连接。
 - *抗震要求：小震不坏、中震可修、大震不倒。*
 - *地震预警存在一些局限。*
 - 汶川大地震的形成是逆冲型地震，右旋。青藏高原往东北冲，四川盆地往西南冲。
@@ -206,6 +226,8 @@ $$\cfrac {\mathrm dv}{\mathrm dt} = \cfrac {g \tan \theta v} {2},$$
 
 ## 课程作业
 ### 1. 直达波、反射波和首波
+{: #chap-shou-bo}
+
 ##### 题干
 证明：当震中距$$X$$大于一定值$$X_M$$时，首波将最先到达，并求出$$X_M$$。（题图见<a class="xrefFigure" href="#figure-QG2fW4.jpg"></a>）
 
