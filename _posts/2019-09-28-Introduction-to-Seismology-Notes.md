@@ -2,7 +2,7 @@
 layout: post
 title: 《地震概论》2019年秋季学期（周四班）笔记
 tags: 学习资料 通选课 知识点整理 三次元
-update: 2019-12-25
+update: 2019-12-27
 ---
 <style>
     h5 {
@@ -88,7 +88,7 @@ $$\cfrac {\sin\theta_{\alpha1}} {v_{\alpha1}} = \cfrac {\sin\theta_{\beta1}} {v_
 
 参考作业1（<a class="xref" href="#chap-shou-bo"></a>），Pn波走时公式：
 
-$$T = \cfrac {X - (2H - h)\tan\theta_c} {v_2} + \cfrac {(2H - h)~/ \cos\theta_c} {v_1} = \cfrac {1} {v_2} + \left( \cfrac {2h~/ \cos\theta_c} {v_1} - \cfrac {2h\tan\theta_c} {v_2} \right),$$
+$$T = \cfrac {X - (2H - h)\tan\theta_c} {v_2} + \cfrac {(2H - h)~/ \cos\theta_c} {v_1} = \cfrac {1} {v_2} + \left( \cfrac {(2H - h)~/ \cos\theta_c} {v_1} - \cfrac {(2H - h)\tan\theta_c} {v_2} \right),$$
 
 $$\text{斜率 } k = \cfrac {1} {v_2},~ \text{截距 } b = (2H - h) \cfrac {v_2 - v_1 \sin \theta_c} {v_1 v_2 \cos \theta_c}.$$
 
@@ -100,9 +100,11 @@ $$v_2 = \cfrac {1} {k} = \pu{8 km/s},$$
 
 $$\sin \theta_c = \cfrac {v_1} {v_2} = \cfrac {3} {4}, ~ \cos \theta_c = \sqrt {1 - \sin^2 \theta_c} = \cfrac {\sqrt{7}} {4},$$
 
-$$2H - h = \cfrac {b v_1 v_2 \cos \theta_c} {2(v_2 - v_1 \sin \theta_c)} = \pu{36 km},~ H = \pu{41 km}.$$
+$$2H - h = \cfrac {b v_1 v_2 \cos \theta_c} {v_2 - v_1 \sin \theta_c} = \pu{72 km},~ H = \pu{41 km}.$$
 
 ### 第4章 地球内部的结构
+![地球内部的结构](/images/ItS-04-01.svg)
+
 - 地壳是通过研究首波而发现的。
 - 大陆地区地壳平均厚度为35&nbsp;km，海洋地区地壳不到10&nbsp;km。大洋和大陆下面的地壳厚度不同。
 - 用面波可以研究地壳性质，因为面波在地壳中运行。
