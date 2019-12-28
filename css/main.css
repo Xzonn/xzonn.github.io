@@ -65,7 +65,7 @@ text, tspan {
     font-family: var(--font-family-sans-serif-chinese), var(--font-family-emoji);
 }
 
-blockquote {
+blockquote, .answerLine {
     font-family: var(--font-family-serif-latin), var(--font-family-serif-chinese), var(--font-family-emoji);
 }
 
@@ -1109,6 +1109,27 @@ footer {
     padding-left: 3rem;
 }
 
+/* 选择题 */
+.choiceQuestion {
+    list-style: decimal;
+}
+
+.choiceQuestion > li > ul {
+    list-style: upper-alpha;
+}
+
+.choiceQuestion > li > .answer {
+    float: right;
+    transform: rotateZ(180deg);
+    color: var(--color-warm-light);
+}
+
+.answerLine {
+    margin: 0 0.5rem;
+    padding: 0 1rem;
+    border-bottom: 1px solid;
+}
+
 /* 首页用 */
 .headerPicList {
     margin: 0 auto;
@@ -1555,7 +1576,7 @@ footer {
         font-family: var(--font-family-serif-print-chinese), var(--font-family-emoji);
     }
 
-    em, blockquote, .quote .font-fang-song {
+    em, blockquote, .quote .font-fang-song, .answerLine {
         font-family: var(--font-family-serif-print-latin), var(--font-family-fang-song), var(--font-family-emoji);
     }
 
