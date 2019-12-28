@@ -1,12 +1,22 @@
 ﻿@charset "UTF-8";
 
+/* 根定义 */
 :root {
-    --font-family-sans-serif: "Punctuation Sans Serif", "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans CJK SC", "Source Han Sans CN", "Microsoft Yahei", Simhei, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    --font-family-sans-serif-print: "Punctuation Sans Serif Print", Arial, Simhei, sans-serif;
-    --font-family-serif: "Punctuation Serif", STIX-Web, "Times New Roman", "Source Han Serif CN", Simsun, serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    --font-family-serif-print: "Punctuation Serif Print", STIX-Web, "Times New Roman", Simsun, serif;
-    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", "Noto Sans CJK SC", "Source Han Sans CN", "Microsoft Yahei", Simhei, monospace;
-    --font-family-reference: STIX-Web, "Times New Roman", FangSong, Simfang, KaiTi, Simkai, Simsun, serif;
+    --font-family-sans-serif-latin: "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    --font-family-sans-serif-chinese: "Noto Sans CJK SC", "Source Han Sans CN", "Microsoft Yahei", Simhei, sans-serif;
+    --font-family-sans-serif-print-latin: Arial;
+    --font-family-sans-serif-print-chinese: Simhei, sans-serif;
+
+    --font-family-serif-latin: STIX-Web, "Times New Roman";
+    --font-family-serif-chinese: "Source Han Serif CN", Simsun, serif;
+    --font-family-serif-print-latin: STIX-Web, "Times New Roman";
+    --font-family-serif-print-chinese: Simsun, serif;
+
+    --font-family-monospace: Consolas, "Liberation Mono", "Courier New", "Noto Sans CJK SC", "Source Han Sans CN", "Microsoft Yahei", Simhei, monospace;
+    --font-family-fang-song: FangSong, Simfang, Simsun, serif;
+    --font-family-kai-ti: KaiTi, Simkai, Simsun, serif;
+    --font-family-emoji: "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
     --color-cold: #006FC5;
     --color-cold-light: #8CC2EB;
     --color-cold-dark: #003C6A;
@@ -35,12 +45,49 @@ body {
     background-attachment: fixed;
     counter-reset: chapnum fignum tablenum h2num h3num h4num;
     font-size: 1rem;
-    font-family: var(--font-family-sans-serif);
     line-height: 1.8;
+}
+
+/* 字体 */
+body {
+    font-family: var(--font-family-sans-serif-latin), var(--font-family-sans-serif-chinese), var(--font-family-emoji);
+}
+
+text, tspan {
+    font-family: var(--font-family-sans-serif-latin), var(--font-family-sans-serif-chinese), var(--font-family-emoji) !important;
+}
+
+[lang="en"] {
+    font-family: var(--font-family-sans-serif-latin), var(--font-family-emoji);
+}
+
+.biaodian {
+    font-family: var(--font-family-sans-serif-chinese), var(--font-family-emoji);
+}
+
+blockquote {
+    font-family: var(--font-family-serif-latin), var(--font-family-serif-chinese), var(--font-family-emoji);
+}
+
+code, kbd, #rightInfos, .pageInfos, .pageInfosSimp {
+    font-family: var(--font-family-monospace), var(--font-family-emoji);
+}
+
+.font-fang-song {
+    font-family: var(--font-family-serif-latin), var(--font-family-fang-song), var(--font-family-emoji);
+}
+
+.font-kai-ti {
+    font-family: var(--font-family-serif-latin), var(--font-family-kai-ti), var(--font-family-emoji);
+}
+
+.infoBoxIcon, #topLink::before {
+    font-family: "Font Awesome 5 Free";
 }
 
 /* 标题 */
 h1 {
+    margin-right: 95px;
     font-size: 1.8rem;
 }
 
@@ -134,7 +181,6 @@ blockquote {
     margin: 0.6rem;
     padding: 0 1.8rem;
     color: var(--color-warm-dark);
-    font-family: var(--font-family-serif);
 }
 
 blockquote::before, blockquote::after {
@@ -313,7 +359,6 @@ table.lineTable > * > tr > *.lineLeft {
 
 caption {
     clear: both;
-    font-family: var(--font-family-sans-serif);
 }
 
 caption.figureCaption {
@@ -336,7 +381,6 @@ code, kbd {
     border: 1px solid var(--color-warm);
     border-radius: 3px;
     font-size: 0.9rem;
-    font-family: var(--font-family-monospace);
 }
 
 code {
@@ -404,7 +448,6 @@ figure {
     color: var(--color-warm-dark);
     text-align: center;
     font-size: 0.8rem;
-    font-family: var(--font-family-sans-serif);
 }
 
 figure.a-l {
@@ -585,14 +628,6 @@ sup.endnoteRef::after {
     font-size: 16px;
 }
 
-text, tspan {
-    font-family: var(--font-family-sans-serif) !important;
-}
-
-/* 语言 */
-[lang="en"] {
-    font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial;
-}
 
 /* Han.js */
 h-hws, h-hws[hidden] {
@@ -760,7 +795,6 @@ p.at-c, p.at-l, p.at-r {
     border-left: 4px solid var(--color-warm-dark);
     color: var(--color-warm-dark);
     font-size: 12px;
-    font-family: var(--font-family-monospace);
     line-height: 1.5em;
 }
 
@@ -770,7 +804,7 @@ p.at-c, p.at-l, p.at-r {
     content: "";
 }
 
-#rightDate, .pageDate, #rightUpdate, .pageUpdate {
+#rightDate, .pageBlock .pageDate, #rightUpdate, .pageBlock .pageUpdate {
     float: left;
     margin-right: 1em;
 }
@@ -845,7 +879,6 @@ p.at-c, p.at-l, p.at-r {
     text-align: center;
     font-weight: 900;
     font-size: 3em;
-    font-family: "Font Awesome 5 Free";
     line-height: 2.4em;
 }
 
@@ -992,7 +1025,6 @@ p.at-c, p.at-l, p.at-r {
     text-align: center;
     font-weight: 900;
     font-size: 80px;
-    font-family: "Font Awesome 5 Free";
     line-height: 128px;
     opacity: 0.25;
     transition: opacity 0.3s ease-out;
@@ -1284,7 +1316,6 @@ footer {
     margin: 0 2em;
     color: var(--color-warm-dark);
     font-size: 12px;
-    font-family: var(--font-family-monospace);
     line-height: 1.5em;
 }
 
@@ -1470,6 +1501,7 @@ footer {
 
 /* 打印 */
 @media print {
+    /* 根定义 */
     :root {
         --color-cold: #888;
         --color-cold-light: #DDD;
@@ -1491,7 +1523,6 @@ footer {
 
     body {
         color: #000;
-        font-family: var(--font-family-serif-print);
     }
 
     body, #rightBlock {
@@ -1503,6 +1534,36 @@ footer {
         box-shadow: none !important;
     }
 
+    /* 字体 */
+    #content b, #content strong, #content th, h1, h2, h3, h4, h5, h6, figure, caption, dt, #rightBlock::before {
+        font-family: var(--font-family-sans-serif-print-latin), var(--font-family-sans-serif-print-chinese), var(--font-family-emoji);
+    }
+
+    body {
+        font-family: var(--font-family-serif-print-latin), var(--font-family-serif-print-chinese), var(--font-family-emoji);
+    }
+
+    text, tspan {
+        font-family: var(--font-family-serif-print-latin), var(--font-family-serif-print-chinese), var(--font-family-emoji) !important;
+    }
+
+    [lang="en"] {
+        font-family: var(--font-family-serif-print-latin), var(--font-family-emoji);
+    }
+
+    .biaodian {
+        font-family: var(--font-family-serif-print-chinese), var(--font-family-emoji);
+    }
+
+    em, blockquote, .quote .font-fang-song {
+        font-family: var(--font-family-serif-print-latin), var(--font-family-fang-song), var(--font-family-emoji);
+    }
+
+    .font-kai-ti {
+        font-family: var(--font-family-serif-print-latin), var(--font-family-kai-ti), var(--font-family-emoji);
+    }
+
+    /* 水印 */
     #rightBlock::before {
         position: fixed;
         top: 50%;
@@ -1521,10 +1582,7 @@ footer {
         transform: rotateZ(30deg);
     }
 
-    blockquote, ref {
-        font-family: var(--font-family-reference);
-    }
-
+    /* 其他 */
     h1 {
         text-align: center;
     }
@@ -1551,20 +1609,11 @@ footer {
         font-size: 0.8em;
     }
 
-    text, tspan {
-        font-family: var(--font-family-serif-print) !important;
-    }
-
-    #content b, #content strong, #content th, h1, h2, h3, h4, h5, h6, #rightBlock::before {
-        font-family: var(--font-family-sans-serif-print);
-    }
-
     figure {
         float: right;
         clear: right;
         padding: 0;
         width: 100%;
-        font-family: var(--font-family-sans-serif-print);
     }
 
     figure.a-l, figure.a-r {
@@ -1597,10 +1646,6 @@ footer {
     ref, .reficon {
         background-image: var(--image-note);
     }
-    
-    caption {
-        font-family: var(--font-family-sans-serif-print);
-    }
 }
 
 /* 数学字体 */
@@ -1619,29 +1664,4 @@ footer {
     font-weight: bold;
     font-family: "STIX-Web";
     src: url("https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/fonts/HTML-CSS/STIX-Web/woff/STIXMathJax_Main-Bold.woff");
-}
-
-/* 标点符号 */
-@font-face {
-    font-family: "Punctuation Sans Serif";
-    src: local("Noto Sans CJK SC"), local("Source Han Sans CN Regular"), local("Source Han Sans"), local("Microsoft Yahei"), local(Simhei), local(sans-serif);
-    unicode-range: U+00B7, U+2014, U+2018-2019, U+201C-201D, U+2026, U+25CF, U+3001, U+3002, U+3008-3009, U+300A-300B, U+300C-300F, U+3014-3015, U+FF01, U+FF08-FF09, U+FF0C, U+FF0D, U+FF0E, U+FF0F, U+FF1A, U+FF1B, U+FF1F, U+FF3C;
-}
-
-@font-face {
-    font-family: "Punctuation Sans Serif Print";
-    src: local(Simhei), local(sans-serif);
-    unicode-range: U+00B7, U+2014, U+2018-2019, U+201C-201D, U+2026, U+25CF, U+3001, U+3002, U+3008-3009, U+300A-300B, U+300C-300F, U+3014-3015, U+FF01, U+FF08-FF09, U+FF0C, U+FF0D, U+FF0E, U+FF0F, U+FF1A, U+FF1B, U+FF1F, U+FF3C;
-}
-
-@font-face {
-    font-family: "Punctuation Serif";
-    src: local("Noto Serif CJK SC"), local("Source Han Serif CN"), local("Source Han Serif"), local(Simsun), local(serif);
-    unicode-range: U+00B7, U+2014, U+2018-2019, U+201C-201D, U+2026, U+25CF, U+3001, U+3002, U+3008-3009, U+300A-300B, U+300C-300F, U+3014-3015, U+FF01, U+FF08-FF09, U+FF0C, U+FF0D, U+FF0E, U+FF0F, U+FF1A, U+FF1B, U+FF1F, U+FF3C;
-}
-
-@font-face {
-    font-family: "Punctuation Serif Print";
-    src: local(Simsun), local(serif);
-    unicode-range: U+00B7, U+2014, U+2018-2019, U+201C-201D, U+2026, U+25CF, U+3001, U+3002, U+3008-3009, U+300A-300B, U+300C-300F, U+3014-3015, U+FF01, U+FF08-FF09, U+FF0C, U+FF0D, U+FF0E, U+FF0F, U+FF1A, U+FF1B, U+FF1F, U+FF3C;
 }
