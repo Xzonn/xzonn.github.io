@@ -158,6 +158,19 @@ $(function() {
         }
     });
 
+    // 表注
+    (function() {
+        let tables = $("table"),
+            i;
+        for (i = 0; i < tables.length; i++) {
+            let table = tables[i],
+                caption = table.dataset["caption"];
+            if (caption) {
+                $("<caption/>").addClass("tableCaption").text(caption).prependTo(table);
+            }
+        }
+    })();
+
     // 图注、表注显示
     (function() {
         let figureCaptionId = {};

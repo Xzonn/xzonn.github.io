@@ -206,6 +206,7 @@ blockquote::after {
 /* 列表 */
 ul, ol {
     padding-left: 2em;
+    text-align: justify;
 }
 
 ul ul, ul ol, ol ol, ol ul {
