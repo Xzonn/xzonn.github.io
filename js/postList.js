@@ -73,7 +73,7 @@ window.changePage = function (page) {
                 "behavior": "smooth" 
             });
         }
-        Han("#content").render();
+        Han($("#content")[0]).render();
         window.tocRender();
     });
 };
