@@ -1,7 +1,6 @@
 ---
 css: bilibili
 js: bilibili
-layout: post
 tags: 技术指南 三次元
 title: 用 EndNote 管理中文文献
 info: EndNote 其实也是可以管理中文文献的。

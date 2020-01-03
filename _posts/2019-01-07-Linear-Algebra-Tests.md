@@ -1,6 +1,5 @@
 ---
 title: 《线性代数》试题整理
-layout: post
 info: 一小时速成？不可能的，想啥呢。
 infoBox: complete
 tags: 学习资料 数学 试题整理 三次元

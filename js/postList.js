@@ -15,6 +15,7 @@ window.getURLParameters = function () {
 window.changePage = function (page) {
     let pageCount = (Cookies.get("pageCount") || 10),
         pageNumber = +(page || (window.URLParameters || window.getURLParameters()).page || 1),
+        isWeChat = /MicroMessenger/.test(navigator.userAgent),
         i;
     $.get("/pages.json").done(function (data) {
         let maxPageNumber = Math.ceil(data.length / pageCount);
@@ -36,7 +37,7 @@ window.changePage = function (page) {
         for (i = (pageNumber - 1) * pageCount; i < Math.min(pageNumber * pageCount, data.length); i ++) {
             let post = data[i],
                 title = $("<a/>").addClass("postTitle").text(post.title).attr({
-                    "href": post.link,
+                    "href": (isWeChat && post.wechatLink) ? post.wechatLink : post.link,
                     "title": post.title
                 }),
                 date = $("<div/>").addClass("postDates").append([$("<div/>").addClass("postCreateDate").text(post.date), $("<div/>").addClass("postUpdateDate").text(post.update)]),

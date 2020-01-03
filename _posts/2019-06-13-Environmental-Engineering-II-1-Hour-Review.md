@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 《环境工程学二》一小时速成
 infoBox: incomplete formula
 tags: 学习资料 环院专业课 知识点整理 三次元

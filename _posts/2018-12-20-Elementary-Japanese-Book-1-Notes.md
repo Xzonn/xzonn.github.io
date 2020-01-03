@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 《初级日语 第一册》语法整理
 infoBox: complete
 tags: 学习资料 日语 知识点整理 三次元

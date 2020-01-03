@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 《天气之子》杂记
 tags: 二次元 杂记
 update: 2019-11-04

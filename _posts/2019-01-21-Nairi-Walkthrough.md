@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 《奈里：希林之塔》流程攻略
 infoBox: incomplete game
 css: game

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: NDS《精灵宝可梦 白金》汉化修正
 infoBox: pokemon
 update: 2019-07-30

@@ -1,5 +1,4 @@
 ---
-layout: post
 tags: 技术指南 三次元
 title: 拯救未保存的 PPT
 info: 最好的拯救方法还是 Ctrl + S。

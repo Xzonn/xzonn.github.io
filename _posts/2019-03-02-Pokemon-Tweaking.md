@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 《精灵宝可梦》地图图块漏洞
 infoBox: incomplete pokemon pokemonGlitch
 css: bilibili

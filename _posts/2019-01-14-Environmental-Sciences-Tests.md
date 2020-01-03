@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 《环境科学》试题整理
 tags: 学习资料 环院专业课 试题整理 三次元
 update: 2019-11-13

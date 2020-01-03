@@ -1,8 +1,9 @@
 ---
-title: 《环境监测》知识点整理（三）
-layout: post
+headImage: https://s2.ax1x.com/2020/01/02/ltqFv8.png
 infoBox: incomplete
 tags: 学习资料 环院专业课 知识点整理 三次元
+title: 《环境监测》知识点整理（三）
+update: 2020-01-03
 ---
 这是《环境监测》课程谢曙光老师部分的思考题整理。导航：[孙卫玲老师部分](/Environmental-Monitoring-Notes-1/)。
 {: .noPrint }

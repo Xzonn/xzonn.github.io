@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 《初级日语 第二册》语法整理
 infoBox: complete
 css: japanese

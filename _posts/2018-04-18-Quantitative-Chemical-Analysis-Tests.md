@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 《定量分析化学》试题整理
 infoBox: formula
 tags: 学习资料 化学 试题整理 三次元

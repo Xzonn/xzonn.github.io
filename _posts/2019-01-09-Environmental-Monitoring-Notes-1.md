@@ -1,6 +1,5 @@
 ---
 title: 《环境监测》知识点整理（一）
-layout: post
 infoBox: complete
 tags: 学习资料 环院专业课 知识点整理 三次元
 ---

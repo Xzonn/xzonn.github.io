@@ -73,10 +73,7 @@
 
 .postTag {
     display: inline-block;
-}
-
-.postTag::after {
-    content: ' ';
+    padding-right: 0.5rem;
 }
 
 .postTag > a::before {

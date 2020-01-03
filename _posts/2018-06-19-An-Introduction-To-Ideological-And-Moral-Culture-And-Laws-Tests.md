@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 《思想道德修养与法律基础》（2018 版）试题整理
 infoBox: complete
 tags: 学习资料 思政 试题整理 三次元

@@ -1,11 +1,9 @@
 ---
-layout: post
 title: 《气象学基础》期末复习
 infoBox: complete
 tags: 学习资料 环院专业课 知识点整理 三次元
 ---
 <style> ol ol { list-style: lower-alpha; } .chsName { display: inline-block; min-width: 10em; margin-right: 1em; } .engName { font-weight: lighter; font-style: italic; } </style>
-
 ## 1 作业、复习与考试
 ### 作业中的问题
 * 逆温层、对流层顶：逆温层可以出现在任何地方，对流层顶是典型的逆温层。环境中关注的逆温是低层的逆温。

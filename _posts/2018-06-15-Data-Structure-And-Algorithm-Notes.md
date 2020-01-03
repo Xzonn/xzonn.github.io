@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 《数据结构与算法》知识点整理
 infoBox: complete
 tags: 学习资料 编程 知识点整理 三次元

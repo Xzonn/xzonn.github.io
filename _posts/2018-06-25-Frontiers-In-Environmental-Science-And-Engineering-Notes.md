@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 《环境科学与工程专题》知识点整理
 infoBox: complete
 tags: 学习资料 环院专业课 知识点整理 三次元

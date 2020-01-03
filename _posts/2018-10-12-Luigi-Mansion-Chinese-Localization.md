@@ -1,15 +1,13 @@
 ---
-layout: post
 css: bilibili
-js: bilibili
-title: 3DS《路易吉洋馆》汉化笔记
+headImage: https://raw.githubusercontent.com/Xzonn/LuigiMansionChineseTranslation/master/images/logo.png
 info: 3DS《路易吉洋馆》汉化：从开坑到弃坑。
+js: bilibili
 tags: 杂记 二次元
+title: 3DS《路易吉洋馆》汉化笔记
 ---
 <div style="width: 100%; height: 128px; background-position: center; background-repeat: no-repeat; background-image: url(https://raw.githubusercontent.com/Xzonn/LuigiMansionChineseTranslation/master/images/logo.png);"></div>
-
 <div style="font-size: 200%; font-weight: bold; text-align: center;"><a href="https://xzonn.github.io/LuigiMansion">→汉化发布页←</a></div>
-
 ## 1 说明
 <span lang="ja">『**ルイージマンション**』</span>（参考译名：《**路易吉洋馆**》，英文名：***Luigi's Mansion***）是 2001 年于 GameCube 平台发售的游戏，并于 2018 年在 3DS 平台发售了重制版。其续作《**路易吉洋馆2**》（繁体：《**路易吉洋樓2**》，日文：<span lang="ja">『**ルイージマンション２**』</span>）于 2013 年发售，港台版自带简繁中文支持。
 
@@ -65,7 +63,6 @@ Cスティックで\x7f\x16にゅうりょく\x00入力\x7f\x17した\x7f\x16ほ
 ![游戏界面](https://github.com/Xzonn/LuigiMansionChineseTranslation/raw/master/images/04.png)
 
 <div class="bilibiliBox" data-aid="45332875" data-page="1"></div>
-
 ## 6 汉化进度
 * 2018/10/12：
   * 开始项目，尝试汉化北美发行版，但因问题太多而搁置。

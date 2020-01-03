@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 分数绩点计算器
 tags: 三次元
 ---

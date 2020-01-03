@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 《有机化学》知识点整理（下）
 infoBox: complete formula
 tags: 学习资料 化学 知识点整理 三次元

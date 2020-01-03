@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 《环境化学》讨论题整理（水部分）
 infoBox: incomplete
 tags: 学习资料 环院专业课 知识点整理 三次元

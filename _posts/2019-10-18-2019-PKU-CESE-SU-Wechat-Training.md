@@ -1,7 +1,6 @@
 ---
 css: bilibili
 js: bilibili
-layout: post
 tags: 学习资料 三次元
 title: 2019年环院学生会微信推送培训指南
 update: 2019-11-01

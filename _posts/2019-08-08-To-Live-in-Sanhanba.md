@@ -1,6 +1,5 @@
 ---
 title: 塞罕坝存活指南
-layout: post
 tags: 杂记 三次元
 update: 2019-09-15
 infoBox: complete

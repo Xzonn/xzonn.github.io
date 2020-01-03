@@ -1,7 +1,7 @@
 ---
-layout: post
-title: 《地震概论》2019年秋季学期（周四班）笔记
+headImage: /images/ItS-04-01.svg
 tags: 学习资料 通选课 知识点整理 三次元
+title: 《地震概论》2019年秋季学期（周四班）笔记
 update: 2019-12-27
 ---
 <style>

@@ -1,8 +1,8 @@
 ---
-layout: post
-title: 《环境纳米技术导论》知识点整理
+headImage: https://s2.ax1x.com/2019/11/27/QCnopF.png
 infoBox: incomplete
 tags: 学习资料 环院专业课 知识点整理 三次元
+title: 《环境纳米技术导论》知识点整理
 update: 2020-01-02
 ---
 <style>
@@ -23,43 +23,43 @@ update: 2020-01-02
     table {
         width: 100%;
     }
-
+    
     .tableCaption {
         position: relative;
     }
-
+    
     .tableCaption > .importance-1, .tableCaption > .importance-2, .tableCaption > .importance-3 {
         top: 0;
     }
-
+    
     .importance-1 {
         border-color: var(--color-warm-dark);
         border-style: solid;
         color: var(--color-warm-dark);
         font-weight: bold;
     }
-
+    
     .importance-1::before {
         content: '1';
     }
-
+    
     .importance-2 {
         border-color: var(--color-warm);
         border-style: dashed;
         color: var(--color-warm);
         font-weight: bold;
     }
-
+    
     .importance-2::before {
         content: '2';
     }
-
+    
     .importance-3 {
         border-color: var(--color-cold);
         border-style: dotted;
         color: var(--color-cold);
     }
-
+    
     .importance-3::before {
         content: '3';
     }

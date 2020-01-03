@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 《精灵宝可梦》四天王房间冲浪漏洞
 infoBox: pokemon pokemonGlitch
 css: bilibili

@@ -1,13 +1,12 @@
 ---
-layout: post
-title: 《土壤与地下水》期末复习
+headImage: https://s2.ax1x.com/2019/12/28/legihd.png
 info: 一小时速成有点不太可能，还是老老实实准备期末复习吧。
 infoBox: complete formula
 tags: 学习资料 环院专业课 知识点整理 三次元
+title: 《土壤与地下水》期末复习
 update: 2019-12-28
 ---
 <style> .chsName { display: inline-block; min-width: 10em; margin-right: 1em; } .engName { font-weight: lighter; font-style: italic; } </style>
-
 ## 1 计算
 ### 1.1 土壤孔隙
 - 空隙率（Void Ratio）：孔隙的体积与固体体积之比，$$e = \cfrac {V_v}{V_s}$$。
@@ -94,7 +93,6 @@ update: 2019-12-28
 
 ## 2 名词解释
 <div class="noPrint" style="float: right;">[ <a href="javascript:jQuery('dd').slideToggle()">显示／隐藏解释</a> | <a href="javascript:jQuery('.chsName').fadeToggle()">显示／隐藏中文</a> ]</div>
-
 ### 第1课
 
 <span class="chsName">关键带</span><span class="engName">Critical Zone</span>

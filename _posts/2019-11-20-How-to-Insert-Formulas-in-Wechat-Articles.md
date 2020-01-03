@@ -1,7 +1,6 @@
 ---
 css: bilibili
 js: bilibili
-layout: post
 tags: 技术指南 三次元
 title: 如何在微信推送中优雅地插入公式
 info: 用截图插入公式，或许不是优雅的选择。

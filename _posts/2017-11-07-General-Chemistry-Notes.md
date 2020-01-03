@@ -1,8 +1,8 @@
 ---
-layout: post
-title: 《普通化学》知识点整理
+headImage: https://upload.wikimedia.org/wikipedia/commons/3/36/Maxwell-Boltzmann_distribution_1.png
 infoBox: complete formula
 tags: 学习资料 化学 知识点整理 三次元
+title: 《普通化学》知识点整理
 ---
 ### 第2章 气体
 #### 提纲

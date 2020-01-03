@@ -1,14 +1,21 @@
-name: Xzonn 的小站
-description: 2020年新年快乐！
-url: https://xzonn.github.io
 author: Xzonn
-markdown: kramdown
-permalink: /:title/
-version: v2.0
-plugins:
-  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
-  - jekyll-paginate
-  - jekyll-feed
+description: 2020年新年快乐！
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
 exclude:
   - LICENSE
+markdown: kramdown
+name: Xzonn 的小站
+permalink: /:title/
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-feed
 timezone: Asia/Shanghai
+url: https://xzonn.github.io
+version: v2.0

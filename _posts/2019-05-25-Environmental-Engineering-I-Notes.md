@@ -1,8 +1,8 @@
 ---
-layout: post
-title: 《环境工程学一》知识点整理
+headImage: https://s2.ax1x.com/2019/10/05/uso6P0.png
 infoBox: incomplete formula
 tags: 学习资料 环院专业课 知识点整理 三次元
+title: 《环境工程学一》知识点整理
 update: 2019-10-05
 ---
 ## 第二章 燃烧与大气污染

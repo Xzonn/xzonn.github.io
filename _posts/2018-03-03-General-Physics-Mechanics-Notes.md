@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 《普通物理·力学》知识点整理
 infoBox: complete formula
 tags: 学习资料 物理 知识点整理 三次元
