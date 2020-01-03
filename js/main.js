@@ -43,7 +43,7 @@ Date.prototype.format = function(fmt="YYYY年MM月DD日 EEE HH:mm:ss") {
 
 $(function() {
     // 目录
-    (function() {
+    window.tocRender = (window.tocRender || function() {
         var toc = $("<div/>")
           , lastRank = 1
           , tocID = []
@@ -72,7 +72,7 @@ $(function() {
             tocID.push(tocID.pop() + 1);
             toc.append($("<li/>").append($("<a/>").attr({
                 href: "#" + this.id
-            }).text(this.innerText)))
+            }).html(this.innerHTML)))
             lastRank = +this.tagName[1];
         });
         while (toc.parent()[0]) {
@@ -81,8 +81,9 @@ $(function() {
         while (toc.children().length == 1 && (!(toc.children()[0].tagName.toLowerCase() == "li") || toc.children()[0].classList.contains("no-list-style"))) {
             toc = toc.children();
         }
-        toc.children().prependTo($(".leftToc"));
-    })();
+        toc.children().prependTo($(".leftToc").empty());
+    });
+    window.tocRender();
 
     // 代码高亮
     $("#content pre code").each(function() {

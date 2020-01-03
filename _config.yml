@@ -1,5 +1,5 @@
 name: Xzonn 的小站
-description: 2019即将过去，2020即将到来。
+description: 2020年新年快乐！
 url: https://xzonn.github.io
 author: Xzonn
 markdown: kramdown
@@ -11,5 +11,4 @@ plugins:
   - jekyll-feed
 exclude:
   - LICENSE
-paginate: 10
-paginate_path: /page/:num/
+timezone: Asia/Shanghai

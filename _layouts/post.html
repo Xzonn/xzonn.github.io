@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-                <h1 id="rightTitle">{{ page.title }}</h1>
+                <h1 id="rightTitle">{{ page.title }}</h1>{% if page.date %}
                 <div id="rightInfos">
                     <div id="rightDate">{{ page.date | date: "%Y-%m-%d" }}</div>{% if page.update %}
                     <div id="rightUpdate">{{ page.update | date: "%Y-%m-%d" }}</div>{% endif %}{% if page.tags.size > 1 %}
@@ -15,9 +15,9 @@ layout: default
 {% include {{ infoBox | append: ".html" }} multiple=true %}
 {% endfor %}{% else %}
 {% include infoBox.html name="Blank" icon="&#61485;" %}
-{% endif %}                </div>
+{% endif %}                </div>{% endif %}
                 <div id="content">
 {{ content }}
-                </div>
+                </div>{% if jekyll.environment == "production" %}
                 <ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-8317643192080236" data-ad-slot="4580015282"></ins>
-{% include comment.html %}
+{% include comment.html %}{% endif %}

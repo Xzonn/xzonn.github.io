@@ -1,44 +1,21 @@
 ---
-layout: default
+css: postList
+js: postList
+layout: post
+title: 欢迎来到 Xzonn 的小站！
 ---
-{% if paginator.page == 1 %}<h1 id="rightTitle">欢迎来到 Xzonn 的小站！</h1>
-<div id="content">{% include readme.html %}
-
-<h2 id="页面列表">页面列表</h2>{% else %}
-<h1 id="rightTitle">页面列表 - 第 {{ paginator.page }} 页</h1>
-<div id="content"><div class="at-r"><a href="/pages/">查看全部 →</a></div>{% endif %}{% for post in paginator.posts %}
-{% include pageNav.html post=post %}{% endfor %}
-<div class="pagePagination">{% if paginator.previous_page %}
-    <div class="pagePrev">{% if paginator.page > 2 %}
-        <a class="pageFirstLink" href="/">第一页</a>{% endif %}
-        <a class="pagePrevLink" href="{{ paginator.previous_page_path }}">上一页</a>
-    </div>{% endif %}{% if paginator.next_page %}
-    <div class="pageNext">
-        <a class="pageNextLink" href="{{ paginator.next_page_path }}">下一页</a>{% if paginator.next_page < paginator.total_pages %}
-        <a class="pageLastLink" href="/page/{{ paginator.total_pages }}/">最后一页</a>{% endif %}
-    </div>{% endif %}
-    <div class="pageCount">本站共有 {{ paginator.total_posts }} 篇文章，共 <span class="pageTotal">{{ paginator.total_pages}}</span> 页。</div>
-    <div class="pageEnter">
-        <input class="pageNumber" placeholder="请输入页码" /><button class="pageGoto">前往</button>
+{% include readme.html %}
+<h2 class="pageListTitle">页面列表</h2>
+<div class="pageBlockList"></div>
+<div class="pagePagination">
+    <div class="pagePrev">
+        <a class="pageFirstLink" href="/">第一页</a> | <a class="pagePrevLink" href="/">上一页</a>
     </div>
+    <div class="pageNext">
+        <a class="pageNextLink" href="/">下一页</a> | <a class="pageLastLink" href="/">最后一页</a>
+    </div>
+    <div class="pageCount">本站共有 <span class="postTotal"></span> 篇文章，共 <span class="pageTotal"></span> 页。</div>
+    <form class="pageEnter">
+        <input name="page" class="pageNumber" placeholder="请输入页码" /><button class="pageGoto">前往</button>
+    </form>
 </div>
-<script>
-    (function (){
-        $(".pageGoto").click(function (){
-            var pageNumber = $(".pageNumber").val(),
-                href = location.href;
-            if (isNaN(pageNumber) || +pageNumber < 2) {
-                href = location.origin + "/";
-            } else if (+pageNumber > +$(".pageTotal").text()) {
-                href = location.origin + "/page/" + $(".pageTotal").text() + "/";
-            } else {
-                href = location.origin + "/page/" + (+pageNumber) + "/";
-            }
-            if (href != location.href) {
-                location.href = href;
-            }
-        })
-    })();
-</script>
-</div>{% if paginator.page == 1 %}
-{% include comment.html %}{% endif %}

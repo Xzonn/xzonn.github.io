@@ -983,8 +983,8 @@ update: 2020-01-02
   - [2]：金属硫化物在水溶液中不稳定，会发生阳极光腐蚀，且有毒。
   - [3]：铁的氧化物会发生阴极光腐蚀。
 
-<table class="lineTable rightTable">
-    <caption class="tableCaption" id="table-chang-jian-de-guang-cui-hua-cai-liao" style="width: 30%;">常见的光催化材料</caption>
+<table class="lineTable rightTable" style="width: 30%;">
+    <caption class="tableCaption" id="table-chang-jian-de-guang-cui-hua-cai-liao">常见的光催化材料</caption>
     <thead>
         <tr><th>催化剂</th><th><script type="math/tex">E_g</script>（eV）</th></tr>
     </thead>
@@ -1163,7 +1163,7 @@ update: 2020-01-02
   - 吸收可见光，高稳定性，不含金属成份，廉价易得，结构与性能易于调控，易于成膜和集成化，重量轻。
 - 其他光催化材料：
   - 金属氧化物：ZnO、WO、Fe<sub>2</sub>O<sub>3</sub>、SnO<sub>2</sub>、Bi<sub>2</sub>O<sub>3</sub>等金属氧化物都具有明显的光催化作用。
-  - II ~ IV族半导体：此类半导体的代表是ZnS、CdS、CdSe。单纯的这些半导体材料的光催化性能不高，主要是和其他的光催化剂如TiO<sub>2</sub>、SnO<sub>2、ZnO等进行复合，得到性能更好的复合半导体光催化剂。
+  - II ~ IV族半导体：此类半导体的代表是ZnS、CdS、CdSe。单纯的这些半导体材料的光催化性能不高，主要是和其他的光催化剂如TiO<sub>2</sub>、SnO<sub>2</sub>、ZnO等进行复合，得到性能更好的复合半导体光催化剂。
   - 钙钛矿型复合氧化物（ABO<sub>3</sub>）：具有独特的电磁性质和氧化还原催化活性，其中稀土离子占据A位，过渡金属离子占据B位。它的光催化降解性是近年来研究的热门课题。
 
 ## 第7讲 环境纳米修复技术：催化
