@@ -368,7 +368,7 @@ update: 2019-12-28
 <span class="chsName">含水层</span><span class="engName">Aquifer</span>
 : 是一种地下含水渗透性或松散的物质，蓄水和输水的地质单位。可以利用水井有效地从其中抽取地下水。
 
-<span class="chsName">隔水层</span><span class="engName">Auitard</span>
+<span class="chsName">隔水层</span><span class="engName">Aquitard</span>
 : 限制地下水从一个含水层流向另一个含水层的区域。由粘土或无孔岩石组成，具有较低的渗透系数。
 
 <span class="chsName">绝水层</span><span class="engName">Aquifuge</span>
@@ -413,10 +413,10 @@ update: 2019-12-28
 <span class="chsName">渗流速率</span><span class="engName">Seepage Velocity,$$v_s$$</span>
 : 流体在土壤中的实际速率，$$v_s = \cfrac {q}{n}$$。
 
-<span class="chsName">层流</span><span class="engName">Lamina Flow</span>
+<span class="chsName">层流</span><span class="engName">Laminar Flow</span>
 : 
 
-<span class="chsName">湍流</span><span class="engName">Turbulence Flow</span>
+<span class="chsName">湍流</span><span class="engName">Turbulent Flow</span>
 : 当流速很小时，流体分层流动，互不混合，称为层流。当流速增加到很大时，流线不再清楚可辨，流场中有许多小漩涡，称为湍流。
 
 <span class="chsName">各向同性</span><span class="engName">Isotropy</span>
@@ -473,6 +473,7 @@ update: 2019-12-28
 : 
 
 <span class="chsName">垂直</span><span class="engName">Perpendicular</span>
+:
 
 ### 第12课
 

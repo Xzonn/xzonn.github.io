@@ -1,5 +1,5 @@
 ---
-title: 《环境微生物学》期末复习
+title: 《环境微生物学》期末题库
 infoBox: incomplete
 tags: 学习资料 环院专业课 知识点整理 三次元
 update: 2020-01-02
