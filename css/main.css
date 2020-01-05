@@ -57,7 +57,7 @@ text, tspan {
     font-family: var(--font-family-sans-serif-latin), var(--font-family-sans-serif-chinese), var(--font-family-emoji) !important;
 }
 
-[lang="en"] {
+[lang="en"], [lang="en"] .biaodian {
     font-family: var(--font-family-sans-serif-latin), var(--font-family-emoji);
 }
 
@@ -65,7 +65,7 @@ text, tspan {
     font-family: var(--font-family-sans-serif-chinese), var(--font-family-emoji);
 }
 
-blockquote, .answerLine {
+em, blockquote, .answerLine {
     font-family: var(--font-family-serif-latin), var(--font-family-serif-chinese), var(--font-family-emoji);
 }
 
