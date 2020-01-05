@@ -47,7 +47,7 @@ update: 2020-01-05
 - 纳米材料的表征内容：成分分析、形貌分析、粒度分析、结构分析、表面界面分析等。
 - 材料分析方法：
   - 透射电子显微镜（TEM）：电子束打穿成像。可以观察材料内部形态。电子束能量高，不要求导电性。
-  - 扫描电子显微镜（SEM）：聚焦电子束在表面逐点扫描显示样品表面各种特征，研究材料的表面化学结构和电子状态。只能观察导体或半导体，绝缘体需要喷镀导电层。原理是量子隧道效应。
+  - 扫描电子显微镜（SEM）：聚焦电子束在表面逐点扫描显示样品表面各种特征，研究材料的表面化学结构和电子状态。只能观察导体或半导体，绝缘体需要喷镀导电层。
   - 原子力显微镜（AFM）：类似扫描电子显微镜，利用针尖与样品间的相互作用力产生的形变，可研究绝缘体的表面形貌。
   - X射线衍射（XRD）：物相分析。横轴为2<i>θ</i>，纵轴为强度。原理是散射波发生干涉，满足布拉格方程，$$2d\sin \theta = n \lambda$$。用于研究晶面信息。定性分析需要粉末衍射卡（PDF卡），利用字母索引找出物质的三强线（三条最强线定物质）。定量分析只能确定具体比例关系。
   - X射线光电子能谱（XPS）：元素组成分析。横轴为结合能（Binding Energy），纵轴为强度。表面分析技术，表征材料表面元素及其化学状态。原理是光电效应。对于激发出来的光电子依据激发轨道的名称进行标记，一般只要某元素存在所有强峰都存在。主要用于氧化态识别。
@@ -74,10 +74,15 @@ update: 2020-01-05
   - 弗兰德里希方程：$$q = kp^{1/n}$$，取对数$$\lg q = \lg k + \cfrac {1}{n}\lg p$$。以$$\lg p$$为横轴，$$\lg q$$为纵轴作图。当<i>n</i> = 1时，转化为线性吸附方程。经验公式，不但适用于气体吸附，也适用于液体吸附，气体吸附压力范围不能太宽，低压高压区域拟合效果不好。
   - 液相吸附平衡：比气相复杂，溶剂和溶液都有可能被吸附，在溶剂的吸附作用忽略不计时可以认为是单组分吸附。
 - 吸附影响因素：吸附剂（比表面积、孔结构、表面化学性质等）、吸附质（溶解度、极性、分子量、溶质浓度、金属离子兴塔等）、操作条件（接触时间、温度、pH、共存物质）等。
+- 金属有机骨架化合物（MOFs）：
+  - 由无机金属中心（金属离子或金属簇）与桥连的有机配体通过自组装相互连接，形成的一类具有周期性网络结构的晶态多孔材料。
+  - 组成：无机金属中心、桥状有机配体、自组装、晶状多孔材料。
+  - 形成的四要素：金属的活性、有机配体的灵活性、官能团的选择性、特殊的空间结构。
+  - 应用：气体储存、催化剂、分离、光电磁材料等。
 - 光催化：半导体在紫外和可见光下，将污染物降解或矿化成环境无害产物，或将光能转化为化学能的过程。
 - 半导体能带：半导体最高充满电子的满带称为价带，最低无电子的空带称为导带，价带和导带之间称为禁带。用能量大于等于禁带宽度的光照射时，价带电子激发跃迁到导带，在价带产生空穴。
   - 价带空穴是强氧化剂，而导带电子是强还原剂。
-  - 空穴与H<sub>2</sub>O或OH<sup>-</sup>结合产生·</span>OH，电子与O<sub>2</sub>结合产生·</span>O<sub>2</sub><sup>-</sup>、<span lang="en">·</span>OH等。
+  - 空穴与H<sub>2</sub>O或OH<sup>-</sup>结合产生<span lang="en">·</span>OH，电子与O<sub>2</sub>结合产生<span lang="en">·</span>O<sub>2</sub><sup>-</sup>、<span lang="en">·</span>OH等。
   - 空穴和自由基的强氧化性可氧化有机物，导带的强还原性可还原重金属。
   - 鉴定自由基或空穴作用：自由基淬灭实验（用淬灭剂与自由基反应，测定自由基的效果）、电子自旋谐振（ESR，测定是否有自由基生成）。
 - 光催化反应动力学方程：L-H模型。$$- \cfrac {\mathrm dc}{\mathrm dt} = r = k \cfrac {Kc}{1 + Kc}$$。$$Kc \gg 1$$时简化为零级反应方程，积分得到$$c_0 - c = k_0t$$。$$Kc \ll 1$$时简化为一级反应方程，积分得到$$\ln (c_0 / c_t) = k_1t$$。
@@ -110,19 +115,22 @@ update: 2020-01-05
 <table class="figureTable">
     <tbody>
         <tr>
-            <td><img src="https://s2.ax1x.com/2020/01/05/l0XZGD.png" alt="TEM|x200px|right" /></td>
-            <td><img src="https://s2.ax1x.com/2020/01/05/l0XeRe.png" alt="SEM|x200px|right" /></td>
+            <td><img src="https://s2.ax1x.com/2020/01/05/l0XZGD.png" alt="TEM|x200px" /></td>
+            <td><img src="https://s2.ax1x.com/2020/01/05/l0XeRe.png" alt="SEM|x200px" /></td>
         </tr>
         <tr>
-            <td><img src="https://s2.ax1x.com/2020/01/05/l0XuMd.png" alt="XRD|x200px|right" /></td>
-            <td><img src="https://s2.ax1x.com/2020/01/05/l0XmxH.png" alt="XPS|x200px|right" /></td>
+            <td><img src="https://s2.ax1x.com/2020/01/05/l0XuMd.png" alt="XRD|x200px" /></td>
+            <td><img src="https://s2.ax1x.com/2020/01/05/l0XmxH.png" alt="XPS|x200px" /></td>
         </tr>
         <tr>
-            <td><img src="https://s2.ax1x.com/2020/01/05/l0Xka6.png" alt="UV-vis DRS|x200px|right" /></td>
-            <td><img src="https://s2.ax1x.com/2020/01/05/l0XVPO.png" alt="BET & BJH|x200px|right" /></td>
+            <td><img src="https://s2.ax1x.com/2020/01/05/l0Xka6.png" alt="UV-vis DRS|x200px" /></td>
+            <td><img src="https://s2.ax1x.com/2020/01/05/l0XVPO.png" alt="BET & BJH|x200px" /></td>
         </tr>
         <tr>
-            <td><img src="https://s2.ax1x.com/2020/01/05/l0XAIK.png" alt="Zeta-pH|x200px|right" /></td>
+            <td><img src="https://s2.ax1x.com/2020/01/05/l0XAIK.png" alt="Zeta-pH|x200px" /></td>
         </tr>
     </tbody>
 </table>
+
+*图片来源：[Ma Z, Zhang M, Guo J, et al. Facile synthesis of ZrO2 coated BiOCl0.5I0.5 for photocatalytic oxidation-adsorption of As(III) under visible light irradiation [J]. Chemosphere, 2018, 211 934-42.](https://doi.org/10.1016/j.chemosphere.2018.08.003)*
+
