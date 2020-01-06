@@ -17,7 +17,7 @@ window.changePage = function (page) {
         pageNumber = +(page || (window.URLParameters || window.getURLParameters()).page || 1),
         isWeChat = /MicroMessenger/.test(navigator.userAgent),
         i;
-    $.get("/pages.json").done(function (data) {
+    $.get("/pages.json?d=" + new Date().getDate()).done(function (data) {
         let maxPageNumber = Math.ceil(data.length / pageCount);
         data = data.sort(function (a, b) {
             if (a["update"] < b["update"]) {

@@ -47,7 +47,7 @@ $(function() {
         var toc = $("<div/>")
           , lastRank = 1
           , tocID = []
-          , headings = $("#content").find("h2, h3, h4, h5");
+          , headings = $("#content").find("h2, h3, h4");
         if (!headings) {
             return;
         }

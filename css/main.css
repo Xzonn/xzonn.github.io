@@ -553,6 +553,7 @@ sub, sup {
 a {
     color: var(--color-warm-dark);
     text-decoration: none;
+    word-break: break-all;
 }
 
 a[href]:hover {
