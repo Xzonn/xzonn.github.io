@@ -627,7 +627,7 @@ sup.endnoteRef::after {
 }
 
 .MathJax_SVG text {
-    font-size: 16px;
+    font-size: calc(1em / 0.86);
 }
 
 

@@ -81,6 +81,9 @@ $(function() {
         while (toc.children().length == 1 && (!(toc.children()[0].tagName.toLowerCase() == "li") || toc.children()[0].classList.contains("no-list-style"))) {
             toc = toc.children();
         }
+        toc.find(".no-list-style").each(function () {
+            $(this).parent().replaceWith($(this).children());
+        });
         toc.children().prependTo($(".leftToc").empty());
     });
     window.tocRender();

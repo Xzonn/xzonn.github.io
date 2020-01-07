@@ -232,10 +232,10 @@ update: 2019-12-28
 : 粒径$$< \pu{0.002 mm}$$的土壤颗粒。
 
 <span class="chsName">粉粒</span><span class="engName">Silt</span>
-: 粒径$$0.002 \sim \pu{0.05 mm}$$的土壤颗粒。
+: 粒径$$0.002 \text{~} \pu{0.05 mm}$$的土壤颗粒。
 
 <span class="chsName">沙粒</span><span class="engName">Sand</span>
-: 粒径$$0.05 \sim \pu{1 mm}$$的土壤颗粒。
+: 粒径$$0.05 \text{~} \pu{1 mm}$$的土壤颗粒。
 
 <span class="chsName">石砾</span><span class="engName">Coarse Fragments</span>
 : 粒径$$> \pu{1 mm}$$的土壤颗粒。
