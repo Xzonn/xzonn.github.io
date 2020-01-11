@@ -1,10 +1,16 @@
 ---
-title: 《线性代数》试题整理
+class: formal
+title: 环院《线性代数（B）》试题整理
 info: 一小时速成？不可能的，想啥呢。
 infoBox: complete
 tags: 学习资料 数学 试题整理 三次元
-update: 2019-11-13
+update: 2020-01-11
 ---
+<style>
+.gsbFinal > li > ul { counter-reset: list-item; }
+.gsbFinal > li > ul > li { list-style: lower-alpha; }
+.gsbFinal > li > ul > li::marker { content: "(" counter(list-item, lower-alpha) ")"; }
+</style>
 
 这是《线性代数 (B)》的试题。
 
@@ -18,7 +24,6 @@ update: 2019-11-13
 
 ### 期末试题
 <style class="linearAlgebraTests2018BStyle"> .linearAlgebraTests2018BStyle + ol { list-style: simp-chinese-informal; padding-left: 2em; } </style>
-
 1. （30 分）回答下面的问题：
    1. 设 $V$ 为线性空间，$V$ 中向量 $\alpha\_1, \alpha\_2, \cdots, \alpha\_s$ 可以由 $\beta\_1, \beta\_2, \cdots, \beta\_r$ 线性表出且 $s > r$。问 $\alpha\_1, \alpha\_2, \cdots, \alpha\_s$ 是否为线性无关的向量组？请证明你的结果。
    2. 设 $V$ 为 $n$ 维线性空间，$\alpha\_1, \alpha\_2, \cdots, \alpha\_n$ 是 $V$ 中线性无关的向量组，问 $\alpha\_1, \alpha\_2, \cdots, \alpha\_n$ 是否为 $V$ 的基，为什么？
@@ -43,3 +48,27 @@ update: 2019-11-13
   - （5分）将上述方程组看成有理数域$$\mathbb{Q}$$上的方程组，求它的一个基础解系。
 6. （10分）求解下面的$$n$$元线性方程组：\\\[ \begin{cases} x\_1 + x\_2 + x\_3 + \cdots + x\_n = 1, \\\\ x\_1 + 2x\_2 + 3x\_3 + \cdots + nx\_n = 0, \\\\ x\_1 + 2^2x\_2 + 3^2x\_3 + \cdots + n^2x\_n = 0, \\\\ \cdots \\\\ x\_1 + 2^{n - 1}x\_2 + 3^{n - 1}x\_3 + \cdots + n^{n - 1}x\_n = 0. \end{cases} \\\]
 7. （10分）设$$n$$个方程的$$n$$元齐次线性方程组有非零解，并且系数矩阵$$A$$的$$(1, 1)$$元的代数余子式$$A_{11} \neq 0$$。证明：$$\eta = (A_{11}, A_{12}, \cdots, A_{1n})^T$$为该齐次线性方程组的一个基础解系，其中$$A_{ij}$$为$$A$$的$$(1, j)$$元的代数余子式。
+
+### 期末试题
+本试题中$$K$$为任一给定数域，$$n > 0$$为一自然数。
+
+<ol class="gsbFinal">
+  <li>（10分）求解下面的矩阵方程：<script type="math/tex; mode=display">% <![CDATA[
+\begin{bmatrix} 1 & 1 & 1 \\ 1 & 0 & -4 \\ 1 & 1 & 0 \end{bmatrix} X = \begin{bmatrix} 1 & 4 \\ 2 & 5 \\ 3 & 6 \end{bmatrix} %]]></script></li>
+  <li>（10分）求三元实二次型<script type="math/tex">f(x, y, z) = x^2 + y^2 + z^2 - 2xy - 2xz</script>的规范形。</li>
+  <li>（20分）设有实对称矩阵<script type="math/tex; mode=display">% <![CDATA[
+A = \begin{bmatrix} 2 & 2 & -2 \\ 2 & -1 & 4 \\ -2 & 4 & -1 \end{bmatrix} %]]></script>
+    <ul>
+      <li>（10分）求<script type="math/tex">A</script>的全部特征值与特征向量。</li>
+      <li>（10分）求一正交矩阵<script type="math/tex">T</script>使得<script type="math/tex">T^{-1}AT</script>为对角矩阵。</li>
+    </ul>
+  </li>
+  <li>（20分）将<script type="math/tex">M_n(K)</script>看成数域<script type="math/tex">K</script>上的线性空间。定义线性变换<script type="math/tex; mode=display">T: M_n(K) \to M_n(K), ~ T(A) = A'</script>这里<script type="math/tex">A'</script>为<script type="math/tex">A</script>的转置。
+    <ul>
+      <li>（10分）求<script type="math/tex">T</script>的所有特征值与特征向量。</li>
+      <li>（10分）找出<script type="math/tex">M_n(K)</script>的一个基，使得<script type="math/tex">T</script>在此基下的矩阵为对角矩阵， 并计算该对角矩阵的行列式。</li>
+    </ul>
+  </li>
+  <li>（10分）设<script type="math/tex">A \in M_n(K)</script>，满足<script type="math/tex">AA' = I</script>，且<script type="math/tex">% <![CDATA[
+|A| < 0 %]]></script>。证明：-1是<script type="math/tex">A</script>的一个特征值。</li>
+</ol>

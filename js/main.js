@@ -101,7 +101,7 @@ $(function() {
     //img标签相关
     var imageDisplay = ["auto", "none", "block", "left", "right", "center"],
         imageSize = 360,
-        imageSizeUnit = /(pt|px|em|rem|%)$/;
+        imageSizeUnit = /(pt|px|em|rem|cm|mm|%)$/;
     $("#content img, #content svg.svgImage").each(function() {
         if (this.nodeName == "IMG" && this.classList.length) {
             return;
@@ -168,9 +168,10 @@ $(function() {
             i;
         for (i = 0; i < tables.length; i++) {
             let table = tables[i],
-                caption = table.dataset["caption"];
+                caption = table.dataset["caption"],
+                id = table.dataset["id"];
             if (caption) {
-                $("<caption/>").addClass("tableCaption").text(caption).prependTo(table);
+                $("<caption/>").addClass("tableCaption").html(caption).attr("id", id).prependTo(table);
             }
         }
     })();
