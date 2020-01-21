@@ -3,16 +3,16 @@
 /* 根定义 */
 :root {
     --font-family-sans-serif-latin: "Segoe UI", Roboto, "Helvetica Neue", Arial;
-    --font-family-sans-serif-chinese: "Noto Sans CJK SC", "Source Han Sans CN", "Microsoft Yahei", Simhei, sans-serif;
+    --font-family-sans-serif-chinese: "Noto Sans CJK SC", "Source Han Sans CN", "Source Han Sans", "Microsoft Yahei", Simhei, sans-serif;
     --font-family-sans-serif-print-latin: Arial;
     --font-family-sans-serif-print-chinese: Simhei, sans-serif;
 
     --font-family-serif-latin: STIX-Web, "Times New Roman";
-    --font-family-serif-chinese: "Source Han Serif CN", Simsun, serif;
+    --font-family-serif-chinese: "Source Han Serif CN", "Source Han Serif", Simsun, serif;
     --font-family-serif-print-latin: STIX-Web, "Times New Roman";
     --font-family-serif-print-chinese: Simsun, serif;
 
-    --font-family-monospace: Consolas, "Liberation Mono", "Courier New", "Noto Sans CJK SC", "Source Han Sans CN", "Microsoft Yahei", Simhei, monospace;
+    --font-family-monospace: Consolas, "Liberation Mono", "Courier New", "Noto Sans CJK SC", "Source Han Sans CN", "Source Han Sans", "Microsoft Yahei", Simhei, monospace;
     --font-family-fang-song: FangSong, Simfang, Simsun, serif;
     --font-family-kai-ti: KaiTi, Simkai, Simsun, serif;
     --font-family-emoji: "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
@@ -207,6 +207,10 @@ blockquote::after {
 ul, ol {
     padding-left: 2em;
     text-align: justify;
+}
+
+p + ul, p + ol {
+    padding-left: 4em;
 }
 
 ul ul, ul ol, ol ol, ol ul {
@@ -434,7 +438,7 @@ pre code ul li:nth-child(2n) {
 }
 
 /* 图片 */
-img, svg.svgImage {
+img, svg.svgImage, video {
     margin: 0 auto;
     max-width: 100%;
     vertical-align: middle;
