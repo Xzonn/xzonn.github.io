@@ -1,7 +1,9 @@
 ---
+headImage: http://mmbiz.qpic.cn/mmbiz_jpg/Qh7FH95PRns3Qicq9gpFHguTT9qAibiaKuUxW81bnnkkEbeUBxvTBvmx0tYuib9fDXaYyiczGB765dAR8y9DGHgsBDQ/0
 info: Xzonn的技能小讲座第4讲。
-tags: 学习资料 环院专业课 知识点整理 三次元
+tags: 技术指南 三次元
 title: 如何下载一篇国标？
+wechatLink: https://mp.weixin.qq.com/s/iIIwUZupCn3M_mCYNzJSbg
 ---
 ## 1
 
