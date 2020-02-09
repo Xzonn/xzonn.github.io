@@ -1,5 +1,5 @@
 ---
-headImage: http://mmbiz.qpic.cn/mmbiz_jpg/Qh7FH95PRnuTaCZzkk8vk5TGhAhzR9nUy1iaPNXmBRjjPKuApwQBCcMSibnOEQJpCib1LmEc3N1nLficbnNdBqALlQ/0
+headImage: https://mmbiz.qpic.cn/mmbiz_jpg/Qh7FH95PRnuTaCZzkk8vk5TGhAhzR9nUy1iaPNXmBRjjPKuApwQBCcMSibnOEQJpCib1LmEc3N1nLficbnNdBqALlQ/0
 info: Xzonn的技能小讲座第5讲。
 tags: 技术指南 三次元
 title: 如何获取电子教材？

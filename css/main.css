@@ -3,16 +3,16 @@
 /* 根定义 */
 :root {
     --font-family-sans-serif-latin: "Segoe UI", Roboto, "Helvetica Neue", Arial;
-    --font-family-sans-serif-chinese: "Noto Sans CJK SC", "Source Han Sans CN", "Source Han Sans", "Microsoft Yahei", Simhei, sans-serif;
+    --font-family-sans-serif-chinese: "Noto Sans CJK SC", "Source Han Sans CN", "Source Han Sans SC", "Source Han Sans", "Microsoft Yahei", Simhei, sans-serif;
     --font-family-sans-serif-print-latin: Arial;
     --font-family-sans-serif-print-chinese: Simhei, sans-serif;
 
     --font-family-serif-latin: STIX-Web, "Times New Roman";
-    --font-family-serif-chinese: "Source Han Serif CN", "Source Han Serif", Simsun, serif;
+    --font-family-serif-chinese: "Source Han Serif CN", "Source Han Serif SC", "Source Han Serif", Simsun, serif;
     --font-family-serif-print-latin: STIX-Web, "Times New Roman";
     --font-family-serif-print-chinese: Simsun, serif;
 
-    --font-family-monospace: Consolas, "Liberation Mono", "Courier New", "Noto Sans CJK SC", "Source Han Sans CN", "Source Han Sans", "Microsoft Yahei", Simhei, monospace;
+    --font-family-monospace: Consolas, "Liberation Mono", "Courier New", "Noto Sans CJK SC", "Source Han Sans CN", "Source Han Sans SC", "Source Han Sans", "Microsoft Yahei", Simhei, monospace;
     --font-family-fang-song: FangSong, Simfang, Simsun, serif;
     --font-family-kai-ti: KaiTi, Simkai, Simsun, serif;
     --font-family-emoji: "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";

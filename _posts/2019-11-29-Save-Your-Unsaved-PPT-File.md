@@ -1,5 +1,5 @@
 ---
-headImage: http://mmbiz.qpic.cn/mmbiz_png/Qh7FH95PRnsGibm3j1h8hlnibx94eAfibTVFXjYq5ECtrAV4C3UjtFuU9oS2Nic4pIZibyHVkicJy2C0Cx9iaS86p6iaJw/0
+headImage: https://mmbiz.qpic.cn/mmbiz_png/Qh7FH95PRnsGibm3j1h8hlnibx94eAfibTVFXjYq5ECtrAV4C3UjtFuU9oS2Nic4pIZibyHVkicJy2C0Cx9iaS86p6iaJw/0
 info: 最好的拯救方法还是 Ctrl + S。
 tags: 技术指南 三次元
 title: 拯救未保存的 PPT
@@ -25,8 +25,7 @@ wechatLink: https://mp.weixin.qq.com/s/DuEaIZgflV2b5yK5g0kfJA
 
 他一口答应下来，打开了 QQ。然而，我却连接不上他。我让他发个截图给我，然后打眼一看：这不是应用商店版的 QQ 么？
 
-![神奇的 QQ 界面
-](https://s2.ax1x.com/2019/11/29/QAWrZV.png)
+![神奇的 QQ 界面](https://s2.ax1x.com/2019/11/29/QAWrZV.png)
 
 我也不想再费口舌，便说：“要不你过来找我吧，一句两句话说不清楚。对了，我刚吃完饭，有点口渴……”
 

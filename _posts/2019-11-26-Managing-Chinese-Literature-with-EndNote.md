@@ -5,7 +5,7 @@ tags: 技术指南 三次元
 title: 用 EndNote 管理中文文献
 info: EndNote 其实也是可以管理中文文献的。
 update: 2019-12-05
-headImage: http://mmbiz.qpic.cn/mmbiz_jpg/Qh7FH95PRnuXsKbo6P2vzJ5gyibs6g4lF7VEU4vMicFmaTeul8xt9NyUG5AibhKCscKV5lK4OfJkTOaBhK9VWyQgQ/0
+headImage: https://mmbiz.qpic.cn/mmbiz_jpg/Qh7FH95PRnuXsKbo6P2vzJ5gyibs6g4lF7VEU4vMicFmaTeul8xt9NyUG5AibhKCscKV5lK4OfJkTOaBhK9VWyQgQ/0
 wechatLink: https://mp.weixin.qq.com/s/gTwaB7uqqNfTbg0UgsL4zw
 ---
 ## 0. 前言
