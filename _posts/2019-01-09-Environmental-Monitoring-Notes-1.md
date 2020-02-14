@@ -1,9 +1,10 @@
 ---
-title: 《环境监测》知识点整理（一）
 infoBox: complete
 tags: 学习资料 环院专业课 知识点整理 三次元
+title: 《环境监测》知识点整理（一）
+update: 2020-02-14 13:27
 ---
-<p class="noPrint">这是《环境监测》课程孙卫玲老师部分的知识点整理。<a href="/Environmental-Monitoring-Notes-3/">谢曙光老师部分</a>。</p>
+<p class="noPrint">这是《环境监测》课程孙卫玲老师部分的知识点整理。<a href="/posts/Environmental-Monitoring-Notes-3.html">谢曙光老师部分</a>。</p>
 
 ## 1 水体金属监测
 ### 1.1 标准方法选择

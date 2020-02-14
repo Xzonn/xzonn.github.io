@@ -1,8 +1,8 @@
 ---
-title: 塞罕坝存活指南
-tags: 杂记 三次元
-update: 2019-09-15
 infoBox: complete
+tags: 杂记 三次元
+title: 塞罕坝存活指南
+update: 2020-01-03 23:05
 ---
 <blockquote>
     <p>我来这里之前就想问了，这种东西为什么之前没有人做？？？</p>

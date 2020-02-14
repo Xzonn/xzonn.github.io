@@ -1,10 +1,10 @@
 ---
-title: 《初级日语 第二册》语法整理
-infoBox: complete
 css: japanese
+infoBox: complete
 js: japanese
-update: 2019-06-03
 tags: 学习资料 日语 知识点整理 三次元
+title: 《初级日语 第二册》语法整理
+update: 2020-01-03 23:02
 ---
 ## 一、文法
 ### 敬体与简体

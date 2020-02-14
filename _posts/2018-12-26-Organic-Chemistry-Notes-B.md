@@ -1,10 +1,10 @@
 ---
-title: 《有机化学》知识点整理（下）
 infoBox: complete formula
 tags: 学习资料 化学 知识点整理 三次元
-update: 2019-10-29
+title: 《有机化学》知识点整理（下）
+update: 2020-02-14 13:27
 ---
-<p class="noPrint">因技术限制，本页面仅提供期中考试后（第7 ~ 12章）的内容。期中考试前的内容请移步 <strong><a href="/Organic-Chemistry-Notes-A/">此页</a></strong>。</p>
+<p class="noPrint">因技术限制，本页面仅提供期中考试后（第7 ~ 12章）的内容。期中考试前的内容请移步 <strong><a href="/posts/Organic-Chemistry-Notes-A.html">此页</a></strong>。</p>
 
 ## 第7章 醇醚酚
 ### 7.1 醇

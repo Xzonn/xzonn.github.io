@@ -3,7 +3,7 @@ headImage: https://mmbiz.qpic.cn/mmbiz_png/Qh7FH95PRnsGibm3j1h8hlnibx94eAfibTVFX
 info: 最好的拯救方法还是 Ctrl + S。
 tags: 技术指南 三次元
 title: 拯救未保存的 PPT
-update: 2019-12-05
+update: 2020-02-09 15:25
 wechatLink: https://mp.weixin.qq.com/s/DuEaIZgflV2b5yK5g0kfJA
 ---
 ## 1. 起因

@@ -5,6 +5,7 @@ info: 3DS《路易吉洋馆》汉化：从开坑到弃坑。
 js: bilibili
 tags: 杂记 二次元
 title: 3DS《路易吉洋馆》汉化笔记
+update: 2020-01-03 23:22
 ---
 <div style="width: 100%; height: 128px; background-position: center; background-repeat: no-repeat; background-image: url(https://raw.githubusercontent.com/Xzonn/LuigiMansionChineseTranslation/master/images/logo.png);"></div>
 <div style="font-size: 200%; font-weight: bold; text-align: center;"><a href="https://xzonn.github.io/LuigiMansion">→汉化发布页←</a></div>

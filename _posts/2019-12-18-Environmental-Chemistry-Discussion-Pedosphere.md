@@ -1,10 +1,10 @@
 ---
-title: 《环境化学》讨论题整理（土壤生物部分）
+class: exercise
+headImage: https://s2.ax1x.com/2019/12/18/Q7exi9.gif
 infoBox: incomplete
 tags: 学习资料 环院专业课 知识点整理 三次元
-update: 2020-01-07
-headImage: https://s2.ax1x.com/2019/12/18/Q7exi9.gif
-class: exercise
+title: 《环境化学》讨论题整理（土壤生物部分）
+update: 2020-01-07 15:33
 ---
 ## 说明
 本资料整理者：朱颖（1 ~ 8）、刘毅（9 ~ 15）、屈玥坤（16 ~ 23）、张祥伟（17 ~ 31）。在整理过程中参考了刘珂凡等人提供的整理资料，在此表示感谢。本资料的所有内容均为已有研究的整合，整理者不对资料的正确性提供保证。

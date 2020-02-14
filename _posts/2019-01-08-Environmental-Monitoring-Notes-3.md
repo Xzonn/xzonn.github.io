@@ -3,9 +3,9 @@ headImage: https://s2.ax1x.com/2020/01/02/ltqFv8.png
 infoBox: incomplete
 tags: 学习资料 环院专业课 知识点整理 三次元
 title: 《环境监测》知识点整理（三）
-update: 2020-01-03
+update: 2020-02-14 13:27
 ---
-这是《环境监测》课程谢曙光老师部分的思考题整理。导航：[孙卫玲老师部分](/Environmental-Monitoring-Notes-1/)。
+这是《环境监测》课程谢曙光老师部分的思考题整理。导航：[孙卫玲老师部分](/posts/Environmental-Monitoring-Notes-1.html)。
 {: .noPrint }
 
 ## 0 思考题汇总
@@ -555,7 +555,7 @@ update: 2020-01-03
 ## 3 土壤污染与固体废物监测
 
 ### 3.1 土壤的概念
-*参见[《土壤与地下水》期末复习](/Soil-And-Groundwater-Notes/)。*
+*参见[《土壤与地下水》期末复习](/posts/Soil-And-Groundwater-Notes.html)。*
 
 ### 3.2 土壤背景值和土壤自净
 - 概念、研究意义：（思，3.0(2)）

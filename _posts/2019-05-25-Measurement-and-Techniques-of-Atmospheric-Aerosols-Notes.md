@@ -1,9 +1,9 @@
 ---
 headImage: https://s2.ax1x.com/2020/01/03/ldnYLV.png
 infoBox: incomplete
-title: 《大气气溶胶测量技术与实验》考点整理
 tags: 学习资料 环院专业课 知识点整理 三次元
-update: 2020-01-03
+title: 《大气气溶胶测量技术与实验》考点整理
+update: 2020-02-14 13:27
 ---
 ## 考点整理
 ### Z.1 雾和霾的区别
@@ -16,7 +16,7 @@ update: 2020-01-03
 - $$S_{\mathrm eq} = \cfrac {A}{r} - \cfrac {B}{r^3}$$，图像有拐点。拐点前称为霾，拐点后称为雾。
 
 ### Z.2 终端沉降速率的计算
-- 参考 [《环境工程学一》知识点整理#3.4 颗粒捕集的理论基础](/Environmental-Engineering-I-Notes/#34-%E9%A2%97%E7%B2%92%E6%8D%95%E9%9B%86%E7%9A%84%E7%90%86%E8%AE%BA%E5%9F%BA%E7%A1%80)。
+- 参考 [《环境工程学一》知识点整理#3.4 颗粒捕集的理论基础](/posts/Environmental-Engineering-I-Notes.html#34-%E9%A2%97%E7%B2%92%E6%8D%95%E9%9B%86%E7%9A%84%E7%90%86%E8%AE%BA%E5%9F%BA%E7%A1%80)。
 - 按照 $$Re_{\mathrm p} \rightarrow C_{\mathrm D} \rightarrow u_{\mathrm s} \rightarrow Re_{\mathrm p}$$ 的过程进行计算。
 - 湍流过渡区公式 $$C_{\mathrm D} = \cfrac {24}{Re_{\mathrm p}}\left(1 + 0.14 Re_{\mathrm p}^{0.7}\right)$$。
 

@@ -1,10 +1,10 @@
 ---
 class: formal
-title: 环院《线性代数（B）》试题整理
 info: 一小时速成？不可能的，想啥呢。
 infoBox: complete
 tags: 学习资料 数学 试题整理 三次元
-update: 2020-01-11
+title: 环院《线性代数（B）》试题整理
+update: 2020-01-11 23:57
 ---
 <style>
 .gsbFinal > li > ul { counter-reset: list-item; }

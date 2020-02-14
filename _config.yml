@@ -8,10 +8,12 @@ defaults:
     values:
       layout: "post"
 exclude:
+  - _drafts/Debug
+  - Debug
   - LICENSE
 markdown: kramdown
 name: Xzonn 的小站
-permalink: /:title/
+permalink: /posts/:title.html
 plugins:
   - jekyll-sitemap
   - jekyll-paginate

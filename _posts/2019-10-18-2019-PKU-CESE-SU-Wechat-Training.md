@@ -1,10 +1,10 @@
 ---
 css: bilibili
+headImage: https://i1.hdslb.com/bfs/archive/cb1a2095129eab167fe140c326f3459eecf665d1.jpg
 js: bilibili
 tags: 学习资料 三次元
 title: 2019年环院学生会微信推送培训指南
-update: 2019-11-01
-headImage: https://i1.hdslb.com/bfs/archive/cb1a2095129eab167fe140c326f3459eecf665d1.jpg
+update: 2020-01-03 23:02
 ---
 <div class="bilibiliBox" data-aid="71734762" data-page="1"></div>
 

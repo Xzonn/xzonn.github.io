@@ -1,9 +1,9 @@
 ---
-title: 《环境化学》小测验（2019秋）
-tags: 学习资料 环院专业课 试题整理 三次元
-update: 2019-12-23
-infoBox: complete
 class: exercise
+infoBox: complete
+tags: 学习资料 环院专业课 试题整理 三次元
+title: 《环境化学》小测验（2019秋）
+update: 2020-01-03 23:02
 ---
 <style>
     h2 {

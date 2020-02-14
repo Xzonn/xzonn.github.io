@@ -3,7 +3,7 @@ headImage: https://upload.wikimedia.org/wikipedia/commons/3/36/Maxwell-Boltzmann
 infoBox: complete formula
 tags: 学习资料 化学 知识点整理 三次元
 title: 《普通化学》知识点整理
-update: 2020-01-07
+update: 2020-01-07 23:38
 ---
 ### 第2章 气体
 #### 提纲

@@ -1,6 +1,7 @@
 ---
-title: 分数绩点计算器
 tags: 三次元
+title: 分数绩点计算器
+update: 2020-01-03 23:02
 ---
 <style>
     input {

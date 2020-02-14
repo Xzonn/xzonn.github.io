@@ -1,10 +1,11 @@
 ---
-title: 《有机化学》知识点整理
 infoBox: complete
 tags: 学习资料 化学 知识点整理 三次元
+title: 《有机化学》知识点整理
+update: 2020-02-14 13:27
 ---
 因技术限制，《有机化学》知识点整理分为（上）（下）两个页面。请点击下列链接进入对应页面：
 
-* [《有机化学》知识点整理（上）](/Organic-Chemistry-Notes-A)。
-* [《有机化学》知识点整理（下）](/Organic-Chemistry-Notes-B)。
-* [《有机化学》一小时速成](/Organic-Chemistry-1-Hour-Review)。
+* [《有机化学》知识点整理（上）](/posts/Organic-Chemistry-Notes-A.html)。
+* [《有机化学》知识点整理（下）](/posts/Organic-Chemistry-Notes-B.html)。
+* [《有机化学》一小时速成](/posts/Organic-Chemistry-1-Hour-Review.html)。

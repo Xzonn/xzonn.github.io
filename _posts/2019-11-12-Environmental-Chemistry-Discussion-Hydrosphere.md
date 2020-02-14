@@ -1,10 +1,10 @@
 ---
-title: 《环境化学》讨论题整理（水部分）
+class: exercise
+headImage: /images/ECD-02-01.svg
 infoBox: incomplete
 tags: 学习资料 环院专业课 知识点整理 三次元
-update: 2019-11-26
-headImage: /images/ECD-02-01.svg
-class: exercise
+title: 《环境化学》讨论题整理（水部分）
+update: 2020-01-07 20:28
 ---
 ## 说明
 本资料整理者：张祥伟（1 ~ 3；11 ~ 15）、朱颖（4 ~ 10）、刘毅（16 ~ 23）、屈玥坤（24 ~ 30）。在整理过程中参考了刘珂凡等人提供的整理资料，在此表示感谢。本资料的所有内容均为已有研究的整合，整理者不对资料的正确性提供保证。

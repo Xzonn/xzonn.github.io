@@ -42,7 +42,7 @@ window.changePage = function (page) {
                 }),
                 date = $("<div/>").addClass("postDates").append([$("<div/>").addClass("postCreateDate").text(post.date), $("<div/>").addClass("postUpdateDate").text(post.update)]),
                 tag = $("<ul/>").addClass("postTagList").append(post.tags.map(x => $("<li/>").addClass("postTag").append($("<a/>").text(x).attr("href", "/tags/#" + encodeURIComponent(x))))),
-                image = $("<div/>").addClass("postImage").css("background-image", "url(" + post.headImage + ")"),
+                image = $("<img/>").addClass("postImage").attr("src", post.headImage),
                 info = $("<p/>").addClass("postInfo").text(post.info),
                 block = $("<div/>").addClass(["postBlock", post.headImage ? "postBlockWithImage" : null]).append([title, date, tag, post.headImage ? image : null, info]).appendTo($(".pageBlockList"));
         }

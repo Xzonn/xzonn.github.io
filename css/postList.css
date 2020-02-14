@@ -30,12 +30,11 @@
 
 .postImage {
     float: right;
+    display: block;
     margin: -5.4rem 0 0 1rem;
     width: 16.2rem;
     height: 10.8rem;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    object-fit: cover;
 }
 
 .postDates, .postTagList {

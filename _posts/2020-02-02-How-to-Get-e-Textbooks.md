@@ -3,6 +3,7 @@ headImage: https://mmbiz.qpic.cn/mmbiz_jpg/Qh7FH95PRnuTaCZzkk8vk5TGhAhzR9nUy1iaP
 info: Xzonn的技能小讲座第5讲。
 tags: 技术指南 三次元
 title: 如何获取电子教材？
+update: 2020-02-14 13:27
 wechatLink: https://mp.weixin.qq.com/s/QMMHTNPba5_N4OyBoE0d-A
 ---
 ## 1
@@ -23,7 +24,7 @@ wechatLink: https://mp.weixin.qq.com/s/QMMHTNPba5_N4OyBoE0d-A
 
 ## 2
 
-[上篇文章](/How-to-Download-Chinese-Standard/)我曾经说过：既然是在线阅读，那就一定能获取源文件。
+[上篇文章](/posts/How-to-Download-Chinese-Standard.html)我曾经说过：既然是在线阅读，那就一定能获取源文件。
 
 > “Xzonn规则”第一条：只要能用Chrome看的东西都能扒出来源文件和源代码。
 
@@ -64,7 +65,7 @@ while True:
 
 而读秀知识库（超星）平台与上述类似，区别有两处：第一，图片链接多了一步302重定向，因此需要查找原始网址；第二，该平台超出页码范围会返回有错误说明的图片，因此需要修改终点判定方式。此处不再给出代码，读者可自行尝试。
 
-下载下来的一堆图片可以用Adobe Acrobat的“合并文件”功能存为一个pdf文件，然后用“增强扫描”→“识别文本”功能将图片转为可选中的文本，详见[上篇文章](/How-to-Download-Chinese-Standard/)。另外，可以用“组织页面”→“更多”→“页面标签”功能修改页码，留待之后再说。
+下载下来的一堆图片可以用Adobe Acrobat的“合并文件”功能存为一个pdf文件，然后用“增强扫描”→“识别文本”功能将图片转为可选中的文本，详见[上篇文章](/posts/How-to-Download-Chinese-Standard.html)。另外，可以用“组织页面”→“更多”→“页面标签”功能修改页码，留待之后再说。
 
 ![合并为一个pdf文件](https://s2.ax1x.com/2020/02/02/1JIPQx.png)
 

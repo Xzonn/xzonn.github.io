@@ -3,9 +3,9 @@ headImage: https://s2.ax1x.com/2019/10/29/KfmPs0.png
 infoBox: complete formula
 tags: 学习资料 化学 知识点整理 三次元
 title: 《有机化学》一小时速成
-update: 2019-10-29
+update: 2020-02-14 13:27
 ---
-<p class="noPrint">《有机化学》知识点整理：<a href="/Organic-Chemistry-Notes-A">（上）</a> | <a href="/Organic-Chemistry-Notes-B">（下）</a>。</p>
+<p class="noPrint">《有机化学》知识点整理：<a href="/posts/Organic-Chemistry-Notes-A.html">（上）</a> | <a href="/posts/Organic-Chemistry-Notes-B.html">（下）</a>。</p>
 
 ## 1 合成路线设计的基本原则与方法
 * 逆向合成分析法：目标分子 $\Rightarrow$ 中间体 $\cdots$ 中间体 $\Rightarrow$ 起始原料。

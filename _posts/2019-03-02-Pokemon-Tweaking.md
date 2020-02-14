@@ -1,11 +1,11 @@
 ---
-title: 《精灵宝可梦》地图图块漏洞
-infoBox: incomplete pokemon pokemonGlitch
 css: bilibili
-js: bilibili
 headImage: https://i.imgur.com/HoP6zRY.png
-update: 2019-03-23
+infoBox: incomplete pokemon pokemonGlitch
+js: bilibili
 tags: 精灵宝可梦 二次元
+title: 《精灵宝可梦》地图图块漏洞
+update: 2020-01-03 23:02
 ---
 ![漏洞触发后的效果\|right\|256px](https://i.imgur.com/HoP6zRY.png)
 

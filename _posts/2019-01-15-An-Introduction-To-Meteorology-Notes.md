@@ -2,7 +2,7 @@
 infoBox: complete
 tags: 学习资料 环院专业课 知识点整理 三次元
 title: 《气象学基础》期末复习
-update: 2020-01-04
+update: 2020-01-04 11:55
 ---
 <style> ol ol { list-style: lower-alpha; } .chsName { display: inline-block; min-width: 10em; margin-right: 1em; } .engName { font-weight: lighter; font-style: italic; } </style>
 ## 1 作业、复习与考试
