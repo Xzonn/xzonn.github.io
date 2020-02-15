@@ -1,28 +1,28 @@
 /* 标签页处理 */
 $(function () {
-    function handleHashChange (e) {
+    let handleHashChange = function (e) {
         let hash = decodeURIComponent(location.hash).slice(1);
-        if (hash.length < 1) {
-            hash = $(".tagLink")[0].innerText;
+        $(".xz-taglist > li").removeClass("active");
+        $("#tag-" + hash).addClass("active");
+        if (hash) {
+            $(".xz-postlist > tbody > tr").each(function () {
+                if ($(this).find(".post-tag-simp").toArray().some(x => x.innerText == hash)) {
+                    $(this).show();
+                } else {
+                    $(this).hide();
+                }
+            });
+        } else {
+            $(".xz-postlist > tbody > tr").show();
         }
-        $(".tagItem").removeClass("tagItemOn");
-        $("#tag-" + hash).addClass("tagItemOn");
-        $(".tagPostTagName").text(hash);
-        $(".pageBlockSimp").each(function () {
-            if ($(this).find(".pageTagLink").toArray().some(x => x.innerText == hash)) {
-                $(this).show();
-            } else {
-                $(this).hide();
-            }
-        });
         if (e) e.preventDefault();
     }
-    
-    $(".tagItem").sort(function (a, b) {
+
+    $(".xz-taglist > li").sort(function (a, b) {
         return b.dataset.sort - a.dataset.sort;
-    }).detach().appendTo($(".tagBlock"));
+    }).detach().appendTo($(".xz-taglist"));
     window.addEventListener("hashchange", handleHashChange);
     handleHashChange();
-    $(".tagBlockRendering").removeClass("tagBlockRendering");
-    $(".tagPostBlockRendering").removeClass("tagPostBlockRendering");
+    $(".xz-taglist").addClass("in");
+    $(".xz-postlist").addClass("in");
 });

@@ -1,4 +1,6 @@
 ---
+date: 2019-09-13 12:00
+math: true
 tags: 杂记 二次元 三次元
 title: Xzonn的（不）实用小技巧
 update: 2020-01-03 23:02

@@ -1,5 +1,6 @@
 ---
 css: bilibili
+date: 2019-11-26 12:00
 headImage: https://mmbiz.qpic.cn/mmbiz_jpg/Qh7FH95PRnuXsKbo6P2vzJ5gyibs6g4lF7VEU4vMicFmaTeul8xt9NyUG5AibhKCscKV5lK4OfJkTOaBhK9VWyQgQ/0
 info: EndNote 其实也是可以管理中文文献的。
 js: bilibili
@@ -9,7 +10,7 @@ update: 2020-02-09 15:25
 wechatLink: https://mp.weixin.qq.com/s/gTwaB7uqqNfTbg0UgsL4zw
 ---
 ## 0. 前言
-一个月前（2019 年 10 月 20 日）环院学生会邀请了 2019 级博士生陈龙师兄介绍了 EndNote 软件的食用指南，想必各位都有不少收获。如果想回顾这场讲座的内容，请移步哔哩哔哩<sup class="endnoteRef"><a href="#ref-chen-long"></a></sup>：
+一个月前（2019 年 10 月 20 日）环院学生会邀请了 2019 级博士生陈龙师兄介绍了 EndNote 软件的食用指南，想必各位都有不少收获。如果想回顾这场讲座的内容，请移步哔哩哔哩<sup class="ref-endnote"><a href="#ref-chen-long"></a></sup>：
 
 <div class="bilibiliBox" data-aid="71909726" data-page="1"></div>
 

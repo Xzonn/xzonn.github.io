@@ -1,5 +1,7 @@
 ---
+date: 2018-06-23 12:00
 infoBox: complete formula
+math: true
 tags: 学习资料 物理 知识点整理 三次元
 title: 《普通物理·光学》知识点整理
 update: 2020-01-03 23:02

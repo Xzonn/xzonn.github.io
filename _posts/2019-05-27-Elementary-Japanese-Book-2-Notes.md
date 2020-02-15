@@ -1,5 +1,6 @@
 ---
 css: japanese
+date: 2019-05-27 16:16
 infoBox: complete
 js: japanese
 tags: 学习资料 日语 知识点整理 三次元
@@ -11,7 +12,7 @@ update: 2020-01-03 23:02
 
 日语有敬体与简体之分。以“<jp>です</jp>”“<jp>ます</jp>”等形式结句的文体为敬体，敬体是表示敬意、客气的说法；以用言的词典形或助动词“<jp>だ</jp>”“<jp>た</jp>形”结句的文体为简体，简体是不表示敬意的说法。使用简体还是敬体，应该根据说话人与听话人之间的关系而定。一般对长辈、上级和客人多使用敬体，而对晚辈、下级、年幼者和关系亲密的人多使用简体。
 
-<table class="listTable">
+<table class="table">
 <thead>
 <tr><th>敬体</th><th>简体</th></tr>
 </thead>
@@ -303,7 +304,7 @@ update: 2020-01-03 23:02
 
 日语的敬语动词一般包括尊敬语、自谦语和郑重语。尊敬语表示说话人对句中行为主体的敬意、尊敬；自谦语是以自谦的方式表述自己或自己一方人的行为，以此来提高他人的身份或地位，表示对他人的敬意、尊敬。需要对他人表示敬意、尊敬时，既可以使用敬语动词，也可以使用动词的敬语形式。郑重语用于比较正式的场合，表示说话人有较高的素养。一般常用的动词和与其相对应的普通动词如下表：
 
-<table class="listTable">
+<table class="table">
 <thead>
 <tr><th>尊敬语动词</th><th><jp>ます</jp>形</th><th>相对应的普通动词</th></tr>
 </thead>
@@ -319,7 +320,7 @@ update: 2020-01-03 23:02
 </tbody>
 </table>
 
-<table class="listTable">
+<table class="table">
 <thead>
 <tr><th>自谦语动词</th><th><jp>ます</jp>形</th><th>相对应的普通动词</th></tr>
 </thead>
@@ -338,7 +339,7 @@ update: 2020-01-03 23:02
 </tbody>
 </table>
 
-<table class="listTable">
+<table class="table">
 <thead>
 <tr><th>郑重语动词</th><th><jp>ます</jp>形</th><th>相对应的普通动词</th></tr>
 </thead>

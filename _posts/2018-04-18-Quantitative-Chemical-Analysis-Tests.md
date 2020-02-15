@@ -1,5 +1,7 @@
 ---
+date: 2018-04-18 12:00
 infoBox: formula
+math: true
 tags: 学习资料 化学 试题整理 三次元
 title: 《定量分析化学》试题整理
 update: 2020-01-03 23:02

@@ -1,4 +1,6 @@
 ---
+date: 2019-03-17 12:00
+math: true
 tags: 学习资料 环院专业课 作业 三次元
 title: 《环境工程学一》作业
 update: 2020-01-03 23:02
@@ -72,7 +74,7 @@ $\pu{1m3}$ 该状态下气体含有气体物质的量为：$\cfrac {700 \times 1
 #### (1)
 由已知，列表，如表 2-1 所示：
 
-<table class="listTable">
+<table class="table">
 <caption>表2-1 $G - x - \ln d_p$分布表</caption>
 <thead>
 <tr><th>$G$</th><th>$x$<br>标准正态分布对应随机变量</th><th>$d_p$<br>（$\pu{\mu m}$）</th><th>$\ln d_p$</th></tr>
@@ -131,7 +133,7 @@ $\pu{1m3}$ 该状态下气体含有气体物质的量为：$\cfrac {700 \times 1
 ### 5.
 由公式：$$\eta_i = 1 - P\cfrac{g_{2i}}{g_{1i}}$$，列表，如表 2-2 所示：
 
-<table class="listTable">
+<table class="table">
 <caption>表2-2 分级除尘效率</caption>
 <tbody>
 <tr><th colspan="2">粒径间隔/$\pu{μm}$</th><td><0.6</td><td>0.6~0.7</td><td>0.7~0.8</td><td>0.8~1.0</td><td>1~2</td><td>2~3</td><td>3~4</td><td>4~5</td><td>5~6</td><td>6~8</td><td>8~10</td><td>10~12</td><td>20~30</td></tr>
@@ -148,7 +150,7 @@ $\pu{1m3}$ 该状态下气体含有气体物质的量为：$\cfrac {700 \times 1
 ### 6.
 由公式：$$\eta = \sum\limits_{i} n_i\eta_i$$，列表，如表 2-3 所示：
 
-<table class="listTable">
+<table class="table">
 <caption>表2-3 分级除尘效率</caption>
 <tbody>
 <tr><th>平均粒径/$\pu{\mu m}$</th><td>0.25</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>10</td><td>14</td><td>20</td><td>>23.5</td></tr>
@@ -225,7 +227,7 @@ $$q_V = \pu{3.61 L/min} = \pu{6.02E-5 m3/s}$$。
 ### 8.
 按公式 $$\eta_i = \cfrac {\eta}{\eta + Pg_{2i}/g_{3i}}$$，计算分级效率，如表 3-1 所示：
 
-<table class="listTable">
+<table class="table">
 <caption>表3-1 分级效率</caption>
 <thead>
 <tr><th>$d_{\mathrm p}$</th><th>$d_{\mathrm pi}$</th><th>$g_{3i}$</th><th>$g_{2i}$</th><th>$\eta_i \\ (\%)$</th></tr>
@@ -274,7 +276,7 @@ $$\eta = \int_0^{+\infty} \eta_iq\mathrm dd_{\mathrm pi} = \int_0^{+\infty} \cfr
 
 按公式计算，如表 3-2 所示：
 
-<table class="listTable">
+<table class="table">
 <caption>表3-2 分级除尘效率</caption>
 <tbody>
 <tr><th>质量分数/$\%$</th><td>0 ~ 20</td><td>20 ~ 40</td><td>40 ~ 60</td><td>60 ~ 80</td><td>80 ~ 100</td></tr>
@@ -298,7 +300,7 @@ $$\eta = \int_0^{+\infty} \eta_iq\mathrm dd_{\mathrm pi} = \int_0^{+\infty} \cfr
 
 同理分别求出粒径为 $$\pu{10 \mu m}$$、$$\pu{50 \mu m}$$ 和液滴直径在 $$\pu{50 \mu m}$$、$$\pu{100 \mu m}$$、$$\pu{500 \mu m}$$ 下的捕集效率，如表 3-3 所示：
 
-<table class="listTable">
+<table class="table">
 <caption>表3-3 捕集效率</caption>
 <thead>
 <tr><th><sub>液滴直径/$\pu{\mu m}$</sub>＼<sup>粒径/$\pu{\mu m}$</sup></th><th>10</th><th>50</th></tr>
@@ -313,7 +315,7 @@ $$\eta = \int_0^{+\infty} \eta_iq\mathrm dd_{\mathrm pi} = \int_0^{+\infty} \cfr
 ### 13.
 按公式 $$P = \mathrm {exp}\left(-\cfrac{6.1\times10^{-9}\rho_{\mathrm L}\rho_{\mathrm p}d_{\mathrm p}^2f^2\Delta p}{\mu_{\mathrm G}^2}\right)$$，其中 $$\Delta p = -1.03\times10^{-3}v_{\mathrm T}^2\left(\cfrac {q_{V, \mathrm L}}{q_{V, \mathrm G}}\right) = \pu{96.5 cm}\ce{H_2O}$$，则 $$P = \mathrm e^{-0.331d_{\mathrm p}^2}$$。求出各粒径分级效率，如表 3-4 所示：
 
-<table class="listTable">
+<table class="table">
 <caption>表3-4 分级效率</caption>
 <thead>
 <tr><th>$d_{\mathrm p}/\pu{\mu m}$</th><th>$d_{\mathrm pi}/\pu{\mu m}$</th><th>$g_i/\%$</th><th>$\eta_i/\%$</th></tr>

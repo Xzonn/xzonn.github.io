@@ -1,73 +1,11 @@
-.tagBlock {
-    padding: 1em;
-    list-style: none;
+.xz-postlist > thead > tr > th:nth-child(2) {
+    width: 10em;
 }
 
-.tagBlock::after {
-    clear: left;
-    display: block;
-    content: '';
+.xz-postlist > thead > tr > th:nth-child(3), .xz-postlist > thead > tr > th:last-child {
+    width: 7em;
 }
 
-.tagBlockRendering {
-    display: none;
-}
-
-.tagItem {
-    float: left;
-    margin: 0.2em 0.5em;
-    padding: 0 0.5em;
-    border-color: var(--color-warm-dark);
-    border-style: dashed;
-    border-width: 2px;
-    border-radius: 1em;
-    background-color: var(--color-warm-light);
-    color: var(--color-warm-dark);
-    white-space: nowrap;
-}
-
-.tagItem .tagLink, .tagItem .tagLink:hover {
-    color: var(--color-warm-dark);
-}
-
-.tagItem.tagItemOn {
-    border-color: var(--color-cold-dark);
-    background-color: var(--color-cold-light);
-    color: var(--color-cold-dark);
-    font-weight: bold;
-}
-
-.tagItem.tagItemOn .tagLink, .tagItem.tagItemOn .tagLink:hover {
-    color: var(--color-cold-dark);
-}
-
-.tagPostBlockRendering {
-    display: none;
-}
-
-.tagPostTagName {
-    color: var(--color-cold);
-    font-weight: bold;
-    font-size: 1.6rem;
-}
-
-.tagPostTagName::before {
-    content: '#';
-}
-
-.tagPost {
-}
-
-.tagPostDate {
-    float: left;
-    margin-right: 1em;
-    height: 100%;
-}
-
-.tagPostDate::before {
-    content: '[';
-}
-
-.tagPostDate::after {
-    content: ']';
+.post-tag-simp > a {
+    color: #ffffff;
 }

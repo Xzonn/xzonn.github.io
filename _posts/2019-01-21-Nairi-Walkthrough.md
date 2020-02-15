@@ -1,5 +1,6 @@
 ---
 css: game
+date: 2019-01-21 22:36
 headImage: https://media.st.dl.bscstorage.net/steam/apps/802450/header.jpg
 infoBox: incomplete game
 tags: 流程攻略 二次元

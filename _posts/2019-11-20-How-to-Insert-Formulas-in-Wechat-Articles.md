@@ -1,8 +1,10 @@
 ---
 css: bilibili
+date: 2019-11-20 12:00
 headImage: https://mmbiz.qpic.cn/mmbiz_jpg/Qh7FH95PRnuloHxksOxTetZaQtOicZ5boXOu9szzEziaUHWtyO0PeHg3PB5xv1oWUlVfib6ITYKhqpkia3CuEpma9w/0
 info: 用截图插入公式，或许不是优雅的选择。
 js: bilibili
+math: true
 tags: 技术指南 三次元
 title: 如何在微信推送中优雅地插入公式
 update: 2020-01-03 23:02
@@ -36,7 +38,7 @@ wechatLink: https://mp.weixin.qq.com/s/mYzdirgQjLwqXrfpri8lgw
 我个人认为，这个排版工具的显示效果还是不错的。那么问题来了：公式要如何输入呢？
 
 ## 2. 公式的输入方式
-如<a class="xrefFigure" href="#figure-MTn9e0.png"></a><h-hws hidden=""> </h-hws>所示，Markdown Nice中的公式需要放在美元符号“\\\$”之间，若为一个美元符号“\\\$”则是行内公式（即文字和公式在同一行），若为两个美元符号“\\\$\\\$”则是块公式（即公式单独成行并居中）。而美元符号之间的代码则是通过“MathJax”渲染的，其语法类似于TeX，但并不完全相同。如果你有TeX输入公式的基础，那么上手MathJax并不算难。<span class="fn">MathJax中可使用的TeX命令可在如下网页中找到：[http://www.onemathematicalcat.org/MathJaxDocumentation/TeXSyntax.htm](http://www.onemathematicalcat.org/MathJaxDocumentation/TeXSyntax.htm)</span>
+如<a class="xref-figure" href="#figure-MTn9e0.png"></a><h-hws hidden=""> </h-hws>所示，Markdown Nice中的公式需要放在美元符号“\\\$”之间，若为一个美元符号“\\\$”则是行内公式（即文字和公式在同一行），若为两个美元符号“\\\$\\\$”则是块公式（即公式单独成行并居中）。而美元符号之间的代码则是通过“MathJax”渲染的，其语法类似于TeX，但并不完全相同。如果你有TeX输入公式的基础，那么上手MathJax并不算难。<span class="footnote">MathJax中可使用的TeX命令可在如下网页中找到：[http://www.onemathematicalcat.org/MathJaxDocumentation/TeXSyntax.htm](http://www.onemathematicalcat.org/MathJaxDocumentation/TeXSyntax.htm)</span>
 
 当然，对于完全没有学过TeX语法（而且可能也不想学）的朋友，其实还有一些比较简单的方法。
 
@@ -59,7 +61,7 @@ wechatLink: https://mp.weixin.qq.com/s/mYzdirgQjLwqXrfpri8lgw
 该软件在多平台有客户端，需要注册账号后使用。我个人在注册账号时先后尝试了北大邮箱、126邮箱，但都无法立刻收到验证邮件；而Gmail可以立刻收到验证邮件，可能是因为邮件服务器在国外吧。
 
 ### 2.3. 从别的网页查找代码
-许多网页上的公式就是由MathJax渲染出来的（例如我的小站），如果你在某个网页上看到了公式，并且在网页加载过程中左下角出现了灰色文本框，说明这个公式很有可能是MathJax渲染出来的。此时可以右键单击公式 → Show Math As → TeX Commands，即可查看TeX代码。<span class="fn">我的小站需要用“查看源代码”功能才能找到公式的TeX代码。</span>
+许多网页上的公式就是由MathJax渲染出来的（例如我的小站），如果你在某个网页上看到了公式，并且在网页加载过程中左下角出现了灰色文本框，说明这个公式很有可能是MathJax渲染出来的。此时可以右键单击公式 → Show Math As → TeX Commands，即可查看TeX代码。<span class="footnote">我的小站需要用“查看源代码”功能才能找到公式的TeX代码。</span>
 
 ![网页查找代码示例](https://s2.ax1x.com/2019/11/22/MTmjzj.png)
 

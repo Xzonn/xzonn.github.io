@@ -1,5 +1,6 @@
 ---
 css: bilibili
+date: 2019-03-02 12:00
 headImage: https://i.imgur.com/HoP6zRY.png
 infoBox: incomplete pokemon pokemonGlitch
 js: bilibili

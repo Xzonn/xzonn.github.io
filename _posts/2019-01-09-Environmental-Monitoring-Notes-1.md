@@ -1,10 +1,12 @@
 ---
+date: 2019-01-09 12:00
 infoBox: complete
+math: true
 tags: 学习资料 环院专业课 知识点整理 三次元
 title: 《环境监测》知识点整理（一）
 update: 2020-02-14 13:27
 ---
-<p class="noPrint">这是《环境监测》课程孙卫玲老师部分的知识点整理。<a href="/posts/Environmental-Monitoring-Notes-3.html">谢曙光老师部分</a>。</p>
+<p class="hidden-print">这是《环境监测》课程孙卫玲老师部分的知识点整理。<a href="/posts/Environmental-Monitoring-Notes-3.html">谢曙光老师部分</a>。</p>
 
 ## 1 水体金属监测
 ### 1.1 标准方法选择
@@ -55,7 +57,7 @@ update: 2020-02-14 13:27
 
 ### 1.3 金属元素分析常用仪器
 * 实验室仪器：
-<table class="listTable">
+<table class="table">
 <thead>
 <tr><th>仪器名称</th><th>测定性能</th><th>检出浓度</th></tr>
 </thead>
@@ -68,7 +70,7 @@ update: 2020-02-14 13:27
 <tr><td>冷原子荧光测汞仪</td><td>Hg</td><td>$0.0x~\pu{\mu g/L}$</td></tr>
 </tbody>
 </table>
-<table class="listTable">
+<table class="table">
 <thead>
 <tr><th>仪器</th><th>基本原理</th><th>优缺点</th></tr>
 </thead>

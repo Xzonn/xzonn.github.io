@@ -1,5 +1,0 @@
-{% assign infoBoxes = include.infoBox | split: " " %}{% assign infoBox = infoBoxes[0] %}<div class="infoBoxMultiple">
-{% include {{ infoBox | append: ".html" }} %}{% for infoBox in infoBoxes offset: 1 %}
-{% include {{ infoBox | append: ".html" }} multiple=true %}
-{% endfor %}
-</div>

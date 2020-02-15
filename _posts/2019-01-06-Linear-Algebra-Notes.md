@@ -1,6 +1,8 @@
 ---
+date: 2019-01-06 22:37
 info: 《线性代数》一小时速成指南。
 infoBox: complete formula
+math: true
 tags: 学习资料 数学 知识点整理 三次元
 title: 《线性代数》一小时速成
 update: 2020-01-03 23:02

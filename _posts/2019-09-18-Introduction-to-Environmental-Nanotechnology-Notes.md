@@ -1,7 +1,9 @@
 ---
+date: 2019-09-18 12:00
 headImage: https://s2.ax1x.com/2019/11/27/QCnopF.png
 info: 本资料是2019年秋季学期《环境纳米技术导论》的资料整理，主讲老师为刘文。
 infoBox: incomplete
+math: true
 tags: 学习资料 环院专业课 知识点整理 三次元
 title: 《环境纳米技术导论》知识点整理
 update: 2020-01-05 22:48
@@ -108,7 +110,7 @@ update: 2020-01-05 22:48
     - 非均相催化（结构均一、活性高）。
 
 ### 1.2. 尺度
-- <span class="importance-1"></span>常见微观尺度物质：<a class="xrefFigure" href="#figure-QCnopF.png"></a>。
+- <span class="importance-1"></span>常见微观尺度物质：<a class="xref-figure" href="#figure-QCnopF.png"></a>。
 
 ![常见微观尺度物质](https://s2.ax1x.com/2019/11/27/QCnopF.png)
 
@@ -156,12 +158,12 @@ update: 2020-01-05 22:48
   - {: #part-fei-mi-neng-ji }费米能级：温度为绝对零度时固体能带中充满电子的最高能级。*（金属内的电子因泡利不相容原理不能每个电子都在最低的能级，一个个依序向高能级填充的最后一个能填进的能级即为费米能级。）*
   - 金属费米能级附近电子能级在高温或**宏观尺寸**下是连续的。当粒子尺寸下降到接近或小于某一值（激子波尔半径），费米能级附近的电子能级由准连续变为**分立能级**。
   - *（能带：n个原子集聚形成晶体时，孤立原子的一个能级分裂成n个能级，n的数目非常大时能级间距非常小，认为这n个能级形成能量准连续的区域，称为能带。）*
-  - *（禁带、导带、价带：当原子间距接近原子间的平衡距离时，该能带再次分裂为两个能带。两个能带之间的没有可能的电子态的区域，称为**禁带**。可以认为来源于孤立原子不同原子轨道之间的能隙。在禁带上方的能带叫导带，下方的能带叫价带。见<a class="xrefFigure" href="#figure-QCnL01.png"></a>）*
+  - *（禁带、导带、价带：当原子间距接近原子间的平衡距离时，该能带再次分裂为两个能带。两个能带之间的没有可能的电子态的区域，称为**禁带**。可以认为来源于孤立原子不同原子轨道之间的能隙。在禁带上方的能带叫导带，下方的能带叫价带。见<a class="xref-figure" href="#figure-QCnL01.png"></a>）*
   - <span class="importance-2"></span>根据导带和价带之间的距离，将材料区分为绝缘体、半导体和导体。
   - 前线轨道理论：分子中最高被占据分子轨道（HOMO）上的电子能量最高，受束缚最小，最活泼；最低未被占据分子轨道（LUMO）在所有未占轨道中能量最低，最容易接受电子。这两个轨道决定分子的电子得失和转移能力。
     - *＜应用：硝基酚，计算每个位点得失电子能力，得出亲电自由基／亲核自由基攻击的位点；硝基氮易于得电子被还原。＞*
 
-<table class="figureTable">
+<table class="table-figure">
     <tbody>
         <tr>
             <td><img src="https://s2.ax1x.com/2019/11/27/QCnL01.png" alt="禁带、导带、价带" data-size="x130px" /></td>
@@ -239,7 +241,7 @@ update: 2020-01-05 22:48
 - <span class="importance-2"></span>纳米材料制备途径：
   - 从小到大：原子 → 团簇 → 纳米颗粒。
   - 从大到小：固体 → 微米颗粒 → 纳米颗粒。
-- <span class="importance-1"></span>具体制备方法：<a class="xrefFigure" href="#figure-ItEN-03-01.svg"></a>。
+- <span class="importance-1"></span>具体制备方法：<a class="xref-figure" href="#figure-ItEN-03-01.svg"></a>。
 
 ![纳米材料的制备方法](/images/ItEN-03-01.svg)
 
@@ -377,13 +379,13 @@ update: 2020-01-05 22:48
   - 从结构上看，晶体的排列状态是由构成原子或分子的几何形状和键型所决定。
 - 晶体结构的基本特征：
   - 任取一点作为坐标原点，在空间三个方向上选取重复周期矢量<i>a</i>，<i>b</i>，<i>c</i>称为**基本矢量**，三个方向轴称为**晶轴**。由基本矢量构成的平行六面体称为**单位晶胞**。**单位晶胞在三个方向上重复即可建立整个空间点阵**。
-  - 对于同一点阵，只有一种最理想的单位晶胞。其选择依据是：最能反映出点阵对称性、基本矢量长度<i>a</i>，<i>b</i>，<i>c</i>相等的数目最多，三个方向的夹角<i>α</i>，<i>β</i>，<i>γ</i>尽可能为直角，单胞体积最小。根据以上条件选择出来的晶胞，其几何关系、计算公式最简单，称为**布拉维晶胞**。（见<a class="xrefFigure" href="#figure-Triclinic.svg"></a>）
-  - 按照点阵的对称性，将自然界的晶体划分为7个晶系。每个晶系最多包含4种点阵。如果晶胞的角上有结点，可归为简单点阵；如果晶胞的体心、底心和面心有结点，可归为复杂点阵。布拉维于1948年用数学方法证明了空间点阵共有14种，而且只有14种布拉维点阵。（见<a class="xrefTable" href="#table-7-zhong-jing-xi-he-14-zhong-bu-la-wei-jing-ge-biao"></a>）
+  - 对于同一点阵，只有一种最理想的单位晶胞。其选择依据是：最能反映出点阵对称性、基本矢量长度<i>a</i>，<i>b</i>，<i>c</i>相等的数目最多，三个方向的夹角<i>α</i>，<i>β</i>，<i>γ</i>尽可能为直角，单胞体积最小。根据以上条件选择出来的晶胞，其几何关系、计算公式最简单，称为**布拉维晶胞**。（见<a class="xref-figure" href="#figure-Triclinic.svg"></a>）
+  - 按照点阵的对称性，将自然界的晶体划分为7个晶系。每个晶系最多包含4种点阵。如果晶胞的角上有结点，可归为简单点阵；如果晶胞的体心、底心和面心有结点，可归为复杂点阵。布拉维于1948年用数学方法证明了空间点阵共有14种，而且只有14种布拉维点阵。（见<a class="xref-table" href="#table-7-zhong-jing-xi-he-14-zhong-bu-la-wei-jing-ge-biao"></a>）
 
 ![单位晶胞\|120px](https://upload.wikimedia.org/wikipedia/commons/1/17/Triclinic.svg)
 
-<table class="lineTable">
-    <caption class="tableCaption" id="table-7-zhong-jing-xi-he-14-zhong-bu-la-wei-jing-ge-biao">7种晶系和14种布拉维晶格表<span class="fn">参考资料：维基百科编者. 布拉维晶格 [G/OL]. 维基百科, (2019-04-25) [2019-11-03]. <a href="https://zh.wikipedia.org/w/index.php?title=%E5%B8%83%E6%8B%89%E8%8F%B2%E6%99%B6%E6%A0%BC&oldid=54166188">https://zh.wikipedia.org/w/index.php?title=%E5%B8%83%E6%8B%89%E8%8F%B2%E6%99%B6%E6%A0%BC&oldid=54166188</a>.</span></caption>
+<table class="table table-3lines">
+    <caption class="caption-table" id="table-7-zhong-jing-xi-he-14-zhong-bu-la-wei-jing-ge-biao">7种晶系和14种布拉维晶格表<span class="footnote">参考资料：维基百科编者. 布拉维晶格 [G/OL]. 维基百科, (2019-04-25) [2019-11-03]. <a href="https://zh.wikipedia.org/w/index.php?title=%E5%B8%83%E6%8B%89%E8%8F%B2%E6%99%B6%E6%A0%BC&oldid=54166188">https://zh.wikipedia.org/w/index.php?title=%E5%B8%83%E6%8B%89%E8%8F%B2%E6%99%B6%E6%A0%BC&oldid=54166188</a>.</span></caption>
     <thead>
         <tr>
             <th colspan="2" rowspan="2">晶系（7种）</th>
@@ -405,7 +407,7 @@ update: 2020-01-05 22:48
             <td></td>
             <td></td>
         </tr>
-        <tr class="lineTop">
+        <tr class="line-top">
             <th>单斜晶系</th>
             <th><script type="math/tex">a \neq b \neq c</script><br/><script type="math/tex">\alpha = \gamma = 90 ^ \circ \neq \beta</script></th>
             <td><img alt="Monoclinic, simple" src="https://upload.wikimedia.org/wikipedia/commons/f/f4/Monoclinic.svg" data-disp="none" style="width: 3rem;"></td>
@@ -413,7 +415,7 @@ update: 2020-01-05 22:48
             <td><img alt="Monoclinic, centered" src="https://upload.wikimedia.org/wikipedia/commons/4/4f/Monoclinic-base-centered.svg" data-disp="none" style="width: 3rem;"></td>
             <td></td>
         </tr>
-        <tr class="lineTop">
+        <tr class="line-top">
             <th>斜方晶系<br/>（正交晶系）</th>
             <th><script type="math/tex">a \neq b \neq c</script><br/><script type="math/tex">\alpha = \beta = \gamma = 90 ^ \circ</script></th>
             <td><img alt="Orthohombic, simple" src="https://upload.wikimedia.org/wikipedia/commons/d/dd/Orthorhombic.svg" data-disp="none" style="width: 3rem;"></td>
@@ -421,7 +423,7 @@ update: 2020-01-05 22:48
             <td><img alt="Orthohombic, base-centered" src="https://upload.wikimedia.org/wikipedia/commons/8/86/Orthorhombic-base-centered.svg" data-disp="none" style="width: 3rem;"></td>
             <td><img alt="Orthohombic, face-centered" src="https://upload.wikimedia.org/wikipedia/commons/d/d6/Orthorhombic-face-centered.svg" data-disp="none" style="width: 3rem;"></td>
         </tr>
-        <tr class="lineTop">
+        <tr class="line-top">
             <th>四方晶系<br/>（正方晶系）</th>
             <th><script type="math/tex">a = b \neq c</script><br/><script type="math/tex">\alpha = \beta = \gamma = 90 ^ \circ</script></th>
             <td><img alt="Tetragonal, simple" src="https://upload.wikimedia.org/wikipedia/commons/0/0a/Tetragonal.svg" data-disp="none" style="width: 3rem;"></td>
@@ -429,7 +431,7 @@ update: 2020-01-05 22:48
             <td></td>
             <td></td>
         </tr>
-        <tr class="lineTop">
+        <tr class="line-top">
             <th>三方晶系<br/>（菱方晶系）</th>
             <th><script type="math/tex">a = b = c</script><br/><script type="math/tex">\alpha = \beta = \gamma \neq 90 ^ \circ</script></th>
             <td><img alt="Rhombohedral" src="https://upload.wikimedia.org/wikipedia/commons/0/03/Rhombohedral.svg" data-disp="none" style="width: 3rem;"></td>
@@ -437,7 +439,7 @@ update: 2020-01-05 22:48
             <td></td>
             <td></td>
         </tr>
-        <tr class="lineTop">
+        <tr class="line-top">
             <th>六方晶系</th>
             <th><script type="math/tex">a = b \neq c</script><br/><script type="math/tex">\alpha = \beta = 90 ^ \circ, \gamma = 120 ^ \circ</script></th>
             <td><img alt="Hexagonal" src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Hexagonal_latticeFRONT.svg" data-disp="none" style="width: 3rem;"></td>
@@ -445,7 +447,7 @@ update: 2020-01-05 22:48
             <td></td>
             <td></td>
         </tr>
-        <tr class="lineTop">
+        <tr class="line-top">
             <th>等轴晶系<br/>（立方晶系）</th>
             <th><script type="math/tex">a = b = c</script><br/><script type="math/tex">\alpha = \beta = \gamma = 90 ^ \circ</script></th>
             <td><img alt="Cubic, simple" src="https://upload.wikimedia.org/wikipedia/commons/5/55/Cubic.svg" data-disp="none" style="width: 3rem;"></td>
@@ -456,7 +458,7 @@ update: 2020-01-05 22:48
     </tbody>
 </table>
 
-<table class="figureTable">
+<table class="table-figure">
     <tbody>
         <tr>
             <td><img src="https://s2.ax1x.com/2019/12/02/Qujs2D.gif" alt="立方体6个面中心的坐标" data-size="x130px" /></td>
@@ -646,7 +648,7 @@ update: 2020-01-05 22:48
 - <span class="importance-2"></span>红外光谱基本原理：
   - 光谱学：不同波段的光连接起来构成成了整个光谱范围。
   - 当一束红外光射到物质上，可能发生：吸收、透过、反射、散射或者激发荧光（即拉曼效应）。
-  - 光谱范围：<a class="xrefFigure" href="#figure-ItEN-04-01.svg"></a>。
+  - 光谱范围：<a class="xref-figure" href="#figure-ItEN-04-01.svg"></a>。
   - 光的辐射可以看作是波的运动，波长$$\lambda$$是两个连续峰之间的距离，频率$$\nu$$是每秒光波通过的数目。有公式：$$c = \lambda \nu$$。
   - 在红外光谱中常用波数：$$\gamma = 1 / \lambda$$。
 - *＜红外光横轴一般为波数（cm<sup>-1</sup>），范围一般为4000 ~ 400。纵轴为透射率，峰为“倒峰”。＞*
@@ -753,7 +755,7 @@ update: 2020-01-05 22:48
 | 吸附温度   | 沸点以下或低于临界温度               | 无限制                               |
 | 吸附稳定性 | 不稳定，常可完全脱附                 | 比较稳定，脱附时常伴有化学反应       |
 | 选择性     | 无选择性                             | 有选择性                             |
-{: .lineTable data-caption="物理性质和化学性质的对比" }
+{: .table table-3lines data-caption="物理性质和化学性质的对比" }
 
 - 吸附的步骤：待分离的料液通入吸附剂 → 吸附质被吸附在吸附剂表面 → 料液流出 → 吸附质解吸、吸附剂再生。
 - 几个吸附的重要概念：
@@ -831,7 +833,7 @@ update: 2020-01-05 22:48
   - 影响因素：影响液相吸附机理的因素除了**温度**、**浓度**和**吸附剂的结构性能**外，**溶质和溶剂的性质**对其吸附等温线的形状都有影响。在溶剂的吸附作用忽略不计时，可以认为是单组分吸附。
   - 吸附等温线测定方法：假设溶剂不被吸附，或者液体混合物是溶质的稀溶液，测定溶液与吸附剂接触前后的浓度变化。
 
-<table class="listTable" data-caption="吸附等温方程的应用">
+<table class="table" data-caption="吸附等温方程的应用">
     <thead>
         <tr>
             <th>吸附类型</th>
@@ -958,7 +960,7 @@ update: 2020-01-05 22:48
 ![半导体光催化基本原理](https://s2.ax1x.com/2019/12/03/QMjlPP.png)
 
 - 半导体光催化基本原理：
-  - 发生过程：<a class="xrefFigure" href="#figure-QMjlPP.png"></a>。
+  - 发生过程：<a class="xref-figure" href="#figure-QMjlPP.png"></a>。
     - A. 半导体吸收光，产生电子和空穴的过程。
     - B. 电子和空穴表面复合过程。
     - C. 电子和空穴体内复合过程。
@@ -993,8 +995,8 @@ update: 2020-01-05 22:48
     - 本质：光催化过程的作用机理。
 - 光催化剂与材料：光催化的核心是**光催化剂**，绝大多数为**半导体**，**光催化的理论实则建立在半导体电子激发和转移上**。近年来新型光催化剂研究取得重要进展。采用多种先进的方法和手段，设计并制备出一系列具有**高效**、**高稳定性**和**可见光诱导**性能的新型光催化剂，大大拓展了光催化剂的多元性和应用可选择性。
 
-<table class="lineTable rightTable" style="width: 30%;">
-    <caption class="tableCaption" id="table-chang-jian-de-guang-cui-hua-cai-liao">常见的光催化材料</caption>
+<table class="table table-3lines rightTable" style="width: 30%;">
+    <caption class="caption-table" id="table-chang-jian-de-guang-cui-hua-cai-liao">常见的光催化材料</caption>
     <thead>
         <tr><th>催化剂</th><th><script type="math/tex">E_g</script>（eV）</th></tr>
     </thead>
@@ -1014,7 +1016,7 @@ update: 2020-01-05 22:48
     </tbody>
 </table>
 
-- <span class="importance-2"></span>常见的光催化材料：<a class="xrefTable" href="#table-chang-jian-de-guang-cui-hua-cai-liao"></a>。
+- <span class="importance-2"></span>常见的光催化材料：<a class="xref-table" href="#table-chang-jian-de-guang-cui-hua-cai-liao"></a>。
   - [a]：ZnO在水中不稳定，会在粒子表面生成Zn(OH)<sub>2</sub>。
   - [b]：金属硫化物在水溶液中不稳定，会发生阳极光腐蚀，且有毒。
   - [c]：铁的氧化物会发生阴极光腐蚀。
@@ -1028,8 +1030,8 @@ update: 2020-01-05 22:48
 ### 6.2. 光催化反应机理
 - <span class="importance-1"></span>高级氧化法（AOPs）：高级氧化技术又称做深度氧化技术，以产生具有强氧化能力的自由基（如<span lang="en">·</span>OH）为特点，在高温高压、电、声、光辐照、催化剂等反应条件下，使大分子难降解有机物氧化成低毒或无毒的小分子物质。根据产生自由基的方式和反应条件的不同，可将其分为光化学氧化、催化湿式氧化、声化学氧化、臭氧氧化、电化学氧化、Fenton氧化等。
 
-<table class="lineTable">
-    <caption class="tableCaption">常见氧化剂<span class="importance-1"></span></caption>
+<table class="table table-3lines">
+    <caption class="caption-table">常见氧化剂<span class="importance-1"></span></caption>
     <thead>
         <tr><th>氧化剂</th><th>反应式</th><th>氧化电位（V）</th></tr>
     </thead>
@@ -1099,8 +1101,8 @@ update: 2020-01-05 22:48
 - <span class="importance-2"></span>TiO<sub>2</sub>的结构和晶形：金红石（Rutile）、锐钛矿（Anatase）、板钛矿（Brookite）。
   - 采用溶胶-凝胶法制备的纳米TiO<sub>2</sub>具有粒径小、分布窄、晶型为锐钛矿型、纯度高、热稳定性好、产率较高等优点，是一种非常具有发展潜力的合成方法，是有可能应用于工业生产的合成纳米材料的方法。
 
-<table class="lineTable">
-    <caption class="tableCaption">液相法制备TiO<sub>2</sub></caption>
+<table class="table table-3lines">
+    <caption class="caption-table">液相法制备TiO<sub>2</sub></caption>
     <thead>
         <tr><th>制备方法</th><th>优点</th><th>不足</th></tr>
     </thead>
@@ -1209,7 +1211,7 @@ update: 2020-01-05 22:48
     - 实例：乙苯脱氢制苯乙烯，按平衡常数计算最大产率为72.3%，催化剂加速反应但不能使产率增加。
   - 对达到／接近化学平衡的体系，催化剂对正逆反应的速度均按相同比例加速：$$K_{\mathrm a} = \cfrac {k_+} {k_-}$$。对正反应有效的催化剂对逆反应同样有效（热力学允许的反应）。
   - 催化剂可以控制反应的方向，具有选择性。变换催化剂可以使反应高选择性的发生。
-    - 实例：<svg class="chemSvg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="146.32 281.09 36.03 33.28" width="43" height="40"><g><g><g><text xml:space="preserve"><tspan x="153.52" y="301.9">C</tspan></text></g><g><text xml:space="preserve"><tspan x="167.92" y="301.9">C</tspan></text></g><g><path d="M162 298.3 L162 298.3 L162 298 L162 297.7 L166.9 297.7 L166.9 298 L166.9 298.3 Z" /><line x1="162" y1="296.29" x2="166.9" y2="296.29" stroke-width="0.6" shape-rendering="auto" /></g><g><text xml:space="preserve"><tspan x="146.32" y="289.43">H</tspan></text></g><g><path d="M154.92 293.56 L154.92 293.56 L154.66 293.71 L154.4 293.86 L152.76 291.04 L153.02 290.89 L153.28 290.74 Z" /></g><g><text xml:space="preserve"><tspan x="175.12" y="289.43">H</tspan></text></g><g><path d="M174.35 293.7 L174.35 293.7 L174.09 293.55 L173.83 293.4 L175.39 290.7 L175.65 290.85 L175.91 291 Z" /></g><g><text xml:space="preserve"><tspan x="146.32" y="314.37">H</tspan></text></g><g><path d="M154.05 302.74 L154.05 302.74 L154.31 302.89 L154.57 303.04 L152.82 306.06 L152.56 305.91 L152.3 305.76 Z" /></g><g><text xml:space="preserve"><tspan x="175.12" y="314.37">H</tspan></text></g><g><path d="M174.2 303.24 L174.2 303.24 L174.46 303.09 L174.72 302.94 L176.35 305.76 L176.09 305.91 L175.83 306.06 Z" /></g></g></g></svg>和O<sub>2</sub>的反应，在PdCl<sub>2</sub>-CuCl<sub>2</sub>催化下生成CH<sub>3</sub>CHO，在Ag催化下生成<svg class="chemSvg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="80.46 240.19 44.54 21.05" width="53" height="25"><g><g><g><text xml:space="preserve"><tspan x="106.27" y="248.65">CH</tspan><tspan dy="2.26" font-size="7.5">2</tspan></text></g><g><text xml:space="preserve" text-anchor="end"><tspan x="99.07" y="248.65">H</tspan><tspan dy="2.26" font-size="7.5">2</tspan><tspan dy="-2.26">C</tspan></text></g><g><text xml:space="preserve"><tspan x="98.77" y="261.12">O</tspan></text></g><g><path d="M105.2 244.45 L105.2 244.45 L105.2 244.75 L105.2 245.05 L100.3 245.05 L100.3 244.75 L100.3 244.45 Z" /></g><g><path d="M98.13 249.94 L98.13 249.94 L98.39 249.79 L98.65 249.64 L100.4 252.66 L100.14 252.81 L99.88 252.96 Z" /></g><g><path d="M105.48 252.96 L105.48 252.96 L105.22 252.81 L104.96 252.66 L106.77 249.54 L107.03 249.69 L107.29 249.84 Z" /></g></g></g></svg>，在Ni催化下生成CO<sub>2</sub>和H<sub>2</sub>O。
+    - 实例：<svg class="svg-chem" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="146.32 281.09 36.03 33.28" width="43" height="40"><g><g><g><text xml:space="preserve"><tspan x="153.52" y="301.9">C</tspan></text></g><g><text xml:space="preserve"><tspan x="167.92" y="301.9">C</tspan></text></g><g><path d="M162 298.3 L162 298.3 L162 298 L162 297.7 L166.9 297.7 L166.9 298 L166.9 298.3 Z" /><line x1="162" y1="296.29" x2="166.9" y2="296.29" stroke-width="0.6" shape-rendering="auto" /></g><g><text xml:space="preserve"><tspan x="146.32" y="289.43">H</tspan></text></g><g><path d="M154.92 293.56 L154.92 293.56 L154.66 293.71 L154.4 293.86 L152.76 291.04 L153.02 290.89 L153.28 290.74 Z" /></g><g><text xml:space="preserve"><tspan x="175.12" y="289.43">H</tspan></text></g><g><path d="M174.35 293.7 L174.35 293.7 L174.09 293.55 L173.83 293.4 L175.39 290.7 L175.65 290.85 L175.91 291 Z" /></g><g><text xml:space="preserve"><tspan x="146.32" y="314.37">H</tspan></text></g><g><path d="M154.05 302.74 L154.05 302.74 L154.31 302.89 L154.57 303.04 L152.82 306.06 L152.56 305.91 L152.3 305.76 Z" /></g><g><text xml:space="preserve"><tspan x="175.12" y="314.37">H</tspan></text></g><g><path d="M174.2 303.24 L174.2 303.24 L174.46 303.09 L174.72 302.94 L176.35 305.76 L176.09 305.91 L175.83 306.06 Z" /></g></g></g></svg>和O<sub>2</sub>的反应，在PdCl<sub>2</sub>-CuCl<sub>2</sub>催化下生成CH<sub>3</sub>CHO，在Ag催化下生成<svg class="svg-chem" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="80.46 240.19 44.54 21.05" width="53" height="25"><g><g><g><text xml:space="preserve"><tspan x="106.27" y="248.65">CH</tspan><tspan dy="2.26" font-size="7.5">2</tspan></text></g><g><text xml:space="preserve" text-anchor="end"><tspan x="99.07" y="248.65">H</tspan><tspan dy="2.26" font-size="7.5">2</tspan><tspan dy="-2.26">C</tspan></text></g><g><text xml:space="preserve"><tspan x="98.77" y="261.12">O</tspan></text></g><g><path d="M105.2 244.45 L105.2 244.45 L105.2 244.75 L105.2 245.05 L100.3 245.05 L100.3 244.75 L100.3 244.45 Z" /></g><g><path d="M98.13 249.94 L98.13 249.94 L98.39 249.79 L98.65 249.64 L100.4 252.66 L100.14 252.81 L99.88 252.96 Z" /></g><g><path d="M105.48 252.96 L105.48 252.96 L105.22 252.81 L104.96 252.66 L106.77 249.54 L107.03 249.69 L107.29 249.84 Z" /></g></g></g></svg>，在Ni催化下生成CO<sub>2</sub>和H<sub>2</sub>O。
     - 可利用催化剂的选择性抑制副反应，或提高产品质量。
   - 催化剂可以改变催化反应历程。
     - 实例：$$\ce{2Ce^4+ + Tl+ -> 2Ce^3+ + Tl^3+}$$，加入Mn<sup>2+</sup>为催化剂后，历程改变，产物没有改变。双分子之间的碰撞机会大于三分子之间的碰撞机会（10<sup>18</sup> ~ 10<sup>22</sup>倍），使反应速度增加。
@@ -1302,7 +1304,7 @@ update: 2020-01-05 22:48
   - 相对于高温以及紫外光活化，常温下过渡金属离子活化过硫酸盐的技术更受到重视，并广泛用于各个方面。
   - <span class="importance-1"></span>钴离子均相催化：Co<sup>2+</sup>仍被认为是活化性能最好的过渡金属离子。
     - 虽然均相系统具有高效的降解性能，但是它也同时存在着诸多的局限性，如催化剂不易回收再利用等。而最大的局限性在于大多数过渡金属对环境不友好，如Co(II)能够引发哮喘、肺炎等健康以及生物毒性问题。
-    - <span class="importance-2"></span>基本原理：<a class="xrefFigure" href="#figure-image.gif"></a>。
+    - <span class="importance-2"></span>基本原理：<a class="xref-figure" href="#figure-image.gif"></a>。
     - 限速步骤：$$\ce{CoOH+ + HSO5- -> CoO+ + SO4^.- + H2O}$$。
     - 关键步骤：$$\ce{Co^3+ + HSO5- -> Co^2+ + SO5^.- + H2O}$$。
 
@@ -1325,10 +1327,10 @@ update: 2020-01-05 22:48
 ### 8.1. 膜技术
 
 - <span class="importance-2"></span>膜的定义：膜是分离两相和选择性传递物质的保障。
-- 膜的分类：按膜的结构、按化学组成（见<a class="xrefTable" href="#table-mo-an-hua-xue-zu-cheng-fen-lei"></a>）、按分离机理（见<a class="xrefTable" href="#table-mo-an-fen-li-ji-li-fen-lei"></a>）、按几何形状。
+- 膜的分类：按膜的结构、按化学组成（见<a class="xref-table" href="#table-mo-an-hua-xue-zu-cheng-fen-lei"></a>）、按分离机理（见<a class="xref-table" href="#table-mo-an-fen-li-ji-li-fen-lei"></a>）、按几何形状。
 
-<table class="lineTable">
-    <caption class="tableCaption" id="table-mo-an-hua-xue-zu-cheng-fen-lei">膜按化学组成分类<span class="importance-2"></span></caption>
+<table class="table table-3lines">
+    <caption class="caption-table" id="table-mo-an-hua-xue-zu-cheng-fen-lei">膜按化学组成分类<span class="importance-2"></span></caption>
     <thead>
     	<tr><th colspan="2">分类</th><th>举例</th></tr>
     </thead>
@@ -1341,14 +1343,14 @@ update: 2020-01-05 22:48
         <tr><td>硅橡胶类</td><td>聚二甲基硅氧烷、聚三甲基硅烷丙炔、聚乙烯基三甲基硅烷</td></tr>
         <tr><td>含氟聚合物</td><td>聚全氟磺酸、聚偏氟乙烯、聚四氟乙烯等</td></tr>
         <tr><td>其他</td><td>聚碳酸酷、聚电解质</td></tr>
-        <tr class="lineTop"><th rowspan="3">无机材料</th><td>陶瓷</td><td>氧化铝、氧化硅、氧化锆等</td></tr>
+        <tr class="line-top"><th rowspan="3">无机材料</th><td>陶瓷</td><td>氧化铝、氧化硅、氧化锆等</td></tr>
         <tr><td>玻璃</td><td>硼酸盐玻璃</td></tr>
         <tr><td>金属</td><td>铝、钯、银等</td></tr>
     </tbody>
 </table>
 
-<table class="lineTable">
-    <caption class="tableCaption" id="table-mo-an-fen-li-ji-li-fen-lei">膜按分离机理分类<span class="importance-1"></span></caption>
+<table class="table table-3lines">
+    <caption class="caption-table" id="table-mo-an-fen-li-ji-li-fen-lei">膜按分离机理分类<span class="importance-1"></span></caption>
     <thead>
         <tr><th rowspan="2">膜过程</th><th colspan="2">分离体系</th><th rowspan="2">推动力</th><th rowspan="2">分离机理</th><th rowspan="2">渗透物</th><th rowspan="2">截留物</th></tr>
         <tr><th>相1</th><th>相2</th></tr>
@@ -1373,10 +1375,10 @@ update: 2020-01-05 22:48
   - 浓缩分离同时进行。
   - 不需投加其他物质，不改变分离物质的性质。
   - 适应性强，运行稳定。 
-- 膜分离尺寸概念：见<a class="xrefTable" href="#table-mo-fen-li-chi-cun"></a>。
+- 膜分离尺寸概念：见<a class="xref-table" href="#table-mo-fen-li-chi-cun"></a>。
 
-<table class="lineTable">
-    <caption class="tableCaption" id="table-mo-fen-li-chi-cun">膜分离尺寸概念<span class="importance-1"></span></caption>
+<table class="table table-3lines">
+    <caption class="caption-table" id="table-mo-fen-li-chi-cun">膜分离尺寸概念<span class="importance-1"></span></caption>
     <thead>
     	<tr><th colspan="2">项目</th><th>RO</th><th>NF</th><th>UF</th><th>MF</th></tr>
     </thead>
@@ -1391,10 +1393,10 @@ update: 2020-01-05 22:48
     </tbody>
 </table>
 
-- 膜分离汇总：见<a class="xrefTable" href="#table-mo-fen-li-hui-zong"></a>。
+- 膜分离汇总：见<a class="xref-table" href="#table-mo-fen-li-hui-zong"></a>。
 
-<table class="listTable">
-    <caption class="tableCaption" id="table-mo-fen-li-hui-zong">膜分离方式汇总<span class="importance-1"></span></caption>
+<table class="table">
+    <caption class="caption-table" id="table-mo-fen-li-hui-zong">膜分离方式汇总<span class="importance-1"></span></caption>
     <thead>
         <tr>
             <th>膜过程</th>
@@ -1489,10 +1491,10 @@ update: 2020-01-05 22:48
     </tbody>
 </table>
 
-- 膜材料概述：见<a class="xrefTable" href="#table-mo-cai-liao-gai-shu"></a>。
+- 膜材料概述：见<a class="xref-table" href="#table-mo-cai-liao-gai-shu"></a>。
 
-<table class="listTable">
-    <caption class="tableCaption" id="table-mo-cai-liao-gai-shu">膜材料概述<span class="importance-2"></span></caption>
+<table class="table">
+    <caption class="caption-table" id="table-mo-cai-liao-gai-shu">膜材料概述<span class="importance-2"></span></caption>
     <thead>
         <tr>
             <th>膜材料</th>

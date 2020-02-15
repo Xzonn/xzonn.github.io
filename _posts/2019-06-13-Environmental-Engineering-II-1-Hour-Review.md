@@ -1,5 +1,7 @@
 ---
+date: 2019-06-13 19:11
 infoBox: incomplete formula
+math: true
 tags: 学习资料 环院专业课 知识点整理 三次元
 title: 《环境工程学二》一小时速成
 update: 2020-01-07 14:59
@@ -62,7 +64,7 @@ update: 2020-01-07 14:59
 ### 2.1 碱度的计算
 - 测定方法：中和滴定法，标准浓度盐酸滴定，分别以酚酞和甲基橙作指示剂计算滴定耗用的盐酸溶液量，得到酚酞碱度 $$P = \ce{[OH-] + [CO3^2-]}$$ 和甲基橙碱度（总碱度）$$T = \ce{[OH-] + 2[CO3^2-] + [HCO3-]}$$。
 - 计算方法：如表 2-1 所示。
-<table class="listTable">
+<table class="table">
 <caption>表 2-1 碱度计算方法</caption>
 <thead>
 <tr><th>滴定结果</th><th>$\ce{[OH-]}$</th><th>$\ce{2[CO3^2-]}$</th><th>$\ce{[HCO3-]}$</th></tr>
@@ -79,7 +81,7 @@ update: 2020-01-07 14:59
 ### 2.2 硬度的计算
 - 测定方法：EDTA 络合滴定法。总硬度记为 $$H$$，总碱度记为 $$S$$。
 - 计算方法：如表 2-2 所示。
-<table class="listTable">
+<table class="table">
 <caption>表 2-2 硬度计算方法</caption>
 <thead>
 <tr><th>滴定结果</th><th>碳酸盐<br>（暂时硬度）</th><th>非碳酸盐<br>（永久硬度）</th><th>负硬度</th></tr>

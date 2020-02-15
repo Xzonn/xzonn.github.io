@@ -8,11 +8,13 @@ $(function () {
         path = location.pathname,
         search = location.search,
         hash = location.hash;
-    if (/^\/([\w\-]+)\/?$/.test(path)) {
+    if (path == "/pages.html" || path == "/tags/") {
+        location.href = origin + "/pages/" + search + hash;
+    } else if (/^\/([\w\-]+)\/?$/.test(path)) {
         let newPath = origin + "/posts/" + RegExp.$1 + ".html"
         $.get(newPath).done(function () {
             location.href = newPath + search + hash;
-        }).error(notFound);
+        }).fail(notFound);
     } else {
         notFound();
     }

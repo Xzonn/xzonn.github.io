@@ -1,5 +1,7 @@
 ---
+date: 2019-09-18 09:34
 infoBox: incomplete
+math: true
 tags: 学习资料 环院专业课 知识点整理 三次元
 title: 《环境微生物学》知识点整理
 update: 2020-01-03 23:02

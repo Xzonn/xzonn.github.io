@@ -1,12 +1,14 @@
 ---
+date: 2019-01-08 15:22
 headImage: https://s2.ax1x.com/2020/01/02/ltqFv8.png
 infoBox: incomplete
+math: true
 tags: 学习资料 环院专业课 知识点整理 三次元
 title: 《环境监测》知识点整理（三）
 update: 2020-02-14 13:27
 ---
 这是《环境监测》课程谢曙光老师部分的思考题整理。导航：[孙卫玲老师部分](/posts/Environmental-Monitoring-Notes-1.html)。
-{: .noPrint }
+{: .hidden-print }
 
 ## 0 思考题汇总
 ### 0.1 水体监测
@@ -70,9 +72,9 @@ update: 2020-02-14 13:27
 
 ![水体中N的迁移和转化\|600px](https://s2.ax1x.com/2020/01/02/ltqFv8.png)
 
-- 意义：通过测定各种形态的含氮化合物可以判断水体处于哪个阶段。<a class="xrefTable" href="#table-han-dan-hua-he-wu-xing-shi"></a>。
-<table class="listTable">
-    <caption class="tableCaption" id="table-han-dan-hua-he-wu-xing-shi">含氮化合物形式</caption>
+- 意义：通过测定各种形态的含氮化合物可以判断水体处于哪个阶段。<a class="xref-table" href="#table-han-dan-hua-he-wu-xing-shi"></a>。
+<table class="table">
+    <caption class="caption-table" id="table-han-dan-hua-he-wu-xing-shi">含氮化合物形式</caption>
     <thead>
         <tr><th colspan="3">含氮化合物形式</th><th rowspan="2">卫生学意义</th></tr>
         <tr><th>NH<sub>4</sub><sup>+</sup></th><th>NO<sub>2</sub><sup>-</sup></th><th>NO<sub>3</sub><sup>-</sup></th></tr>
@@ -89,7 +91,7 @@ update: 2020-02-14 13:27
 </table>
 
 #### (8) 解释下列术语，说明各适用于什么情况？瞬时水样、混合水样、综合水样。
-- 水样分类：<a class="xrefTable" href="#table-shui-yang-fen-lei"></a>。
+- 水样分类：<a class="xref-table" href="#table-shui-yang-fen-lei"></a>。
 - 瞬时水样：在某一时间和地点从水体中随机分散采集的分散单一水样。
   - 当水体水质稳定，或其组分在相当长的时间或相当大的空间范围内变化不大时，瞬时水样具有很好的代表性。
   - 当水体组分及含量随时空变化较大时，就应隔时、多点采集瞬时水样，分别进行分析，摸清水质变化的规律。
@@ -98,8 +100,8 @@ update: 2020-02-14 13:27
   - 后者是指在同一采样点所采水样量随时间或流量成比例变化的混合水样，即在不同时间依照流量大小按比例采集的混合水样，这种水样适合于流量和污染物浓度不稳定的水样。
 - 综合水样：把在不同采样点同时采集的各个瞬时水样混合后所得到的水样。
 
-<table class="lineTable">
-    <caption class="tableCaption" id="table-shui-yang-fen-lei">水样分类</caption>
+<table class="table table-3lines">
+    <caption class="caption-table" id="table-shui-yang-fen-lei">水样分类</caption>
     <thead>
     	<tr><th>水样名称</th><th>采样时间</th><th>采样地点</th><th>混合情况</th></tr>
     </thead>
@@ -256,10 +258,10 @@ update: 2020-02-14 13:27
     - 提高净化能力：选育降解能力强的植物，应用具有特殊功能的微生物。
 
 #### (4) 叙述土壤污染物的种类和土壤污染类型。
-- 种类：<a class="xrefTable" href="#table-tu-rang-wu-ran-wu-zhong-lei"></a>。
+- 种类：<a class="xref-table" href="#table-tu-rang-wu-ran-wu-zhong-lei"></a>。
 
-<table class="listTable">
-    <caption class="tableCaption" id="table-tu-rang-wu-ran-wu-zhong-lei">土壤污染物种类</caption>
+<table class="table">
+    <caption class="caption-table" id="table-tu-rang-wu-ran-wu-zhong-lei">土壤污染物种类</caption>
     <thead>
         <tr><th colspan="3">污染物种类</th><th>主要来源</th></tr>
     </thead>
@@ -313,10 +315,10 @@ update: 2020-02-14 13:27
 
 #### (6) 采样点布点方法及适用范围。
 - 采样点数量：一般要求每个单元设3个采样点。计算公式：$$N = (s \times t \div d)^2$$。
-- 布点方法：<a class="xrefTable" href="#table-bu-dian-fang-fa"></a>。
+- 布点方法：<a class="xref-table" href="#table-bu-dian-fang-fa"></a>。
 
-<table class="listTable">
-    <caption class="tableCaption" id="table-bu-dian-fang-fa">布点方法</caption>
+<table class="table">
+    <caption class="caption-table" id="table-bu-dian-fang-fa">布点方法</caption>
     <thead>
         <tr><th>方法</th><th>适用范围</th><th>布点法</th></tr>
     </thead>

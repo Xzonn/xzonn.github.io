@@ -1,5 +1,6 @@
 ---
 css: bilibili
+date: 2018-10-12 12:00
 headImage: https://raw.githubusercontent.com/Xzonn/LuigiMansionChineseTranslation/master/images/logo.png
 info: 3DS《路易吉洋馆》汉化：从开坑到弃坑。
 js: bilibili

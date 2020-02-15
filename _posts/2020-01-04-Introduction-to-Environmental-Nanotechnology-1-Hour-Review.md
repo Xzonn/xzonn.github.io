@@ -1,7 +1,9 @@
 ---
+date: 2020-01-04 12:00
 headImage: https://s2.ax1x.com/2020/01/05/l0XZGD.png
 info: 本资料原本打算整理出所有可能的重点，但是经过期末考试之后，本人发现了内容的盲区，因此请不要以此资料为复习重点。期待2020年选课的朋友补充添加内容。
 infoBox: incomplete
+math: true
 tags: 学习资料 环院专业课 知识点整理 三次元
 title: 《环境纳米技术导论》一小时速成
 update: 2020-01-05 22:46
@@ -119,7 +121,7 @@ update: 2020-01-05 22:46
   - 应用：超纯水、饮用水、废水回用、纯水、水的精制、浓缩分离。
 - 材料的生物毒性：氧化应激性、自噬作用、炎症反应、基因毒性。
 
-<table class="figureTable">
+<table class="table-figure">
     <tbody>
         <tr>
             <td><img src="https://s2.ax1x.com/2020/01/05/l0XZGD.png" alt="TEM|x200px" /></td>

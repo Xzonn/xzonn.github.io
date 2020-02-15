@@ -1,5 +1,7 @@
 ---
+date: 2019-11-02 12:00
 headImage: https://s2.ax1x.com/2019/11/02/KLPt56.gif
+math: true
 tags: 学习资料 编程 作业 三次元
 title: 《计算概论（B）》（马思伟）作业参考代码（2017）
 update: 2020-01-03 23:02
@@ -214,7 +216,7 @@ int main() {
 ### 1. 二维数组回形遍历
 #### (1) 题目要求
 ##### 描述
-给定一个row行col列的整数数组array，要求从array[0][0]元素开始，按回形从外向内顺时针顺序遍历整个数组。如<a class="xrefFigure" href="#figure-KLPt56.gif"></a> 所示：
+给定一个row行col列的整数数组array，要求从array[0][0]元素开始，按回形从外向内顺时针顺序遍历整个数组。如<a class="xref-figure" href="#figure-KLPt56.gif"></a> 所示：
 
 ![“二维数组回形遍历”参考图\|275px](https://s2.ax1x.com/2019/11/02/KLPt56.gif)
 
@@ -696,7 +698,7 @@ int main() {
 ### 4. 展开数组
 #### (1) 题目要求
 ##### 描述
-去年阿福做了一个填充数组的任务，至今自己还津津乐道。现在他又遇到了一个相似的问题，跟去年的有那么一点像。可是他平时光顾着自己吹牛，却忘记了那个问题当时是怎么解决的，想请你帮忙回忆一下，到底该怎么做呢？问题如下：以<a class="xrefFigure" href="#figure-KLPyVI.png"></a>所示的顺序遍历给定的数组。
+去年阿福做了一个填充数组的任务，至今自己还津津乐道。现在他又遇到了一个相似的问题，跟去年的有那么一点像。可是他平时光顾着自己吹牛，却忘记了那个问题当时是怎么解决的，想请你帮忙回忆一下，到底该怎么做呢？问题如下：以<a class="xref-figure" href="#figure-KLPyVI.png"></a>所示的顺序遍历给定的数组。
 
 ![“展开数组”参考图](https://s2.ax1x.com/2019/11/02/KLPyVI.png)
 
@@ -2144,7 +2146,7 @@ int main() {
 ```
 
 ## 作业10
-### 0. 说明<span class="fn">参考资料：维基百科编者. 排序算法 [G/OL]. (2019-09-26)[2019-11-02]. [https://zh.wikipedia.org/w/index.php?title=%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95&oldid=56246883](https://zh.wikipedia.org/w/index.php?title=%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95&oldid=56246883).</span>
+### 0. 说明<span class="footnote">参考资料：维基百科编者. 排序算法 [G/OL]. (2019-09-26)[2019-11-02]. [https://zh.wikipedia.org/w/index.php?title=%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95&oldid=56246883](https://zh.wikipedia.org/w/index.php?title=%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95&oldid=56246883).</span>
 
 #### (1) 概述
 在计算机科学与数学中，一个**排序算法**（英语：Sorting algorithm）是一种能将一串数据依照特定排序方式进行排列的一种算法。最常用到的排序方式是数值顺序以及字典顺序。有效的排序算法在一些算法（例如搜索算法与合并算法）中是重要的，如此这些算法才能得到正确解答。排序算法也用在处理文字数据以及产生人类可读的输出结果。基本上，排序算法的输出必须遵守下列两个原则：
@@ -2167,7 +2169,7 @@ int main() {
 不稳定排序算法可能会在相等的键值中改变纪录的相对次序，但是稳定排序算法从来不会如此。不稳定排序算法可以被特别地实现为稳定。作这件事情的一个方式是人工扩充键值的比较，如此在其他方面相同键值的两个对象间之比较，（比如上面的比较中加入第二个标准：第二个键值的大小）就会被决定使用在原先数据次序中的条目，当作一个同分决赛。然而，要记住这种次序通常牵涉到额外的空间负担。
 
 #### (3) 简要比较
-<table class="lineTable">
+<table class="table table-3lines">
     <thead>
         <tr>
             <th>名称</th>
@@ -2474,7 +2476,7 @@ int main() {
 
 此题最简单的方法就是“暴力匹配法”（也称“朴素算法”），特点是好想，但耗时长，需要$$n \times m$$数量级的运算。提示中所说的“KMP算法”全称为“克努斯-莫里斯-普拉特算法”，可以参考[这个链接](http://blog.csdn.net/v_july_v/article/details/7041827)的内容。
 
-下面给出叫做“Sunday算法”的方法。具体思想：<span class="fn">参考资料：coderchenjingui. Sunday算法---简单高效的字符串匹配算法 [EB/OL]. (2014-11-06)[2019-11-02]. [http://blog.csdn.net/qq575787460/article/details/40866661](http://blog.csdn.net/qq575787460/article/details/40866661).</span>
+下面给出叫做“Sunday算法”的方法。具体思想：<span class="footnote">参考资料：coderchenjingui. Sunday算法---简单高效的字符串匹配算法 [EB/OL]. (2014-11-06)[2019-11-02]. [http://blog.csdn.net/qq575787460/article/details/40866661](http://blog.csdn.net/qq575787460/article/details/40866661).</span>
 
 1. 令`str`为原字符串，`par`为子串，`i`为要匹配的字符在`str`中的位置，`j`为要匹配的字符在`par`中的位置（均从0开始），`strLen`和`parLen`分别为两字符串长度。
 2. 开始时`i = 0`，`j = 0`。
@@ -2544,7 +2546,7 @@ int main() {
 
 此题也有模拟方法，即按照执行顺序依次求出被杀的人。
 
-下面给出数学推导的方法：<span class="fn">参考资料：Mr_Lsz. 约瑟夫问题实现的方法总结 [EB/OL]. (2016-04-11)[2019-11-02]. [http://blog.csdn.net/lishuzhai/article/details/51125072](http://blog.csdn.net/lishuzhai/article/details/51125072).</span>
+下面给出数学推导的方法：<span class="footnote">参考资料：Mr_Lsz. 约瑟夫问题实现的方法总结 [EB/OL]. (2016-04-11)[2019-11-02]. [http://blog.csdn.net/lishuzhai/article/details/51125072](http://blog.csdn.net/lishuzhai/article/details/51125072).</span>
 
 1. 先考虑有$$n$$个人的情况，将他们编号为$$0,1,2,\cdots,n-1$$。
 2. 杀掉第$$k$$个人（编号为$$k-1$$）后，剩余的人从第$$k$$号开始组成新的环：$$k,k+1,k+2,\cdots,n-1,0,1,2,\cdots,k-2,k-1$$。
@@ -2571,19 +2573,19 @@ int main()
 ### 3. [例题(15.3) 汉诺塔](http://www.pkupc.cn/programming/problem/5f2560c51bf740a28cdaf07a2fbedfea/show.do)
 <figure>
     <img alt="“汉诺塔”参考图(a)\|322px" src="https://s2.ax1x.com/2019/11/02/KLVaGt.gif">
-    <div class="figureNumber">(a)</div>
+    <div class="figure-number">(a)</div>
     <img alt="“汉诺塔”参考图(b)\|318px" src="https://s2.ax1x.com/2019/11/02/KLVUPI.gif">
-    <div class="figureNumber">(b)</div>
-    <figcaption class="figureCaption" id="figure-han-nuo-ta">“汉诺塔”参考图</figcaption>
+    <div class="figure-number">(b)</div>
+    <figcaption class="caption-figure" id="figure-han-nuo-ta">“汉诺塔”参考图</figcaption>
 </figure>
 
 #### (1) 题目要求
 ##### 描述
-汉诺塔是约19世纪末，在欧州的商店中出售一种智力玩具。它的结构如<a class="xrefFigure" href="#figure-han-nuo-ta"></a>(a)所示： 
+汉诺塔是约19世纪末，在欧州的商店中出售一种智力玩具。它的结构如<a class="xref-figure" href="#figure-han-nuo-ta"></a>(a)所示： 
 
 在一个平板上立有三根铁针，分别记为A，B，C。开始时，铁针A上依次叠放着从大到小$$n$$个圆盘，游戏的目标就是将A上的$$n$$个圆盘全部转移到C上，要求每次只能移动某根铁针最上层一个圆盘，圆盘不得放在这三根铁针以外的任何地方，而且永远只能将小的圆盘叠放在大的圆盘之上。 
 
-例如，<a class="xrefFigure" href="#figure-han-nuo-ta"></a>(b)就是示例输出中（$$n = 3$$）移动方案的图示： 
+例如，<a class="xref-figure" href="#figure-han-nuo-ta"></a>(b)就是示例输出中（$$n = 3$$）移动方案的图示： 
 
 这是一个著名的问题，几乎所有的教材上都有这个问题。由于条件是一次只能移动一个盘，且不允许大盘放在小盘上面，所以64个盘的移动次数是：18,446,744,073,709,551,615（即2<sup>64</sup> - 1）。
 

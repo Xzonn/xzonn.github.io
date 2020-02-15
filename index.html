@@ -1,21 +1,30 @@
 ---
-css: postList
-js: postList
-layout: post
+css: postlist
+js: postlist
+layout: default
 title: 欢迎来到 Xzonn 的小站！
 ---
-{% include readme.html %}
-<h2 class="pageListTitle">页面列表</h2>
-<div class="pageBlockList"></div>
-<div class="pagePagination">
-    <div class="pagePrev">
-        <a class="pageFirstLink" href="/">第一页</a> | <a class="pagePrevLink" href="/">上一页</a>
+<h2>导航</h2>
+<div class="row">
+    <div class="col-sm-6"><a href="/posts/Study.html"><img src="/images/header-001.png" class="xz-index-image"></a></div>
+    <div class="col-sm-6"><a href="/posts/Pokemon-Chinese-Translation-Revise.html"><img src="/images/header-002.png" class="xz-index-image"></a></div>
+    <div class="col-sm-6"><a href="/LuigiMansion/"><img src="/images/header-003.png" class="xz-index-image"></a></div>
+    <div class="col-sm-6"><a href="/pages/"><img src="/images/header-004.png" class="xz-index-image"></a></div>
+</div>
+<h2 class="page-block-heading">文章列表</h2>
+<div class="page-block-list"></div>
+<div class="page-pagination">
+    <div class="page-count">本站共有 <span class="post-total"></span> 篇文章，共 <span class="page-total"></span> 页。</div>
+    <div class="page-pagination-list">
+        <ul class="pagination"></ul>
     </div>
-    <div class="pageNext">
-        <a class="pageNextLink" href="/">下一页</a> | <a class="pageLastLink" href="/">最后一页</a>
-    </div>
-    <div class="pageCount">本站共有 <span class="postTotal"></span> 篇文章，共 <span class="pageTotal"></span> 页。</div>
-    <form class="pageEnter">
-        <input name="page" class="pageNumber" placeholder="请输入页码" /><button class="pageGoto">前往</button>
+    <form class="page-enter form-inline">
+        <div class="input-group">
+            <div class="input-group-addon">页码：</div>
+            <input name="page" class="page-number form-control" placeholder="请输入页码" size="2" />
+            <span class="input-group-btn">
+                <button class="btn btn-primary">前往</button>
+            </span>
+        </div>
     </form>
 </div>

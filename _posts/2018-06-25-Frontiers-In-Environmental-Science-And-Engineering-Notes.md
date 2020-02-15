@@ -1,5 +1,7 @@
 ---
+date: 2018-06-25 12:00
 infoBox: complete
+math: true
 tags: 学习资料 环院专业课 知识点整理 三次元
 title: 《环境科学与工程专题》知识点整理
 update: 2020-01-07 14:59
@@ -58,7 +60,7 @@ update: 2020-01-07 14:59
   * $\ce{O3}$和$\ce{NO\_x}$的光稳态：$\ce{O3 + NO -> NO2 + O2}$，$\ce{NO2 ->[h\nu] NO + O$，$O + O2 ->[M] O3 + M}$。
   * 已知的对流层化学反应：大气层（尤其是对流层）充当了低温、慢速燃烧的发动机，将还原性化合物氧化。$\ce{CO, CH4, HCs ->[OH, HO2,][NO, NO2] CO2 + H2O +}$其他副产物，如$\ce{O3}$等。
 
-<table class="listTable">
+<table class="table">
 <tr><th rowspan="2" colspan="4">还原性气体和颗粒</th><td>$\ce{O3}$，$\ce{OH}$，$\ce{NO3}$<br>氧化剂</td><th rowspan="2" colspan="2">氧化性气体和颗粒</th></tr>
 <tr><td>→</td></tr>
 <tr><td>沉<br>积</td><td rowspan="3">↓</td><td rowspan="3">↑</td><td>排<br>放</td><td></td><td>沉<br>积</td><td rowspan="3">↓</td></tr>
@@ -238,7 +240,7 @@ update: 2020-01-07 14:59
   * 如何制定环境问题健康风险的控制措施。
 
 #### 7.2 污染－效应研究方法：
-<table class="listTable">
+<table class="table">
 <caption>研究方法</caption>
 <tr><th rowspan="4">观察法</th><td rowspan="2">描述流行病学</td><td>横断面调查<br>（资料收集于某一时点或在一个较短时间区间内，反映该时间点的疾病分布以及人们的某些特征与疾病之间的关联）</td><th rowspan="2">产生假设</th></tr>
 <tr><td>生态学研究<br>（在群体的水平上研究某种因素与疾病之间的关系，通过描述不同人群中某因素的暴露状况与疾病的频率，分析该暴露因素与疾病之间的关系）</td></tr>
@@ -250,7 +252,7 @@ update: 2020-01-07 14:59
 <tr><th>数理法</th><td>理论流行病学</td><td colspan="2"></td></tr>
 </table>
 
-<table class="listTable">
+<table class="table">
 <caption>统计关联到因果关联</caption>
 <tr><th rowspan="4">关联</th><td>偶然关联</td><td colspan="2"></td></tr>
 <tr><th rowspan="3">有统计学意义的关联</th><td>非因果关联<br>（选择、测量或混杂偏倚）</td><td></td></tr>

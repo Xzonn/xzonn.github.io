@@ -1,5 +1,6 @@
 ---
 css: bilibili
+date: 2019-10-18 12:00
 headImage: https://i1.hdslb.com/bfs/archive/cb1a2095129eab167fe140c326f3459eecf665d1.jpg
 js: bilibili
 tags: 学习资料 三次元

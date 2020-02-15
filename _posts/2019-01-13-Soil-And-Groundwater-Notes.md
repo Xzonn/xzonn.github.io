@@ -1,7 +1,9 @@
 ---
+date: 2019-01-13 12:00
 headImage: https://s2.ax1x.com/2019/12/28/legihd.png
 info: 一小时速成有点不太可能，还是老老实实准备期末复习吧。
 infoBox: complete formula
+math: true
 tags: 学习资料 环院专业课 知识点整理 三次元
 title: 《土壤与地下水》期末复习
 update: 2020-01-07 14:59
@@ -92,7 +94,7 @@ update: 2020-01-07 14:59
   - 推导：$$Q = K\cdot 2\pi rh\cfrac{\mathrm dh}{\mathrm dr}$$，即$$h\mathrm dh = \cfrac {Q}{2\pi K} \cfrac {\mathrm dr}{r}$$，积分得$$\cfrac {h_0^2 - h^2}{2} = \cfrac {Q}{2\pi K}\ln\left(\cfrac {R}{r}\right)$$。
 
 ## 2 名词解释
-<div class="noPrint" style="float: right;">[ <a href="javascript:jQuery('dd').slideToggle()">显示／隐藏解释</a> | <a href="javascript:jQuery('.chsName').fadeToggle()">显示／隐藏中文</a> ]</div>
+<div class="hidden-print" style="float: right;">[ <a href="javascript:jQuery('dd').slideToggle()">显示／隐藏解释</a> | <a href="javascript:jQuery('.chsName').fadeToggle()">显示／隐藏中文</a> ]</div>
 ### 第1课
 
 <span class="chsName">关键带</span><span class="engName">Critical Zone</span>

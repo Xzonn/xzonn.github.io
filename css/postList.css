@@ -1,34 +1,39 @@
-.postBlock {
+.post-block {
     position: relative;
     padding: 1.5rem 0;
     max-height: 13.8rem;
-    border-bottom: 2px dashed var(--color-warm-dark);
+    border-bottom: 2px dashed var(--color-cold-dark);
 }
 
-.postBlock::after {
+.post-block::after {
     clear: both;
     display: block;
     content: '';
 }
 
-.postBlock:first-child {
+.post-block:first-child {
     padding-top: 0;
 }
 
-.postTitle {
+.post-title {
     display: block;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
     font-weight: bold;
     font-size: 1.4rem;
+    margin: 0;
 }
 
-.postBlockWithImage .postTitle {
+.post-title > a {
+    color: var(--color-cold-darker);
+}
+
+.post-block-with-image .post-title {
     margin-right: 17.2rem;
 }
 
-.postImage {
+.post-image {
     float: right;
     display: block;
     margin: -5.4rem 0 0 1rem;
@@ -37,155 +42,43 @@
     object-fit: cover;
 }
 
-.postDates, .postTagList {
-    color: var(--color-warm-dark);
-    font-size: 0.8rem;
-}
-
-.postDates::after {
-    clear: left;
-    display: block;
-    content: "";
-}
-
-.postCreateDate, .postUpdateDate {
-    float: left;
-    margin-right: 1em;
-}
-
-.postCreateDate::before {
-    content: "\521b\5efa\65f6\95f4\ff1a";
-}
-
-.postUpdateDate::before {
-    content: "\66f4\65b0\65f6\95f4\ff1a";
-}
-
-.postTagList {
-    padding-left: 0;
-    list-style: none;
-}
-
-.postTagList::before {
-    content: '\6807\7b7e\ff1a';
-}
-
-.postTag {
-    display: inline-block;
-    padding-right: 0.5rem;
-}
-
-.postTag > a::before {
-    content: '#';
-}
-
-.postInfo {
+.post-meta-info {
     overflow-y: hidden;
     margin: 0;
     padding: 0 0.5rem;
     max-height: 5.4rem;
-    color: var(--color-cold-dark);
+    color: var(--color-warm-dark);
     font-style: italic;
 }
 
-.postRead::after {
+.post-read::after {
     content: '\9605\8bfb\5168\6587';
 }
 
-.pagePagination {
-    position: relative;
-    padding-top: 1rem;
+.page-pagination {
+    margin: 30px auto;
     text-align: center;
 }
 
-.pagePrev {
-    position: absolute;
-    top: 1.9rem;
-    left: 0;
-    display: block;
-    text-align: left;
+.page-pagination-list > ul {
+    margin: 0 auto;
 }
 
-.pagePrev::before {
-    content: "\2190";
-}
-
-.pageNext {
-    position: absolute;
-    top: 1.9rem;
-    right: 0;
-    display: block;
-    text-align: right;
-}
-
-.pageNext::after {
-    content: "\2192";
-}
-
-.pageCount {
-    margin: 0 10rem;
-}
-
-.pageNumber {
-    width: 5rem;
-    height: 1.8rem;
-    border-color: var(--color-warm-dark);
-    border-style: solid;
-    border-width: 1px;
-    border-radius: 5px 0 0 5px;
-    background-color: var(--color-warm-light);
-    color: var(--color-warm-dark);
+.page-number {
     text-align: center;
 }
 
-.pageNumber:focus {
-    width: 10rem;
-}
-
-.pageGoto {
-    width: 5rem;
-    height: 1.8rem;
-    border-color: var(--color-warm-dark);
-    border-style: solid;
-    border-width: 1px 1px 1px 0;
-    border-radius: 0 5px 5px 0;
-    background-color: var(--color-warm-dark);
-    color: var(--color-warm-light);
-    cursor: pointer;
-}
-
-.pageGoto:hover {
-    background-color: var(--color-warm-light);
-    color: var(--color-warm-dark);
-}
-
-
-@media screen and (max-width: 600px) {
-    .postBlock {
+@media screen and (max-width: 767px) {
+    .post-block {
         max-height: max-content;
     }
 
-    .postBlockWithImage .postTitle {
+    .post-block-with-image .post-title {
         margin-right: 0;
     }
 
-    .postImage {
+    .post-image {
         float: none;
         margin: 0 auto;
-    }
-
-    .pagePrev {
-        position: static;
-        float: left;
-    }
-
-    .pageNext {
-        position: static;
-        float: right;
-    }
-
-    .pageCount {
-        clear: both;
-        margin: 0;
     }
 }

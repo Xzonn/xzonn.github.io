@@ -1,7 +1,8 @@
 ---
+date: 2018-08-30 19:40
 tags: 三次元
 title: 分数绩点计算器
-update: 2020-01-03 23:02
+update: 2020-02-15 22:39
 ---
 <style>
     input {
@@ -14,21 +15,21 @@ update: 2020-01-03 23:02
 
 这是一个分数与绩点相互转换的页面。绩点精确到小数点后三位，分数精确到小数点后两位。如果您觉得这个页面有用，欢迎收藏。
 
-<table class="listTable">
+<table class="table">
     <tr>
         <th>课程分数</th>
         <th>绩点</th>
     </tr>
     <tr>
         <td>
-            <input onkeyup="_实时绩点.innerHTML=_分2绩(this.value)" placeholder="分数">
+            <input type="text" class="form-control" onkeyup="_实时绩点.innerHTML=_分2绩(this.value)" placeholder="分数">
         </td>
         <td id="_实时绩点">左侧输入分数</td>
     </tr>
     <tr>
         <td id="_实时分数">右侧输入绩点</td>
         <td>
-            <input onkeyup="_实时分数.innerHTML=_绩2分(this.value)" placeholder="绩点">
+            <input type="text" class="form-control" onkeyup="_实时分数.innerHTML=_绩2分(this.value)" placeholder="绩点">
         </td>
     </tr>
     <tr>

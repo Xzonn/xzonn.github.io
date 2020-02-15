@@ -1,4 +1,5 @@
 ---
+date: 2019-01-15 12:00
 infoBox: complete
 tags: 学习资料 环院专业课 知识点整理 三次元
 title: 《气象学基础》期末复习

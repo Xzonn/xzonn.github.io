@@ -1,4 +1,5 @@
 ---
+date: 2018-10-12 12:00
 infoBox: pokemon
 tags: 精灵宝可梦 二次元
 title: NDS《精灵宝可梦 白金》汉化修正
@@ -24,7 +25,7 @@ update: 2020-01-03 23:02
 ## 4 预览
 预览图：
 
-<table class="listTable">
+<table class="table">
 <thead>
 <tr><th>原版</th><th>修正版</th></tr>
 </thead>

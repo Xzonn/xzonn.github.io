@@ -1,6 +1,8 @@
 ---
+date: 2019-05-25 14:06
 headImage: https://s2.ax1x.com/2020/01/03/ldnYLV.png
 infoBox: incomplete
+math: true
 tags: 学习资料 环院专业课 知识点整理 三次元
 title: 《大气气溶胶测量技术与实验》考点整理
 update: 2020-02-14 13:27

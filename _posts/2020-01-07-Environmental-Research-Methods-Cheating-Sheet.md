@@ -1,5 +1,7 @@
 ---
+date: 2020-01-07 23:36
 info: “欺骗表单”，乃“Cheating Sheet”直译也。
+math: true
 tags: 学习资料 环院专业课 知识点整理 三次元
 title: 《环境研究方法》欺骗表单
 update: 2020-01-11 23:29
@@ -214,14 +216,14 @@ update: 2020-01-11 23:29
   - 描述性分析：总体分布、总体大小和离散特征；频率分析；趋势分析；比较分析。
   - 解释性分析：假设检验；相关分析；回归分析；因子分析；机理探讨——模型等。
   - 数据展示方法：图（柱状图、直方图、饼图、曲线图、散点图等）、表、地图、形象化处理。
-  - 应用数理统计基本原理：<a class="xrefTable" href="#table-ying-yong-shu-li-tong-ji-ji-ben-yuan-li"></a>。
+  - 应用数理统计基本原理：<a class="xref-table" href="#table-ying-yong-shu-li-tong-ji-ji-ben-yuan-li"></a>。
 
 | 正态分布   | 大小     | 离散         | 分布       |
 | ---------- | -------- | ------------ | ---------- |
 | 是         | 算术均值 | 标准差等     | 偏峰度系数 |
 | 否，可变换 | 几何均值 | 几何标准差   |            |
 | 否         | 中位数   | 半内四分范围 | 分位数     |
-{: .listTable .a-r data-caption="应用数理统计基本原理" data-id="table-ying-yong-shu-li-tong-ji-ji-ben-yuan-li" }
+{: .table .float-right data-caption="应用数理统计基本原理" data-id="table-ying-yong-shu-li-tong-ji-ji-ben-yuan-li" }
 
 - 数据挖掘基础：时间序列；空间分布；统计特征（百分比、大小、频率等）；时空变化；相关和回归分析；聚类分析（主成分分析PCA、正交因子分析PMF等；形象化的图形，更准确的描述；不同坐标系的应用）。
   - 相关：相关性不等于因果性。皮尔逊、肯德尔、斯皮尔曼相关分析。
@@ -604,7 +606,7 @@ update: 2020-01-11 23:29
 | Le | 时间、空间中心 | $$c_{i, t + \Delta t} = c_{i, t - \Delta t} + \varepsilon (c_{i - 1, t} - c_{i + 1, t})$$ |
 | La | 时间正向、空间中心 | $$c_{i, t + \Delta t} = c_{i, t} + \cfrac {\varepsilon} {2} (c_{i - 1, t} - c_{i + 1, t}) + \cfrac {\varepsilon^2} {2}(c_{i + 1, t} - 2c_{i, t} + c_{i - 1, t})$$ |
 | U | 时间、空间反向 | $$c_{i, t + \Delta t} = c_{i, t} - \varepsilon (c_{i + 1, t} - c_{i, t}), u \le 0$$<br/>$$c_{i, t + \Delta t} = c_{i, t} - \varepsilon (c_{i, t} - c_{i - 1, t}), u > 0$$ |
-{: .lineTable data-caption="欧拉模型数值求解" }
+{: .table table-3lines data-caption="欧拉模型数值求解" }
 
 
 ![<i>ε</i> = 0.5\|100mm\|right](https://s2.ax1x.com/2020/01/11/lIfgde.png)
@@ -705,7 +707,7 @@ update: 2020-01-11 23:29
 | 政策组1<br/>（实验组）   | $$Y_{t1}$$ | $$Y_{t2}$$ | $$\Delta Y_t$$                                |
 | 无政策组2<br/>（控制组） | $$Y_{c1}$$ | $$Y_{c2}$$ | $$\Delta Y_c$$                                |
 | 差                       |            |            | $$\Delta \Delta Y = \Delta Y_t - \Delta Y_c$$ |
-{: .lineTable }
+{: .table table-3lines }
 
 - - 控制组用于识别未受干预影响时可能的演变路径。在本例中，即使没有干预，<i>Y</i>下降了$$Y_{c2} - Y_{c1}$$。
   - 关键是没有干预的情况下，两组的时间趋势是相同的。

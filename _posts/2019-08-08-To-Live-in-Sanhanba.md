@@ -1,12 +1,14 @@
 ---
+date: 2019-08-08 22:23
 infoBox: complete
+math: true
 tags: 杂记 三次元
 title: 塞罕坝存活指南
 update: 2020-01-03 23:05
 ---
 <blockquote>
     <p>我来这里之前就想问了，这种东西为什么之前没有人做？？？</p>
-    <p class="at-r">——Martin</p>
+    <p class="text-right">——Martin</p>
 </blockquote>
 <p>熟悉我的人应该都知道我是谁，不熟悉我的人知道我是谁也没有用。写这个东西一方面是为了备个忘，另一方面也是为了给来年的学弟学妹们排个雷，你好我好大家好。为了保护隐私，这篇文章里用到的名字大部分都是化名（<span class="font-kai-ti">当然明眼人一眼也能看出来是谁</span>）。</p>
 <p>事先说明，本文的内容大部分基于2019年《环境综合实习二》课程中的个人体会，不代表其他人的看法。一些我认为可能有用的其他人的看法我会以引用的形式用<span class="font-fang-song">仿宋</span>字体标出。由于之后的课程安排可能会有变，请仅做参考。本文最后一次更新时间为：<span class="varDateChinese"></span>。</p>
@@ -15,14 +17,14 @@ update: 2020-01-03 23:05
 <h3>实验分组及课题分配</h3>
 <p>今年的实验课题一共有6个，包括大气、水、土壤等方面的内容，大部分操作都在《环境监测实验》课程（下称“环监实验”）中学过。所有选课同学由老师分配成6个组，每组以一个课题为主要内容，负责实验过程设计、具体操作教学、实验数据处理等工作；而在实习基地每个组的工作是轮流进行的。</p>
 <p>由于分组是老师提前分好的，因此有可能会分到自己不熟悉甚至不认识的人，这就需要在前期迅速熟悉起来。这次我不知道是撞了什么运，我们组有Martin和ZUY两条大腿（<span class="font-kai-ti">而且还是和我非常熟，熟到可以互怼而不伤感情的大腿</span>），而且所有人都是我认识的（<span class="font-kai-ti">包括我们级的同学和环监实验的组员</span>），因此沟通方面就比较简单。在制定实验计划的时候，我、Martin和ZUY的人脉圈起到了很大的作用，对于要测的项目、分析方法等方面都得到了老师和师兄师姐的很多指点。当然，分到熟悉的人固然会顺利许多，不过如果是和不熟悉的人分到一组也可以扩展人脉嘛。</p>
-<p>回到课题分配。今年给出的具体的课题如<a class="xrefTable" href="#table-ke-ti"></a> 所示：</p>
-<table class="listTable">
-    <caption class="tableCaption" id="table-ke-ti">2019年任务分配表</caption>
+<p>回到课题分配。今年给出的具体的课题如<a class="xref-table" href="#table-ke-ti"></a> 所示：</p>
+<table class="table">
+    <caption class="caption-table" id="table-ke-ti">2019年任务分配表</caption>
     <thead>
         <tr>
             <th>组别</th>
             <th>实习内容组合</th>
-            <th>实习项目（见<a class="xrefTable" href="#table-lu-xian"></a>）</th>
+            <th>实习项目（见<a class="xref-table" href="#table-lu-xian"></a>）</th>
         </tr>
     </thead>
     <tbody>
@@ -33,11 +35,11 @@ update: 2020-01-03 23:05
         <tr><td>E</td><td>7+8</td><td>湖泊底泥可溶性离子浓度对比</td></tr>
         <tr><td>F</td><td>7+9</td><td>各类型土壤典型重金属浓度对比</td></tr>
         <tr><td>G</td><td>10</td><td>塞罕坝生态考察</td></tr>
-        <tr><td colspan="3" class="at-l">注：G任务是所有同学在第一天共同完成，不作为小组任务。</td></tr>
+        <tr><td colspan="3" class="text-left">注：G任务是所有同学在第一天共同完成，不作为小组任务。</td></tr>
     </tbody>
 </table>
-<table class="listTable">
-    <caption class="tableCaption" id="table-lu-xian">2019年详细实习项目</caption>
+<table class="table">
+    <caption class="caption-table" id="table-lu-xian">2019年详细实习项目</caption>
     <thead>
         <tr><th>序号</th><th>实习项目／路线</th><th>实习内容</th><th>仪器设备</th><th>采样／检测</th><th>分析</th></tr>
     </thead>

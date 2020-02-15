@@ -1,5 +1,7 @@
 ---
+date: 2018-06-25 12:00
 infoBox: complete
+math: true
 tags: 学习资料 化学 知识点整理 三次元
 title: 《定量分析化学》知识点整理
 update: 2020-01-07 14:59
@@ -11,8 +13,8 @@ update: 2020-01-07 14:59
   * 按待测组分含量：常量组分> 1%，微量组分0.01 ~ 1%，痕量组分< 0.01%。
 * 测定结果的准确度：测定值与“真值”接近的程度。定量表征参数：误差。绝对误差$E\_a = \bar x - T$，相对误差$E\_r = \cfrac {E\_a} T \times 100~\%$。
 
-<table class="lineTable">
-    <caption class="tableCaption">按试样大小对样品分类</caption>
+<table class="table table-3lines">
+    <caption class="caption-table">按试样大小对样品分类</caption>
     <thead>
         <tr><th></th><th>固体试样质量（mg）</th><th>液体试样体积（mL）</th></tr>
     </thead>
@@ -362,14 +364,14 @@ update: 2020-01-07 14:59
 * 影响$S$的因素：盐效应：增大溶解度。同离子效应：减小溶解度；加过量沉淀剂是降低溶解度的最方便有效的方法，可挥发性沉淀剂过量50 ~ 100%，非挥发性沉淀剂过量20 ~ 30%。酸效应、络合效应：增大溶解度。
 
 #### 6.2 沉淀重量法
-<table class="listTable">
-    <caption class="tableCaption">沉淀重量法分析过程</caption>
+<table class="table">
+    <caption class="caption-table">沉淀重量法分析过程</caption>
     <tr><th rowspan="2">被测物</th><td>溶解</td><td>加入沉淀剂</td><th rowspan="2">沉淀形</th><td>陈化</td><td>滤洗</td><td>烘（烧）</td><th rowspan="2">称量形</th></tr>
     <tr><td>→</td><td>→</td><td>→</td><td>→</td><td>→</td></tr>
 </table>
 
-<table class="lineTable">
-    <caption class="tableCaption">沉淀的不同类型及其制备条件控制</caption>
+<table class="table table-3lines">
+    <caption class="caption-table">沉淀的不同类型及其制备条件控制</caption>
     <thead>
         <tr><th colspan="3">沉淀类型</th></tr>
         <tr><th rowspan="2">晶形沉淀</th><th colspan="2">无定形沉淀</th></tr>
@@ -480,7 +482,7 @@ update: 2020-01-07 14:59
 * 显色剂：无机显色剂$\ce{SCN-}$，$\ce{(NH4)2MoO4}$。有机显色剂：邻二氮菲、PAR等。
 * 显色剂的选择：灵敏度高，$\varepsilon > 10^4$；选择性好；显色剂在测定波长处无明显吸收，对照性好，$\Delta \lambda\_{\text{max}} > \pu{60 nm}$；反应生成的有色化合物组成恒定，稳定；显色条件易于控制，重现性好。
 * 显色条件的确定：
-  * 显色剂用量：（见<a class="xrefFigure" href="#figure-KIAhut.png"></a>）![显色剂用量](https://s2.ax1x.com/2019/10/31/KIAhut.png)
+  * 显色剂用量：（见<a class="xref-figure" href="#figure-KIAhut.png"></a>）![显色剂用量](https://s2.ax1x.com/2019/10/31/KIAhut.png)
   * 显色反应酸度：邻二氮菲－亚铁反应完全度与pH的关系。
   * 显色温度及显色时间
   * 另外，还有介质条件、有机溶剂、表面活性剂等。

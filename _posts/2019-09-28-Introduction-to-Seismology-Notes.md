@@ -1,5 +1,7 @@
 ---
+date: 2019-09-28 12:00
 headImage: /images/ItS-04-01.svg
+math: true
 tags: 学习资料 通选课 知识点整理 三次元
 title: 《地震概论》2019年秋季学期（周四班）笔记
 update: 2020-01-07 01:04
@@ -40,16 +42,16 @@ update: 2020-01-07 01:04
 
 ![地震波的传播](https://s2.ax1x.com/2019/09/28/u1LYtI.png)
 
-- 地震波的传播：<a class="xrefFigure" href="#figure-u1LYtI.png"></a>。
+- 地震波的传播：<a class="xref-figure" href="#figure-u1LYtI.png"></a>。
   - *说明：地震波在传播到地表时几乎与地表垂直，以此可分析P波和S波的振动方向。*
 
 ![S波的分解](https://s2.ax1x.com/2019/09/28/u1Ltht.png)
 
 ![SH波与SV波](https://s2.ax1x.com/2019/12/25/liXG8g.gif)
 
-- S波的分解：<a class="xrefFigure" href="#figure-u1Ltht.png"></a>。
+- S波的分解：<a class="xref-figure" href="#figure-u1Ltht.png"></a>。
   - *说明：S波可以分解成两个分量，平行于界面的分量为SH波，在入射线和界面法线构成的平面上（入射面）的分量为SV波。*
-  - *SH波与SV波：<a class="xrefFigure" href="#figure-liXG8g.gif"></a>。*
+  - *SH波与SV波：<a class="xref-figure" href="#figure-liXG8g.gif"></a>。*
 - P波和S波的主要差异：
   - P波传播速度比S波快，地震图上先出现P波。
   - P波和S波的质点振动（偏振）方向相互垂直。
@@ -73,7 +75,7 @@ $$t = \int_A^B \sqrt{1 + y'R} \mathrm dx.$$
 
 $$\cfrac {\sin\theta_{\alpha1}} {v_{\alpha1}} = \cfrac {\sin\theta_{\beta1}} {v_{\beta1}} = \cfrac {\sin\theta_{\alpha2}} {v_{\alpha2}} = \cfrac {\sin\theta_{\beta2}} {v_{\beta2}}.$$
 
-- 地球内部体波的传播：<a class="xrefFigure" href="#figure-liOO4U.gif"></a>。
+- 地球内部体波的传播：<a class="xref-figure" href="#figure-liOO4U.gif"></a>。
   - PcPS不可能存在（$$v_P > v_S$$导出$$\theta_P > \theta_S$$），ScSP可能存在。P夹角比S大。*（感谢[树洞Hans](https://pkuhelper.pku.edu.cn/hole/##1061096)提醒）*
   - *说明：P、S分别表示从震源发出、向地球内部传播的纵波和横波；c表示在地核界面上波的反射；K表示通过外核的纵波，地球的外核是液态，所以只有通过外核的纵波，而没有通过外核的横波；I、J分别表示通过内核的纵波、横波；i表示在内核界面的反射；p、s分别表示由震源向上（地面）传播的射线。*
 
@@ -179,7 +181,7 @@ $$\lg E = 11.8 + 1.5M.$$
 - 浅水波：用$$h$$代表海水的深度，$$\lambda$$代表波长，则$$\lambda \gg h$$的这种具有非常长的波长的重力波就叫做潜水波。
 - 浅水波的传播速度只与海水深度有关，有$$v = \sqrt{gh}$$，其中：$$v$$为波的传播速度，$$g$$为重力加速度，$$h$$为海水深度。
 - *海啸的波长约100 miles，传播速度约500 miles/h。*
-- 计算题：如<a class="xrefFigure" href="#figure-ItS-10-01.svg"></a>，计算浅水波从$$A$$点传播到$$D$$点所用的时间。
+- 计算题：如<a class="xref-figure" href="#figure-ItS-10-01.svg"></a>，计算浅水波从$$A$$点传播到$$D$$点所用的时间。
 
 ![第10章计算题图](/images/ItS-10-01.svg)
 
@@ -231,7 +233,7 @@ $$\cfrac {\mathrm dv}{\mathrm dt} = \cfrac {g \tan \theta} {2},$$
 {: #chap-shou-bo}
 
 ##### 题干
-证明：当震中距$$X$$大于一定值$$X_M$$时，首波将最先到达，并求出$$X_M$$。（题图见<a class="xrefFigure" href="#figure-QG2fW4.jpg"></a>）
+证明：当震中距$$X$$大于一定值$$X_M$$时，首波将最先到达，并求出$$X_M$$。（题图见<a class="xref-figure" href="#figure-QG2fW4.jpg"></a>）
 
 ![作业1题图](https://s2.ax1x.com/2019/12/05/QG2fW4.jpg)
 
@@ -289,7 +291,7 @@ $$X_M = 2H \sqrt {\cfrac {v_2 + v_1} {v_2 - v_1}}.$$
 
 $$\cfrac {\sin\theta_{\alpha1}} {v_{\alpha1}} = \cfrac {\sin\theta_{\beta1}} {v_{\beta1}} = \cfrac {\sin\theta_{\alpha2}} {v_{\alpha2}} = \cfrac {\sin\theta_{\beta2}} {v_{\beta2}}.$$
 
-（题图见<a class="xrefFigure" href="#figure-ItS-HW-02.svg"></a>）
+（题图见<a class="xref-figure" href="#figure-ItS-HW-02.svg"></a>）
 
 ![作业2题图](/images/ItS-HW-02.svg)
 
@@ -400,10 +402,10 @@ P波上下振动，先到达；S波左右振动，后到达。
 {: .font-fang-song }
 
 Xzonn
-{: .font-fang-song .at-r }
+{: .font-fang-song .text-right }
 
 2020年1月7日
-{: .font-fang-song .at-r }
+{: .font-fang-song .text-right }
 
 《地震概论》成绩公布后于燕园
-{: .font-fang-song .at-r }
+{: .font-fang-song .text-right }

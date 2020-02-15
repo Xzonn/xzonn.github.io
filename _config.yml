@@ -6,7 +6,7 @@ defaults:
       path: ""
       type: "posts"
     values:
-      layout: "post"
+      layout: "default"
 exclude:
   - _drafts/Debug
   - Debug
@@ -20,4 +20,4 @@ plugins:
   - jekyll-feed
 timezone: Asia/Shanghai
 url: https://xzonn.github.io
-version: v2.0
+version: v3.0

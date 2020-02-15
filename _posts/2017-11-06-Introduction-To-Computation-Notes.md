@@ -1,6 +1,8 @@
 ---
+date: 2017-11-06 12:00
 headImage: http://wx2.sinaimg.cn/large/63368e3fly1fl7hn7sx19j20yi0n2tai.jpg
 infoBox: complete
+math: true
 tags: 学习资料 编程 知识点整理 三次元
 title: 《计算概论》知识点整理
 update: 2020-01-03 23:23
@@ -10,7 +12,7 @@ update: 2020-01-03 23:23
 ![计算机系统组成](http://wx2.sinaimg.cn/large/63368e3fly1fl7hn7sx19j20yi0n2tai.jpg)
 
 ### 2. 计算机发展的几个阶段
-<table class="at-c listTable">
+<table class="text-center table">
 <thead>
 <tr><th>&#160;</th><th>年代</th><th>元件</th><th>软件</th><th>应用</th></tr>
 </thead>
@@ -35,7 +37,7 @@ update: 2020-01-03 23:23
 * 字长：计算机能够直接处理的二进制数据的位数，决定地址总线、数据总线、控制总线的宽度。单位为位（bit，b），如8位、16位、32位、64位等。
 
 ### 5. 存储系统
-<table class="listTable">
+<table class="table">
 <tbody>
 <tr><th style="font-size: 5em;" rowspan="5">↑</th><td>通用寄存器</td></tr>
 <tr><td>高速缓存</td></tr>
@@ -84,7 +86,7 @@ update: 2020-01-03 23:23
 ![局域网的连接](http://wx4.sinaimg.cn/large/63368e3fly1fl7hnmwaq4j208f052mx7.jpg)
 
 ### 3. OSI的七层体系结构
-<table class="listTable">
+<table class="table">
 <tbody>
 <tr><th style="font-size: 7em;" rowspan="7">↑</th><td>应用层 HTTP、FTP</td></tr>
 <tr><td>表示层</td></tr>
@@ -121,7 +123,7 @@ update: 2020-01-03 23:23
 
 ### 2. 十进制数转换成二进制数（小数）
 * 将0.745<sub>10</sub>转换成四位二进制小数，转换过程如下：
-<table class="listTable">
+<table class="table">
 <tbody>
 <tr><td>0.745 × 2 = 1.490</td><td>取出整数1 (最高位)</td></tr>
 <tr><td>0.490 × 2 = 0.980</td><td>取出整数0</td></tr>

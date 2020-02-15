@@ -1,6 +1,8 @@
 ---
+date: 2017-11-07 12:00
 headImage: https://upload.wikimedia.org/wikipedia/commons/3/36/Maxwell-Boltzmann_distribution_1.png
 infoBox: complete formula
+math: true
 tags: 学习资料 化学 知识点整理 三次元
 title: 《普通化学》知识点整理
 update: 2020-01-07 23:38
@@ -490,8 +492,8 @@ update: 2020-01-07 23:38
 - 根据晶体的对称性划分为7大晶系，14种空间点阵式。
 - Bragg方程：$$2d\sin \theta = n\lambda$$。其中，$$d$$为晶面间距，$$\lambda$$为入射X射线波长，$$\theta$$为衍射角，$$n$$为衍射级数。
 
-<table class="lineTable" style="width: 100%;">
-    <caption class="tableCaption">7种晶系参数表</caption>
+<table class="table table-3lines" style="width: 100%;">
+    <caption class="caption-table">7种晶系参数表</caption>
     <thead>
         <tr>
             <th>晶系</th>
@@ -507,41 +509,41 @@ update: 2020-01-07 23:38
             <td>4个三次对称轴</td>
             <td>Cu</td>
         </tr>
-        <tr class="lineTop">
+        <tr class="line-top">
             <th>六方</th>
             <td>$a = b \neq c, \alpha = \beta = 90 ^ \circ, \gamma = 120 ^ \circ$</td>
             <td>1个六次对称轴</td>
             <td>Mg</td>
         </tr>
-        <tr class="lineTop">
+        <tr class="line-top">
             <th>四方</th>
             <td>$a = b \neq c, \alpha = \beta = \gamma = 90 ^ \circ$</td>
             <td>1个四次对称轴</td>
             <td>$\ce{\beta-Sn}$</td>
         </tr>
-        <tr class="lineTop">
+        <tr class="line-top">
             <th rowspan="2">三方</th>
             <td>简单三方<br/>$a = b \neq c, \alpha = \beta = 90 ^ \circ, \gamma = 120 ^ \circ$</td>
             <td rowspan="2">1个三次对称轴</td>
             <td>$\ce{\alpha-SiO2}$</td>
         </tr>
-        <tr class="lineTop">
+        <tr class="line-top">
             <td>菱面体格子<br/>$a = b = c, \alpha = \beta = \gamma \neq 90 ^ \circ$</td>
             <td>$\ce{\alpha-Al2O3}$</td>
         </tr>
-        <tr class="lineTop">
+        <tr class="line-top">
             <th>正交</th>
             <td>$a \neq b \neq c, \alpha = \beta = \gamma = 90 ^ \circ$</td>
             <td>3个两次对称轴 或 1个两次对称轴+2个对称面</td>
             <td>$\ce{HgCl2}$</td>
         </tr>
-        <tr class="lineTop">
+        <tr class="line-top">
             <th>单斜</th>
             <td>$a \neq b \neq c, \alpha = \gamma = 90 ^ \circ$</td>
             <td>1个两次对称轴 或 1个对称面</td>
             <td>$\ce{KClO3}$</td>
         </tr>
-        <tr class="lineTop">
+        <tr class="line-top">
             <th>三斜</th>
             <td>$a \neq b \neq c, \alpha \neq \beta \neq \gamma \neq 90 ^ \circ$</td>
             <td>无</td>
@@ -549,8 +551,8 @@ update: 2020-01-07 23:38
         </tr>
     </tbody>
 </table>
-<table class="lineTable" style="width: 100%;">
-    <caption class="tableCaption" id="table-7-zhong-jing-xi-he-14-zhong-bu-la-wei-jing-ge-biao">7种晶系和14种布拉维晶格对应表<span class="fn">参考资料：维基百科编者. 布拉维晶格 [G/OL]. 维基百科, (2019-04-25) [2019-11-03]. <a href="https://zh.wikipedia.org/w/index.php?title=%E5%B8%83%E6%8B%89%E8%8F%B2%E6%99%B6%E6%A0%BC&oldid=54166188">https://zh.wikipedia.org/w/index.php?title=%E5%B8%83%E6%8B%89%E8%8F%B2%E6%99%B6%E6%A0%BC&oldid=54166188</a>.</span></caption>
+<table class="table table-3lines" style="width: 100%;">
+    <caption class="caption-table" id="table-7-zhong-jing-xi-he-14-zhong-bu-la-wei-jing-ge-biao">7种晶系和14种布拉维晶格对应表<span class="footnote">参考资料：维基百科编者. 布拉维晶格 [G/OL]. 维基百科, (2019-04-25) [2019-11-03]. <a href="https://zh.wikipedia.org/w/index.php?title=%E5%B8%83%E6%8B%89%E8%8F%B2%E6%99%B6%E6%A0%BC&oldid=54166188">https://zh.wikipedia.org/w/index.php?title=%E5%B8%83%E6%8B%89%E8%8F%B2%E6%99%B6%E6%A0%BC&oldid=54166188</a>.</span></caption>
     <thead>
         <tr>
             <th rowspan="2">晶系（7种）</th>
@@ -571,42 +573,42 @@ update: 2020-01-07 23:38
             <td></td>
             <td><img alt="Cubic, face-centered" src="https://upload.wikimedia.org/wikipedia/commons/c/c9/Cubic-face-centered.svg" data-disp="none" style="width: 3rem;"><br/>面心立方</td>
         </tr>
-        <tr class="lineTop">
+        <tr class="line-top">
             <th>六方</th>
             <td><img alt="Hexagonal" src="https://upload.wikimedia.org/wikipedia/commons/f/f6/Hexagonal_lattice.svg" data-disp="none" style="width: 3rem;"><br/>简单六方</td>
             <td></td>
             <td></td>
             <td></td>
         </tr>
-        <tr class="lineTop">
+        <tr class="line-top">
             <th>四方</th>
             <td><img alt="Tetragonal, simple" src="https://upload.wikimedia.org/wikipedia/commons/0/0a/Tetragonal.svg" data-disp="none" style="width: 3rem;"><br/>简单四方</td>
             <td><img alt="Tetragonal, body-centered" src="https://upload.wikimedia.org/wikipedia/commons/5/55/Tetragonal-body-centered.svg" data-disp="none" style="width: 3rem;"><br/>体心四方</td>
             <td></td>
             <td></td>
         </tr>
-        <tr class="lineTop">
+        <tr class="line-top">
             <th>三方</th>
             <td><img alt="Rhombohedral" src="https://upload.wikimedia.org/wikipedia/commons/0/03/Rhombohedral.svg" data-disp="none" style="width: 3rem;"><br/><i>R</i>心六方</td>
             <td></td>
             <td></td>
             <td></td>
         </tr>
-        <tr class="lineTop">
+        <tr class="line-top">
             <th>正交</th>
             <td><img alt="Orthohombic, simple" src="https://upload.wikimedia.org/wikipedia/commons/d/dd/Orthorhombic.svg" data-disp="none" style="width: 3rem;"><br/>简单正交</td>
             <td><img alt="Orthohombic, body-centered" src="https://upload.wikimedia.org/wikipedia/commons/1/15/Orthorhombic-body-centered.svg" data-disp="none" style="width: 3rem;"><br/>体心正交</td>
             <td><img alt="Orthohombic, base-centered" src="https://upload.wikimedia.org/wikipedia/commons/8/86/Orthorhombic-base-centered.svg" data-disp="none" style="width: 3rem;"><br/>底心正交</td>
             <td><img alt="Orthohombic, face-centered" src="https://upload.wikimedia.org/wikipedia/commons/d/d6/Orthorhombic-face-centered.svg" data-disp="none" style="width: 3rem;"><br/>面心正交</td>
         </tr>
-        <tr class="lineTop">
+        <tr class="line-top">
             <th>单斜</th>
             <td><img alt="Monoclinic, simple" src="https://upload.wikimedia.org/wikipedia/commons/f/f4/Monoclinic.svg" data-disp="none" style="width: 3rem;"><br/>简单单斜</td>
             <td></td>
             <td><img alt="Monoclinic, centered" src="https://upload.wikimedia.org/wikipedia/commons/4/4f/Monoclinic-base-centered.svg" data-disp="none" style="width: 3rem;"><br/>底心单斜</td>
             <td></td>
         </tr>
-        <tr class="lineTop">
+        <tr class="line-top">
             <th style="width: 7rem;">三斜</th>
             <td><img alt="Triclinic" src="https://upload.wikimedia.org/wikipedia/commons/1/17/Triclinic.svg" data-disp="none" style="width: 3rem;"><br/>简单三斜</td>
             <td></td>
@@ -696,8 +698,8 @@ update: 2020-01-07 23:38
 - 配合物的磁矩：物质磁性大小用磁矩表示，磁矩来源于未成对电子。公式：$$\mu = \sqrt{n(n+2)} \mu_B$$，其中$$n$$为未成对电子数，$$\mu_B$$为Bohr磁子（即一个电子自旋产生的磁矩）。适用于d区元素，不适用于f区元素。
 
 #### 4. 晶体场理论
-<table class="figureTable at-c" style="width: 100%;">
-<caption class="figureCaption">四面体场和八面体场</caption>
+<table class="table-figure text-center" style="width: 100%;">
+<caption class="caption-figure">四面体场和八面体场</caption>
 <tr>
 <td colspan="4">
 <img alt="八面体场" src="https://upload.wikimedia.org/wikipedia/commons/8/83/Crystal_Field_Splitting_4.png" data-disp="auto"/>
