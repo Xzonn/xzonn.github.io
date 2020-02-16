@@ -42,8 +42,9 @@
             });
             MathJax.Hub.Register.StartupHook('End', function () {
                 try {
-                    $(".xz-info-math").text("MathJax渲染已完成。").removeClass("alert-info").addClass("alert-success alert-dismissible").append($(`<button type="button" class="close" data-dismiss="alert"><span>&times;</span></button>`));
-                    setTimeout(x => $(".xz-info-math").fadeOut().then(y => $(".xz-info-math").remove()), 5000);
+                    $(".xz-info-math > p").text("MathJax渲染已完成。")
+                    $(".xz-info-math").removeClass("alert-info").addClass("alert-success alert-dismissible");
+                    setTimeout(x => $(".xz-info-math button").click(), 5000);
                     Han(document.body).render();
                     window.tocRender();
                 } catch (e) {}
@@ -55,6 +56,18 @@
         <script src="https://cdn.jsdelivr.net/npm/jquery.qrcode@1.0.3/jquery.qrcode.min.js" integrity="sha256-9MzwK2kJKBmsJFdccXoIDDtsbWFh8bjYK/C7UjB1Ay0=" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/js-cookie@2.2.1/src/js.cookie.min.js"></script>
         <!-- Self Defined -->
+        <script>
+            window.pageInfo = window.pageInfo || {
+                "title": {{ page.title | jsonify }},
+                "link": "{{ page.url }}",
+                "date": "{{ page.date | date : "%Y-%m-%d %H:%M" }}",
+                "update": "{% if page.update %}{{ page.update | date : "%Y-%m-%d %H:%M" }}{% else %}{{ page.date | date : "%Y-%m-%d %H:%M" }}{% endif %}",
+                "headImage": {{ page.headImage | jsonify }},
+                "info": {% if page.info %}{{ page.info | jsonify }}{% else %}{{ page.content | strip_html | remove: "$" | truncate: 100, "……" | jsonify }}{% endif %},
+                "wechatLink": {{ page.wechatLink | jsonify }},
+                "tags": {{ page.tags | jsonify }}
+            }
+        </script>
         <link rel="stylesheet" href="/css/main.css" />
         <script src="/js/main.js"></script>{% assign css = page.css | split: " " %}{% for i in css %}
         <link rel="stylesheet" href="/css/{{ i }}.css"/>{% endfor %}{% assign js = page.js | split: " " %}{% for i in js %}
@@ -78,6 +91,7 @@
                     <ul class="nav navbar-nav">
                         <li{% if page.url == "/posts/Study.html" %} class="active"{% endif %}><a href="/posts/Study.html"><span class="glyphicon glyphicon-book"></span> 资料分享</a></li>
                         <li{% if page.url == "/pages/" %} class="active"{% endif %}><a href="/pages/"><span class="glyphicon glyphicon-floppy-disk"></span> 文章列表</a></li>
+                        <li><a class="xz-navtop" href="javascript:print();"><span class="glyphicon glyphicon-print"></span> 打印本页</a></li>
                         <li><a class="xz-navtop" href="#"><span class="glyphicon glyphicon-chevron-up"></span> 页面顶部</a></li>
                     </ul>
                 </nav>
@@ -92,7 +106,7 @@
                     <ul class="xz-meta-time">{% if page.date %}
                         <li class="xz-meta-create">{{ page.date | date: "%Y-%m-%d %H:%M" }}</li>{% endif %}{% if page.update %}
                         <li class="xz-meta-update">{{ page.update | date: "%Y-%m-%d %H:%M" }}</li>{% endif %}
-                    </ul>{% endif %}{% if page.tags.size > 1 %}
+                    </ul>{% endif %}{% if page.tags.size > 0 %}
                     <ul class="xz-meta-tags">{% for tag in page.tags %}
                         <li><a href="/pages/#{{ tag }}">{{ tag }}</a></li>{% endfor %}
                     </ul>{% endif %}
@@ -105,12 +119,21 @@
                     <ul class="xz-sidenav-list nav nav-stacked" role="navigation"></ul>
                 </div>
                 <div class="xz-content-main col-md-9">
-                    <div class="xz-infobox">{% if page.math%}
-                        <div class="xz-info-math alert alert-info" role="alert">本页面使用了MathJax渲染数学公式，在渲染完成前页面样式可能会出现混乱，请耐心等候。</div>{% endif %}
+                    <div class="xz-infobox-top hidden-print">{% if page.math %}
+                        <div class="xz-info-math alert alert-info fade in" role="alert">
+                            <button type="button" class="close" data-dismiss="alert">&times;</button>
+                            <p>本页面使用了MathJax渲染数学公式，在渲染完成前页面样式可能会出现混乱，请耐心等候。</p>
+                        </div>{% endif %}
+                        <div class="xz-info-print alert alert-info hidden" role="alert">
+                            <button type="button" class="close" data-dismiss="alert">&times;</button>
+                            <p>如果需要保存本页，请 <strong><a href="javascript:window.print()" class="alert-link">打印本页</a></strong> 并选择“另存为 PDF”。</p>
+                            <p>如果您发现了本站的错误，或是对本站有任何意见建议，请在 <strong><a href="#xz-content-comment" class="alert-link">留言区</a></strong> 留言。</p>
+                        </div>
                     </div>
                     <article>
 {{ content }}
                     </article>{% unless jekyll.environment == "development" or page.noComment %}
+                    <div class="xz-infobox-bottom hidden-print"></div>
                     <div class="xz-content-comment">
                         <div id="lv-container" data-id="city" data-uid="MTAyMC80MTk5MS8xODUzOA=="></div>
                         <script src="https://cdn-city.livere.com/js/embed.dist.js"></script>
@@ -126,8 +149,8 @@
                     <li>由<a href="https://pages.github.com/">GitHub Pages</a>生成</li>
                     <li><a href="/posts/About.html">关于本站</a></li>
                     <li><a href="/feed.xml">RSS</a></li>
-                    <li><a href="https://github.com/Xzonn/Xzonn.github.io/">源代码</a></li>
-                    <li><script src="https://s96.cnzz.com/z_stat.php?id=1275861247&web_id=1275861247"></script></li>
+                    <li><a href="https://github.com/Xzonn/Xzonn.github.io/">源代码</a></li>{% unless jekyll.environment == "development" %}
+                    <li><script src="https://s96.cnzz.com/z_stat.php?id=1275861247&web_id=1275861247"></script></li>{% endunless %}
                 </ul>
             </div>
         </footer>

@@ -1,8 +1,29 @@
+/* 根定义 */
 body {
     padding-top: 50px;
-    counter-reset: fignum;
+    counter-reset: tablenum fignum;
 }
 
+/* 表格 */
+caption {
+    clear: both;
+    text-align: center;
+}
+
+caption.caption-figure {
+    caption-side: bottom;
+}
+
+.caption-table {
+    counter-increment: tablenum;
+}
+
+.caption-table::before {
+    margin-right: 0.75em;
+    content: '表 ' counter(tablenum);
+}
+
+/* 图片 */
 figcaption, .caption-figure {
     counter-increment: fignum;
 }
@@ -34,6 +55,10 @@ figcaption::before, .caption-figure::before {
 
 .footnote-icon:hover {
     text-decoration: none;
+}
+
+.list-endnote a {
+    word-break: break-all;
 }
 
 .xz-navimage {
@@ -195,5 +220,15 @@ figcaption::before, .caption-figure::before {
 @media screen and (min-width: 992px) {
     .xz-content-main {
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    }
+}
+
+@media print {
+    body {
+        padding-top: 0;
+    }
+
+    .xz-heading a[href]:after, .xz-footer a[href]:after {
+        content: normal;
     }
 }

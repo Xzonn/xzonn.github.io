@@ -1,7 +1,7 @@
 ---
 css: tags
 info: 本页列出了本站全部文章，以创建时间排序。
-js: tags
+js: tags tablesorter
 layout: default
 permalink: /pages/
 title: 文章列表
@@ -10,7 +10,7 @@ title: 文章列表
     <li id="tag-" data-sort="{{ site.posts.size }}"><a href="#">全部<span class="badge">{{ site.posts.size }}</span></a></li>{% for tag in site.tags %}
     <li id="tag-{{ tag[0] }}" data-sort="{{ tag[1].size }}"><a href="#{{ tag[0] }}">{{ tag[0] }}<span class="badge">{{ tag[1].size }}</span></a></li>{% endfor %}
 </ul>
-<table class="xz-postlist table fade">
+<table class="xz-postlist table tablesorter fade">
     <thead>
         <tr><th>标题</th><th>标签</th><th>创建时间</th><th>修改时间</th></tr>
     </thead>

@@ -72,7 +72,18 @@ $(function () {
         });
     });
 
-    /* img标签相关 */
+    /* 表格 */
+    $(".xz-content-main article > table").each(function () {
+        if (this.classList.contains("no-table")) {
+            return;
+        }
+        $(this).addClass("table");
+        if (!$(this).parentsUntil(".xz-content-main article").find("div.table-responsive").length) {
+            $(this).wrap($("<div/>").addClass("table-responsive"));
+        }
+    });
+
+    /* 图片 */
     var imageDisplay = ["auto", "none", "block", "left", "right", "center"],
         imageSize = 360,
         imageSizeUnit = /(pt|px|em|rem|cm|mm|%)$/;
@@ -210,7 +221,7 @@ $(function () {
     });
 
     /* 二维码 */
-    let selfLink = location.origin + location.pathname;
+    let selfLink = window.pageInfo.wechatLink || location.origin + location.pathname;
     $(".xz-qrcode").empty().attr({
         "href": selfLink
     }).qrcode({
@@ -227,6 +238,21 @@ $(function () {
         $("html").animate({
             scrollTop: 0
         }, 500);
+    });
+
+    /* 信息框 */
+    if (Cookies.get("noPrintInfo")) {
+        $(".xz-info-print").remove();
+        Cookies.set("noPrintInfo", "false", {
+            "expires": 7
+        });
+    } else {
+        $(".xz-info-print").addClass("fade in").removeClass("hidden");
+    }
+    $(".xz-info-print").on("closed.bs.alert", function () {
+        Cookies.set("noPrintInfo", "false", {
+            "expires": 7
+        });
     });
 
     /* Resize */
