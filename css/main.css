@@ -111,7 +111,7 @@ figcaption::before, .caption-figure::before {
     padding-left: 1em;
     max-height: 0;
     font-size: 0.9em;
-    transition: all 1s ease-out;
+    transition: all 0.5s ease-out;
 }
 
 .xz-sidenav-list li > a {
@@ -123,7 +123,7 @@ figcaption::before, .caption-figure::before {
 }
 
 .xz-sidenav-list li.active > ul {
-    max-height: 300vh;
+    max-height: 100vh;
 }
 
 .xz-sidenav-list li.active > a {
@@ -140,21 +140,27 @@ figcaption::before, .caption-figure::before {
     position: static !important;
 }
 
-.xz-content article {
+.xz-content-main {
     padding: 30px;
     background-color: #ffffff;
 }
 
-.xz-content article > * {
+.xz-content-main article > * {
     max-width: 100%;
 }
 
-.xz-content article > *:last-child {
+.xz-content-main article > *:last-child {
     margin-bottom: 0 !important;
 }
 
-.xz-content article > *:first-child {
+.xz-content-main article > *:first-child {
     margin-top: 0 !important;
+}
+
+.xz-fake-bookmark {
+    position: absolute;
+    margin-top: -80px;
+    padding-top: 80px;
 }
 
 .xz-footer {
@@ -187,7 +193,7 @@ figcaption::before, .caption-figure::before {
 }
 
 @media screen and (min-width: 992px) {
-    .xz-content article {
+    .xz-content-main {
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     }
 }

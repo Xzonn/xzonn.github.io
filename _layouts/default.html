@@ -42,6 +42,8 @@
             });
             MathJax.Hub.Register.StartupHook('End', function () {
                 try {
+                    $(".xz-info-math").text("MathJax渲染已完成。").removeClass("alert-info").addClass("alert-success alert-dismissible").append($(`<button type="button" class="close" data-dismiss="alert"><span>&times;</span></button>`));
+                    setTimeout(x => $(".xz-info-math").fadeOut().then(y => $(".xz-info-math").remove()), 5000);
                     Han(document.body).render();
                     window.tocRender();
                 } catch (e) {}
@@ -102,14 +104,17 @@
                 <div class="xz-sidenav col-md-3 hidden-print hidden-xs hidden-sm" role="complementary">
                     <ul class="xz-sidenav-list nav nav-stacked" role="navigation"></ul>
                 </div>
-                <div class="col-md-9">
-                    <article class="xz-content-main">
+                <div class="xz-content-main col-md-9">
+                    <div class="xz-infobox">{% if page.math%}
+                        <div class="xz-info-math alert alert-info" role="alert">本页面使用了MathJax渲染数学公式，在渲染完成前页面样式可能会出现混乱，请耐心等候。</div>{% endif %}
+                    </div>
+                    <article>
 {{ content }}
-                    </article>{% if jekyll.environment == "development" %}{% unless page.noComment %}
+                    </article>{% unless jekyll.environment == "development" or page.noComment %}
                     <div class="xz-content-comment">
                         <div id="lv-container" data-id="city" data-uid="MTAyMC80MTk5MS8xODUzOA=="></div>
                         <script src="https://cdn-city.livere.com/js/embed.dist.js"></script>
-                    </div>{% endunless %}{% endif %}
+                    </div>{% endunless %}
                 </div>
             </div>
         </div>
@@ -122,6 +127,7 @@
                     <li><a href="/posts/About.html">关于本站</a></li>
                     <li><a href="/feed.xml">RSS</a></li>
                     <li><a href="https://github.com/Xzonn/Xzonn.github.io/">源代码</a></li>
+                    <li><script src="https://s96.cnzz.com/z_stat.php?id=1275861247&web_id=1275861247"></script></li>
                 </ul>
             </div>
         </footer>

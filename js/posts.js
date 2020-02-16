@@ -71,18 +71,18 @@ window.changePage = function (page) {
             }
         });
         paginationList.appendTo($(".page-pagination-list").empty());
+        Han($(".xz-content")[0]).render();
+        window.tocRender();
         if (page) {
             history.pushState({
                 "url": location.href
             }, "page" + pageNumber, pageNumber == 1 ? "/" : "?page=" + pageNumber);
             window.scrollTo({
-                "top": $(".page-block-heading").offset().top - 50, 
+                "top": $(".page-block-heading").offset().top - 80, 
                 "left": $(".page-block-heading").offset().left, 
-                "behavior": "smooth" 
+                "behavior": "smooth"
             });
         }
-        Han($(".xz-content")[0]).render();
-        window.tocRender();
     });
 };
 

@@ -17,6 +17,9 @@ $(function () {
             }
             if (!this.id) {
                 this.id = "heading-" + (++headingIds);
+            } else if (this.id.slice(0, 5) == "fake-") {
+                $(this).find("span.xz-fake-bookmark").remove();
+                this.id = this.id.slice(5);
             }
             var thisRank = +this.tagName[1];
             while (thisRank > lastRank) {
@@ -37,6 +40,10 @@ $(function () {
                 href: "#" + this.id
             }).html(this.innerHTML.replace(/<a [^<>]+>(.*?)<\/a>/g, "$1"))));
             lastRank = +this.tagName[1];
+            $("<span/>").addClass("xz-fake-bookmark").attr({
+                "id": this.id
+            }).appendTo($(this));
+            this.id = "fake-" + this.id;
         });
         while (toc.parent()[0]) {
             toc = toc.parent();
@@ -51,8 +58,7 @@ $(function () {
         $("body").scrollspy("refresh");
     });
     $("body").scrollspy({
-        "target": ".xz-sidenav",
-        "offset": 50
+        "target": ".xz-sidenav"
     });
     window.tocRender();
 
@@ -241,7 +247,7 @@ $(function () {
         }
         $(".xz-sidenav-list").affix({
             "offset": {
-                "top": $(".xz-heading").outerHeight() + parseInt($(".xz-heading").css("margin-bottom")),
+                "top": $(".xz-content-main").offset().top - 50,
                 "bottom": $(".xz-footer").outerHeight()
             }
         });

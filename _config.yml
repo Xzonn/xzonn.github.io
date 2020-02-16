@@ -8,6 +8,7 @@ defaults:
     values:
       layout: "default"
 exclude:
+  - .git
   - _drafts/Debug
   - Debug
   - LICENSE
