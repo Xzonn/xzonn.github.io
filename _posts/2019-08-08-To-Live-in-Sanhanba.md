@@ -1,10 +1,10 @@
 ---
 date: 2019-08-08 22:23
 infoBox: complete
+last_modified_at: 2020-01-03 23:05
 math: true
 tags: 杂记 三次元
 title: 塞罕坝存活指南
-update: 2020-01-03 23:05
 ---
 <blockquote>
     <p>我来这里之前就想问了，这种东西为什么之前没有人做？？？</p>

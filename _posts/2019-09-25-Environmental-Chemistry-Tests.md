@@ -2,10 +2,10 @@
 class: exercise
 date: 2019-09-25 12:00
 infoBox: complete
+last_modified_at: 2020-01-03 23:02
 math: true
 tags: 学习资料 环院专业课 试题整理 三次元
 title: 《环境化学》小测验（2019秋）
-update: 2020-01-03 23:02
 ---
 <style>
     h2 {

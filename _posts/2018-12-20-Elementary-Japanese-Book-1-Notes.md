@@ -1,9 +1,9 @@
 ---
 date: 2018-12-20 12:00
 infoBox: complete
+last_modified_at: 2020-01-03 23:02
 tags: 学习资料 日语 知识点整理 三次元
 title: 《初级日语 第一册》语法整理
-update: 2020-01-03 23:02
 ---
 因技术限制，本资料仅提供 pdf 版本。
 

@@ -4,10 +4,10 @@ date: 2019-11-20 12:00
 headImage: https://mmbiz.qpic.cn/mmbiz_jpg/Qh7FH95PRnuloHxksOxTetZaQtOicZ5boXOu9szzEziaUHWtyO0PeHg3PB5xv1oWUlVfib6ITYKhqpkia3CuEpma9w/0
 info: 用截图插入公式，或许不是优雅的选择。
 js: bilibili
+last_modified_at: 2020-01-03 23:02
 math: true
 tags: 技术指南 三次元
 title: 如何在微信推送中优雅地插入公式
-update: 2020-01-03 23:02
 wechatLink: https://mp.weixin.qq.com/s/mYzdirgQjLwqXrfpri8lgw
 ---
 

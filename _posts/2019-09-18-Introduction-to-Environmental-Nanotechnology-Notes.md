@@ -3,10 +3,10 @@ date: 2019-09-18 12:00
 headImage: https://s2.ax1x.com/2019/11/27/QCnopF.png
 info: 本资料是2019年秋季学期《环境纳米技术导论》的资料整理，主讲老师为刘文。
 infoBox: incomplete
+last_modified_at: 2020-01-05 22:48
 math: true
 tags: 学习资料 环院专业课 知识点整理 三次元
 title: 《环境纳米技术导论》知识点整理
-update: 2020-01-05 22:48
 ---
 <style>
     .importance-1, .importance-2, .importance-3 {

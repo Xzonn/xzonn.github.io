@@ -1,10 +1,10 @@
 ---
 date: 2019-11-02 12:00
 headImage: https://s2.ax1x.com/2019/11/02/KLPt56.gif
+last_modified_at: 2020-01-03 23:02
 math: true
 tags: 学习资料 编程 作业 三次元
 title: 《计算概论（B）》（马思伟）作业参考代码（2017）
-update: 2020-01-03 23:02
 ---
 <style>
     h4, h5 {

@@ -4,9 +4,9 @@ date: 2019-01-18 21:03
 headImage: https://i.imgur.com/pGvnq7F.png
 infoBox: pokemon pokemonGlitch
 js: bilibili
+last_modified_at: 2020-01-03 23:02
 tags: 精灵宝可梦 二次元
 title: 《精灵宝可梦》四天王房间冲浪漏洞
-update: 2020-01-03 23:02
 ---
 ![漏洞触发后的效果\|right\|256px](https://i.imgur.com/pGvnq7F.png)
 

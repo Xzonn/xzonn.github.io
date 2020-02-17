@@ -2,10 +2,10 @@
 date: 2019-01-06 22:37
 info: 《线性代数》一小时速成指南。
 infoBox: complete formula
+last_modified_at: 2020-01-03 23:02
 math: true
 tags: 学习资料 数学 知识点整理 三次元
 title: 《线性代数》一小时速成
-update: 2020-01-03 23:02
 ---
 ## 1 线性方程组的解
 * $n$个方程$n$元线性方程组：

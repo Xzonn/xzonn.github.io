@@ -2,10 +2,10 @@
 class: exercise
 date: 2019-01-13 12:00
 headImage: https://upload.wikimedia.org/wikipedia/commons/c/c6/Citric_acid_cycle.svg
+last_modified_at: 2020-01-03 23:17
 math: true
 tags: 学习资料 环院专业课 作业 三次元
 title: 《环境科学》作业
-update: 2020-01-03 23:17
 ---
 ## 物化部分
 #### 请写出计算地球大气温室效应所需要的物理概念。取太阳常数$$S_0 = \pu{1367 W*m-2}$$，地表反照率$$A = 0.3$$，计算地气系统辐射平衡时的地球有效温度。

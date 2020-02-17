@@ -2,10 +2,10 @@
 date: 2017-11-06 12:00
 headImage: http://wx2.sinaimg.cn/large/63368e3fly1fl7hn7sx19j20yi0n2tai.jpg
 infoBox: complete
+last_modified_at: 2020-01-03 23:23
 math: true
 tags: 学习资料 编程 知识点整理 三次元
 title: 《计算概论》知识点整理
-update: 2020-01-03 23:23
 ---
 ## 一、硬件和软件
 ### 1. 计算机系统组成

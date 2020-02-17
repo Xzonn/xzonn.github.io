@@ -2,10 +2,10 @@
 date: 2019-01-10 12:00
 headImage: https://s2.ax1x.com/2019/10/29/KfmPs0.png
 infoBox: complete formula
+last_modified_at: 2020-02-14 13:27
 math: true
 tags: 学习资料 化学 知识点整理 三次元
 title: 《有机化学》一小时速成
-update: 2020-02-14 13:27
 ---
 <p class="hidden-print">《有机化学》知识点整理：<a href="/posts/Organic-Chemistry-Notes-A.html">（上）</a> | <a href="/posts/Organic-Chemistry-Notes-B.html">（下）</a>。</p>
 

@@ -2,9 +2,9 @@
 date: 2020-01-21 18:24
 headImage: https://mmbiz.qpic.cn/mmbiz_jpg/Qh7FH95PRns3Qicq9gpFHguTT9qAibiaKuUxW81bnnkkEbeUBxvTBvmx0tYuib9fDXaYyiczGB765dAR8y9DGHgsBDQ/0
 info: Xzonn的技能小讲座第4讲。
+last_modified_at: 2020-02-09 15:25
 tags: 技术指南 三次元
 title: 如何下载一篇国标？
-update: 2020-02-09 15:25
 wechatLink: https://mp.weixin.qq.com/s/iIIwUZupCn3M_mCYNzJSbg
 ---
 ## 1

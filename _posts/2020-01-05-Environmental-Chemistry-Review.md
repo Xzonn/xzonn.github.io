@@ -2,10 +2,10 @@
 date: 2020-01-05 23:00
 info: 本资料参考了2008年以来的7份往年题回忆，对常考点进行了总结，并对往年题未涉及的其他内容进行了补充。
 infoBox: incomplete
+last_modified_at: 2020-01-07 22:00
 math: true
 tags: 学习资料 环院专业课 三次元 知识点整理
 title: 《环境化学》期末复习
-update: 2020-01-07 22:00
 ---
 <style>
     em {

@@ -1,10 +1,10 @@
 ---
 date: 2018-06-25 12:00
 infoBox: complete
+last_modified_at: 2020-01-07 14:59
 math: true
 tags: 学习资料 化学 知识点整理 三次元
 title: 《定量分析化学》知识点整理
-update: 2020-01-07 14:59
 ---
 ### 第1章 绪论
 #### 1.1 定量分析过程

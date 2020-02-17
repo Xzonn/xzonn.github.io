@@ -1,10 +1,10 @@
 ---
 date: 2019-12-27 23:45
 infoBox: incomplete
+last_modified_at: 2020-01-04 00:38
 math: true
 tags: 学习资料 环院专业课 知识点整理 三次元
 title: 《环境微生物学》期末题库
-update: 2020-01-04 00:38
 ---
 <style>
     h2 {

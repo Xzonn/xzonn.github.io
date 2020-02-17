@@ -2,9 +2,9 @@
 date: 2020-02-02 11:33
 headImage: https://mmbiz.qpic.cn/mmbiz_jpg/Qh7FH95PRnuTaCZzkk8vk5TGhAhzR9nUy1iaPNXmBRjjPKuApwQBCcMSibnOEQJpCib1LmEc3N1nLficbnNdBqALlQ/0
 info: Xzonn的技能小讲座第5讲。
+last_modified_at: 2020-02-15 14:24
 tags: 技术指南 三次元
 title: 如何获取电子教材？
-update: 2020-02-15 14:24
 wechatLink: https://mp.weixin.qq.com/s/QMMHTNPba5_N4OyBoE0d-A
 ---
 ## 1

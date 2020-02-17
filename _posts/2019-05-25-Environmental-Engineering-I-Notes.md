@@ -2,10 +2,10 @@
 date: 2019-05-25 14:02
 headImage: https://s2.ax1x.com/2019/10/05/uso6P0.png
 infoBox: incomplete formula
+last_modified_at: 2020-01-07 14:59
 math: true
 tags: 学习资料 环院专业课 知识点整理 三次元
 title: 《环境工程学一》知识点整理
-update: 2020-01-07 14:59
 ---
 ## 第二章 燃烧与大气污染
 ### 2.1 燃料的性质

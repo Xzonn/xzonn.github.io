@@ -1,10 +1,10 @@
 ---
 date: 2018-06-15 12:00
 infoBox: complete
+last_modified_at: 2020-01-03 23:02
 math: true
 tags: 学习资料 编程 知识点整理 三次元
 title: 《数据结构与算法》知识点整理
-update: 2020-01-03 23:02
 ---
 ### 1 概述
 #### 1.1 数据结构

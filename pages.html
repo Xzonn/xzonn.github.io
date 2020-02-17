@@ -21,7 +21,7 @@ title: 文章列表
                 <span class="post-tag-simp label label-primary"><a href="/tags/#{{ tag }}">{{ tag }}</a></span>{% endfor %}
             </td>
             <td>{{ post.date | date : "%Y-%m-%d %H:%M" }}</td>
-            <td>{{ post.update | date : "%Y-%m-%d %H:%M" }}</td>
+            <td>{{ post.last_modified_at| date : "%Y-%m-%d %H:%M" }}</td>
         </tr>{% endfor %}
     </tbody>
 </table>

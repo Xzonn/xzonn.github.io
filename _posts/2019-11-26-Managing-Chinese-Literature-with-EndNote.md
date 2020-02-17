@@ -4,9 +4,9 @@ date: 2019-11-26 12:00
 headImage: https://mmbiz.qpic.cn/mmbiz_jpg/Qh7FH95PRnuXsKbo6P2vzJ5gyibs6g4lF7VEU4vMicFmaTeul8xt9NyUG5AibhKCscKV5lK4OfJkTOaBhK9VWyQgQ/0
 info: EndNote 其实也是可以管理中文文献的。
 js: bilibili
+last_modified_at: 2020-02-09 15:25
 tags: 技术指南 三次元
 title: 用 EndNote 管理中文文献
-update: 2020-02-09 15:25
 wechatLink: https://mp.weixin.qq.com/s/gTwaB7uqqNfTbg0UgsL4zw
 ---
 ## 0. 前言

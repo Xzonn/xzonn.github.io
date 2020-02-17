@@ -1,10 +1,10 @@
 ---
 date: 2018-04-15 12:00
 infoBox: incomplete
+last_modified_at: 2020-01-03 23:02
 math: true
 tags: 学习资料 数学 试题整理 三次元
 title: 《高等数学（下）》试题整理
-update: 2020-01-03 23:02
 ---
 ## 2014年春季学期
 ### 期中试题

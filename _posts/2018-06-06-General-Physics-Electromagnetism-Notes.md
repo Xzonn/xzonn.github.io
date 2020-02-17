@@ -1,10 +1,10 @@
 ---
 date: 2018-06-06 12:00
 infoBox: complete formula
+last_modified_at: 2020-01-03 23:02
 math: true
 tags: 学习资料 物理 知识点整理 三次元
 title: 《普通物理·电磁学》知识点整理
-update: 2020-01-03 23:02
 ---
 ### 第1章 静电场
 #### 1.1 静电的基本现象和基本规律

@@ -3,10 +3,10 @@ date: 2020-01-04 12:00
 headImage: https://s2.ax1x.com/2020/01/05/l0XZGD.png
 info: 本资料原本打算整理出所有可能的重点，但是经过期末考试之后，本人发现了内容的盲区，因此请不要以此资料为复习重点。期待2020年选课的朋友补充添加内容。
 infoBox: incomplete
+last_modified_at: 2020-01-05 22:46
 math: true
 tags: 学习资料 环院专业课 知识点整理 三次元
 title: 《环境纳米技术导论》一小时速成
-update: 2020-01-05 22:46
 ---
 <style>
     figure {
