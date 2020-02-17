@@ -1,8 +1,8 @@
 ---
 date: 2018-10-12 12:00
 infoBox: pokemon
-last_modified_at: 2020-01-03 23:02
-tags: 精灵宝可梦 二次元
+last_modified_at: 2020-02-17 22:20
+tags: 精灵宝可梦 二次元 作品发布
 title: NDS《精灵宝可梦 白金》汉化修正
 ---
 ## 1 说明

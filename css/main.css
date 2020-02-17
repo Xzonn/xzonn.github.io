@@ -61,6 +61,11 @@ figcaption::before, .caption-figure::before {
     word-break: break-all;
 }
 
+/* 自定义版式 */
+.xz-header {
+    user-select: none;
+}
+
 .xz-navimage {
     padding-top: 9px;
     padding-bottom: 9px;
@@ -80,14 +85,17 @@ figcaption::before, .caption-figure::before {
 }
 
 .xz-meta-create::before {
+    display: inline-block;
     content: "\521b\5efa\65f6\95f4\ff1a";
 }
 
 .xz-meta-update::before {
+    display: inline-block;
     content: "\66f4\65b0\65f6\95f4\ff1a";
 }
 
 .xz-meta-tags::before {
+    display: inline-block;
     content: "\6807\7b7e\ff1a";
 }
 
