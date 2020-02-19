@@ -3,7 +3,7 @@ $(function (){
         boxBlock.empty();
         var fullTitle = (title || "av" + aid) + " - " + (subTitle || "p" + page),
             titleBlock = $("<a/>").addClass("bilibiliTitle").attr({
-                "href": "https://www.bilibili.com/video/av" + aid + "/index_" + page + ".html",
+                "href": "https://www.bilibili.com/video/av" + aid + "?p=" + page,
                 "title": fullTitle
             }).text(fullTitle).appendTo(boxBlock),
             iframeBlock = $("<iframe/>").addClass("bilibiliVideo").attr({

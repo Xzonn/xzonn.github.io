@@ -1,3 +1,7 @@
+---
+---
+{% include css/pagination.css%}
+
 .post-block {
     position: relative;
     padding: 1.5rem 0;
@@ -53,15 +57,6 @@
 
 .post-read::after {
     content: '\9605\8bfb\5168\6587';
-}
-
-.page-pagination {
-    margin: 30px auto;
-    text-align: center;
-}
-
-.page-pagination-list > ul {
-    margin: 0 auto;
 }
 
 .page-number {

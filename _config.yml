@@ -21,4 +21,5 @@ plugins:
   - jekyll-feed
 timezone: Asia/Shanghai
 url: https://xzonn.github.io
+server: https://xzonn.top
 version: v3.0

@@ -197,7 +197,6 @@ figcaption::before, .caption-figure::before {
 }
 
 .xz-footer {
-    margin-top: 60px;
     padding: 30px;
     border-top: 1px solid #888;
     background-color: #ffffff;
@@ -228,6 +227,10 @@ figcaption::before, .caption-figure::before {
 @media screen and (min-width: 992px) {
     .xz-content-main {
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    }
+
+    .xz-footer {
+        margin-top: 60px;
     }
 }
 

@@ -1,20 +1,12 @@
-window.getURLParameters = function () {
-    let search = location.search.slice(1),
-        array = search.split("&").map(x => x.split("=").map(y => decodeURIComponent(y))),
-        data = {},
-        i;
-    if (search) {
-        for (i = 0; i < array.length; i++) {
-            data[array[i][0]] = array[i][1];
-        }
-    }
-    window.URLParameters = data;
-    return data;
-}
+---
+---
+{% include js/getURLParameters.js %}
+
+{% include js/pagination.js %}
 
 window.changePage = function (page) {
     let pageCount = (Cookies.get("page-count") || 10),
-        pageNumber = +(page || (window.URLParameters || window.getURLParameters()).page || 1),
+        pageNumber = +(page || getURLParameters().page || 1),
         isWeChat = /MicroMessenger/.test(navigator.userAgent),
         i;
     $.get("/pages.json?d=" + new Date().getDate()).done(function (data) {
@@ -49,28 +41,15 @@ window.changePage = function (page) {
         $(".page-list-title").text("页面列表 - 第" + pageNumber + "页");
         $(".post-total").text(data.length);
         $(".page-total").text(maxPageNumber);
-        $(".page-number").val(pageNumber);
-        let paginationList = $("<ul/>").addClass("pagination"),
-            addPage = function (page, text, addClass) {
-                $("<a/>").text(text || page).attr("href", page == 1 ? "/" : "/?page=" + page).data("page", addClass ? NaN : page).appendTo($("<li/>").addClass(addClass).appendTo(paginationList));
-            };
-        addPage(pageNumber - 1, "«", pageNumber == 1 ? "disabled" : "");
-        (pageNumber > 3) && addPage(1);
-        (pageNumber > 4) && addPage(1, "…", "disabled");
-        for (let i = Math.max(1, pageNumber - 2); i <= Math.min(maxPageNumber, pageNumber + 2); i++) {
-            addPage(i, i, pageNumber == i ? "active" : "");
-        }
-        (pageNumber < maxPageNumber - 3) && addPage(1, "…", "disabled");
-        (pageNumber < maxPageNumber - 2) && addPage(maxPageNumber);
-        addPage(pageNumber + 1, "»", pageNumber == maxPageNumber ? "disabled" : "");
-        paginationList.find("a").bind("click", function (e) {
+        $(".xz-pagination-input").val(pageNumber);
+        let paginationList = renderPagination(pageNumber, maxPageNumber, function (e) {
             e.preventDefault();
             let pageNumber = +$(this).data("page");
             if (!isNaN(pageNumber)) {
                 window.changePage(pageNumber);
             }
         });
-        paginationList.appendTo($(".page-pagination-list").empty());
+        paginationList.appendTo($(".xz-pagination-list").empty());
         Han($(".xz-content")[0]).render();
         window.tocRender();
         if (page) {
@@ -87,9 +66,9 @@ window.changePage = function (page) {
 };
 
 $(function () {
-    $(".page-enter").bind("submit", function (e) {
+    $(".xz-pagination-form").on("submit", function (e) {
         e.preventDefault();
-        let pageNumber = +$(".page-number").val();
+        let pageNumber = +$(".xz-pagination-input").val();
         if (!isNaN(pageNumber)) {
             window.changePage(pageNumber);
         }
