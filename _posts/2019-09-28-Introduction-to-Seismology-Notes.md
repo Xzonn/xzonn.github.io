@@ -40,14 +40,14 @@ title: 《地震概论》2019年秋季学期（周四班）笔记
   - 横波：S波，质点振动方向与振动（能量）传播方向垂直。传播速度为$$v_S = \sqrt{\mu / \rho}$$。
   - 纵波速度比横波速度大，一般$$v_P \approx \sqrt{3} v_S$$。
 
-![地震波的传播](https://s2.ax1x.com/2019/09/28/u1LYtI.png)
+![地震波的传播](https://file.moetu.org/images/2020/02/20/c492032838cb92d1770f89ed964e9b242752e9d801e2b7ea.png)
 
 - 地震波的传播：<a class="xref-figure" href="#figure-u1LYtI.png"></a>。
   - *说明：地震波在传播到地表时几乎与地表垂直，以此可分析P波和S波的振动方向。*
 
-![S波的分解](https://s2.ax1x.com/2019/09/28/u1Ltht.png)
+![S波的分解](https://file.moetu.org/images/2020/02/20/89dd8af35a492fb456b497050a474350d88c30e4bf98b1fc.png)
 
-![SH波与SV波](https://s2.ax1x.com/2019/12/25/liXG8g.gif)
+![SH波与SV波](https://file.moetu.org/images/2020/02/20/9dbc1ad89ba13e0c3b0b730f4a09c52bc2463eaf71ee8b88.gif)
 
 - S波的分解：<a class="xref-figure" href="#figure-u1Ltht.png"></a>。
   - *说明：S波可以分解成两个分量，平行于界面的分量为SH波，在入射线和界面法线构成的平面上（入射面）的分量为SV波。*
@@ -79,7 +79,7 @@ $$\cfrac {\sin\theta_{\alpha1}} {v_{\alpha1}} = \cfrac {\sin\theta_{\beta1}} {v_
   - PcPS不可能存在（$$v_P > v_S$$导出$$\theta_P > \theta_S$$），ScSP可能存在。P夹角比S大。*（感谢[树洞Hans](https://pkuhelper.pku.edu.cn/hole/##1061096)提醒）*
   - *说明：P、S分别表示从震源发出、向地球内部传播的纵波和横波；c表示在地核界面上波的反射；K表示通过外核的纵波，地球的外核是液态，所以只有通过外核的纵波，而没有通过外核的横波；I、J分别表示通过内核的纵波、横波；i表示在内核界面的反射；p、s分别表示由震源向上（地面）传播的射线。*
 
-![地球内部体波的传播](https://s2.ax1x.com/2019/12/25/liOO4U.gif)
+![地球内部体波的传播](https://file.moetu.org/images/2020/02/20/75443b2d861915d41d37374e3bb7c1f47dfccc8c7c7c145f.gif)
 
 - *SH波不能产生P波：在水平面内振动不能引起垂直面振动。*
 - *面波的走时曲线为直线。*
@@ -235,7 +235,7 @@ $$\cfrac {\mathrm dv}{\mathrm dt} = \cfrac {g \tan \theta} {2},$$
 ##### 题干
 证明：当震中距$$X$$大于一定值$$X_M$$时，首波将最先到达，并求出$$X_M$$。（题图见<a class="xref-figure" href="#figure-QG2fW4.jpg"></a>）
 
-![作业1题图](https://s2.ax1x.com/2019/12/05/QG2fW4.jpg)
+![作业1题图](https://file.moetu.org/images/2020/02/20/d6ef96e8c5ce41671a7c79d6333916b8bf2093a0ab96b31b.jpg)
 
 ##### 提示
 直达波走时：

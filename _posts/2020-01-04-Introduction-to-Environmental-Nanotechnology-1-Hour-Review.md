@@ -1,6 +1,6 @@
 ---
 date: 2020-01-04 12:00
-headImage: https://s2.ax1x.com/2020/01/05/l0XZGD.png
+headImage: https://file.moetu.org/images/2020/02/20/4a8283b5927112020f10062c4a6799b085a4929b174d345d.png
 info: 本资料原本打算整理出所有可能的重点，但是经过期末考试之后，本人发现了内容的盲区，因此请不要以此资料为复习重点。期待2020年选课的朋友补充添加内容。
 infoBox: incomplete
 last_modified_at: 2020-01-05 22:46
@@ -124,19 +124,19 @@ title: 《环境纳米技术导论》一小时速成
 <table class="table-figure">
     <tbody>
         <tr>
-            <td><img src="https://s2.ax1x.com/2020/01/05/l0XZGD.png" alt="TEM|x200px" /></td>
-            <td><img src="https://s2.ax1x.com/2020/01/05/l0XeRe.png" alt="SEM|x200px" /></td>
+            <td><img src="https://file.moetu.org/images/2020/02/20/4a8283b5927112020f10062c4a6799b085a4929b174d345d.png" alt="TEM|x200px" /></td>
+            <td><img src="https://file.moetu.org/images/2020/02/20/5afc2d8a3696315707392cfe3b1abc35aa41103e14716751.png" alt="SEM|x200px" /></td>
         </tr>
         <tr>
-            <td><img src="https://s2.ax1x.com/2020/01/05/l0XuMd.png" alt="XRD|x200px" /></td>
-            <td><img src="https://s2.ax1x.com/2020/01/05/l0XmxH.png" alt="XPS|x200px" /></td>
+            <td><img src="https://file.moetu.org/images/2020/02/20/d89852fed9f352b25eb6bb02d8fd0eb7b18288f73c85975d.png" alt="XRD|x200px" /></td>
+            <td><img src="https://file.moetu.org/images/2020/02/20/36093c45c61615e5d79fa52c4f16ada29acec38a54cb32ed.png" alt="XPS|x200px" /></td>
         </tr>
         <tr>
-            <td><img src="https://s2.ax1x.com/2020/01/05/l0Xka6.png" alt="UV-vis DRS|x200px" /></td>
-            <td><img src="https://s2.ax1x.com/2020/01/05/l0XVPO.png" alt="BET & BJH|x200px" /></td>
+            <td><img src="https://file.moetu.org/images/2020/02/20/83bc77dfcc24cf3d12b1474eb716760f2c6a32fbe26faa4b.png" alt="UV-vis DRS|x200px" /></td>
+            <td><img src="https://file.moetu.org/images/2020/02/20/2f36429362d44626011a1e94ff08889726bef81494a43821.png" alt="BET & BJH|x200px" /></td>
         </tr>
         <tr>
-            <td><img src="https://s2.ax1x.com/2020/01/05/l0XAIK.png" alt="Zeta-pH|x200px" /></td>
+            <td><img src="https://file.moetu.org/images/2020/02/20/2f9746c4114ee16a09cf2a0525f0ab6ab2862cea616cabca.png" alt="Zeta-pH|x200px" /></td>
         </tr>
     </tbody>
 </table>

@@ -30,9 +30,9 @@ title: NDS《精灵宝可梦 白金》汉化修正
 <tr><th>原版</th><th>修正版</th></tr>
 </thead>
 <tbody>
-<tr><td><img src="https://raw.githubusercontent.com/Xzonn/PokemonChineseTranslationRevise/master/images/Pt_0_1.png" alt="预览图" data-disp="auto" /></td><td><img src="https://raw.githubusercontent.com/Xzonn/PokemonChineseTranslationRevise/master/images/Pt_1_1.png" alt="预览图" data-disp="auto" /></td></tr>
-<tr><td><img src="https://raw.githubusercontent.com/Xzonn/PokemonChineseTranslationRevise/master/images/Pt_0_2.png" alt="预览图" data-disp="auto" /></td><td><img src="https://raw.githubusercontent.com/Xzonn/PokemonChineseTranslationRevise/master/images/Pt_1_2.png" alt="预览图" data-disp="auto" /></td></tr>
-<tr><td><img src="https://raw.githubusercontent.com/Xzonn/PokemonChineseTranslationRevise/master/images/Pt_0_3.png" alt="预览图" data-disp="auto" /></td><td><img src="https://raw.githubusercontent.com/Xzonn/PokemonChineseTranslationRevise/master/images/Pt_1_3.png" alt="预览图" data-disp="auto" /></td></tr>
+<tr><td><img src="https://file.moetu.org/images/2020/02/20/e23ee94c4705bb8188cde6ee2ba684f2370e44e045b982e4.png" alt="预览图" data-disp="auto" /></td><td><img src="https://file.moetu.org/images/2020/02/20/89d999dd37bc6baf509483cda87e1b48c4f0d13c86dd37ed.png" alt="预览图" data-disp="auto" /></td></tr>
+<tr><td><img src="https://file.moetu.org/images/2020/02/20/711af3dd3ffa60ce599ba9464a9aca6b3b39aa5fe3bc0d41.png" alt="预览图" data-disp="auto" /></td><td><img src="https://file.moetu.org/images/2020/02/20/963793c79538e2cd529d57d3604f9a5487894f6bde7ed3d3.png" alt="预览图" data-disp="auto" /></td></tr>
+<tr><td><img src="https://file.moetu.org/images/2020/02/20/d15725931787f5b1a11f0b075fd397f7a9ef59c9e0cb3fab.png" alt="预览图" data-disp="auto" /></td><td><img src="https://file.moetu.org/images/2020/02/20/ea402e21fcae399bdf8a1bd137cfed093cf0fef6a8e71bb8.png" alt="预览图" data-disp="auto" /></td></tr>
 </tbody>
 </table>
 

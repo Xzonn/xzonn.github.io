@@ -1,14 +1,14 @@
 ---
 css: bilibili
 date: 2018-10-12 12:00
-headImage: https://raw.githubusercontent.com/Xzonn/LuigiMansionChineseTranslation/master/images/logo.png
+headImage: https://file.moetu.org/images/2020/02/20/c091b864abea3849f4b78f2eef48cb0e261e45732fcd8a9a.png
 info: 3DS《路易吉洋馆》汉化：从开坑到弃坑。
 js: bilibili
 last_modified_at: 2020-01-03 23:22
 tags: 杂记 二次元
 title: 3DS《路易吉洋馆》汉化笔记
 ---
-<div style="width: 100%; height: 128px; background-position: center; background-repeat: no-repeat; background-image: url(https://raw.githubusercontent.com/Xzonn/LuigiMansionChineseTranslation/master/images/logo.png);"></div>
+<div style="width: 100%; height: 128px; background-position: center; background-repeat: no-repeat; background-image: url(https://file.moetu.org/images/2020/02/20/c091b864abea3849f4b78f2eef48cb0e261e45732fcd8a9a.png);"></div>
 <div style="font-size: 200%; font-weight: bold; text-align: center;"><a href="https://xzonn.github.io/LuigiMansion">→汉化发布页←</a></div>
 ## 1 说明
 <span lang="ja">『**ルイージマンション**』</span>（参考译名：《**路易吉洋馆**》，英文名：***Luigi's Mansion***）是 2001 年于 GameCube 平台发售的游戏，并于 2018 年在 3DS 平台发售了重制版。其续作《**路易吉洋馆2**》（繁体：《**路易吉洋樓2**》，日文：<span lang="ja">『**ルイージマンション２**』</span>）于 2013 年发售，港台版自带简繁中文支持。
@@ -56,13 +56,13 @@ Cスティックで\x7f\x16にゅうりょく\x00入力\x7f\x17した\x7f\x16ほ
 2019/02/15 更新：本人碰巧拆包了《*永恒绿洲*》（Ever Oasis），发现其字库也是`.gzf`格式，查了一下开发商，竟然也是 GREZZO……这个游戏使用的字库容量比本作的字库容量更大，有 1968 个字符，因此字库问题大概可以解决了……
 
 ## 5 汉化预览
-![标题界面](https://github.com/Xzonn/LuigiMansionChineseTranslation/raw/master/images/01.png)
+![标题界面](https://file.moetu.org/images/2020/02/20/9f9902a4bc809b069f20954f9b71a0e69db10035b4b00fc8.png)
 
-![选择存档界面](https://github.com/Xzonn/LuigiMansionChineseTranslation/raw/master/images/02.png)
+![选择存档界面](https://file.moetu.org/images/2020/02/20/03fa9bfb435915290a85a935650dbd049f8f286bdf6b5e6f.png)
 
-![存档操作界面](https://github.com/Xzonn/LuigiMansionChineseTranslation/raw/master/images/03.png)
+![存档操作界面](https://file.moetu.org/images/2020/02/20/cbda96053ce9b31ae627b27992b5ff5b96e20e9cae62ab2f.png)
 
-![游戏界面](https://github.com/Xzonn/LuigiMansionChineseTranslation/raw/master/images/04.png)
+![游戏界面](https://file.moetu.org/images/2020/02/20/149a4d3e85f46f847d176841a4dafc77f5e804bc14050613.png)
 
 <div class="bilibiliBox" data-aid="45332875" data-page="1"></div>
 ## 6 汉化进度

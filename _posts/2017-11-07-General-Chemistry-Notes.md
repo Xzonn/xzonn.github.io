@@ -1,6 +1,6 @@
 ---
 date: 2017-11-07 12:00
-headImage: https://upload.wikimedia.org/wikipedia/commons/3/36/Maxwell-Boltzmann_distribution_1.png
+headImage: https://file.moetu.org/images/2020/02/20/cac975160bd42cfd39f8af31d645b133c3ceb8c9a08f603d.png
 infoBox: complete formula
 last_modified_at: 2020-01-07 23:38
 math: true
@@ -23,7 +23,7 @@ title: 《普通化学》知识点整理
 - 气体扩散定律：$$\cfrac{t_1}{t_2}=\cfrac{v_2}{v_1}=\sqrt{\cfrac{\rho_1}{\rho_2}}=\sqrt{\cfrac{M_1}{M_2}}$$。
 
 #### 2. 气体分子运动论
-![气体分子速率分布\|200px](https://upload.wikimedia.org/wikipedia/commons/3/36/Maxwell-Boltzmann_distribution_1.png)
+![气体分子速率分布\|200px](https://file.moetu.org/images/2020/02/20/cac975160bd42cfd39f8af31d645b133c3ceb8c9a08f603d.png)
 
 
 - 三点假设：
@@ -57,7 +57,7 @@ title: 《普通化学》知识点整理
 - 描述液体蒸气压与温度关系的公式为Clapeyron-Clausius方程：$$\ln\left(\cfrac{p_2}{p_1}\right)=-\cfrac{\Delta H_{vap}}R\left(\cfrac1{T_2}-\cfrac1{T_1}\right)$$，其中$$\Delta H_{vap}$$为液体的摩尔蒸发热。
 
 #### 2. 相图
-![水的相图\|200px](https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Phase-diag-Xiang-zh-hans.svg/1280px-Phase-diag-Xiang-zh-hans.svg.png)
+![水的相图\|200px](https://file.moetu.org/images/2020/02/20/91ae6e344373d919d9975da8cf09db3becabd49f79fe8ada.png)
 
 - 相图：表示温度、压力、组成等因素对物相影响的关系图。
 - 在相图中，三相点代表三相共存，曲线代表两相共存，平面区域分别代表各单相区。气液线不是无限延长的，它的终点是临界点。
@@ -274,7 +274,7 @@ title: 《普通化学》知识点整理
   -  Heisenberg测不准原理：$$\Delta x \cdot \Delta P \ge \cfrac h {4\pi}$$，是微观粒子的固有特性，并非测量技术造成。
 
 #### 4. 氢原子的量子力学模型
-![区别三个函数\|160px](https://wx3.sinaimg.cn/large/63368e3fly1flx2675fcvj20eq0kbt98.jpg)
+![区别三个函数\|160px](https://file.moetu.org/images/2020/02/20/bff791a2679a8ae55afca0c5f6bc5f91c9549b1267ae32bd.png)
 
 - 波函数：
   -  Schrödinger提出了波动力学方程式，该方程式的合理解只限于若干分立的能量值，这也就是量子化。
@@ -299,23 +299,23 @@ title: 《普通化学》知识点整理
   -  $$r^2R^2(r)$$：概率径向分布函数，正值，极大值不出现在$$r = 0$$。
 - 原子轨道的空间分布：径向节面数：$$n - l - 1$$；角度节面数：$$l$$。
 
-![s轨道。自上而下：$R^2(r)$、$\Psi^2(r, \theta, \varphi)$、$Y^2(\theta, \varphi)$\|220px](https://wx1.sinaimg.cn/large/63368e3fly1flx266oas1j20kl0gjdlg.jpg)
+![s轨道。自上而下：$R^2(r)$、$\Psi^2(r, \theta, \varphi)$、$Y^2(\theta, \varphi)$\|220px](https://file.moetu.org/images/2020/02/20/a9109488701af10ff0804caf4fbb981dbd48ca85c8ff67f1.png)
 
-![s轨道的节面](https://wx3.sinaimg.cn/large/63368e3fly1flx267pih1j20pg0jsn09.jpg)
+![s轨道的节面](https://file.moetu.org/images/2020/02/20/8c50757520595c13c320d6a83fe36059ea8dc038e1f43ee5.png)
 
-![p轨道](https://wx1.sinaimg.cn/large/63368e3fly1flx2689ycoj20uq08l41c.jpg)
+![p轨道](https://file.moetu.org/images/2020/02/20/6288c7a9c4a8bcc5cafe93c651ee33a0a58b1966689723f9.png)
 
-![p轨道的节面\|180px](https://wx1.sinaimg.cn/large/63368e3fly1flx268zbtrj20u90jpdlb.jpg)
+![p轨道的节面\|180px](https://file.moetu.org/images/2020/02/20/69fc1107243b01310801cc36755a08f7e689930211b038c9.png)
 
 
-![d轨道](https://wx3.sinaimg.cn/large/63368e3fly1flx269ou4mj21370rj7it.jpg)
+![d轨道](https://file.moetu.org/images/2020/02/20/f86d934ee9644a433beff9d3232916a5ca2545530a585aff.png)
 
 #### 5. 多电子原子结构与周期律
-![多电子原子的轨道能级](https://wx4.sinaimg.cn/large/63368e3fly1flx26au7yjj20iw0ckjsu.jpg)
+![多电子原子的轨道能级](https://file.moetu.org/images/2020/02/20/5cb0913be4088f23fd692dde0516539fefaad75b16d84405.png)
 
-![多电子原子的轨道能级](https://wx1.sinaimg.cn/large/63368e3fly1flx26bgzgbj20qf0kd4b5.jpg)
+![多电子原子的轨道能级](https://file.moetu.org/images/2020/02/20/a7bc02867d290583017641df6177d0f41dc6abe4b9f02aa0.png)
 
-![钻穿效应\|160px](https://wx4.sinaimg.cn/large/63368e3fly1flx26a70bhj20hn0e20tl.jpg)
+![钻穿效应\|160px](https://file.moetu.org/images/2020/02/20/f5d092222c31f5601c8da97c52f3ba6afb60f5058d65852d.png)
 
 - 多电子原子的轨道能级：$$n$$和$$l$$都不同的轨道能量会发生交错，轨道能量和核电荷数和电子填充情况都有关，使整体能量最低。
   -  在类氢原子中，颜色相同的轨道能量简并。由于屏蔽和钻穿效应，多电子原子中能级不再简并。
@@ -359,7 +359,7 @@ title: 《普通化学》知识点整理
 - 分子间作用力和氢键：**定义和类别**，**作用力强弱**，**物理化学性质判断**
 
 #### 1. 离子键理论
-![Born-Haber循环](https://wx3.sinaimg.cn/large/63368e3fly1flx26cwoguj20w80jtjvr.jpg)
+![Born-Haber循环](https://file.moetu.org/images/2020/02/20/7de79ca0ba59baf56c185712e9946ac0f220b10d3e52ec3f.png)
 
 - 离子键的本质是正负离子之间的静电吸引力，主要特点是既没有方向性也没有饱和性。
 - 离子化合物熔融状态下或水溶液中都具有导电性。
@@ -392,19 +392,19 @@ title: 《普通化学》知识点整理
 - 价键理论认为化学键中电子是定域的，Pauling引入了共振的概念，即某些分子的结构是两种或两种以上结构的共振体。
 
 #### 4. 分子轨道理论
-![对称性匹配](https://wx3.sinaimg.cn/large/63368e3fly1flx26dm9e3j20to0ijq8r.jpg)
+![对称性匹配](https://file.moetu.org/images/2020/02/20/e0b22c0ca72ff5c7755f33812588eb6712e76700ed8bd5f3.png)
 
-![](https://wx3.sinaimg.cn/large/63368e3fly1flx26eatn9j20ej0b9tc3.jpg)
+![](https://file.moetu.org/images/2020/02/20/a958244289c52c9d8157900d638d08d869b1dac42ea26ec2.png)
 
-![第二周期同核双原子分子的分子轨道](https://wx4.sinaimg.cn/large/63368e3fly1flyvbft8kqj20rw0i2n12.jpg)
+![第二周期同核双原子分子的分子轨道](https://file.moetu.org/images/2020/02/20/baaa94fa2b7a849a475925a9f4532940ef68efa7bc741f38.png)
 
-![氟化氢的分子轨道\|180px](https://wx3.sinaimg.cn/large/63368e3fly1flx26h0ywcj20no0hrwhw.jpg)
+![氟化氢的分子轨道\|180px](https://file.moetu.org/images/2020/02/20/9ac3e6dbef5b71089de57f34b52b5d27954963a978e59708.png)
 
-![氮气和一氧化碳的分子轨道](https://wx4.sinaimg.cn/large/63368e3fly1flx26hl0mkj20uq0iwjuy.jpg)
+![氮气和一氧化碳的分子轨道](https://file.moetu.org/images/2020/02/20/f6c6a4448c4cd05f5caebfc9224dc8c27cedb8d027e7aa7d.png)
 
-![苯的分子轨道\|180px](https://wx4.sinaimg.cn/large/63368e3fly1flx26i2qkaj20b40bl0u0.jpg)
+![苯的分子轨道\|180px](https://file.moetu.org/images/2020/02/20/cfaaabf679b241983e30124c23cd4addf9685c3c9b2762ec.png)
 
-![臭氧的分子轨道\|180px](https://wx4.sinaimg.cn/large/63368e3fly1flx26im8a9j20nt0omaj4.jpg)
+![臭氧的分子轨道\|180px](https://file.moetu.org/images/2020/02/20/d7114689d516afff0f657c119760e74a501622e7d82c5271.png)
 
 - 分子轨道可由原子轨道线性组合而成，原子轨道组成分子轨道时，轨道数不变：$$\Psi = \Psi_1 \pm \Psi_2$$。
 - 分子轨道的能量可以低于、等于或高于原子轨道，分别称为成键、非键和反键轨道。原子轨道组成分子成键轨道时，必须满足对称性匹配原则、能量近似原则和最大重叠原则。
@@ -619,7 +619,7 @@ title: 《普通化学》知识点整理
 </table>
 
 #### 3. 等径圆球的堆积
-![六方（左）和立方密堆积（右）的俯视图](https://wx2.sinaimg.cn/large/63368e3fly1fmtf3p462oj21360ok79w.jpg)
+![六方（左）和立方密堆积（右）的俯视图](https://file.moetu.org/images/2020/02/20/cc00a6726385b9ce5db10b6273a2a87eb8ce5ff564fbf39b.png)
 
 - 简单立方堆积：非密堆积，空间利用率52%；体心立方堆积：符号A2，非密堆积，空间利用率68%。
 - 密置结构：空间占有率最高的排布方式，为74%。
@@ -702,7 +702,7 @@ title: 《普通化学》知识点整理
 <caption class="caption-figure">四面体场和八面体场</caption>
 <tr>
 <td colspan="4">
-<img alt="八面体场" src="https://upload.wikimedia.org/wikipedia/commons/8/83/Crystal_Field_Splitting_4.png" data-disp="auto"/>
+<img alt="八面体场" src="https://file.moetu.org/images/2020/02/20/9910aeb62aa1c3a6ae4ea0d40c295f08ffa98a7d6747e4d2.png" data-disp="auto"/>
 </td>
 </tr>
 <tr>
@@ -722,7 +722,7 @@ title: 《普通化学》知识点整理
 <td colspan="2">
 </td>
 <td colspan="2">
-<img alt="四面体场" src="https://upload.wikimedia.org/wikipedia/commons/4/4a/Tetrahedral.png" data-disp="auto"/>
+<img alt="四面体场" src="https://file.moetu.org/images/2020/02/20/01ee3ce75ce93b3e05c9749b7f8524257dd53b9c2d13a0bf.png" data-disp="auto"/>
 </td>
 </tr>
 </table>

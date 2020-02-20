@@ -1,6 +1,6 @@
 ---
 date: 2019-05-25 14:06
-headImage: https://s2.ax1x.com/2020/01/03/ldnYLV.png
+headImage: https://file.moetu.org/images/2020/02/20/e0f0298131885a7d01c6141d2fc227cf76b6dc8dc92016e1.png
 infoBox: incomplete
 last_modified_at: 2020-02-14 13:27
 math: true
@@ -9,7 +9,7 @@ title: 《大气气溶胶测量技术与实验》考点整理
 ---
 ## 考点整理
 ### Z.1 雾和霾的区别
-![Köhler Curve](https://s2.ax1x.com/2020/01/03/ldnYLV.png)
+![Köhler Curve](https://file.moetu.org/images/2020/02/20/e0f0298131885a7d01c6141d2fc227cf76b6dc8dc92016e1.png)
 
 - 区分在于含水量，霾是由空气中固体微粒引起，雾是由悬浮在空中的水滴引起。
 - 过饱和度与颗粒物的粒径有关。粒径较小时，主要受拉乌尔定律影响；粒径较大时，主要受开尔文效应影响。

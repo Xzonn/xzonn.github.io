@@ -1,6 +1,6 @@
 ---
 date: 2019-01-13 12:00
-headImage: https://s2.ax1x.com/2019/12/28/legihd.png
+headImage: https://file.moetu.org/images/2020/02/20/18a6da09e6b9f77c3501a93b1dd956d5a2dc06567eb098c5.png
 info: 一小时速成有点不太可能，还是老老实实准备期末复习吧。
 infoBox: complete formula
 last_modified_at: 2020-01-07 14:59
@@ -18,7 +18,7 @@ title: 《土壤与地下水》期末复习
 - 换算关系：$$\varphi = \cfrac {V_v}{V_T} = \cfrac {V_T - V_s}{V_T} = 1 - \cfrac {V_s}{V_T} = 1 - \cfrac {M_s / \rho_p}{M_s / \rho_b} = 1 - \cfrac {\rho_b}{\rho_p}$$。
 
 ### 1.2 达西定律
-![水头|right|180px](https://s2.ax1x.com/2019/11/04/Kv2xxO.png)
+![水头|right|180px](https://file.moetu.org/images/2020/02/20/d93202b89d8fc69d7be90d2a03ebe8e3e96071d3b2d5f1a9.png)
 
 - 水力传导系数（Hydraulic Conductivity，$$K$$）：水通过物质的速率，取决于土壤类型、孔隙度、土壤孔隙结构。$$K = \cfrac {k\rho g}{\mu}$$，其中$$k$$是固有渗透率，为介质的固有属性，$$\rho$$为质量密度，$$\mu$$为动力粘度，表征液体粘性的内摩擦系数。
   - Shepherd经验公式：$$K = a(D_{10})^b$$，其中$$a$$和$$b$$是经验系数，$$D_{10}$$是材料10%粒径。
@@ -29,7 +29,7 @@ title: 《土壤与地下水》期末复习
   - $$h$$ = 地表水程 - 水深。
 - 水力梯度（Hydraulic Gradients，$$I$$）：即地下水位或等势面的梯度。$$I = \cfrac {\Delta h}{\Delta l}$$。
 
-![达西速率与渗流速率\|right\|150px](https://s2.ax1x.com/2019/11/04/Kv2vRK.png)
+![达西速率与渗流速率\|right\|150px](https://file.moetu.org/images/2020/02/20/441262f33f0cdc5cad6a73e28d48891a17005e800e693739.png)
 
 - 达西速率（Darcy Velocity，$$q$$）与渗流速率（Seepage velocity）：
   - 定义$$q = \cfrac {Q}{A} = -K\cfrac {\Delta h}{\Delta l} = -KI$$，$$q$$称为达西速率。
@@ -72,7 +72,7 @@ title: 《土壤与地下水》期末复习
     - 用平滑曲线绘制中间流线和等水头线，在流动方向是直线的情况下，流线应该是等间距的平行线。
     - 大多数情况下绘制5 ~ 10条流线即可。根据流线数量绘制等水头线的数量。
 
-![流线绘制示例](https://s2.ax1x.com/2019/12/28/lecvX6.png)
+![流线绘制示例](https://file.moetu.org/images/2020/02/20/e5ed98081a81e8752e8dd9ff8ae6fda6e6057f8a3a419dd5.png)
 
 - 各向同性介质中的流网：
   - 当流线与等水头线的间距相等时，有$$Q = \cfrac {n_f}{n_d} KH$$，其中$$n_f$$是流线的间距数，$$n_d$$是等水头线的间距数。
@@ -80,7 +80,7 @@ title: 《土壤与地下水》期末复习
   - 两介质中的流线方向遵循正切定律：$$\cfrac {K_1}{K_2} = \cfrac {\tan \theta_1}{\tan \theta_2}$$。
 
 ### 1.5 水位计算
-![水位下降](https://s2.ax1x.com/2019/12/28/legPtH.png)
+![水位下降](https://file.moetu.org/images/2020/02/20/7e3dab8aa51261af89caeee8e664e011ceafb8ed3bad067b.png)
 
 - 在水泵泵水时，会导致地下水位的下降，称为水位下降（Drawdown）。泵水时水来源于存储区，直到达成新的平衡。
 - 朝向井的不稳定径流：$$\cfrac {\partial^2 h}{\partial r^2} + \cfrac {1}{r} \cfrac {\partial h}{\partial r} + \cfrac {e}{T} = \cfrac {S}{T} \cfrac {\partial h}{\partial t}$$，其中$$S$$是储水系数（Storativity，无量纲），$$T$$是渗透率（Transmissivity），$$T = Kb$$，$$b$$是厚度，$$t$$是时间，$$u$$是时间参量（无量纲），$$u = \cfrac {r^2S}{4Tt}$$，$$r$$是与井的径向距离，$$e$$是垂直渗漏率。
@@ -496,7 +496,7 @@ title: 《土壤与地下水》期末复习
 
 ## 3 地下水部分
 ### 3.1 基本概念
-![地下水](https://s2.ax1x.com/2019/12/28/legihd.png)
+![地下水](https://file.moetu.org/images/2020/02/20/18a6da09e6b9f77c3501a93b1dd956d5a2dc06567eb098c5.png)
 
 - 定义：埋藏于地表以下土层（岩层）空隙中的水。地下水是水循环的重要部分，是许多国家饮用水的主要来源。
 - 存储：孔隙、裂隙、溶隙。（名，9）
@@ -505,7 +505,7 @@ title: 《土壤与地下水》期末复习
 - 含水层、隔水层、绝水层：（名，9）
 - 非承压水层／潜水层、承压水层：（名，9）
 
-![地下水分层结构\|233px\|right](https://s2.ax1x.com/2019/12/28/lecX11.png)
+![地下水分层结构\|233px\|right](https://file.moetu.org/images/2020/02/20/aec15385170757186b52edc7410b7d7d96ac05a55c015661.png)
 
 - 分类：
   - 包气带水存在于包气带中，可分为非重力水和重力水两种。非重力水包括结合水和毛管水，重力水则指上层滞水。
@@ -536,7 +536,7 @@ title: 《土壤与地下水》期末复习
 - 流线、流网：（计，4；名，11 & 12）
 - 水位计算：（计，5；名，12）
 
-![地下水流模式\|right\|250px](https://s2.ax1x.com/2019/12/28/lecj6x.png)
+![地下水流模式\|right\|250px](https://file.moetu.org/images/2020/02/20/ee4a0202f329f81d5abce303df2a9949ad4b3705ed2419f1.png)
 
 - 地下水流模式：
   - 补给区：饱和水流从水位线流出。
@@ -575,7 +575,7 @@ title: 《土壤与地下水》期末复习
   - 地下水占主导地位：大部分湖水来源于地下水。
 - 渗流分布：补给湖、排泄湖、流经湖、以上组合。
 
-![排泄湖、补给湖、流经湖\|800px](https://s2.ax1x.com/2019/12/28/legp7D.png)
+![排泄湖、补给湖、流经湖\|800px](https://file.moetu.org/images/2020/02/20/eb93147a709e4a5a1ac0c8c504e63976043a5fd7353e5ed9.png)
 
 - 渗流条件：
   - 湖泊沉积物的厚度和渗透性。
@@ -695,7 +695,7 @@ title: 《土壤与地下水》期末复习
   - 难以逆转性：地下水不易处理，清除和再利用非常昂贵，人们倾向于寻找新的水源供应。
 - 污染源：微生物，化学品，有害物质，其它外来颗粒物等。
 
-![地下水污染源](https://s2.ax1x.com/2019/12/28/legS0O.png)
+![地下水污染源](https://file.moetu.org/images/2020/02/20/f9a20d0fef078aaa8ab5d51dfab9d2aa5d45623268873028.png)
 
 - 自然源：与过度覆盖含水层或自然浸出相关的咸水腐蚀。与人为源相比危害较小。
   - 污染证据：味道或气味不佳、取水装置上有污渍、水中物质的检测。

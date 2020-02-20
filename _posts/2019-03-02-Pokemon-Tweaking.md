@@ -1,14 +1,14 @@
 ---
 css: bilibili
 date: 2019-03-02 12:00
-headImage: https://i.imgur.com/HoP6zRY.png
+headImage: https://file.moetu.org/images/2020/02/20/48f542abdecfe0d46966b557d0b6f6b08f34c22b3a215d88.png
 infoBox: incomplete pokemon pokemonGlitch
 js: bilibili
 last_modified_at: 2020-01-03 23:02
 tags: 精灵宝可梦 二次元
 title: 《精灵宝可梦》地图图块漏洞
 ---
-![漏洞触发后的效果\|right\|256px](https://i.imgur.com/HoP6zRY.png)
+![漏洞触发后的效果\|right\|256px](https://file.moetu.org/images/2020/02/20/48f542abdecfe0d46966b557d0b6f6b08f34c22b3a215d88.png)
 
 ## 1 概述
 **地图图块漏洞**是存在于第四世代《精灵宝可梦》系列游戏中的游戏漏洞。此漏洞在英文玩家中也被称为“Tweaking”。该漏洞通过快速切换地图图块，使游戏产生载入错误，并可以使玩家进入原本无法进入的区域，走出地图并进入“谜之空间”。此漏洞最早由 GameSpot 论坛的用户 Holepunch 发现，但原贴如今已经不存在。
@@ -21,7 +21,7 @@ title: 《精灵宝可梦》地图图块漏洞
 此外，通过跑步、冲浪等也可以触发此漏洞。
 
 ## 3 触发方式
-![图例\|right\|200px](https://cdn.bulbagarden.net/upload/6/63/Tweaking_pattern_example.png)
+![图例\|right\|200px](https://file.moetu.org/images/2020/02/20/cd4b3a2ec058fec68bde3e5d168ef2f972b00062e1dbe9c8.png)
 
 以右图为例，蓝色的线代表载入线（即图块的中线），数字代表玩家所在的区域。在下述方式中，所有图案均可以翻转或旋转。
 

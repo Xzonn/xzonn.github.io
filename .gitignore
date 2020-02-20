@@ -338,3 +338,6 @@ _site/
 # Mega
 *.ini
 Rubbish
+
+# Visual Studio Code
+.vscode/

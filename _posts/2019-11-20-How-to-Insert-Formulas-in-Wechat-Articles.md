@@ -20,7 +20,7 @@ wechatLink: https://mp.weixin.qq.com/s/mYzdirgQjLwqXrfpri8lgw
 
 这次讲座的资料：
 
-[![微信推送讲座资料](https://s2.ax1x.com/2019/11/22/MTm5QA.png)](https://disk.pku.edu.cn/link/6B621DA345631AB22EE397C91C79E1EC)
+[![微信推送讲座资料](https://file.moetu.org/images/2020/02/20/a5d3fba4f661b6d4c3f40735a32de60af5379a34875fbdd9.png)](https://disk.pku.edu.cn/link/6B621DA345631AB22EE397C91C79E1EC)
 
 在培训时，我留下了一个技术难题：如何在微信推送中插入公式？当时我并没有得出很好的解决方法，唯一的方法就是——截图。但是，当我偶然网上冲浪时，才发现了插入公式的（或许是最佳的）解决方案。
 
@@ -33,7 +33,7 @@ wechatLink: https://mp.weixin.qq.com/s/mYzdirgQjLwqXrfpri8lgw
 
 但是今天我要介绍的主角不是秀米，而是我在整理资料的时候发现的另一个排版工具：[Markdown Nice](https://www.mdnice.com/)。它使用Markdown语法进行编辑，其预览结果可以直接复制粘贴到微信自带的排版工具中，适合那些喜欢Markdown做笔记写文章的朋友。最重要的是，它可以直接输入公式，并复制粘贴到微信自带的排版工具中。而且，渲染出的公式是svg矢量图，无论如何缩放都不会糊，目前来看是我能找到的最佳解决方式。
 
-![Markdown Nice公式渲染示例](https://s2.ax1x.com/2019/11/22/MTn9e0.png)
+![Markdown Nice公式渲染示例](https://file.moetu.org/images/2020/02/20/bd1a2f87762fdabdcf277e8433bf0c94be7e02c85ba70e88.png)
 
 我个人认为，这个排版工具的显示效果还是不错的。那么问题来了：公式要如何输入呢？
 
@@ -45,39 +45,39 @@ wechatLink: https://mp.weixin.qq.com/s/mYzdirgQjLwqXrfpri8lgw
 ### 2.1. 手写公式
 网络上有很多工具可以直接识别手写公式并转换为TeX代码，而后将TeX代码复制粘贴到Markdown Nice中即可。例如 [MyScript](https://webdemo.myscript.com/views/math/index.html)：
 
-![MyScript手写识别示例](https://s2.ax1x.com/2019/11/22/MTmzyn.png)
+![MyScript手写识别示例](https://file.moetu.org/images/2020/02/20/fd17795c7261de0fceb678e7de0a53a55bcf59e23461a915.png)
 
 顺带一提，上述网站除了可以转换为TeX代码外，还可以转换为MathML代码；而MathML代码在粘贴到Word中并选择“只保留文本 (T)”后可以转换为Word内置的公式格式。
 
 如果只是某个字符或命令忘记了，也可以试试另一个工具[Detexify](http://detexify.kirelabs.org/classify.html)：
 
-![Detexify手写识别示例](https://s2.ax1x.com/2019/11/22/MTmxQs.png)
+![Detexify手写识别示例](https://file.moetu.org/images/2020/02/20/c13095690b8788057062af278fae18d4b888c26b91a6eece.png)
 
 ### 2.2. 截图识别
 如果不想手写公式，也可以直接拿别人写好的公式截图识别。例如[Mathpix Snip](https://mathpix.com/)：
 
-![Mathpix Snip截图识别示例](https://s2.ax1x.com/2019/11/22/MTmLFS.png)
+![Mathpix Snip截图识别示例](https://file.moetu.org/images/2020/02/20/48e4b64868e87aa432695b24c67b5ed2bc16639d029c427a.png)
 
 该软件在多平台有客户端，需要注册账号后使用。我个人在注册账号时先后尝试了北大邮箱、126邮箱，但都无法立刻收到验证邮件；而Gmail可以立刻收到验证邮件，可能是因为邮件服务器在国外吧。
 
 ### 2.3. 从别的网页查找代码
 许多网页上的公式就是由MathJax渲染出来的（例如我的小站），如果你在某个网页上看到了公式，并且在网页加载过程中左下角出现了灰色文本框，说明这个公式很有可能是MathJax渲染出来的。此时可以右键单击公式 → Show Math As → TeX Commands，即可查看TeX代码。<span class="footnote">我的小站需要用“查看源代码”功能才能找到公式的TeX代码。</span>
 
-![网页查找代码示例](https://s2.ax1x.com/2019/11/22/MTmjzj.png)
+![网页查找代码示例](https://file.moetu.org/images/2020/02/20/0eb009e6852d029d8b6a73494f224be3b3c6993b36c579fb.png)
 
 另外，如果右键单击公式 → Show Math As → MathML Code，则可以得到MathML代码，类似“2.1. 手写公式”中的介绍，此代码也可复制到Word中显示。
 
 ### 2.4. 用TeX编辑器写公式
 网页上也有一些TeX编辑器，有些仅仅能实时渲染，有些提供了工具栏，方便输入。比较常见的TeX编辑器：[知乎](https://zhuanlan.zhihu.com/write)。
 
-![知乎公式编辑器示例](https://s2.ax1x.com/2019/11/22/MTmOJg.png)
+![知乎公式编辑器示例](https://file.moetu.org/images/2020/02/20/f022f8cbf8d490b936882ce6fe15aa956b72f673c887128e.png)
 
 另外，如果对TeX语法感兴趣，可以查找一些教程，例如：[知乎问题：知乎上的公式是怎么打出来的？](https://www.zhihu.com/question/31298277)
 
 ### 2.5. 从Word中粘贴公式
 理论上说从Word中复制粘贴公式也是可以得到TeX代码的（至少从我的电脑上是可以的），但是我在别人的电脑（n = 2）上并没有得到同样的效果，之后我摸索一下再说吧。
 
-![我的Word为什么和你们不一样](https://s2.ax1x.com/2019/11/22/MTnSLq.png)
+![我的Word为什么和你们不一样](https://file.moetu.org/images/2020/02/20/b4c4263f8e48685b6d02798479fcc7590faacf1f1695bd88.png)
 
 ## 3. 后记
 虽然写了这么多，但是我觉得在公众号中输入公式可能不是什么硬性需求（或许也就是学生会学术部的“环迹”等栏目需要吧）。当然，如果我之后分享学习资料的话也不会选择直接输入公式，而是会分享截图或者pdf文件。

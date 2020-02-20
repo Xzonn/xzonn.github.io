@@ -11,7 +11,7 @@ wechatLink: https://mp.weixin.qq.com/s/iIIwUZupCn3M_mCYNzJSbg
 
 有些时候，我们需要查阅国家标准来完成课程任务或设计实验方案。例如，在《环境监测实验》课程中，为了测定水体中的金属元素，我们需要查找对应的国家标准，以确定采用何种仪器、何种标准物质、标准曲线的范围等。当然，生态环境类的国家标准很容易查找并下载——生态环境部官网上提供了许多标准全文，基本满足需要。
 
-![生态环境标准<br/>（网址：http://www.mee.gov.cn/ywgz/fgbz/bz/）](https://s2.ax1x.com/2020/01/21/1knpX6.png)
+![生态环境标准<br/>（网址：http://www.mee.gov.cn/ywgz/fgbz/bz/）](https://file.moetu.org/images/2020/02/20/c936a89b4afda9a906867b1a34697a2853e064357a0893aa.png)
 
 然而，环境学科是一门交叉学科，很多时候我们不仅需要生态环境类的标准，还需要其他方面的标准。例如，在《环境研究方法》课程中，为了确定家用电器的能耗，我们查找了GB 21456-2014《家用电磁灶能效限定值及能效等级》。如果只是需要在线观看的话，百●●库、道●●巴等网站上基本可以找到全文。但是在线观看毕竟不方便，下载或是打印才是比较理想的方案。
 
@@ -19,17 +19,17 @@ wechatLink: https://mp.weixin.qq.com/s/iIIwUZupCn3M_mCYNzJSbg
 
 互联网上有很多网站提供国标的下载，然而上述两个网站的下载需要权限甚至需要付费，还有些网站我绕了半天也没找到下载链接。好在，国家标准委提供了“国家标准全文公开系统”，在这里可以查看并下载大部分的公开标准文本（注：网站下方有提示，“食品安全、环境保护、工程建设方面的国家标准未纳入本系统”，并提供了对应的链接）。
 
-![国家标准全文公开系统查看页面](https://s2.ax1x.com/2020/01/21/1kmz11.png)
+![国家标准全文公开系统查看页面](https://file.moetu.org/images/2020/02/20/b078332e876f0a1472df355f404449d939ed471fbfe3c1ab.png)
 
-![国家标准全文公开系统下载页面](https://s2.ax1x.com/2020/01/21/1kmXtJ.png)
+![国家标准全文公开系统下载页面](https://file.moetu.org/images/2020/02/20/3cecef47ad02cfc707b6ae2682e9f7775a3945554f54707b.png)
 
 通过该网站下载到的pdf文件经过了特殊的加密，需要Adobe Acrobat搭配网站提供的“FileOpen”插件（注：插件同时提供了Windows、Mac和Linux版本）才能打开，且不能复制文本。
 
-![下载得到的加密后的pdf](https://s2.ax1x.com/2020/01/21/1kmjh9.png)
+![下载得到的加密后的pdf](https://file.moetu.org/images/2020/02/20/6510b2c34abf601c2cf026ae8e27e1b7dfbd2f27f2da3c22.png)
 
 当然，也不是没有办法将其转变为无需插件就能打开的pdf：在已经安装了插件的电脑上选择“打印”（<kbd>Ctrl + P</kbd>），然后从打印机中选择“Microsoft Print to PDF”并保存即可。这种方法实际上是把原本的pdf的文本转换成了矢量图形再打印，因此新生成的pdf虽然没有加密，但也无法复制文本。当然这也可以解决：使用Adobe Acrobat提供的“增强扫描”→“识别文本”功能，可以将矢量图形再转成文字。
 
-![使用Adobe Acrobat识别文本](https://s2.ax1x.com/2020/01/21/1kmxpR.png)
+![使用Adobe Acrobat识别文本](https://file.moetu.org/images/2020/02/20/ded5cafe5f87b2668ff583651690a8f279f62478712ebf41.png)
 
 目前为止，大部分的需求都已经解决了——下载、打印、复制文本。但是，还有一些问题：有些标准在该网站中仅可在线阅读，即强制性国家标准中的采标（注：采用了国际国外组织标准并转化为我国的国标）和推荐性国家标准中的非采标。而推荐性国家标准中的采标在该网站上连在线阅读也没有，不过我个人认为这种标准直接去找采用的国际标准原文比较好。对于仅可在线阅读的标准，那就需要进一步的操作了。
 
@@ -74,7 +74,7 @@ nginx的下载和配置比较简单，直接从官网上下载压缩包，解压
 
 尝试在浏览器中打开该网站的在线预览页面，如果顺利打开，说明配置可能成功了。如果不放心，可以试试用其他的swf文件代替“FileOpen.swf”，然后打开页面查看Flash文件是否真的被替换了。
 
-![修改后的页面，用于测试设置是否正确](https://s2.ax1x.com/2020/01/21/1knP0O.png)
+![修改后的页面，用于测试设置是否正确](https://file.moetu.org/images/2020/02/20/a64f2381ad6cd320a834c0a247af40a2f77bb9b7c77ccb89.png)
 
 配置成功后，下一步就可以修改Flash文件了。由于Flash文件是编译后的文件，因此需要对其进行反编译。此处使用的软件是“JPEXS Free Flash Decompiler”，该软件是免费开源软件，可在GitHub下载（地址：<https://github.com/jindrapetrik/jpexs-decompiler/>）。
 
@@ -140,13 +140,13 @@ setlocal_1
 
 修改完毕后，再次用浏览器打开该网站的在线预览页面，如果无误的话，页面上方的“打印”、“保存”、“选择”图标将变为可选择的状态。此时选择“打印”并保存为pdf，得到的pdf也是转换成矢量图形的pdf。
 
-![修改前（上）和修改后（下）页面上方图标状态对比](https://s2.ax1x.com/2020/01/21/1kni7D.png)
+![修改前（上）和修改后（下）页面上方图标状态对比](https://file.moetu.org/images/2020/02/20/20cc2e19d47bbcd31f5e6992870a8a47d9f356e52575083d.png)
 
 ## 4
 
 折腾了半天，当我准备这篇文章的时候，我才发现原来这个网站为手机提供了阅读器。由于手机上没有Flash播放器，因此这个阅读器是拿JavaScript写的。于是事情就变得简单了起来——Chrome调试JavaScript还是很方便的。简单扒拉了一下代码之后，我找到了突破口：pdf阅读器自带了“download()”函数，直接调用就行了。
 
-仍然是用浏览器打开在线预览页面，按<kbd>F12</kbd>或<kbd>Ctrl + Shift + I</kbd>调出开发者工具，然后在选中左上角的手机图标（![图标\|none](https://s2.ax1x.com/2020/01/21/1knAtH.png)），再刷新页面。此时蓝色的阅读器会变成黑色的阅读器，等待页面全部加载完毕后，在“Console”选项卡中输入如下代码并回车：
+仍然是用浏览器打开在线预览页面，按<kbd>F12</kbd>或<kbd>Ctrl + Shift + I</kbd>调出开发者工具，然后在选中左上角的手机图标（![图标\|none](https://file.moetu.org/images/2020/02/20/05bc9ef7f397e34f955dcbf1203d9cfb7039fdcffd489b25.png)），再刷新页面。此时蓝色的阅读器会变成黑色的阅读器，等待页面全部加载完毕后，在“Console”选项卡中输入如下代码并回车：
 
 ```javascript
 PDFViewerApplication.download();
@@ -154,7 +154,7 @@ PDFViewerApplication.download();
 
 然后浏览器就会自动下载pdf文件。
 
-![一行JavaScript实现下载](https://s2.ax1x.com/2020/01/21/1knkAe.png)
+![一行JavaScript实现下载](https://file.moetu.org/images/2020/02/20/697d7f7e79324368cff42368a6b9d1ef8d1e8aa58827fcf3.png)
 
 ## 5
 

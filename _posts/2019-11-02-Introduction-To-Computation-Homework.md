@@ -1,6 +1,6 @@
 ---
 date: 2019-11-02 12:00
-headImage: https://s2.ax1x.com/2019/11/02/KLPt56.gif
+headImage: https://file.moetu.org/images/2020/02/20/5a25ca9b361d920fa31d44c3aea248430962aa4095a771ab.gif
 last_modified_at: 2020-01-03 23:02
 math: true
 tags: 学习资料 编程 作业 三次元
@@ -218,7 +218,7 @@ int main() {
 ##### 描述
 给定一个row行col列的整数数组array，要求从array[0][0]元素开始，按回形从外向内顺时针顺序遍历整个数组。如<a class="xref-figure" href="#figure-KLPt56.gif"></a> 所示：
 
-![“二维数组回形遍历”参考图\|275px](https://s2.ax1x.com/2019/11/02/KLPt56.gif)
+![“二维数组回形遍历”参考图\|275px](https://file.moetu.org/images/2020/02/20/5a25ca9b361d920fa31d44c3aea248430962aa4095a771ab.gif)
 
 ##### 关于输入
 输入的第一行上有两个整数，依次为row和col。
@@ -700,7 +700,7 @@ int main() {
 ##### 描述
 去年阿福做了一个填充数组的任务，至今自己还津津乐道。现在他又遇到了一个相似的问题，跟去年的有那么一点像。可是他平时光顾着自己吹牛，却忘记了那个问题当时是怎么解决的，想请你帮忙回忆一下，到底该怎么做呢？问题如下：以<a class="xref-figure" href="#figure-KLPyVI.png"></a>所示的顺序遍历给定的数组。
 
-![“展开数组”参考图](https://s2.ax1x.com/2019/11/02/KLPyVI.png)
+![“展开数组”参考图](https://file.moetu.org/images/2020/02/20/201889fea5e226c49c6d025ed967693281df35f0a779157f.png)
 
 ##### 关于输入
 输入的第一行上有两个整数，依次为row和col。
@@ -2201,7 +2201,7 @@ int main() {
 </table>
 
 #### (4) 冒泡排序
-![冒泡排序示意图](https://upload.wikimedia.org/wikipedia/commons/3/37/Bubble_sort_animation.gif)
+![冒泡排序示意图](https://file.moetu.org/images/2020/02/20/e164c2436ed5486ed13e54135a1d009a176cb6959d8e9e06.gif)
 
 ##### 说明
 **冒泡排序**（英语：Bubble Sort）是一种简单的排序算法。它重复地走访过要排序的数列，一次比较两个元素，如果他们的顺序错误就把他们交换过来。走访数列的工作是重复地进行直到没有再需要交换，也就是说该数列已经排序完成。这个算法的名字由来是因为越小的元素会经由交换慢慢“浮”到数列的顶端。
@@ -2242,7 +2242,7 @@ Array.prototype.bubble_sort = function() {
 ```
 
 #### (5) 选择排序
-![选择排序示意图\|100px](https://upload.wikimedia.org/wikipedia/commons/9/94/Selection-Sort-Animation.gif)
+![选择排序示意图\|100px](https://file.moetu.org/images/2020/02/20/f20b8898585b3ca03843d93ce2c35a681ae85bea1727edee.gif)
 
 ##### 说明
 **选择排序**（英语：Selection sort）是一种简单直观的排序算法。它的工作原理如下。首先在未排序序列中找到最小（大）元素，存放到排序序列的起始位置，然后，再从剩余未排序元素中继续寻找最小（大）元素，然后放到已排序序列的末尾。以此类推，直到所有元素均排序完毕。
@@ -2286,7 +2286,7 @@ Array.prototype.selection_sort = function() {
 ```
 
 #### (6) 插入排序
-![插入排序示意图](https://upload.wikimedia.org/wikipedia/commons/0/0f/Insertion-sort-example-300px.gif)
+![插入排序示意图](https://file.moetu.org/images/2020/02/20/6e67d1c722106442b422ee53e98575b3ed774ec00e4c0c53.gif)
 
 ##### 说明
 **插入排序**（英语：Insertion Sort）是一种简单直观的排序算法。它的工作原理是通过构建有序序列，对于未排序数据，在已排序序列中从后向前扫描，找到相应位置并插入。插入排序在实现上，通常采用in-place排序（即只需用到 $$O(1)$$ 的额外空间的排序），因而在从后向前扫描过程中，需要反复把已排序元素逐步向后挪位，为最新元素提供插入空间。
@@ -2572,9 +2572,9 @@ int main()
 
 ### 3. [例题(15.3) 汉诺塔](http://www.pkupc.cn/programming/problem/5f2560c51bf740a28cdaf07a2fbedfea/show.do)
 <figure>
-    <img alt="“汉诺塔”参考图(a)\|322px" src="https://s2.ax1x.com/2019/11/02/KLVaGt.gif">
+    <img alt="“汉诺塔”参考图(a)\|322px" src="https://file.moetu.org/images/2020/02/20/7f741101e9bae2aa0a2525b1452bfe80ac1fbc00d4f3d6a0.gif">
     <div class="figure-number">(a)</div>
-    <img alt="“汉诺塔”参考图(b)\|318px" src="https://s2.ax1x.com/2019/11/02/KLVUPI.gif">
+    <img alt="“汉诺塔”参考图(b)\|318px" src="https://file.moetu.org/images/2020/02/20/9a79963d10d24ce5518c314c828440c53fed062081568217.gif">
     <div class="figure-number">(b)</div>
     <figcaption class="caption-figure" id="figure-han-nuo-ta">“汉诺塔”参考图</figcaption>
 </figure>

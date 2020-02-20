@@ -1,6 +1,6 @@
 ---
 date: 2019-05-25 14:02
-headImage: https://s2.ax1x.com/2019/10/05/uso6P0.png
+headImage: https://file.moetu.org/images/2020/02/20/ea55016f1be6d264fbbbcf2c17f7e3ca0726e7d160e6222b.png
 infoBox: incomplete formula
 last_modified_at: 2020-01-07 14:59
 math: true
@@ -297,7 +297,7 @@ title: 《环境工程学一》知识点整理
 - 机械除尘器通常指利用质量力（重力、惯性力和离心力等）的作用使颗粒物与气流分离的装置。
 
 #### 4.1.1 重力沉降室
-![简单的重力沉降室](https://s2.ax1x.com/2019/10/05/uso6P0.png)
+![简单的重力沉降室](https://file.moetu.org/images/2020/02/20/ea55016f1be6d264fbbbcf2c17f7e3ca0726e7d160e6222b.png)
 
 - 重力沉降室是通过重力作用使尘粒从气流中沉降分离的除尘装置。含尘气流进入重力沉降室后，由于扩大了流动截面积而使气体流速大大降低，使较重颗粒在重力作用下缓慢向灰斗沉降。
 - 层流式重力沉降室：
@@ -328,7 +328,7 @@ title: 《环境工程学一》知识点整理
   - 一般只用于多级除尘中的第一级除尘。
 
 #### 4.1.3 旋风除尘器
-![普通旋风除尘器的结构及内部气流](https://s2.ax1x.com/2019/10/05/usog2T.png)
+![普通旋风除尘器的结构及内部气流](https://file.moetu.org/images/2020/02/20/621b2b7fc32fa183ad6fda1ea0f24f37c6ac3b9936b25c78.png)
 
 - 旋风除尘器是利用旋转气流产生的离心力使尘粒从气流中分离的装置，具有结构简单、应用广泛、种类繁多等特点。
 - 气流与尘粒的运动：

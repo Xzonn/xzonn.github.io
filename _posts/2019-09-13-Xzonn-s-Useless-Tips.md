@@ -27,7 +27,7 @@ jQuery("*").unbind();
 
 敲回车确认之后再尝试能否复制。
 
-如果还是无法复制，那就需要尝试从源代码进行突破。在控制台界面的左上方选择<img src="https://i.loli.net/2019/09/15/xhS4ZTcPKRgk2wz.gif" class="imageIcon" />（选中后图标会变成蓝色），然后再点击想要复制文字的区域（当鼠标移动到区域上时，该区域会被蓝色覆盖）。此时控制台的选项卡会自动切换到“`Elements`”，需要重新回到“`Console`”选项卡，输入：
+如果还是无法复制，那就需要尝试从源代码进行突破。在控制台界面的左上方选择<img src="https://file.moetu.org/images/2020/02/20/c29d3781ac68c92f9d3de4e952eeb7236780bb5f4a170de0.gif" class="imageIcon" />（选中后图标会变成蓝色），然后再点击想要复制文字的区域（当鼠标移动到区域上时，该区域会被蓝色覆盖）。此时控制台的选项卡会自动切换到“`Elements`”，需要重新回到“`Console`”选项卡，输入：
 
 ```javascript
 console.log($0.innerText);

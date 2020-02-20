@@ -1,6 +1,6 @@
 ---
 date: 2017-11-06 12:00
-headImage: http://wx2.sinaimg.cn/large/63368e3fly1fl7hn7sx19j20yi0n2tai.jpg
+headImage: https://file.moetu.org/images/2020/02/20/93dcd54dc6f1f4966ecd5e509d2eecdfb8a902e1a7ed9d4a.png
 infoBox: complete
 last_modified_at: 2020-01-03 23:23
 math: true
@@ -9,7 +9,7 @@ title: 《计算概论》知识点整理
 ---
 ## 一、硬件和软件
 ### 1. 计算机系统组成
-![计算机系统组成](http://wx2.sinaimg.cn/large/63368e3fly1fl7hn7sx19j20yi0n2tai.jpg)
+![计算机系统组成](https://file.moetu.org/images/2020/02/20/93dcd54dc6f1f4966ecd5e509d2eecdfb8a902e1a7ed9d4a.png)
 
 ### 2. 计算机发展的几个阶段
 <table class="text-center table">
@@ -30,7 +30,7 @@ title: 《计算概论》知识点整理
   * 计算机硬件设备由存储器、运算器、控制器、输入设备和输出设备5部分组成。
   * 存储程序思想——把计算过程描述为由许多命令按一定顺序组成的程序，然后把程序和数据一起输入计算机，计算机对已存入的程序和数据处理后，输出结果。
 
-![冯·诺依曼理论](http://wx4.sinaimg.cn/large/63368e3fly1fl7hn8v0fzj214i0mmwil.jpg)
+![冯·诺依曼理论](https://file.moetu.org/images/2020/02/20/7ff0197ed5c93c10fc9c293d13d6e9213436f60463712a0c.png)
 
 ### 4. CPU
 * 主频：指计算机主时钟在一秒钟内发出的脉冲数，在很大程度上决定了计算机的运算速度。单位为MHz。
@@ -53,7 +53,7 @@ title: 《计算概论》知识点整理
 * 微型机的存储器用来存放程序和数据，存储器容量的大小、存取数据速度的快慢将直接影响到微型机系统的性能。
 * 优盘：EEPROM。
 
-![存储器](http://wx2.sinaimg.cn/large/63368e3fly1fl7hn8akc6j210x0icjsf.jpg)
+![存储器](https://file.moetu.org/images/2020/02/20/976961e6d880cbf2b576e059200ca6a4d2faa40050e8cee7.png)
 
 ### 6. 总线
 * 按功能和传输信息的种类分为：
@@ -83,7 +83,7 @@ title: 《计算概论》知识点整理
   * 环型拓扑结构：是将网络节点连接成闭合结构。信号顺着一个方向从一台设备传到另一台设备，每一台设备都配有一个收发器，信息在每台设备上的延时时间是固定的。特别适用于实时控制的局域网系统。
 
 ### 2. 局域网的连接
-![局域网的连接](http://wx4.sinaimg.cn/large/63368e3fly1fl7hnmwaq4j208f052mx7.jpg)
+![局域网的连接](https://file.moetu.org/images/2020/02/20/04c0899f29efea556ad42337e289d7c1d1a11952dce027f5.png)
 
 ### 3. OSI的七层体系结构
 <table class="table">
@@ -110,16 +110,16 @@ title: 《计算概论》知识点整理
   * 应用层
 * 传输层协议
   * UDP（User Datagram Protocol）→FTP：无连接消息传送协议，类似邮局传送邮件；数据丢失不处理
-  * TCP（Transmission Control Protocol）：有连接的流传送协议；建立连接3次握手，关闭连接4次握手![TCP\|1.5](http://wx4.sinaimg.cn/large/63368e3fly1fl7hna5gj7j216q09xdh5.jpg)
+  * TCP（Transmission Control Protocol）：有连接的流传送协议；建立连接3次握手，关闭连接4次握手![TCP\|1.5](https://file.moetu.org/images/2020/02/20/8f3486a1cbc60c021bed7ea281994fa6aee6098518df0c9c.png)
 * TCP/IP功能
 
-![TCP/IP网络协议](http://wx3.sinaimg.cn/large/63368e3fly1fl7hn9h1ydj20pd0e0jrt.jpg)
+![TCP/IP网络协议](https://file.moetu.org/images/2020/02/20/925013653ec0a504f76f033b9c4075860985358674fc8e6b.png)
 
 ## 三、信息存储与管理
 ### 1. 十进制数转换成二进制数（整数）
 * 把十进制数转换为二进制数的方法是：整数转换用“除2取余法”；小数转换用“乘2取整法”。
 
-![十进制数转换成二进制数（整数）](http://wx4.sinaimg.cn/large/63368e3fly1fl7hnan59vj20d709t0td.jpg)
+![十进制数转换成二进制数（整数）](https://file.moetu.org/images/2020/02/20/0734c17f59410083bbfcc8a2554bb9e89da4c6d4605ba8d9.png)
 
 ### 2. 十进制数转换成二进制数（小数）
 * 将0.745<sub>10</sub>转换成四位二进制小数，转换过程如下：

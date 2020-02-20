@@ -1,7 +1,7 @@
 ---
 css: bilibili
 date: 2018-12-09 12:00
-headImage: https://pku-cese-su.github.io/xcb/images/2018-129-Week-7.png
+headImage: https://file.moetu.org/images/2020/02/20/380c25e4c978a1229001e891505e956b061ffffd04c27e3f.png
 info: 你看，那颗星。
 js: bilibili
 last_modified_at: 2020-02-14 13:27
@@ -18,7 +18,7 @@ title: 2018 年“一二·九”笔记
 
 当然，作为老腊肉的我也不能完全成为咸鱼。因为不想看到千篇一律的网络图片做封面，我决定用每次拍摄的照片作为封面。当然，直接用大家的照片做封面有点奇怪，因此我对每次的照片都加了一个“高斯模糊”的滤镜，然后加上了环院历史双方的院（系）徽和“第Ｘ周排练手记”。为了传播正能量，我特意在每次选照片时都选择人物认真唱歌的场景。谨向成为封面担当的同学表示感谢。
 
-> * 做封面的契机其实是我为了证明自己用相机对不好焦距而故意在拍照的时候对焦在了乐谱上（参见[这张照片](https://pku-cese-su.github.io/xcb/images/2018-129-Week-1.png)），然而我觉得这张照片挺有意境，因此就拿来做封面了。
+> * 做封面的契机其实是我为了证明自己用相机对不好焦距而故意在拍照的时候对焦在了乐谱上（参见[这张照片](https://file.moetu.org/images/2020/02/20/6ee3ed141affa27de41298465a7c820321b4cafca1da9bf3.png)），然而我觉得这张照片挺有意境，因此就拿来做封面了。
 > * 第二周的照片我本来想用某位女同学的照片作为封面，但是因为上周推送结尾出现过她，因此我就改成了用几个男生的照片做封面。然后不知为何就变成了男生女生交替出现的情况。
 > * 第五周的照片我本来是说好另一位女同学的照片作为封面，但是因为她是这次推送的选照片担当，因此我就改成了用钢伴小姐姐做封面。
 
@@ -26,13 +26,13 @@ title: 2018 年“一二·九”笔记
 
 | 周次 | 封面 | 责编 |
 | :--: | :--: | :--: |
-| 一 | <a href="https://mp.weixin.qq.com/s/TBqMXXKzVXB4rT0zIH8Qcw"><img alt="第一周" src="https://pku-cese-su.github.io/xcb/images/2018-129-Week-1.png" data-disp="auto" width="240"></a> | 蒋徐琳 |
-| 二 | <a href="https://mp.weixin.qq.com/s/Jkn-7471U5V-w8P24_OHpQ"><img alt="第二周" src="https://pku-cese-su.github.io/xcb/images/2018-129-Week-2.png" data-disp="auto" width="240"></a> | 孟瑶<br>田嘉慧 |
-| 三 | <a href="https://mp.weixin.qq.com/s/YSHzacI2SFjeuxomhoHeaQ"><img alt="第三周" src="https://pku-cese-su.github.io/xcb/images/2018-129-Week-3.png" data-disp="auto" width="240"></a> | 万子超 |
-| 四 | <a href="https://mp.weixin.qq.com/s/01jP0PizKEZQTpQ0bV52Xw"><img alt="第四周" src="https://pku-cese-su.github.io/xcb/images/2018-129-Week-4.png" data-disp="auto" width="240"></a> | 张荣凯<br>于欣然 |
-| 五 | <a href="https://mp.weixin.qq.com/s/TfYT38a20AXFVNEDPz-RSQ"><img alt="第五周" src="https://pku-cese-su.github.io/xcb/images/2018-129-Week-5.png" data-disp="auto" width="240"></a> | 肖逸龙<br>张淑婕 |
-| 六 | <a href="https://mp.weixin.qq.com/s/tpJ5sjUJrak8RNpqwWIfTw"><img alt="第六周" src="https://pku-cese-su.github.io/xcb/images/2018-129-Week-6.png" data-disp="auto" width="240"></a> | 李天泽<br>刘瑰琦 |
-| 七 | <a href="https://mp.weixin.qq.com/s/Q5LcDaIs26cvvpVoso2kww"><img alt="第七周" src="https://pku-cese-su.github.io/xcb/images/2018-129-Week-7.png" data-disp="auto" width="240"></a> | 陈婷 |
+| 一 | <a href="https://mp.weixin.qq.com/s/TBqMXXKzVXB4rT0zIH8Qcw"><img alt="第一周" src="https://file.moetu.org/images/2020/02/20/6ee3ed141affa27de41298465a7c820321b4cafca1da9bf3.png" data-disp="auto" width="240"></a> | 蒋徐琳 |
+| 二 | <a href="https://mp.weixin.qq.com/s/Jkn-7471U5V-w8P24_OHpQ"><img alt="第二周" src="https://file.moetu.org/images/2020/02/20/cd06221173411119d0af1de746fea084717b0df0336764d1.png" data-disp="auto" width="240"></a> | 孟瑶<br>田嘉慧 |
+| 三 | <a href="https://mp.weixin.qq.com/s/YSHzacI2SFjeuxomhoHeaQ"><img alt="第三周" src="https://file.moetu.org/images/2020/02/20/bc9e55053fba2a548355362f4bee6cbb1c2b51b4c1909a9c.png" data-disp="auto" width="240"></a> | 万子超 |
+| 四 | <a href="https://mp.weixin.qq.com/s/01jP0PizKEZQTpQ0bV52Xw"><img alt="第四周" src="https://file.moetu.org/images/2020/02/20/225e47f38fbc8918b6b34d022b13e8734db1b4e358f6a744.png" data-disp="auto" width="240"></a> | 张荣凯<br>于欣然 |
+| 五 | <a href="https://mp.weixin.qq.com/s/TfYT38a20AXFVNEDPz-RSQ"><img alt="第五周" src="https://file.moetu.org/images/2020/02/20/f559f0adbf2fbea8d28a8562003f8b36d2e8a871672e721e.png" data-disp="auto" width="240"></a> | 肖逸龙<br>张淑婕 |
+| 六 | <a href="https://mp.weixin.qq.com/s/tpJ5sjUJrak8RNpqwWIfTw"><img alt="第六周" src="https://file.moetu.org/images/2020/02/20/578739919863b0718b6c6d3ec9d317937eba4dac1c7a09b6.png" data-disp="auto" width="240"></a> | 李天泽<br>刘瑰琦 |
+| 七 | <a href="https://mp.weixin.qq.com/s/Q5LcDaIs26cvvpVoso2kww"><img alt="第七周" src="https://file.moetu.org/images/2020/02/20/380c25e4c978a1229001e891505e956b061ffffd04c27e3f.png" data-disp="auto" width="240"></a> | 陈婷 |
 
 ## 2 视频
 一二·九的视频一向是宣传部最重要的任务。而剪视频也是我一贯的爱好。今年的视频大概有以下几个：

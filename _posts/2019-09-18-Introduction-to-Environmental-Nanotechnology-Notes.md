@@ -1,6 +1,6 @@
 ---
 date: 2019-09-18 12:00
-headImage: https://s2.ax1x.com/2019/11/27/QCnopF.png
+headImage: https://file.moetu.org/images/2020/02/20/8fa2195112718746f3907fc629611ee0b6d1b68a445cb8f3.png
 info: 本资料是2019年秋季学期《环境纳米技术导论》的资料整理，主讲老师为刘文。
 infoBox: incomplete
 last_modified_at: 2020-01-05 22:48
@@ -112,7 +112,7 @@ title: 《环境纳米技术导论》知识点整理
 ### 1.2. 尺度
 - <span class="importance-1"></span>常见微观尺度物质：<a class="xref-figure" href="#figure-QCnopF.png"></a>。
 
-![常见微观尺度物质](https://s2.ax1x.com/2019/11/27/QCnopF.png)
+![常见微观尺度物质](https://file.moetu.org/images/2020/02/20/8fa2195112718746f3907fc629611ee0b6d1b68a445cb8f3.png)
 
 - <span class="importance-1"></span>纳米科学的基本概念：
   - 纳米科学与技术实际上就是在原子层次上认识世界。
@@ -166,7 +166,7 @@ title: 《环境纳米技术导论》知识点整理
 <table class="table-figure">
     <tbody>
         <tr>
-            <td><img src="https://s2.ax1x.com/2019/11/27/QCnL01.png" alt="禁带、导带、价带" data-size="x130px" /></td>
+            <td><img src="https://file.moetu.org/images/2020/02/20/2a1b5684dfffa0740ce87226488990f6c7c76c3258f75734.png" alt="禁带、导带、价带" data-size="x130px" /></td>
             <td><img src="/images/ItEN-02-02.svg" alt="根据禁带区分绝缘体、半导体和导体" data-size="x130px" /></td>
         </tr>
     </tbody>
@@ -195,7 +195,7 @@ title: 《环境纳米技术导论》知识点整理
   - 放大：以零维、一维、二维等低维材料作为结构单元构建微观尺寸的分级结构材料，进而讨论材料的微纳米协同效应。
   - 自然界中有很多微/纳米分级结构的例子，如蝴蝶翅膀、壁虎脚、荷叶、蜘蛛丝、肾小球膜、犰狳壳等。这些纳米材料显示出优异的摩擦、粘附、润湿、增透、过滤、增韧等性能。
 
-![自上而下：环境问题及环境纳米学科。](https://s2.ax1x.com/2019/11/27/QCu96H.png)
+![自上而下：环境问题及环境纳米学科。](https://file.moetu.org/images/2020/02/20/66d61d3b53642276d2e07afca1a5161a520fb7af12ce338b.png)
 
 - <span class="importance-1"></span>纳米技术的哲学理念——架构：
   - 从上而下：是指通过微加工或固态技术，不断在尺寸上将人类创造的功能产品微型化。*＜自上而下的思想导致了资源利用的不充分，从而导致了废弃物的产生。＞*
@@ -461,9 +461,9 @@ title: 《环境纳米技术导论》知识点整理
 <table class="table-figure">
     <tbody>
         <tr>
-            <td><img src="https://s2.ax1x.com/2019/12/02/Qujs2D.gif" alt="立方体6个面中心的坐标" data-size="x130px" /></td>
-            <td><img src="https://s2.ax1x.com/2019/12/02/QujIG8.gif" alt="晶向指数的确定" data-size="x130px" /></td>
-            <td><img src="https://s2.ax1x.com/2019/12/02/QujjI0.gif" alt="晶面指数的确定" data-size="x130px" /></td>
+            <td><img src="https://file.moetu.org/images/2020/02/20/3750453022087d84de6f2d0d2b3ebb3d07d2cb1b415238c6.gif" alt="立方体6个面中心的坐标" data-size="x130px" /></td>
+            <td><img src="https://file.moetu.org/images/2020/02/20/e55d5b11be600157708ab18ef6d907690d9e76acf2359ca8.gif" alt="晶向指数的确定" data-size="x130px" /></td>
+            <td><img src="https://file.moetu.org/images/2020/02/20/df0ae27378f7a5bf83573047c4ddbf045bea2c0298420a90.gif" alt="晶面指数的确定" data-size="x130px" /></td>
         </tr>
     </tbody>
 </table>
@@ -807,7 +807,7 @@ title: 《环境纳米技术导论》知识点整理
 - <span class="importance-2"></span>吸附等温线：吸附剂的表面是不均匀的，被吸附的分子和吸附剂表面分子之间，被吸附的各分子之间的作用力各不相等，吸附等温线的形状也不相同。
   - IV类吸附等温线：*＜存在迟滞回环（吸附和解吸附曲线不完全重合），表明材料是介孔材料。＞*可以认为是由于产生毛细管凝结现象所致。
 
-![IV类吸附等温线\|261px](https://s2.ax1x.com/2020/01/02/lYZ79K.png)
+![IV类吸附等温线\|261px](https://file.moetu.org/images/2020/02/20/3d23327f2167105b97c630ae3b5a9ea74de007c51edb8692.png)
 
 ### 5.5. 吸附等温式
 
@@ -957,7 +957,7 @@ title: 《环境纳米技术导论》知识点整理
 
 ![常用半导体的能带宽度和能带边缘电位示意图（pH = 0）](/images/ItEN-06-03.svg)
 
-![半导体光催化基本原理](https://s2.ax1x.com/2019/12/03/QMjlPP.png)
+![半导体光催化基本原理](https://file.moetu.org/images/2020/02/20/1dd3b08cdb46dac7104a6920a9d3ae522b40f525835205b3.png)
 
 - 半导体光催化基本原理：
   - 发生过程：<a class="xref-figure" href="#figure-QMjlPP.png"></a>。
@@ -1308,7 +1308,7 @@ title: 《环境纳米技术导论》知识点整理
     - 限速步骤：$$\ce{CoOH+ + HSO5- -> CoO+ + SO4^.- + H2O}$$。
     - 关键步骤：$$\ce{Co^3+ + HSO5- -> Co^2+ + SO5^.- + H2O}$$。
 
-![钴离子均相催化机理\|315px](https://i.postimg.cc/KjcTxfMc/image.gif)
+![钴离子均相催化机理\|315px](https://file.moetu.org/images/2020/02/20/96f40961bdbffc94a24fe7a8306dbd559aee1d270e184df5.gif)
 
 - 总结：
   - 通过钴系催化剂活化过硫酸盐产生硫酸根自由基的高级氧化技术是一种新兴的降解有机污染物的方法。该方法无毒、高效、经济且环境友好。

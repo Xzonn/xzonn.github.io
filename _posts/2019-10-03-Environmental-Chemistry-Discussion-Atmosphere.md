@@ -1,7 +1,7 @@
 ---
 class: exercise
 date: 2019-10-03 12:00
-headImage: https://s2.ax1x.com/2019/10/26/KBXcuj.png
+headImage: https://file.moetu.org/images/2020/02/20/20a2eb9d36c5666c4efe6968aa9d5c7c0bf3ecd65e1c571b.png
 infoBox: incomplete
 last_modified_at: 2020-01-07 14:59
 math: true
@@ -28,7 +28,7 @@ title: 《环境化学》讨论题整理（大气部分）
 
 #### 大气各圈层的质量和能量分布特征是怎样的？尝试分析其原因。
 ##### 质量分布
-![大气质量分布\|213px](https://s2.ax1x.com/2019/10/26/KBXcuj.png)
+![大气质量分布\|213px](https://file.moetu.org/images/2020/02/20/20a2eb9d36c5666c4efe6968aa9d5c7c0bf3ecd65e1c571b.png)
 
 （见<a class="xref-figure" href="#figure-KBXcuj.png"></a>）一般认为大气层的厚度为1000 km，其中75%的质量在10 km以下的范围内，99%的质量在30 km以下的范围内，高度100 km以上空气质量仅是整个大气圈质量的百万分之一。
 
@@ -37,7 +37,7 @@ title: 《环境化学》讨论题整理（大气部分）
 **原因**：重力使大部分气体集中在近地面处，使大气表现出底层气体密集、高层砌体分散的特点。
 
 ##### 能量分布
-![大气能量分布及物质形态分布](https://s2.ax1x.com/2019/10/26/KDZ8oT.png)
+![大气能量分布及物质形态分布](https://file.moetu.org/images/2020/02/20/7b01a60f5eaf64e28ee0dc0d5753b45015f18986ceb8443d.png)
 
 （见<a class="xref-figure" href="#figure-KDZ8oT.png"></a>）大气圈层的能量分布可用温度分布近似表示。
 
@@ -94,7 +94,7 @@ $$\tau = \cfrac {\text{大气中总量}M} {\text{输入速率}F\text{ 或 输出
     </tbody>
 </table>
 
-![大气成分变化的时空尺度](https://s2.ax1x.com/2019/10/27/KyUEcj.png)
+![大气成分变化的时空尺度](https://file.moetu.org/images/2020/02/20/48aa935a06e53198c79bc34bfa7ab16349c5622a7c43a7f6.png)
 
 **特点**：
 

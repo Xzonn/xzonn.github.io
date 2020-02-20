@@ -16,9 +16,10 @@ markdown: kramdown
 name: Xzonn 的小站
 permalink: /posts/:title.html
 plugins:
-  - jekyll-sitemap
-  - jekyll-paginate
   - jekyll-feed
+  - jekyll-paginate
+  - jekyll-redirect-from
+  - jekyll-sitemap
 timezone: Asia/Shanghai
 url: https://xzonn.github.io
 server: https://xzonn.top

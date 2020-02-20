@@ -1,6 +1,6 @@
 ---
 date: 2019-01-08 15:22
-headImage: https://s2.ax1x.com/2020/01/02/ltqFv8.png
+headImage: https://file.moetu.org/images/2020/02/20/96eceee01edb05b0e1fbb0654b2f9bcfd365aae7127f3a9e.png
 infoBox: incomplete
 last_modified_at: 2020-02-14 13:27
 math: true
@@ -70,7 +70,7 @@ title: 《环境监测》知识点整理（三）
 #### (7) 水体中各种含氮化合物是怎样相互转化的？测定各种形态的含氮化合物对评价水体污染和自净状况有何意义？
 - 迁移转化：
 
-![水体中N的迁移和转化\|600px](https://s2.ax1x.com/2020/01/02/ltqFv8.png)
+![水体中N的迁移和转化\|600px](https://file.moetu.org/images/2020/02/20/96eceee01edb05b0e1fbb0654b2f9bcfd365aae7127f3a9e.png)
 
 - 意义：通过测定各种形态的含氮化合物可以判断水体处于哪个阶段。<a class="xref-table" href="#table-han-dan-hua-he-wu-xing-shi"></a>。
 <table class="table">

@@ -103,7 +103,7 @@ title: 《环境研究方法》欺骗表单
 - 符合热力学定律: 不会凭空产生、消失。
 - 环境体系大多是开放体系：涉及穿过边界的物质流和能量流；既有能量流速率又有物质流速率。
 
-![社会环境经济系统\|120mm\|right](https://s2.ax1x.com/2020/01/11/lIfssK.png)
+![社会环境经济系统\|120mm\|right](https://file.moetu.org/images/2020/02/20/35eee37a5fb20a5fe22d959b5a71580de82614564643b4e4.png)
 
 ### 第3讲 环境系统和定量研究Ⅲ（戴翰程，201909126）
 
@@ -609,9 +609,9 @@ title: 《环境研究方法》欺骗表单
 {: .table table-3lines data-caption="欧拉模型数值求解" }
 
 
-![<i>ε</i> = 0.5\|100mm\|right](https://s2.ax1x.com/2020/01/11/lIfgde.png)
+![<i>ε</i> = 0.5\|100mm\|right](https://file.moetu.org/images/2020/02/20/f109b36c0e5aa85071ffb707f9bb7af594aef5bc7c49bb57.png)
 
-![<i>ε</i> = 1.5\|100mm\|right](https://s2.ax1x.com/2020/01/11/lIfyqO.png)
+![<i>ε</i> = 1.5\|100mm\|right](https://file.moetu.org/images/2020/02/20/03feb0237c0ae41671e6d1c20cdd5176e112bb136bf448e5.png)
 
 - - 拉格朗日模型：主要依据概率密度求解，无需参数化湍流，对非线性化学过程能力不足。常用在点源排放扩散（烟羽行为）。
     - 考虑下垫面反射，$$C(x,y) = \cfrac{Q}{\pi u_{H}\sigma_{y}\sigma_{z}}\exp\left( \cfrac{- y^{2}}{2\sigma_{y}^{2}} \right)\left[\exp\left( \cfrac{- {(z - H)}^{2}}{2\sigma_{z}^{2}} \right) + \exp\left( \cfrac{- (z + {H)}^{2}}{2\sigma_{z}^{2}} \right)\right]$$，$$\left( \cfrac{u_{H}}{u_{a}} \right) = {(\cfrac{H}{z_{a}})}^{p}$$

@@ -1,7 +1,7 @@
 ---
 class: exercise
 date: 2019-12-18 12:00
-headImage: https://s2.ax1x.com/2019/12/18/Q7exi9.gif
+headImage: https://file.moetu.org/images/2020/02/20/af2570b0e41c982d0c62f3e4bf8b5ce09723612b82f49d0b.gif
 infoBox: incomplete
 last_modified_at: 2020-02-15 13:56
 math: true
@@ -680,7 +680,7 @@ $$\ce{Cu^2+}$$ > $$\ce{Pb^2+}$$ > $$\ce{Ni^2+}$$ > $$\ce{Co^2+}$$ > $$\ce{Zn^2+}
 ##### 全球氮元素循环
 （见<a class="xref-figure" href="#figure-Q7exi9.gif"></a>）
 
-![全球氮元素循环\|365px](https://s2.ax1x.com/2019/12/18/Q7exi9.gif)
+![全球氮元素循环\|365px](https://file.moetu.org/images/2020/02/20/af2570b0e41c982d0c62f3e4bf8b5ce09723612b82f49d0b.gif)
 
 大气中存在大量的氮元素来源（3.86&nbsp;×&nbsp;10<sup>9</sup>吨），每年回到地球表面的大气氮总量为194吨，通过生物固定的氮为175吨，其中约一半是豆科作物固氮的结果。这些作物具有能从大气固氮的根部细菌——根瘤菌。固氮杆菌是根瘤菌属细菌，能独立存在，但是若不与植物共生结合就不能固氮。
 
@@ -790,7 +790,7 @@ $$\ce{[CHO*PO(OH)2]2(CHOH)4 -> } \underset{\text{环己六醇（肌醇）}}{\ce{
 ##### 全球磷元素循环
 （见<a class="xref-figure" href="#figure-Q7fDxg.gif"></a>）
 
-![全球磷元素循环\|374px](https://s2.ax1x.com/2019/12/18/Q7fDxg.gif)
+![全球磷元素循环\|374px](https://file.moetu.org/images/2020/02/20/f7aa997af54ef7ea1cf6761a44542371322cf0f7511f7e33.gif)
 
 磷是构成生物有机体的一个重要元素。磷的主要来源是磷酸盐类岩石和含磷的沉积物（如鸟粪等）。它们通过风化和采矿进入水循环，变成可溶性磷酸盐被植物吸收利用，参与原生质合成，进入食物链。以后各类生物的排泄物和尸体被磷酸盐化细菌等分解者微生物所分解，把其中的有机磷转化为无机形式的可溶性磷酸盐，接着其中的一部分再次被植物利用或形成浅海沉积物，被海鸟和鸟食入进行循环；另一部分随水流进入海洋，长期保存在深海沉积物中，结束循环。
 

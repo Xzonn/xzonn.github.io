@@ -14,9 +14,9 @@ wechatLink: https://mp.weixin.qq.com/s/DuEaIZgflV2b5yK5g0kfJA
 
 话说着，他给我发了两张截图。
 
-![PowePoint 发现内容有问题](https://s2.ax1x.com/2019/11/29/QAyKv6.png)
+![PowePoint 发现内容有问题](https://file.moetu.org/images/2020/02/20/53f4dd4e5c7173b8bb1b3092a603832812d33d60ba3ebf8a.png)
 
-![很抱歉，PowerPoint 无法读取](https://s2.ax1x.com/2019/11/29/QAyugx.png)
+![很抱歉，PowerPoint 无法读取](https://file.moetu.org/images/2020/02/20/932c4e1b92f96c7e7bbfef60dc4f84258566d7ca015f4c8e.png)
 
 光看图看不出毛病，我便问他：“要不你把这个文件发我我试试？”
 
@@ -26,7 +26,7 @@ wechatLink: https://mp.weixin.qq.com/s/DuEaIZgflV2b5yK5g0kfJA
 
 他一口答应下来，打开了 QQ。然而，我却连接不上他。我让他发个截图给我，然后打眼一看：这不是应用商店版的 QQ 么？
 
-![神奇的 QQ 界面](https://s2.ax1x.com/2019/11/29/QAWrZV.png)
+![神奇的 QQ 界面](https://file.moetu.org/images/2020/02/20/dc7e5e30a4c7f2a224e7c51aa12c61cb29c1828569109328.png)
 
 我也不想再费口舌，便说：“要不你过来找我吧，一句两句话说不清楚。对了，我刚吃完饭，有点口渴……”
 
@@ -39,18 +39,18 @@ wechatLink: https://mp.weixin.qq.com/s/DuEaIZgflV2b5yK5g0kfJA
 
 另外，其实还有一个方法，就是在地址栏中输入“%APPDATA%”然后回车，就会跳到“C:\Users\\*<当前用户名>*\AppData\Roaming”这个文件夹。
 
-![寻找 AppData](https://s2.ax1x.com/2019/11/29/QAh9n1.png)
+![寻找 AppData](https://file.moetu.org/images/2020/02/20/db816a5bcc79f47720b3e1ba75a3a0f39c99d9c374f50bb6.png)
 
 很快，我找到了这个文件。查看文件大小，13.2 MB，还算正常，应该是保存了的。至于这个文件如何打开，我还是费了一番功夫。
 
 ## 3. 改扩展名
 第一个想法就是直接改后缀名。我很容易就想到把“.tmp”改成“.pptx”，然后打开。然而，现实总是充满惊喜。
 
-![文件扩展名已更改](https://s2.ax1x.com/2019/11/29/QAhy34.png)
+![文件扩展名已更改](https://file.moetu.org/images/2020/02/20/73728a9408b63862406a6f05ce5f769dd8af811819df8d1b.png)
 
 “.pptx”不行，那就改成“.ppt”。这次虽然好像是打开了，但是卡在了修复上。
 
-![改了扩展名还是打不开的文件](https://s2.ax1x.com/2019/11/29/QA5dYT.gif)
+![改了扩展名还是打不开的文件](https://file.moetu.org/images/2020/02/20/c19454fa6ca116716870a76c2098b32c5f0924e8e82f5b29.gif)
 
 于是，我决定另辟蹊径。
 
@@ -59,13 +59,13 @@ wechatLink: https://mp.weixin.qq.com/s/DuEaIZgflV2b5yK5g0kfJA
 
 将这个文件后缀名改为“.zip”，然后尝试解压缩，果然得到了许多文件。这说明文件格式没有损坏，至少我们还能从里面抢救出图片来。图片存放的位置是“\ppt\media\”文件夹。只有图片可能不太够，如果需要幻灯片的文字内容，就要去“\ppt\slides\”文件夹找找。
 
-![解压缩 pptx 文件](https://s2.ax1x.com/2019/11/29/QAILr9.png)
+![解压缩 pptx 文件](https://file.moetu.org/images/2020/02/20/7597120be2a238743134cd56647c649b8870ca80007afb52.png)
 
 当然，我还是希望能尽量把这个文件恢复到原来的样子。虽然理论上来说我可以查阅文档来了解它的内部结构，但是似乎时间不是很充足了。我决定司马当活马医，再拆一个 PPT，然后把这个 PPT 的所有幻灯片移过去。
 
 我从小弟那里要来了他做这个 PPT 使用的模板，将其后缀名也改为了“.zip”并解压缩。然后，我把错误文件中拆出来的“\ppt\”文件夹下的“media”“notesSlides”“slides”三个文件夹的内容移动到了模板文件中拆出来的对应文件位置，然后重新打包，改后缀名为“.pptx”，打开。振奋人心的事情发生了：它复活了，好像从来没有离开过一样。
 
-![焕然一新的 PPT](https://s2.ax1x.com/2019/11/29/QA7Sje.png)
+![焕然一新的 PPT](https://file.moetu.org/images/2020/02/20/ccd6448c884d387bb952af24f6448fb6655d8eb65f0c3ae1.png)
 
 当然，仔细一看还是有点问题的。距小弟说，这个 PPT 原本有 30 多页，现在只有 19 页了。我返回去看了一下模板，发现模板的页数正是 19 页。这好办，我把模板后面添加了十几张空白页，保存之后又操作了一遍。这次，这个 PPT 才是真正焕发了新生。
 
