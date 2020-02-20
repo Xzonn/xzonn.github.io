@@ -5,6 +5,8 @@
 
 .bilibiliBox {
     position: relative;
+    clear: both;
+    margin: 0.6em auto;
     height: calc(1.8em + 2px);
     max-width: 640px;
     border-color: var(--color-warm-dark);
@@ -13,20 +15,19 @@
     border-radius: 10px 0 10px 0;
     background-color: #FFF;
     text-align: center;
-    margin: 0.6em auto;
 }
 
 .bilibiliTitle {
     display: block;
     overflow: hidden;
     margin: 0 3em;
+    color: #00A1D6;
     text-overflow: ellipsis;
     white-space: nowrap;
 }
 
 .bilibiliTitle:before {
     margin-right: 0.5em;
-    color: #00A1D6;
     content: '\E668';
     font-family: bilibili;
 }
@@ -47,6 +48,7 @@
 
 .bilibiliVideo {
     display: none;
+    border: none;
 }
 
 .bilibiliBoxShow {
