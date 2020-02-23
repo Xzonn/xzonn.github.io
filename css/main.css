@@ -57,10 +57,6 @@ figcaption::before, .caption-figure::before {
     text-decoration: none;
 }
 
-.list-endnote a {
-    word-break: break-all;
-}
-
 /* 自定义版式 */
 .xz-header {
     user-select: none;
@@ -190,6 +186,10 @@ figcaption::before, .caption-figure::before {
     margin-top: 0 !important;
 }
 
+.xz-content-main article a {
+    word-break: break-all;
+}
+
 .xz-fake-bookmark {
     position: absolute;
     margin-top: -80px;
@@ -224,6 +224,11 @@ figcaption::before, .caption-figure::before {
     content: "";
 }
 
+/* 备用样式 */
+.xz-table-infobox-title {
+    font-size: 1.6rem;
+}
+
 @media screen and (min-width: 992px) {
     .xz-content-main {
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
@@ -231,6 +236,14 @@ figcaption::before, .caption-figure::before {
 
     .xz-footer {
         margin-top: 60px;
+    }
+
+    /* 备用样式 */
+
+    .xz-table-infobox {
+        float: right;
+        width: 40%;
+        margin-left: 1rem;
     }
 }
 

@@ -73,10 +73,7 @@ $(function () {
     });
 
     /* 表格 */
-    $(".xz-content-main article > table").each(function () {
-        if (this.classList.contains("no-table")) {
-            return;
-        }
+    $(".xz-content-main article > table:not(.no-table)").each(function () {
         $(this).addClass("table");
         if (!$(this).parentsUntil(".xz-content-main article").find("div.table-responsive").length) {
             $(this).wrap($("<div/>").addClass("table-responsive"));
