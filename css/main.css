@@ -178,6 +178,10 @@ figcaption::before, .caption-figure::before {
     max-width: 100%;
 }
 
+.xz-content-main article > .row {
+    max-width: initial;
+}
+
 .xz-content-main article > *:last-child {
     margin-bottom: 0 !important;
 }
@@ -243,6 +247,18 @@ figcaption::before, .caption-figure::before {
     .xz-table-infobox {
         float: right;
         width: 40%;
+        margin-left: 1rem;
+    }
+
+    figure.figure-left {
+        float: left;
+        clear: left;
+        margin-right: 1rem;
+    }
+    
+    figure.figure-right {
+        float: right;
+        clear: right;
         margin-left: 1rem;
     }
 }
