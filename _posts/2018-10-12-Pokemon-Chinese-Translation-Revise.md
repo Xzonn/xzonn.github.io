@@ -1,47 +1,21 @@
 ---
 date: 2018-10-12 12:00
+headImage: https://file.moetu.org/images/2020/02/23/efdd474ffac175997868fa704bdc063e1f4ad7cdd56b9c40.jpg
+info: 目前本项目已建立了独立的分区，发布汉化工具、汉化补丁、汉化文本，请移步该分区。
 infoBox: pokemon
-last_modified_at: 2020-02-17 22:20
+last_modified_at: 2020-02-27 16:55
+noComment: true
 tags: 精灵宝可梦 二次元 作品发布
-title: NDS《精灵宝可梦 白金》汉化修正
+title: 《精灵宝可梦》第四世代汉化修正
 ---
-## 1 说明
-2016年对于《精灵宝可梦》系列的中文玩家来说是非常重要的一年，在这一年的2月26日，官方首次公布了《精灵宝可梦》系列对应简体中文和繁体中文的消息。随着首个官方中文游戏《精灵宝可梦 太阳／月亮》的发布，“口袋妖怪”世代成为了过去，<span lang="ja">ポケットモンスター</span>的正式名称已经确定为“精灵宝可梦”。
+目前本项目已建立了独立的分区，发布汉化工具、汉化补丁、汉化文本，请移步该分区。
 
-由于官方中文化确定了宝可梦、招式、道具、特性等许多名词的译名，因此，为使官方译名更加深入人心，同时为中文玩家在游玩“口袋妖怪”时代的爱好者汉化作品时能够方便地查找资料，本人对<span lang="ja">『**ポケットモンスター プラチナ**』</span>（参考译名：《**精灵宝可梦 白金**》）原汉化版的译名进行了修正，并发布于此。
+**[→ 新发布页地址 ←](/PokemonChineseTranslationRevise/)**
+{: .text-center style="font-size: 1.5rem;" }
 
-## 2 修改内容
-修改内容如下：
+**[→ GitHub地址 ←](https://github.com/Xzonn/PokemonChineseTranslationRevise/)**
+{: .text-center style="font-size: 1.5rem;" }
 
-* 对宝可梦、招式、道具、特性的名字、介绍等修改为官方文本。其中部分特性介绍的官方文本较长，本人对其进行了缩减。
-* 对一部分人物的名字修改为官方译名，其中未在游戏中出现的，以动画中的翻译代替。
-* 对标题图标进行更改。
+（5秒钟后将自动跳转）
 
-由于本人技术所限，未能对游戏中的一些图片进行更改。此外，由于文本更改为批量替换，可能存在替换错误的情况，如有错误，请及时向我反馈。
-
-## 3 发布 
-因版权问题，本人仅发布修正补丁，其使用方法见链接。发布链接：[百度网盘](https://pan.baidu.com/s/1tLhRCJjMfZJuxZSvD4I1GQ)（提取码：`pkmn`） &#124; [Github](https://github.com/Xzonn/PokemonChineseTranslationRevise/releases)。
-
-## 4 预览
-预览图：
-
-<table class="table">
-<thead>
-<tr><th>原版</th><th>修正版</th></tr>
-</thead>
-<tbody>
-<tr><td><img src="https://file.moetu.org/images/2020/02/20/e23ee94c4705bb8188cde6ee2ba684f2370e44e045b982e4.png" alt="预览图" data-disp="auto" /></td><td><img src="https://file.moetu.org/images/2020/02/20/89d999dd37bc6baf509483cda87e1b48c4f0d13c86dd37ed.png" alt="预览图" data-disp="auto" /></td></tr>
-<tr><td><img src="https://file.moetu.org/images/2020/02/20/711af3dd3ffa60ce599ba9464a9aca6b3b39aa5fe3bc0d41.png" alt="预览图" data-disp="auto" /></td><td><img src="https://file.moetu.org/images/2020/02/20/963793c79538e2cd529d57d3604f9a5487894f6bde7ed3d3.png" alt="预览图" data-disp="auto" /></td></tr>
-<tr><td><img src="https://file.moetu.org/images/2020/02/20/d15725931787f5b1a11f0b075fd397f7a9ef59c9e0cb3fab.png" alt="预览图" data-disp="auto" /></td><td><img src="https://file.moetu.org/images/2020/02/20/ea402e21fcae399bdf8a1bd137cfed093cf0fef6a8e71bb8.png" alt="预览图" data-disp="auto" /></td></tr>
-</tbody>
-</table>
-
-## 5 更新记录
-- 0.9.0（2018/10/12）：
-  - 发布最初版本。
-- 0.9.1（2019/04/27）：
-  - 修正“快乐”替换为“幸运蛋”的问题。（感谢 **@Apollonian** 反馈）
-- 0.9.2（2019/07/20）：
-  - 修正字符乱码问题。（感谢 **@Apollonian** 反馈）
-- 0.9.3（2019/07/30）：
-  - 修正字符缺失问题。（感谢 **@Apollonian** 反馈）
+<script> setTimeout(x => location.href = location.origin + "/PokemonChineseTranslationRevise/" + location.search + location.hash, 5000) </script>
