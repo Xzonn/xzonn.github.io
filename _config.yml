@@ -21,6 +21,5 @@ plugins:
   - jekyll-redirect-from
   - jekyll-sitemap
 timezone: Asia/Shanghai
-url: https://xzonn.github.io
-server: https://xzonn.top
+url: https://xzonn.top
 version: v3.0

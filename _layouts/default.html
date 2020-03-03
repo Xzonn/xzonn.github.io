@@ -67,7 +67,7 @@
                 "wechatLink": {{ page.wechatLink | jsonify }},
                 "tags": {{ page.tags | jsonify }}
             }
-            window.scriptDomain = {{ site.server | jsonify }}
+            window.scriptDomain = {{ site.url | jsonify }}
         </script>
         <link rel="stylesheet" href="/css/main.css" />
         <script src="/js/main.js"></script>{% assign css = page.css | split: " " %}{% for i in css %}
@@ -135,7 +135,7 @@
 {{ content }}
                     </article>{% unless jekyll.environment == "development" or page.noComment %}
                     <div class="xz-infobox-bottom hidden-print"></div>
-                    <div class="xz-content-comment">
+                    <div class="xz-content-comment hidden-print">
                         <div id="lv-container" data-id="city" data-uid="MTAyMC80MTk5MS8xODUzOA=="></div>
                         <script src="https://cdn-city.livere.com/js/embed.dist.js" async="async"></script>
                     </div>{% endunless %}
@@ -145,9 +145,11 @@
         <footer class="xz-footer">
             <div class="container">
                 <p>除非另有声明，本网站采用“<a href="//creativecommons.org/licenses/by-nc-sa/4.0/">知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a>”进行许可。</p>
-                <ul class="xz-footer-links">
-                    <li>&copy; 2017 - {{ "now" | date: "%Y" }} 来自{{ site.name }}</li>
-                    <li>由<a href="https://pages.github.com/">GitHub Pages</a>生成</li>
+                <ul class="xz-footer-links">{% if jekyll.environment == "aliyun" %}
+                    <li class="hidden-print"><a href="http://www.beian.miit.gov.cn/">京 ICP 备 20005737 号</a></li>{% endif %}
+                    <li>&copy; 2017 - {{ "now" | date: "%Y" }} 来自{{ site.name }}</li>{% if jekyll.environment == "production" %}
+                    <li>由<a href="https://pages.github.com/">GitHub Pages</a>生成</li>{% elsif jekyll.environment == "aliyun" %}
+                    <li>托管于<a href="https://www.aliyun.com/">阿里云服务器</a></li>{% endif %}
                     <li><a href="/posts/About.html">关于本站</a></li>
                     <li><a href="/feed.xml">RSS</a></li>
                     <li><a href="https://github.com/Xzonn/Xzonn.github.io/">源代码</a></li>{% unless jekyll.environment == "development" %}

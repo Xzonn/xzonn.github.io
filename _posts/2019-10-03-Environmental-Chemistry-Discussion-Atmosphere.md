@@ -973,5 +973,5 @@ $$\ce{RC(O)O2NO2 -> RC(O)O2 + NO2}.$$
     <li id="ref-zhou-wen">周雯. 卷烟主流烟气中重金属及其他有毒有害物质的脱除 [D]. 中国海洋大学, 2013.</li>
     <li id="ref-fuo-jia-da-qi-wu-ran-fang-zhi-gong-guan-zhong-xin">国家大气污染防治攻关联合中心. 【科普动画】什么是大气复合污染？它的危害更大吗？ [EB/OL]. (2019-10-26) [2019-10-27]. <a href="https://mp.weixin.qq.com/s/FtVENygnAwdNQI6juxJiNg">https://mp.weixin.qq.com/s/FtVENygnAwdNQI6juxJiNg</a>.</li>
     <li id="ref-da-qi-wu-ran-zhong-da-yan-jiu-ji-hua-bei-da-gong-zuo-zu">大气污染重大研究计划北大工作组. 项目介绍 [EB/OL]. [2019-10-27]. <a href="http://www.dqwr-nsfc.cn/about?id=1">http://www.dqwr-nsfc.cn/about?id=1</a>.</li>
-    <li id="ref-xzonn">Xzonn. 《环境工程学一》知识点整理 [EB/OL]. (2019-10-15) [2019-10-28]. <a href="https://xzonn.github.io/Environmental-Engineering-I-Notes/">https://xzonn.github.io/Environmental-Engineering-I-Notes/</a>.</li>
+    <li id="ref-xzonn">Xzonn. 《环境工程学一》知识点整理 [EB/OL]. (2019-10-15) [2019-10-28]. <a href="/posts/Environmental-Engineering-I-Notes.html">{{site.url}}/Environmental-Engineering-I-Notes/</a>.</li>
 </ol>

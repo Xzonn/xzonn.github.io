@@ -9,11 +9,11 @@ tags: 杂记 二次元
 title: 3DS《路易吉洋馆》汉化笔记
 ---
 <div style="width: 100%; height: 128px; background-position: center; background-repeat: no-repeat; background-image: url(https://file.moetu.org/images/2020/02/20/c091b864abea3849f4b78f2eef48cb0e261e45732fcd8a9a.png);"></div>
-<div style="font-size: 200%; font-weight: bold; text-align: center;"><a href="https://xzonn.github.io/LuigiMansion">→汉化发布页←</a></div>
+<div style="font-size: 200%; font-weight: bold; text-align: center;"><a href="/LuigiMansion/">→汉化发布页←</a></div>
 ## 1 说明
 <span lang="ja">『**ルイージマンション**』</span>（参考译名：《**路易吉洋馆**》，英文名：***Luigi's Mansion***）是 2001 年于 GameCube 平台发售的游戏，并于 2018 年在 3DS 平台发售了重制版。其续作《**路易吉洋馆2**》（繁体：《**路易吉洋樓2**》，日文：<span lang="ja">『**ルイージマンション２**』</span>）于 2013 年发售，港台版自带简繁中文支持。
 
-由于重制版并未提供官方简体中文，因此开设汉化项目，旨在对本游戏提供爱好者的汉化工作。本项目基于日本发行版汉化。请在 [项目页面](https://xzonn.github.io/LuigiMansion) 查看。
+由于重制版并未提供官方简体中文，因此开设汉化项目，旨在对本游戏提供爱好者的汉化工作。本项目基于日本发行版汉化。
 
 **声明：本人对游戏软件仅做研究用途，本人不提供软件本体，也从未对软件本体进行非法传播，更未对其用作商业用途。如因非法传播造成法律纠纷，概与本人无关。特此声明。**
 
