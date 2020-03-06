@@ -33,7 +33,7 @@ window.changePage = function (page) {
                     "title": post.title
                 })),
                 date = $("<ul/>").addClass("xz-meta-time").append([$("<li/>").addClass("xz-meta-create").text(post.date), $("<li/>").addClass("xz-meta-update").text(post.update)]),
-                tag = (post.tags.length ? $("<ul/>").addClass("xz-meta-tags").append(post.tags.map(x => $("<li/>").addClass("post-tag").append($("<a/>").text(x).attr("href", "/tags/#" + encodeURIComponent(x))))) : null),
+                tag = (post.tags.length ? $("<ul/>").addClass("xz-meta-tags").append(post.tags.map(x => $("<li/>").addClass("post-tag").append($("<a/>").text(x).attr("href", "/pages/#" + encodeURIComponent(x))))) : null),
                 image = $("<img/>").addClass("post-image").attr("src", post.headImage),
                 info = $("<p/>").addClass("post-meta-info").text(post.info);
             $("<div/>").addClass(["post-block", post.headImage ? "post-block-with-image" : null]).append([title, date, tag, post.headImage ? image : null, info]).appendTo($(".page-block-list"));

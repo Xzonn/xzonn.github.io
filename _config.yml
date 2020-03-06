@@ -17,8 +17,6 @@ name: Xzonn 的小站
 permalink: /posts/:title.html
 plugins:
   - jekyll-feed
-  - jekyll-paginate
-  - jekyll-redirect-from
   - jekyll-sitemap
 timezone: Asia/Shanghai
 url: https://xzonn.top

@@ -268,6 +268,10 @@ $(function () {
                 });
             }
         }
+        $(".xz-footer").css("position", "initial");
+        if ($("body").height() + 50 == $(window).height()) {
+            $(".xz-footer").css("position", "absolute");
+        }
         $(".xz-sidenav-list").affix({
             "offset": {
                 "top": $(".xz-content-main").offset().top - 50,
