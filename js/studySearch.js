@@ -140,6 +140,7 @@ window.searchHandle = function (type, string, page, classid, limit = 20) {
     }).always(function () {
         $(".xz-ss-confirm").prop("disabled", false);
         Han($(".xz-content")[0]).render();
+        window.windowResize();
     });
 }
 

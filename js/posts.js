@@ -52,6 +52,7 @@ window.changePage = function (page) {
         paginationList.appendTo($(".xz-pagination-list").empty());
         Han($(".xz-content")[0]).render();
         window.tocRender();
+        window.windowResize();
         if (page) {
             history.pushState({
                 "url": location.href

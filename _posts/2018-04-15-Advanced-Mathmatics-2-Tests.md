@@ -1,7 +1,7 @@
 ---
 date: 2018-04-15 12:00
 infoBox: incomplete
-last_modified_at: 2020-01-03 23:02
+last_modified_at: 2020-03-07 16:53
 math: true
 tags: 学习资料 数学 试题整理 三次元
 title: 《高等数学（下）》试题整理
@@ -13,7 +13,7 @@ title: 《高等数学（下）》试题整理
 
 1. 计算$$\int_0^\pi \int_0^\pi \mid\sin(x-y)\mid \mathrm dx \mathrm dy$$。（10分）
 2. 设$$\Omega$$为曲面$$x^2 + y^2 = az$$与$$z = 2a - \sqrt{x^2 + y^2}(a > 0)$$所围成的空间区域。求$$\Omega$$的表面积。（10分）
-3. 计算$$\iiint\limits_\Omega \cfrac {x + y + z} {\sqrt{x^2 + y^2 + z^2}} \mathrm dV$$，其中有界闭区域$$\Omega是由曲面$$x^2 + y^2 = 1$$和平面$$z = 0$$，$$z = 1$$所围成的区域。（10分）
+3. 计算$$\iiint\limits_\Omega \cfrac {x + y + z} {\sqrt{x^2 + y^2 + z^2}} \mathrm dV$$，其中有界闭区域$$\Omega$$是由曲面$$x^2 + y^2 = 1$$和平面$$z = 0$$，$$z = 1$$所围成的区域。（10分）
 4. 计算$$\int\limits_L \cfrac {-y\mathrm dx + x\mathrm dy}{x^2 + y^2}$$，其中$$L$$是沿曲线$$y = \pi\cos x$$方向从$$A(\pi, -\pi)$$点到$$B(-\pi, -\pi)$$点。（10分）
 5. 计算$$\iint\limits_S x^3\mathrm dy\mathrm dz + y^3\mathrm dz\mathrm dx + z^3\mathrm dx\mathrm dy$$，其中$$S$$是曲面$$z = x^2 + y^2$$在平面$$z = 0$$与$$z = 1$$之间的部分，定向为下侧。
 6. 计算$$\oint\limits_C (y^2 - z^2 + x^2) \mathrm dx + (z^2 - x^2 + y^2) \mathrm dy + (x^2 - y^2 + z^2) \mathrm dz$$，其中$$C$$是球面$$x^2 + y^2 + z^2 = 1$$与平面$$x + y + z = 1$$的交线，其方向从$$x$$轴正向看去反时针的方向。（10分）
