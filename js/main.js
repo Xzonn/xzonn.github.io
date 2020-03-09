@@ -303,5 +303,10 @@ $(function () {
     /* Han.js */
     if (!window.MathJax) {
         Han(document.body).render();
+        window.mathjaxRendered = true;
+    }
+
+    if (!window.Chartist) {
+        window.chartRendered = true;
     }
 });
