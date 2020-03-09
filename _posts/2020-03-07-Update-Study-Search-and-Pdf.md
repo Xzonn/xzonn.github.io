@@ -2,7 +2,7 @@
 date: 2020-03-07 22:14
 headImage: https://file.moetu.org/images/2020/03/07/a790fa9a92669f9aac086cc38ef8272473fe3f2b07037787.png
 info: 利用云服务器结合python脚本实现搜索功能及PDF渲染功能。
-last_modified_at: 2020-03-07 23:17
+last_modified_at: 2020-03-09 15:11
 tags: 网站日志
 title: 新功能上线：学习资料库搜索及服务器渲染PDF
 ---
