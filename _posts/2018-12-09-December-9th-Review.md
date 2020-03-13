@@ -1,12 +1,12 @@
 ---
 css: bilibili
 date: 2018-12-09 12:00
-headImage: https://file.moetu.org/images/2020/02/20/380c25e4c978a1229001e891505e956b061ffffd04c27e3f.png
+head_image: https://file.moetu.org/images/2020/02/20/380c25e4c978a1229001e891505e956b061ffffd04c27e3f.png
 info: 你看，那颗星。
 js: bilibili
 last_modified_at: 2020-02-14 13:27
 math: true
-tags: 杂记 三次元
+tags: 三次元 杂记
 title: 2018 年“一二·九”笔记
 ---
 这篇笔记很枯燥，没啥意思。但是既然我从前到后忙了将近两个月，写点东西来吹嘘一下自己还是应该的。全文以我本人的视角来写，所以写的都是我干了什么。如果想看 2018 级的小可爱们做了什么，请移步 **[这里](https://pku-cese-su.github.io/xcb/2018-129/)**，里面是每次的排练手记和中期的精彩视频。

@@ -63,9 +63,9 @@
                 "link": "{{ page.url }}",
                 "date": "{{ page.date | date : "%Y-%m-%d %H:%M" }}",
                 "update": "{{ page.last_modified_at | date : "%Y-%m-%d %H:%M" }}",
-                "headImage": {{ page.headImage | jsonify }},
+                "head_image": {{ page.head_image | jsonify }},
                 "info": {% if page.info %}{{ page.info | jsonify }}{% else %}{{ page.content | strip_html | remove: "$" | truncate: 100, "……" | jsonify }}{% endif %},
-                "wechatLink": {{ page.wechatLink | jsonify }},
+                "wechat_link": {{ page.wechat_link | jsonify }},
                 "tags": {{ page.tags | jsonify }}
             }
             window.scriptDomain = {{ site.url | jsonify }}

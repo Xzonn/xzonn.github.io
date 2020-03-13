@@ -1,10 +1,10 @@
 ---
 date: 2017-11-06 12:00
-headImage: https://file.moetu.org/images/2020/02/20/93dcd54dc6f1f4966ecd5e509d2eecdfb8a902e1a7ed9d4a.png
-infoBox: complete
+head_image: https://file.moetu.org/images/2020/02/20/93dcd54dc6f1f4966ecd5e509d2eecdfb8a902e1a7ed9d4a.png
+infobox: complete
 last_modified_at: 2020-01-03 23:23
 math: true
-tags: 学习资料 编程 知识点整理 三次元
+tags: 三次元 学习资料 知识点整理 编程
 title: 《计算概论》知识点整理
 ---
 ## 一、硬件和软件

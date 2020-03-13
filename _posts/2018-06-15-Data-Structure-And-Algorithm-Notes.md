@@ -3,7 +3,7 @@ date: 2018-06-15 12:00
 infoBox: complete
 last_modified_at: 2020-01-03 23:02
 math: true
-tags: 学习资料 编程 知识点整理 三次元
+tags: 三次元 学习资料 知识点整理 编程
 title: 《数据结构与算法》知识点整理
 ---
 ### 1 概述

@@ -1,11 +1,11 @@
 ---
 date: 2020-02-17 19:48
-headImage: https://file.moetu.org/images/2020/02/20/0e1ebb9e6299716833b9b65fc59df2273f84b4944b44f64c.png
+head_image: https://file.moetu.org/images/2020/02/20/0e1ebb9e6299716833b9b65fc59df2273f84b4944b44f64c.png
 info: 宗旨：让使用电脑全屏演示的老师能够与同学们实时互动。
 last_modified_at: 2020-02-17 23:13
-tags: 技术指南 作品发布
+tags: 作品发布 技术指南
 title: 酷Q 弹幕墙插件
-wechatLink: https://mp.weixin.qq.com/s/kskgb-AIWp0rVEEhn3i4KA
+wechat_link: https://mp.weixin.qq.com/s/kskgb-AIWp0rVEEhn3i4KA
 ---
 
 ## 前言

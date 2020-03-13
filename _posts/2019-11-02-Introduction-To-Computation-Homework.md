@@ -1,9 +1,9 @@
 ---
 date: 2019-11-02 12:00
-headImage: https://file.moetu.org/images/2020/02/20/5a25ca9b361d920fa31d44c3aea248430962aa4095a771ab.gif
+head_image: https://file.moetu.org/images/2020/02/20/5a25ca9b361d920fa31d44c3aea248430962aa4095a771ab.gif
 last_modified_at: 2020-01-03 23:02
 math: true
-tags: 学习资料 编程 作业 三次元
+tags: 三次元 作业 学习资料 编程
 title: 《计算概论（B）》（马思伟）作业参考代码（2017）
 ---
 <style>

@@ -1,11 +1,11 @@
 ---
 class: exercise
 date: 2019-10-03 12:00
-headImage: https://file.moetu.org/images/2020/02/20/20a2eb9d36c5666c4efe6968aa9d5c7c0bf3ecd65e1c571b.png
-infoBox: incomplete
+head_image: https://file.moetu.org/images/2020/02/20/20a2eb9d36c5666c4efe6968aa9d5c7c0bf3ecd65e1c571b.png
+infobox: incomplete
 last_modified_at: 2020-01-07 14:59
 math: true
-tags: 学习资料 环院专业课 知识点整理 三次元
+tags: 三次元 学习资料 环院专业课 知识点整理
 title: 《环境化学》讨论题整理（大气部分）
 ---
 ## 说明

@@ -1,10 +1,10 @@
 ---
 css: game
 date: 2019-01-21 22:36
-headImage: https://file.moetu.org/images/2020/02/20/4ec84b5c8ff6f7c6d88535592130e966d387d8cbbdb809f2.jpg
-infoBox: incomplete game
+head_image: https://file.moetu.org/images/2020/02/20/4ec84b5c8ff6f7c6d88535592130e966d387d8cbbdb809f2.jpg
+infobox: incomplete game
 last_modified_at: 2020-01-03 23:02
-tags: 流程攻略 二次元
+tags: 二次元 流程攻略
 title: 《奈里：希林之塔》流程攻略
 ---
 <style class="nairiWalkthroughStyle">

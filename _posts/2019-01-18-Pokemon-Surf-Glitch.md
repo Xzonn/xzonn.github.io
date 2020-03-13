@@ -1,11 +1,11 @@
 ---
 css: bilibili
 date: 2019-01-18 21:03
-headImage: https://file.moetu.org/images/2020/02/20/b165db3b8779b7b7a651765b992fd48be69bef5add7cea2b.png
-infoBox: pokemon pokemonGlitch
+head_image: https://file.moetu.org/images/2020/02/20/b165db3b8779b7b7a651765b992fd48be69bef5add7cea2b.png
+infobox: pokemon pokemonGlitch
 js: bilibili
 last_modified_at: 2020-01-03 23:02
-tags: 精灵宝可梦 二次元
+tags: DS 二次元 任天堂 精灵宝可梦
 title: 《精灵宝可梦》四天王房间冲浪漏洞
 ---
 ![漏洞触发后的效果\|right\|256px](https://file.moetu.org/images/2020/02/20/b165db3b8779b7b7a651765b992fd48be69bef5add7cea2b.png)

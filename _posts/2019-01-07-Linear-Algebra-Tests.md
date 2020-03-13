@@ -5,7 +5,7 @@ info: 一小时速成？不可能的，想啥呢。
 infoBox: complete
 last_modified_at: 2020-01-11 23:57
 math: true
-tags: 学习资料 数学 试题整理 三次元
+tags: 三次元 学习资料 数学 试题整理
 title: 环院《线性代数（B）》试题整理
 ---
 <style>

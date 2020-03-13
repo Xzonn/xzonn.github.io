@@ -1,11 +1,11 @@
 ---
 css: bilibili
 date: 2019-03-02 12:00
-headImage: https://file.moetu.org/images/2020/02/20/48f542abdecfe0d46966b557d0b6f6b08f34c22b3a215d88.png
-infoBox: incomplete pokemon pokemonGlitch
+head_image: https://file.moetu.org/images/2020/02/20/48f542abdecfe0d46966b557d0b6f6b08f34c22b3a215d88.png
+infobox: incomplete pokemon pokemonGlitch
 js: bilibili
 last_modified_at: 2020-01-03 23:02
-tags: 精灵宝可梦 二次元
+tags: DS 二次元 任天堂 精灵宝可梦
 title: 《精灵宝可梦》地图图块漏洞
 ---
 ![漏洞触发后的效果\|right\|256px](https://file.moetu.org/images/2020/02/20/48f542abdecfe0d46966b557d0b6f6b08f34c22b3a215d88.png)

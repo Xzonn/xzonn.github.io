@@ -4,7 +4,7 @@ date: 2019-05-27 16:16
 infoBox: complete
 js: japanese
 last_modified_at: 2020-01-03 23:02
-tags: 学习资料 日语 知识点整理 三次元
+tags: 三次元 学习资料 日语 知识点整理
 title: 《初级日语 第二册》语法整理
 ---
 ## 一、文法

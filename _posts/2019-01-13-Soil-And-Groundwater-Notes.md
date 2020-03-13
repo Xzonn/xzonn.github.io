@@ -1,11 +1,11 @@
 ---
 date: 2019-01-13 12:00
-headImage: https://file.moetu.org/images/2020/02/20/18a6da09e6b9f77c3501a93b1dd956d5a2dc06567eb098c5.png
+head_image: https://file.moetu.org/images/2020/02/20/18a6da09e6b9f77c3501a93b1dd956d5a2dc06567eb098c5.png
 info: 一小时速成有点不太可能，还是老老实实准备期末复习吧。
-infoBox: complete formula
+infobox: complete formula
 last_modified_at: 2020-01-07 14:59
 math: true
-tags: 学习资料 环院专业课 知识点整理 三次元
+tags: 三次元 学习资料 环院专业课 知识点整理
 title: 《土壤与地下水》期末复习
 ---
 <style> .chsName { display: inline-block; min-width: 10em; margin-right: 1em; } .engName { font-weight: lighter; font-style: italic; } </style>

@@ -1,10 +1,10 @@
 ---
 date: 2019-01-10 12:00
-headImage: https://file.moetu.org/images/2020/02/20/55be0f6914f14747f5cfba67d9fc0642f3ab6cb8df221371.png
-infoBox: complete formula
+head_image: https://file.moetu.org/images/2020/02/20/55be0f6914f14747f5cfba67d9fc0642f3ab6cb8df221371.png
+infobox: complete formula
 last_modified_at: 2020-02-14 13:27
 math: true
-tags: 学习资料 化学 知识点整理 三次元
+tags: 三次元 化学 学习资料 知识点整理
 title: 《有机化学》一小时速成
 ---
 <p class="hidden-print">《有机化学》知识点整理：<a href="/posts/Organic-Chemistry-Notes-A.html">（上）</a> | <a href="/posts/Organic-Chemistry-Notes-B.html">（下）</a>。</p>

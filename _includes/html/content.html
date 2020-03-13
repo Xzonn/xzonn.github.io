@@ -12,17 +12,17 @@
                         </div>{% endif %}{% unless page.noPrintInfo %}
                         <div class="xz-info-print alert alert-info hidden" role="alert">
                             <button type="button" class="close" data-dismiss="alert">&times;</button>
-                            <p>如果需要保存本页，请 <a href="javascript:window.print()" class="alert-link">打印本页</a> 并选择“另存为 PDF”。</p>{% unless page.noComment %}
+                            <p>如果需要保存本页，请 <a href="javascript:window.print()" class="alert-link">打印本页</a> 并选择“另存为 PDF”。</p>{% unless page.no_comment %}
                             <p>如果您发现了本站的错误，或是对本站有任何意见建议，请在 <a href="#xz-content-comment" class="alert-link">留言区</a> 留言。</p>{% endunless %}
                         </div>{% endunless %}
                     </div>
                     <article>
 {{ content }}
-                    </article>{% unless jekyll.environment == "development" or page.noComment %}
-                    <div class="xz-infobox-bottom hidden-print">{% if page.ref %}
-                        <div class="xz-info-ref alert alert-info">参考资料：{% if page.refLink %}<a href="{{ page.refLink }}" class="alert-link">{{ page.ref }}</a>{% else %}{{ page.ref }}{% endif %}</div>{% endif %}
-                    </div>
-                    <div class="xz-content-comment">
+                    </article>{% if page.ref %}
+                    <div class="xz-infobox-bottom">
+                        <div class="xz-info-ref alert alert-info">参考资料：{% if page.ref_link %}<a href="{{ page.ref_link }}" class="alert-link">{{ page.ref }}</a>{% else %}{{ page.ref }}{% endif %}</div>
+                    </div>{% endif %}{% unless jekyll.environment == "development" or page.no_comment %}
+                    <div class="xz-content-comment hidden-print">
                         <div id="lv-container" data-id="city" data-uid="MTAyMC80MTk5MS8xODUzOA=="></div>
                         <script src="https://cdn-city.livere.com/js/embed.dist.js" async="async"></script>
                     </div>{% endunless %}

@@ -1,10 +1,10 @@
 ---
 date: 2019-05-25 14:02
-headImage: https://file.moetu.org/images/2020/02/20/ea55016f1be6d264fbbbcf2c17f7e3ca0726e7d160e6222b.png
-infoBox: incomplete formula
+head_image: https://file.moetu.org/images/2020/02/20/ea55016f1be6d264fbbbcf2c17f7e3ca0726e7d160e6222b.png
+infobox: incomplete formula
 last_modified_at: 2020-01-07 14:59
 math: true
-tags: 学习资料 环院专业课 知识点整理 三次元
+tags: 三次元 学习资料 环院专业课 知识点整理
 title: 《环境工程学一》知识点整理
 ---
 ## 第二章 燃烧与大气污染

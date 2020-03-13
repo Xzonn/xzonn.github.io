@@ -1,11 +1,11 @@
 ---
 class: exercise
 date: 2019-11-12 12:00
-headImage: /images/ECD-02-01.svg
-infoBox: incomplete
+head_image: /images/ECD-02-01.svg
+infobox: incomplete
 last_modified_at: 2020-01-07 20:28
 math: true
-tags: 学习资料 环院专业课 知识点整理 三次元
+tags: 三次元 学习资料 环院专业课 知识点整理
 title: 《环境化学》讨论题整理（水部分）
 ---
 ## 说明

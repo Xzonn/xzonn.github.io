@@ -1,11 +1,11 @@
 ---
 css: bilibili
 date: 2018-10-12 12:00
-headImage: https://file.moetu.org/images/2020/02/20/c091b864abea3849f4b78f2eef48cb0e261e45732fcd8a9a.png
+head_image: https://file.moetu.org/images/2020/02/20/c091b864abea3849f4b78f2eef48cb0e261e45732fcd8a9a.png
 info: 3DS《路易吉洋馆》汉化：从开坑到弃坑。
 js: bilibili
 last_modified_at: 2020-01-03 23:22
-tags: 杂记 二次元
+tags: 3DS 二次元 任天堂 杂记
 title: 3DS《路易吉洋馆》汉化笔记
 ---
 <div style="width: 100%; height: 128px; background-position: center; background-repeat: no-repeat; background-image: url(https://file.moetu.org/images/2020/02/20/c091b864abea3849f4b78f2eef48cb0e261e45732fcd8a9a.png);"></div>

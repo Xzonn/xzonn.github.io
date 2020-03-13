@@ -3,7 +3,7 @@ date: 2018-06-23 12:00
 infoBox: complete formula
 last_modified_at: 2020-01-03 23:02
 math: true
-tags: 学习资料 物理 知识点整理 三次元
+tags: 三次元 学习资料 物理 知识点整理
 title: 《普通物理·光学》知识点整理
 ---
 ### 第1章 导言

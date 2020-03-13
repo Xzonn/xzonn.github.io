@@ -3,7 +3,7 @@ date: 2018-12-26 12:00
 infoBox: complete formula
 last_modified_at: 2020-02-14 13:27
 math: true
-tags: 学习资料 化学 知识点整理 三次元
+tags: 三次元 化学 学习资料 知识点整理
 title: 《有机化学》知识点整理（下）
 ---
 <p class="hidden-print">因技术限制，本页面仅提供期中考试后（第7 ~ 12章）的内容。期中考试前的内容请移步 <strong><a href="/posts/Organic-Chemistry-Notes-A.html">此页</a></strong>。</p>

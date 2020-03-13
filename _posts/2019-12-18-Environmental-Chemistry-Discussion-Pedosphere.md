@@ -1,11 +1,11 @@
 ---
 class: exercise
 date: 2019-12-18 12:00
-headImage: https://file.moetu.org/images/2020/02/20/af2570b0e41c982d0c62f3e4bf8b5ce09723612b82f49d0b.gif
-infoBox: incomplete
+head_image: https://file.moetu.org/images/2020/02/20/af2570b0e41c982d0c62f3e4bf8b5ce09723612b82f49d0b.gif
+infobox: incomplete
 last_modified_at: 2020-02-15 13:56
 math: true
-tags: 学习资料 环院专业课 知识点整理 三次元
+tags: 三次元 学习资料 环院专业课 知识点整理
 title: 《环境化学》讨论题整理（土壤生物部分）
 ---
 ## 说明

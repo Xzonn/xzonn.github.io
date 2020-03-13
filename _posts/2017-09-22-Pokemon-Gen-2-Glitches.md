@@ -1,11 +1,11 @@
 ---
 css: bilibili glitch
 date: 2017-09-22 19:56
-headImage: https://file.moetu.org/images/2020/02/20/dbde175c6db396d9ed2c8911165e2ccf9acf7b7d248e2d83.jpg
+head_image: https://file.moetu.org/images/2020/02/20/dbde175c6db396d9ed2c8911165e2ccf9acf7b7d248e2d83.jpg
 info: 由Xzonn对《精灵宝可梦 金／银／水晶版》部分漏洞梳理。包括克隆漏洞、捕虫大赛数据复制漏洞、代币盒漏洞、错误维度、时拉比的蛋、不战而胜漏洞。
 js: bilibili
 last_modified_at: 2020-02-20 23:31
-tags: 精灵宝可梦 二次元
+tags: GBC 二次元 任天堂 精灵宝可梦
 title: 《精灵宝可梦》第二世代游戏漏洞梳理
 ---
 ## 说明

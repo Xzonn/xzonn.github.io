@@ -1,10 +1,10 @@
 ---
 date: 2017-11-07 12:00
-headImage: https://file.moetu.org/images/2020/02/20/cac975160bd42cfd39f8af31d645b133c3ceb8c9a08f603d.png
-infoBox: complete formula
+head_image: https://file.moetu.org/images/2020/02/20/cac975160bd42cfd39f8af31d645b133c3ceb8c9a08f603d.png
+infobox: complete formula
 last_modified_at: 2020-01-07 23:38
 math: true
-tags: 学习资料 化学 知识点整理 三次元
+tags: 三次元 化学 学习资料 知识点整理
 title: 《普通化学》知识点整理
 ---
 ### 第2章 气体

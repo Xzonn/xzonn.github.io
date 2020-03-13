@@ -1,9 +1,9 @@
 ---
 date: 2019-09-28 12:00
-headImage: /images/ItS-04-01.svg
+head_image: /images/ItS-04-01.svg
 last_modified_at: 2020-01-07 01:04
 math: true
-tags: 学习资料 通选课 知识点整理 三次元
+tags: 三次元 学习资料 知识点整理 通选课
 title: 《地震概论》2019年秋季学期（周四班）笔记
 ---
 <style>

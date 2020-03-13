@@ -3,7 +3,7 @@ class: printNoToc
 date: 2020-01-06 15:44
 last_modified_at: 2020-01-07 21:56
 math: true
-tags: 学习资料 环院专业课 三次元 试题整理
+tags: 三次元 学习资料 环院专业课 试题整理
 title: 《环境化学》试题整理
 ---
 ## 2008春

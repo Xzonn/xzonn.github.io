@@ -1,11 +1,11 @@
 ---
 date: 2019-09-18 12:00
-headImage: https://file.moetu.org/images/2020/02/20/8fa2195112718746f3907fc629611ee0b6d1b68a445cb8f3.png
+head_image: https://file.moetu.org/images/2020/02/20/8fa2195112718746f3907fc629611ee0b6d1b68a445cb8f3.png
 info: 本资料是2019年秋季学期《环境纳米技术导论》的资料整理，主讲老师为刘文。
-infoBox: incomplete
+infobox: incomplete
 last_modified_at: 2020-01-05 22:48
 math: true
-tags: 学习资料 环院专业课 知识点整理 三次元
+tags: 三次元 学习资料 环院专业课 知识点整理
 title: 《环境纳米技术导论》知识点整理
 ---
 <style>

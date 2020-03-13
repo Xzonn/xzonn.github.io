@@ -1,10 +1,10 @@
 ---
 date: 2019-01-08 15:22
-headImage: https://file.moetu.org/images/2020/02/20/96eceee01edb05b0e1fbb0654b2f9bcfd365aae7127f3a9e.png
-infoBox: incomplete
+head_image: https://file.moetu.org/images/2020/02/20/96eceee01edb05b0e1fbb0654b2f9bcfd365aae7127f3a9e.png
+infobox: incomplete
 last_modified_at: 2020-02-14 13:27
 math: true
-tags: 学习资料 环院专业课 知识点整理 三次元
+tags: 三次元 学习资料 环院专业课 知识点整理
 title: 《环境监测》知识点整理（三）
 ---
 这是《环境监测》课程谢曙光老师部分的思考题整理。导航：[孙卫玲老师部分](/posts/Environmental-Monitoring-Notes-1.html)。

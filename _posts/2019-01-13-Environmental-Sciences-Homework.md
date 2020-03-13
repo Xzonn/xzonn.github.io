@@ -1,10 +1,10 @@
 ---
 class: exercise
 date: 2019-01-13 12:00
-headImage: https://upload.wikimedia.org/wikipedia/commons/c/c6/Citric_acid_cycle.svg
+head_image: https://upload.wikimedia.org/wikipedia/commons/c/c6/Citric_acid_cycle.svg
 last_modified_at: 2020-01-03 23:17
 math: true
-tags: 学习资料 环院专业课 作业 三次元
+tags: 三次元 作业 学习资料 环院专业课
 title: 《环境科学》作业
 ---
 ## 物化部分

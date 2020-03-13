@@ -29,14 +29,14 @@ window.changePage = function (page) {
         for (i = (pageNumber - 1) * pageCount; i < Math.min(pageNumber * pageCount, data.length); i ++) {
             let post = data[i],
                 title = $("<h3/>").addClass("post-title").append($("<a/>").text(post.title).attr({
-                    "href": (isWeChat && post.wechatLink) ? post.wechatLink : post.link,
+                    "href": (isWeChat && post.wechat_link) ? post.wechat_link : post.link,
                     "title": post.title
                 })),
                 date = $("<ul/>").addClass("xz-meta-time").append([$("<li/>").addClass("xz-meta-create").text(post.date), $("<li/>").addClass("xz-meta-update").text(post.update)]),
                 tag = (post.tags.length ? $("<ul/>").addClass("xz-meta-tags").append(post.tags.map(x => $("<li/>").addClass("post-tag").append($("<a/>").text(x).attr("href", "/posts/#" + encodeURIComponent(x))))) : null),
-                image = $("<img/>").addClass("post-image").attr("src", post.headImage),
+                image = $("<img/>").addClass("post-image").attr("src", post.head_image),
                 info = $("<p/>").addClass("post-meta-info").text(post.info);
-            $("<div/>").addClass(["post-block", post.headImage ? "post-block-with-image" : null]).append([title, date, tag, post.headImage ? image : null, info]).appendTo($(".page-block-list"));
+            $("<div/>").addClass(["post-block", post.head_image ? "post-block-with-image" : null]).append([title, date, tag, post.head_image ? image : null, info]).appendTo($(".page-block-list"));
         }
         $(".page-list-title").text("页面列表 - 第" + pageNumber + "页");
         $(".post-total").text(data.length);

@@ -1,6 +1,6 @@
 ---
 date: 2019-11-01 12:00
-headImage: https://img1.doubanio.com/view/photo/m/public/p2570059839.webp
+head_image: https://img1.doubanio.com/view/photo/m/public/p2570059839.webp
 last_modified_at: 2020-01-03 23:02
 tags: 二次元 杂记
 title: 《天气之子》杂记

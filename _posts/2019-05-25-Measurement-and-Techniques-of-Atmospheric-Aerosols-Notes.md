@@ -1,10 +1,10 @@
 ---
 date: 2019-05-25 14:06
-headImage: https://file.moetu.org/images/2020/02/20/e0f0298131885a7d01c6141d2fc227cf76b6dc8dc92016e1.png
-infoBox: incomplete
+head_image: https://file.moetu.org/images/2020/02/20/e0f0298131885a7d01c6141d2fc227cf76b6dc8dc92016e1.png
+infobox: incomplete
 last_modified_at: 2020-02-14 13:27
 math: true
-tags: 学习资料 环院专业课 知识点整理 三次元
+tags: 三次元 学习资料 环院专业课 知识点整理
 title: 《大气气溶胶测量技术与实验》考点整理
 ---
 ## 考点整理

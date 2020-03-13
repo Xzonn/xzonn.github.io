@@ -1,11 +1,11 @@
 ---
 date: 2019-11-29 12:00
-headImage: https://mmbiz.qpic.cn/mmbiz_png/Qh7FH95PRnsGibm3j1h8hlnibx94eAfibTVFXjYq5ECtrAV4C3UjtFuU9oS2Nic4pIZibyHVkicJy2C0Cx9iaS86p6iaJw/0
+head_image: https://mmbiz.qpic.cn/mmbiz_png/Qh7FH95PRnsGibm3j1h8hlnibx94eAfibTVFXjYq5ECtrAV4C3UjtFuU9oS2Nic4pIZibyHVkicJy2C0Cx9iaS86p6iaJw/0
 info: 最好的拯救方法还是 Ctrl + S。
 last_modified_at: 2020-02-09 15:25
-tags: 技术指南 三次元
+tags: 三次元 技术指南
 title: 拯救未保存的 PPT
-wechatLink: https://mp.weixin.qq.com/s/DuEaIZgflV2b5yK5g0kfJA
+wechat_link: https://mp.weixin.qq.com/s/DuEaIZgflV2b5yK5g0kfJA
 ---
 ## 1. 起因
 下午 5 点，一个电话把我从睡梦中吵醒。我定睛一看，是小弟打来的。

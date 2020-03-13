@@ -3,7 +3,7 @@ date: 2018-04-15 12:00
 infoBox: incomplete
 last_modified_at: 2020-03-07 16:53
 math: true
-tags: 学习资料 数学 试题整理 三次元
+tags: 三次元 学习资料 数学 试题整理
 title: 《高等数学（下）》试题整理
 ---
 ## 2014年春季学期

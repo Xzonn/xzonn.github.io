@@ -3,7 +3,7 @@ date: 2019-08-08 22:23
 infoBox: complete
 last_modified_at: 2020-01-03 23:05
 math: true
-tags: 杂记 三次元
+tags: 三次元 杂记
 title: 塞罕坝存活指南
 ---
 <blockquote>

@@ -218,7 +218,7 @@ $(function () {
     });
 
     /* 二维码 */
-    let selfLink = window.pageInfo.wechatLink || location.origin + location.pathname;
+    let selfLink = window.pageInfo.wechat_link || location.origin + location.pathname;
     $(".xz-qrcode").empty().attr({
         "href": selfLink
     }).qrcode({
