@@ -2,7 +2,7 @@
 date: 2020-03-16 21:44
 headImage: https://media.52poke.com/wiki/a/a3/%E5%AE%9D%E5%8F%AF%E6%A2%A6_%E5%9B%BE%E6%A0%87_%E4%B8%AD%E6%96%87.png
 info: 本表记录了《精灵宝可梦》系列游戏汉化时间，供后来者查考历史所用。
-last_modified_at: 2020-03-16 21:49
+last_modified_at: 2020-03-17 09:55
 tags: 二次元 任天堂 杂记 精灵宝可梦
 title: 《精灵宝可梦》系列游戏汉化时间表
 ---
@@ -53,8 +53,17 @@ title: 《精灵宝可梦》系列游戏汉化时间表
       <td><img src="https://file.moetu.org/images/2020/03/16/ee0512c434422dc0b6b9031f3dcc643d222e46168a971624.png" alt="精灵宝可梦 皮卡丘|none" style="width: 160px;"></td>
     </tr>
     <tr>
-      <td>金・銀</td>
-      <td>金／银</td>
+      <td>金</td>
+      <td>金</td>
+      <td>1999年11月21日</td>
+      <td>2014年12月26日</td>
+      <td>新新科技、<a href="https://tieba.baidu.com/p/3488279123?see_lz=1">sss888888sss</a></td>
+      <td>基于日版·原为盗版商汉化</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>銀</td>
+      <td>银</td>
       <td>1999年11月21日</td>
       <td></td>
       <td></td>
@@ -65,9 +74,9 @@ title: 《精灵宝可梦》系列游戏汉化时间表
       <td>クリスタルバージョン</td>
       <td>水晶版</td>
       <td>2000年12月14日</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>2014年12月24日</td>
+      <td>新新科技、<a href="https://tieba.baidu.com/p/4686283786?see_lz=1">sss888888sss</a></td>
+      <td>基于日版·原为盗版商汉化</td>
       <td></td>
     </tr>
     <tr>
