@@ -1,0 +1,39 @@
+.xz-choice-question {
+    list-style: decimal;
+}
+
+.xz-choice-question > li > ul {
+    list-style: upper-alpha;
+}
+
+.xz-choice-question > li > ul::after {
+    content: '';
+    clear: left;
+    display: block;
+}
+
+.xz-choice-question > li > ul.xz-choice-4 > li, .xz-choice-question > li > ul.xz-choice-2 > li {
+    float: left;
+    width: 100%;
+    padding-right: 2em;
+}
+
+.xz-choice-question > li > ul.xz-choice-4 > li {
+    width: 25%;
+}
+
+.xz-choice-question > li > ul.xz-choice-2 > li {
+    width: 50%;
+}
+
+.xz-choice-question > li > .xz-answer {
+    float: right;
+    transform: rotateZ(180deg);
+    color: var(--color-warm-light);
+}
+
+.xz-answer-line {
+    margin: 0 0.5rem;
+    padding: 0 1rem;
+    border-bottom: 1px solid;
+}

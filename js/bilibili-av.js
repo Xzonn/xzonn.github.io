@@ -1,5 +1,14 @@
 ---
 ---
+function formatCodeToList(code) {
+    let codes = code.split("\n");
+    let ul = $("<ul/>");
+    for (let i = 0; i < codes.length; i++) {
+        $("<li/>").text(codes[i]).appendTo(ul)
+    }
+    return ul;
+}
+
 $(function () {
     $(".xz-bili-av-confirm").click(function () {
         $.get({
@@ -9,7 +18,7 @@ $(function () {
             if (data && data["code"] == 0) {
                 let bvid = data["data"]["bvid"];
                 $(".xz-bili-av-output").val(bvid)
-                $(".xz-bilibili-av-output-raw").text(JSON.stringify(data, null, 2))
+                $(".xz-bilibili-av-output-raw code").append(formatCodeToList(JSON.stringify(data, null, 2)))
             }
         })
     })
@@ -26,7 +35,7 @@ $(function () {
             if (data && data["code"] == 0) {
                 let bvid = data["data"]["aid"];
                 $(".xz-bili-bv-output").val(bvid)
-                $(".xz-bilibili-bv-output-raw").text(JSON.stringify(data, null, 2))
+                $(".xz-bilibili-bv-output-raw code").append(formatCodeToList(JSON.stringify(data, null, 2)))
             }
         })
     })

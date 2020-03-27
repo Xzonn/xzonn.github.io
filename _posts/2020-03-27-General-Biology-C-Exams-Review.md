@@ -1,0 +1,273 @@
+---
+css: exercises
+date: 2020-03-27 21:29
+info: 这是北京大学《普通生物学（C）》的知识点整理，整理者为Xzonn。
+js: exercises
+last_modified_at: 2020-03-27 22:18
+tags: 三次元 学习资料 知识点整理 通选课
+title: 普通生物学（C）知识点整理
+---
+## 作业题整理
+以下为历次作业中出现过的题目。
+
+- 以下哪个是生命的基本特征<span class="xz-answer-line"></span>。<span class="xz-answer">E</span>
+  - 进化的适应性
+  - 新陈代谢与能量流动
+  - 对环境的应激性
+  - 生长与繁殖
+  - 以上全部
+- 以下哪一类群所包含的物种数量最少<span class="xz-answer-line"></span>。<span class="xz-answer">B</span>
+  - 动物界
+  - 豹属
+  - 猫科
+  - 食肉目
+  - 哺乳纲
+- 在第1课关于蛇拟态的研究中，攻击人工蛇模型的捕猎者之一是哺乳动物。大多数哺乳动物其实是色盲无法如人类一样分辨色彩。以下哪一实验设计是验证“人工蛇模型的颜色对于捕食者是否重要”这一问题的最好方案<span class="xz-answer-line"></span>。<span class="xz-answer">E</span>
+  - 在没有毒蛇（红黑白环纹的珊瑚蛇）分布的地区，比较红黑白环纹的人工蛇模型相对于黑棕白环纹的人工蛇模型的被攻击率
+  - 在有很多毒蛇（红黑白环纹的珊瑚蛇）分布的地区，记录黑棕白环纹的人工蛇模型的被攻击率
+  - 在有很多毒蛇（红黑白环纹的珊瑚蛇）分布的地区，比较黑棕白纵纹的人工蛇模型相对于黑棕白环纹的人工蛇模型的被攻击率
+  - 在有很多毒蛇（红黑白环纹的珊瑚蛇）分布的地区，比较黑棕白环纹的人工蛇模型相对于纯棕色 人工蛇模型的被攻击率.
+  - 在有很多毒蛇（红黑白环纹的珊瑚蛇）分布的地区，比较红黑白环纹的人工蛇模型相对于黑棕白 环纹的人工蛇模型的被攻击率
+- 关于组成生物体的常量元素与微量元素，以下描述正确的是<span class="xz-answer-line"></span>。<span class="xz-answer">C</span>
+  - Mg是微量元素
+  - 微量元素在人体中的含量低于0.1%
+  - 自然界丰度低的元素对生物体的毒性可能很大
+  - Fe是常量元素
+  - 自然界丰度高的元素在生物体中的含量也高
+- 生物体通过排汗来散热，其中与这一机能直接相关的水的性质是<span class="xz-answer-line"></span>。<span class="xz-answer">B</span>
+  - 较大的表面张力
+  - 破坏液态水分子间的氢键需要吸收大量的热
+  - 破坏液态水分子间的氢键需要释放大量的热
+  - 固体（冰）的密度比液体小
+- 碳元素是生命构成的基本元素，原因是<span class="xz-answer-line"></span>。<span class="xz-answer">A</span>
+  - 碳元素能够形成大而复杂的分子
+  - 碳元素仅在有机分子中存在
+  - 生化物质的性质的性质完全决定于碳元素形成的骨架结构
+  - 并非所有生化物质均含有碳元素
+- 以下哪种物质不属于糖类<span class="xz-answer-line"></span>。<span class="xz-answer">B</span>
+  - 糖原
+  - 糖精
+  - 甘油醛
+  - 几丁质
+- 以下哪一种多糖的结构带有最多的分支<span class="xz-answer-line"></span>。<span class="xz-answer">E</span>
+  - 纤维素
+  - 几丁质
+  - 直链淀粉
+  - 支链淀粉
+  - 糖原
+- 相比于热带鱼，产自南极的鱼油含有<span class="xz-answer-line"></span>。<span class="xz-answer">A</span>
+  - 更多不饱和脂肪酸
+  - 更多胆固醇
+  - 更多反式不饱和脂肪酸
+  - 更多氢化脂肪酸
+- 以下关于脂类的说法哪一个是正确的<span class="xz-answer-line"></span>。<span class="xz-answer">E</span>
+  - 都由甘油和脂肪酸构成
+  - 都含有氮元素
+  - 储藏能量的能力都很低
+  - 水溶液呈酸性
+  - 都难溶或者不溶于水
+- 将生长中的细胞用<sup>14</sup>C标记的葡萄糖培养追踪生物大分子的合成途径，下面哪一种大分子最早出现放射性<span class="xz-answer-line"></span>。<span class="xz-answer">B</span>
+  - 蛋白质
+  - 淀粉
+  - 核酸
+  - 脂肪酸
+- 以下哪种生物大分子不是通过脱水反应聚合而成<span class="xz-answer-line"></span>。<span class="xz-answer">B</span>
+  - 多糖
+  - 脂类
+  - 蛋白质
+  - 核酸
+- 蛋白质是生命存在的重要基础，以下哪个不属于蛋白质的功能<span class="xz-answer-line"></span>。<span class="xz-answer">C</span>
+  - 结构支撑
+  - 提供营养
+  - 储存能量
+  - 催化反应
+- 铁是生物必需的重要微量元素。下列哪些分子含有铁元素<span class="xz-answer-line"></span>。<span class="xz-answer">B</span>
+  - 维生素C 
+  - 血红蛋白
+  - 甲状腺素 
+  - 叶绿素
+- 柠汁腌鱼生（Ceviche）是在拉丁美洲国家的一种常见食物，使用青柠或柠檬汁配以多种调料腌制新鲜鱼片。几个小时后鱼肉就会从软变硬，从透明变泛白。柠汁“腌熟”生鱼的原理在于<span class="xz-answer-line"></span>。<span class="xz-answer">A</span>
+  - 柠汁的酸性破坏了蛋白质结构中的氢键，使得蛋白质去折叠，失活而变性
+  - 柠汁破坏了蛋白质结构中的离子键，使得蛋白质变性
+  - 柠汁中含有能水解蛋白质的酶
+  - 柠汁通过破坏疏水作用力溶解了细胞膜
+- 镰刀型细胞贫血病源于血红蛋白中的极性氨基酸谷氨酸被非极性氨基酸缬氨酸取代。请推测在正常的血红蛋白中谷氨酸最可能位于<span class="xz-answer-line"></span>。<span class="xz-answer">A</span>
+  - 蛋白质的表面
+  - 蛋白质的疏水性内部
+  - 和氧气结合的活性位点
+  - 血红素结合位点
+- 如果氢键被破坏，蛋白质的各级结构中，哪一级结构不受影响<span class="xz-answer-line"></span>。<span class="xz-answer">A</span>
+  - 一级结构 
+  - 二级结构
+  - 三级结构
+  - 四级结构
+- 血红蛋白上导致了镰刀形贫血症的突变改变了蛋白质的哪些结构<span class="xz-answer-line"></span>。<span class="xz-answer">D</span>
+  - 一级结构
+  - 二级结构
+  - 四级结构
+  - 以上全部
+- 以下哪种生物大分子在物理化学特性以及结构多样性上最保守<span class="xz-answer-line"></span>。<span class="xz-answer">C</span>
+  - 多糖
+  - 多肽
+  - DNA
+  - RNA
+- RNA和DNA的区别在于<span class="xz-answer-line"></span>。<span class="xz-answer">C</span>
+  - DNA编码遗传信息，而RNA不能
+  - DNA形成双链结构，而RNA不能
+  - DNA含有胸腺嘧啶而RNA不含；RNA含有尿嘧啶
+  - 以上全部
+- 以下有关细胞结构的描述，不正确的是<span class="xz-answer-line"></span>。<span class="xz-answer">D</span>
+  - 质膜是一种选择性屏障，允许氧气、营养物质和代谢废物通过
+  - 真核细胞的遗传信息储存在细胞核中，由核糖体执行信息传递的功能
+  - 细胞的内膜系统成分既可以是连续的，也可以通过囊泡的转运而连接
+  - 内质网是细胞内最大的内膜系统，负责蛋白质合成的核糖体全部附着于内质网
+- 原核生物中不存在以下哪种物质<span class="xz-answer-line"></span>。<span class="xz-answer">A</span>
+  - 核膜
+  - DNA
+  - 染色质
+  - 以上全部
+- 使用放射性UTP（三磷酸尿苷，尿嘧啶的衍生物）理细胞，在最初几分钟内，请推测细胞中哪一部位的放射性浓度最高<span class="xz-answer-line"></span>。<span class="xz-answer">D</span>
+  - 核纤层
+  - 细胞质
+  - 粗面内质网
+  - 核仁
+- 与膜脂合成相关的酶最可能位于细胞的哪一部位<span class="xz-answer-line"></span>。<span class="xz-answer">A</span>
+  - 内质网
+  - 细胞核
+  - 溶酶体
+  - 高尔基体
+  - 细胞膜
+- 布雷非德菌素A（Brefeldin A）是一种从真菌分离的抗生素，抑制蛋白质从内质网转运到高尔基体。请问还有其他哪些细胞器和膜系统将受到影响<span class="xz-answer-line"></span>。<span class="xz-answer">A</span>
+  - 溶酶体、分泌泡和细胞膜
+  - 溶酶体、过氧化物酶体和细胞膜
+  - 分泌泡、线粒体和细胞膜
+  - 溶酶体、分泌泡和核膜
+  - 所有胞内细胞器和内膜系统
+- 固着核糖体上合成的蛋白质，一般会被运输到<span class="xz-answer-line"></span>。<span class="xz-answer">D</span>
+  - 细胞核
+  - 线粒体
+  - 溶酶体
+  - 细胞外
+- 主要起物质分选作用的细胞器是<span class="xz-answer-line"></span>。<span class="xz-answer">B</span>
+  - 内质网
+  - 高尔基体
+  - 溶酶体
+  - 质体
+- 很可能是由内共生作用而形成的细胞器是<span class="xz-answer-line"></span>。<span class="xz-answer">B</span>
+  - 内质网
+  - 线粒体
+  - 高尔基体
+  - 溶酶体
+- 紫杉醇在临床上用于治疗乳腺癌，其疗效是通过诱导与促进微管蛋白聚合，阻止了微管解聚而实现的。请据此推测癌细胞和正常细胞相比哪些细胞功能更加显著，使得紫杉醇具有抗癌作用<span class="xz-answer-line"></span>。<span class="xz-answer">C</span>
+  - 细胞形态的维持
+  - 纤毛或者鞭毛
+  - 细胞分裂时染色体的运动
+  - 细胞缢裂
+  - 胞质环流
+- 当细胞开始失水，植物细胞不如动物细胞收缩的那么明显，是因为<span class="xz-answer-line"></span>。<span class="xz-answer">D</span>
+  - 细胞质膜的伸缩性不同
+  - 细胞质膜上的小孔数目不同
+  - 细胞内外的渗透压不同
+  - 植物细胞具有细胞壁
+- 细胞膜有能量交换、物质运输和能量传递三种功能，这些功能与以下哪一种物质均有关<span class="xz-answer-line"></span>。<span class="xz-answer">C</span>
+  - 磷脂
+  - 糖类
+  - 蛋白质
+  - 固醇类
+- 关于细胞膜的描述，正确的是<span class="xz-answer-line"></span>。<span class="xz-answer">A</span>
+  - 脂肪酸构成磷脂非极性的尾部，朝向膜的中央
+  - 磷酸构成细胞膜非极性的尾部，朝向膜的两侧
+  - 磷脂在膜上具有流动性，膜蛋白没有
+  - 膜蛋白覆盖在磷脂的两侧
+- 钠离子通过以下哪种方式实现跨膜运输<span class="xz-answer-line"></span>。<span class="xz-answer">C</span>
+  - 简单扩散
+  - 易化扩散
+  - 主动运输
+  - 胞吞与胞吐
+- 以下与物质运输相关的膜蛋白，行使协同运输作用的蛋白是<span class="xz-answer-line"></span>。<span class="xz-answer">C</span>
+  - 水孔蛋白
+  - 离子通道蛋白
+  - 质子泵驱动的葡萄糖转运载体
+  - 钠钾离子泵
+- ATP成分是<span class="xz-answer-line"></span>。<span class="xz-answer">B</span>
+  - 鸟嘌呤 核糖 磷酸
+  - 腺嘌呤 核糖 磷酸
+  - 鸟嘌呤 脱氧核糖 磷酸
+  - 腺嘌呤 脱氧核糖 磷酸
+- 以下分子中, 不能作为细胞信号传递的第二信使的是<span class="xz-answer-line"></span>。<span class="xz-answer">D</span>
+  - 钙离子
+  - 三梨酸肌醇和二酰甘油
+  - 环化一磷酸腺苷
+  - 氧气
+- 在细胞转导过程中，信号分子与其受体结合，引发细胞内一系列反应。这个过程一定涉及<span class="xz-answer-line"></span>。<span class="xz-answer">B</span>
+  - 蛋白质的共价修饰
+  - 蛋白质高级结构的改变
+  - 转录因子的激活
+  - 新基因的表达
+- 以下对G蛋白耦联受体的描述，不正确的是:   <span class="xz-answer-line"></span>。<span class="xz-answer">B</span>
+  - 是多次跨膜的蛋白
+  - 能够将GTP水解为GDP，从而改变自身活性
+  - 一般需要第二信使在细胞内传递信号
+  - 与我们的视觉、味觉等有紧密关联
+- 生长因子类的受体一般具有潜在的激酶活性。当它们被激活时，能够<span class="xz-answer-line"></span>。<span class="xz-answer">C</span>
+  - 对赖氨酸残基进行乙酰化修饰
+  - 对丝氨酸残基进行磷酸化修饰
+  - 对酪氨酸残基进行磷酸化修饰
+  - 有时修饰苏氨酸，有时修饰丝氨酸
+- 类固醇激素作用于细胞后，最终导致<span class="xz-answer-line"></span>。<span class="xz-answer">B</span>
+  - 第二信使的合成 
+  - 新蛋白的合成
+  - 细胞质Ca<sup>2+</sup>浓度上升 
+  - 蛋白质磷酸化
+- 以下有关氧化还原反应的描述错误的是<span class="xz-answer-line"></span>。<span class="xz-answer">B</span>
+  - 氧化过程是指，反应物失去电子；还原过程是指，反应物得到电子
+  - 电子的受体称为还原剂，电子的供体称为氧化剂
+  - 反应物之间发生电子转移的化学反应被称为氧化还原反应
+  - 化学反应中通过电子的转移，将储存在有机分子中的能量释放出来，释放的能
+- 以下关于酶的描述错误的是<span class="xz-answer-line"></span>。<span class="xz-answer">D</span>
+  - 酶可以催化水解反应
+  - 酶可以降低反应的活化能垒
+  - 酶与底物的结合具有特异性
+  - 所有的酶均为蛋白质
+- 经过糖酵解，每一分子的葡萄糖被氧化为丙酮酸<span class="xz-answer-line"></span>。<span class="xz-answer">C</span>
+  - 产生6个分子的ATP
+  - 消耗4个分子的ATP, 产生2个分子的ATP
+  - 消耗2个分子的ATP，产生4个分子的ATP
+  - 净产生4个ATP
+- 以下有关细胞呼吸的描述，错误的是<span class="xz-answer-line"></span>。<span class="xz-answer">C</span>
+  - 在细胞呼吸的过程中，来自有机物的电子首先被转移至NAD<sup>+</sup>，NAD<sup>+</sup>在细胞呼吸过程中起到氧化剂的作用
+  - 细胞呼吸过程中产生ATP 最多的步骤是氧化磷酸化的过程
+  - 糖酵解和三羧酸循环过程中的底物水平磷酸化并不产生ATP
+  - 糖酵解主要发生在细胞质，先后可分为耗能阶段和放能阶段
+- 以下物质中，不是三羧酸循环的中间产物的是<span class="xz-answer-line"></span>。<span class="xz-answer">D</span>
+  - 草酰乙酸
+  - 延胡索酸
+  - 琥珀酸
+  - 乙酰辅酶A
+- 下列物质中，无法进入三羧酸循环被彻底氧化分解的是<span class="xz-answer-line"></span>。<span class="xz-answer">C</span>
+  - 硬脂酸
+  - 谷氨酸
+  - 尿素  
+  - 果糖
+- ATP是重要的能量提供者。关于ATP的说法，正确的是<span class="xz-answer-line"></span>。<span class="xz-answer">E</span>
+  - 呼吸作用中ATP主要由ATP合酶产生
+  - 糖酵解产生ATP的机制，与三羧酸循环直接产生ATP的机制相同
+  - ATP有时还提供磷酸基团，用于修饰蛋白质，以改变蛋白质的生物活性
+  - 如果线粒体内膜的不通透性被破坏，ATP的产生将受到严重影响
+  - 以上全部
+- 糖酵解过程中，ATP的形成机制是<span class="xz-answer-line"></span>。<span class="xz-answer">C</span>
+  - 氧化磷酸化
+  - 光和磷酸化
+  - 底物水平磷酸化 
+  - 电子传递
+- 关于化学渗透假说，错误叙述是<span class="xz-answer-line"></span>。<span class="xz-answer">D</span>
+  - 需要在线粒体内膜两侧形成电位差
+  - H<sup>+</sup>顺离子浓度梯度由膜外回流驱动ATP形成
+  - 质子泵的作用在于储存能量
+  - 必须把膜外侧的H<sup>+</sup>通过呼吸链泵到膜内
+- 呼吸作用中，葡萄糖分解代谢顺序描述正确的是<span class="xz-answer-line"></span>。<span class="xz-answer">D</span>
+  - 葡萄糖（细胞质）→乙酰辅酶A（线粒体基质）→ 丙酮酸（线粒体内膜）→ CO<sub>2</sub>（线粒体基质）
+  - 葡萄糖（细胞质）→乙酰辅酶A（线粒体内膜）→ 丙酮酸（线粒体基质）→ 氧（线粒体基质）
+  - 葡萄糖（线粒体基质）→丙酮酸（细胞质）→ 细胞色素C（线粒体内膜）→ CO<sub>2</sub>（线粒体基质）
+  - 葡萄糖（细胞质）→丙酮酸（细胞质）→ 乙酰辅酶A（线粒体基质）→ CO<sub>2</sub>（线粒体基质）
+{: .xz-choice-question }
