@@ -1,8 +1,10 @@
 "use strict";
 
 $(function () {
+    window.pageInfo = window.pageInfo || {};
     /* 目录 */
     window.tocRender = (window.tocRender || function() {
+        $(".mw-parser-output #toc").remove();
         let toc = $("<div/>"),
             lastRank = 1,
             tocID = [],
@@ -36,9 +38,14 @@ $(function () {
                 thisRank++;
             }
             tocID.push(tocID.pop() + 1);
+            let headingContent = this.innerHTML;
+            if ($(this).find(".mw-headline").length > 0) {
+                headingContent = $(this).find(".mw-headline").html();
+            }
+            headingContent = headingContent.replace(/<a [^<>]+>(.*?)<\/a>/g, "$1");
             toc.append($("<li/>").append($("<a/>").attr({
                 href: "#" + this.id
-            }).html(this.innerHTML.replace(/<a [^<>]+>(.*?)<\/a>/g, "$1"))));
+            }).html(headingContent)));
             lastRank = +this.tagName[1];
             $("<span/>").addClass("xz-fake-bookmark").attr({
                 "id": this.id
