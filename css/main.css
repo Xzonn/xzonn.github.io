@@ -67,7 +67,7 @@ figcaption::before, .caption-figure::before {
     padding-bottom: 9px;
 }
 
-.xz-heading .google-auto-placed {
+.xz-heading .google-auto-placed, .xz-heading + .google-auto-placed, .row > .google-auto-placed {
     display: none !important;
 }
 
@@ -218,21 +218,25 @@ figcaption::before, .caption-figure::before {
     color: inherit;
 }
 
-.xz-footer-links {
+.xz-footer ul {
     margin: 10px 0;
     padding-left: 0;
 }
 
-.xz-footer-links li {
+.xz-footer ul li {
     display: inline;
 }
 
-.xz-footer-links li::after {
+.xz-footer ul li::after {
     content: " · ";
 }
 
-.xz-footer-links li:last-child::after {
+.xz-footer ul li:last-child::after {
     content: "";
+}
+
+.xz-footer-icons {
+    float: right;
 }
 
 /* 备用样式 */

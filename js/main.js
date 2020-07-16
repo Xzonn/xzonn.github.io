@@ -92,7 +92,7 @@ $(function () {
         imageSize = 360,
         imageSizeUnit = /(pt|px|em|rem|cm|mm|%)$/;
     $(".xz-content img").each(function() {
-        if (this.nodeName == "IMG" && this.classList.length) {
+        if (this.classList.length || this.srcset) {
             return;
         }
 
