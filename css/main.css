@@ -67,7 +67,7 @@ figcaption::before, .caption-figure::before {
     padding-bottom: 9px;
 }
 
-.xz-heading .google-auto-placed, .xz-heading + .google-auto-placed, .row > .google-auto-placed {
+.xz-heading .google-auto-placed, .xz-heading + .google-auto-placed, .container > .google-auto-placed, .row > .google-auto-placed {
     display: none !important;
 }
 
