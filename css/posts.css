@@ -1,6 +1,11 @@
----
----
-{% include css/pagination.css%}
+/* {% include css/pagination.css%} */
+.xz-pagination-list {
+    text-align: center;
+}
+
+.xz-pagination-list .pagination {
+    margin: 0 auto;
+}
 
 .post-block {
     position: relative;

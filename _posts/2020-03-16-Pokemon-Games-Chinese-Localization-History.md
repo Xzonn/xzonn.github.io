@@ -1,6 +1,6 @@
 ---
 date: 2020-03-16 21:44
-headImage: https://media.52poke.com/wiki/a/a3/%E5%AE%9D%E5%8F%AF%E6%A2%A6_%E5%9B%BE%E6%A0%87_%E4%B8%AD%E6%96%87.png
+head_image: https://media.52poke.com/wiki/a/a3/%E5%AE%9D%E5%8F%AF%E6%A2%A6_%E5%9B%BE%E6%A0%87_%E4%B8%AD%E6%96%87.png
 info: 本表记录了《精灵宝可梦》系列游戏汉化时间，供后来者查考历史所用。
 last_modified_at: 2020-03-17 09:55
 tags: 二次元 任天堂 杂记 精灵宝可梦

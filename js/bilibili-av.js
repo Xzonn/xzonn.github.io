@@ -1,5 +1,3 @@
----
----
 function formatCodeToList(code) {
     let codes = code.split("\n");
     let ul = $("<ul/>");

@@ -1,8 +1,31 @@
----
----
-{% include js/getURLParameters.js %}
+// {% include js/getURLParameters.js %}
+let getURLParameters = function (rawSearch = location.search) {
+    let search = new Map(rawSearch.slice(1).split("&").map(x => x.split("=").map(y => decodeURIComponent(y))).filter(x => (x.length == 2))),
+        searchObject = {};
+    search.forEach(function (val, key) {
+        searchObject[key] = val;
+    });
+    return searchObject;
+}
 
-{% include js/pagination.js %}
+// {% include js/pagination.js %}
+let renderPagination = function (pageNumber, maxPageNumber, clickEvent) {
+    let paginationList = $("<ul/>").addClass("pagination"),
+        addPage = function (page, text, addClass) {
+            $("<a/>").text(text || page).attr("href", "#").data("page", addClass ? NaN : page).appendTo($("<li/>").addClass(addClass).appendTo(paginationList));
+        };
+    addPage(pageNumber - 1, "Â«", pageNumber == 1 ? "disabled" : "");
+    (pageNumber > 3) && addPage(1);
+    (pageNumber > 4) && addPage(1, "â€¦", "disabled");
+    for (let i = Math.max(1, pageNumber - 2); i <= Math.min(maxPageNumber, pageNumber + 2); i++) {
+        addPage(i, i, pageNumber == i ? "active" : "");
+    }
+    (pageNumber < maxPageNumber - 3) && addPage(1, "â€¦", "disabled");
+    (pageNumber < maxPageNumber - 2) && addPage(maxPageNumber);
+    addPage(pageNumber + 1, "Â»", pageNumber == maxPageNumber ? "disabled" : "");
+    paginationList.find("a").bind("click", clickEvent);
+    return(paginationList);
+}
 
 window.changePage = function (page) {
     let pageCount = (Cookies.get("page-count") || 10),
