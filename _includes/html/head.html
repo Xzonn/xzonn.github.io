@@ -7,17 +7,17 @@
         <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
         <meta name="referrer" content="same-origin"/>
         {% feed_meta %}
-        <link rel="apple-touch-icon" href="/images/icon_180x180.png"/>
-        <link rel="fluid-icon" href="/images/icon_180x180.png"/>
-        <link rel="icon" sizes="32x32" href="/images/icon_32x32.png"/>
-        <link rel="icon" sizes="16x16" href="/images/icon_16x16.png"/>
+        <link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/Xzonn/xzonn.github.io/images/icon_180x180.png"/>
+        <link rel="fluid-icon" href="https://cdn.jsdelivr.net/gh/Xzonn/xzonn.github.io/images/icon_180x180.png"/>
+        <link rel="icon" sizes="32x32" href="https://cdn.jsdelivr.net/gh/Xzonn/xzonn.github.io/images/icon_32x32.png"/>
+        <link rel="icon" sizes="16x16" href="https://cdn.jsdelivr.net/gh/Xzonn/xzonn.github.io/images/icon_16x16.png"/>
         <!-- Bootstrap -->
-        <link rel="stylesheet" href="/css/base.css"/>
-        <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/popper.min.js" integrity="sha256-O17BxFKtTt1tzzlkcYwgONw4K59H+r1iI8mSQXvSf5k=" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js" integrity="sha256-nuL8/2cJ5NDSSwnKD8VqreErSWHtnEP9E7AySL+1ev4=" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Xzonn/xzonn.github.io/css/base.css"/>
+        <script src="https://cdn.jsdelivr.net/gh/Xzonn/xzonn.github.io/js/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/gh/Xzonn/xzonn.github.io/js/popper-2.4.4.min.js" integrity="sha256-IV4UUIKQnDSzg45Xlp5ElTz//RCdLyQtX/9JDZuAUH8=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/gh/Xzonn/xzonn.github.io/js/bootstrap-3.4.1.min.js" integrity="sha256-nuL8/2cJ5NDSSwnKD8VqreErSWHtnEP9E7AySL+1ev4=" crossorigin="anonymous"></script>
         <!-- Highlight -->
-        <link rel="stylesheet" href="/css/highlight.css"/>{% if page.math %}
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Xzonn/xzonn.github.io/css/highlight.css"/>{% if page.math %}
         <!-- MathJax -->
         <script type="text/x-mathjax-config">
             MathJax.Ajax.config.path["mhchem"] = "https://cdn.jsdelivr.net/npm/mathjax-mhchem@3.3.2";
@@ -52,10 +52,10 @@
         <script src="https://cdn.jsdelivr.net/npm/mathjax@2.7.5/MathJax.js?config=TeX-AMS_SVG" integrity="sha256-nvJJv9wWKEm88qvoQl9ekL2J+k/RWIsaSScxxlsrv8k=" crossorigin="anonymous"></script>{% endif %}{% if page.chart %}
         <!-- Google Charts -->
         <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-        <script src="/js/chart.js"></script>{% endif %}
+        <script src="https://cdn.jsdelivr.net/gh/Xzonn/xzonn.github.io/js/chart.js"></script>{% endif %}
         <!-- jQuery -->
-        <script src="https://cdn.jsdelivr.net/npm/jquery.qrcode@1.0.3/jquery.qrcode.min.js" integrity="sha256-9MzwK2kJKBmsJFdccXoIDDtsbWFh8bjYK/C7UjB1Ay0=" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/js-cookie@2.2.1/src/js.cookie.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/gh/Xzonn/xzonn.github.io/js/jquery.qrcode-1.0.3.min.js" integrity="sha256-9MzwK2kJKBmsJFdccXoIDDtsbWFh8bjYK/C7UjB1Ay0=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/gh/Xzonn/xzonn.github.io/js/js.cookie-2.2.1.min.js" integrity="sha256-MdF5lmO7tgKSFNkLp9uc3HJfoCwW1LCQrdNyHkQji2s=" crossorigin="anonymous"></script>
         <!-- Self Defined -->
         <script>
             window.pageInfo = window.pageInfo || {
@@ -70,8 +70,8 @@
             }
             window.scriptDomain = {{ site.url | jsonify }}
         </script>
-        <link rel="stylesheet" href="/css/main.css" />
-        <script src="/js/main.js"></script>{% assign css = page.css | split: " " %}{% for i in css %}
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Xzonn/xzonn.github.io/css/main.css" />
+        <script src="https://cdn.jsdelivr.net/gh/Xzonn/xzonn.github.io/js/main.js"></script>{% assign css = page.css | split: " " %}{% for i in css %}
         <link rel="stylesheet" href="/css/{{ i }}.css"/>{% endfor %}{% assign js = page.js | split: " " %}{% for i in js %}
         <script src="/js/{{ i }}.js"></script>{% endfor %}
         <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.name }}</title>
