@@ -20,4 +20,5 @@ plugins:
   - jekyll-sitemap
 timezone: Asia/Shanghai
 url: https://xzonn.top
+cdnpath: https://cdn.jsdelivr.net/gh/Xzonn/xzonn.github.io@master
 version: v3.0
