@@ -32,7 +32,8 @@ window.changePage = function (page) {
         pageNumber = +(page || getURLParameters().page || 1),
         isWeChat = /MicroMessenger/.test(navigator.userAgent),
         i;
-    $.get("/pages.json?d=" + new Date().getDate()).done(function (data) {
+    let hasedPostList = JSON.parse(localStorage.getItem("xz-post-list"));
+    let renderPages = function (data) {
         let maxPageNumber = Math.ceil(data.length / pageCount);
         data = data.sort(function (a, b) {
             if (a["update"] < b["update"]) {
@@ -86,7 +87,21 @@ window.changePage = function (page) {
                 "behavior": "smooth"
             });
         }
-    });
+    };
+    if (!hasedPostList || (new Date() - hasedPostList["update"]) > (30 * 60 * 1000)) {
+        $.get({
+            "url": "/pages.json?d=" + new Date().getDate(),
+            "timeout": 5000
+        }).done(function (data) {
+            localStorage.setItem("xz-post-list", JSON.stringify({
+                "update": +new Date(),
+                "list": data
+            }));
+            renderPages(data);
+        })
+    } else {
+        renderPages(hasedPostList["list"]);
+    }
 };
 
 $(function () {

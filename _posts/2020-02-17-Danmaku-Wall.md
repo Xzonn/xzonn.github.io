@@ -1,12 +1,12 @@
 ---
 date: 2020-02-17 19:48
-head_image: https://file.moetu.org/images/2020/02/20/0e1ebb9e6299716833b9b65fc59df2273f84b4944b44f64c.png
 info: 宗旨：让使用电脑全屏演示的老师能够与同学们实时互动。
-last_modified_at: 2020-02-17 23:13
+last_modified_at: 2020-08-02 11:24
 tags: 作品发布 技术指南
 title: 酷Q 弹幕墙插件
 wechat_link: https://mp.weixin.qq.com/s/kskgb-AIWp0rVEEhn3i4KA
 ---
+<div class="alert alert-danger" role="alert"><p><strong>提醒</strong>：酷Q服务已停止。本文仅做留档用。</p></div>
 
 ## 前言
 
@@ -80,4 +80,4 @@ wechat_link: https://mp.weixin.qq.com/s/kskgb-AIWp0rVEEhn3i4KA
 
 如有使用方面的问题，可在本页面下方的[留言区](#xz-content-comment)中留言，或在GitHub上[提交Issue](https://github.com/Xzonn/DanmakuWall/issues)。
 
-标题图来源：<https://www.bilibili.com/video/av22533661?t=3>。
+<div class="alert alert-danger" role="alert"><p><strong>提醒</strong>：酷Q服务已停止。本文仅做留档用。</p></div>

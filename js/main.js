@@ -261,20 +261,33 @@ $(function () {
 
     /* PDF */
     if (window.pageInfo["tags"] && window.pageInfo["tags"].indexOf("学习资料") > -1) {
-        $.get({
-            "url": scriptDomain + "/pdf.py",
-            "timeout": 5000,
-            "data": {
-                "name": window.pageInfo["link"].split("/").reverse()[0]
-            }
-        }).done(function (data) {
-            if (data["code"] == 200) {
+        let hasedFileList = JSON.parse(localStorage.getItem("xz-pdf-list"));
+        let renderAlert = function (pdfList) {
+            let fileName = location.pathname.split("/").reverse()[0].replace(".html", ".pdf");
+            if (pdfList.indexOf(fileName) > -1) {
                 let div = $("<div/>").addClass(["xz-info-pdf alert alert-success"]).append([
-                    $("<p/>").html(`本页面存在一个 <a href="https://cdn.jsdelivr.net/gh/Xzonn/xz-pdf/${data["name"].replace(/\.html$/, ".pdf")}" class="alert-link">服务器渲染的PDF版本</a>。（<a href="/posts/Update-Study-Search-and-Pdf.html" class="alert-link">实验性</a>）`)
+                    $("<p/>").html(`本页面存在一个 <a href="https://cdn.jsdelivr.net/gh/Xzonn/xz-pdf/${fileName}" class="alert-link">已渲染的PDF版本</a>。`)
                 ]).appendTo($(".xz-infobox-top"));
                 Han(div[0]).render();
             }
-        });
+        }
+        if (!hasedFileList || (new Date() - hasedFileList["update"]) > (30 * 60 * 1000)) {
+            $.get({
+                "url": "https://api.github.com/repos/Xzonn/xz-pdf/contents",
+                "timeout": 5000
+            }).done(function (data) {
+                if (data instanceof Array) {
+                    let pdfList = data.map(x => x["path"]);
+                    localStorage.setItem("xz-pdf-list", JSON.stringify({
+                        "update": +new Date(),
+                        "list": pdfList
+                    }));
+                    renderAlert(pdfList);
+                }
+            })
+        } else {
+            renderAlert(hasedFileList["list"]);
+        }
     }
 
     /* Resize */

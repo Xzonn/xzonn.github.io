@@ -180,7 +180,6 @@ figcaption::before, .caption-figure::before {
 
 .xz-content-main article > * {
     max-width: 100%;
-    overflow-x: auto;
 }
 
 .xz-content-main article > .row {
