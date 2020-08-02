@@ -1,8 +1,7 @@
 ---
 date: 2020-03-07 22:14
-head_image: https://file.moetu.org/images/2020/03/07/a790fa9a92669f9aac086cc38ef8272473fe3f2b07037787.png
 info: 利用云服务器结合python脚本实现搜索功能及PDF渲染功能。
-last_modified_at: 2020-03-09 15:11
+last_modified_at: 2020-08-02 18:06
 tags: 网站日志
 title: 新功能上线：学习资料库搜索及服务器渲染PDF
 ---
@@ -11,12 +10,13 @@ title: 新功能上线：学习资料库搜索及服务器渲染PDF
 [上次更新](/posts/Update-3-0.html)提到了阿里云的“[学生‘在家实践’计划](https://developer.aliyun.com/adc/student/)”。有了一台自己的服务器，只有静态网页似乎有点浪费，因此我玩出了一些新花样。
 
 ## 学习资料库搜索
+<div class="alert alert-danger" role="alert"><p><strong>提醒</strong>：本页面已关闭，并将在不久之后移除。</p></div>
 
 ![网页版搜索\|right](https://file.moetu.org/images/2020/03/07/a790fa9a92669f9aac086cc38ef8272473fe3f2b07037787.png)
 
 我的[学习资料库](/posts/Study.html)储存了不少文件，我自己在电脑上查找可以用Everything，但是在网盘里查找似乎就有些费劲了。因此我写了个简单的搜索系统，可以搜索收录了学习资料的课程，也可以搜索单个文件。由于数据量不大，我也没怎么去考虑优化问题，直接用了一个SQLite数据库保存所有的文件并归类了课程信息。
 
-[» 点击这里可以前往搜索页面 «](/tools/Study-Search.html)
+<!--[» 点击这里可以前往搜索页面 «](/tools/Study-Search.html)-->
 
 ![公众号搜索\|right](https://file.moetu.org/images/2020/03/07/6b0de472202b8f73984a79a16f625b9ee3162da39c4a0d45.png)
 
