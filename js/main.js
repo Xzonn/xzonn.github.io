@@ -284,6 +284,14 @@ $(function () {
                     }));
                     renderAlert(pdfList);
                 }
+            }).fail(function () {
+                let div = $("<div/>").addClass(["alert alert-danger"]).append([
+                    $("<p/>").html(`无法链接至<strong><a href="https://api.github.com/">https://api.github.com/</a></strong>，请检查网络设置。`)
+                ]).appendTo($(".xz-infobox-top")),
+                    closeButton = $(`<button type="button" class="close" data-dismiss="alert">&times;</button>`).appendTo($(".xz-infobox-top"));
+                Han(div[0]).render();
+                setTimeout(x => closeButton.click(), 5000);
+                renderAlert((hasedFileList || {})["list"] || []);
             })
         } else {
             renderAlert(hasedFileList["list"]);
