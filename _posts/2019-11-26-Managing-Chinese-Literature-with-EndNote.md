@@ -4,7 +4,7 @@ date: 2019-11-26 12:00
 head_image: https://mmbiz.qpic.cn/mmbiz_jpg/Qh7FH95PRnuXsKbo6P2vzJ5gyibs6g4lF7VEU4vMicFmaTeul8xt9NyUG5AibhKCscKV5lK4OfJkTOaBhK9VWyQgQ/0
 info: EndNote 其实也是可以管理中文文献的。
 js: bilibili
-last_modified_at: 2020-02-09 15:25
+last_modified_at: 2020-10-25 23:34
 tags: 三次元 技术指南
 title: 用 EndNote 管理中文文献
 wechat_link: https://mp.weixin.qq.com/s/gTwaB7uqqNfTbg0UgsL4zw
@@ -69,6 +69,8 @@ wechat_link: https://mp.weixin.qq.com/s/gTwaB7uqqNfTbg0UgsL4zw
 
 ### 4.2. 修改参考文献列表的格式
 由于 EndNote 默认格式中没有 GB/T 7714-2015 格式，而官网给出的格式也有一些问题，所以建议大家直接下载本人修改过的版本：
+
+<https://disk.pku.edu.cn/link/83E76C0C7A4A826203DC45394CB4A282>
 
 还记得前文所述的安装位置吗？将“Chinese Std GBT7714 (numeric) Copy.ens”文件复制到安装位置文件夹下的“Styles”文件夹下（如果是默认安装路径，则应为“C:\Program Files (x86)\EndNote X9\Styles”），然后即可从上文所述的样式列表中找到这一格式。（如果下拉菜单中无此格式，则需选择“Select Another Style”，然后从对话框中搜索）
 
