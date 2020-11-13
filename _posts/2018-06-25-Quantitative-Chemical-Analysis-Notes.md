@@ -1,7 +1,7 @@
 ---
 date: 2018-06-25 12:00
-infoBox: complete
-last_modified_at: 2020-01-07 14:59
+infobox: complete
+last_modified_at: 2020-11-13 13:14
 math: true
 tags: 三次元 化学 学习资料 知识点整理
 title: 《定量分析化学》知识点整理
@@ -482,7 +482,7 @@ title: 《定量分析化学》知识点整理
 * 显色剂：无机显色剂$\ce{SCN-}$，$\ce{(NH4)2MoO4}$。有机显色剂：邻二氮菲、PAR等。
 * 显色剂的选择：灵敏度高，$\varepsilon > 10^4$；选择性好；显色剂在测定波长处无明显吸收，对照性好，$\Delta \lambda\_{\text{max}} > \pu{60 nm}$；反应生成的有色化合物组成恒定，稳定；显色条件易于控制，重现性好。
 * 显色条件的确定：
-  * 显色剂用量：（见<a class="xref-figure" href="#figure-KIAhut.png"></a>）![显色剂用量](https://file.moetu.org/images/2020/02/20/414ba973ffe9ef208696db8d0cd9e2690713b72bb21ab5a2.png)
+  * 显色剂用量：（见<a class="xref-figure" href="#figure-414ba973ffe9ef208696db8d0cd9e2690713b72bb21ab5a2.png"></a>）![显色剂用量](https://file.moetu.org/images/2020/02/20/414ba973ffe9ef208696db8d0cd9e2690713b72bb21ab5a2.png)
   * 显色反应酸度：邻二氮菲－亚铁反应完全度与pH的关系。
   * 显色温度及显色时间
   * 另外，还有介质条件、有机溶剂、表面活性剂等。

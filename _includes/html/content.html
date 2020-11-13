@@ -18,12 +18,17 @@
                     </div>
                     <article>
 {{ content }}
-                    </article>
+                    </article>{% if page.ref or page.logs %}
+                    <div class="xz-infobox-bottom">{%if page.ref %}
+                        <div class="xz-info-ref alert alert-info">参考资料：{% if page.ref_link %}<a href="{{ page.ref_link }}" class="alert-link">{{ page.ref }}</a>{% else %}{{ page.ref }}{% endif %}</div>{% endif %}{%if page.logs %}
+                        <div class="xz-info-logs alert alert-info">更新记录：
+                            <ul>{% for log in page.logs %}
+                                <li>{{ log }}</li>{% endfor %}
+                            </ul>
+                        </div>{% endif %}
+                    </div>{% endif %}
                     <ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-8317643192080236" data-ad-slot="8544171099"></ins>
-                    <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script>{% if page.ref %}
-                    <div class="xz-infobox-bottom">
-                        <div class="xz-info-ref alert alert-info">参考资料：{% if page.ref_link %}<a href="{{ page.ref_link }}" class="alert-link">{{ page.ref }}</a>{% else %}{{ page.ref }}{% endif %}</div>
-                    </div>{% endif %}{% unless jekyll.environment == "development" or page.no_comment %}
+                    <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script>{% unless jekyll.environment == "development" or page.no_comment %}
                     <div class="xz-content-comment hidden-print">
                         <div id="lv-container" data-id="city" data-uid="MTAyMC80MTk5MS8xODUzOA=="></div>
                         <script src="https://cdn-city.livere.com/js/embed.dist.js" async="async"></script>

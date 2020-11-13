@@ -146,7 +146,7 @@ Start -> RETIRE
 <div class="bilibiliBox" data-aid="47147308" data-page="1"></div>
 
 ## 6 参考资料
-1. <span id="ref-1"></span>Bulbapedia. Tweaking[OL]. [https://bulbapedia.bulbagarden.net/w/index.php?title=Tweaking&oldid=2772930](https://bulbapedia.bulbagarden.net/w/index.php?title=Tweaking&oldid=2772930), 2018-05-04/2019-03-02.
-2. <span id="ref-2"></span>Johnstone. POKEMON GLITCHES: The Tweaking Glitch (Part 1) - Darkrai and Shaymin[V/OL]. [https://www.youtube.com/watch?v=b15M3VU_MPA](https://www.youtube.com/watch?v=b15M3VU_MPA), 2018-01-20/2019-03-02.
-3. <span id="ref-3"></span>Ganix. Void Glitch - How to Catch Arceus in Pokemon D/P[V/OL]. [https://www.youtube.com/watch?v=VrhHXG3cuAw](https://www.youtube.com/watch?v=VrhHXG3cuAw), 2017-01-22/2019-03-23.
-4. <span id="ref-4"></span>Cryo. Obtaining Arceus via the Void Glitch[EB/OL]. [https://forums.glitchcity.info/index.php?topic=7770.0](https://forums.glitchcity.info/index.php?topic=7770.0), 2017-01-10/2019-03-23.
+1. <span id="ref-1"></span>Bulbapedia. Tweaking[OL]. <https://bulbapedia.bulbagarden.net/w/index.php?title=Tweaking&oldid=2772930>, 2018-05-04/2019-03-02.
+2. <span id="ref-2"></span>Johnstone. POKEMON GLITCHES: The Tweaking Glitch (Part 1) - Darkrai and Shaymin[V/OL]. <https://www.youtube.com/watch?v=b15M3VU_MPA>, 2018-01-20/2019-03-02.
+3. <span id="ref-3"></span>Ganix. Void Glitch - How to Catch Arceus in Pokemon D/P[V/OL]. <https://www.youtube.com/watch?v=VrhHXG3cuAw>, 2017-01-22/2019-03-23.
+4. <span id="ref-4"></span>Cryo. Obtaining Arceus via the Void Glitch[EB/OL]. <https://forums.glitchcity.info/index.php?topic=7770.0>, 2017-01-10/2019-03-23.

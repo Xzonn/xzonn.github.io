@@ -8,4 +8,8 @@ $(function () {
     $("blockquote").attr({
         "lang": "ja"
     });
+
+    $("blockquote em").attr({
+        "lang": "zh"
+    });
 });

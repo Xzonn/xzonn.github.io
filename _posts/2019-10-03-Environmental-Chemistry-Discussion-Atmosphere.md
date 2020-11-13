@@ -3,7 +3,7 @@ class: exercise
 date: 2019-10-03 12:00
 head_image: https://file.moetu.org/images/2020/02/20/20a2eb9d36c5666c4efe6968aa9d5c7c0bf3ecd65e1c571b.png
 infobox: incomplete
-last_modified_at: 2020-01-07 14:59
+last_modified_at: 2020-11-13 13:50
 math: true
 tags: 三次元 学习资料 环院专业课 知识点整理
 title: 《环境化学》讨论题整理（大气部分）
@@ -30,16 +30,16 @@ title: 《环境化学》讨论题整理（大气部分）
 ##### 质量分布
 ![大气质量分布\|213px](https://file.moetu.org/images/2020/02/20/20a2eb9d36c5666c4efe6968aa9d5c7c0bf3ecd65e1c571b.png)
 
-（见<a class="xref-figure" href="#figure-KBXcuj.png"></a>）一般认为大气层的厚度为1000 km，其中75%的质量在10 km以下的范围内，99%的质量在30 km以下的范围内，高度100 km以上空气质量仅是整个大气圈质量的百万分之一。
+（见<a class="xref-figure" href="#figure-20a2eb9d36c5666c4efe6968aa9d5c7c0bf3ecd65e1c571b.png"></a>）一般认为大气层的厚度为1000 km，其中75%的质量在10 km以下的范围内，99%的质量在30 km以下的范围内，高度100 km以上空气质量仅是整个大气圈质量的百万分之一。
 
 对流层平均厚度为10 ~ 12 km，仅是大气层厚度的1%，但是大气总质量的$$\frac 34$$以上，几乎所有水汽集中在此层。
 
-**原因**：重力使大部分气体集中在近地面处，使大气表现出底层气体密集、高层砌体分散的特点。
+**原因**：重力使大部分气体集中在近地面处，使大气表现出底层气体密集、高层气体分散的特点。
 
 ##### 能量分布
 ![大气能量分布及物质形态分布](https://file.moetu.org/images/2020/02/20/7b01a60f5eaf64e28ee0dc0d5753b45015f18986ceb8443d.png)
 
-（见<a class="xref-figure" href="#figure-KDZ8oT.png"></a>）大气圈层的能量分布可用温度分布近似表示。
+（见<a class="xref-figure" href="#figure-7b01a60f5eaf64e28ee0dc0d5753b45015f18986ceb8443d.png"></a>）大气圈层的能量分布可用温度分布近似表示。
 
 - **对流层**：低纬度17 ~ 18 km，中纬度 10 ~ 12 km，高纬度8 ~ 9 km。
   - 气温随高的增加而递减，每上升100 m降低0.6 ℃；原因：热量绝大部分来自地面。
@@ -59,7 +59,7 @@ title: 《环境化学》讨论题整理（大气部分）
 - **原因**：高层处大气稀薄，受到很强的宇宙射线和阳光紫外线，空气分子电离成离子和自由电子，能量较高。往下至平流层附近，气体逐渐密集（特别是臭氧层的存在，具有吸收太阳短波紫外线的能力），能吸收更多的辐射；往下至对流层处，能到达至此的太阳辐射较少，主要靠地面辐射和大气反射维持能量。 
 
 #### 大气组分的大气停留时间如何确定，不同停留时间的组分在环境影响方面有何特点？
-**停留时间**（$$\tau$$）：某种组分在大气储库中存在的平均时间。（见<a class="xref-figure" href="#figure-KyUEcj.png"></a> 及<a class="xref-table" href="#table-bu-tong-wu-zhi-de-ting-liu-shi-jian"></a>）
+**停留时间**（$$\tau$$）：某种组分在大气储库中存在的平均时间。（见<a class="xref-figure" href="#figure-48aa935a06e53198c79bc34bfa7ab16349c5622a7c43a7f6.png"></a> 及<a class="xref-table" href="#table-bu-tong-wu-zhi-de-ting-liu-shi-jian"></a>）
 
 $$\tau = \cfrac {\text{大气中总量}M} {\text{输入速率}F\text{ 或 输出速率}R}.$$
 

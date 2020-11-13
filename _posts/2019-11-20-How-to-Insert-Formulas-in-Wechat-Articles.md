@@ -4,7 +4,7 @@ date: 2019-11-20 12:00
 head_image: https://mmbiz.qpic.cn/mmbiz_jpg/Qh7FH95PRnuloHxksOxTetZaQtOicZ5boXOu9szzEziaUHWtyO0PeHg3PB5xv1oWUlVfib6ITYKhqpkia3CuEpma9w/0
 info: 用截图插入公式，或许不是优雅的选择。
 js: bilibili
-last_modified_at: 2020-01-03 23:02
+last_modified_at: 2020-11-13 13:18
 math: true
 tags: 三次元 技术指南
 title: 如何在微信推送中优雅地插入公式
@@ -38,7 +38,7 @@ wechat_link: https://mp.weixin.qq.com/s/mYzdirgQjLwqXrfpri8lgw
 我个人认为，这个排版工具的显示效果还是不错的。那么问题来了：公式要如何输入呢？
 
 ## 2. 公式的输入方式
-如<a class="xref-figure" href="#figure-MTn9e0.png"></a><h-hws hidden=""> </h-hws>所示，Markdown Nice中的公式需要放在美元符号“\\\$”之间，若为一个美元符号“\\\$”则是行内公式（即文字和公式在同一行），若为两个美元符号“\\\$\\\$”则是块公式（即公式单独成行并居中）。而美元符号之间的代码则是通过“MathJax”渲染的，其语法类似于TeX，但并不完全相同。如果你有TeX输入公式的基础，那么上手MathJax并不算难。<span class="footnote">MathJax中可使用的TeX命令可在如下网页中找到：[http://www.onemathematicalcat.org/MathJaxDocumentation/TeXSyntax.htm](http://www.onemathematicalcat.org/MathJaxDocumentation/TeXSyntax.htm)</span>
+如<a class="xref-figure" href="#figure-bd1a2f87762fdabdcf277e8433bf0c94be7e02c85ba70e88.png"></a><h-hws hidden=""> </h-hws>所示，Markdown Nice中的公式需要放在美元符号“\\\$”之间，若为一个美元符号“\\\$”则是行内公式（即文字和公式在同一行），若为两个美元符号“\\\$\\\$”则是块公式（即公式单独成行并居中）。而美元符号之间的代码则是通过“MathJax”渲染的，其语法类似于TeX，但并不完全相同。如果你有TeX输入公式的基础，那么上手MathJax并不算难。<span class="footnote">MathJax中可使用的TeX命令可在如下网页中找到：<http://www.onemathematicalcat.org/MathJaxDocumentation/TeXSyntax.htm></span>
 
 当然，对于完全没有学过TeX语法（而且可能也不想学）的朋友，其实还有一些比较简单的方法。
 

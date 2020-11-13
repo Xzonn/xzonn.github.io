@@ -1,7 +1,7 @@
 ---
 date: 2019-11-02 12:00
 head_image: https://file.moetu.org/images/2020/02/20/5a25ca9b361d920fa31d44c3aea248430962aa4095a771ab.gif
-last_modified_at: 2020-01-03 23:02
+last_modified_at: 2020-11-13 13:17
 math: true
 tags: 三次元 作业 学习资料 编程
 title: 《计算概论（B）》（马思伟）作业参考代码（2017）
@@ -216,7 +216,7 @@ int main() {
 ### 1. 二维数组回形遍历
 #### (1) 题目要求
 ##### 描述
-给定一个row行col列的整数数组array，要求从array[0][0]元素开始，按回形从外向内顺时针顺序遍历整个数组。如<a class="xref-figure" href="#figure-KLPt56.gif"></a> 所示：
+给定一个row行col列的整数数组array，要求从array[0][0]元素开始，按回形从外向内顺时针顺序遍历整个数组。如<a class="xref-figure" href="#figure-5a25ca9b361d920fa31d44c3aea248430962aa4095a771ab.gif"></a> 所示：
 
 ![“二维数组回形遍历”参考图\|275px](https://file.moetu.org/images/2020/02/20/5a25ca9b361d920fa31d44c3aea248430962aa4095a771ab.gif)
 
@@ -698,7 +698,7 @@ int main() {
 ### 4. 展开数组
 #### (1) 题目要求
 ##### 描述
-去年阿福做了一个填充数组的任务，至今自己还津津乐道。现在他又遇到了一个相似的问题，跟去年的有那么一点像。可是他平时光顾着自己吹牛，却忘记了那个问题当时是怎么解决的，想请你帮忙回忆一下，到底该怎么做呢？问题如下：以<a class="xref-figure" href="#figure-KLPyVI.png"></a>所示的顺序遍历给定的数组。
+去年阿福做了一个填充数组的任务，至今自己还津津乐道。现在他又遇到了一个相似的问题，跟去年的有那么一点像。可是他平时光顾着自己吹牛，却忘记了那个问题当时是怎么解决的，想请你帮忙回忆一下，到底该怎么做呢？问题如下：以<a class="xref-figure" href="#figure-201889fea5e226c49c6d025ed967693281df35f0a779157f.png"></a>所示的顺序遍历给定的数组。
 
 ![“展开数组”参考图](https://file.moetu.org/images/2020/02/20/201889fea5e226c49c6d025ed967693281df35f0a779157f.png)
 
@@ -918,7 +918,7 @@ int main() {
 
 #### (4) 说明
 * 此题在系统中未录入，提交后显示<span style="color: #f00;">NoTestData</span>。
-* 此题中我给出的参考答案1是“暴力匹配法”，是最低级、运算时间最长的算法。提示中所说的“KMP算法”全称为“克努斯-莫里斯-普拉特算法”，可以参考[http://blog.csdn.net/v_july_v/article/details/7041827](http://blog.csdn.net/v_july_v/article/details/7041827)这个链接的内容。
+* 此题中我给出的参考答案1是“暴力匹配法”，是最低级、运算时间最长的算法。提示中所说的“KMP算法”全称为“克努斯-莫里斯-普拉特算法”，可以参考<http://blog.csdn.net/v_july_v/article/details/7041827>这个链接的内容。
 
 ## 作业5
 ### 1. 字符串连接
@@ -1670,13 +1670,13 @@ int main() {
 ##### 描述
 输入是两个非负大整数$$a$$，$$b$$，输出他们相乘的结果。
 
-$$a$$，$$b$$不超过30位。输出结果不能有前导0。
+<!-- -->$$a$$，$$b$$不超过30位。输出结果不能有前导0。
 
 ##### 关于输入
 两个大整数$$a$$，$$b$$，之间有一个空格。
 
 ##### 关于输出
-$$a$$和$$b$$的乘积$$c$$。
+<!-- -->$$a$$和$$b$$的乘积$$c$$。
 
 ##### 例子输入
     284075387718630766371350282 520994107158139813857385769
@@ -2146,7 +2146,7 @@ int main() {
 ```
 
 ## 作业10
-### 0. 说明<span class="footnote">参考资料：维基百科编者. 排序算法 [G/OL]. (2019-09-26)[2019-11-02]. [https://zh.wikipedia.org/w/index.php?title=%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95&oldid=56246883](https://zh.wikipedia.org/w/index.php?title=%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95&oldid=56246883).</span>
+### 0. 说明<span class="footnote">参考资料：维基百科编者. 排序算法 [G/OL]. (2019-09-26)[2019-11-02]. <https://zh.wikipedia.org/w/index.php?title=%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95&oldid=56246883>.</span>
 
 #### (1) 概述
 在计算机科学与数学中，一个**排序算法**（英语：Sorting algorithm）是一种能将一串数据依照特定排序方式进行排列的一种算法。最常用到的排序方式是数值顺序以及字典顺序。有效的排序算法在一些算法（例如搜索算法与合并算法）中是重要的，如此这些算法才能得到正确解答。排序算法也用在处理文字数据以及产生人类可读的输出结果。基本上，排序算法的输出必须遵守下列两个原则：
@@ -2476,7 +2476,7 @@ int main() {
 
 此题最简单的方法就是“暴力匹配法”（也称“朴素算法”），特点是好想，但耗时长，需要$$n \times m$$数量级的运算。提示中所说的“KMP算法”全称为“克努斯-莫里斯-普拉特算法”，可以参考[这个链接](http://blog.csdn.net/v_july_v/article/details/7041827)的内容。
 
-下面给出叫做“Sunday算法”的方法。具体思想：<span class="footnote">参考资料：coderchenjingui. Sunday算法---简单高效的字符串匹配算法 [EB/OL]. (2014-11-06)[2019-11-02]. [http://blog.csdn.net/qq575787460/article/details/40866661](http://blog.csdn.net/qq575787460/article/details/40866661).</span>
+下面给出叫做“Sunday算法”的方法。具体思想：<span class="footnote">参考资料：coderchenjingui. Sunday算法---简单高效的字符串匹配算法 [EB/OL]. (2014-11-06)[2019-11-02]. <http://blog.csdn.net/qq575787460/article/details/40866661>.</span>
 
 1. 令`str`为原字符串，`par`为子串，`i`为要匹配的字符在`str`中的位置，`j`为要匹配的字符在`par`中的位置（均从0开始），`strLen`和`parLen`分别为两字符串长度。
 2. 开始时`i = 0`，`j = 0`。
@@ -2546,7 +2546,7 @@ int main() {
 
 此题也有模拟方法，即按照执行顺序依次求出被杀的人。
 
-下面给出数学推导的方法：<span class="footnote">参考资料：Mr_Lsz. 约瑟夫问题实现的方法总结 [EB/OL]. (2016-04-11)[2019-11-02]. [http://blog.csdn.net/lishuzhai/article/details/51125072](http://blog.csdn.net/lishuzhai/article/details/51125072).</span>
+下面给出数学推导的方法：<span class="footnote">参考资料：Mr_Lsz. 约瑟夫问题实现的方法总结 [EB/OL]. (2016-04-11)[2019-11-02]. <http://blog.csdn.net/lishuzhai/article/details/51125072>.</span>
 
 1. 先考虑有$$n$$个人的情况，将他们编号为$$0,1,2,\cdots,n-1$$。
 2. 杀掉第$$k$$个人（编号为$$k-1$$）后，剩余的人从第$$k$$号开始组成新的环：$$k,k+1,k+2,\cdots,n-1,0,1,2,\cdots,k-2,k-1$$。
@@ -2641,4 +2641,3 @@ int main() {
     moveto(n, 'A', 'C', 'B');
 }
 ```
-

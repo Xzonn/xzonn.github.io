@@ -45,8 +45,8 @@ title: 《精灵宝可梦》四天王房间冲浪漏洞
 此漏洞的触发与地图图块漏洞都进入了“**谜之场所**”（日文：**<span lang="ja">なぞの場所</span>**，英文：**<span lang="en">Mystery Zone</span>**）。该区域是第四世代游戏未使用的区域。在正常情况下，由于地图边界的限制，玩家无法前往这些区域。但是，由于漏洞的存在，玩家可以越过地图边界进入谜之场所并在其中移动，因而可以进入正常情况下无法进入的地图。
 
 ## 4 参考资料
-1. <span id="ref-1"></span>神奇宝贝百科. 冲浪（漏洞）[OL]. [https://wiki.52poke.com/index.php?title=%E5%86%B2%E6%B5%AA%EF%BC%88%E6%BC%8F%E6%B4%9E%EF%BC%89&oldid=1405522](https://wiki.52poke.com/index.php?title=%E5%86%B2%E6%B5%AA%EF%BC%88%E6%BC%8F%E6%B4%9E%EF%BC%89&oldid=1405522), 2018-11-29/2019-01-18.
-2. <span id="ref-2"></span>Bulbapedia. Surf glitch[OL]. [https://bulbapedia.bulbagarden.net/w/index.php?title=Surf_glitch&oldid=2825052](https://bulbapedia.bulbagarden.net/w/index.php?title=Surf_glitch&oldid=2825052), 2018-07-24/2019-01-18.
-3. <span id="ref-3"></span>Crystalmourne. Tweaking/Void Glitch: Darkrai with Surf Glitch (JAPANESE ONLY)[OL]. [https://www.youtube.com/watch?v=ro-VS5EQYXY](https://www.youtube.com/watch?v=ro-VS5EQYXY), 2014-08-16/2019-01-18.
-4. <span id="ref-4"></span>Crystalmourne. Tweaking/Void Glitch: Shaymin with Surf Glitch (JAPANESE ONLY)[OL]. [https://www.youtube.com/watch?v=RK6u_am2oCQ](https://www.youtube.com/watch?v=RK6u_am2oCQ), 2014-08-16/2019-01-18.
-5. <span id="ref-5"></span>ChickasaurusGL. Skipping the Elite Four - Elite Four door glitch methods (Diamond/Pearl JP)[OL]. [https://www.youtube.com/watch?v=SVIl1RYzFiA](https://www.youtube.com/watch?v=SVIl1RYzFiA), 2016-08-22/2019-01-18.
+1. <span id="ref-1"></span>神奇宝贝百科. 冲浪（漏洞）[OL]. <https://wiki.52poke.com/index.php?title=%E5%86%B2%E6%B5%AA%EF%BC%88%E6%BC%8F%E6%B4%9E%EF%BC%89&oldid=1405522>, 2018-11-29/2019-01-18.
+2. <span id="ref-2"></span>Bulbapedia. Surf glitch[OL]. <https://bulbapedia.bulbagarden.net/w/index.php?title=Surf_glitch&oldid=2825052>, 2018-07-24/2019-01-18.
+3. <span id="ref-3"></span>Crystalmourne. Tweaking/Void Glitch: Darkrai with Surf Glitch (JAPANESE ONLY)[OL]. <https://www.youtube.com/watch?v=ro-VS5EQYXY>, 2014-08-16/2019-01-18.
+4. <span id="ref-4"></span>Crystalmourne. Tweaking/Void Glitch: Shaymin with Surf Glitch (JAPANESE ONLY)[OL]. <https://www.youtube.com/watch?v=RK6u_am2oCQ>, 2014-08-16/2019-01-18.
+5. <span id="ref-5"></span>ChickasaurusGL. Skipping the Elite Four - Elite Four door glitch methods (Diamond/Pearl JP)[OL]. <https://www.youtube.com/watch?v=SVIl1RYzFiA>, 2016-08-22/2019-01-18.

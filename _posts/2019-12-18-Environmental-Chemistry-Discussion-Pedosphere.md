@@ -3,7 +3,7 @@ class: exercise
 date: 2019-12-18 12:00
 head_image: https://file.moetu.org/images/2020/02/20/af2570b0e41c982d0c62f3e4bf8b5ce09723612b82f49d0b.gif
 infobox: incomplete
-last_modified_at: 2020-02-15 13:56
+last_modified_at: 2020-11-13 13:10
 math: true
 tags: 三次元 学习资料 环院专业课 知识点整理
 title: 《环境化学》讨论题整理（土壤生物部分）
@@ -678,7 +678,7 @@ $$\ce{Cu^2+}$$ > $$\ce{Pb^2+}$$ > $$\ce{Ni^2+}$$ > $$\ce{Co^2+}$$ > $$\ce{Zn^2+}
 
 #### 尝试描述全球氮元素循环？有什么特征？
 ##### 全球氮元素循环
-（见<a class="xref-figure" href="#figure-Q7exi9.gif"></a>）
+（见<a class="xref-figure" href="#figure-af2570b0e41c982d0c62f3e4bf8b5ce09723612b82f49d0b.gif"></a>）
 
 ![全球氮元素循环\|365px](https://file.moetu.org/images/2020/02/20/af2570b0e41c982d0c62f3e4bf8b5ce09723612b82f49d0b.gif)
 
@@ -788,7 +788,7 @@ $$\ce{[CHO*PO(OH)2]2(CHOH)4 -> } \underset{\text{环己六醇（肌醇）}}{\ce{
 
 #### 尝试描述全球磷元素循环？有什么特征？
 ##### 全球磷元素循环
-（见<a class="xref-figure" href="#figure-Q7fDxg.gif"></a>）
+（见<a class="xref-figure" href="#figure-f7aa997af54ef7ea1cf6761a44542371322cf0f7511f7e33.gif"></a>）
 
 ![全球磷元素循环\|374px](https://file.moetu.org/images/2020/02/20/f7aa997af54ef7ea1cf6761a44542371322cf0f7511f7e33.gif)
 
