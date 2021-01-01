@@ -1,8 +1,10 @@
 ---
+css: japanese
 date: 2018-12-20 12:00
 infobox: complete
-last_modified_at: 2020-01-03 23:02
-logs:
+js: japanese
+last_modified_at: 2020-11-19 18:41
+logs: 
 - 2020-11-16：将Word转换为Markdown
 tags: 三次元 学习资料 日语 知识点整理
 title: 《初级日语 第一册》语法整理
@@ -70,14 +72,14 @@ title: 《初级日语 第一册》语法整理
  </thead>
  <tbody>
   <tr>
-   <td><jp>寒い</jp></td>
-   <td><jp>寒</jp></td>
-   <td><jp>い</jp></td>
+   <td lang="ja">寒い</td>
+   <td lang="ja">寒</td>
+   <td lang="ja">い</td>
   </tr>
   <tr>
-   <td><jp>涼しい</jp></td>
-   <td><jp>涼し</jp></td>
-   <td><jp>い</jp></td>
+   <td lang="ja">涼しい</td>
+   <td lang="ja">涼し</td>
+   <td lang="ja">い</td>
   </tr>
  </tbody>
 </table>
@@ -128,30 +130,30 @@ title: 《初级日语 第一册》语法整理
  </thead>
  <tbody>
   <tr>
-   <td><jp>寒い</jp></td>
+   <td lang="ja">寒い</td>
    <td>肯定</td>
-   <td><jp>寒い</jp></td>
+   <td lang="ja">寒い</td>
    <td>肯定</td>
-   <td><jp>寒いです</jp></td>
+   <td lang="ja">寒いです</td>
   </tr>
   <tr>
    <td>否定</td>
-   <td><jp>寒くない</jp></td>
+   <td lang="ja">寒くない</td>
    <td>否定</td>
-   <td><jp>寒くないです／<br>寒くありません</jp></td>
+   <td lang="ja">寒くないです／<br>寒くありません</td>
   </tr>
   <tr>
-   <td><jp>涼しい</jp></td>
+   <td lang="ja">涼しい</td>
    <td>肯定</td>
-   <td><jp>涼しい</jp></td>
+   <td lang="ja">涼しい</td>
    <td>肯定</td>
-   <td><jp>涼しいです</jp></td>
+   <td lang="ja">涼しいです</td>
   </tr>
   <tr>
    <td>否定</td>
-   <td><jp>涼しくない</jp></td>
+   <td lang="ja">涼しくない</td>
    <td>否定</td>
-   <td><jp>涼しくないです／涼しくありません</jp></td>
+   <td lang="ja">涼しくないです／涼しくありません</td>
   </tr>
  </tbody>
 </table>
@@ -172,30 +174,30 @@ title: 《初级日语 第一册》语法整理
  </thead>
  <tbody>
   <tr>
-   <td><jp>寒い</jp></td>
+   <td lang="ja">寒い</td>
    <td>肯定</td>
-   <td><jp>寒かった</jp></td>
+   <td lang="ja">寒かった</td>
    <td>肯定</td>
-   <td><jp>寒かったです</jp></td>
+   <td lang="ja">寒かったです</td>
   </tr>
   <tr>
    <td>否定</td>
-   <td><jp>寒くなかった</jp></td>
+   <td lang="ja">寒くなかった</td>
    <td>否定</td>
-   <td><jp>寒くなかったです／<br>寒くありませんでした</jp></td>
+   <td lang="ja">寒くなかったです／<br>寒くありませんでした</td>
   </tr>
   <tr>
-   <td><jp>涼しい</jp></td>
+   <td lang="ja">涼しい</td>
    <td>肯定</td>
-   <td><jp>涼しかった</jp></td>
+   <td lang="ja">涼しかった</td>
    <td>肯定</td>
-   <td><jp>涼しかったです</jp></td>
+   <td lang="ja">涼しかったです</td>
   </tr>
   <tr>
    <td>否定</td>
-   <td><jp>涼しくなかった</jp></td>
+   <td lang="ja">涼しくなかった</td>
    <td>否定</td>
-   <td><jp>涼しくなかったです／<br>涼しくありませんでした</jp></td>
+   <td lang="ja">涼しくなかったです／<br>涼しくありませんでした</td>
   </tr>
  </tbody>
 </table>
@@ -226,18 +228,18 @@ title: 《初级日语 第一册》语法整理
  </thead>
  <tbody>
   <tr>
-   <td><jp>好き</jp></td>
-   <td><jp>好き</jp></td>
-   <td><jp>だ</jp></td>
-   <td><jp>好きです</jp></td>
-   <td><jp>好きではないです／ではありません</jp></td>
+   <td lang="ja">好き</td>
+   <td lang="ja">好き</td>
+   <td lang="ja">だ</td>
+   <td lang="ja">好きです</td>
+   <td lang="ja">好きではないです／ではありません</td>
   </tr>
   <tr>
-   <td><jp>有名</jp></td>
-   <td><jp>有名</jp></td>
-   <td><jp>だ</jp></td>
-   <td><jp>有名です</jp></td>
-   <td><jp>有名ではないです／ではありません</jp></td>
+   <td lang="ja">有名</td>
+   <td lang="ja">有名</td>
+   <td lang="ja">だ</td>
+   <td lang="ja">有名です</td>
+   <td lang="ja">有名ではないです／ではありません</td>
   </tr>
  </tbody>
 </table>
@@ -256,14 +258,14 @@ title: 《初级日语 第一册》语法整理
  </thead>
  <tbody>
   <tr>
-   <td><jp>好き</jp></td>
-   <td><jp>好きでした</jp></td>
-   <td><jp>好きではなかったです／ではありませんでした</jp></td>
+   <td lang="ja">好き</td>
+   <td lang="ja">好きでした</td>
+   <td lang="ja">好きではなかったです／ではありませんでした</td>
   </tr>
   <tr>
-   <td><jp>有名</jp></td>
-   <td><jp>有名でした</jp></td>
-   <td><jp>有名ではなかったです／ではありませんでした</jp></td>
+   <td lang="ja">有名</td>
+   <td lang="ja">有名でした</td>
+   <td lang="ja">有名ではなかったです／ではありませんでした</td>
   </tr>
  </tbody>
 </table>
@@ -283,16 +285,16 @@ title: 《初级日语 第一册》语法整理
  </thead>
  <tbody>
   <tr>
-   <td><jp>好き</jp></td>
-   <td><jp>な</jp></td>
-   <td><jp>好きな</jp></td>
-   <td><jp>ここは私の好きな町です。</jp></td>
+   <td lang="ja">好き</td>
+   <td lang="ja">な</td>
+   <td lang="ja">好きな</td>
+   <td lang="ja">ここは私の好きな町です。</td>
   </tr>
   <tr>
-   <td><jp>嫌い</jp></td>
-   <td><jp>な</jp></td>
-   <td><jp>嫌いな</jp></td>
-   <td><jp>子どもの時、あの人は嫌いな人でした。</jp></td>
+   <td lang="ja">嫌い</td>
+   <td lang="ja">な</td>
+   <td lang="ja">嫌いな</td>
+   <td lang="ja">子どもの時、あの人は嫌いな人でした。</td>
   </tr>
  </tbody>
 </table>
@@ -312,12 +314,12 @@ title: 《初级日语 第一册》语法整理
  </thead>
  <tbody>
   <tr>
-   <td><jp>楽だ</jp></td>
-   <td><jp>楽に</jp></td>
+   <td lang="ja">楽だ</td>
+   <td lang="ja">楽に</td>
   </tr>
   <tr>
-   <td><jp>きれいだ</jp></td>
-   <td><jp>きれいに</jp></td>
+   <td lang="ja">きれいだ</td>
+   <td lang="ja">きれいに</td>
   </tr>
  </tbody>
 </table>
@@ -336,14 +338,14 @@ title: 《初级日语 第一册》语法整理
  </thead>
  <tbody>
   <tr>
-   <td><jp>鮮やかです</jp></td>
-   <td><jp>鮮やかで</jp></td>
-   <td><jp>この色は鮮やかで、きれいです。</jp></td>
+   <td lang="ja">鮮やかです</td>
+   <td lang="ja">鮮やかで</td>
+   <td lang="ja">この色は鮮やかで、きれいです。</td>
   </tr>
   <tr>
-   <td><jp>にぎやかです</jp></td>
-   <td><jp>にぎやかで</jp></td>
-   <td><jp>ここはにぎやかで、便利です。</jp></td>
+   <td lang="ja">にぎやかです</td>
+   <td lang="ja">にぎやかで</td>
+   <td lang="ja">ここはにぎやかで、便利です。</td>
   </tr>
  </tbody>
 </table>
@@ -388,37 +390,37 @@ title: 《初级日语 第一册》语法整理
  </thead>
  <tbody>
   <tr>
-   <td><jp>撮る</jp></td>
-   <td><jp>撮</jp></td>
-   <td><jp>る</jp></td>
-   <td><jp>見る</jp></td>
-   <td><jp>見</jp></td>
-   <td><jp>見る</jp></td>
-   <td><jp>する</jp></td>
-   <td><jp>する</jp></td>
-   <td><jp>する</jp></td>
+   <td lang="ja">撮る</td>
+   <td lang="ja">撮</td>
+   <td lang="ja">る</td>
+   <td lang="ja">見る</td>
+   <td lang="ja">見</td>
+   <td lang="ja">見る</td>
+   <td lang="ja">する</td>
+   <td lang="ja">する</td>
+   <td lang="ja">する</td>
   </tr>
   <tr>
-   <td><jp>行く</jp></td>
-   <td><jp>行</jp></td>
-   <td><jp>く</jp></td>
-   <td><jp>起きる</jp></td>
-   <td><jp>起</jp></td>
-   <td><jp>きる</jp></td>
-   <td><jp>勉強する</jp></td>
-   <td><jp>勉強</jp></td>
-   <td><jp>する</jp></td>
+   <td lang="ja">行く</td>
+   <td lang="ja">行</td>
+   <td lang="ja">く</td>
+   <td lang="ja">起きる</td>
+   <td lang="ja">起</td>
+   <td lang="ja">きる</td>
+   <td lang="ja">勉強する</td>
+   <td lang="ja">勉強</td>
+   <td lang="ja">する</td>
   </tr>
   <tr>
-   <td><jp>遊ぶ</jp></td>
-   <td><jp>遊</jp></td>
-   <td><jp>ぶ</jp></td>
-   <td><jp>食べる</jp></td>
-   <td><jp>食</jp></td>
-   <td><jp>べる</jp></td>
-   <td><jp>来る</jp></td>
-   <td><jp>来る</jp></td>
-   <td><jp>来る</jp></td>
+   <td lang="ja">遊ぶ</td>
+   <td lang="ja">遊</td>
+   <td lang="ja">ぶ</td>
+   <td lang="ja">食べる</td>
+   <td lang="ja">食</td>
+   <td lang="ja">べる</td>
+   <td lang="ja">来る</td>
+   <td lang="ja">来る</td>
+   <td lang="ja">来る</td>
   </tr>
  </tbody>
 </table>
@@ -456,76 +458,76 @@ title: 《初级日语 第一册》语法整理
  </thead>
  <tbody>
   <tr>
-   <td><jp>行く</jp></td>
+   <td lang="ja">行く</td>
    <td>动1</td>
-   <td><jp>行きます</jp></td>
-   <td><jp>行きません</jp></td>
-   <td><jp>行きました</jp></td>
-   <td><jp>行きませんでした</jp></td>
+   <td lang="ja">行きます</td>
+   <td lang="ja">行きません</td>
+   <td lang="ja">行きました</td>
+   <td lang="ja">行きませんでした</td>
   </tr>
   <tr>
-   <td><jp>遊ぶ</jp></td>
+   <td lang="ja">遊ぶ</td>
    <td>动1</td>
-   <td><jp>遊びます</jp></td>
-   <td><jp>遊びません</jp></td>
-   <td><jp>遊びました</jp></td>
-   <td><jp>遊びませんでした</jp></td>
+   <td lang="ja">遊びます</td>
+   <td lang="ja">遊びません</td>
+   <td lang="ja">遊びました</td>
+   <td lang="ja">遊びませんでした</td>
   </tr>
   <tr>
-   <td><jp>撮る</jp></td>
+   <td lang="ja">撮る</td>
    <td>动1</td>
-   <td><jp>撮ります</jp></td>
-   <td><jp>撮りません</jp></td>
-   <td><jp>撮りました</jp></td>
-   <td><jp>撮りませんでした</jp></td>
+   <td lang="ja">撮ります</td>
+   <td lang="ja">撮りません</td>
+   <td lang="ja">撮りました</td>
+   <td lang="ja">撮りませんでした</td>
   </tr>
   <tr>
-   <td><jp>見る</jp></td>
+   <td lang="ja">見る</td>
    <td>动2</td>
-   <td><jp>見ます</jp></td>
-   <td><jp>見ません</jp></td>
-   <td><jp>見ました</jp></td>
-   <td><jp>見ませんでした</jp></td>
+   <td lang="ja">見ます</td>
+   <td lang="ja">見ません</td>
+   <td lang="ja">見ました</td>
+   <td lang="ja">見ませんでした</td>
   </tr>
   <tr>
-   <td><jp>起きる</jp></td>
+   <td lang="ja">起きる</td>
    <td>动2</td>
-   <td><jp>起きます</jp></td>
-   <td><jp>起きません</jp></td>
-   <td><jp>起きました</jp></td>
-   <td><jp>起きませんでした</jp></td>
+   <td lang="ja">起きます</td>
+   <td lang="ja">起きません</td>
+   <td lang="ja">起きました</td>
+   <td lang="ja">起きませんでした</td>
   </tr>
   <tr>
-   <td><jp>食べる</jp></td>
+   <td lang="ja">食べる</td>
    <td>动2</td>
-   <td><jp>食べます</jp></td>
-   <td><jp>食べません</jp></td>
-   <td><jp>食べました</jp></td>
-   <td><jp>食べいませんでした</jp></td>
+   <td lang="ja">食べます</td>
+   <td lang="ja">食べません</td>
+   <td lang="ja">食べました</td>
+   <td lang="ja">食べいませんでした</td>
   </tr>
   <tr>
-   <td><jp>利用する</jp></td>
+   <td lang="ja">利用する</td>
    <td>动3</td>
-   <td><jp>利用します</jp></td>
-   <td><jp>利用しません</jp></td>
-   <td><jp>利用しました</jp></td>
-   <td><jp>利用しませんでした</jp></td>
+   <td lang="ja">利用します</td>
+   <td lang="ja">利用しません</td>
+   <td lang="ja">利用しました</td>
+   <td lang="ja">利用しませんでした</td>
   </tr>
   <tr>
-   <td><jp>する</jp></td>
+   <td lang="ja">する</td>
    <td>动3</td>
-   <td><jp>します</jp></td>
-   <td><jp>しません</jp></td>
-   <td><jp>しました</jp></td>
-   <td><jp>しませんでした</jp></td>
+   <td lang="ja">します</td>
+   <td lang="ja">しません</td>
+   <td lang="ja">しました</td>
+   <td lang="ja">しませんでした</td>
   </tr>
   <tr>
-   <td><jp><ruby>来<rp>(</rp><rt>く</rt><rp>)</rp></ruby>る</jp></td>
+   <td lang="ja"><ruby>来<rp>(</rp><rt>く</rt><rp>)</rp></ruby>る</td>
    <td>动3</td>
-   <td><jp><ruby>来<rp>(</rp><rt>き</rt><rp>)</rp></ruby>ます</jp></td>
-   <td><jp><ruby>来<rp>(</rp><rt>き</rt><rp>)</rp></ruby>ません</jp></td>
-   <td><jp><ruby>来<rp>(</rp><rt>き</rt><rp>)</rp></ruby>ました</jp></td>
-   <td><jp><ruby>来<rp>(</rp><rt>き</rt><rp>)</rp></ruby>ませんでした</jp></td>
+   <td lang="ja"><ruby>来<rp>(</rp><rt>き</rt><rp>)</rp></ruby>ます</td>
+   <td lang="ja"><ruby>来<rp>(</rp><rt>き</rt><rp>)</rp></ruby>ません</td>
+   <td lang="ja"><ruby>来<rp>(</rp><rt>き</rt><rp>)</rp></ruby>ました</td>
+   <td lang="ja"><ruby>来<rp>(</rp><rt>き</rt><rp>)</rp></ruby>ませんでした</td>
   </tr>
  </tbody>
 </table>
@@ -557,28 +559,28 @@ title: 《初级日语 第一册》语法整理
  </thead>
  <tbody>
   <tr>
-   <td><jp>買う</jp></td>
-   <td><jp>買わない</jp></td>
-   <td><jp>見る</jp></td>
-   <td><jp>見ない</jp></td>
-   <td><jp>勉強する</jp></td>
-   <td><jp>勉強しない</jp></td>
+   <td lang="ja">買う</td>
+   <td lang="ja">買わない</td>
+   <td lang="ja">見る</td>
+   <td lang="ja">見ない</td>
+   <td lang="ja">勉強する</td>
+   <td lang="ja">勉強しない</td>
   </tr>
   <tr>
-   <td><jp>書く</jp></td>
-   <td><jp>書きない</jp></td>
-   <td><jp>起きる</jp></td>
-   <td><jp>起きない</jp></td>
-   <td><jp>する</jp></td>
-   <td><jp>しない</jp></td>
+   <td lang="ja">書く</td>
+   <td lang="ja">書きない</td>
+   <td lang="ja">起きる</td>
+   <td lang="ja">起きない</td>
+   <td lang="ja">する</td>
+   <td lang="ja">しない</td>
   </tr>
   <tr>
-   <td><jp>集まる</jp></td>
-   <td><jp>集まらない</jp></td>
-   <td><jp>教える</jp></td>
-   <td><jp>教えない</jp></td>
-   <td><jp><ruby>来<rp>(</rp><rt>く</rt><rp>)</rp></ruby>る</jp></td>
-   <td><jp><ruby>来<rp>(</rp><rt>こ</rt><rp>)</rp></ruby>ない</jp></td>
+   <td lang="ja">集まる</td>
+   <td lang="ja">集まらない</td>
+   <td lang="ja">教える</td>
+   <td lang="ja">教えない</td>
+   <td lang="ja"><ruby>来<rp>(</rp><rt>く</rt><rp>)</rp></ruby>る</td>
+   <td lang="ja"><ruby>来<rp>(</rp><rt>こ</rt><rp>)</rp></ruby>ない</td>
   </tr>
  </tbody>
 </table>
@@ -600,72 +602,72 @@ title: 《初级日语 第一册》语法整理
  </thead>
  <tbody>
   <tr>
-   <td><jp>書く</jp></td>
-   <td><jp>書いた</jp></td>
-   <td><jp>見る</jp></td>
-   <td><jp>見た</jp></td>
-   <td><jp>勉強する</jp></td>
-   <td><jp>勉強した</jp></td>
+   <td lang="ja">書く</td>
+   <td lang="ja">書いた</td>
+   <td lang="ja">見る</td>
+   <td lang="ja">見た</td>
+   <td lang="ja">勉強する</td>
+   <td lang="ja">勉強した</td>
   </tr>
   <tr>
-   <td><jp>脱ぐ</jp></td>
-   <td><jp>脱いだ</jp></td>
-   <td><jp>起きる</jp></td>
-   <td><jp>起きた</jp></td>
-   <td><jp>する</jp></td>
-   <td><jp>した</jp></td>
+   <td lang="ja">脱ぐ</td>
+   <td lang="ja">脱いだ</td>
+   <td lang="ja">起きる</td>
+   <td lang="ja">起きた</td>
+   <td lang="ja">する</td>
+   <td lang="ja">した</td>
   </tr>
   <tr>
-   <td><jp>買う</jp></td>
-   <td><jp>買った</jp></td>
-   <td><jp>教える</jp></td>
-   <td><jp>教えた</jp></td>
-   <td><jp><ruby>来<rp>(</rp><rt>く</rt><rp>)</rp></ruby>る</jp></td>
-   <td><jp><ruby>来<rp>(</rp><rt>き</rt><rp>)</rp></ruby>た</jp></td>
+   <td lang="ja">買う</td>
+   <td lang="ja">買った</td>
+   <td lang="ja">教える</td>
+   <td lang="ja">教えた</td>
+   <td lang="ja"><ruby>来<rp>(</rp><rt>く</rt><rp>)</rp></ruby>る</td>
+   <td lang="ja"><ruby>来<rp>(</rp><rt>き</rt><rp>)</rp></ruby>た</td>
   </tr>
   <tr>
-   <td><jp>待つ</jp></td>
-   <td><jp>待った</jp></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-  </tr>
-  <tr>
-   <td><jp>降る</jp></td>
-   <td><jp>降った</jp></td>
+   <td lang="ja">待つ</td>
+   <td lang="ja">待った</td>
    <td></td>
    <td></td>
    <td></td>
    <td></td>
   </tr>
   <tr>
-   <td><jp>死ぬ</jp></td>
-   <td><jp>死んだ</jp></td>
+   <td lang="ja">降る</td>
+   <td lang="ja">降った</td>
    <td></td>
    <td></td>
    <td></td>
    <td></td>
   </tr>
   <tr>
-   <td><jp>呼ぶ</jp></td>
-   <td><jp>呼んだ</jp></td>
+   <td lang="ja">死ぬ</td>
+   <td lang="ja">死んだ</td>
    <td></td>
    <td></td>
    <td></td>
    <td></td>
   </tr>
   <tr>
-   <td><jp>読む</jp></td>
-   <td><jp>読んだ</jp></td>
+   <td lang="ja">呼ぶ</td>
+   <td lang="ja">呼んだ</td>
    <td></td>
    <td></td>
    <td></td>
    <td></td>
   </tr>
   <tr>
-   <td><jp>話す</jp></td>
-   <td><jp>話した</jp></td>
+   <td lang="ja">読む</td>
+   <td lang="ja">読んだ</td>
+   <td></td>
+   <td></td>
+   <td></td>
+   <td></td>
+  </tr>
+  <tr>
+   <td lang="ja">話す</td>
+   <td lang="ja">話した</td>
    <td></td>
    <td></td>
    <td></td>
@@ -696,26 +698,26 @@ title: 《初级日语 第一册》语法整理
  </thead>
  <tbody>
   <tr>
-   <td><jp>もらう</jp></td>
-   <td><jp>もらいます</jp></td>
-   <td><jp>もらい</jp></td>
-   <td><jp>起きる</jp></td>
-   <td><jp>起きます</jp></td>
-   <td><jp>起き</jp></td>
-   <td><jp>する</jp></td>
-   <td><jp>します</jp></td>
-   <td><jp>し</jp></td>
+   <td lang="ja">もらう</td>
+   <td lang="ja">もらいます</td>
+   <td lang="ja">もらい</td>
+   <td lang="ja">起きる</td>
+   <td lang="ja">起きます</td>
+   <td lang="ja">起き</td>
+   <td lang="ja">する</td>
+   <td lang="ja">します</td>
+   <td lang="ja">し</td>
   </tr>
   <tr>
-   <td><jp>選ぶ</jp></td>
-   <td><jp>選びます</jp></td>
-   <td><jp>選び</jp></td>
-   <td><jp>出かける</jp></td>
-   <td><jp>出かけます</jp></td>
-   <td><jp>出かけ</jp></td>
-   <td><jp>利用する</jp></td>
-   <td><jp>利用します</jp></td>
-   <td><jp>利用し</jp></td>
+   <td lang="ja">選ぶ</td>
+   <td lang="ja">選びます</td>
+   <td lang="ja">選び</td>
+   <td lang="ja">出かける</td>
+   <td lang="ja">出かけます</td>
+   <td lang="ja">出かけ</td>
+   <td lang="ja">利用する</td>
+   <td lang="ja">利用します</td>
+   <td lang="ja">利用し</td>
   </tr>
   <tr>
    <td></td>
@@ -724,9 +726,9 @@ title: 《初级日语 第一册》语法整理
    <td></td>
    <td></td>
    <td></td>
-   <td><jp><ruby>来<rp>(</rp><rt>く</rt><rp>)</rp></ruby>る</jp></td>
-   <td><jp><ruby>来<rp>(</rp><rt>き</rt><rp>)</rp></ruby>ます</jp></td>
-   <td><jp><ruby>来<rp>(</rp><rt>き</rt><rp>)</rp></ruby></jp></td>
+   <td lang="ja"><ruby>来<rp>(</rp><rt>く</rt><rp>)</rp></ruby>る</td>
+   <td lang="ja"><ruby>来<rp>(</rp><rt>き</rt><rp>)</rp></ruby>ます</td>
+   <td lang="ja"><ruby>来<rp>(</rp><rt>き</rt><rp>)</rp></ruby></td>
   </tr>
  </tbody>
 </table>
@@ -766,72 +768,72 @@ title: 《初级日语 第一册》语法整理
  </thead>
  <tbody>
   <tr>
-   <td><jp>書く</jp></td>
-   <td><jp>書いて</jp></td>
-   <td><jp>見る</jp></td>
-   <td><jp>見て</jp></td>
-   <td><jp>勉強する</jp></td>
-   <td><jp>勉強して</jp></td>
+   <td lang="ja">書く</td>
+   <td lang="ja">書いて</td>
+   <td lang="ja">見る</td>
+   <td lang="ja">見て</td>
+   <td lang="ja">勉強する</td>
+   <td lang="ja">勉強して</td>
   </tr>
   <tr>
-   <td><jp>脱ぐ</jp></td>
-   <td><jp>脱いで</jp></td>
-   <td><jp>起きる</jp></td>
-   <td><jp>起きて</jp></td>
-   <td><jp>する</jp></td>
-   <td><jp>して</jp></td>
+   <td lang="ja">脱ぐ</td>
+   <td lang="ja">脱いで</td>
+   <td lang="ja">起きる</td>
+   <td lang="ja">起きて</td>
+   <td lang="ja">する</td>
+   <td lang="ja">して</td>
   </tr>
   <tr>
-   <td><jp>買う</jp></td>
-   <td><jp>買って</jp></td>
-   <td><jp>教える</jp></td>
-   <td><jp>教えて</jp></td>
-   <td><jp><ruby>来<rp>(</rp><rt>く</rt><rp>)</rp></ruby>る</jp></td>
-   <td><jp><ruby>来<rp>(</rp><rt>き</rt><rp>)</rp></ruby>て</jp></td>
+   <td lang="ja">買う</td>
+   <td lang="ja">買って</td>
+   <td lang="ja">教える</td>
+   <td lang="ja">教えて</td>
+   <td lang="ja"><ruby>来<rp>(</rp><rt>く</rt><rp>)</rp></ruby>る</td>
+   <td lang="ja"><ruby>来<rp>(</rp><rt>き</rt><rp>)</rp></ruby>て</td>
   </tr>
   <tr>
-   <td><jp>待つ</jp></td>
-   <td><jp>待って</jp></td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td></td>
-  </tr>
-  <tr>
-   <td><jp>降る</jp></td>
-   <td><jp>降って</jp></td>
+   <td lang="ja">待つ</td>
+   <td lang="ja">待って</td>
    <td></td>
    <td></td>
    <td></td>
    <td></td>
   </tr>
   <tr>
-   <td><jp>死ぬ</jp></td>
-   <td><jp>死んで</jp></td>
+   <td lang="ja">降る</td>
+   <td lang="ja">降って</td>
    <td></td>
    <td></td>
    <td></td>
    <td></td>
   </tr>
   <tr>
-   <td><jp>呼ぶ</jp></td>
-   <td><jp>呼んで</jp></td>
+   <td lang="ja">死ぬ</td>
+   <td lang="ja">死んで</td>
    <td></td>
    <td></td>
    <td></td>
    <td></td>
   </tr>
   <tr>
-   <td><jp>読む</jp></td>
-   <td><jp>読んで</jp></td>
+   <td lang="ja">呼ぶ</td>
+   <td lang="ja">呼んで</td>
    <td></td>
    <td></td>
    <td></td>
    <td></td>
   </tr>
   <tr>
-   <td><jp>話す</jp></td>
-   <td><jp>話して</jp></td>
+   <td lang="ja">読む</td>
+   <td lang="ja">読んで</td>
+   <td></td>
+   <td></td>
+   <td></td>
+   <td></td>
+  </tr>
+  <tr>
+   <td lang="ja">話す</td>
+   <td lang="ja">話して</td>
    <td></td>
    <td></td>
    <td></td>
@@ -992,15 +994,15 @@ title: 《初级日语 第一册》语法整理
  <tbody>
  <tr>
   <th>非过去形式</th>
-  <td><jp>ない</jp></td>
-  <td><jp>ないです／ありません</jp></td>
-  <td><jp>ここは東京ほど暑くない（暑くないです／暑くありません）</jp></td>
+  <td lang="ja">ない</td>
+  <td lang="ja">ないです／ありません</td>
+  <td lang="ja">ここは東京ほど暑くない（暑くないです／暑くありません）</td>
  </tr>
  <tr>
   <th>过去形式</th>
-  <td><jp>なかった</jp></td>
-  <td><jp>なかったですありませんでした</jp></td>
-  <td><jp>昨日は涼しくなかった（涼しくなかったです／涼しくありませんでした）</jp></td>
+  <td lang="ja">なかった</td>
+  <td lang="ja">なかったですありませんでした</td>
+  <td lang="ja">昨日は涼しくなかった（涼しくなかったです／涼しくありませんでした）</td>
  </tr>
  </tbody>
 </table>
@@ -1512,10 +1514,10 @@ title: 《初级日语 第一册》语法整理
  </thead>
  <tbody>
  <tr>
-  <td><jp>これ</jp></td>
-  <td><jp>それ</jp></td>
-  <td><jp>あれ</jp></td>
-  <td><jp>どれ</jp></td>
+  <td lang="ja">これ</td>
+  <td lang="ja">それ</td>
+  <td lang="ja">あれ</td>
+  <td lang="ja">どれ</td>
  </tr>
  <tr>
   <td>这，这个</td>
@@ -1551,10 +1553,10 @@ title: 《初级日语 第一册》语法整理
  </thead>
  <tbody>
  <tr>
-  <td><jp>ここ</jp></td>
-  <td><jp>そこ</jp></td>
-  <td><jp>あそこ</jp></td>
-  <td><jp>どこ</jp></td>
+  <td lang="ja">ここ</td>
+  <td lang="ja">そこ</td>
+  <td lang="ja">あそこ</td>
+  <td lang="ja">どこ</td>
  </tr>
  <tr>
   <td>这，这里</td>
@@ -1590,10 +1592,10 @@ title: 《初级日语 第一册》语法整理
  </thead>
  <tbody>
  <tr>
-  <td><jp>この</jp></td>
-  <td><jp>その</jp></td>
-  <td><jp>あの</jp></td>
-  <td><jp>どの</jp></td>
+  <td lang="ja">この</td>
+  <td lang="ja">その</td>
+  <td lang="ja">あの</td>
+  <td lang="ja">どの</td>
  </tr>
  <tr>
   <td>这～</td>
@@ -1629,10 +1631,10 @@ title: 《初级日语 第一册》语法整理
  </thead>
  <tbody>
  <tr>
-  <td><jp>こんな</jp></td>
-  <td><jp>そんな</jp></td>
-  <td><jp>あんな</jp></td>
-  <td><jp>どんな</jp></td>
+  <td lang="ja">こんな</td>
+  <td lang="ja">そんな</td>
+  <td lang="ja">あんな</td>
+  <td lang="ja">どんな</td>
  </tr>
  <tr>
   <td>这样的</td>
@@ -1668,10 +1670,10 @@ title: 《初级日语 第一册》语法整理
  </thead>
  <tbody>
  <tr>
-  <td><jp>こう</jp></td>
-  <td><jp>そう</jp></td>
-  <td><jp>ああ</jp></td>
-  <td><jp>どう</jp></td>
+  <td lang="ja">こう</td>
+  <td lang="ja">そう</td>
+  <td lang="ja">ああ</td>
+  <td lang="ja">どう</td>
  </tr>
  <tr>
   <td>这样，这么</td>
@@ -1707,10 +1709,10 @@ title: 《初级日语 第一册》语法整理
  </thead>
  <tbody>
  <tr>
-  <td><jp>こちら</jp></td>
-  <td><jp>そちら</jp></td>
-  <td><jp>あちら</jp></td>
-  <td><jp>どちら</jp></td>
+  <td lang="ja">こちら</td>
+  <td lang="ja">そちら</td>
+  <td lang="ja">あちら</td>
+  <td lang="ja">どちら</td>
  </tr>
  <tr>
   <td>这边</td>
@@ -1735,11 +1737,11 @@ title: 《初级日语 第一册》语法整理
 
 <table>
  <tr>
-  <td><jp><ruby>一昨年<rp>(</rp><rt>おととし</rt><rp>)</rp></ruby></jp></td>
-  <td><jp><ruby>去年<rp>(</rp><rt>きょねん</rt><rp>)</rp></ruby></jp></td>
-  <td><jp><ruby>今年<rp>(</rp><rt>ことし</rt><rp>)</rp></ruby></jp></td>
-  <td><jp><ruby>来年<rp>(</rp><rt>らいねん</rt><rp>)</rp></ruby></jp></td>
-  <td><jp><ruby>再来年<rp>(</rp><rt>さらいねん</rt><rp>)</rp></ruby></jp></td>
+  <td lang="ja"><ruby>一昨年<rp>(</rp><rt>おととし</rt><rp>)</rp></ruby></td>
+  <td lang="ja"><ruby>去年<rp>(</rp><rt>きょねん</rt><rp>)</rp></ruby></td>
+  <td lang="ja"><ruby>今年<rp>(</rp><rt>ことし</rt><rp>)</rp></ruby></td>
+  <td lang="ja"><ruby>来年<rp>(</rp><rt>らいねん</rt><rp>)</rp></ruby></td>
+  <td lang="ja"><ruby>再来年<rp>(</rp><rt>さらいねん</rt><rp>)</rp></ruby></td>
  </tr>
  <tr>
   <td>前年</td>
@@ -1749,11 +1751,11 @@ title: 《初级日语 第一册》语法整理
   <td>后年</td>
  </tr>
  <tr>
-  <td><jp><ruby>先々月<rp>(</rp><rt>せんせんげつ</rt><rp>)</rp></ruby></jp></td>
-  <td><jp><ruby>先月<rp>(</rp><rt>せんげつ</rt><rp>)</rp></ruby></jp></td>
-  <td><jp><ruby>今月<rp>(</rp><rt>こんげつ</rt><rp>)</rp></ruby></jp></td>
-  <td><jp><ruby>来月<rp>(</rp><rt>らいげつ</rt><rp>)</rp></ruby></jp></td>
-  <td><jp><ruby>再来月<rp>(</rp><rt>さらいげつ</rt><rp>)</rp></ruby></jp></td>
+  <td lang="ja"><ruby>先々月<rp>(</rp><rt>せんせんげつ</rt><rp>)</rp></ruby></td>
+  <td lang="ja"><ruby>先月<rp>(</rp><rt>せんげつ</rt><rp>)</rp></ruby></td>
+  <td lang="ja"><ruby>今月<rp>(</rp><rt>こんげつ</rt><rp>)</rp></ruby></td>
+  <td lang="ja"><ruby>来月<rp>(</rp><rt>らいげつ</rt><rp>)</rp></ruby></td>
+  <td lang="ja"><ruby>再来月<rp>(</rp><rt>さらいげつ</rt><rp>)</rp></ruby></td>
  </tr>
  <tr>
   <td>上上月</td>
@@ -1763,11 +1765,11 @@ title: 《初级日语 第一册》语法整理
   <td>下下月</td>
  </tr>
  <tr>
-  <td><jp><ruby>一昨日<rp>(</rp><rt>おととい</rt><rp>)</rp></ruby></jp></td>
-  <td><jp><ruby>昨日<rp>(</rp><rt>きのう</rt><rp>)</rp></ruby></jp></td>
-  <td><jp><ruby>今日<rp>(</rp><rt>きょう</rt><rp>)</rp></ruby></jp></td>
-  <td><jp><ruby>明日<rp>(</rp><rt>あした</rt><rp>)</rp></ruby></jp></td>
-  <td><jp><ruby>明後日<rp>(</rp><rt>あさって</rt><rp>)</rp></ruby></jp></td>
+  <td lang="ja"><ruby>一昨日<rp>(</rp><rt>おととい</rt><rp>)</rp></ruby></td>
+  <td lang="ja"><ruby>昨日<rp>(</rp><rt>きのう</rt><rp>)</rp></ruby></td>
+  <td lang="ja"><ruby>今日<rp>(</rp><rt>きょう</rt><rp>)</rp></ruby></td>
+  <td lang="ja"><ruby>明日<rp>(</rp><rt>あした</rt><rp>)</rp></ruby></td>
+  <td lang="ja"><ruby>明後日<rp>(</rp><rt>あさって</rt><rp>)</rp></ruby></td>
  </tr>
  <tr>
   <td>前天</td>
@@ -1782,15 +1784,15 @@ title: 《初级日语 第一册》语法整理
 
 <table>
  <tr>
-  <td><jp><ruby>朝<rp>(</rp><rt>あさ</rt><rp>)</rp></ruby></jp></td>
+  <td lang="ja"><ruby>朝<rp>(</rp><rt>あさ</rt><rp>)</rp></ruby></td>
   <td>早晨</td>
-  <td><jp><ruby>午前<rp>(</rp><rt>ごぜん</rt><rp>)</rp></ruby></jp></td>
+  <td lang="ja"><ruby>午前<rp>(</rp><rt>ごぜん</rt><rp>)</rp></ruby></td>
   <td>上午</td>
-  <td><jp><ruby>昼<rp>(</rp><rt>ひる</rt><rp>)</rp></ruby></jp></td>
+  <td lang="ja"><ruby>昼<rp>(</rp><rt>ひる</rt><rp>)</rp></ruby></td>
   <td>中午</td>
-  <td><jp><ruby>午後<rp>(</rp><rt>ごご</rt><rp>)</rp></ruby></jp></td>
+  <td lang="ja"><ruby>午後<rp>(</rp><rt>ごご</rt><rp>)</rp></ruby></td>
   <td>下午</td>
-  <td><jp><ruby>夜<rp>(</rp><rt>よる</rt><rp>)</rp></ruby></jp></td>
+  <td lang="ja"><ruby>夜<rp>(</rp><rt>よる</rt><rp>)</rp></ruby></td>
   <td>晚上</td>
  </tr>
 </table>
@@ -1804,75 +1806,75 @@ title: 《初级日语 第一册》语法整理
 <table>
  <tr>
   <td>1</td>
-  <td><jp>いち</jp></td>
+  <td lang="ja">いち</td>
   <td>2</td>
-  <td><jp>に</jp></td>
+  <td lang="ja">に</td>
   <td>3</td>
-  <td><jp>さん</jp></td>
+  <td lang="ja">さん</td>
   <td>4</td>
-  <td><jp>し／よん</jp></td>
+  <td lang="ja">し／よん</td>
   <td>5</td>
-  <td><jp>ご</jp></td>
+  <td lang="ja">ご</td>
  </tr>
  <tr>
   <td>6</td>
-  <td><jp>ろく</jp></td>
+  <td lang="ja">ろく</td>
   <td>7</td>
-  <td><jp>しち／なな</jp></td>
+  <td lang="ja">しち／なな</td>
   <td>8</td>
-  <td><jp>はち</jp></td>
+  <td lang="ja">はち</td>
   <td>9</td>
-  <td><jp>く／きゅう</jp></td>
+  <td lang="ja">く／きゅう</td>
   <td>10</td>
-  <td><jp>じゅう</jp></td>
+  <td lang="ja">じゅう</td>
  </tr>
  <tr>
   <td>11</td>
-  <td><jp>じゅういち</jp></td>
+  <td lang="ja">じゅういち</td>
   <td>12</td>
-  <td><jp>じゅうに</jp></td>
+  <td lang="ja">じゅうに</td>
   <td>13</td>
-  <td><jp>じゅうさん</jp></td>
+  <td lang="ja">じゅうさん</td>
   <td>14</td>
-  <td><jp>じゅうし／じゅうよん</jp></td>
+  <td lang="ja">じゅうし／じゅうよん</td>
   <td>15</td>
-  <td><jp>じゅうご</jp></td>
+  <td lang="ja">じゅうご</td>
  </tr>
  <tr>
   <td>20</td>
-  <td><jp>にじゅう</jp></td>
+  <td lang="ja">にじゅう</td>
   <td>30</td>
-  <td><jp>さんじゅう</jp></td>
+  <td lang="ja">さんじゅう</td>
   <td>40</td>
-  <td><jp>よんじゅう</jp></td>
+  <td lang="ja">よんじゅう</td>
   <td>50</td>
-  <td><jp>ごじゅう</jp></td>
+  <td lang="ja">ごじゅう</td>
   <td>60</td>
-  <td><jp>ろくじゅう</jp></td>
+  <td lang="ja">ろくじゅう</td>
  </tr>
  <tr>
   <td>100</td>
-  <td><jp>じゃく</jp></td>
+  <td lang="ja">じゃく</td>
   <td>200</td>
-  <td><jp>にひゃく</jp></td>
+  <td lang="ja">にひゃく</td>
   <td>300</td>
-  <td><jp>さんびゃく</jp></td>
+  <td lang="ja">さんびゃく</td>
   <td>400</td>
-  <td><jp>よんひゃく</jp></td>
+  <td lang="ja">よんひゃく</td>
   <td>500</td>
-  <td><jp>ごひゃく</jp></td>
+  <td lang="ja">ごひゃく</td>
  </tr>
  <tr>
   <td>1000</td>
-  <td><jp>せん</jp></td>
+  <td lang="ja">せん</td>
   <td>2000</td>
-  <td><jp>にせん</jp></td>
+  <td lang="ja">にせん</td>
   <td>3000</td>
-  <td><jp>さんぜん</jp></td>
+  <td lang="ja">さんぜん</td>
   <td>4000</td>
-  <td><jp>よんせん</jp></td>
+  <td lang="ja">よんせん</td>
   <td>10000</td>
-  <td><jp>いちまん</jp></td>
+  <td lang="ja">いちまん</td>
  </tr>
 </table>
 
@@ -1881,31 +1883,31 @@ title: 《初级日语 第一册》语法整理
 <table>
  <tr>
   <td>1<jp>つ</jp></td>
-  <td><jp>ひとつ</jp></td>
+  <td lang="ja">ひとつ</td>
   <td>2<jp>つ</jp></td>
-  <td><jp>ふたつ</jp></td>
+  <td lang="ja">ふたつ</td>
   <td>3<jp>つ</jp></td>
-  <td><jp>みっつ</jp></td>
+  <td lang="ja">みっつ</td>
  </tr>
  <tr>
   <td>4<jp>つ</jp></td>
-  <td><jp>よっつ</jp></td>
+  <td lang="ja">よっつ</td>
   <td>5<jp>つ</jp></td>
-  <td><jp>いつつ</jp></td>
+  <td lang="ja">いつつ</td>
   <td>6<jp>つ</jp></td>
-  <td><jp>むっつ</jp></td>
+  <td lang="ja">むっつ</td>
  </tr>
  <tr>
   <td>7<jp>つ</jp></td>
-  <td><jp>ななつ</jp></td>
+  <td lang="ja">ななつ</td>
   <td>8<jp>つ</jp></td>
-  <td><jp>やっつ</jp></td>
+  <td lang="ja">やっつ</td>
   <td>9<jp>つ</jp></td>
-  <td><jp>ここのつ</jp></td>
+  <td lang="ja">ここのつ</td>
  </tr>
  <tr>
   <td>10</td>
-  <td><jp>とお</jp></td>
+  <td lang="ja">とお</td>
   <td></td>
   <td></td>
   <td></td>
@@ -1920,51 +1922,51 @@ title: 《初级日语 第一册》语法整理
 <table>
  <tr>
   <td>1<jp>本</jp></td>
-  <td><jp>いっぽん</jp></td>
+  <td lang="ja">いっぽん</td>
   <td>2<jp>本</jp></td>
-  <td><jp>にほん</jp></td>
+  <td lang="ja">にほん</td>
   <td>3<jp>本</jp></td>
-  <td><jp>さんぼん</jp></td>
+  <td lang="ja">さんぼん</td>
  </tr>
  <tr>
   <td>4<jp>本</jp></td>
-  <td><jp>よんほん</jp></td>
+  <td lang="ja">よんほん</td>
   <td>5<jp>本</jp></td>
-  <td><jp>ごほん</jp></td>
+  <td lang="ja">ごほん</td>
   <td>6<jp>本</jp></td>
-  <td><jp>ろっぽん</jp></td>
+  <td lang="ja">ろっぽん</td>
  </tr>
  <tr>
   <td>7<jp>本</jp></td>
-  <td><jp>ななほん</jp></td>
+  <td lang="ja">ななほん</td>
   <td>8<jp>本</jp></td>
-  <td><jp>はっぽん／はちほん</jp></td>
+  <td lang="ja">はっぽん／はちほん</td>
   <td>9<jp>本</jp></td>
-  <td><jp>きゅうほん</jp></td>
+  <td lang="ja">きゅうほん</td>
  </tr>
  <tr>
   <td>10<jp>本</jp></td>
-  <td><jp>じっぽん／じゅっぽん</jp></td>
+  <td lang="ja">じっぽん／じゅっぽん</td>
   <td>11<jp>本</jp></td>
-  <td><jp>じゅういっぽん</jp></td>
+  <td lang="ja">じゅういっぽん</td>
   <td>12<jp>本</jp></td>
-  <td><jp>じゅうにほん</jp></td>
+  <td lang="ja">じゅうにほん</td>
  </tr>
  <tr>
   <td>20<jp>本</jp></td>
-  <td><jp>にじっぽん／にじゅっぽん</jp></td>
+  <td lang="ja">にじっぽん／にじゅっぽん</td>
   <td>21<jp>本</jp></td>
-  <td><jp>にじゅういっぽん</jp></td>
+  <td lang="ja">にじゅういっぽん</td>
   <td>22<jp>本</jp></td>
-  <td><jp>にじゅうにぽん</jp></td>
+  <td lang="ja">にじゅうにぽん</td>
  </tr>
  <tr>
   <td>23<jp>本</jp></td>
-  <td><jp>にじゅうさんぶん</jp></td>
+  <td lang="ja">にじゅうさんぶん</td>
   <td>24<jp>本</jp></td>
-  <td><jp>にじゅうよほん</jp></td>
-  <td><jp>何本</jp></td>
-  <td><jp>なんぼん</jp></td>
+  <td lang="ja">にじゅうよほん</td>
+  <td lang="ja">何本</td>
+  <td lang="ja">なんぼん</td>
  </tr>
 </table>
 
@@ -1975,51 +1977,51 @@ title: 《初级日语 第一册》语法整理
 <table>
  <tr>
   <td>1<jp>人</jp></td>
-  <td><jp>ひとり</jp></td>
+  <td lang="ja">ひとり</td>
   <td>2<jp>人</jp></td>
-  <td><jp>ふたり</jp></td>
+  <td lang="ja">ふたり</td>
   <td>3<jp>人</jp></td>
-  <td><jp>さんにん</jp></td>
+  <td lang="ja">さんにん</td>
  </tr>
  <tr>
   <td>4<jp>人</jp></td>
-  <td><jp>よにん</jp></td>
+  <td lang="ja">よにん</td>
   <td>5<jp>人</jp></td>
-  <td><jp>ごにん</jp></td>
+  <td lang="ja">ごにん</td>
   <td>6<jp>人</jp></td>
-  <td><jp>ろくにん</jp></td>
+  <td lang="ja">ろくにん</td>
  </tr>
  <tr>
   <td>7<jp>人</jp></td>
-  <td><jp>いちにん／ななにん</jp></td>
+  <td lang="ja">いちにん／ななにん</td>
   <td>8<jp>人</jp></td>
-  <td><jp>はちにん</jp></td>
+  <td lang="ja">はちにん</td>
   <td>9<jp>人</jp></td>
-  <td><jp>きゅうにん／くにん</jp></td>
+  <td lang="ja">きゅうにん／くにん</td>
  </tr>
  <tr>
   <td>10<jp>人</jp></td>
-  <td><jp>じゅうにん</jp></td>
+  <td lang="ja">じゅうにん</td>
   <td>11<jp>人</jp></td>
-  <td><jp>じゅういちにん</jp></td>
+  <td lang="ja">じゅういちにん</td>
   <td>12<jp>人</jp></td>
-  <td><jp>じゅうににん</jp></td>
+  <td lang="ja">じゅうににん</td>
  </tr>
  <tr>
   <td>20<jp>人</jp></td>
-  <td><jp>にじゅうにん</jp></td>
+  <td lang="ja">にじゅうにん</td>
   <td>30<jp>人</jp></td>
-  <td><jp>さんじゅうにん</jp></td>
+  <td lang="ja">さんじゅうにん</td>
   <td>100<jp>人</jp></td>
-  <td><jp>ひゃくにん</jp></td>
+  <td lang="ja">ひゃくにん</td>
  </tr>
  <tr>
   <td>1000<jp>人</jp></td>
-  <td><jp>せんにん／いっせんにん</jp></td>
+  <td lang="ja">せんにん／いっせんにん</td>
   <td>10000<jp>人</jp></td>
-  <td><jp>いちまんにん</jp></td>
-  <td><jp>何人</jp></td>
-  <td><jp>なんいん</jp></td>
+  <td lang="ja">いちまんにん</td>
+  <td lang="ja">何人</td>
+  <td lang="ja">なんいん</td>
  </tr>
 </table>
 
@@ -2030,33 +2032,33 @@ title: 《初级日语 第一册》语法整理
 <table>
  <tr>
   <td>1<jp>円</jp></td>
-  <td><jp>いちえん</jp></td>
+  <td lang="ja">いちえん</td>
   <td>5<jp>円</jp></td>
-  <td><jp>ごえん</jp></td>
+  <td lang="ja">ごえん</td>
   <td>10<jp>円</jp></td>
-  <td><jp>じゅうえん</jp></td>
+  <td lang="ja">じゅうえん</td>
  </tr>
  <tr>
   <td>50<jp>円</jp></td>
-  <td><jp>ごじゅうえん</jp></td>
+  <td lang="ja">ごじゅうえん</td>
   <td>100<jp>円</jp></td>
-  <td><jp>ひゃくえん</jp></td>
+  <td lang="ja">ひゃくえん</td>
   <td>500<jp>円</jp></td>
-  <td><jp>ごひゃくえん</jp></td>
+  <td lang="ja">ごひゃくえん</td>
  </tr>
  <tr>
   <td>1000<jp>円</jp></td>
-  <td><jp>せんえん</jp></td>
+  <td lang="ja">せんえん</td>
   <td>2000<jp>円</jp></td>
-  <td><jp>にせんえん</jp></td>
+  <td lang="ja">にせんえん</td>
   <td>5000<jp>円</jp></td>
-  <td><jp>ごせんえん</jp></td>
+  <td lang="ja">ごせんえん</td>
  </tr>
  <tr>
   <td>10000<jp>円</jp></td>
-  <td><jp>いちまんえん</jp></td>
-  <td><jp>何円</jp></td>
-  <td><jp>なんえん</jp></td>
+  <td lang="ja">いちまんえん</td>
+  <td lang="ja">何円</td>
+  <td lang="ja">なんえん</td>
   <td></td>
   <td></td>
  </tr>
@@ -2069,43 +2071,43 @@ title: 《初级日语 第一册》语法整理
 <table>
  <tr>
   <td>1<jp>階</jp></td>
-  <td><jp>いっかい</jp></td>
+  <td lang="ja">いっかい</td>
   <td>2<jp>階</jp></td>
-  <td><jp>にかい</jp></td>
+  <td lang="ja">にかい</td>
   <td>3<jp>階</jp></td>
-  <td><jp>さんがい</jp></td>
+  <td lang="ja">さんがい</td>
  </tr>
  <tr>
   <td>4<jp>階</jp></td>
-  <td><jp>よんかい</jp></td>
+  <td lang="ja">よんかい</td>
   <td>5<jp>階</jp></td>
-  <td><jp>ごかい</jp></td>
+  <td lang="ja">ごかい</td>
   <td>6<jp>階</jp></td>
-  <td><jp>ろっかい</jp></td>
+  <td lang="ja">ろっかい</td>
  </tr>
  <tr>
   <td>7<jp>階</jp></td>
-  <td><jp>ななかい</jp></td>
+  <td lang="ja">ななかい</td>
   <td>8<jp>階</jp></td>
-  <td><jp>はっかい／はちかい</jp></td>
+  <td lang="ja">はっかい／はちかい</td>
   <td>9<jp>階</jp></td>
-  <td><jp>きゅうかい</jp></td>
+  <td lang="ja">きゅうかい</td>
  </tr>
  <tr>
   <td>10<jp>階</jp></td>
-  <td><jp>じっかい</jp></td>
+  <td lang="ja">じっかい</td>
   <td>11<jp>階</jp></td>
-  <td><jp>じゅういっかい</jp></td>
+  <td lang="ja">じゅういっかい</td>
   <td>12<jp>階</jp></td>
-  <td><jp>じゅうにかい</jp></td>
+  <td lang="ja">じゅうにかい</td>
  </tr>
  <tr>
   <td>13<jp>階</jp></td>
-  <td><jp>じゅうさんがい</jp></td>
+  <td lang="ja">じゅうさんがい</td>
   <td>14<jp>階</jp></td>
-  <td><jp>じゅうよんかい</jp></td>
-  <td><jp>何階</jp></td>
-  <td><jp>なんがい</jp></td>
+  <td lang="ja">じゅうよんかい</td>
+  <td lang="ja">何階</td>
+  <td lang="ja">なんがい</td>
  </tr>
 </table>
 
@@ -2115,26 +2117,26 @@ title: 《初级日语 第一册》语法整理
 
 <table>
  <tr>
-  <td><jp>月曜日</jp></td>
-  <td><jp>げつようび</jp></td>
-  <td><jp>火曜日</jp></td>
-  <td><jp>かようび</jp></td>
-  <td><jp>水曜日</jp></td>
-  <td><jp>すいようび</jp></td>
+  <td lang="ja">月曜日</td>
+  <td lang="ja">げつようび</td>
+  <td lang="ja">火曜日</td>
+  <td lang="ja">かようび</td>
+  <td lang="ja">水曜日</td>
+  <td lang="ja">すいようび</td>
  </tr>
  <tr>
-  <td><jp>木曜日</jp></td>
-  <td><jp>もくようび</jp></td>
-  <td><jp>金曜日</jp></td>
-  <td><jp>きんようび</jp></td>
-  <td><jp>土曜日</jp></td>
-  <td><jp>どようび</jp></td>
+  <td lang="ja">木曜日</td>
+  <td lang="ja">もくようび</td>
+  <td lang="ja">金曜日</td>
+  <td lang="ja">きんようび</td>
+  <td lang="ja">土曜日</td>
+  <td lang="ja">どようび</td>
  </tr>
  <tr>
-  <td><jp>日曜日</jp></td>
-  <td><jp>にちようび</jp></td>
-  <td><jp>何曜日</jp></td>
-  <td><jp>なんようび</jp></td>
+  <td lang="ja">日曜日</td>
+  <td lang="ja">にちようび</td>
+  <td lang="ja">何曜日</td>
+  <td lang="ja">なんようび</td>
   <td></td>
   <td></td>
  </tr>
@@ -2147,71 +2149,71 @@ title: 《初级日语 第一册》语法整理
 <table>
  <tr>
   <td>1<jp>時</jp></td>
-  <td><jp>いちじ</jp></td>
+  <td lang="ja">いちじ</td>
   <td>2<jp>時</jp></td>
-  <td><jp>にじ</jp></td>
+  <td lang="ja">にじ</td>
   <td>3<jp>時</jp></td>
-  <td><jp>さんじ</jp></td>
+  <td lang="ja">さんじ</td>
  </tr>
  <tr>
   <td>1<jp>時半</jp></td>
-  <td><jp>いちじはん</jp></td>
+  <td lang="ja">いちじはん</td>
   <td>2<jp>時半</jp></td>
-  <td><jp>にじはん</jp></td>
+  <td lang="ja">にじはん</td>
   <td>3<jp>時半</jp></td>
-  <td><jp>さんじはん</jp></td>
+  <td lang="ja">さんじはん</td>
  </tr>
  <tr>
   <td>4<jp>時</jp></td>
-  <td><jp>よじ</jp></td>
+  <td lang="ja">よじ</td>
   <td>5<jp>時</jp></td>
-  <td><jp>ごじ</jp></td>
+  <td lang="ja">ごじ</td>
   <td>6<jp>時</jp></td>
-  <td><jp>ろくじ</jp></td>
+  <td lang="ja">ろくじ</td>
  </tr>
  <tr>
   <td>4<jp>時半</jp></td>
-  <td><jp>よじはん</jp></td>
+  <td lang="ja">よじはん</td>
   <td>5<jp>時半</jp></td>
-  <td><jp>ごじはん</jp></td>
+  <td lang="ja">ごじはん</td>
   <td>6<jp>時半</jp></td>
-  <td><jp>ろくじはん</jp></td>
+  <td lang="ja">ろくじはん</td>
  </tr>
  <tr>
   <td>7<jp>時</jp></td>
-  <td><jp>しちじ</jp></td>
+  <td lang="ja">しちじ</td>
   <td>8<jp>時</jp></td>
-  <td><jp>はちじ</jp></td>
+  <td lang="ja">はちじ</td>
   <td>9<jp>時</jp></td>
-  <td><jp>くじ</jp></td>
+  <td lang="ja">くじ</td>
  </tr>
  <tr>
   <td>7<jp>時半</jp></td>
-  <td><jp>しちじはん</jp></td>
+  <td lang="ja">しちじはん</td>
   <td>8<jp>時半</jp></td>
-  <td><jp>はちじはん</jp></td>
+  <td lang="ja">はちじはん</td>
   <td>9<jp>時半</jp></td>
-  <td><jp>くじはん</jp></td>
+  <td lang="ja">くじはん</td>
  </tr>
  <tr>
   <td>10<jp>時</jp></td>
-  <td><jp>じゅうじ</jp></td>
+  <td lang="ja">じゅうじ</td>
   <td>11<jp>時</jp></td>
-  <td><jp>じゅういちじ</jp></td>
+  <td lang="ja">じゅういちじ</td>
   <td>12<jp>時</jp></td>
-  <td><jp>じゅうにじ</jp></td>
+  <td lang="ja">じゅうにじ</td>
  </tr>
  <tr>
   <td>10<jp>時半</jp></td>
-  <td><jp>じゅうじはん</jp></td>
+  <td lang="ja">じゅうじはん</td>
   <td>11<jp>時半</jp></td>
-  <td><jp>じゅういちじはん</jp></td>
+  <td lang="ja">じゅういちじはん</td>
   <td>12<jp>時半</jp></td>
-  <td><jp>じゅうにじはん</jp></td>
+  <td lang="ja">じゅうにじはん</td>
  </tr>
  <tr>
-  <td><jp>何時</jp></td>
-  <td><jp>なんじ</jp></td>
+  <td lang="ja">何時</td>
+  <td lang="ja">なんじ</td>
   <td></td>
   <td></td>
   <td></td>
@@ -2226,39 +2228,39 @@ title: 《初级日语 第一册》语法整理
 <table>
  <tr>
   <td>1<jp>時間</jp></td>
-  <td><jp>いちじかん</jp></td>
+  <td lang="ja">いちじかん</td>
   <td>2<jp>時間</jp></td>
-  <td><jp>にじかん</jp></td>
+  <td lang="ja">にじかん</td>
   <td>3<jp>時間</jp></td>
-  <td><jp>さんじかん</jp></td>
+  <td lang="ja">さんじかん</td>
  </tr>
  <tr>
   <td>4<jp>時間</jp></td>
-  <td><jp>よじかん</jp></td>
+  <td lang="ja">よじかん</td>
   <td>5<jp>時間</jp></td>
-  <td><jp>ごじかん</jp></td>
+  <td lang="ja">ごじかん</td>
   <td>6<jp>時間</jp></td>
-  <td><jp>ろくじかん</jp></td>
+  <td lang="ja">ろくじかん</td>
  </tr>
  <tr>
   <td>7<jp>時間</jp></td>
-  <td><jp>しちじかん</jp></td>
+  <td lang="ja">しちじかん</td>
   <td>8<jp>時間</jp></td>
-  <td><jp>はちじかん</jp></td>
+  <td lang="ja">はちじかん</td>
   <td>9<jp>時間</jp></td>
-  <td><jp>くじかん</jp></td>
+  <td lang="ja">くじかん</td>
  </tr>
  <tr>
   <td>10<jp>時間</jp></td>
-  <td><jp>じゅうじかん</jp></td>
+  <td lang="ja">じゅうじかん</td>
   <td>11<jp>時間</jp></td>
-  <td><jp>じゅういちじかん</jp></td>
+  <td lang="ja">じゅういちじかん</td>
   <td>12<jp>時間</jp></td>
-  <td><jp>じゅうにじかん</jp></td>
+  <td lang="ja">じゅうにじかん</td>
  </tr>
  <tr>
-  <td><jp>何時間</jp></td>
-  <td><jp>なんじかん</jp></td>
+  <td lang="ja">何時間</td>
+  <td lang="ja">なんじかん</td>
   <td></td>
   <td></td>
   <td></td>
@@ -2273,43 +2275,43 @@ title: 《初级日语 第一册》语法整理
 <table>
  <tr>
   <td>1<jp>分</jp></td>
-  <td><jp>いっぷん</jp></td>
+  <td lang="ja">いっぷん</td>
   <td>2<jp>分</jp></td>
-  <td><jp>にふん</jp></td>
+  <td lang="ja">にふん</td>
   <td>3<jp>分</jp></td>
-  <td><jp>さんぷん</jp></td>
+  <td lang="ja">さんぷん</td>
  </tr>
  <tr>
   <td>4<jp>分</jp></td>
-  <td><jp>よんぷん</jp></td>
+  <td lang="ja">よんぷん</td>
   <td>5<jp>分</jp></td>
-  <td><jp>ごふん</jp></td>
+  <td lang="ja">ごふん</td>
   <td>6<jp>分</jp></td>
-  <td><jp>ろっぷん</jp></td>
+  <td lang="ja">ろっぷん</td>
  </tr>
  <tr>
   <td>7<jp>分</jp></td>
-  <td><jp>ななふん</jp></td>
+  <td lang="ja">ななふん</td>
   <td>8<jp>分</jp></td>
-  <td><jp>はっぷん／はちふん</jp></td>
+  <td lang="ja">はっぷん／はちふん</td>
   <td>9<jp>分</jp></td>
-  <td><jp>きゅうふん</jp></td>
+  <td lang="ja">きゅうふん</td>
  </tr>
  <tr>
   <td>10<jp>分</jp></td>
-  <td><jp>じっぷん／じゅっぷん</jp></td>
+  <td lang="ja">じっぷん／じゅっぷん</td>
   <td>11<jp>分</jp></td>
-  <td><jp>じゅういっぷん</jp></td>
+  <td lang="ja">じゅういっぷん</td>
   <td>12<jp>分</jp></td>
-  <td><jp>じゅうにふん</jp></td>
+  <td lang="ja">じゅうにふん</td>
  </tr>
  <tr>
   <td>15<jp>分</jp></td>
-  <td><jp>じゅうごふん</jp></td>
+  <td lang="ja">じゅうごふん</td>
   <td>20<jp>分</jp></td>
-  <td><jp>にじっぷん／にじゅっぷん</jp></td>
-  <td><jp>何分</jp></td>
-  <td><jp>なんぷん</jp></td>
+  <td lang="ja">にじっぷん／にじゅっぷん</td>
+  <td lang="ja">何分</td>
+  <td lang="ja">なんぷん</td>
  </tr>
 </table>
 
@@ -2320,47 +2322,47 @@ title: 《初级日语 第一册》语法整理
 <table>
  <tr>
   <td>1<jp>歳</jp></td>
-  <td><jp>いっさい</jp></td>
+  <td lang="ja">いっさい</td>
   <td>2<jp>歳</jp></td>
-  <td><jp>にさい</jp></td>
+  <td lang="ja">にさい</td>
   <td>3<jp>歳</jp></td>
-  <td><jp>さんさい</jp></td>
+  <td lang="ja">さんさい</td>
  </tr>
  <tr>
   <td>4<jp>歳</jp></td>
-  <td><jp>よんさい</jp></td>
+  <td lang="ja">よんさい</td>
   <td>5<jp>歳</jp></td>
-  <td><jp>ごさい</jp></td>
+  <td lang="ja">ごさい</td>
   <td>6<jp>歳</jp></td>
-  <td><jp>ろくさい</jp></td>
+  <td lang="ja">ろくさい</td>
  </tr>
  <tr>
   <td>7<jp>歳</jp></td>
-  <td><jp>ななさい</jp></td>
+  <td lang="ja">ななさい</td>
   <td>8<jp>歳</jp></td>
-  <td><jp>はっさい</jp></td>
+  <td lang="ja">はっさい</td>
   <td>9<jp>歳</jp></td>
-  <td><jp>きゅうさい</jp></td>
+  <td lang="ja">きゅうさい</td>
  </tr>
  <tr>
   <td>10<jp>歳</jp></td>
-  <td><jp>じっさい</jp></td>
+  <td lang="ja">じっさい</td>
   <td>11<jp>歳</jp></td>
-  <td><jp>じゅういっさい</jp></td>
+  <td lang="ja">じゅういっさい</td>
   <td>12<jp>歳</jp></td>
-  <td><jp>じゅうにさい</jp></td>
+  <td lang="ja">じゅうにさい</td>
  </tr>
  <tr>
   <td>20<jp>歳</jp></td>
-  <td><jp>はたち／にじっさい／にじゅっさい</jp></td>
+  <td lang="ja">はたち／にじっさい／にじゅっさい</td>
   <td>30<jp>歳</jp></td>
-  <td><jp>さんじっさい／さんじゅっさい</jp></td>
+  <td lang="ja">さんじっさい／さんじゅっさい</td>
   <td>40<jp>歳</jp></td>
-  <td><jp>よんじっさい／よんじゅっさい</jp></td>
+  <td lang="ja">よんじっさい／よんじゅっさい</td>
  </tr>
  <tr>
-  <td><jp>何歳</jp></td>
-  <td><jp>なんさい</jp></td>
+  <td lang="ja">何歳</td>
+  <td lang="ja">なんさい</td>
   <td></td>
   <td></td>
   <td></td>
@@ -2375,19 +2377,19 @@ title: 《初级日语 第一册》语法整理
 <table>
  <tr>
   <td>1<jp>週間</jp></td>
-  <td><jp>いっしゅうかん</jp></td>
+  <td lang="ja">いっしゅうかん</td>
   <td>2<jp>週間</jp></td>
-  <td><jp>にしゅうかん</jp></td>
+  <td lang="ja">にしゅうかん</td>
   <td>3<jp>週間</jp></td>
-  <td><jp>さんしゅうかん</jp></td>
+  <td lang="ja">さんしゅうかん</td>
  </tr>
  <tr>
   <td>4<jp>週間</jp></td>
-  <td><jp>よんしゅうかん</jp></td>
+  <td lang="ja">よんしゅうかん</td>
   <td>5<jp>週間</jp></td>
-  <td><jp>ごしゅうかん</jp></td>
-  <td><jp>何週間</jp></td>
-  <td><jp>なんしゅうかん</jp></td>
+  <td lang="ja">ごしゅうかん</td>
+  <td lang="ja">何週間</td>
+  <td lang="ja">なんしゅうかん</td>
  </tr>
 </table>
 
@@ -2395,20 +2397,20 @@ title: 《初级日语 第一册》语法整理
 
 <table>
  <tr>
-  <td><jp>先々週</jp></td>
-  <td><jp>せんせんしゅう</jp></td>
-  <td><jp>先週</jp></td>
-  <td><jp>せんしゅう</jp></td>
-  <td><jp>今週</jp></td>
-  <td><jp>こんしゅう</jp></td>
+  <td lang="ja">先々週</td>
+  <td lang="ja">せんせんしゅう</td>
+  <td lang="ja">先週</td>
+  <td lang="ja">せんしゅう</td>
+  <td lang="ja">今週</td>
+  <td lang="ja">こんしゅう</td>
  </tr>
  <tr>
-  <td><jp>来週</jp></td>
-  <td><jp>らいしゅう</jp></td>
-  <td><jp>再来週</jp></td>
-  <td><jp>さらいしゅ</jp></td>
-  <td><jp>毎週</jp></td>
-  <td><jp>まいしゅう</jp></td>
+  <td lang="ja">来週</td>
+  <td lang="ja">らいしゅう</td>
+  <td lang="ja">再来週</td>
+  <td lang="ja">さらいしゅ</td>
+  <td lang="ja">毎週</td>
+  <td lang="ja">まいしゅう</td>
  </tr>
 </table>
 
@@ -2419,89 +2421,89 @@ title: 《初级日语 第一册》语法整理
 <table>
  <tr>
   <td>1<jp>日</jp></td>
-  <td><jp>ついたち</jp></td>
+  <td lang="ja">ついたち</td>
   <td>2<jp>日</jp></td>
-  <td><jp>ふつか</jp></td>
+  <td lang="ja">ふつか</td>
   <td>3<jp>日</jp></td>
-  <td><jp>みっか</jp></td>
+  <td lang="ja">みっか</td>
  </tr>
  <tr>
   <td>4<jp>日</jp></td>
-  <td><jp>よっか</jp></td>
+  <td lang="ja">よっか</td>
   <td>5<jp>日</jp></td>
-  <td><jp>いつか</jp></td>
+  <td lang="ja">いつか</td>
   <td>6<jp>日</jp></td>
-  <td><jp>むいか</jp></td>
+  <td lang="ja">むいか</td>
  </tr>
  <tr>
   <td>7<jp>日</jp></td>
-  <td><jp>なのか（なぬか）</jp></td>
+  <td lang="ja">なのか（なぬか）</td>
   <td>8<jp>日</jp></td>
-  <td><jp>ようか</jp></td>
+  <td lang="ja">ようか</td>
   <td>9<jp>日</jp></td>
-  <td><jp>ここのか</jp></td>
+  <td lang="ja">ここのか</td>
  </tr>
  <tr>
   <td>10<jp>日</jp></td>
-  <td><jp>とおか</jp></td>
+  <td lang="ja">とおか</td>
   <td>11<jp>日</jp></td>
-  <td><jp>じゅういちにち</jp></td>
+  <td lang="ja">じゅういちにち</td>
   <td>12<jp>日</jp></td>
-  <td><jp>じゅうににち</jp></td>
+  <td lang="ja">じゅうににち</td>
  </tr>
  <tr>
   <td>13<jp>日</jp></td>
-  <td><jp>じゅうさんにち</jp></td>
+  <td lang="ja">じゅうさんにち</td>
   <td>14<jp>日</jp></td>
-  <td><jp>じゅうよっか</jp></td>
+  <td lang="ja">じゅうよっか</td>
   <td>15<jp>日</jp></td>
-  <td><jp>じゅうごにち</jp></td>
+  <td lang="ja">じゅうごにち</td>
  </tr>
  <tr>
   <td>16<jp>日</jp></td>
-  <td><jp>じゅうろくにち</jp></td>
+  <td lang="ja">じゅうろくにち</td>
   <td>17<jp>日</jp></td>
-  <td><jp>じゅうしちにち</jp></td>
+  <td lang="ja">じゅうしちにち</td>
   <td>18<jp>日</jp></td>
-  <td><jp>じゅうはちにち</jp></td>
+  <td lang="ja">じゅうはちにち</td>
  </tr>
  <tr>
   <td>19<jp>日</jp></td>
-  <td><jp>じゅうくにち</jp></td>
+  <td lang="ja">じゅうくにち</td>
   <td>20<jp>日</jp></td>
-  <td><jp>はつか</jp></td>
+  <td lang="ja">はつか</td>
   <td>21<jp>日</jp></td>
-  <td><jp>にじゅういちにち</jp></td>
+  <td lang="ja">にじゅういちにち</td>
  </tr>
  <tr>
   <td>22<jp>日</jp></td>
-  <td><jp>にじゅうににち</jp></td>
+  <td lang="ja">にじゅうににち</td>
   <td>23<jp>日</jp></td>
-  <td><jp>にじゅうさんにち</jp></td>
+  <td lang="ja">にじゅうさんにち</td>
   <td>24<jp>日</jp></td>
-  <td><jp>にじゅうよっか</jp></td>
+  <td lang="ja">にじゅうよっか</td>
  </tr>
  <tr>
   <td>25<jp>日</jp></td>
-  <td><jp>にじゅうごにち</jp></td>
+  <td lang="ja">にじゅうごにち</td>
   <td>26<jp>日</jp></td>
-  <td><jp>にじゅうろくにち</jp></td>
+  <td lang="ja">にじゅうろくにち</td>
   <td>27<jp>日</jp></td>
-  <td><jp>にじゅうしちにち</jp></td>
+  <td lang="ja">にじゅうしちにち</td>
  </tr>
  <tr>
   <td>28<jp>日</jp></td>
-  <td><jp>にじゅうはちにち</jp></td>
+  <td lang="ja">にじゅうはちにち</td>
   <td>29<jp>日</jp></td>
-  <td><jp>にじゅうくにち</jp></td>
+  <td lang="ja">にじゅうくにち</td>
   <td>30<jp>日</jp></td>
-  <td><jp>さんじゅうにち</jp></td>
+  <td lang="ja">さんじゅうにち</td>
  </tr>
  <tr>
   <td>31<jp>日</jp></td>
-  <td><jp>さんじゅういちにち</jp></td>
-  <td><jp>何日</jp></td>
-  <td><jp>なんにち</jp></td>
+  <td lang="ja">さんじゅういちにち</td>
+  <td lang="ja">何日</td>
+  <td lang="ja">なんにち</td>
   <td></td>
   <td></td>
  </tr>
@@ -2514,43 +2516,43 @@ title: 《初级日语 第一册》语法整理
 <table>
  <tr>
   <td>1<jp>回</jp></td>
-  <td><jp>いっかい</jp></td>
+  <td lang="ja">いっかい</td>
   <td>2<jp>回</jp></td>
-  <td><jp>にかい</jp></td>
+  <td lang="ja">にかい</td>
   <td>3<jp>回</jp></td>
-  <td><jp>さんがい</jp></td>
+  <td lang="ja">さんがい</td>
  </tr>
  <tr>
   <td>4<jp>回</jp></td>
-  <td><jp>よんかい</jp></td>
+  <td lang="ja">よんかい</td>
   <td>5<jp>回</jp></td>
-  <td><jp>ごかい</jp></td>
+  <td lang="ja">ごかい</td>
   <td>6<jp>回</jp></td>
-  <td><jp>ろっかい</jp></td>
+  <td lang="ja">ろっかい</td>
  </tr>
  <tr>
   <td>7<jp>回</jp></td>
-  <td><jp>ななかい</jp></td>
+  <td lang="ja">ななかい</td>
   <td>8<jp>回</jp></td>
-  <td><jp>はっかい／はちかい</jp></td>
+  <td lang="ja">はっかい／はちかい</td>
   <td>9<jp>回</jp></td>
-  <td><jp>きゅうかい</jp></td>
+  <td lang="ja">きゅうかい</td>
  </tr>
  <tr>
   <td>10<jp>回</jp></td>
-  <td><jp>じっかい／じゅっかい</jp></td>
+  <td lang="ja">じっかい／じゅっかい</td>
   <td>11<jp>回</jp></td>
-  <td><jp>じゅういっかい</jp></td>
+  <td lang="ja">じゅういっかい</td>
   <td>24<jp>回</jp></td>
-  <td><jp>にじゅうよんかい</jp></td>
+  <td lang="ja">にじゅうよんかい</td>
  </tr>
  <tr>
   <td>30<jp>回</jp></td>
-  <td><jp>さんじっかい／さんじゅっかい</jp></td>
+  <td lang="ja">さんじっかい／さんじゅっかい</td>
   <td>100<jp>回</jp></td>
-  <td><jp>ひゃくかい／ひゃっかい</jp></td>
-  <td><jp>何回</jp></td>
-  <td><jp>なんがい</jp></td>
+  <td lang="ja">ひゃくかい／ひゃっかい</td>
+  <td lang="ja">何回</td>
+  <td lang="ja">なんがい</td>
  </tr>
 </table>
 
@@ -2561,39 +2563,39 @@ title: 《初级日语 第一册》语法整理
 <table>
  <tr>
   <td>1<jp>月</jp></td>
-  <td><jp>いちがつ</jp></td>
+  <td lang="ja">いちがつ</td>
   <td>2<jp>月</jp></td>
-  <td><jp>にがつ</jp></td>
+  <td lang="ja">にがつ</td>
   <td>3<jp>月</jp></td>
-  <td><jp>さんがつ</jp></td>
+  <td lang="ja">さんがつ</td>
  </tr>
  <tr>
   <td>4<jp>月</jp></td>
-  <td><jp>しがつ</jp></td>
+  <td lang="ja">しがつ</td>
   <td>5<jp>月</jp></td>
-  <td><jp>ごがつ</jp></td>
+  <td lang="ja">ごがつ</td>
   <td>6<jp>月</jp></td>
-  <td><jp>ろくがつ</jp></td>
+  <td lang="ja">ろくがつ</td>
  </tr>
  <tr>
   <td>7<jp>月</jp></td>
-  <td><jp>しちがつ</jp></td>
+  <td lang="ja">しちがつ</td>
   <td>8<jp>月</jp></td>
-  <td><jp>はちがつ</jp></td>
+  <td lang="ja">はちがつ</td>
   <td>9<jp>月</jp></td>
-  <td><jp>くがつ</jp></td>
+  <td lang="ja">くがつ</td>
  </tr>
  <tr>
   <td>10<jp>月</jp></td>
-  <td><jp>じゅうがつ</jp></td>
+  <td lang="ja">じゅうがつ</td>
   <td>11<jp>月</jp></td>
-  <td><jp>じゅういちがつ</jp></td>
+  <td lang="ja">じゅういちがつ</td>
   <td>12<jp>月</jp></td>
-  <td><jp>じゅうにがつ</jp></td>
+  <td lang="ja">じゅうにがつ</td>
  </tr>
  <tr>
-  <td><jp>何月</jp></td>
-  <td><jp>なんげつ</jp></td>
+  <td lang="ja">何月</td>
+  <td lang="ja">なんげつ</td>
   <td></td>
   <td></td>
   <td></td>
@@ -2608,35 +2610,35 @@ title: 《初级日语 第一册》语法整理
 <table>
  <tr>
   <td>1<jp>か月</jp></td>
-  <td><jp>いっかげつ</jp></td>
+  <td lang="ja">いっかげつ</td>
   <td>2<jp>か月</jp></td>
-  <td><jp>にかげつ</jp></td>
+  <td lang="ja">にかげつ</td>
   <td>3<jp>か月</jp></td>
-  <td><jp>さんかげつ</jp></td>
+  <td lang="ja">さんかげつ</td>
  </tr>
  <tr>
   <td>4<jp>か月</jp></td>
-  <td><jp>よんかげつ</jp></td>
+  <td lang="ja">よんかげつ</td>
   <td>5<jp>か月</jp></td>
-  <td><jp>ごかげつ</jp></td>
+  <td lang="ja">ごかげつ</td>
   <td>6<jp>か月</jp></td>
-  <td><jp>ろっかげつ</jp></td>
+  <td lang="ja">ろっかげつ</td>
  </tr>
  <tr>
   <td>7<jp>か月</jp></td>
-  <td><jp>ななかげつ</jp></td>
+  <td lang="ja">ななかげつ</td>
   <td>8<jp>か月</jp></td>
-  <td><jp>はちかげつ／はっかげつ</jp></td>
+  <td lang="ja">はちかげつ／はっかげつ</td>
   <td>9<jp>か月</jp></td>
-  <td><jp>きゅうかげつ</jp></td>
+  <td lang="ja">きゅうかげつ</td>
  </tr>
  <tr>
   <td>10<jp>か月</jp></td>
-  <td><jp>じっかげつ／じゅっかげつ</jp></td>
+  <td lang="ja">じっかげつ／じゅっかげつ</td>
   <td>11<jp>か月</jp></td>
-  <td><jp>じゅういっかげつ</jp></td>
-  <td><jp>何か月</jp></td>
-  <td><jp>なんかげつ</jp></td>
+  <td lang="ja">じゅういっかげつ</td>
+  <td lang="ja">何か月</td>
+  <td lang="ja">なんかげつ</td>
  </tr>
 </table>
 
@@ -2659,30 +2661,30 @@ title: 《初级日语 第一册》语法整理
  <tbody>
  <tr>
   <th>称呼他人<br>家庭成员</th>
-  <td><jp>お<ruby>父<rp>(</rp><rt>とう</rt><rp>)</rp></ruby>さん</jp></td>
-  <td><jp>お<ruby>母<rp>(</rp><rt>かあ</rt><rp>)</rp></ruby>さん</jp></td>
-  <td><jp>お<ruby>兄<rp>(</rp><rt>にい</rt><rp>)</rp></ruby>さん</jp></td>
-  <td><jp>お<ruby>姉<rp>(</rp><rt>ねえ</rt><rp>)</rp></ruby>さん</jp></td>
-  <td><jp><ruby>弟<rp>(</rp><rt>おとうと</rt><rp>)</rp></ruby>さん</jp></td>
-  <td><jp><ruby>妹<rp>(</rp><rt>いもうと</rt><rp>)</rp></ruby>さん</jp></td>
+  <td lang="ja">お<ruby>父<rp>(</rp><rt>とう</rt><rp>)</rp></ruby>さん</td>
+  <td lang="ja">お<ruby>母<rp>(</rp><rt>かあ</rt><rp>)</rp></ruby>さん</td>
+  <td lang="ja">お<ruby>兄<rp>(</rp><rt>にい</rt><rp>)</rp></ruby>さん</td>
+  <td lang="ja">お<ruby>姉<rp>(</rp><rt>ねえ</rt><rp>)</rp></ruby>さん</td>
+  <td lang="ja"><ruby>弟<rp>(</rp><rt>おとうと</rt><rp>)</rp></ruby>さん</td>
+  <td lang="ja"><ruby>妹<rp>(</rp><rt>いもうと</rt><rp>)</rp></ruby>さん</td>
  </tr>
  <tr>
   <th>直呼自己<br>家庭成员</th>
-  <td><jp>お<ruby>父<rp>(</rp><rt>とう</rt><rp>)</rp></ruby>さん</jp></td>
-  <td><jp>お<ruby>母<rp>(</rp><rt>かあ</rt><rp>)</rp></ruby>さん</jp></td>
-  <td><jp>（お）<ruby>兄<rp>(</rp><rt>にい</rt><rp>)</rp></ruby>さん</jp></td>
-  <td><jp>（お）<ruby>姉<rp>(</rp><rt>ねえ</rt><rp>)</rp></ruby>さん</jp></td>
+  <td lang="ja">お<ruby>父<rp>(</rp><rt>とう</rt><rp>)</rp></ruby>さん</td>
+  <td lang="ja">お<ruby>母<rp>(</rp><rt>かあ</rt><rp>)</rp></ruby>さん</td>
+  <td lang="ja">（お）<ruby>兄<rp>(</rp><rt>にい</rt><rp>)</rp></ruby>さん</td>
+  <td lang="ja">（お）<ruby>姉<rp>(</rp><rt>ねえ</rt><rp>)</rp></ruby>さん</td>
   <td>直呼其名</td>
   <td>直呼其名</td>
  </tr>
  <tr>
   <th>谈论自己<br>家庭成员</th>
-  <td><jp><ruby>父<rp>(</rp><rt>ちち</rt><rp>)</rp></ruby></jp></td>
-  <td><jp><ruby>母<rp>(</rp><rt>はは</rt><rp>)</rp></ruby></jp></td>
-  <td><jp><ruby>兄<rp>(</rp><rt>あに</rt><rp>)</rp></ruby></jp></td>
-  <td><jp><ruby>姉<rp>(</rp><rt>あね</rt><rp>)</rp></ruby></jp></td>
-  <td><jp><ruby>弟<rp>(</rp><rt>おとうと</rt><rp>)</rp></ruby></jp></td>
-  <td><jp><ruby>妹<rp>(</rp><rt>いもうと</rt><rp>)</rp></ruby></jp></td>
+  <td lang="ja"><ruby>父<rp>(</rp><rt>ちち</rt><rp>)</rp></ruby></td>
+  <td lang="ja"><ruby>母<rp>(</rp><rt>はは</rt><rp>)</rp></ruby></td>
+  <td lang="ja"><ruby>兄<rp>(</rp><rt>あに</rt><rp>)</rp></ruby></td>
+  <td lang="ja"><ruby>姉<rp>(</rp><rt>あね</rt><rp>)</rp></ruby></td>
+  <td lang="ja"><ruby>弟<rp>(</rp><rt>おとうと</rt><rp>)</rp></ruby></td>
+  <td lang="ja"><ruby>妹<rp>(</rp><rt>いもうと</rt><rp>)</rp></ruby></td>
  </tr>
  </tbody>
 </table>

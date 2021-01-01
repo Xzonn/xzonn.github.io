@@ -4,7 +4,7 @@ date: 2019-05-27 16:16
 infobox: complete
 js: japanese
 last_modified_at: 2020-11-13 14:20
-logs:
+logs: 
 - 2020-11-13：修复pdf版本字体问题
 - 2020-11-16：字体设置限定为打印版本
 tags: 三次元 学习资料 日语 知识点整理

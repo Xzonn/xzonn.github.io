@@ -201,7 +201,7 @@ $(function () {
                 endnoteId[this.id] = n + 1;
             }
         });
-        $("sup.ref-endnote > a").each(function() {
+        $(".ref-endnote > a").each(function() {
             let hash = this.href.split("#").slice(-1)[0];
             if (endnoteId[hash]) {
                 $(this).text(endnoteId[hash]);
