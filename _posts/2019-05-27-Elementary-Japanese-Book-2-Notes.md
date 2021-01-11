@@ -1,4 +1,5 @@
 ---
+class: navigation-limit-2
 css: japanese
 date: 2019-05-27 16:16
 infobox: complete

@@ -1,4 +1,5 @@
 ---
+class: navigation-limit-2
 date: 2017-11-06 12:00
 head_image: https://file.moetu.org/images/2020/02/20/93dcd54dc6f1f4966ecd5e509d2eecdfb8a902e1a7ed9d4a.png
 infobox: complete

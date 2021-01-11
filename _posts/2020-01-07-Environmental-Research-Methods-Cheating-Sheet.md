@@ -1,4 +1,5 @@
 ---
+class: no-navigation
 date: 2020-01-07 23:36
 info: “欺骗表单”，乃“Cheating Sheet”直译也。
 last_modified_at: 2020-01-11 23:29
