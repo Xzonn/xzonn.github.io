@@ -1,4 +1,5 @@
 ---
+class: navigation-limit-2
 date: 2019-11-02 12:00
 head_image: https://file.moetu.org/images/2020/02/20/5a25ca9b361d920fa31d44c3aea248430962aa4095a771ab.gif
 last_modified_at: 2020-11-13 13:17
@@ -537,7 +538,6 @@ int main() {
 ```
 
 ## 作业4
-## 作业4参考答案
 ### 1. 字符统计与删除
 #### (1) 题目要求
 ##### 描述

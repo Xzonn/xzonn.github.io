@@ -26,16 +26,18 @@
                     inlineMath: [["$", "$"], ["\\(", "\\)"]],
                     displayMath: [["$$", "$$"], ["\\[", "\\]"]],
                     processEscapes: true,
-                },
+                },{% unless page.math_without_chem %}
                 TeX: {
                     extensions: ["[mhchem]/mhchem.js"]
-                },/*
-                showMathMenu: false,*/
+                },{% endunless %}{% if page.math_without_menu %}
+                showMathMenu: false,{% endif %}
                 SVG: {
                     scale: 94.3,
                     blacker: 0,
                     font: "STIX-Web",
-                    undefinedFamily: "SongTi"
+                    undefinedFamily: "SongTi"{% if page.math_without_cache %},
+                    useFontCache: false,
+                    useGlobalCache: false{% endif %}
                 },
                 "HTML-CSS": {
                     scale: 100 / 1.2,
