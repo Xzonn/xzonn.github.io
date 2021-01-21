@@ -11,7 +11,7 @@ title: 《地震概论》2019年秋季学期（周四班）笔记
         bookmark-level: none;
     }
 
-    .leftToc > li > ul > li > ul {
+    .xz-sidenav-list > li > ul > li > ul {
         display: none;
     }
 </style>

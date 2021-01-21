@@ -12,7 +12,7 @@ title: 《计算概论（B）》（马思伟）作业参考代码（2017）
         bookmark-level: none;
     }
 
-    .leftToc > li > ul > li > ul {
+    .xz-sidenav-list > li > ul > li > ul {
         display: none;
     }
 </style>

@@ -204,6 +204,11 @@ figcaption::before, .caption-figure::before {
     padding-top: 80px;
 }
 
+.xz-infobox-bottom .alert {
+    margin-top: 25px;
+    margin-bottom: 0;
+}
+
 .xz-footer {
     bottom: 0;
     padding: 30px;

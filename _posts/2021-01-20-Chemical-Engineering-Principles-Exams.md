@@ -1,6 +1,7 @@
 ---
 date: 2021-01-20 16:26
-last_modified_at: 2021-01-20 16:56
+info: 2020年秋季学期《化工原理》期末试题回忆。
+last_modified_at: 2021-01-20 18:14
 math: true
 tags: 三次元 学习资料 环院专业课 试题整理
 title: 《化工原理》试题整理

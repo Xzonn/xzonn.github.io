@@ -1,14 +1,16 @@
 ---
-class: printNoToc
 date: 2020-01-06 15:44
-last_modified_at: 2020-01-07 21:56
+info: 2008年-2020年秋季学期（不完整）《环境化学》期末试题回忆。
+last_modified_at: 2021-01-20 18:56
+logs: 
+- 2021-01-20：增加2020年秋季学期考试题。
 math: true
 tags: 三次元 学习资料 环院专业课 试题整理
 title: 《环境化学》试题整理
 ---
 ## 2008春
 
-*（来源：<https://bbs.pku.edu.cn/v2/collection-read.php?path=groups%2FGROUP_1%2FUrban%2FD9C4FEF3A%2FDBC2EA326%2FDB5608848%2FD712BB662%2FM.1213324004.A>.）*
+*（来源：[北大未名BBS](https://bbs.pku.edu.cn/v2/collection-read.php?path=groups%2FGROUP_1%2FUrban%2FD9C4FEF3A%2FDBC2EA326%2FDB5608848%2FD712BB662%2FM.1213324004.A)）*
 
 ##### 一、名词解释。
 
@@ -37,7 +39,7 @@ title: 《环境化学》试题整理
 
 ## 2009春
 
-*（来源：<https://bbs.pku.edu.cn/v2/collection-read.php?path=groups%2FGROUP_1%2FUrban%2FD9C4FEF3A%2FDBC2EA326%2FDB5608848%2FD712BB662%2FM.1245033259.A>.）*
+*（来源：[北大未名BBS](https://bbs.pku.edu.cn/v2/collection-read.php?path=groups%2FGROUP_1%2FUrban%2FD9C4FEF3A%2FDBC2EA326%2FDB5608848%2FD712BB662%2FM.1245033259.A)）*
 
 ##### 一、名词解释。
 
@@ -66,7 +68,7 @@ title: 《环境化学》试题整理
 
 ## 2010春
 
-*（来源：<https://bbs.pku.edu.cn/v2/collection-read.php?path=groups%2FGROUP_1%2FUrban%2FD9C4FEF3A%2FDBC2EA326%2FDB5608848%2FD712BB662%2FM.1277786996.A>.）*
+*（来源：[北大未名BBS](https://bbs.pku.edu.cn/v2/collection-read.php?path=groups%2FGROUP_1%2FUrban%2FD9C4FEF3A%2FDBC2EA326%2FDB5608848%2FD712BB662%2FM.1277786996.A)）*
 
 ##### 一、名词解释。
 
@@ -251,3 +253,32 @@ $$G = \cfrac {G^\ominus c} {A + c}$$
 *（新出现，讨论题中出现过）*
 
 ##### 八、简述氧化型烟雾和还原型烟雾的特点，解释我国北方地区冬春季节典型灰霾的形成原因。
+
+## 2020秋（2021年1月19日）
+
+##### 一、名词解释
+
+- 稳态*（新出现）*
+- 颗粒物的光学厚度*（新出现）*
+- 准永久性成分和不稳定成分*（新出现）*
+- COD<sub>Cr</sub>、BOD<sub>5</sub>
+- 雨除和冲刷
+- 自由基
+
+##### 二、滤膜初始质量10.00 g，通气24 h后质量10.10 g，流量最开始1.8 m<sup>3</sup>/min，到最后1.0 m<sup>3</sup>/min，求大气中颗粒物的浓度。
+
+*（新出现）*
+
+##### 三、颗粒物在人体呼吸道沉积的机制。
+
+*（新出现）*
+
+##### 四、氮的生物循环。
+
+##### 五、详细描述土壤的形成过程。
+
+##### 六、
+
+##### 七、口罩的结构，以及截流颗粒物或病毒的机制。
+
+*（新出现）*
