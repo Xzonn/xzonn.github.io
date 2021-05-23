@@ -12,13 +12,13 @@ title: 新功能上线：学习资料库搜索及服务器渲染PDF
 ## 学习资料库搜索
 <div class="alert alert-danger" role="alert"><p><strong>提醒</strong>：本页面已关闭，并将在不久之后移除。</p></div>
 
-![网页版搜索\|right](https://file.moetu.org/images/2020/03/07/a790fa9a92669f9aac086cc38ef8272473fe3f2b07037787.png)
+{% include figure.html src="https://file.moetu.org/images/2020/03/07/a790fa9a92669f9aac086cc38ef8272473fe3f2b07037787.png" alt="网页版搜索" width="640" height="360" %}
 
 我的[学习资料库](/posts/Study.html)储存了不少文件，我自己在电脑上查找可以用Everything，但是在网盘里查找似乎就有些费劲了。因此我写了个简单的搜索系统，可以搜索收录了学习资料的课程，也可以搜索单个文件。由于数据量不大，我也没怎么去考虑优化问题，直接用了一个SQLite数据库保存所有的文件并归类了课程信息。
 
 <!--[» 点击这里可以前往搜索页面 «](/tools/Study-Search.html)-->
 
-![公众号搜索\|right](https://file.moetu.org/images/2020/03/07/6b0de472202b8f73984a79a16f625b9ee3162da39c4a0d45.png)
+{% include figure.html src="https://file.moetu.org/images/2020/03/07/6b0de472202b8f73984a79a16f625b9ee3162da39c4a0d45.png" alt="公众号搜索" width="560" height="700" %}
 
 另外，结合我的公众号，我还提供了简单的对话式搜索方式，方法很简单，向公众号（*微信号：Xzonn_*）后台发送“学习”进入学习模式，然后发送指令即可，例如：“课程 环”即可查找信息中带有“环”的所有课程。
 
@@ -28,7 +28,7 @@ title: 新功能上线：学习资料库搜索及服务器渲染PDF
 message.replyText(message.Content.replace("我", "{YOU}").replace("你", "我").replace("{YOU}", "你").replace("吗", "").replace("？", "。"))
 ```
 
-![服务器渲染的PDF效果\|right](https://file.moetu.org/images/2020/03/07/cb472f085051d72a956def72c1ea4e53a4ef7e913aabb671.png)
+{% include figure.html src="https://file.moetu.org/images/2020/03/07/cb472f085051d72a956def72c1ea4e53a4ef7e913aabb671.png" alt="服务器渲染的PDF效果" width="640" height="360" %}
 
 ## 服务器渲染PDF
 

@@ -1,63 +1,110 @@
-/* {% include css/pagination.css%} */
+---
+---
 .xz-pagination-list {
     text-align: center;
-}
 
-.xz-pagination-list .pagination {
-    margin: 0 auto;
-}
+    .pagination {
+        margin: 0 auto;
+    }
+} 
 
-.post-block {
+.page-block-list > div {
     position: relative;
     padding: 1.5rem 0;
-    max-height: 13.8rem;
+    max-height: 13.6rem;
     border-bottom: 2px dashed var(--color-cold-dark);
-}
 
-.post-block::after {
-    clear: both;
-    display: block;
-    content: '';
-}
+    &::after {
+        clear: both;
+        display: block;
+        content: '';
+    }
 
-.post-block:first-child {
-    padding-top: 0;
+    &:first-child {
+        padding-top: 0;
+    }
 }
 
 .post-title {
     display: block;
     overflow: hidden;
+    margin: 0;
     text-overflow: ellipsis;
     white-space: nowrap;
     font-weight: bold;
     font-size: 1.4rem;
-    margin: 0;
-}
 
-.post-title > a {
-    color: var(--color-cold-darker);
-}
+    & > a {
+        color: var(--color-cold-darker);
+    }
 
-.post-block-with-image .post-title {
-    margin-right: 17.2rem;
+    .post-block-with-image & {
+        margin-right: 17.2rem;
+    }
 }
 
 .post-image {
     float: right;
     display: block;
-    margin: -5.4rem 0 0 1rem;
+    margin: -5.2rem 0 0 1rem;
     width: 16.2rem;
     height: 10.8rem;
     object-fit: cover;
 }
 
-.post-meta-info {
+.post-summary {
     overflow-y: hidden;
     margin: 0;
     padding: 0 0.5rem;
-    max-height: 5.4rem;
+    max-height: 5.2rem;
     color: var(--color-warm-dark);
+    text-overflow: ellipsis;
     font-style: italic;
+}
+
+.post-time, .post-tags {
+    display: block;
+    margin-bottom: 0;
+    padding-left: 2em;
+    list-style: none;
+    font-size: 0.8em;
+}
+
+.post-time {
+    & > li {
+        display: inline-block;
+        margin-right: 1em;
+    }
+
+    .post-create::before {
+        display: inline-block;
+        content: "\521b\5efa\65f6\95f4\ff1a";
+    }
+
+    .post-update::before {
+        display: inline-block;
+        content: "\66f4\65b0\65f6\95f4\ff1a";
+    }
+}
+
+.post-tags {
+    &::before {
+        display: inline-block;
+        content: "\6807\7b7e\ff1a";
+    }
+
+    & > li {
+        display: inline-block;
+        margin-right: 0.5em;
+
+        & > a {
+            color: inherit;
+
+            &::before {
+                content: "#";
+            }
+        }
+    }
 }
 
 .post-read::after {

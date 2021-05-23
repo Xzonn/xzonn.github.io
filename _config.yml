@@ -1,24 +1,49 @@
 author: Xzonn
-description: 2020年新年快乐！
 defaults:
-  -
-    scope:
-      path: ""
+  - values:
+      base_css: "base"
+      layout: "default"
+      head_image_width: 1280
+      head_image_height: 720
+  - scope:
       type: "posts"
     values:
-      layout: "default"
+      permalink: /posts/:title.html
+  - scope:
+      type: "study"
+    values:
+      layout: study
+      permalink: /posts/:title.html
+  - scope:
+      type: "interviews"
+    values:
+      base_css: "interviews.base"
+      css: "interviews"
+collections:
+  interviews:
+    output: true
+  study:
+    output: true
 exclude:
   - .git
   - _drafts/Debug
   - Debug
   - LICENSE
 markdown: kramdown
-name: Xzonn 的小站
-permalink: /posts/:title.html
+kramdown:
+  syntax_highlighter_opts:
+    css_class: 'highlight'
+name: Xzonn的小站
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-sass-converter
 timezone: Asia/Shanghai
 url: https://xzonn.top
 cdnpath: https://cdn.jsdelivr.net/gh/Xzonn/xzonn.github.io@master
-version: v3.0
+version: v4.0
+sass:
+  load_paths:
+    - css
+  sourcemap: always
+  style: compressed

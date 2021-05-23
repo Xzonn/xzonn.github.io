@@ -1,0 +1,17 @@
+        <!-- Common Heading Start -->
+        <div class="xz-heading jumbotron">
+            <div class="container">
+                <div class="xz-heading-text">{% if page.date or page.update %}
+                    <ul class="xz-meta-time">{% if page.date %}
+                        <li class="xz-meta-create">{{ page.date | date: "%Y-%m-%d %M:%S" }}</li>{% endif %}{% if page.last_modified_at %}
+                        <li class="xz-meta-update">{{ page.last_modified_at | date: "%Y-%m-%d %M:%S" }}</li>{% endif %}
+                    </ul>{% endif %}{% if page.title %}
+                    <h1>{{ page.title }}</h1>{% endif %}{% if page.info %}
+                    <p class="xz-meta-info">{{ page.info }}</p>{% endif %}{% if page.tags.size > 0 %}
+                    <ul class="xz-meta-tags">{% for tag in page.tags %}
+                        <li><a href="/study.html#{{ tag }}">{{ tag }}</a></li>{% endfor %}
+                    </ul>{% endif %}
+                </div>
+            </div>
+        </div>
+        <!-- Common Heading End -->

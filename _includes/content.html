@@ -1,39 +1,47 @@
         <!-- Common Content Start -->
         <div class="xz-content container">
             <div class="row">
-                <div class="xz-sidenav col-md-3 hidden-print hidden-xs hidden-sm" role="complementary">
-                    <ul class="xz-sidenav-list nav nav-stacked" role="navigation"></ul>
-                </div>
-                <div class="xz-content-main col-md-9">
-                    <div class="xz-infobox-top hidden-print">{% if page.math %}
-                        <div class="xz-info-math alert alert-info fade in" role="alert">
-                            <button type="button" class="close" data-dismiss="alert">&times;</button>
-                            <p>本页面使用了MathJax渲染数学公式，在渲染完成前页面样式可能会出现混乱，请耐心等候。</p>
-                        </div>{% endif %}{% unless page.noPrintInfo %}
-                        <div class="xz-info-print alert alert-info hidden" role="alert">
-                            <button type="button" class="close" data-dismiss="alert">&times;</button>
-                            <p>如果需要保存本页，请 <a href="javascript:window.print()" class="alert-link">打印本页</a> 并选择“另存为 PDF”。</p>{% unless page.no_comment %}
-                            <p>如果您发现了本站的错误，或是对本站有任何意见建议，请在 <a href="#xz-content-comment" class="alert-link">留言区</a> 留言。</p>{% endunless %}
-                        </div>{% endunless %}
-                    </div>
+                <div class="xz-content-main col-md-{% if page.no_sidenav %}12{% else %}9{% endif %}">{% if page.head_image %}
+{% include figure.html blank="                    " src=page.head_image alt=page.title width=page.head_image_width height=page.head_image_height no_link=true %}{% endif %}
                     <article>
-{{ content }}
-                    </article>{% if page.ref or page.logs %}
-                    <div class="xz-infobox-bottom">{%if page.ref %}
-                        <div class="xz-info-ref alert alert-info">参考资料：{% if page.ref_link %}<a href="{{ page.ref_link }}" class="alert-link">{{ page.ref }}</a>{% else %}{{ page.ref }}{% endif %}</div>{% endif %}{%if page.logs %}
-                        <div class="xz-info-logs alert alert-info">更新记录：
+{{ content | replace: '<a href="http', '<a target="_blank" href="http' }}
+                    </article>{% if page.sources or page.references or page.links or page.logs %}
+                    <div class="xz-infobox-bottom">{%if page.sources %}
+                        <div class="xz-info-sources">
+                            <div class="xz-info-sources-head">源地址</div>
+                            <ul>{% for source in page.sources %}
+                                <li><a lang="ja" href="{{ source[0] }}">{{ source[1] }}</a></li>{% endfor %}
+                            </ul>
+                        </div>{% endif %}{%if page.references %}
+                        <div class="xz-info-references">
+                            <div class="xz-info-references-head">参考资料</div>
+                            <ul>{% for reference in page.references %}
+                                <li><a href="{{ reference[0] }}">{{ reference[1] }}</a></li>{% endfor %}
+                            </ul>
+                        </div>{% endif %}{%if page.links %}
+                        <div class="xz-info-links">
+                            <div class="xz-info-links-head">相关链接</div>
+                            <ul>{% for link in page.links %}
+                                <li><a href="{{ link[0] }}">{{ link[1] }}</a></li>{% endfor %}
+                            </ul>
+                        </div>{% endif %}{%if page.logs %}
+                        <div class="xz-info-logs">
+                            <div class="xz-info-logs-head">更新历史</div>
                             <ul>{% for log in page.logs %}
                                 <li>{{ log }}</li>{% endfor %}
                             </ul>
                         </div>{% endif %}
-                    </div>{% endif %}
+                    </div>{% endif %}{% unless page.no_ad %}
                     <ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-8317643192080236" data-ad-slot="8544171099"></ins>
-                    <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script>{% unless jekyll.environment == "development" or page.no_comment %}
+                    <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script>{% endunless %}{% unless jekyll.environment == "development" or page.no_comment %}
                     <div class="xz-content-comment hidden-print">
                         <div id="lv-container" data-id="city" data-uid="MTAyMC80MTk5MS8xODUzOA=="></div>
                         <script src="https://cdn-city.livere.com/js/embed.dist.js" async="async"></script>
                     </div>{% endunless %}
-                </div>
+                </div>{% unless page.no_sidenav %}
+                <div class="xz-sidenav col-md-3 hidden-print hidden-xs hidden-sm" role="complementary">
+                    <ul class="xz-sidenav-list nav nav-stacked" role="navigation"></ul>
+                </div>{% endunless %}
             </div>
         </div>
         <!-- Common Content End -->

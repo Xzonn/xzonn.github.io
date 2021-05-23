@@ -1,8 +1,10 @@
 ---
 date: 2019-11-01 12:00
 head_image: https://img1.doubanio.com/view/photo/m/public/p2570059839.webp
+head_image_height: 755
+head_image_width: 540
 last_modified_at: 2020-01-03 23:02
-tags: 二次元 杂记
+tags: 杂记
 title: 《天气之子》杂记
 ---
 提前一天读完了小说，今天去看了电影。个人评分：小说7/10，电影8/10。我对新海诚也不算太了解，他之前的作品我只看过《秒速5厘米》和《你的名字。》，这里就随口说几句观后感。可能有剧透。

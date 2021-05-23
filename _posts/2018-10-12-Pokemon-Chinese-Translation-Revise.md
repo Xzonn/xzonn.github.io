@@ -6,7 +6,7 @@ infobox: pokemon
 last_modified_at: 2020-03-04 16:17
 no_comment: true
 sitemap: false
-tags: DS 二次元 任天堂 作品发布 精灵宝可梦
+tags: DS 任天堂 作品发布 宝可梦
 title: 《精灵宝可梦》第四世代汉化修正
 ---
 目前本项目已建立了独立的分区，发布汉化工具、汉化补丁、汉化文本，请移步该分区。

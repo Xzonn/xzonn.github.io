@@ -47,10 +47,6 @@ $(function () {
                 href: "#" + this.id
             }).html(headingContent)));
             lastRank = +this.tagName[1];
-            $("<span/>").addClass("xz-fake-bookmark").attr({
-                "id": this.id
-            }).appendTo($(this));
-            this.id = "fake-" + this.id;
         });
         while (toc.parent()[0]) {
             toc = toc.parent();
@@ -61,7 +57,20 @@ $(function () {
         toc.find(".no-list-style").each(function () {
             $(this).parent().replaceWith($(this).children());
         });
-        toc.children().prependTo($(".xz-sidenav-list").empty());
+        toc.children().prependTo($(".xz-sidenav-list").empty()).bind("click", function(e) {
+            let target = e.target;
+            if (target.tagName.toLowerCase() == "a") {
+                e.preventDefault();
+                e.stopPropagation();
+                let hash = "#" + decodeURIComponent(target.href.split("#")[1]);
+                history.pushState({
+                    "url": location.href
+                }, hash, target.href);
+                $("html").animate({
+                    scrollTop: $(hash).offset().top
+                }, 300);
+            }
+        });
         $("body").scrollspy("refresh");
     });
     $("body").scrollspy({
@@ -79,78 +88,6 @@ $(function () {
         });
     });
 
-    /* 表格 */
-    $(".xz-content-main article > table:not(.no-table)").each(function () {
-        $(this).addClass("table");
-        if (!$(this).parentsUntil(".xz-content-main article").find("div.table-responsive").length) {
-            $(this).wrap($("<div/>").addClass("table-responsive"));
-        }
-    });
-
-    /* 图片 */
-    var imageDisplay = ["auto", "none", "block", "left", "right", "center"],
-        imageSize = 360,
-        imageSizeUnit = /(pt|px|em|rem|cm|mm|%)$/;
-    $(".xz-content img").each(function() {
-        if (this.classList.length || this.srcset) {
-            return;
-        }
-
-        let data = this.dataset,
-            disp = data.disp,
-            size = (data.size || imageSize),
-            alt = (this.alt || data.alt || "").split("|"),
-            title = alt[0];
-        while (!$(this).siblings().length && ($(this).parent()[0].tagName.toLowerCase() == "p")) {
-            $(this).unwrap();
-        }
-        for (var i = 0; i < alt.length; i++) {
-            if (!alt[i]) {
-                continue;
-            }
-            if (imageDisplay.indexOf(alt[i]) > -1) {
-                disp = alt[i];
-            } else if (!isNaN(alt[i])) {
-                size = imageSize * (+alt[i]);
-            } else if (alt[i].match(imageSizeUnit)) {
-                size = alt[i];
-            } else {
-                title = alt[i];
-            }
-        }
-            switch (disp) {
-            case "auto":
-            case "none":
-                return;
-            case "block":
-                $(this).css({
-                    "display": "block"
-                });
-                break;
-            default:
-                if ($(this).parents("figure").length == 0) {
-                    $(this).wrap($("<figure/>").addClass(disp == "left" ? "figure-left" : disp == "right" ? "figure-right" : ""));
-                    title && $("<figcaption/>").addClass("caption-figure").attr({
-                        "id": "figure-" + this.src.split("/").slice(-1)[0]
-                    }).html(title).appendTo($(this).parent());
-                }
-                $(this).addClass("figure-image").wrap($("<a/>").addClass("figure-link").attr({
-                    "href": this.src,
-                    "target": "_blank"
-                }));
-        }
-        this.alt = title;
-        if (size[0] == "x") {
-            $(this).css({
-                "height": size.slice(1)
-            });
-        } else {
-            $(this).css({
-                "width": size
-            });
-        }
-    });
-
     /* 表注 */
     (function() {
         let tables = $("table"),
@@ -164,6 +101,14 @@ $(function () {
             }
         }
     })();
+
+    /* 表格 */
+    $(".xz-content-main article > table:not(.no-table)").each(function () {
+        $(this).addClass("table");
+        if (!$(this).parentsUntil(".xz-content-main article").find("div.table-responsive").length) {
+            $(this).wrap($("<div/>").addClass("table-responsive"));
+        }
+    });
 
     /* 图注、表注显示 */
     (function() {
@@ -224,18 +169,6 @@ $(function () {
         }));
     });
 
-    /* 二维码 */
-    let selfLink = window.pageInfo.wechat_link || location.origin + location.pathname;
-    $(".xz-qrcode").empty().attr({
-        "href": selfLink
-    }).qrcode({
-        "text": selfLink,
-        "width": 360,
-        "height": 360,
-        "background": "transparent",
-        "foreground": $(".jumbotron h1, .jumbotron .h1").css("color")
-    }).click(e => e.preventDefault());
-
     /* 返回页面顶端 */
     $(".xz-navtop").click(function(e) {
         e.preventDefault();
@@ -243,84 +176,22 @@ $(function () {
             scrollTop: 0
         }, 500);
     });
-
-    /* 信息框 */
-    if (Cookies.get("noPrintInfo")) {
-        $(".xz-info-print").remove();
-        Cookies.set("noPrintInfo", "false", {
-            "expires": 7
-        });
-    } else {
-        $(".xz-info-print").addClass("fade in").removeClass("hidden");
-    }
-    $(".xz-info-print").on("closed.bs.alert", function () {
-        Cookies.set("noPrintInfo", "false", {
-            "expires": 7
-        });
+    $(".xz-navbottom").click(function(e) {
+        e.preventDefault();
+        $("html").animate({
+            scrollTop: $(document.body).height()
+        }, 500);
     });
 
-    /* PDF */
-    if (window.pageInfo["tags"] && window.pageInfo["tags"].indexOf("学习资料") > -1) {
-        let hasedFileList = JSON.parse(localStorage.getItem("xz-pdf-list"));
-        let renderAlert = function (pdfList) {
-            let fileName = location.pathname.split("/").reverse()[0].replace(".html", ".pdf");
-            if (pdfList.indexOf(fileName) > -1) {
-                let div = $("<div/>").addClass(["xz-info-pdf alert alert-success"]).append([
-                    $("<p/>").html(`本页面存在一个 <a href="https://cdn.jsdelivr.net/gh/Xzonn/xz-pdf/${fileName}" class="alert-link">已渲染的PDF版本</a>。`)
-                ]).appendTo($(".xz-infobox-top"));
-                Han(div[0]).render();
-            }
-        }
-        if (!hasedFileList || (new Date() - hasedFileList["update"]) > (30 * 60 * 1000)) {
-            $.get({
-                "url": "https://api.github.com/repos/Xzonn/xz-pdf/contents",
-                "timeout": 5000
-            }).done(function (data) {
-                if (data instanceof Array) {
-                    let pdfList = data.map(x => x["path"]);
-                    localStorage.setItem("xz-pdf-list", JSON.stringify({
-                        "update": +new Date(),
-                        "list": pdfList
-                    }));
-                    renderAlert(pdfList);
-                }
-            }).fail(function () {
-                let div = $("<div/>").addClass(["alert alert-danger"]).append([
-                    $("<p/>").html(`无法链接至<strong><a href="https://api.github.com/">https://api.github.com/</a></strong>，请检查网络设置。`)
-                ]).appendTo($(".xz-infobox-top")),
-                    closeButton = $(`<button type="button" class="close" data-dismiss="alert">&times;</button>`).appendTo($(".xz-infobox-top"));
-                Han(div[0]).render();
-                setTimeout(x => closeButton.click(), 5000);
-                renderAlert((hasedFileList || {})["list"] || []);
-            })
-        } else {
-            renderAlert(hasedFileList["list"]);
-        }
-    }
-
-    /* Resize */
+    /* resize */
     window.windowResize = function () {
-        let qrh, heh, temp = 10;
-        while ((temp--) && ((qrh = $(".xz-qrcode").height()) != (heh = $(".xz-heading-text").height()))) {
-            if (qrh < heh) {
-                $(".xz-qrcode").css({
-                    "width": heh,
-                    "height": heh
-                });
-            } else {
-                $(".xz-qrcode").css({
-                    "width": 0,
-                    "height": 0
-                });
-            }
-        }
         $(".xz-footer").css("position", "initial");
-        if ($("body").height() + 50 == $(window).height()) {
+        if ($("body").height() == $(window).height()) {
             $(".xz-footer").css("position", "absolute");
         }
         $(".xz-sidenav-list").affix({
             "offset": {
-                "top": $(".xz-content-main").offset().top - 50,
+                "top": $(".xz-content-main").offset().top,
                 "bottom": $(".xz-footer").outerHeight()
             }
         });
@@ -328,13 +199,40 @@ $(function () {
     windowResize();
     $(window).bind("resize", windowResize);
 
+    /* scroll */
+    let scrollTimer;
+    window.windowScroll = function () {
+        $(".xz-footer-navtop").css({
+            "bottom": Math.max(($(window).scrollTop() + $(window).innerHeight()) - ($(".xz-content-main").offset().top + $(".xz-content-main").outerHeight()), 25)
+        }).fadeIn(200);
+        clearTimeout(scrollTimer);
+        scrollTimer = setTimeout(function () {
+            $(".xz-footer-navtop").fadeOut(500);
+        }, 2000);
+    }
+    $(".xz-footer-navtop").bind({
+        "mouseenter": function () {
+            clearTimeout(scrollTimer);
+        },
+        "mouseleave": function () {
+            scrollTimer = setTimeout(function () {
+                $(".xz-footer-navtop").fadeOut(500);
+            }, 2000);
+        }
+    })
+    windowScroll();
+    $(window).bind("scroll", windowScroll);
+
+
+    /* Lazyload */
+    var lazyLoadInstance = new LazyLoad({
+        // Your custom settings go here
+    });
+    lazyLoadInstance.update();
+
     /* Han.js */
     if (!window.MathJax) {
         Han(document.body).render();
         window.mathjaxRendered = true;
-    }
-
-    if (!window.Chartist) {
-        window.chartRendered = true;
     }
 });

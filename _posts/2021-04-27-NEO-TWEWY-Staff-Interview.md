@@ -1,8 +1,23 @@
 ---
+css: interviews
 date: 2021-04-27 10:22
 head_image: https://patchwiki.biligame.com/images/twewy/2/29/edrv9vvp59kvho4mo1v6nnir5lcpiht.png
 info: 本文翻译自2021年4月26日公开的《新美妙世界》开发者访谈，综合了电击Online、Fami通和4Gamer的内容。
-last_modified_at: 2021-04-28 23:25
+last_modified_at: 2021-05-23 16:54
+links: 
+- - https://www.jp.square-enix.com/shinsubarashiki/
+  - 《新美妙世界》官网
+- - https://wiki.biligame.com/twewy/
+  - 美妙世界Wiki
+logs:
+- 2021-05-23：修改了一处原文有歧义的翻译。
+references: 
+- - https://dengekionline.com/articles/77314/
+  - 『新すばらしきこのせかい』インタビュー！ 開発陣が目指した続編の在りかたとは？
+- - https://www.famitsu.com/news/202104/26218588.html
+  - 『新すばらしきこのせかい』開発スタッフインタビュー。メンバーのサイキックが同時発動できる爽快バトル、人間関係相関図のようなスキルツリーなど斬新なシステムが多数判明
+- - https://www.4gamer.net/games/539/G053986/20210422177/
+  - 「新すばらしきこのせかい」開発者インタビュー。斬新なビジュアルやシステムなど，“すばせか”らしい新しい体験を続編でも追及
 tags: Switch 二次元 翻译
 title: 《新美妙世界》开发者访谈（2021-04-26）
 ---
@@ -37,7 +52,7 @@ article h5:not(h2 + h5) { margin-top: 2.5rem; }
 - 伊藤寿恭：总监
 - 平野智彦：制作人
 
-![宣传图](https://patchwiki.biligame.com/images/twewy/2/29/edrv9vvp59kvho4mo1v6nnir5lcpiht.png)
+{% include figure.html src="https://patchwiki.biligame.com/images/twewy/2/29/edrv9vvp59kvho4mo1v6nnir5lcpiht.png" alt="宣传图" width="640" height="360.00" %}
 
 ## 关于开发历史
 
@@ -75,7 +90,7 @@ article h5:not(h2 + h5) { margin-top: 2.5rem; }
 
 ##### 电击Online：续作考虑过把舞台从涩谷换到其他地方的想法吗？
 
-![本作中的涩谷](https://i0.hdslb.com/bfs/article/19d5a2411832695c3433a015de3a7e183e95fec4.png)
+{% include figure.html src="https://i0.hdslb.com/bfs/article/19d5a2411832695c3433a015de3a7e183e95fec4.png" alt="本作中的涩谷" width="640" height="360.00" %}
 
 **神藤**：最初确实考虑过。但是，涩谷可以说是东京象征性的区域，最终得出的结论是“如果不在这里就说不上是《美妙世界》啊”。
 
@@ -99,7 +114,7 @@ article h5:not(h2 + h5) { margin-top: 2.5rem; }
 
 ##### 电击Online：舞台好像是前作的3年后，故事有多大程度的关联呢？游玩了前作——特别是《美妙世界 -Final Remix-》之后理解会更深刻吗？
 
-![前作中登场的神秘女孩“松苗亚未”也会在本作登场](https://i0.hdslb.com/bfs/article/81ebf43bce51e19b0a1ed3a7c3805f821d3638e5.jpg)
+{% include figure.html src="https://i0.hdslb.com/bfs/article/81ebf43bce51e19b0a1ed3a7c3805f821d3638e5.jpg" alt="前作中登场的神秘女孩“松苗亚未”也会在本作登场" width="640" height="360.00" %}
 
 **神藤**：前作中涩谷死神的游戏告一段落，以“A NEW DAY”为契机，新宿的死神流落到了涩谷。《新美妙世界》以3年后为舞台，描写了涩谷死神和新宿死神一起进行的死神游戏。
 
@@ -149,7 +164,7 @@ article h5:not(h2 + h5) { margin-top: 2.5rem; }
 
 ##### 4Gamer：关于设计，不同技能的徽章会有不同的外观，本作也是全新制作的吗？
 
-![本作的徽章系统](https://i0.hdslb.com/bfs/article/e229f1147ace5c0b459ebe3094b2895d53f1812c.png)
+{% include figure.html src="https://i0.hdslb.com/bfs/article/e229f1147ace5c0b459ebe3094b2895d53f1812c.png" alt="本作的徽章系统" width="640" height="360.00" %}
 
 **伊藤**：是的。有少数的徽章沿用了前作的设计，本作新设计的徽章有300枚以上。实际上也有很多活跃在各个领域的设计师参与了设计。
 
@@ -163,7 +178,7 @@ article h5:not(h2 + h5) { margin-top: 2.5rem; }
 
 ##### 电击Online：本作的角色设计除了野村先生以外，小林元老师和山下美树老师也参与了设计，是谁创作了哪个角色呢？
 
-![主角团队Twisters](https://i0.hdslb.com/bfs/article/c566146f02439215cdb3241a1b29ae84eff0056c.png)
+{% include figure.html src="https://i0.hdslb.com/bfs/article/c566146f02439215cdb3241a1b29ae84eff0056c.png" alt="主角团队Twisters" width="640" height="360.00" %}
 
 **神藤**：关于队伍成员，主角Rindo是野村、Fret是小林、Nagi是山下设计的。主角团队Twisters的成员中3人的角色设计混在一起，可以感受到多样化的风格。
 
@@ -199,7 +214,7 @@ Rindo虽然是不张扬自己内心想法的角色，但在游戏中到处都有
 
 ##### 电击Online：Nagi是队伍里唯一的女生，总觉得是能给人留下深刻印象的角色……（笑）
 
-![Nagi](https://i0.hdslb.com/bfs/article/cd47e7458b884b4ae4f8e3ed9367c00673f8b0d7.jpg)
+{% include figure.html src="https://i0.hdslb.com/bfs/article/cd47e7458b884b4ae4f8e3ed9367c00673f8b0d7.jpg" alt="Nagi" width="640" height="360.00" %}
 
 **伊藤**：这次我想在Twsiters队内设计一些热闹的对话，在寻找与之相匹配的角色的时候，终于发现了Nagi的设计。
 
@@ -213,7 +228,7 @@ Rindo虽然是不张扬自己内心想法的角色，但在游戏中到处都有
 
 ##### Fami通：能在封面上，也就是说……？
 
-![Shoka](https://i0.hdslb.com/bfs/article/c77884e93cf878627d7ac67e6134867d941c73e2.png)
+{% include figure.html src="https://i0.hdslb.com/bfs/article/c77884e93cf878627d7ac67e6134867d941c73e2.png" alt="Shoka" width="640" height="360.00" %}
 
 **野村**：（看了看平野）你看变成这样了吧？（笑）
 
@@ -231,7 +246,7 @@ Rindo虽然是不张扬自己内心想法的角色，但在游戏中到处都有
 
 ##### Fami通：因为规则不同，所以死神徽章的设计也不一样了吧。
 
-![本作的参赛者徽章](https://i0.hdslb.com/bfs/article/ef2e9fe72a40eb3889ddda2f618c5680fedb2460.png)
+{% include figure.html src="https://i0.hdslb.com/bfs/article/ef2e9fe72a40eb3889ddda2f618c5680fedb2460.png" alt="本作的参赛者徽章" width="640" height="360.00" %}
 
 **神藤**：是啊。
 
@@ -239,7 +254,7 @@ Rindo虽然是不张扬自己内心想法的角色，但在游戏中到处都有
 
 ##### Fami通：Rindo有“重启”（<span lang="ja">リスタート</span>）这种固有的超能，那么其他的队伍成员也会有固有的超能，是这样的吧？
 
-![Rindo的超能](https://i0.hdslb.com/bfs/article/7d7b76668c96c1b9cd5155c5a31677f46eeaeb50.jpg)
+{% include figure.html src="https://i0.hdslb.com/bfs/article/7d7b76668c96c1b9cd5155c5a31677f46eeaeb50.jpg" alt="Rindo的超能" width="640" height="360.00" %}
 
 **神藤**：是的。这次的死神游戏需要用到那些超能来突破难关。
 
@@ -255,7 +270,7 @@ Rindo虽然是不张扬自己内心想法的角色，但在游戏中到处都有
 
 ##### 电击Online：从宣传片来看，这次也会有动作性很强的战斗吧。
 
-![本作的战斗系统](https://i0.hdslb.com/bfs/article/36368ce78ef3c5025fccce3029898a9fc5b3a9e1.jpg)
+{% include figure.html src="https://i0.hdslb.com/bfs/article/36368ce78ef3c5025fccce3029898a9fc5b3a9e1.jpg" alt="本作的战斗系统" width="640" height="360.11" %}
 
 **野村**：伊藤说，这次的战斗是同时操作队伍成员。不是切换成员战斗，而是同时操作。一开始我并没有意识到这一点，但听了详细情况后，我才有种“原来如此”的感觉。虽然担心最新硬件能不能提供《美妙世界》独特的操作感，但是这样看来是没有问题的。
 
@@ -329,7 +344,7 @@ Rindo虽然是不张扬自己内心想法的角色，但在游戏中到处都有
 
 ##### 4Gamer：前作是2D图像，使用了触摸屏的操作给人留下了深刻印象。这次变成了3D，从系统上来看是什么样的感觉呢？
 
-![3D化的西班牙坂](https://i0.hdslb.com/bfs/article/647da27dc93895fc2e2850be98c815355e7bcd3a.jpg)
+{% include figure.html src="https://i0.hdslb.com/bfs/article/647da27dc93895fc2e2850be98c815355e7bcd3a.jpg" alt="3D化的西班牙坂" width="640" height="360.29" %}
 
 **伊藤**：确实，前作使用了很多“只有Nintendo DS才有”的设计，也获得了玩家们的好评。从那个时候我们就意识到只有“美妙世界”才有的“新体验”对于续作来说也是非常重要的。
 
@@ -381,7 +396,7 @@ Rindo虽然是不张扬自己内心想法的角色，但在游戏中到处都有
 
 此外，限定版的《新美妙世界 NEO: The World Ends with Bag》内容非常豪华，正在制作的画集也有丰富的内容，大家也可以购买。
 
-![Rindo](https://i0.hdslb.com/bfs/article/22483ef5ccc5523ab18edabd632e7d974963d4a7.png)
+{% include figure.html src="https://i0.hdslb.com/bfs/article/22483ef5ccc5523ab18edabd632e7d974963d4a7.png" alt="Rindo" width="640" height="360.00" %}
 
 <div class="alert alert-success" markdown="1">
 **新美妙世界**（<span lang="ja">新すばらしきこのせかい</span>）
@@ -392,9 +407,3 @@ Rindo虽然是不张扬自己内心想法的角色，但在游戏中到处都有
 * 发售日期：2021年7月27日（PC版2021年夏）
 * 价格：7480日元（含税）
 </div>
-
-## 参考资料
-
-- 『新すばらしきこのせかい』インタビュー！ 開発陣が目指した続編の在りかたとは？. 电击Online. (2021-04-26) [2021-04-27] <https://dengekionline.com/articles/77314/>.
-- 杉原貴宏, 堤教授. 『新すばらしきこのせかい』開発スタッフインタビュー。メンバーのサイキックが同時発動できる爽快バトル、人間関係相関図のようなスキルツリーなど斬新なシステムが多数判明. Fami通. (2021-04-26) [2021-04-27] <https://www.famitsu.com/news/202104/26218588.html>.
-- 稲元徹也. 「新すばらしきこのせかい」開発者インタビュー。斬新なビジュアルやシステムなど，“すばせか”らしい新しい体験を続編でも追及. 4Gamer. (2021-04-26) [2021-04-26] <https://www.4gamer.net/games/539/G053986/20210422177/>.

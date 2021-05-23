@@ -1,14 +1,1 @@
-<!DOCTYPE html>
-<html lang="zh-cn">
-    <head>
-        <meta charset="utf-8"/>
-        <meta name="author" content="Xzonn"/>
-        <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
-        <meta name="referrer" content="same-origin"/>
-        <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.name }}</title>
-        <script data-ad-client="ca-pub-8317643192080236" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    </head>
-    <body>
-{{ content }}
-    </body>
-</html>
+{% capture src %}src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201024%201024%22%3E%3C%2Fsvg%3E" data-src={% endcapture %}{{ content | replace: src, "src="}}

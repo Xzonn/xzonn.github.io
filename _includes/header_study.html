@@ -1,0 +1,23 @@
+        <!-- Study Header Start -->
+        <header class="xz-header navbar navbar-static-top navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".xz-navbar" aria-controls="xz-navbar" aria-expanded="false">
+                        <span class="sr-only">切换导航条</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="/" class="xz-navimage navbar-brand" title="Xzonn 的小站"><img src="{{ site.cdnpath }}/images/icon_32x32.png" alt="Xzonn 的小站" width="32" height="32"/></a>
+                    <a href="/posts/Study.html" class="navbar-brand">Xzonn的学习资料库</a>
+                </div>
+                <nav class="xz-navbar collapse navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li{% if page.url == "/posts/Study.html" %} class="active"{% endif %}><a href="/posts/Study.html"><span class="glyphicon glyphicon-book"></span> 资料分享</a></li>
+                        <li{% if page.url == "/study.html" %} class="active"{% endif %}><a href="/study.html"><span class="glyphicon glyphicon-floppy-disk"></span> 文章列表</a></li>{% unless page.noPrintInfo %}
+                        <li><a href="javascript:print();"><span class="glyphicon glyphicon-print"></span> 打印本页</a></li>{% endunless %}
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <!-- Study Header End -->

@@ -1,22 +1,25 @@
 ---
+class: auto-numbering
 date: 2019-11-29 12:00
 head_image: https://mmbiz.qpic.cn/mmbiz_png/Qh7FH95PRnsGibm3j1h8hlnibx94eAfibTVFXjYq5ECtrAV4C3UjtFuU9oS2Nic4pIZibyHVkicJy2C0Cx9iaS86p6iaJw/0
+head_image_height: 1466
+head_image_width: 1920
 info: 最好的拯救方法还是 Ctrl + S。
 last_modified_at: 2020-02-09 15:25
-tags: 三次元 技术指南
+tags: 技术指南
 title: 拯救未保存的 PPT
 wechat_link: https://mp.weixin.qq.com/s/DuEaIZgflV2b5yK5g0kfJA
 ---
-## 1. 起因
+## 起因
 下午 5 点，一个电话把我从睡梦中吵醒。我定睛一看，是小弟打来的。
 
 “大哥，我昨天晚上做完 PPT 之后电脑没电了，PPT 也没保存，自动保存的文件我也打不开，这可咋整啊 1551……”
 
 话说着，他给我发了两张截图。
 
-![PowePoint 发现内容有问题](https://file.moetu.org/images/2020/02/20/53f4dd4e5c7173b8bb1b3092a603832812d33d60ba3ebf8a.png)
+{% include figure.html src="https://file.moetu.org/images/2020/02/20/53f4dd4e5c7173b8bb1b3092a603832812d33d60ba3ebf8a.png" alt="PowePoint 发现内容有问题" width="640" height="150.96" %}
 
-![很抱歉，PowerPoint 无法读取](https://file.moetu.org/images/2020/02/20/932c4e1b92f96c7e7bbfef60dc4f84258566d7ca015f4c8e.png)
+{% include figure.html src="https://file.moetu.org/images/2020/02/20/932c4e1b92f96c7e7bbfef60dc4f84258566d7ca015f4c8e.png" alt="很抱歉，PowerPoint 无法读取" width="640" height="284.88" %}
 
 光看图看不出毛病，我便问他：“要不你把这个文件发我我试试？”
 
@@ -26,50 +29,50 @@ wechat_link: https://mp.weixin.qq.com/s/DuEaIZgflV2b5yK5g0kfJA
 
 他一口答应下来，打开了 QQ。然而，我却连接不上他。我让他发个截图给我，然后打眼一看：这不是应用商店版的 QQ 么？
 
-![神奇的 QQ 界面](https://file.moetu.org/images/2020/02/20/dc7e5e30a4c7f2a224e7c51aa12c61cb29c1828569109328.png)
+{% include figure.html src="https://file.moetu.org/images/2020/02/20/dc7e5e30a4c7f2a224e7c51aa12c61cb29c1828569109328.png" alt="神奇的 QQ 界面" width="640" height="505.82" %}
 
 我也不想再费口舌，便说：“要不你过来找我吧，一句两句话说不清楚。对了，我刚吃完饭，有点口渴……”
 
 他似乎听懂了我想说啥，一口答应道：“好嘞哥，我这就过去，给您点上奶茶！”
 
-## 2. 找到文件
+## 找到文件
 拿到他的电脑之后，我干的第一件事就是找这个文件，因为我最担心的就是这个文件是个空文件。当然，要进入上面那个路径“C:\Users\10591\AppData\Roaming\Microsoft\PowerPoint\pptF8D1.tmp”可能需要费点功夫。
 
 一方面，“C:\Users\”这个文件夹显示的中文名是“用户”而不是“Users”，一眼看去可能找不到。另一方面，“AppData”是个隐藏文件夹，需要在设置里选中“隐藏的项目”这一复选框。
 
 另外，其实还有一个方法，就是在地址栏中输入“%APPDATA%”然后回车，就会跳到“C:\Users\\*<当前用户名>*\AppData\Roaming”这个文件夹。
 
-![寻找 AppData](https://file.moetu.org/images/2020/02/20/db816a5bcc79f47720b3e1ba75a3a0f39c99d9c374f50bb6.png)
+{% include figure.html src="https://file.moetu.org/images/2020/02/20/db816a5bcc79f47720b3e1ba75a3a0f39c99d9c374f50bb6.png" alt="寻找 AppData" width="640" height="300" %}
 
 很快，我找到了这个文件。查看文件大小，13.2 MB，还算正常，应该是保存了的。至于这个文件如何打开，我还是费了一番功夫。
 
-## 3. 改扩展名
+## 改扩展名
 第一个想法就是直接改后缀名。我很容易就想到把“.tmp”改成“.pptx”，然后打开。然而，现实总是充满惊喜。
 
-![文件扩展名已更改](https://file.moetu.org/images/2020/02/20/73728a9408b63862406a6f05ce5f769dd8af811819df8d1b.png)
+{% include figure.html src="https://file.moetu.org/images/2020/02/20/73728a9408b63862406a6f05ce5f769dd8af811819df8d1b.png" alt="文件扩展名已更改" width="606" height="132" %}
 
 “.pptx”不行，那就改成“.ppt”。这次虽然好像是打开了，但是卡在了修复上。
 
-![改了扩展名还是打不开的文件](https://file.moetu.org/images/2020/02/20/c19454fa6ca116716870a76c2098b32c5f0924e8e82f5b29.gif)
+{% include figure.html src="https://file.moetu.org/images/2020/02/20/c19454fa6ca116716870a76c2098b32c5f0924e8e82f5b29.gif" alt="改了扩展名还是打不开的文件" width="400" height="225" %}
 
 于是，我决定另辟蹊径。
 
-## 4. 开肠破肚
+## 开肠破肚
 虽然 PowerPoint 不认自家孩子，但不代表别的软件不认。在 Office 2007 版本后，默认文件格式的后缀名都加了个“x”。不要小看这个“x”，这些文件是以 ZIP 格式压缩的，因此将其扩展名改为“.zip”后，就可以用一半的解压软件打开。同理，对解压出来的文件修改后再压缩回 ZIP 格式并改后缀名，也可以用 Office 再次打开。一般我会用这种方法从 Office 文档中提取图片，或是批量修改内容。但这次，我要做的是找到错误并修正。
 
 将这个文件后缀名改为“.zip”，然后尝试解压缩，果然得到了许多文件。这说明文件格式没有损坏，至少我们还能从里面抢救出图片来。图片存放的位置是“\ppt\media\”文件夹。只有图片可能不太够，如果需要幻灯片的文字内容，就要去“\ppt\slides\”文件夹找找。
 
-![解压缩 pptx 文件](https://file.moetu.org/images/2020/02/20/7597120be2a238743134cd56647c649b8870ca80007afb52.png)
+{% include figure.html src="https://file.moetu.org/images/2020/02/20/7597120be2a238743134cd56647c649b8870ca80007afb52.png" alt="解压缩 pptx 文件" width="640" height="300" %}
 
 当然，我还是希望能尽量把这个文件恢复到原来的样子。虽然理论上来说我可以查阅文档来了解它的内部结构，但是似乎时间不是很充足了。我决定司马当活马医，再拆一个 PPT，然后把这个 PPT 的所有幻灯片移过去。
 
 我从小弟那里要来了他做这个 PPT 使用的模板，将其后缀名也改为了“.zip”并解压缩。然后，我把错误文件中拆出来的“\ppt\”文件夹下的“media”“notesSlides”“slides”三个文件夹的内容移动到了模板文件中拆出来的对应文件位置，然后重新打包，改后缀名为“.pptx”，打开。振奋人心的事情发生了：它复活了，好像从来没有离开过一样。
 
-![焕然一新的 PPT](https://file.moetu.org/images/2020/02/20/ccd6448c884d387bb952af24f6448fb6655d8eb65f0c3ae1.png)
+{% include figure.html src="https://file.moetu.org/images/2020/02/20/ccd6448c884d387bb952af24f6448fb6655d8eb65f0c3ae1.png" alt="焕然一新的 PPT" width="640" height="300.18" %}
 
 当然，仔细一看还是有点问题的。距小弟说，这个 PPT 原本有 30 多页，现在只有 19 页了。我返回去看了一下模板，发现模板的页数正是 19 页。这好办，我把模板后面添加了十几张空白页，保存之后又操作了一遍。这次，这个 PPT 才是真正焕发了新生。
 
-## 5. 后记
+## 后记
 经过我一通复杂操作，这个“打不开的 PPT”算是找回来了。我正觉得口渴，突然想起来“买奶茶”的承诺，便问小弟：“哎呀，大哥好像有点渴了……”
 
 小弟笑着说：“好嘞，给您点奶茶……”突然，他的笑容僵住了，脸上的表情变得复杂了起来。我刚想问他咋回事，就见他说道：“哎呀，我急急忙忙出来，手机忘在宿舍了……”
@@ -78,7 +81,7 @@ wechat_link: https://mp.weixin.qq.com/s/DuEaIZgflV2b5yK5g0kfJA
 
 我并没有看到他之后的表情，但我觉得，他的笑容大概是消失了。
 
-## 6. 总结
+## 总结
 1. “C:\Users\\*<当前用户名>*\AppData\”文件夹是隐藏文件夹，需要选中“隐藏的项目”这一复选框才能找到。
 2. 应用商店版 QQ 似乎没有远程桌面功能，如有需要，请下载 Windows 版 QQ。
 3. Office 2007 及以后的版本保存的文档可以直接把后缀名改为“.zip”解压缩，对于 PowerPoint，图片位于“\ppt\media\”，幻灯片位于“\ppt\slides\”。

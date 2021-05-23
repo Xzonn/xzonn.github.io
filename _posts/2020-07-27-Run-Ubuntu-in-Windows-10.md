@@ -1,12 +1,13 @@
 ---
+class: auto-numbering
 date: 2020-07-27 15:31
 head_image: https://file.moetu.org/images/2020/07/30/3b6a83b652374b177287f0c0ae3908fed2e02e46a48c1bdf.png
 info: 即使是Windows操作系统也可以学习Ubuntu。
 last_modified_at: 2020-07-30 16:11
-tags: 三次元 技术指南
+tags: 技术指南
 title: 在安装了Windows 10的电脑上运行Ubuntu
 ---
-# 0 前言
+## 前言
 好久不见。
 
 最近忙着在[萌娘百科](https://zh.moegirl.org.cn/User:Xzonn)、[神奇宝贝百科](https://wiki.52poke.com/wiki/User:Xzonn)写东西，顺便接着哔哩哔哩的BWIKI搭建了一个[美妙世界Wiki](https://wiki.biligame.com/twewy/%E9%A6%96%E9%A1%B5)，欢迎大家来玩。因为MediaWiki写得太多，我甚至有些忘了Markdown语法，有啥问题都想来个模板。
@@ -17,14 +18,14 @@ title: 在安装了Windows 10的电脑上运行Ubuntu
 
 以下将以本站点的开发和部署作为案例稍微介绍一下我的使用经历，或许对大家有所帮助。
 
-## 1 启用并安装WSL
+## 启用并安装WSL
 WSL，全称Windows Subsystem for Linux，翻译过来就是“适用于Linux的Windows子系统”。这是Windows官方对Linux的支持。最新版Windows 10（版本2004，内部版本19041）支持WSL 1和WSL 2，它们的区别请参考[官方文档](https://docs.microsoft.com/zh-cn/windows/wsl/compare-versions)。对于我来说，我需要WSL和Windows共享文件系统，因此WSL 1就够用了。
 
 启用WSL的方法也可以参考[官方文档](https://docs.microsoft.com/zh-cn/windows/wsl/install-win10)。这里介绍一下简单方法：
 
-![启用或关闭 Windows 功能](https://file.moetu.org/images/2020/07/30/0714aeafcefc10e9f8e5f4b4d56e700d2aafb859d340a453.png)
+{% include figure.html src="https://file.moetu.org/images/2020/07/30/0714aeafcefc10e9f8e5f4b4d56e700d2aafb859d340a453.png" alt="启用或关闭 Windows 功能" width="415" height="418" %}
 
-![在商店查找并安装Ubuntu](https://file.moetu.org/images/2020/07/30/e442ec4dd3f0a3559b96d0e869640b8097e1dab823cd66f0.png)
+{% include figure.html src="https://file.moetu.org/images/2020/07/30/e442ec4dd3f0a3559b96d0e869640b8097e1dab823cd66f0.png" alt="在商店查找并安装Ubuntu" width="640" height="497.30" %}
 
 1. 在“控制面板\所有控制面板项\程序和功能”中，找到左侧的“启用或关闭 Windows 功能”，找到“适用于 Linux 的 Windows 子系统”，选中并确定。如果要求重启，则重启计算机。
 2. 打开[Microsoft Store](https://aka.ms/wslstore)，选择合适的Linux发行版并安装。
@@ -32,7 +33,7 @@ WSL，全称Windows Subsystem for Linux，翻译过来就是“适用于Linux的
 
 随后进入终端界面，WSL安装完毕。常见问题的解答可以参考[官方文档](https://docs.microsoft.com/zh-cn/windows/wsl/faq)。
 
-## 2 WSL的运行与简单配置
+## WSL的运行与简单配置
 运行WSL的方法有很多种，最简单的方法就是给安装好的发行版创建个快捷方式。
 
 此外，也可以通过命令行，输入`Ubuntu`（或类似命令）直接进入对应的发行版本，或是通过输入`wsl`进入默认发行版本。详细内容可以参考[官方文档](https://docs.microsoft.com/zh-cn/windows/wsl/wsl-config)。
@@ -66,7 +67,7 @@ deb-src http://mirrors.aliyun.com/ubuntu/ focal-backports main restricted univer
 
 如果需要从WSL访问Windows的文件，则需要从`/mnt/`路径下访问，例如`/mnt/c/`就是Windows的`C:\`。
 
-## 3 搭建LNMP服务器环境
+## 搭建LNMP服务器环境
 LNMP指的是Linux系统下的Nginx、MySQL、PHP三件套，是比较常见的服务器配置。由于我安装WSL的主要目的就是在本地调试我的个人网站，因此需要搭建一个服务器。最简单的操作就是运行`apt install nginx`，安装完毕后可以使用`service nginx start`启动服务。尝试转到<http://localhost>，如果能看到默认的欢迎界面，说明安装成功。
 
 nginx的配置文件默认位于`/etc/nginx/nginx.conf`，与网站相关的默认配置为`/etc/nginx/sites-available/default`。网站默认的根目录位于`/var/www/html/`，可以直接在这个文件夹下修改，也可以通过修改配置文件改为其他文件夹。
@@ -89,9 +90,10 @@ index index.php index.html index.htm index.nginx-debian.html;
 
 MySQL是常见的数据库软件，常规来说只需要运行`apt-get install mysql-server mysql-client`即可安装，然而我在WSL下安装出现了问题，多次尝试均未解决，不知原因为何。如果各位有解决方法的话，欢迎告诉我。我退而求其次，在Windows上安装了MySQL。因为WSL和Windows的端口是互通的，因此可以通过3306端口通讯。
 
-## 4 后记
+## 后记
 以上便是我安装WSL的一点点小经验，供各位参考。今后或许会继续更新，如果文中有错误之处还请不吝赐教。
 
-## 5 参考文献
+## 参考文献
 1. {: #ref-li-jie-ling }黎杰领. 2020年5月OS市场占有率报告：Ubuntu和Linux分别占有1.89%和0.97% [EB/OL]. (2020-05-03) [2020-07-27]. <https://ywnz.com/linuxxw/7041.html>.
 2. {: #ref-rich }Rich. Do not change Linux files using Windows apps and tools [EB/OL]. (2016-11-17) [2020-07.27]. <https://devblogs.microsoft.com/commandline/do-not-change-linux-files-using-windows-apps-and-tools/>.
+{: .list-endnote .square }

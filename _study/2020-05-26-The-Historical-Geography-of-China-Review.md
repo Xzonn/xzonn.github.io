@@ -1,0 +1,583 @@
+---
+css: exercises
+date: 2020-03-27 21:29
+info: 这是北京大学《中国历史地理》的知识点整理。
+js: exercises
+last_modified_at: 2020-06-01 19:30
+tags: 知识点整理 通选课
+title: 中国历史地理知识点整理
+---
+## 随堂测试
+- 人类最早获取的地理知识，是为了自己的生存。<span class="xz-answer">A</span>
+  - 是
+  - 否
+- 《烛之武退秦师》含有当下经常提及的<span class="xz-answer-line"></span>思想。<span class="xz-answer">A</span>
+  - 地缘政治
+  - 自然地理
+  - 战略
+  - 联盟
+- 历史地理研究的近代创始人是<span class="xz-answer-line"></span>。<span class="xz-answer">A</span>
+  - 顾颉刚
+  - 郭沫若
+  - 范文澜
+  - 翦伯赞
+- 《中国历史地图集》的主编是<span class="xz-answer-line"></span>。<span class="xz-answer">B</span>
+  - 顾颉刚
+  - 谭其骧
+  - 史念海
+  - 侯仁之
+- <span class="xz-answer-line"></span>是在地理大发现后传入中国，所以金庸《天龙八部》等小说提到这种作物是错误的，因为小说讲的是宋代故事。<span class="xz-answer">B</span>
+  - 小麦
+  - 辣椒
+  - 棉花
+  - 水稻
+- 学习中国历史地理的意义是<span class="xz-answer-line"></span>。<span class="xz-answer">C</span>
+  - 读历史方便
+  - 了解人地关系
+  - 用人类活动的历史，告诉未来。
+  - 知道一个新的领域
+- 中国能够保留古老而一脉相承的历史文化是由于地理条件。<span class="xz-answer">A</span>
+  - 是
+  - 否
+- 隋唐之际的文人孔颖达认为“夏大也，①<span class="xz-answer-line"></span>，故称夏；②<span class="xz-answer-line"></span>，谓之华”。<span class="xz-answer">C</span>
+  - ①国土 ② 宫殿
+  - ①皇权 ② 环境
+  - ①中国有礼仪之大 ②有服章之美
+  - ①文化 ② 诗词
+- 中日甲午海战发生在①<span class="xz-answer-line"></span>。 中俄《尼布楚条约》签署于②<span class="xz-answer-line"></span>。 <span class="xz-answer">A</span>
+  - ①1894年 ② 1689年
+  - ①1840年 ② 1689年
+  - ①1860年 ② 1842年
+  - ①1852年 ② 1842年
+- 中俄《尼布楚条约》的签定，使中国变成了主权国家的代表。<span class="xz-answer">A</span>
+  - 是
+  - 否
+- 童恩正认为国家起源于中国北方，与①<span class="xz-answer-line"></span>、 ②<span class="xz-answer-line"></span>两大因素有关，这两者促进部落结为联盟，为国家起源创造了条件。<span class="xz-answer">B</span>
+  - ①地形开阔 ② 土地肥沃
+  - ①治水 ② 抵御戎狄
+  - ①容易管理 ② 习俗相同
+  - ①人口多 ② 以农为主
+- 清朝前期康熙、雍正、乾隆年间，国家疆域稳定地、永久地突破了①<span class="xz-answer-line"></span>，将疆域稳固到这条界限以西以北地区。<span class="xz-answer">B</span>
+  - 600毫米等降水量线
+  - 400毫米等降水量线
+  - 200毫米等降水量线
+  - 800毫米等降水量线
+- 中国历史时期的版图是以明朝时候的疆域为基础的。<span class="xz-answer">B</span>
+  - 是
+  - 否
+- 左宗棠、王文韶为海防一派。<span class="xz-answer">B</span>
+  - 是
+  - 否
+- 清朝<span class="xz-answer-line"></span>率领军队收复了新疆。<span class="xz-answer">A</span>
+  - 左宗棠
+  - 李鸿章
+  - 曾国藩
+  - 胡林翼
+- 西南三藩包括：<span class="xz-answer">B,C,D</span>
+  - 广东
+  - 福建
+  - 广西
+  - 云南
+- 八佾是多少个舞女表演的形式？<span class="xz-answer">D</span>
+  - 24
+  - 36
+  - 48
+  - 64
+- 西汉时期地方管理具有郡国并存的特点，其中①<span class="xz-answer-line"></span>是中央在地方设置的最高行政区，而②<span class="xz-answer-line"></span>则有分封特点。<span class="xz-answer">B</span>
+  - ①国 ② 郡
+  - ①郡 ② 国
+  - ①郡 ② 县
+  - ①州 ② 县
+- 唐朝实行<span class="xz-answer-line"></span>二级行政区。<span class="xz-answer">C</span>
+  - 府、州
+  - 州、郡
+  - 州、县
+  - 省、县
+- 今日河北省的版图具有<span class="xz-answer-line"></span>区划特征。<span class="xz-answer">C</span>
+  - 依山川大势
+  - 随山川形便
+  - 犬牙交错
+  - 自然地理
+- 削兵权是指：<span class="xz-answer">A,B,C</span>
+  - 将遍布在全国各个地方的节度使手中兵权收给中央
+  - 节度使所统领的这个地区的财政收给中央
+  - 下面管辖的各个州所有的管理权也收给中央
+  - 文职官员的管理权收归中央
+- 清朝设置了八大总督，其中管理湖南、湖北的总督是<span class="xz-answer-line"></span>。<span class="xz-answer">B</span>
+  - 两江总督
+  - 湖广总督
+  - 两广总督
+  - 闽浙总督
+- 清朝<span class="xz-answer-line"></span>年间正式在台湾设置巡抚<span class="xz-answer">B</span>
+  - 道光
+  - 光绪
+  - 康熙
+  - 雍正
+- 在国家阶段早期，国土是呈条状分布的。<span class="xz-answer">B</span>
+  - 是
+  - 否
+- 河北与北京是随山川形便的形式划分的行政区。<span class="xz-answer">B</span>
+  - 是
+  - 否
+- 太行山东麓是古人类最适宜居住的地带。<span class="xz-answer">A</span>
+  - 是
+  - 否
+- 井陉关控制的道路连接①<span class="xz-answer-line"></span>与通向②<span class="xz-answer-line"></span>的道路。<span class="xz-answer">C</span>
+  - ①沿太行山东麓这条交通道路 ② 东北
+  - ① 北京 ② 河南
+  - ① 沿太行山东麓这条交通道路 ② 山西
+  - ①河北 ② 辽东
+- 从①<span class="xz-answer-line"></span>进入内蒙古，②<span class="xz-answer-line"></span>是必经之路。<span class="xz-answer">B</span>
+  - ① 北京 ② 喜峰口
+  - ① 北京 ② 居庸关
+  - ① 北京 ② 井陉关
+  - ① 北京 ② 古北口
+- 辽西走廊南北长约180公里，北出口位于①<span class="xz-answer-line"></span>，南出口位于②<span class="xz-answer-line"></span>。<span class="xz-answer">A</span>
+  - ①锦州 ② 山海关
+  - ①沈阳 ② 山海关
+  - ①辽阳 ② 山海关
+  - ①长春 ② 喜峰口
+- 山海关这条道路能够通行是发生在公元10世纪左右。<span class="xz-answer">B</span>
+  - 是
+  - 否
+- 秦汉以前“关东”，指<span class="xz-answer-line"></span>以东地区。<span class="xz-answer">B</span>
+  - 崤关
+  - 函谷关
+  - 山海关
+  - 武关
+- 合纵是以秦国为中心，联合任何一个函谷关以东的国家，或者几个国家，形成一个军事联盟。<span class="xz-answer">B</span>
+  - 是
+  - 否
+- 韩信北定三秦拉开了楚汉之争的序幕。<span class="xz-answer">A</span>
+  - 是
+  - 否
+- 汉武帝时期为了沟通西域，在河西走廊设置了<span class="xz-answer-line"></span>。<span class="xz-answer">B</span>
+  - 郡县
+  - 河西四郡
+  - 关口
+  - 西域都护府
+- 从中原地区长安出发，经过甘肃进入到西域，其中有两个重要的关口，一个就是阳关，一个是玉门关。<span class="xz-answer">B,C</span>
+  - 武关
+  - 阳关
+  - 玉门关
+  - 函谷关
+- 吐火罗语、佉卢文属于东亚语言。<span class="xz-answer">B</span>
+  - 是
+  - 否
+- 鸿沟链接淮河北岸的支流包括：<span class="xz-answer">A,B,C,D</span>
+  - 颍水
+  - 获水
+  - 濉水
+  - 涡水
+- 黄河在中国历史上发生过几次重大改道？<span class="xz-answer">C</span>
+  - 4
+  - 5
+  - 6
+  - 7
+- 历史上黄河存在①<span class="xz-answer-line"></span>大改道，其中第三次改道发生在②<span class="xz-answer-line"></span>时期，形成③<span class="xz-answer-line"></span>、④<span class="xz-answer-line"></span>两条河道。<span class="xz-answer">A</span>
+  - ①六次 ②北宋 ③北流 ④东流
+  - ①三十次 ②唐朝 ③东流 ④南流
+  - ①八次 ②清朝 ③北流 ④南流
+  - ①五次 ②明朝 ③东流 ④南流
+- 云梦泽是在元朝时期变成江汉平原的。<span class="xz-answer">B</span>
+  - 是
+  - 否
+- 地球自转偏向力是德国物理学家科里奥利提出来的。<span class="xz-answer">B</span>
+  - 是
+  - 否
+- 由于<span class="xz-answer-line"></span>被长江水切穿，洞庭湖面积逐渐扩大。<span class="xz-answer">B</span>
+  - 山地
+  - 华容隆起
+  - 长江大堤
+  - 东南丘陵
+- 现在中国五大淡水湖，面积最大的是<span class="xz-answer-line"></span>。 <span class="xz-answer">B</span>
+  - 洞庭湖
+  - 鄱阳湖
+  - 太湖
+  - 洪湖
+- “震泽”是古人对<span class="xz-answer-line"></span>的称呼。<span class="xz-answer">C</span>
+  - 洞庭湖
+  - 鄱阳湖
+  - 太湖
+  - 云梦泽
+- 长桥的修建导致太湖面积的缩小。<span class="xz-answer">B</span>
+  - 是
+  - 否
+- 中国古代农业大规模开发的起步阶段是在长江流域。<span class="xz-answer">B</span>
+  - 是
+  - 否
+- 珠江流域的经济开发时间①<span class="xz-answer-line"></span>于长江、黄河流域， ②<span class="xz-answer-line"></span>位于珠江下游。<span class="xz-answer">C</span>
+  - ①早于 ② 深圳
+  - ①优于 ② 广州
+  - ①落后 ② 广州
+  - ①快于 ② 汕头
+- 棉花是中国原产的纤维类作物。<span class="xz-answer">B</span>
+  - 是
+  - 否
+- 玉米、甘薯、马铃薯等作物是<span class="xz-answer-line"></span>之后传入中国，对于中国山区、丘陵的农业开发有重要意义。<span class="xz-answer">B</span>
+  - 工业革命
+  - 地理大发现
+  - 郑和下西洋
+  - 鸦片战争
+- 马铃薯的原产地在<span class="xz-answer-line"></span>。<span class="xz-answer">C</span>
+  - 中国
+  - 西亚
+  - 南美
+  - 中亚
+- 围田是土地的一个新的增长点。<span class="xz-answer">A</span>
+  - 是
+  - 否
+- ①<span class="xz-answer-line"></span>起源于中国长江流域，②<span class="xz-answer-line"></span>起源于南美洲安第斯山区。<span class="xz-answer">B</span>
+  - ①水稻 ② 小麦
+  - ①水稻 ② 玉米
+  - ①谷子 ② 玉米
+  - ①大豆 ② 棉花
+- 玉米、甘薯、马铃薯等高产作物传入中国，对于<span class="xz-answer-line"></span>有重要意义。<span class="xz-answer">A</span>
+  - ① 解决人口增加需要的粮食 ②丘陵、山区开发
+  - ① 农作物的多样性 ② 人口迁移
+  - ① 食材种类发生了变化 ② 体现了一带一路的价值
+  - ①提高营养价值 ② 地区优势
+- 草原上的畜群，因行走能力不同，每日放牧构成的半径也不一样，一般<span class="xz-answer-line"></span>的放牧半径最大。<span class="xz-answer">C</span>
+  - 牛
+  - 羊
+  - 马
+  - 牦牛
+- 牛的行走能力最强。<span class="xz-answer">B</span>
+  - 是
+  - 否
+{: .xz-choice-question }
+
+## 章节测试
+- 中国历史时期的疆域包括：<span class="xz-answer">A</span>
+  - 大陆疆土
+  - 领海
+  - 领空
+  - 具有主权的岛屿
+- 历史时期中国的版图是以明朝的疆域和版图为基础的。<span class="xz-answer">A</span>
+  - 错
+  - 对
+- 罗塞塔碑上有以下哪几种文字：<span class="xz-answer">B,C</span>
+  - 阿拉伯文
+  - 古埃及文
+  - 古希腊文
+  - 拉丁文
+- 历史上的中国，是一个文化之地，代表的空间是中间之地。<span class="xz-answer">B</span>
+  - 错
+  - 对
+- 20世纪30年代顾颉刚先生创办了①<span class="xz-answer-line"></span>与 ②<span class="xz-answer-line"></span>，成为现代历史地理专业的开端。<span class="xz-answer">A</span>
+  - ①禹贡学会 ②《禹贡》半月刊
+  - ①地理学会 ②地理学报
+  - ①地理学会 ② 地理研究
+  - ①禹贡学会 ② 地学杂志
+- 侯仁之先生认为历史地理研究<span class="xz-answer-line"></span>的地理。<span class="xz-answer">C</span>
+  - 未来
+  - 现在
+  - 昨天、前天
+  - 今天、明天
+- 疆域是在历史进程中，经过多次境域伸缩与多民族融合形成的政治领属空间<span class="xz-answer">A</span>
+  - 对
+  - 错
+- 法国人儒勒·格鲁塞在他的名著《草原帝国》中清楚地指出：“乾隆皇帝对伊犁河流域和喀什葛尔的吞并，标志着实现了中国自班超时代以来的十八个世纪中实行的亚洲政策所追随的目标，既定居民族对游牧民族，农耕地区对草原的还击。<span class="xz-answer">B</span>
+  - 错
+  - 对
+- 中国疆域变迁的历史进程中，无论疆土局限在农耕区之内，还是迈出农牧交错带向非农业区域延伸，民族之间的交融始终贯穿其中，因此疆域既是历史产物，也是民族、文化融合的结果，并非一个民族，一种文化的功绩<span class="xz-answer">A</span>
+  - 对
+  - 错
+- “中国”一词作为一个主权国家的代表，从1689年<span class="xz-answer">A</span>
+  - 中俄《尼布楚条约》开始
+  - 中俄《瑷珲条约》开始
+  - 中俄《北京条约》开始
+- “中国”两字最早出现在<span class="xz-answer-line"></span>中<span class="xz-answer">C</span>
+  - 《尼布楚条约》
+  - 甲骨文
+  - 何尊
+  - 《禹贡》
+- ①<span class="xz-answer-line"></span>不仅仅是一条自然界限，也是一条人类生产方式的界限，这条界限以东以南以②<span class="xz-answer-line"></span>为主，这条界限以西以北以③<span class="xz-answer-line"></span>为主。<span class="xz-answer">A</span>
+  - ① 400毫米等降水量线 ② 农业 ③ 畜牧业
+  - ① 600毫米等降水量线 ② 畜牧业 ③ 农业
+  - ① 400毫米等降水量线 ② 畜牧业 ③ 农业
+  - ① 200毫米等降水量线 ② 畜牧业 ③ 商业
+- 中国广大国土的形成是<span class="xz-answer-line"></span>的贡献。<span class="xz-answer">C</span>
+  - 汉族
+  - 政权
+  - 各族人民
+  - 国家力量
+- “中国”这一词汇，最初具有①<span class="xz-answer-line"></span>与②<span class="xz-answer-line"></span>的含义。<span class="xz-answer">A</span>
+  - ① 中心之地 ② 华夏文化的典型地区
+  - ① 富裕的地区 ② 国都所在地
+  - ① 中心之地 ② 重要农业生产地区
+  - ①中间的地方 ② 人口集中的地方
+- 中国疆域发展经过伸缩之变，至<span class="xz-answer-line"></span>进入稳定时期，成为今日泱泱大国的基础。<span class="xz-answer">C</span>
+  - 15世纪
+  - 17世纪
+  - 18世纪中期
+  - 16世纪
+- “中国”一词正式代表我们的主权国家，出现在历史舞台上，从<span class="xz-answer-line"></span>开始。<span class="xz-answer">B</span>
+  - 《中俄伊犁条约》
+  - 《中俄尼布楚条约》
+  - 《中俄瑷珲条约》
+  - 《中俄北京条约》
+- 西周经过分封，天子名义拥有天下，诸侯有国，卿大夫有家，分封制下国家分属于各自拥有实权的受封者，天子、诸侯、卿大夫皆为有土之君，因此天下、国、家具有相对独立的地位<span class="xz-answer">B</span>
+  - 错
+  - 对
+- 宋辽夏时期这一特殊的历史时代，不但三个政权都试图一统天下，且均自认为正统，在这样的背景下遥领、虚封出现了<span class="xz-answer">B</span>
+  - 对
+  - 错
+- “随山川形便”依凭山脉、河流、湖泊等自然地物作为行政区边界，使行政区与自然地理区保持一致的划界方式<span class="xz-answer">B</span>
+  - 错
+  - 对
+- 推恩令是 <span class="xz-answer-line"></span>为削弱诸侯王势力而颁行的一项重要法令。<span class="xz-answer">C</span>
+  - 汉景帝
+  - 汉宣帝
+  - 汉武帝
+  - 汉文帝
+- 州固定成为一级行政区发生在<span class="xz-answer-line"></span><span class="xz-answer">C</span>
+  - 西汉末年
+  - 三国时期
+  - 东汉末年
+  - 西晋时期
+- 分民而治是<span class="xz-answer-line"></span>的基本特征。<span class="xz-answer">B</span>
+  - 集权制
+  - 郡县制
+  - 郡国制
+  - 分封制
+- 汉武帝时期为了加强对于地方官员的监督，在全国设置了①<span class="xz-answer-line"></span>个监察区，派②<span class="xz-answer-line"></span>定期考察官员。<span class="xz-answer">C</span>
+  - ①15 ② 宰相
+  - ①11 ② 大臣
+  - ①13 ② 刺史
+  - ①16 ② 官员
+- 东汉末年将作为监察区的州改为行政区，这时全国出现<span class="xz-answer-line"></span>三级行政区。<span class="xz-answer">C</span>
+  - 府、州、县
+  - 省、州、县
+  - 州、郡、县
+  - 省、府、州
+- 今日陕西省的版图具有<span class="xz-answer-line"></span>的区划特征。<span class="xz-answer">B</span>
+  - 插花
+  - 犬牙交错
+  - 依山川大势
+  - 随山川形便
+- 北宋时期加强中央集权制，对于地方行政区实行<span class="xz-answer-line"></span>的政策。<span class="xz-answer">B</span>
+  - 随山川形便
+  - 中心分离、区划交叉
+  - 分权
+  - 犬牙交错
+- 辽西走廊狭窄的地形使道路的南北两侧乃至于中部，均有控制道路、依险设关的条件，山海关位于走廊南端，明代广宁（今辽宁北镇）地处北端，宁远（今辽宁兴城）位于中部。由于辽西走廊对于华北、东北两地的重要作用，明清之际主要战事均发生在这一道路沿线及周邻地区<span class="xz-answer">B</span>
+  - 错
+  - 对
+- 散关是金牛道中险要的关隘，穿过散关道路分为两支，一支进入成都平原直指成都，另一只沿嘉陵江经阆中、南充至重庆<span class="xz-answer">A</span>
+  - 错
+  - 对
+- 西汉时期开通通向西域的丝绸之路，从武威、张掖、酒泉、敦煌河西四郡的设置开始。<span class="xz-answer">B</span>
+  - 错
+  - 对
+- 经过今山东临清的运河是：<span class="xz-answer">B</span>
+  - 隋唐
+  - 元代
+  - 宋代
+- 诸葛亮北伐选择的祁山道，是从汉中通向甘肃<span class="xz-answer-line"></span>一带的道路，这条道路运输比较方便。<span class="xz-answer">C</span>
+  - 敦煌
+  - 张掖
+  - 天水
+  - 兰州
+- 张骞第一次出使西域，打通“丝绸之路”的时间是<span class="xz-answer-line"></span>。<span class="xz-answer">C</span>
+  - 公元前107年
+  - 公元前119年
+  - 公元前138年
+  - 公元前127年
+- “丝绸之路”进入新疆由数条道路组成，其中①<span class="xz-answer-line"></span>与 ②<span class="xz-answer-line"></span>形成最早，西汉时期已经形成。<span class="xz-answer">A</span>
+  - ①西域北道 ② 西域南道
+  - ①吐谷浑道 ② 草原丝绸之路
+  - ①北新道 ② 新北道
+  - ①吐谷浑道 ② 西域南道
+- 北宋时期扬州也被称为<span class="xz-answer-line"></span>。<span class="xz-answer">D</span>
+  - 广陵
+  - 钟山
+  - 京口
+  - 瓜洲
+- 长江南岸的各大支流形成的航道，<span class="xz-answer-line"></span>利用较晚。<span class="xz-answer">D</span>
+  - 澧水
+  - 湘江
+  - 沅江
+  - 赣江
+- 史前时期黄河中下游地区文化遗址分布图，在河北平原的腹心地带是一片空白，这是黄河行经河北平原，注入渤海，每当汛期河道呈现漫流状态的结果<span class="xz-answer">B</span>
+  - 错
+  - 对
+- 科学研究证明，在黄土高原的总侵蚀量中自然侵蚀最低占70%，加速侵蚀最高占30%。<span class="xz-answer">B</span>
+  - 错
+  - 对
+- 从周、秦至两汉时期，长江水道至今沙市，主泓道向南形成近似直角，这一以沙市为顶点的直角弯道导致江水中的泥沙就势沉积下来，形成荆江陆上三角洲。近似直角的河道同样使部分江水冲出河道，最初在陆上三角洲上呈扇状漫流，后形成夏水、涌水两条分流<span class="xz-answer">A</span>
+  - 对
+  - 错
+- 云梦泽的消失原因是：<span class="xz-answer">C</span>
+  - 地震
+  - 长江改道
+  - 人类修筑垸田与湖底淤浅
+- 1048年黄河第三次重大改道形成<span class="xz-answer-line"></span>、<span class="xz-answer-line"></span>两条河道<span class="xz-answer">A</span>
+  - 北流、东流
+  - 南流、北流
+  - 东流、西流
+- 今天湖北的江汉平原曾经是<span class="xz-answer-line"></span>。<span class="xz-answer">D</span>
+  - 洞庭湖
+  - 汉水
+  - 洪湖
+  - 云梦泽
+- 黄河第四次、第五次改道，都属于<span class="xz-answer-line"></span>。<span class="xz-answer">D</span>
+  - 夺海
+  - 泛滥
+  - 夺江
+  - 夺淮
+- 泗水是位于<span class="xz-answer-line"></span>北岸的支流。<span class="xz-answer">C</span>
+  - 海河
+  - 长江
+  - 淮河
+  - 黄河
+- <span class="xz-answer-line"></span>是导致河流变成弯曲的重要原因。<span class="xz-answer">C</span>
+  - 地心引力
+  - 下切力
+  - 地球自转偏向力
+  - 重力
+- ①<span class="xz-answer-line"></span>的消失与 ②<span class="xz-answer-line"></span>的缩小，与人类围水造田有很大关系。<span class="xz-answer">C</span>
+  - ①鄱阳湖 ② 云梦泽
+  - ①洪湖 ② 洞庭湖
+  - ①云梦泽 ② 洞庭湖
+  - ①鄱阳湖 ② 太湖
+- 江汉平原的形成与全面开发大约从南宋后期开始，经元代至明清时期达到鼎盛，并成为全国重要的粮食输出地，接受这里粮食的包括南北十余省，民间俗称“湖广熟，天下足”。<span class="xz-answer">B</span>
+  - 错
+  - 对
+- 史前时期传入中国的冬小麦，明代传入的玉米、甘薯，这些旱地作物主要取代了本土作物粟（即谷子）、黍的种植空间<span class="xz-answer">A</span>
+  - 对
+  - 错
+- 桑、麻种植在中国均有着久远的历史，棉花传入中国之后，人们衣着之物主要依托麻、丝制品<span class="xz-answer">B</span>
+  - 对
+  - 错
+- 黄道婆为<span class="xz-answer-line"></span>种植推广做出重要贡献：<span class="xz-answer">C</span>
+  - 水稻
+  - 玉米
+  - 棉花
+- 游牧民族实行逐水草放牧，一年内冬夏之际转换牧场，冬夏牧场的距离一般为<span class="xz-answer-line"></span>里左右<span class="xz-answer">C</span>
+  - 五百
+  - 一千
+  - 一、二百
+- 油用型油菜生长期分为两类，其中①<span class="xz-answer-line"></span>，主要种植江南各省、 ②<span class="xz-answer-line"></span>主要分布于西北各地。<span class="xz-answer">C</span>
+  - ①冬种春收 ② 春种秋收
+  - ①春种秋收 ②冬种春收
+  - ①秋种夏收 ② 春种秋收
+  - ①秋种夏收 ②冬种春收
+- 古代称为布衣的，是衣着材料为<span class="xz-answer-line"></span>的百姓。<span class="xz-answer">C</span>
+  - 棉花
+  - 丝绸
+  - 麻布
+  - 皮毛
+- 山地牧场的夏牧场一般位于<span class="xz-answer-line"></span>之处。<span class="xz-answer">C</span>
+  - 山坡、有水草
+  - 山脚、有水草
+  - 高凉、水草肥美
+  - 低洼、草茂盛
+- 生活在新疆北部伊犁一带的游牧民族主要是<span class="xz-answer-line"></span>族。<span class="xz-answer">B</span>
+  - 维吾尔
+  - 哈萨克
+  - 蒙古
+  - 塔吉克
+- 明清时期江汉平原与洞庭湖平原一带出现<span class="xz-answer-line"></span>的民谚，说明这里粮食产量已经表现出很大的地区优势。<span class="xz-answer">D</span>
+  - 苏湖熟天下足
+  - 天府之国
+  - 鱼米之乡
+  - 湖广熟天下足
+{: .xz-choice-question }
+
+## 见面课
+- 从聚落到城市的发展历程，起关键作用的在于以下两方面原因：<span class="xz-answer-line"></span>。<span class="xz-answer">C</span>
+  - 人口与经济发展水平
+  - 农业生产与水资源
+  - 农业生产与交通道路
+  - 商业与农业
+- 唐长城修建完成后，又在城市北部修建了大明宫，原因是<span class="xz-answer-line"></span>。<span class="xz-answer">B</span>
+  - 这样使长安城更壮观。
+  - 长安城原宫城所在地，地势低洼，因此选择了地势高的龙首原修建了大明宫作为新的宫城。
+  - 政治需要
+  - 因为保卫长安城的禁军在北面，新修建的大明宫更安全。
+- 中国古代城市中实行的里坊制，从<span class="xz-answer-line"></span>彻底废除。<span class="xz-answer">A</span>
+  - 北宋
+  - 唐代
+  - 汉代
+  - 明代
+- 古人经常称南京城具有“虎踞龙盘”之势，那么“虎踞龙盘”的地理形势与<span class="xz-answer-line"></span>有关。<span class="xz-answer">B</span>
+  - 淮河
+  - 钟山
+  - 秦淮河
+  - 玄武湖
+- 北京城“凸”字形的城市形态形成于<span class="xz-answer-line"></span>。<span class="xz-answer">C</span>
+  - 元代
+  - 清朝
+  - 明代中晚期
+  - 明代
+- 2017年一带一路峰会，习近平主席报告中提到14世纪摩洛哥旅行家伊本·白图泰到过中国<span class="xz-answer-line"></span>港。<span class="xz-answer">C</span>
+  - 广州
+  - 扬州
+  - 泉州
+  - 南京
+- 历史时期“一带一路”是中国通向域外的两条主要道路，但是在这两条道路上充当文化与物质传播的主角，不是<span class="xz-answer-line"></span> ① <span class="xz-answer-line"></span>而是②<span class="xz-answer-line"></span>。<span class="xz-answer">C</span>
+  - ① 游牧民族 ② 蒙古人
+  - ① 阿拉伯、波斯人 ② 蒙古人
+  - ① 中国人 ② 阿拉伯、波斯商人与草原民族
+  - ①外国人 ② 中国人
+- <span class="xz-answer-line"></span>、<span class="xz-answer-line"></span>与<span class="xz-answer-line"></span>为中国本土驯化而成的农作物。<span class="xz-answer">B</span>
+  - 小麦，粟，大豆
+  - 谷子，黍，水稻
+  - 黍，小麦、水稻
+  - 小麦，水稻，大豆
+- 明清两代是中国人口大幅度增值时期，清代人口增殖尤其显著，清朝末年达4亿多。<span class="xz-answer">B</span>
+  - 错
+  - 对
+- 下列农作物哪一项不是在明代传入中国<span class="xz-answer">B</span>
+  - 辣椒
+  - 棉花
+  - 甘薯
+  - 玉米
+- 中国古代经济重心南移发生在①<span class="xz-answer-line"></span>时期，北方人南迁为南方增加了②<span class="xz-answer-line"></span>，也带来了北方人种植水稻的③<span class="xz-answer-line"></span>，为水稻④<span class="xz-answer-line"></span>做出重要贡献。<span class="xz-answer">D</span>
+  - ①宋朝 ② 劳动力 ③ 灌溉技术 ④ 播种技术
+  - ①唐朝 ② 劳动力 ③ 除草技术 ④ 施肥技术
+  - ①明朝 ② 劳动力 ③施肥技术 ④ 排水技术
+  - ①唐宋时期 ② 劳动力 ③移栽技术 ④ 插秧技术
+- 中国古代经济重心转移到南方，所在地区位于<span class="xz-answer-line"></span>。<span class="xz-answer">A</span>
+  - 太湖平原与长江三角洲地带
+  - 江浙一带
+  - 江南地区
+  - 闽浙地区
+- 冬小麦属于①<span class="xz-answer-line"></span>作物，这一生长期对于南方实现 ②<span class="xz-answer-line"></span>发挥了重要作用。<span class="xz-answer">D</span>
+  - ①夏播 ②双季稻
+  - ①越冬 ② 稻麦两年三熟
+  - ①春播 ②稻麦一年两熟
+  - ①越冬 ②稻麦一年两熟
+- 中国历史时期南方一年两熟制，主要实行稻麦轮作<span class="xz-answer">A</span>
+  - 对
+  - 错
+- 中国古代经济重心从北方移向江南是对亚热带水乡农业全面开发过程，北方南下移民参与所有农业活动的同时，并成为水稻插秧与稻麦复种两项技术的携带者与推广者，这两项技术结束了江南地区火耕水耨的粗放农业，并将土地利用率从<span class="xz-answer-line"></span>提升至<span class="xz-answer-line"></span>，又提升至<span class="xz-answer-line"></span>。<span class="xz-answer">B</span>
+  - 25%，50%，100%
+  - 50%，100%，200%
+  - 100%，150%，200%
+- 中国古人谈到军事问题，提出“①<span class="xz-answer-line"></span>”，具有②<span class="xz-answer-line"></span>与③<span class="xz-answer-line"></span>两项地理特征。<span class="xz-answer">A</span>
+  - ①根本之地 ② 易守难攻的地理形势 ③天府之国的物产
+  - ①起事之地 ② 平原 ③ 天险
+  - ① 战略基地 ② 天险 ③ 丰富的物产
+  - ①根据地 ② 良好的交通道路 ③人口众多
+- 秦汉以前“关东”，指<span class="xz-answer-line"></span>以东地区。<span class="xz-answer">D</span>
+  - 山海关
+  - 崤关
+  - 武关
+  - 函谷关
+- 关中地区被古人称为①<span class="xz-answer-line"></span>，由于这里土壤肥沃，被张良称为②<span class="xz-answer-line"></span>。<span class="xz-answer">C</span>
+  - ①陕西 ② 鱼米之乡
+  - ①长安 ② 天府之国
+  - ①八百里秦川 ② 天府之国
+  - ①雍州 ② 十三朝古都
+- 战国晚期<span class="xz-answer-line"></span>为秦王献上远交近攻之策<span class="xz-answer">B</span>
+  - 张仪
+  - 范雎
+  - 苏秦
+- 明清之际文人顾祖禹认为“南得①<span class="xz-answer-line"></span>则足以拒北，北得②<span class="xz-answer-line"></span>则南不可复保”。<span class="xz-answer">A</span>
+  - ① 淮 ② 淮
+  - ① 淮 ② 江
+  - ① 江 ② 淮
+  - ① 淮 ② 河
+{: .xz-choice-question }

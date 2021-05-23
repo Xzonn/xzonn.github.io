@@ -1,4 +1,3 @@
-// {% include js/getURLParameters.js %}
 let getURLParameters = function (rawSearch = location.search) {
     let search = new Map(rawSearch.slice(1).split("&").map(x => x.split("=").map(y => decodeURIComponent(y))).filter(x => (x.length == 2))),
         searchObject = {};
@@ -8,7 +7,6 @@ let getURLParameters = function (rawSearch = location.search) {
     return searchObject;
 }
 
-// {% include js/pagination.js %}
 let renderPagination = function (pageNumber, maxPageNumber, clickEvent) {
     let paginationList = $("<ul/>").addClass("pagination"),
         addPage = function (page, text, addClass) {
@@ -56,10 +54,10 @@ window.changePage = function (page) {
                     "href": (isWeChat && post.wechat_link) ? post.wechat_link : post.link,
                     "title": post.title
                 })),
-                date = $("<ul/>").addClass("xz-meta-time").append([$("<li/>").addClass("xz-meta-create").text(post.date), $("<li/>").addClass("xz-meta-update").text(post.update)]),
-                tag = (post.tags.length ? $("<ul/>").addClass("xz-meta-tags").append(post.tags.map(x => $("<li/>").addClass("post-tag").append($("<a/>").text(x).attr("href", "/posts/#" + encodeURIComponent(x))))) : null),
+                date = $("<ul/>").addClass("post-time").append([$("<li/>").addClass("post-create").text(post.date), $("<li/>").addClass("post-update").text(post.update)]),
+                tag = (post.tags.length ? $("<ul/>").addClass("post-tags").append(post.tags.map(x => $("<li/>").addClass("post-tag").append($("<a/>").text(x).attr("href", "/posts/#" + encodeURIComponent(x))))) : null),
                 image = $("<img/>").addClass("post-image").attr("src", post.head_image),
-                info = $("<p/>").addClass("post-meta-info").text(post.info);
+                info = $("<p/>").addClass("post-summary").text(post.info);
             $("<div/>").addClass(["post-block", post.head_image ? "post-block-with-image" : null]).append([title, date, tag, post.head_image ? image : null, info]).appendTo($(".page-block-list"));
         }
         $(".page-list-title").text("页面列表 - 第" + pageNumber + "页");

@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="zh-cn">
     <head>
-{% include html/head.html %}
+{% include head.html %}
     </head>
     <body{% if page.class %} class="{{ page.class }}"{% endif %}>
-{% include html/header.html %}
-{% include html/heading.html %}
+{% include header.html %}
+{% include heading.html %}
         <div class="xz-content container">
             <div class="row">
                 <div class="xz-content-main col-md-12">
@@ -15,6 +15,6 @@
                 </div>
             </div>
         </div>
-{% include html/footer.html %}
+{% include footer.html %}
     </body>
 </html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+    <head>
+{% include head.html %}
+        <!-- Study Head Start -->
+        <script src="{{ site.cdnpath }}/js/study.js"></script>
+        <link rel="stylesheet" href="/css/study.css"/>
+        <!-- Highlight -->
+        <link rel="stylesheet" href="{{ site.cdnpath }}/css/highlight.css"/>{% if page.math %}
+        <!-- MathJax -->
+        <script type="text/x-mathjax-config">
+            MathJax.Ajax.config.path["mhchem"] = "https://cdn.jsdelivr.net/npm/mathjax-mhchem@3.3.2";
+            MathJax.Hub.Config({
+                tex2jax: {
+                    inlineMath: [["$", "$"], ["\\(", "\\)"]],
+                    displayMath: [["$$", "$$"], ["\\[", "\\]"]],
+                    processEscapes: true,
+                },{% unless page.math_without_chem %}
+                TeX: {
+                    extensions: ["[mhchem]/mhchem.js"]
+                },{% endunless %}{% if page.math_without_menu %}
+                showMathMenu: false,{% endif %}
+                SVG: {
+                    scale: 94.3,
+                    blacker: 0,
+                    font: "STIX-Web",
+                    undefinedFamily: "SongTi"{% if page.math_without_cache %},
+                    useFontCache: false,
+                    useGlobalCache: false{% endif %}
+                },
+                "HTML-CSS": {
+                    scale: 100 / 1.2,
+                    blacker: 0,
+                    webFont: "STIX-Web",
+                    undefinedFamily: "SongTi"
+                }
+            });
+            MathJax.Hub.Register.StartupHook('End', function () {
+                try {
+                    $(".xz-info-math > p").text("MathJax渲染已完成。")
+                    $(".xz-info-math").removeClass("alert-info").addClass("alert-success alert-dismissible");
+                    setTimeout(x => $(".xz-info-math button").click(), 5000);
+                    Han(document.body).render();
+                    window.tocRender();
+                } catch (e) {}
+                window.mathjaxRendered = true;
+            });
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@2.7.5/MathJax.js?config=TeX-AMS_SVG" integrity="sha256-nvJJv9wWKEm88qvoQl9ekL2J+k/RWIsaSScxxlsrv8k=" crossorigin="anonymous"></script>{% endif %}{% if page.chart %}
+        <!-- Google Charts -->
+        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+        <script src="{{ site.cdnpath }}/js/chart.js"></script>{% endif %}
+        <!-- Study Head End -->
+    </head>
+    <body>
+{% include header_study.html %}
+{% include heading_study.html %}
+{% include content.html %}
+{% include footer_study.html %}
+    </body>
+</html>

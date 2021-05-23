@@ -19,11 +19,11 @@ blockquote[lang='ja'], ref[lang='ja'] {
     *[lang='ja'] {
         font-family: var(--font-family-serif-print-ja);
     }
-    
+
     blockquote[lang='ja'], ref[lang='ja'] {
         font-family: var(--font-family-reference-ja);
     }
-    
+
     #content b *[lang='ja'], #content strong *[lang='ja'], #content th *[lang='ja'], h1 *[lang='ja'], h2 *[lang='ja'], h3 *[lang='ja'], h4 *[lang='ja'], h5 *[lang='ja'], h6 *[lang='ja'] {
         font-family: var(--font-family-sans-serif-print-ja);
     }
