@@ -3,7 +3,7 @@ date: 2018-06-25 12:00
 infobox: complete
 last_modified_at: 2020-11-13 13:14
 math: true
-tags: 化学 学习资料 知识点整理
+tags: 化学 知识点整理
 title: 《定量分析化学》知识点整理
 ---
 ### 第1章 绪论

@@ -223,13 +223,6 @@ $(function () {
     windowScroll();
     $(window).bind("scroll", windowScroll);
 
-
-    /* Lazyload */
-    var lazyLoadInstance = new LazyLoad({
-        // Your custom settings go here
-    });
-    lazyLoadInstance.update();
-
     /* Han.js */
     if (!window.MathJax) {
         Han(document.body).render();

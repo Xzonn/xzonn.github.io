@@ -3,7 +3,7 @@ class: navigation-limit-2
 date: 2019-11-02 12:00
 last_modified_at: 2020-11-13 13:17
 math: true
-tags: 作业 学习资料 编程
+tags: 作业 编程
 title: 《计算概论（B）》（马思伟）作业参考代码（2017）
 ---
 <style>

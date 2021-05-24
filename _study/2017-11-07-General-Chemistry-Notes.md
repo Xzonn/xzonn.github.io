@@ -3,7 +3,7 @@ date: 2017-11-07 12:00
 infobox: complete formula
 last_modified_at: 2020-01-07 23:38
 math: true
-tags: 化学 学习资料 知识点整理
+tags: 化学 知识点整理
 title: 《普通化学》知识点整理
 ---
 ### 第2章 气体

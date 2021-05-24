@@ -2,7 +2,7 @@
 date: 2020-03-14 18:34
 last_modified_at: 2020-08-02 20:13
 math: true
-tags: 作业 学习资料 环院专业课
+tags: 作业 环院专业课
 title: 《物理性污染控制》作业
 ---
 

@@ -3,7 +3,7 @@ date: 2019-01-10 12:00
 infobox: complete formula
 last_modified_at: 2020-11-13 13:14
 math: true
-tags: 化学 学习资料 知识点整理
+tags: 化学 知识点整理
 title: 《有机化学》一小时速成
 ---
 <p class="hidden-print">《有机化学》知识点整理：<a href="/posts/Organic-Chemistry-Notes-A.html">（上）</a> | <a href="/posts/Organic-Chemistry-Notes-B.html">（下）</a>。</p>
