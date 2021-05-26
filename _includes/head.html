@@ -21,6 +21,7 @@
         <script src="{{ site.cdnpath }}/js/jquery.qrcode-1.0.3.min.js" integrity="sha256-9MzwK2kJKBmsJFdccXoIDDtsbWFh8bjYK/C7UjB1Ay0=" crossorigin="anonymous"></script>
         <script src="{{ site.cdnpath }}/js/js.cookie-2.2.1.min.js" integrity="sha256-MdF5lmO7tgKSFNkLp9uc3HJfoCwW1LCQrdNyHkQji2s=" crossorigin="anonymous"></script>
         <!-- Self Defined -->
+        <style id="xz-local-storage-style"></style>
         <script>
             window.pageInfo = window.pageInfo || {
                 "title": {{ page.title | jsonify }},
@@ -31,8 +32,16 @@
                 "info": {% if page.info %}{{ page.info | jsonify }}{% else %}{{ page.content | strip_html | remove: "$" | truncate: 100, "……" | jsonify }}{% endif %},
                 "wechat_link": {{ page.wechat_link | jsonify }},
                 "tags": {{ page.tags | jsonify }}
-            }
-            window.scriptDomain = {{ site.url | jsonify }}
+            };
+            window.scriptDomain = {{ site.url | jsonify }};
+            window.xzLocalStorage = window.localStorage.getItem("xzLocalStorage") || {};
+            (function () {
+                let style = document.getElementById("xz-local-storage-style"),
+                    sheet = style.sheet;
+                if (xzLocalStorage.noAd) {
+                    sheet.insertRule(".google-auto-placed, .adsbygoogle { display: none !important; }");
+                }
+            })();
         </script>{% assign css = page.base_css | split: " " %}{% for i in css %}
         <link rel="stylesheet" href="/css/{{ i }}.css"/>{% endfor %}{% assign js = page.base_js | split: " " %}{% for i in js %}
         <script src="/js/{{ i }}.js"></script>{% endfor %}

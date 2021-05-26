@@ -1,10 +1,16 @@
 ---
 date: 2021-05-23 12:00
 info: 非官方题解。
-last_modified_at: 2021-05-23 21:45
+last_modified_at: 2021-05-26 14:07
 links: 
+- - https://github.com/Xzonn/0th-PKU-Geek-Game-Writeups
+  - 个人题解代码汇总
 - - https://geekgame.pku.edu.cn/
   - 北京大学信息安全综合能力竞赛 官方网站
+- - https://geekgame.pku.edu.cn/static/writeups/
+  - 官方比赛资料汇总
+logs: 
+- 2021-05-26：补充了一些从官方信息以及新想法，修正了一处错误。
 references: 
 - - https://conanyu.github.io/2018/09/13/factorization/
   - Python大数因数分解
@@ -19,6 +25,20 @@ references:
 tags: 编程
 title: 第零届北京大学信息安全综合能力竞赛个人题解
 ---
+<style>
+.you-name {
+    background: linear-gradient(0deg, #26791c, #1d1d1d, #1d1d1d);
+    text-shadow: 0 0 1px rgba(21, 66, 14, 0.4);
+
+    -webkit-text-fill-color: transparent;
+
+    background-clip: text;
+    -webkit-background-clip: text;
+
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+}
+</style>
 ``` javascript
 /*!
  * 第零届北京大学信息安全综合能力竞赛个人题解
@@ -30,7 +50,9 @@ title: 第零届北京大学信息安全综合能力竞赛个人题解
 ## 前言
 某天下午我在实验室登录[its](https://its.pku.edu.cn/)的时候突然发现了[这个比赛的通知](https://its.pku.edu.cn/announce/tz20210514134448.jsp)，虽然我不是计算机专业，之前并没有参加过类似的比赛，而且恰逢毕业季交毕业论文的[DDL](https://en.wikipedia.org/wiki/Deadline)，但我还是忍不住报名参加了。
 
-以下是部分题目的个人题解，因为水平有限，时间不充足，仅解出了部分题目。所有与个人信息相关的内容都已模糊化处理，我本人的Token也已删除。
+以下是部分题目的个人题解，因为水平有限，时间不充足，仅解出了部分题目。所有与个人信息相关的内容都已模糊化处理，我本人的Token也已删除。所有代码可以从[GitHub](https://github.com/Xzonn/0th-PKU-Geek-Game-Writeups)找到。
+
+根据官方给出的说明，[题目说明](https://geekgame.pku.edu.cn/static/writeups/desc/description.html)内容按照“[知识共享署名-非商业性使用 4.0 国际许可协议（CC BY-NC 4.0）](https://creativecommons.org/licenses/by-nc/4.0/)”进行许可。本题解按照“[知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议](https://creativecommons.org/licenses/by-nc-sa/4.0/)”进行许可，兼容前者所用的协议。题目说明原始版权归属PKUGGG Team所有。
 
 ## →签到←
 ### 题目说明
@@ -87,6 +109,14 @@ print(b)
 
 得到flag：`flag{W3lcome to 0th PKU GuGuGu, enjoy the game!}`。
 
+组委会提供了一个[“假网站”](https://www.qqxiuzi.cn/bianma/kaisamima.php)，使用这个网站解密出来的结果会有一个“&ensp;”（`&ensp;`，`U+2002`）。
+
+{% include figure.html src="https://file.moetu.org/images/2021/05/26/2b146e8c2f4fc5d42af78e83c88add14e8ebff54aadea971.png" width="797" height="340" %}
+
+查看了一下源代码这个东西解密凯撒密码竟然还要往服务器发请求，不知道服务器端写了什么奇怪的程序。这也是为什么组委会特意发了公告：
+
+> 所有题目的 Flag 都以 “flag{” 开始、“}” 结束，Flag 是大小写敏感和空白符敏感的（即大小写和空格等与答案不一致都会导致flag错误），所有 Flag 都是可打印的纯 ASCII 字符
+
 ## 主的替代品
 ### 题目说明
 替代赎罪是一个令人生畏的短语，所以让我们对其进行分解。最简单的形式是，如果有人用自己代替我们赎罪，那么他们就是在代替我们偿还我们所欠的款项。我们欠上帝的钱确实很多。他是完美的本质，因此不能在他的存在下出现瑕疵。不幸的是，我们是核心的不完美罪人。因此，我们不需要在外部简单地“变得更好”，而在内部需要完美无瑕的完美。这是我们无法提供的，因此我们必须依靠其他东西：替代品。
@@ -117,13 +147,15 @@ in(){char a[5]={109,97,105,110,0};printf("%s",a);}
 
 本题flag：`flag{to_main_or_not_to_main_that_is_a_question_00000000}`。
 
+看了别人的题解我才知道原来宏是可以连接两个字符的，形如“m ## a ## i ## n”。好吧，这我真没学过。
+
 ## 小北问答 1202
 ### 题目说明
-You 酱善于使用十种搜索引擎，别人不知道的事情她能一秒钟搜索出来。别人都不相信她，因为别人每次在百度搜索自己的代码为什么报错，都只能搜到一些意义不明的 CSDN 博客。
+<span class="you-name">You</span> 酱善于使用十种搜索引擎，别人不知道的事情她能一秒钟搜索出来。别人都不相信她，因为别人每次在百度搜索自己的代码为什么报错，都只能搜到一些意义不明的 CSDN 博客。
 
-这两天，又有人拿着计概 B 的代码来问 You 酱。You 酱看到满屏幕的全角括号之后彻底忍受不了了，她灵机一动，决定把回答问题的工作外包出去。
+这两天，又有人拿着计概 B 的代码来问 <span class="you-name">You</span> 酱。<span class="you-name">You</span> 酱看到满屏幕的全角括号之后彻底忍受不了了，她灵机一动，决定把回答问题的工作外包出去。
 
-“这些是别人问我的问题列表，帮我答出至少五道就可以获得一个 Flag，全都答出来就可以获得第二个 Flag。” You 酱如是说。
+“这些是别人问我的问题列表，帮我答出至少五道就可以获得一个 Flag，全都答出来就可以获得第二个 Flag。” <span class="you-name">You</span> 酱如是说。
 
 **补充说明：**此题考查的是收集和运用信息的能力，解题所需的所有信息都可以在网上公开找到，不需要选手具有特定生活经验。
 
@@ -132,12 +164,18 @@ You 酱善于使用十种搜索引擎，别人不知道的事情她能一秒钟�
 [打开/下载题目](http://prob08.geekgame.pku.edu.cn/)
 
 ### 解法
+签到题和题目里面带“<span class="you-name">You</span> 酱”的都是 [@xmcp](https://github.com/xmcp) 出的。直到比赛结束后我才发现“<span class="you-name">You</span> 酱”的名字有特殊的格式。据xmcp本人所说，“<span class="you-name">You</span> 酱”是这位：
+
+{% include figure.html src="https://file.moetu.org/images/2021/05/26/133429ad9a7520262f1dfcdb5d214e6aa188740b269115ec.jpg" alt="<span class=\"you-name\">You</span> 酱" width="361" height="360" %}
+
 #### #1
 > 理科一号楼共有 8 个计算中心机房，其中第 n 机房的门牌号是X<sub>n</sub>（1000≤X<sub>n</sub>≤9999），求 ∑ (X<sub>n</sub>)<sup>n</sup> 的最大质因数
 >
 > 答案格式：`^\d+$`
 
 计算中心8个机房的门牌号见[计算中心官网](https://its.pku.edu.cn/pcroom.jsp)，从1到8依次为：1258、1263、1261、1204、1203、1249、1339、1338。先根据公式计算，结果为`10279576720584031841969783`。大数求最大质因数比较麻烦，这里参考了ConanYu的[这篇文章](https://conanyu.github.io/2018/09/13/factorization/)，虽然没看懂但是运行速度很快，最后得到最大质因数为`108475792463321`。
+
+根据官方题解也可以用`sympy.factorint`函数。
 
 #### #2
 > 北京大学的哪门课被称为“讲得好、作业少、考试水、给分高的课”（中文全称）？
@@ -146,7 +184,11 @@ You 酱善于使用十种搜索引擎，别人不知道的事情她能一秒钟�
 
 看到这题我第一反应是“[赵克常老师的地震概论](/posts/Introduction-to-Seismology-Notes.html)”，但是我第一次提交未通过；改为“赵老师的地震概论”也不对。这时官方公告提示了“不需要选手具有特定生活经验”，考虑到参赛者有校外邀请人员，题目答案应该是公开可查的。我分别在[树洞](https://pkuhelper.pku.edu.cn/hole)和[BBS](https://bbs.pku.edu.cn/)搜索，都没有找到结果，最终是谷歌搜索“给分高”才发现了[课程测评网站](https://courses.pinzhixiaoyuan.com/)标题下面就是“来自同学们的课程测评, 帮你找到<abbr title="穆良柱老师的热学">讲得好、作业少、考试水、给分高</abbr>的课”。
 
-这得赖谷歌，我直接查“[讲得好、作业少、考试水、给分高](https://www.google.com/search?q=%E8%AE%B2%E5%BE%97%E5%A5%BD%E3%80%81%E4%BD%9C%E4%B8%9A%E5%B0%91%E3%80%81%E8%80%83%E8%AF%95%E6%B0%B4%E3%80%81%E7%BB%99%E5%88%86%E9%AB%98)”没出现相关结果，后来试了下“["讲得好、作业少、考试水、给分高"](https://www.google.com/search?q=%22%E8%AE%B2%E5%BE%97%E5%A5%BD%E3%80%81%E4%BD%9C%E4%B8%9A%E5%B0%91%E3%80%81%E8%80%83%E8%AF%95%E6%B0%B4%E3%80%81%E7%BB%99%E5%88%86%E9%AB%98%22)”才有唯一结果。（当然我这篇文章发出来之后应该就不是唯一结果了）
+这得赖谷歌，我直接查“[讲得好、作业少、考试水、给分高](https://www.google.com/search?q=%E8%AE%B2%E5%BE%97%E5%A5%BD%E3%80%81%E4%BD%9C%E4%B8%9A%E5%B0%91%E3%80%81%E8%80%83%E8%AF%95%E6%B0%B4%E3%80%81%E7%BB%99%E5%88%86%E9%AB%98)”没出现相关结果，后来试了下“["讲得好、作业少、考试水、给分高"](https://www.google.com/search?q=%22%E8%AE%B2%E5%BE%97%E5%A5%BD%E3%80%81%E4%BD%9C%E4%B8%9A%E5%B0%91%E3%80%81%E8%80%83%E8%AF%95%E6%B0%B4%E3%80%81%E7%BB%99%E5%88%86%E9%AB%98%22)”才有唯一结果。
+
+不过这里有个问题，如果我在比赛期间建了一个网站，然后提交给谷歌、必应、百度等各大搜索引擎，然后花钱买流量，会不会出现干扰？当然我并没有这么做，奖金应该也不够我买流量的。
+
+另外组委会统计了本题第一次提交的答案，有72个人提交了“赵克常老师的地震概论”，看来大家的想法都是类似的。<del>另外还有一个人提交了“赵克常老师的地震概概论”，另一个人提交了“赵克常老师的地震概率”</del>
 
 #### #3
 > 根据 HTCPCP-TEA 协议，当一个茶壶暂时无法煮咖啡时，应当返回什么状态码？
@@ -163,8 +205,10 @@ coffee...
 
 答案为`503`。
 
+一开始我回答的是`418`，但418状态码返回的是“我是茶壶”，表明自己永远不会煮咖啡。题目问的是“暂时无法煮咖啡”，因此是503。
+
 #### #4
-> 在 Conway's Game of Life 中，有多少种稳定的由 7 个活细胞构成的局面？稳定是指每个时刻的状态都与初始状态完全相同。旋转或对称后相同的视为同一种局面。
+> 在 <span lang="en">Conway's Game of Life</span> 中，有多少种稳定的由 7 个活细胞构成的局面？稳定是指每个时刻的状态都与初始状态完全相同。旋转或对称后相同的视为同一种局面。
 > 
 > 答案格式：`\d+$`
 
@@ -198,6 +242,10 @@ coffee...
 
 根据[ICANN的报道在2013年5月11日的存档](https://web.archive.org/web/20130511074607/http://stats.research.icann.org/dns/tld_report/)，并对比[4月23日的存档](https://web.archive.org/web/20130423141925/http://stats.research.icann.org/dns/tld_report/)，答案为`317`。
 
+后来我才发现这个报告有每日存档，比如[5月4日的存档](http://stats.research.icann.org/dns/tld_report/archive/20130504.000101.html)。
+
+另外这个“可用”有两种理解，组委会最初参考的是[Root Zone Database](https://www.iana.org/domains/root/db)，答案为`329`，因为部分域名属于“not assigned”状态，去掉之后就是317了。
+
 本题flag：
 
 - `flag{you-are-master-of-searching_00000000}`
@@ -205,11 +253,11 @@ coffee...
 
 ## 与佛论禅网大会员
 ### 题目说明
-You 酱有着二十年网龄，从论坛黑话到图种的制作方法都十分熟悉。某天，You 酱在树洞发了一个 RSA 公钥，试图实践加密聊天，然而洞里没有一个人理她。
+<span class="you-name">You</span> 酱有着二十年网龄，从论坛黑话到图种的制作方法都十分熟悉。某天，<span class="you-name">You</span> 酱在树洞发了一个 RSA 公钥，试图实践加密聊天，然而洞里没有一个人理她。
 
 她很伤心。她不明白这届年轻人怎么连这种简单的 Trick 都不会了。
 
-这回 You 酱把两个 Flag 藏在了一张 GIF 图里，希望你能找出来。
+这回 <span class="you-name">You</span> 酱把两个 Flag 藏在了一张 GIF 图里，希望你能找出来。
 
 **点击 “打开/下载题目” 下载题目附件**
 
@@ -236,6 +284,10 @@ You 酱有着二十年网龄，从论坛黑话到图种的制作方法都十分�
 
 拿微信扫描一下，得到一个网址：`https://www.pku.edu.cn/#hint=zip_password_is_fm2jbn2z6t0gl5le`，那么密码就是`fm2jbn2z6t0gl5le`，解压得到第二个flag：`flag{you are master of stegan0. Here is y0ur flag}`。
 
+另外题目里面的RSA公钥我没在树洞里找到，不知道是不是真的存在。
+
+看了官方题解我才发现有个网站叫[“与佛论禅”](https://www.keyfc.net/bbs/tools/tudoucode.aspx)……还好我没往那边想。
+
 ## 2038 年的银行
 ### 题目说明
 兆京市是知名的金融中心，许多银行都在此设立总部。然而在 2038 年的某一天，这里有 3 家历史悠久的银行突然凭空消失了。
@@ -252,6 +304,8 @@ You 酱有着二十年网龄，从论坛黑话到图种的制作方法都十分�
 但要小心，此题存在数据溢出，当钱数大于2<sup>31</sup> - 1时会溢出（这也是[Int32](https://docs.microsoft.com/en-us/dotnet/api/system.int32)的最大值）。利用这一漏洞，先将某银行借款最大额度扩大到2000000000，然后全部借款；再将一部分钱存入银行，买面包睡觉。欠款会因为溢出而在正数和负数之间来回横跳，当欠款金额为正数且存款金额大于欠款金额就可以将存款全部取出还债，然后将剩余存款放到银行吃利息就好了。
 
 本题flag：`flag{SucH_Na!V3_b4Nk_00000000}`
+
+题目里的“2038”应该指的是[2038年问题](https://zh.wikipedia.org/wiki/2038%E5%B9%B4%E9%97%AE%E9%A2%98)，恰好涉及32位整数。
 
 ## 人类行为研究实验
 ### 题目说明
@@ -376,13 +430,17 @@ print(jwt.encode({"identity":"teacher"}, "", algorithm="HS256"))
 
 好吧，我总算理解了“没有研究并设置任何的可配置参数”是什么意思了。但是这个cracker程序，为什么没有考虑秘钥为空的情况呢？<del>不会真有人在生产环境用空秘钥吧</del>
 
+但是，明明题目里面是“兆京大学”，怎么网站变成了“百京大学”？而且“百京大学”认证页面的图片还是“北京大学”。
+
+组委会提到了认证页面不会泄露用户名和密码<del>，但怎么还有手动把用户名和密码发送给服务器的</del>
+
 ## 人生苦短
 ### 题目说明
-You 酱最喜欢用的 Python 库是 Flask。她回忆自己给兆京大学千年讲堂做后端开发的那段时光，感叹道：那个购票系统只写了一百多行就写完了，不愧是 Python。
+<span class="you-name">You</span> 酱最喜欢用的 Python 库是 Flask。她回忆自己给兆京大学千年讲堂做后端开发的那段时光，感叹道：那个购票系统只写了一百多行就写完了，不愧是 Python。
 
 现在，有一门课的老师找到她，让她写一个程序来演示什么是 “自举”。具体来说，这个系统在登录之后就可以获得 Flag，但是 Flag 恰好就是登录密码。
 
-对这个奇怪的需求，You 酱感觉莫名其妙，但她还是很快就把系统写出来了。
+对这个奇怪的需求，<span class="you-name">You</span> 酱感觉莫名其妙，但她还是很快就把系统写出来了。
 
 然而，由于在系统上线前的一处小疏忽，使得看似不可能被拿到的 Flag 实际是可以被拿到的。你能找到程序中的问题吗？
 
@@ -948,12 +1006,26 @@ r2.sendline("END")
 r2.recvuntil("> ")
 
 r.sendline("y")
-r2.recvuntil("> ")
 r.sendline("inspect")
 r.interactive()
 ```
 
 得到flag：`flag{a_good_merchant_knows_how_to_make_money_00000000}`。
+
+组委会说有彩蛋，尝试把所有东西都买一遍，得到：
+
+```
+citrine ($250 * 11): Yellow like fading hope.
+flag ($100000 * 1): Spotless flag, showing a strange sentence: flag{a_good_merchant_knows_how_to_make_money_00000000}.
+jade ($375 * 10): Dull green like rotting flesh.
+onyx ($500 * 10): Black like endless night.
+emerald ($750 * 10): Green like molten envy.
+sapphire ($1000 * 10): Blue like strangled dreams.
+ruby ($1250 * 10): Red like blazing lust.
+egg ($2000 * 10): Colorful like boring author.
+```
+
+不知道彩蛋是不是最后一个“Colorful like boring author”。
 
 ## 未来的机器
 ### 题目说明
@@ -1282,12 +1354,13 @@ print(n_fla)
 ## 无法预料的问答
 ### 题目说明
 > Now, it's up to you to do the next one.
+{: lang="en" }
 
-命题人 You 酱收到了来自组委会的投诉：“关于小北问答这道题，怎么几个小时才能提交一次？选手们反映说这样不讲武德。” You 酱很无奈，因为如果不限制提交频率，万一有人用爬虫枚举答案，就成命题事故了。
+命题人 <span class="you-name">You</span> 酱收到了来自组委会的投诉：“关于小北问答这道题，怎么几个小时才能提交一次？选手们反映说这样不讲武德。” <span class="you-name">You</span> 酱很无奈，因为如果不限制提交频率，万一有人用爬虫枚举答案，就成命题事故了。
 
-无论如何，收到投诉不能不处理。You 酱决定再出一道问答题，不再限制提交频率……呃，这样服务器大概撑不住，限制一秒可以提交一次总行吧。
+无论如何，收到投诉不能不处理。<span class="you-name">You</span> 酱决定再出一道问答题，不再限制提交频率……呃，这样服务器大概撑不住，限制一秒可以提交一次总行吧。
 
-“既然放开了提交频率，就需要把题目出难一点，干脆都出只有我自己知道答案的题，这样就没人能做出来了。” —— You 酱
+“既然放开了提交频率，就需要把题目出难一点，干脆都出只有我自己知道答案的题，这样就没人能做出来了。” —— <span class="you-name">You</span> 酱
 
 **点击 “打开/下载题目” 进入题目网页**
 
@@ -1374,11 +1447,11 @@ print(n_fla)
 
 ## 计算概论B
 ### 题目说明
-又㕛叒叕有人拿着计概 B 的代码来问 You 酱了，这不是什么稀奇的事情。
+又㕛叒叕有人拿着计概 B 的代码来问 <span class="you-name">You</span> 酱了，这不是什么稀奇的事情。
 
 不过，这次的代码确实有点意思。因为这个人打算尝试一个算法，却不慎在运行完之后把输入文件删掉了。所幸这个人用的是 Jupyter Notebook，所以还保留着算法的输出。
 
-你能帮忙还原出被删掉的输入文件吗？You 酱愿意用输入文件中的一个 Flag 作为酬谢。
+你能帮忙还原出被删掉的输入文件吗？<span class="you-name">You</span> 酱愿意用输入文件中的一个 Flag 作为酬谢。
 
 **点击 “打开/下载题目” 下载题目附件**
 
@@ -1693,9 +1766,15 @@ for i in range(start - 1, 0x100 ** 4):
 
 另外这个题我似乎是第一个解出来的，拿下一血。
 
-## 后记
-一共17道题目，我做出来了12道，也算是满足了。剩下的题目已经基本上超出我能力范围了，我也就直接等官方题解出来之后再考虑了。
+## 其他题目
+还剩下5个题目我没有做，其中2个和密码学有关，3个和[pwn](https://zh.wikipedia.org/wiki/Pwn)有关，都是我不擅长的东西。
 
+- 千年讲堂的方形轮子：加密方式为AES-CBC和AES-ECB，网上倒是可以找到很多讲解，我也尝试了一下替换密文中的字符，但是没有尝试系统地解码。
+- 皮浪的解码器：我尝试了一下反编译，发现了flag的地址在declen的地址后面，或许可以通过一些方法在输出解码结果的同时输出flag。我也尝试了输入长字符串，但没想到需要长度 mod 4 == 3。
+- 安全的密钥交换：源代码看得头大，但是看了官方题解之后稍微明白了一些。
+- 庄子的回文/←签退→：题解都看不懂，算了。
+
+## 后记
 最后的结果，总分2448，排名19，拿到了一个一血，还不错。
 
 希望这篇文章对大家有所帮助，祝大家玩得愉快。

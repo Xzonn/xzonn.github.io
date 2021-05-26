@@ -4,7 +4,14 @@ head_image: https://mmbiz.qpic.cn/mmbiz_jpg/Qh7FH95PRns3Qicq9gpFHguTT9qAibiaKuUx
 head_image_height: 546
 head_image_width: 1280
 info: Xzonn的技能小讲座第4讲。
-last_modified_at: 2020-02-09 15:25
+last_modified_at: 2021-05-25 01:04
+links: 
+- - http://openstd.samr.gov.cn/bzgk/gb/
+  - 国家标准全文公开系统
+- - https://www.mee.gov.cn/ywgz/fgbz/bz/
+  - 生态环境标准
+logs: 
+- 2021-05-25：更新代码。
 tags: 技术指南
 title: 如何下载一篇国标？
 wechat_link: https://mp.weixin.qq.com/s/iIIwUZupCn3M_mCYNzJSbg
@@ -13,7 +20,7 @@ wechat_link: https://mp.weixin.qq.com/s/iIIwUZupCn3M_mCYNzJSbg
 
 有些时候，我们需要查阅国家标准来完成课程任务或设计实验方案。例如，在《环境监测实验》课程中，为了测定水体中的金属元素，我们需要查找对应的国家标准，以确定采用何种仪器、何种标准物质、标准曲线的范围等。当然，生态环境类的国家标准很容易查找并下载——生态环境部官网上提供了许多标准全文，基本满足需要。
 
-{% include figure.html src="https://file.moetu.org/images/2020/02/20/c936a89b4afda9a906867b1a34697a2853e064357a0893aa.png" alt="生态环境标准<br/>（网址：http://www.mee.gov.cn/ywgz/fgbz/bz/）" width="640" height="360" %}
+{% include figure.html src="https://file.moetu.org/images/2020/02/20/c936a89b4afda9a906867b1a34697a2853e064357a0893aa.png" alt="生态环境标准<br/>（网址：https://www.mee.gov.cn/ywgz/fgbz/bz/）" width="640" height="360" %}
 
 然而，环境学科是一门交叉学科，很多时候我们不仅需要生态环境类的标准，还需要其他方面的标准。例如，在《环境研究方法》课程中，为了确定家用电器的能耗，我们查找了GB 21456-2014《家用电磁灶能效限定值及能效等级》。如果只是需要在线观看的话，百●●库、道●●巴等网站上基本可以找到全文。但是在线观看毕竟不方便，下载或是打印才是比较理想的方案。
 
@@ -157,6 +164,18 @@ PDFViewerApplication.download();
 然后浏览器就会自动下载pdf文件。
 
 {% include figure.html src="https://file.moetu.org/images/2020/02/20/697d7f7e79324368cff42368a6b9d1ef8d1e8aa58827fcf3.png" alt="一行JavaScript实现下载" width="640" height="300" %}
+
+2021-05-25更新：由于Flash已不再被主流浏览器支持，因此该网站更换了在线PDF阅读器，上述代码已不再起作用，经尝试后可使用以下代码：
+
+```javascript
+PDFViewerApplication.pdfDocument.saveDocument(PDFViewerApplication.pdfDocument.annotationStorage).then(function (data) {
+    PDFViewerApplication.downloadManager.download(new Blob([data], {
+        type: "application/pdf"
+    }), PDFViewerApplication.baseUrl, PDFViewerApplication._docFilename, "download");
+});
+```
+
+输入代码时请确保页面已完全加载。
 
 ## 5
 
