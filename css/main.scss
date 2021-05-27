@@ -162,64 +162,60 @@ a[target="_blank"] {
 }
 
 /* sidenav */
-.xz-sidenav .nav > li > a {
-    padding: 5px 10px;
-}
+.xz-sidenav {
+    .nav > li > a {
+        padding: 5px 10px;
+    }
 
-.xz-sidenav ::-webkit-scrollbar {
-    width: 0;
+    ::-webkit-scrollbar {
+        width: 0;
+    }
 }
 
 .xz-sidenav-list {
     top: 0;
     overflow-y: auto;
     max-height: calc(100vh - 50px);
-}
 
-.xz-sidenav-list li > ul {
-    overflow-y: auto;
-    padding-left: 1em;
-    max-height: 0;
-    font-size: 0.9em;
-    transition: all 0.5s ease-out;
-}
+    li {
+        & > ul {
+            overflow-y: auto;
+            padding-left: 1em;
+            max-height: 0;
+            font-size: 0.9em;
+            transition: all 0.5s ease-out;
+        }
+        
+        & > a {
+            color: var(--color-warm-dark);
 
-.xz-sidenav-list li > a {
-    color: var(--color-warm-dark);
-}
-
-.xz-sidenav-list li > a:hover, .xz-sidenav-list li > a:focus {
-    background-color: var(--color-warm-lighter);
-}
-
-.xz-sidenav-list li.active > ul {
-    max-height: 100vh;
-}
-
-.xz-sidenav-list li.active > a {
-    color: var(--color-warm-darker);
-    font-weight: 700;
-}
-
-.xz-sidenav-list > li.active > a {
-    border-left: 3px solid var(--color-warm-darker);
-}
-
-.xz-sidenav-list.affix {
-    position: fixed !important;
-
-    li.xz-navtop-item {
-        bottom: 0;
-        position: fixed;
+            &:hover, &:focus {
+                background-color: var(--color-warm-lighter);
+            }
+        }
     }
-}
 
-.xz-sidenav-list.affix-top {
-    position: static !important;
-    margin: 30px 0;
+    li.active {
+        & > ul {
+            max-height: 100vh;
+        }
 
-    li.xz-navtop-item {
-        display: none;
+        & > a {
+            color: var(--color-warm-darker);
+            font-weight: 700;
+        }
+    }
+
+    & > li.active > a {
+        border-left: 3px solid var(--color-warm-darker);
+    }
+
+    &.affix {
+        position: fixed !important;
+    }
+
+    &.affix-top {
+        position: static !important;
     }
 }
 

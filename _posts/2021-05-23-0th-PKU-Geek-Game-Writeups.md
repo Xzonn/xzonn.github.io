@@ -1,7 +1,7 @@
 ---
 date: 2021-05-23 12:00
 info: 非官方题解。
-last_modified_at: 2021-05-26 14:07
+last_modified_at: 2021-05-27 22:06
 links: 
 - - https://github.com/Xzonn/0th-PKU-Geek-Game-Writeups
   - 个人题解代码汇总
@@ -11,6 +11,7 @@ links:
   - 官方比赛资料汇总
 logs: 
 - 2021-05-26：补充了一些从官方信息以及新想法，修正了一处错误。
+- 2021-05-27：修复“计算概论B”题目中乱码可能导致feed.xml产生问题的错误。
 references: 
 - - https://conanyu.github.io/2018/09/13/factorization/
   - Python大数因数分解
@@ -1618,8 +1619,10 @@ with open("table.json", "w") as f:
 尝试用这个table解码，得到：
 
 ```
-w$ile gi4���rF�2��ersn�Vw&VR��vFfW;dr gave $is O��e /s(�FV�G�efF��Fbdlving an��ff�7Vc/ xgdblem inO����Fb�aking(�FRf���TF���G�ingnfdr(&G`/ $en7Gdy&D�v2�$e easy way bF�, my uncle(�&��n7d fi o a �Fc&�efF��vB�$e "smalleO�6'�R"�vF&�V��dv�F�2�vFfW;drn�V�B�ell $im isn7G`/  fF�F�V���tv�ime knew(�FR&T� �Fc&�efF��2�$e(�W&��rewn7d a cf6dse,n�fV�&VƗ�� $iF�FfV�vB7`&O O��yingnfdr(�FRTF��7`&Oingn7Dgdwing away $is s/g`/c$ingsndn(�FR�vF&�V��6�F�V�Fb�$e papers $e/(�FR�ras$ can,(�FRcbfG&R�F�6�V�vBF���f�w�syLd b&v�5$�C9C9G&V�BGVff���FRV&Ɨ2F�(�FRW"&6o�F'��fG"�$e �F��ru/�Vdnndf minimum ri�R��7�6'�W2&�escribing $is af6&dre/$m in 1952.(�F�2&V6�R�dwn as $uffman cbing.n`/(�FR�ime $en�V�B�dnseoer �G�&V&D���v�G"�`/e /ing e/, because was juO��cbfG&R�F���FV�eo d/ make a pennyndffndf e/. becausendf e/s elegance a o simplice/y, e/ isn�W67&�&� in manyn7oD�&'dks a o several web pages.(�'���ere&f��fV�fG&�6�FbGVff��6'���r6��fGR���dm#fF�V�\4gdnics a o web pagesn�fdr eDample,(�FR�Vr��vRf��V�fG"6`/).
+w$ile gi4ö……
 ```
+
+{% include figure.html src="https://file.moetu.org/images/2021/05/27/e7fa840c3880421b3ad63e4c73ccb39bf467104a85f4e8b2.png" width="797" height="340" %}
 
 虽然有很多乱码，但看上去已经很接近了。用[HxD](https://mh-nexus.de/en/hxd/)打开上面这个文本文件，第一行为：
 

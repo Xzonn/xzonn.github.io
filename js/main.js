@@ -65,7 +65,7 @@ $(function () {
                 let hash = "#" + decodeURIComponent(target.href.split("#")[1]);
                 history.pushState({
                     "url": location.href
-                }, hash, target.href);
+                }, hash, location.href.split("#")[0] + hash);
                 $("html").animate({
                     scrollTop: $(hash).offset().top
                 }, 300);
