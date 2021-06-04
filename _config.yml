@@ -1,3 +1,22 @@
+algolia:
+  application_id: "TN8HK9FU3W"
+  index_name: "xzonn_top"
+  files_to_exclude:
+    - index.html
+    - index.md
+    - pages/**/index.*
+  nodes_to_index: "p,h2,h3"
+  settings:
+    searchableAttributes:
+      - title
+      - headings
+      - unordered(tags)
+      - unordered(content)
+    attributesToHighlight:
+      - content
+      - headings
+      - tags
+      - title
 author: Xzonn
 defaults:
   - values:

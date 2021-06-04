@@ -104,7 +104,7 @@ $$\sin \theta_c = \cfrac {v_1} {v_2} = \cfrac {3} {4}, ~ \cos \theta_c = \sqrt {
 $$2H - h = \cfrac {b v_1 v_2 \cos \theta_c} {v_2 - v_1 \sin \theta_c} = \pu{72 km},~ H = \pu{41 km}.$$
 
 ### 第4章 地球内部的结构
-![地球内部的结构](/images/ItS-04-01.svg)
+{% include figure.html src="/images/ItS-04-01.svg" alt="地球内部的结构" width="360" height="347.53" %}
 
 - 地壳是通过研究首波而发现的。
 - 大陆地区地壳平均厚度为35&nbsp;km，海洋地区地壳不到10&nbsp;km。大洋和大陆下面的地壳厚度不同。
@@ -182,7 +182,7 @@ $$\lg E = 11.8 + 1.5M.$$
 - *海啸的波长约100 miles，传播速度约500 miles/h。*
 - 计算题：如<a class="xref-figure" href="#figure-ItS-10-01.svg"></a>，计算浅水波从$$A$$点传播到$$D$$点所用的时间。
 
-![第10章计算题图](/images/ItS-10-01.svg)
+{% include figure.html src="/images/ItS-10-01.svg" alt="第10章计算题图" width="360" height="127.41" %}
 
 计算过程如下：
 
@@ -292,7 +292,7 @@ $$\cfrac {\sin\theta_{\alpha1}} {v_{\alpha1}} = \cfrac {\sin\theta_{\beta1}} {v_
 
 （题图见<a class="xref-figure" href="#figure-ItS-HW-02.svg"></a>）
 
-![作业2题图](/images/ItS-HW-02.svg)
+{% include figure.html src="/images/ItS-HW-02.svg" alt="作业2题图" width="360" height="254.01" %}
 
 ##### 提示
 第一个等号的证明参考讲义：Fermat原理 → Snell定律 (1)，只需将走时改为

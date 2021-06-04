@@ -1,7 +1,7 @@
 ---
 date: 2021-05-23 12:00
 info: 非官方题解。
-last_modified_at: 2021-05-27 22:06
+last_modified_at: 2021-05-29 16:05
 links: 
 - - https://github.com/Xzonn/0th-PKU-Geek-Game-Writeups
   - 个人题解代码汇总
@@ -1781,3 +1781,7 @@ for i in range(start - 1, 0x100 ** 4):
 最后的结果，总分2448，排名19，拿到了一个一血，还不错。
 
 希望这篇文章对大家有所帮助，祝大家玩得愉快。
+
+{% include figure.html src="https://file.moetu.org/images/2021/05/29/d82d373b03a57d8b14de3cbf69d5924bc36ad5bb5374137d.jpg" width="300" height="200" %}
+
+{% include figure.html src="https://file.moetu.org/images/2021/05/29/17acd0f36a14d75e31c04a690cdfd6267f56935fc8286bf3.jpg" width="300" height="200" %}

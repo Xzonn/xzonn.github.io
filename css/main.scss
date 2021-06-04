@@ -20,7 +20,7 @@ a[target="_blank"] {
         margin: 0 5px;
         width: 12px;
         height: 9px;
-        background-image: url(/images/icon_arrow_blank.png) !important;
+        background-image: url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20fill%3D%22%23888%22%20viewBox%3D%220%200%2012%209%22%3E%3Cpath%20d%3D%22M3%2C0v6h9v-6Zm1%2C2h7v3h-7ZM0%2C3v6H9V7H8v1H1V5h1V3Z%22%2F%3E%3C%2Fsvg%3E') !important;
         background-position: center;
         background-repeat: no-repeat;
         content: '';
@@ -86,8 +86,10 @@ a[target="_blank"] {
 }
 
 /* heading */
-.xz-heading .google-auto-placed, .xz-heading + .google-auto-placed, .container > .google-auto-placed, .row > .google-auto-placed {
-    display: none !important;
+.xz-heading, .xz-header, .container, .row {
+    + .google-auto-placed, > .google-auto-placed {
+        display: none !important;
+    }
 }
 
 .xz-heading-image {
