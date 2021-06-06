@@ -27,7 +27,7 @@ let renderPagination = function (pageNumber, maxPageNumber, clickEvent) {
 
 let refresh = function (page) {
     $.get({
-        "url": "/pages.json?d=" + new Date().getDate(),
+        "url": "/pages.json?d=" + +new Date(),
         "timeout": 5000
     }).done(function (data) {
         localStorage.setItem("xz-post-list", JSON.stringify({

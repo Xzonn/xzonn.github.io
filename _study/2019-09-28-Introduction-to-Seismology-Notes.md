@@ -1,6 +1,6 @@
 ---
 date: 2019-09-28 12:00
-last_modified_at: 2020-11-13 13:16
+last_modified_at: 2021-06-04 20:39
 math: true
 tags: 知识点整理 通选课
 title: 《地震概论》2019年秋季学期（周四班）笔记
