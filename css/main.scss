@@ -28,9 +28,13 @@ a[target="_blank"] {
 }
 
 .plainlinks {
-    a::before, a::after {
-        content: normal;
-        display: none;
+    a {
+        text-decoration: none;
+
+        &::before, &::after {
+            content: normal;
+            display: none;
+        }
     }
 }
 
@@ -266,10 +270,6 @@ a[target="_blank"] {
 
         & > *:first-child {
             margin-top: 0 !important;
-        }
-
-        & > p {
-            text-indent: 2em;
         }
 
         & > .row {
