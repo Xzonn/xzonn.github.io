@@ -2,7 +2,9 @@
 class: plainlinks
 date: 2021-06-15 20:01
 info: ""
-last_modified_at: 2021-07-18 14:51
+last_modified_at: 2021-07-27 11:02
+no_ad: true
+no_comment: true
 no_date: true
 no_sidenav: true
 title: 关于我
@@ -29,6 +31,7 @@ title: 关于我
 - Bilibili：[Xzonn](https://space.bilibili.com/16114399)
 - 微博：[Xzonn2020](https://weibo.com/Xzonn2020/)
 - Twitter：[Xzonn2000](https://twitter.com/Xzonn2000)
+- Steam：[Xzonn](https://steamcommunity.com/id/xzonn/)
 - GitHub：[Xzonn](https://github.com/Xzonn)
 - 神奇宝贝百科：[Xzonn](https://wiki.52poke.com/wiki/User:Xzonn)
 - 萌娘百科：[Xzonn](https://zh.moegirl.org.cn/User:Xzonn)
