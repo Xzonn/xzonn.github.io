@@ -1,9 +1,9 @@
 ---
 css: interviews
 date: 2021-07-26 21:06
-head_image: 
+head_image: https://patchwiki.biligame.com/images/twewy/2/29/edrv9vvp59kvho4mo1v6nnir5lcpiht.png
 info: 本文翻译自2021年7月26日公开的《新美妙世界》开发者访谈，综合了电击Online和4Gamer的内容。
-last_modified_at: 2021-07-27 14:45
+last_modified_at: 2021-08-11 16:29
 links: 
 - - https://www.jp.square-enix.com/shinsubarashiki/
   - 《新美妙世界》官网
@@ -109,13 +109,13 @@ title: 《新美妙世界》开发者访谈（2021-07-26）
 
 在最终宣传片中可以看到各种各样的细节。我设计的角色中还有一些没有公开的，因为这方面如果说出来就会剧透。
 
-{% include figure.html src="https://i0.hdslb.com/bfs/article/8bcbc9c8b4adfca2e6634a1cbd1def35016abbf1.jpg@942w_1676h_progressive.webp" alt="神秘角色“ミカギ”" width="2482" height="3508" %}
+{% include figure.html src="https://i0.hdslb.com/bfs/article/8bcbc9c8b4adfca2e6634a1cbd1def35016abbf1.jpg@942w_1676h_progressive.webp" alt="神秘角色“御键”" width="2482" height="3508" %}
 
 就像小林所说，我自己会监修两个人设计的作品，但最终在游戏画面中呈现出来的内容全部都是由小林负责的，我倒是比较轻松。即使有比较在意的地方，只要拜托小林也能够完成得很好。
 
 #### Twisters的一点红——梛，简直就是山下女士本人！？
 
-##### 电击Online：关于Twisters的4人，能否请教一下每个角色的设计重点吗？首先从野村先生设计的龙胆开始吧。
+##### 电击Online：关于Twisters的4人，能否请教一下每个角色的设计重点呢？首先从野村先生设计的龙胆开始吧。
 {: .question }
 
 {% include figure.html src="https://patchwiki.biligame.com/images/twewy/5/5c/nffpynsmpqsxldie4dr86cmybbxedj3.png" alt="奏龙胆" width="767" height="1781" %}
