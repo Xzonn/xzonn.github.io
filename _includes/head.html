@@ -26,8 +26,8 @@
             window.pageInfo = window.pageInfo || {
                 "title": {{ page.title | jsonify }},
                 "link": "{{ page.url }}",
-                "date": "{{ page.date | date : "%Y-%m-%d %H:%M" }}",
-                "update": "{{ page.last_modified_at | date : "%Y-%m-%d %H:%M" }}",
+                "date": "{{ page.date | date : "%FT%H:%M:%S%z" }}",
+                "update": "{{ page.last_modified_at | date : "%FT%H:%M:%S%z" }}",
                 "head_image": {{ page.head_image | jsonify }},
                 "info": {% if page.info %}{{ page.info | jsonify }}{% else %}{{ page.content | strip_html | remove: "$" | truncate: 100, "……" | jsonify }}{% endif %},
                 "wechat_link": {{ page.wechat_link | jsonify }},

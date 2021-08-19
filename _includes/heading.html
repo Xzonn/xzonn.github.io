@@ -7,7 +7,7 @@
                     <h1>{{ page.title }}</h1>{% endif %}{% if page.info %}
                     <p class="xz-meta-summary">{{ page.info }}</p>{% endif %}{% if page.last_modified_at or page.tags.size > 0 %}
                     <div class="xz-meta-infomation">{% if page.last_modified_at %}{% unless page.no_date %}
-                        <div class="xz-meta-update">{{ page.last_modified_at | date: "%Y-%m-%d %H:%M" }}</div>{% endunless %}{% endif %}{% if page.tags.size > 0 %}
+                        <time class="xz-meta-update" datetime="{{ page.last_modified_at | date: "%FT%H:%M:%S%z" }}">{{ page.last_modified_at | date: "%Y-%m-%d %H:%M" }}</time>{% endunless %}{% endif %}{% if page.tags.size > 0 %}
                         <ul class="xz-meta-tags">{% for tag in page.tags %}
                             <li><a href="/posts/#{{ tag }}">{{ tag }}</a></li>{% endfor %}
                         </ul>{% endif %}

@@ -14,7 +14,7 @@ references:
   - 『新すばせか』キャラデザインタビュー！ ネクとリンドウの意外な共通点とは!?
 - - https://www.4gamer.net/games/539/G053986/20210719051/
   - 「新すばらしきこのせかい」のキャラクターは“今の渋谷”にいる。個性を引き立たせるために意識したポイントとは
-tags: Switch 翻译
+tags: Switch 美妙世界 翻译
 title: 《新美妙世界》开发者访谈（2021-07-26）
 ---
 <div class="alert alert-success" markdown="1">
