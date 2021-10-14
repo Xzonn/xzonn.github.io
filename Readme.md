@@ -1,1 +1,1 @@
-[Xzonn 的小站](https://xzonn.github.io)
+[Xzonn 的小站](https://xzonn.top/)

@@ -2,7 +2,7 @@
 class: plainlinks
 date: 2021-06-15 20:01
 info: ""
-last_modified_at: 2021-07-27 11:02
+last_modified_at: 2021-10-10 13:13
 no_ad: true
 no_comment: true
 no_date: true
@@ -24,6 +24,7 @@ title: 关于我
 - [《宝可梦》第四世代汉化修正](https://xzonn.top/PokemonChineseTranslationRevise/)
 - [《路易吉洋馆》汉化发布](https://xzonn.top/LuigiMansion/)
 - [任天堂开发者访谈保存计划](https://ninterviews.xzonn.top/)
+- ……以及其他秘密工作
 
 联系方式：
 {: .text-left }
