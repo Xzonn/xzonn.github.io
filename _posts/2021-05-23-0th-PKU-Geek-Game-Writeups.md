@@ -1,5 +1,6 @@
 ---
 date: 2021-05-23 12:00
+head_image: https://file.moetu.org/images/2021/05/26/133429ad9a7520262f1dfcdb5d214e6aa188740b269115ec.jpg
 info: 非官方题解。
 last_modified_at: 2021-05-29 16:05
 links: 
