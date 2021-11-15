@@ -63,14 +63,14 @@ wechat_link: https://mp.weixin.qq.com/s/gTwaB7uqqNfTbg0UgsL4zw
 其他项可填可不填，GB/T 7714-2015 中未对其他项进行要求。输入完毕后，保存关闭即可。
 
 ## 在 Word 中使用 EndNote
-###1. 插入参考文献引用
+### 1. 插入参考文献引用
 安装 EndNote 后，Word 的菜单栏会出现一个名为“EndNote X9”的选项卡。从此选项卡中可以直接插入参考文献引用。如果已在 EndNote 软件中选中要插入的文献，可直接选择Insert Citation → Insert Selected Citation(s)。否则，则选择Insert Citation → Insert Citation，从打开的对话框中搜索所需的文献。
 
 插入引用后，软件会自动在文档最后插入所有被引用的参考文献。从选项卡上方的“Style”下拉菜单可以选择参考文献列表的格式，需要注意的是 GB/T 7714-2015 格式并不在默认的格式中，需要手动添加（见下文）。
 
 如果在正文中修改了文献引用顺序，或对引用有所增添，可选择“Update Citations and Bibliography”，软件会自动更新标号。
 
-###2. 修改参考文献列表的格式
+### 2. 修改参考文献列表的格式
 由于 EndNote 默认格式中没有 GB/T 7714-2015 格式，而官网给出的格式也有一些问题，所以建议大家直接下载本人修改过的版本：
 
 <https://disk.pku.edu.cn/link/83E76C0C7A4A826203DC45394CB4A282>
