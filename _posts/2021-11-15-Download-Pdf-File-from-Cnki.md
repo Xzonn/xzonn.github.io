@@ -2,9 +2,10 @@
 class: auto-numbering
 date: 2021-11-15 16:14
 info: 让浏览器访问硕博论文时自动跳转到中国知网“海外版”。
-last_modified_at: 2021-11-15 17:44
+last_modified_at: 2021-11-16 11:38
 tags: 技术指南
 title: 关于我在中国知网下载硕博论文pdf格式文件这件事
+wechat_link: https://mp.weixin.qq.com/s/w8KTRrs5akWCQ8nCWnreIg
 ---
 ## 前言
 众所周知，中国知网（CNKI）为了推广自家的“caj”格式，故意不提供硕博论文的pdf格式下载。点开硕博论文的介绍页，里面提供的只有“caj”格式的“整本下载”，而没有pdf格式。至于这个“caj”格式，除了知网自家的阅读器之外根本打不开，给学术研究造成了极大不便。此前曾有人编写了[下载pdf的脚本](https://greasyfork.org/scripts/18842)，可以在硕博论文的介绍页提供“pdf下载”的按钮，但在知网网站更新后已失效，而作者的[个人网站](http://blog.yuelong.info/post/cnki-pdf-js.html)也已无法打开。
@@ -28,7 +29,7 @@ title: 关于我在中国知网下载硕博论文pdf格式文件这件事
 https://kns.cnki.net/kcms/detail/detail.aspx?dbcode=CDFD&dbname=CDFD1214&filename=1014124155.nh&uniplatform=NZKPT&v=NJHJizxoAuPQFhVvCSqHauxz8fdIJxmKbAjmhVNHHzRp6W8VeQT6ysHFH2BYxedD
 ```
 
-那么，其在海外版的链接是：
+而其在海外版的链接是：
 
 ```
 https://chn.oversea.cnki.net/kcms/detail/detail.aspx?dbcode=CDFD&dbname=CDFD1214&filename=1014124155.nh&uniplatform=NZKPT&v=NJHJizxoAuPQFhVvCSqHauxz8fdIJxmKbAjmhVNHHzRp6W8VeQT6ysHFH2BYxedD
@@ -36,7 +37,7 @@ https://chn.oversea.cnki.net/kcms/detail/detail.aspx?dbcode=CDFD&dbname=CDFD1214
 
 也就是将开头的`https://kns.cnki.net/`替换为了`https://chn.oversea.cnki.net/`。虽然方法很简单，但在大量查阅论文时手动修改还是比较麻烦的，因此需要探索一下自动跳转的方式。
 
-## 使用“Header Editor”自动跳转
+## 使用“Header Editor”实现自动跳转
 [Header Editor](https://he.firefoxcn.net/)是一个浏览器扩展，可以修改请求头、响应头或进行重定向。此处我们可以制定一个简单的重定向规则，将硕博论文的详情页直接重定向到“海外版”中国知网。扩展的安装方式请参考官网给出的链接。
 
 在扩展中增加一条规则，命名为“中国知网海外版”，规则类型为“重定向请求”，匹配类型为“正则表达式”，匹配规则为：
@@ -45,7 +46,7 @@ https://chn.oversea.cnki.net/kcms/detail/detail.aspx?dbcode=CDFD&dbname=CDFD1214
 ^https?://kns\.cnki\.net/(.*=(?:CMFD|CDFD)&.*)$
 ```
 
-执行类型为“重定向”，重定向至：
+执行类型为“常规”，重定向至：
 
 ```
 https://chn.oversea.cnki.net/$1
@@ -66,7 +67,7 @@ https://pastebin.com/raw/MxVbMrZa
 ## 使用用户脚本替换搜索页链接
 在浏览器中有些扩展可以提供用户脚本以便实现附加功能。[Tampermonkey](https://www.tampermonkey.net/)是一个常见的加载用户脚本的扩展，因此只需要编写一个脚本就可以替换搜索页的链接。扩展的安装方式请参考官网给出的链接。
 
-脚本的思路比较简单，在访问知网的搜索页面并点击链接时，自动识别该链接是否是硕博论文，如果是则修改链接地址到“海外版”。核心代码如下：
+脚本的思路比较简单，即在访问知网的搜索页面并点击链接时，自动识别该链接是否是硕博论文，如果是则修改链接地址到“海外版”。核心代码如下：
 
 ```javascript
 let changeLink = function (e) {
