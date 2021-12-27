@@ -1,4 +1,4 @@
-<svg class="svgImage" data-alt="{{ include.alt }}" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+<svg class="svgImage" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 733 479" style="enable-background:new 0 0 733 479;" xml:space="preserve">
 <style type="text/css">
 	.EEI-HW-3-02-st0{fill:none;stroke:#D9D9D9;stroke-width:0.75;stroke-linejoin:round;stroke-miterlimit:10;}

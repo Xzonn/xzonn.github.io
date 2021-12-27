@@ -89,10 +89,9 @@ $\pu{1m3}$ 该状态下气体含有气体物质的量为：$\cfrac {700 \times 1
 </tbody>
 </table>
 
-
 作图：
 
-{% include images/EEI-HW-2-01.svg alt="图2-1 $G - x - \ln d_p$分布表" %}
+{% include figure.html src="/images/EEI-HW-2-01.svg" alt="图2-1 $G - x - \ln d_p$分布表" width="732.3" height="478.2" %}
 
 由图得：$r^2 = 0.9999$，说明该粉尘的粒径分布符合对数正态分布。 
 
@@ -145,7 +144,7 @@ $\pu{1m3}$ 该状态下气体含有气体物质的量为：$\cfrac {700 \times 1
 
 作图：
 
-{% include images/EEI-HW-2-02.svg alt="图2-2 分级效率曲线" %}
+{% include figure.html src="/images/EEI-HW-2-02.svg" alt="图2-2 分级效率曲线" width="732.6" height="479.2" %}
 
 ### 6.
 由公式：$$\eta = \sum\limits_{i} n_i\eta_i$$，列表，如表 2-3 所示：
@@ -248,7 +247,7 @@ $$q_V = \pu{3.61 L/min} = \pu{6.02E-5 m3/s}$$。
 
 按照上表计算结果作出分级效率曲线，如图 1 所示：
 
-{% include images/EEI-HW-3-01.svg alt="图3-1 分级效率曲线" %}
+{% include figure.html src="/images/EEI-HW-3-01.svg" alt="图3-1 分级效率曲线" width="732.2" height="478.2" %}
 
 由图得，分割粒径为 $$\pu{7.5 \mu m}$$。
 
@@ -352,7 +351,7 @@ $$\eta = \int_0^{+\infty} \eta_iq\mathrm dd_{\mathrm pi} = \int_0^{+\infty} \cfr
 
 对 $$\Delta p$$ 和 $$m$$ 作散点图如图 3-2 所示：
 
-{% include images/EEI-HW-3-02.svg alt="图3-2 回归曲线" %}
+{% include figure.html src="/images/EEI-HW-3-02.svg" alt="图3-2 回归曲线" width="733" height="479" %}
 
 求得回归曲线斜率为 $$k = \pu{13146 Pa/kg}$$，则 $$K_{\mathrm p} = \cfrac {\mu_{\mathrm g}v}{k\rho_{\mathrm p}S} = \pu{3.51E-12 m2}$$。
 
