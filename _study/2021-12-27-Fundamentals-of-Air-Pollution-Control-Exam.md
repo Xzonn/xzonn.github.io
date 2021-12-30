@@ -1,6 +1,6 @@
 ---
 date: 2021-12-27 12:09
-last_modified_at: 2021-12-27 20:26
+last_modified_at: 2021-12-27 20:39
 math: true
 tags: 环院专业课 试题整理
 title: 《大气污染防治原理》期末考试试题 2021秋
@@ -71,7 +71,7 @@ $$v = \cfrac {Q}{F} = \cfrac {44.4}{40}~\pu{m/s} = \pu{1.11 m/s}$$
 
 新建电除尘器集尘板总面积为：
 
-$$A = -\cfrac {\ln(1 - \eta)}{\omega_{\text{e}}}Q = -\cfrac {\ln(1 - 0.998)}{0.119} \ times 70.0~\pu{m2} = \pu{3660 m2}$$
+$$A = -\cfrac {\ln(1 - \eta)}{\omega_{\text{e}}}Q = -\cfrac {\ln(1 - 0.998)}{0.119} \times 70.0~\pu{m2} = \pu{3660 m2}$$
 
 可以按照标准选择SHWB<sub>60</sub>型，那么集尘板总面积为3743 m<sup>2</sup>，有效断面积为63.3 m<sup>2</sup>，则除尘器的断面风速为
 
@@ -126,7 +126,7 @@ pH值的影响：低pH值有利于石灰石的溶解和CaSO<sub>3</sub>、1/2H<s
 
 排气系统中SO<sub>2</sub>的比摩尔浓度为：
 
-$$y = \cfrac {c}{1-c} = \cfrac {22.4 \times 10^{-3} \times 50 / 64}{1 - 22.4 \times 10^{-3} \times 50 / 64} = \pu{0.0178 kmol}~\ce{SO<sub>2</sub>}/\text{kmol 空气}$$
+$$y = \cfrac {c}{1-c} = \cfrac {22.4 \times 10^{-3} \times 50 / 64}{1 - 22.4 \times 10^{-3} \times 50 / 64} = \pu{0.0178 kmol}~\ce{SO2}/\text{kmol 空气}$$
 
 查得20 ℃，总压101.325 kPa条件下SO<sub>2</sub>在水中的亨利系数为<i>E</i> = 3550 kPa，于是其相平衡系数为
 
@@ -134,7 +134,7 @@ $$m = \cfrac {E}{P} = \cfrac {3550}{101.325} = 35.04$$
 
 那么水中可能达到的SO<sub>2</sub>最大浓度为：
 
-$$x^* = \cfrac {y}{m} = \cfrac {0.0175}{35.04} = \pu{5.08E-4 kmol}~\ce{SO<sub>2</sub>}/\text{kmol 水}$$
+$$x^* = \cfrac {y}{m} = \cfrac {0.0175}{35.04} = \pu{5.08E-4 kmol}~\ce{SO2}/\text{kmol 水}$$
 
 ## 七、
 **Estimate the combustion gas composition and quantity and concentrations of uncontrolled emissions anticipated from new 150-MW pulverized coal and cyclone-type boilers and assume the fuel is bituminous coal with the analysis given as following:**
