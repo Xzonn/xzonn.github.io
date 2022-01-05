@@ -414,7 +414,7 @@ body {
 
             &::before {
                 margin-right: 0.75em;
-                content: '表 ' counter(tablenum);
+                content: '\8868' ' ' counter(tablenum);
             }
         }
     }
@@ -425,7 +425,7 @@ body {
 
             &::before {
                 margin-right: 0.75em;
-                content: '图 ' counter(fignum);
+                content: '\56FE' ' ' counter(fignum);
             }
         }
     }
