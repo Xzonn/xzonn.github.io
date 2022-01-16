@@ -1,6 +1,6 @@
 ---
 date: 2021-10-31 15:19
-last_modified_at: 2021-12-27 11:59
+last_modified_at: 2022-01-10 16:13
 math: true
 tags: 作业 环院专业课
 title: 《大气污染防治原理》作业机翻
@@ -211,120 +211,14 @@ using an inlet velocity of 50 ft/s. What inlet velocity would be required to col
 
 (a) 某旋风分离器装置使用50 ft/s的入口速度收集sp.gr. = 2.5的颗粒。收集sp.gr. = 1.5且具有相同品位效率的颗粒所需的入口速度是多少？压降与原始值相比如何？
 
-若$$\eta_1 = \eta_2$$，则由公式(6.27)-(6.29)：
-
-$$\eta_i = 1 - \exp\left(-Md_{p_i}^N\right)$$
-
-其中：
-
-$$M = 2\left[\cfrac {KQ}{D^3}\cdot\cfrac {\rho_p}{18\mu}(n + 1)\right]^{N/2}$$
-
-$$N = \cfrac {1}{n + 1}$$
-
-由题意，<i>K</i>、<i>D</i>、<i>μ</i>、<i>n</i>、<i>N</i>均保持不变，要使$$\eta_1 = \eta_2$$，只需要$$Q_1\rho_{p1} = Q_2\rho_{p2}$$。
-
-又因为：
-
-$$u_T = \cfrac {Q}{ab}$$
-
-其中<i>ab</i>保持不变，则：
-
-$$\cfrac{u_{T1}}{u_{T2}} = \cfrac {Q_1}{Q_2} = \cfrac {\rho_{p2}}{\rho_{p1}} = \cfrac {2.5}{1.5}$$
-
-计算得到：
-
-$$u_{T2} = \pu{83.3 ft/s}$$
-
-由公式(6.45)：
-
-$$\Delta p = 0.0030\rho_fu_T^2N_H$$
-
-因此：
-
-$$\cfrac {\Delta p'}{\Delta p} = \cfrac {u_T'^2}{u_T^2} = 2.78$$
-
 (b) The cut-diameter for a Swift high-efficiency design cyclone operating under a certain set of conditions is 2.0 μm and the pressure drop is 3.0\'\' H<sub>2</sub>O. What would be the cut-diameter and the pressure drop for a Stairmand design of the same diameter D, operating at the same flow rate, temperature, grain-loading, etc.?
 
 (b) 在特定条件下运行的快速高效设计旋风分离器的切割直径为2.0 μm，压降为3.0\'\' H<sub>2</sub>O。在相同流速、温度、谷物负载等条件下，相同直径D的楼梯设计的切割直径和压降是多少？
-
-由公式(6.28)-(6.30)：
-
-$$M = 2\left[\cfrac {KQ}{D^3}\cdot\cfrac {\rho_p}{18\mu}(n + 1)\right]^{N/2}$$
-
-$$N = \cfrac {1}{n + 1}$$
-
-$$d_{p_{\text{c}}} = \left(\cfrac {0.6931}{M}\right)^{n + 1}$$
-
-因此：
-
-$$d_{p_{\text{c}}} = \left(\cfrac {0.6931}{2}\right)^{n + 1}\left(\cfrac {KQ\rho_p}{18\mu D^2}(n + 1)\right)^{-1/2}$$
-
-由309页表2，
-
-对于Swift high-efficiency design cyclone，<i>K</i><sub>st</sub> = 699.2，<i>N</i><sub>st</sub> = 7.10，<i>b</i><sub>st</sub> = 0.21（D=1），
-
-
-对于Stairmond design，<i>K</i><sub>sd</sub> = 551.3，<i>N</i><sub>sd</sub> = 5.14，<i>b</i><sub>sd</sub> = 0.2（D=1）。
-
-$$\cfrac {d_{p_{\text{c}}\text{sd}}}{d_{p_{\text{c}}\text{st}}} = \sqrt{\cfrac {K_{\text{st}}}{K_{\text{sd}}}} = \sqrt{\cfrac {699.2}{551.3}} = 1.126$$
-
-因此：
-
-$$d_{p_{\text{c}}\text{sd}} = 1.126 \times 2.0~\pu{\mu m} = \pu{2.25 \mu m}$$
-
-由公式(6.40)：
-
-$$u_T = 16.95\cfrac{4g\mu\rho_p}{3\rho_p^2}\cfrac {(b/D)^{1.2}}{1 - b/D}D^{0.201}$$
-
-因此：
-
-$$\cfrac {u_{T\text{sd}}}{u_{T\text{st}}} = \cfrac{b_{\text{sd}}^{1.2} / (1 - b_{\text{sd}})}{b_{\text{st}}^{1.2} / (1 - b_{\text{st}})} = \cfrac {0.2^{1.2}}{0.8}\times\cfrac {0.79}{0.21^{1.2}} = 0.93$$
-
-由公式(6.45)：
-
-$$\Delta p = 0.0030\rho_fu_T^2N_H$$
-
-因此：
-
-$$\cfrac {\Delta p_{\text{sd}}}{\Delta p_{\text{st}}} = \cfrac {u_{T\text{sd}^2}N_{d\text{sd}}}{u_{T\text{st}^2}N_{T\text{st}}} = 0.93^2 \times \cfrac {5.14}{7.10} = 0.628$$
-
-$$\Delta p_{\text{sd}} = 3 \times 0.628~\pu{inches}~\ce{H2O} = \pu{1.88 inches}~\ce{H2O}$$
 
 ##### 2
 A cyclone designed to operate at 20 ℃ with a flow rate of 10,800 std. cu.ft./min of air, collecting solid particles of 1.5 gm/cm<sup>3</sup> density, has a cut-diamter of 1.96 μm. Estimate the collection grade-efficiency of particles 1.96 μm if this same cyclone were operated at 200 ℃ at a flow rate of 5000 scfm, collecting the same material. The cyclone is of high-efficiency Stairmand configuration and is 5 ft in body diameter.
 
 旋风分离器设计为在20 ℃下运行，空气流速为10,800 std. cu.ft./min，收集密度为1.5 gm/cm<sup>3</sup>的固体颗粒，切割直径为1.96 μm。如果相同的旋风分离器在200 ℃下以5000 scfm的流速运行，收集相同的材料，则估算1.96 μm颗粒的收集级效率。旋风分离器为高效楼梯结构，体直径为5 ft。
-
-由公式(6.2)：
-
-$$n = 1 - \left(1 - 0.67 D^{0.14}\right)\left(\cfrac {T}{283}\right)^{0.3} = 1 - \left(1 - 0.67 (5 \times 0.3048)^{0.14}\right)\left(\cfrac {293}{283}\right)^{0.3} = 0.7077$$
-
-由公式(6.28)-(6.30)：
-
-$$M = 2\left[\cfrac {KQ}{D^3}\cdot\cfrac {\rho_p}{18\mu}(n + 1)\right]^{N/2} = 1524.59$$
-
-$$N = \cfrac {1}{n + 1} = 0.5856$$
-
-$$d_{p_{\text{c}}} = \left(\cfrac {0.6931}{M}\right)^{n + 1} = \left(\cfrac {0.6931}{1524.59}\right)^{0.7077 + 1} = \pu{1.96E-6 m}$$
-
-同理：
-
-$$n' = 0.6625$$
-
-$$\cfrac {M'^{n' + 1}}{M^{n + 1}} = 0.651$$
-
-$$\cfrac {d_{p_{\text{c}}}'}{d_{p_{\text{c}}}} = \cfrac {M^{n + 1}}{M'^{n' + 1}} = \pu{3.06E-6 m}$$
-
-由公式(6.31)：
-
-$$\eta_i = 1 - \exp\left(-0.6931 \left(\cfrac {d_p}{d_{p_{\text{c}}}}\right)^{1/(n + 1)}\right) = 41.2\%$$
-
-##### 4
-Refer to the design example worked out in the text of this Chapter. For the case of the single cyclone, as worked out there, estimate the dimensions and carrying capacity of the spiral dune.
-
-参考本章正文中的设计示例。对于单台风的情况，如前所述，估算螺旋沙丘的尺寸和承载能力。
-
-
 
 ### 电除尘器
 ##### 1
