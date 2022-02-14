@@ -4,7 +4,7 @@ date: 2022-01-05 12:25
 head_image: https://mmbiz.qpic.cn/mmbiz_jpg/Qh7FH95PRnuloHxksOxTetZaQtOicZ5boXOu9szzEziaUHWtyO0PeHg3PB5xv1oWUlVfib6ITYKhqpkia3CuEpma9w/0
 head_image_height: 544
 head_image_width: 1280
-info: <span class="cambria">Cambria Math</span>，对不起。
+info: Cambria Math，对不起。
 last_modified_at: 2022-01-05 14:25
 math: true
 references: 
