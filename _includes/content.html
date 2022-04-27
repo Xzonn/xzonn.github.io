@@ -3,8 +3,10 @@
             <div class="row">
                 <div class="xz-content-main col-md-{% if page.no_sidenav %}12{% else %}9{% endif %}">{% if page.head_image %}
 {% include figure.html blank="                    " src=page.head_image alt=page.title width=page.head_image_width height=page.head_image_height no_link=true %}{% endif %}
-                    <article>
-{{ content | replace: '<a href="http', '<a target="_blank" href="http' }}
+                    <article>{% capture LINE_BREAK %}
+{% endcapture %}{% capture DOUBLE_LINE_BREAK %}{{ LINE_BREAK }}{{ LINE_BREAK }}{% endcapture %}{% capture LINE_BREAK_INDENT %}
+                        {% endcapture %}{% assign _content = content | strip | replace: '<a href="http', '<a target="_blank" href="http' %}
+                        {% assign _splited_pres = _content | split: "<pre " %}{% for _pre in _splited_pres %}{% if forloop.first %}{{ _pre | replace: DOUBLE_LINE_BREAK, LINE_BREAK | replace: LINE_BREAK, LINE_BREAK_INDENT }}{% else %}<pre {% assign _splited_part = _pre | split: "</pre>" %}{{ _splited_part[0] }}</pre>{{ _splited_part[1] | replace: DOUBLE_LINE_BREAK, LINE_BREAK | replace: LINE_BREAK, LINE_BREAK_INDENT }}{% endif %}{% endfor %}
                     </article>{% if page.sources or page.references or page.links or page.logs %}
                     <div class="xz-infobox-bottom">{%if page.sources %}
                         <div class="xz-info-sources">

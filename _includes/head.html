@@ -93,5 +93,7 @@
         <script src="/js/{{ i }}.js"></script>{% endfor %}
         <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.name }}</title>
         <!-- Google -->
-        <script data-ad-client="ca-pub-8317643192080236" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <script data-ad-client="ca-pub-8317643192080236" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>{% unless jekyll.environment == "development" %}
+        <!-- Baidu -->
+        <script src="https://hm.baidu.com/hm.js?e51c63f6dc2ddbf35c41b08cd39eb20a" referrerpolicy="no-referrer-when-downgrade"></script>{% endunless %}
         <!-- Common Head End -->

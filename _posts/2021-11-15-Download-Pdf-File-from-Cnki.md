@@ -3,7 +3,9 @@ class: auto-numbering
 date: 2021-11-15 16:14
 head_image: https://images.xzonn.top/github/5ce33e735d637decf48b2cb2c2637f54.png
 info: 让浏览器访问硕博论文时自动跳转到中国知网“海外版”。
-last_modified_at: 2021-11-16 11:38
+last_modified_at: 2022-03-26 11:02
+logs: 
+- 2022-03-26：修复正则表达式匹配不全的问题。
 tags: 技术指南
 title: 关于我在中国知网下载硕博论文pdf格式文件这件事
 wechat_link: https://mp.weixin.qq.com/s/w8KTRrs5akWCQ8nCWnreIg
@@ -79,8 +81,8 @@ let changeLink = function (e) {
         }
         target = target.parentNode;
     }
-    if (target.href && target.href.match(/^https?:\/\/kns\.cnki\.net\/(.*=(?:CMFD|CDFD)&.*)$/)) {
-        target.href = target.href.replace(/^https?:\/\/kns\.cnki\.net\/(.*=(?:CMFD|CDFD)&.*)$/, "https://chn.oversea.cnki.net/$1");
+    if (target.href && target.href.match(/^https?:\/\/kns\.cnki\.net\/(.*=(?:CMFD|CDFD)(?:&.*)?)$/)) {
+        target.href = target.href.replace(/^https?:\/\/kns\.cnki\.net\/(.*=(?:CMFD|CDFD)(?:&.*)?)$/, "https://chn.oversea.cnki.net/$1");
     }
 };
 document.body.addEventListener("mousedown", changeLink);

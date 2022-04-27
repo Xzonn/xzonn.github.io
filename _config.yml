@@ -44,10 +44,13 @@ collections:
   study:
     output: true
 exclude:
-  - .git
-  - _drafts/Debug
-  - Debug
-  - LICENSE
+  - Debug/
+  - node_modules/
+  - vendor/
+  - Gemfile
+  - Gemfile.lock
+  - package.json
+  - package-lock.json
 markdown: kramdown
 kramdown:
   syntax_highlighter_opts:
