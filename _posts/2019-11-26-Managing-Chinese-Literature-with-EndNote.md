@@ -7,7 +7,7 @@ head_image_height: 853
 head_image_width: 1280
 info: EndNote 其实也是可以管理中文文献的。
 js: bilibili
-last_modified_at: 2020-10-25 23:34
+last_modified_at: 2022-05-23 15:13
 tags: 技术指南
 title: 用 EndNote 管理中文文献
 wechat_link: https://mp.weixin.qq.com/s/gTwaB7uqqNfTbg0UgsL4zw
@@ -34,7 +34,7 @@ wechat_link: https://mp.weixin.qq.com/s/gTwaB7uqqNfTbg0UgsL4zw
 安装完毕后，打开软件。初次使用时需要创建一个“Library”，这便相当于前文所说的“书架”，之后导入的所有数据都会存放在 Library 中。此时在 Library 所在的文件夹中还会出现一个名为“\*.Data”（\* 代表文件名）的文件夹，里面存放了数据文件，不可删除。
 
 ## 将文献导入 EndNote
-###1. 从数据库或搜索引擎导入
+### 1. 从数据库或搜索引擎导入
 许多数据库或搜索引擎都提供了可用于导入 EndNote 的文件。以知网为例，搜索页面的每个条目前都有复选框，当选中复选框后单击右侧“已选文献”，页面右下角会出现“已选文献”文本框。点击“导出/参考文献”后，再从左边的列表中找到“EndNote”，点击“导出”，即可得到一个 .txt 文件。百度学术等网站的导出方式类似。
 
 然后，从文件资源管理器中，右键单击从网站上导出的数据文件，从“打开方式”中选择“EndNote X9...”即可导入此文件。
@@ -43,12 +43,12 @@ wechat_link: https://mp.weixin.qq.com/s/gTwaB7uqqNfTbg0UgsL4zw
 
 此种方法导入的文献并不会附带文献原文 pdf，需要手动添加。方法是选中单篇文献，点击右侧预览框上方的“曲别针”图标，然后选择对应的 pdf。
 
-###2. 从 pdf 导入
+### 2. 从 pdf 导入
 这个方法其实是我现学现卖的。一般从外文数据库下载的 pdf 文件都会保留 DOI（Digital Object Identifier，数字对象标识符）信息，此时将 pdf 导入 EndNote 后，软件会从数据库查找文献的信息并存入 Library 中。导入方法与上文类似。
 
 此种方法导入的文献会自动附带导入的 pdf 文件，但是对于大部分中文期刊来说并不适用。
 
-###3. 手动输入
+### 3. 手动输入
 一般来说，如果需要对网页进行引用，则需要手动输入。此处也以网络文献为例讲解手动输入的方法：
 
 从 EndNote 软件菜单栏中选择References → New Reference，然后从出现的表单中进行填写。首先在第一行“Reference Type”中选择“Web Page”，然后依次填写以下项：
