@@ -1,12 +1,10 @@
 ---
 class: auto-numbering
-css: bilibili
 date: 2019-03-02 12:00
 head_image: https://file.moetu.org/images/2020/02/20/48f542abdecfe0d46966b557d0b6f6b08f34c22b3a215d88.png
 head_image_height: 384
 head_image_width: 256
 infobox: incomplete pokemon pokemonGlitch
-js: bilibili
 last_modified_at: 2020-01-03 23:02
 tags: DS 任天堂 宝可梦
 title: 《精灵宝可梦》地图图块漏洞
@@ -142,11 +140,11 @@ Start -> RETIRE
 ```
 
 ## 参考视频
-<div class="bilibiliBox" data-aid="44978212" data-page="1"></div>
+{% include video.html aid="44978212" page="1" %}
 
-<div class="bilibiliBox" data-aid="44978212" data-page="2"></div>
+{% include video.html aid="44978212" page="2" %}
 
-<div class="bilibiliBox" data-aid="47147308" data-page="1"></div>
+{% include video.html aid="47147308" page="1" %}
 
 ## 参考资料
 1. <span id="ref-1"></span>Bulbapedia. Tweaking[OL]. (2018-05-04) [2019-03-02]. <https://bulbapedia.bulbagarden.net/w/index.php?title=Tweaking&oldid=2772930>.

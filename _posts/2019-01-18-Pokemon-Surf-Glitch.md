@@ -1,12 +1,10 @@
 ---
 class: auto-numbering
-css: bilibili
 date: 2019-01-18 21:03
 head_image: https://file.moetu.org/images/2020/02/20/b165db3b8779b7b7a651765b992fd48be69bef5add7cea2b.png
 head_image_height: 384
 head_image_width: 256
 infobox: pokemon pokemonGlitch
-js: bilibili
 last_modified_at: 2020-01-03 23:02
 tags: DS 任天堂 宝可梦
 title: 《精灵宝可梦》四天王房间冲浪漏洞
@@ -28,21 +26,21 @@ title: 《精灵宝可梦》四天王房间冲浪漏洞
 
 参考视频：
 
-<div class="bilibiliBox" data-aid="35191961" data-page="1"></div>
+{% include video.html aid="35191961" page="1" %}
 
 ### 前往花之乐园
 使用冲浪招式出门后，依次按照以下方式移动：右 904 步，下 363 步。使用探险套装后返回地面，或存档后重启。此时向上一格可到达分海之路，向上一直走可到达花之乐园遇到谢米。<sup>[[4](#ref-4)]</sup>
 
 参考视频：
 
-<div class="bilibiliBox" data-aid="35191961" data-page="2"></div>
+{% include video.html aid="35191961" page="2" %}
 
 ### 登入名人堂
 使用冲浪招式出门后，从房间外绕到房间上方。在门的上方清空计步器，然后向上走64步，保存并重启。重启后，向任意方向移动，会触发与竹兰的对话。对话结束后，玩家登入名人堂。<sup>[[5](#ref-5)]</sup>
 
 参考视频：
 
-<div class="bilibiliBox" data-aid="35192217" data-page="1"></div>
+{% include video.html aid="35192217" page="1" %}
 
 ## 说明
 此漏洞的触发与地图图块漏洞都进入了“**谜之场所**”（日文：**<span lang="ja">なぞの場所</span>**，英文：**<span lang="en">Mystery Zone</span>**）。该区域是第四世代游戏未使用的区域。在正常情况下，由于地图边界的限制，玩家无法前往这些区域。但是，由于漏洞的存在，玩家可以越过地图边界进入谜之场所并在其中移动，因而可以进入正常情况下无法进入的地图。

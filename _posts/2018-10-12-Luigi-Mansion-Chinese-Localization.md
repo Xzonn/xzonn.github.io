@@ -1,12 +1,10 @@
 ---
 class: auto-numbering
-css: bilibili
 date: 2018-10-12 12:00
 head_image: https://file.moetu.org/images/2020/02/20/c091b864abea3849f4b78f2eef48cb0e261e45732fcd8a9a.png
 head_image_height: 256
 head_image_width: 512
 info: 3DS《路易吉洋馆》汉化：从开坑到弃坑。
-js: bilibili
 last_modified_at: 2020-01-03 23:22
 tags: 3DS 任天堂 杂记
 title: 3DS《路易吉洋馆》汉化笔记
@@ -66,7 +64,7 @@ Cスティックで\x7f\x16にゅうりょく\x00入力\x7f\x17した\x7f\x16ほ
 
 {% include figure.html src="https://file.moetu.org/images/2020/02/20/149a4d3e85f46f847d176841a4dafc77f5e804bc14050613.png" alt="游戏界面" width="400" height="480" %}
 
-<div class="bilibiliBox" data-aid="45332875" data-page="1"></div>
+{% include video.html aid="45332875" page="1" %}
 ## 汉化进度
 * 2018/10/12：
   * 开始项目，尝试汉化北美发行版，但因问题太多而搁置。

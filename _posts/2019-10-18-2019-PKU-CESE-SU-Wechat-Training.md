@@ -1,16 +1,14 @@
 ---
 class: auto-numbering
-css: bilibili
 date: 2019-10-18 12:00
 head_image: https://file.moetu.org/images/2020/02/20/06a949f0329efaa1f4b63851e858ffda488a7039761c5827.jpg
 head_image_height: 1080
 head_image_width: 1728
-js: bilibili
 last_modified_at: 2020-01-03 23:02
 tags: 技术指南
 title: 2019年环院学生会微信推送培训指南
 ---
-<div class="bilibiliBox" data-aid="71734762" data-page="1"></div>
+{% include video.html aid="71734762" page="1" %}
 
 ## 基础知识
 本段介绍如何从零开始制作一篇成型的推送。

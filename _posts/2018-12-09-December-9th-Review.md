@@ -1,12 +1,10 @@
 ---
 class: auto-numbering
-css: bilibili
 date: 2018-12-09 12:00
 head_image: https://file.moetu.org/images/2020/02/20/380c25e4c978a1229001e891505e956b061ffffd04c27e3f.png
 head_image_height: 600
 head_image_width: 900
 info: 你看，那颗星。
-js: bilibili
 last_modified_at: 2020-02-14 13:27
 math: true
 tags: 杂记
@@ -53,7 +51,7 @@ title: 2018 年“一二·九”笔记
 
 以下是视频的预览：
 
-<div class="bilibiliBox" data-aid="37013306" data-cid="65034891" data-page="3"></div>
+{% include video.html aid="37013306" cid="65034891" page="3" %}
 
 ### 统分视频
 “统分视频”，这个名字我一开始不知道它是啥意思。按照我的理解，应该是“统一”和“分离”的辩证关系。然而现实是如此的残酷：这两个字是“统计分数”的简写。行吧。
@@ -64,7 +62,7 @@ title: 2018 年“一二·九”笔记
 
 以下是视频的预览：
 
-<div class="bilibiliBox" data-aid="37013306" data-cid="65034891" data-page="2"></div>
+{% include video.html aid="37013306" cid="65034891" page="2" %}
 
 ### 开场视频
 这个视频是所有视频里面最重要的。要是这个视频做不好，就等于是在半个学校的院系里面丢尽了脸。
@@ -95,7 +93,7 @@ title: 2018 年“一二·九”笔记
 
 以下是视频的预览：
 
-<div class="bilibiliBox" data-aid="37013306" data-cid="65034891" data-page="1"></div>
+{% include video.html aid="37013306" cid="65034891" page="1" %}
 
 ### 总结视频
 这个就是简单的选照片和加视频了。我在 12 月 9 日的下午才想起来，一台相机拍照，一台相机录像，也就是需要两台相机，而我只带过去了一台。因此我临时向周厚华借了他的相机，并请李伟帮忙带过来。
@@ -106,7 +104,7 @@ title: 2018 年“一二·九”笔记
 
 以下是视频的预览：
 
-<div class="bilibiliBox" data-aid="37013306" data-cid="65034891" data-page="4"></div>
+{% include video.html aid="37013306" cid="65034891" page="4" %}
 
 ## 拍照
 > * 这段之后是我在一二·九结束好久之后才补的，有些地方可能忘掉了。特此说明。

@@ -1,12 +1,10 @@
 ---
 class: auto-numbering
-css: bilibili
 date: 2019-11-20 12:00
 head_image: https://mmbiz.qpic.cn/mmbiz_jpg/Qh7FH95PRnuloHxksOxTetZaQtOicZ5boXOu9szzEziaUHWtyO0PeHg3PB5xv1oWUlVfib6ITYKhqpkia3CuEpma9w/0
 head_image_height: 544
 head_image_width: 1280
 info: 用截图插入公式，或许不是优雅的选择。
-js: bilibili
 last_modified_at: 2022-01-05 14:23
 tags: 技术指南
 title: 如何在微信推送中优雅地插入公式
@@ -18,7 +16,7 @@ wechat_link: https://mp.weixin.qq.com/s/mYzdirgQjLwqXrfpri8lgw
 
 这次讲座的视频：
 
-<div class="bilibiliBox" data-aid="71734762" data-page="1"></div>
+{% include video.html aid="71734762" page="1" %}
 
 这次讲座的资料：
 

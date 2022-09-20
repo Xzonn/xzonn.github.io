@@ -1,12 +1,10 @@
 ---
 class: auto-numbering
-css: bilibili
 date: 2019-11-26 12:00
 head_image: https://mmbiz.qpic.cn/mmbiz_jpg/Qh7FH95PRnuXsKbo6P2vzJ5gyibs6g4lF7VEU4vMicFmaTeul8xt9NyUG5AibhKCscKV5lK4OfJkTOaBhK9VWyQgQ/0
 head_image_height: 853
 head_image_width: 1280
 info: EndNote 其实也是可以管理中文文献的。
-js: bilibili
 last_modified_at: 2022-05-23 15:13
 tags: 技术指南
 title: 用 EndNote 管理中文文献
@@ -15,7 +13,7 @@ wechat_link: https://mp.weixin.qq.com/s/gTwaB7uqqNfTbg0UgsL4zw
 ## 前言
 一个月前（2019 年 10 月 20 日）环院学生会邀请了 2019 级博士生陈龙师兄介绍了 EndNote 软件的食用指南，想必各位都有不少收获。如果想回顾这场讲座的内容，请移步哔哩哔哩<sup class="ref-endnote"><a href="#ref-chen-long"></a></sup>：
 
-<div class="bilibiliBox" data-aid="71909726" data-page="1"></div>
+{% include video.html aid="71909726" page="1" %}
 
 作为本科生，我个人平时写课程论文时的参考文献还是以中文文献为主的。奈何 EndNote 对中文文献管理的支持并不算太好，想要用 EndNote 管理中文文献可能还需要花费一点功夫。最近趁着 18 本的小朋友在写《环境科学》文字报告、19 本的小朋友在准备《环境问题》课堂展示，我也分享一些个人使用 EndNote 管理中文文献的经验，希望对大家有所帮助。
 

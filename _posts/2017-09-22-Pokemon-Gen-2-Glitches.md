@@ -1,11 +1,9 @@
 ---
-css: bilibili glitch
 date: 2017-09-22 19:56
 head_image: https://file.moetu.org/images/2020/02/20/dbde175c6db396d9ed2c8911165e2ccf9acf7b7d248e2d83.jpg
 head_image_height: 718
 head_image_width: 1280
 info: 由Xzonn对《精灵宝可梦 金／银／水晶版》部分漏洞梳理。包括克隆漏洞、捕虫大赛数据复制漏洞、代币盒漏洞、错误维度、时拉比的蛋、不战而胜漏洞。
-js: bilibili
 last_modified_at: 2020-02-20 23:31
 tags: GBC 任天堂 宝可梦
 title: 《精灵宝可梦》第二世代游戏漏洞梳理
@@ -26,7 +24,7 @@ title: 《精灵宝可梦》第二世代游戏漏洞梳理
 - 副作用：低
 - 参考视频：
 
-<div class="bilibiliBox" data-aid="6082189" data-cid="9874341" data-page="2"></div>
+{% include video.html aid="6082189" cid="9874341" page="2" %}
 **克隆漏洞**，有些玩家可能称之为“复制漏洞”、“复制大法”等。这个漏洞可能是第二世代最著名的游戏漏洞，或许也是很多老玩家对于第二世代印象最深刻的回忆。利用这个漏洞可以**完全克隆**任意宝可梦及其携带物品，因此无限大师球／神奇糖果／招式学习器等等都能通过此漏洞实现。
 
 具体方法如下：
@@ -44,7 +42,7 @@ title: 《精灵宝可梦》第二世代游戏漏洞梳理
 
 很多人认为这个漏洞仅在《金／银》中存在，其实《水晶版》也可以触发此漏洞，只是由于《金／银》中容错的时间较长，而在《水晶版》第3步中重启的时间相对靠后且容错时间短，因此水晶版中触发此漏洞比较困难。以下视频是水晶版中获得全部最初拿到的宝可梦的流程，可以参考此视频估算《水晶版》的重启时间。
 
-<div class="bilibiliBox" data-aid="6967049" data-cid="11355008" data-page="1"></div>
+{% include video.html aid="6967049" cid="11355008" page="1" %}
 此外，在第一世代中也存在这这个漏洞，但要求更为严格，一旦操作时间不对就会造成存档损坏，因此不建议在第一世代实机上触发这个漏洞。
 
 关于此漏洞出现的原因，我个人认为是游戏在存档时将箱子中宝可梦的数据和同行的宝可梦数据分别保存，由于存档保存时间较长，而游戏又没有检查存档是否保存完整，因此出现了这种漏洞。
@@ -59,7 +57,7 @@ title: 《精灵宝可梦》第二世代游戏漏洞梳理
 - 副作用：较低
 - 参考视频：
 
-<div class="bilibiliBox" data-aid="13241389" data-cid="21711503" data-page="1"></div>
+{% include video.html aid="13241389" cid="21711503" page="1" %}
 **捕虫大赛数据复制漏洞**也被称为“另一个复制漏洞”，但此漏洞与上方所述的“克隆漏洞”有所差异。这一漏洞并不能完美地复制宝可梦的数据结构，原因在于此漏洞复制的数据来自两只宝可梦，因此不属于克隆而属于“杂交”。顺带一提，这个漏洞之前被某知名up主制作了解说视频，但目前已被删除，因此将引用的视频改为我自己录制的版本。
 
 具体方法如下：
@@ -115,7 +113,7 @@ title: 《精灵宝可梦》第二世代游戏漏洞梳理
 
 ##### 实例1：读取未使用的游戏数据
 
-<div class="bilibiliBox" data-aid="6993359" data-cid="11633805" data-page="1"></div>
+{% include video.html aid="6993359" cid="11633805" page="1" %}
 {% include figure.html src="https://file.moetu.org/images/2020/02/20/8855e18851c61f4a25c3296e57e009fd1501818d8dd06cbd.gif" alt="读取未使用的游戏数据" width="160" height="144" %}
 
 准备：
@@ -139,7 +137,7 @@ title: 《精灵宝可梦》第二世代游戏漏洞梳理
 
 ##### 实例2：获得时拉比
 
-<div class="bilibiliBox" data-aid="6993359" data-cid="11633806" data-page="2"></div>
+{% include video.html aid="6993359" cid="11633806" page="2" %}
 {% include figure.html src="https://file.moetu.org/images/2020/02/20/dffa8e57dadafdd8a413bed4c52add50c1b8a4e584d4cc85.gif" alt="获得时拉比" width="160" height="144" %}
 
 准备：
@@ -184,10 +182,10 @@ title: 《精灵宝可梦》第二世代游戏漏洞梳理
 
 - 获得?????家族：
 
-<div class="bilibiliBox" data-aid="5055108" data-cid="8211605" data-page="5"></div>
+{% include video.html aid="5055108" cid="8211605" page="5" %}
 - 贪吃蛇：
 
-<div class="bilibiliBox" data-aid="5055108" data-cid="8211606" data-page="6"></div>
+{% include video.html aid="5055108" cid="8211606" page="6" %}
 - Hello world：<http://glitchcity.info/wiki/Coin_Case_glitch>
 
 {% include figure.html src="https://file.moetu.org/images/2020/02/20/4e151309c1a7866b2c75e9ee07d33c37419ad340b9fcf0b7.gif" alt="错误维度" width="160" height="144" %}
@@ -200,7 +198,7 @@ title: 《精灵宝可梦》第二世代游戏漏洞梳理
 - 副作用：无
 - 参考视频：
 
-<div class="bilibiliBox" data-aid="3307247" data-cid="5227908" data-page="2"></div>
+{% include video.html aid="3307247" cid="5227908" page="2" %}
 **错误维度**指的实际上是游戏出现了配色错误，一般不会对游戏数据造成实质性影响。如果游戏执行了错误代码，那么游戏会重启并使用错误配色，即进入了错误维度。如果想解除漏洞影响，仅需正常重启即可。
 
 关于此漏洞产生的原因，**@Sakura12546** 给出了如下解释：
@@ -229,7 +227,7 @@ title: 《精灵宝可梦》第二世代游戏漏洞梳理
 - 副作用：高
 - 参考视频：
 
-<div class="bilibiliBox" data-aid="6474032" data-cid="10529825" data-page="1"></div>
+{% include video.html aid="6474032" cid="10529825" page="1" %}
 <div class="alert alert-danger"><p>提醒：这个漏洞可能会造成存档损坏等后果，想要触发者请慎重考虑！！！</p></div>
 **时拉比的蛋**是利用错误宝可梦“????? <sub>(00)</sub>”的隐身功能得到幻之宝可梦时拉比的一个漏洞，最早由 **[@Paco81](https://forums.glitchcity.info/index.php?action=profile;u=172)** 记录于[Glitch City Laboratories](https://forums.glitchcity.info/index.php?topic=1065.0)网站。利用这个漏洞理论上可以获得任何宝可梦和道具，但实际上存在操作上的困难。
 
@@ -271,7 +269,7 @@ title: 《精灵宝可梦》第二世代游戏漏洞梳理
 - 副作用：低
 - 参考视频：
 
-<div class="bilibiliBox" data-aid="6474032" data-cid="10529825" data-page="2"></div>
+{% include video.html aid="6474032" cid="10529825" page="2" %}
 这个漏洞利用了“????? <sub>(FF)</sub>”的“隐身”功能。在宝可梦中心回复宝可梦时，这只宝可梦及后面的宝可梦不会被回复。如果将这只错误宝可梦排在队伍首位，并在战斗中陷入濒死状态，玩家只会被传送至宝可梦中心，而同行的宝可梦不会被回复。这意味着玩家可以在没有能作战宝可梦的情况下走动，此时若触发对战，游戏会自动判定玩家胜利。因此玩家可以利用这个方法轻易通关。这是由于游戏不会在对战外判定队伍中是否有能对战的宝可梦。
 
 第一世代中的错误宝可梦“<span lang="en">'</span>M <sub>(FF)</sub>”也有类似功能，但与第二世代的游戏不同，第一世代中即使在对战外游戏也会判定队伍中是否有能对战的宝可梦，因此玩家会“寸步难行”，且此时若触发对战，游戏会自动判定玩家战败，因而后者也可称为“不战而败漏洞”。
