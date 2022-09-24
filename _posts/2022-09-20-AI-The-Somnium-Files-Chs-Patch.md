@@ -1,10 +1,10 @@
 ---
 date: 2022-09-20 14:01
-head_image: https://images.xzonn.top/github/41016c6c58ab40f67d3e19620b5b2f2c.png
+head_image: https://s2.loli.net/2022/09/20/8yuOfkEWD4HVFj9.png
 head_image_height: 1695
 head_image_width: 1924
 info: 用简体中文的字形游玩官方繁体中文的游戏。
-last_modified_at: 2022-09-20 21:52
+last_modified_at: 2022-09-24 13:50
 tags: 作品发布 技术指南
 title: 《AI：梦境档案》简体中文字体替换补丁
 ---
@@ -17,7 +17,9 @@ title: 《AI：梦境档案》简体中文字体替换补丁
 
 由于技术和精力有限，仍有部分图片形式的繁体中文字符没有替换，基本不影响剧情理解。同时，由于仅仅是替换了字体而没有替换文本，简体中文与繁体中文用语存在差异的内容会被保留。
 
-**使用方法**：将压缩包中的所有文件解压到游戏根目录下（与`AI_TheSomniumFiles.exe`同一目录），覆盖`resources.assets`、`resources.assets.resS`和`fonts`共3个文件。微软商店（Microsoft Store）和Steam版本的补丁不同，请选择对应的版本。
+**2022-09-23更新（2.0版本）**：修改了部分字体，修正了部分字符错位的情况；改用自制的补丁工具以同时兼容微软商店（Microsoft Store）版本和Steam版本。
+
+**使用方法**：打开补丁工具，选择游戏所在的文件夹，然后选择“应用补丁”。
 
 **禁止商用。转载请保留作者名（Xzonn）、本页链接及以上说明。**
 
