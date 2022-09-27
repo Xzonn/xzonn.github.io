@@ -1,10 +1,10 @@
 ---
 date: 2022-09-20 14:01
-head_image: https://s2.loli.net/2022/09/20/8yuOfkEWD4HVFj9.png
+head_image: https://s2.loli.net/2022/09/27/4k8qK3Iyl7XETAN.jpg
 head_image_height: 1695
 head_image_width: 1924
 info: 用简体中文的字形游玩官方繁体中文的游戏。
-last_modified_at: 2022-09-24 13:50
+last_modified_at: 2022-09-27 13:20
 tags: 作品发布 技术指南
 title: 《AI：梦境档案》简体中文字体替换补丁
 ---
@@ -13,6 +13,7 @@ title: 《AI：梦境档案》简体中文字体替换补丁
 </div>
 
 ## 前言
+
 《AI：梦境档案》有官方繁体中文而没有官方简体中文，虽然也能看懂，但有时候也会有些字不认识，因此想到可以通过替换游戏内字体文件的方式来实现“伪·简体中文”：也就是把繁体中文的字形换成简体中文的字形，而对应的码位不变，即“繁体源码、简体显示”。
 
 由于技术和精力有限，仍有部分图片形式的繁体中文字符没有替换，基本不影响剧情理解。同时，由于仅仅是替换了字体而没有替换文本，简体中文与繁体中文用语存在差异的内容会被保留。
@@ -26,9 +27,9 @@ title: 《AI：梦境档案》简体中文字体替换补丁
 {% include video.html bvid="BV1At4y1P7B7" %}
 
 ## 实现方法
-由于我尚未找到完全自动化的实现方式，因此下文仅分享实现方法，没有分享完整的代码。
 
 ### 文件导出
+
 本作使用了[Unity](https://unity3d.com/)引擎，因此可以用[AssetStudio](https://github.com/Perfare/AssetStudio)或[UABE](https://github.com/SeriousCache/UABE)（Unity Asset Bundle Extractor）提取游戏资源文件。不过AssetStudio不能将修改过的文件重新导入回原始资源文件，因此之后的操作中主要使用UABE，而AssetStudio则用作查看字体的贴图。
 
 在资源文件中，很容易找到字体文件的路径为：`AI_TheSomniumFiles_Data/StreamingAssets/AssetBundles/StandaloneWindows64/fonts`。使用UABE打开后首先提示该文件被压缩，需要解压缩。解压后打开可以发现，其中包含了两个文件：`CAB-f862fe844235967e981e152eea7ad062`、`CAB-f862fe844235967e981e152eea7ad062.resS`。前者包含了Assets（资产）的文件结构及其主要内容，后者包含了Texture（材质）的资源。
@@ -136,6 +137,7 @@ ui.asset-CAB_f862fe844235967e981e152eea7ad062--8527428372681959288.json
 可以明白`m_fontInfo`部分是字体信息的定义，`atlas`部分是字体对应的Texture2D的路径，`m_glyphInfoList`部分则是字体包含的字符，以及字符在Texture2D中显示的位置、大小。首先想到了可以直接截取Texture2D找到对应的字符，但是我尝试了很久都没有找到准确的规律。于是想到新办法：直接安装一个Unity，然后生成字体并替换。
 
 ### 重新生成
+
 在走了许多弯路后，最终我发现本作的字体都是由[TextMesh Pro](https://docs.unity3d.com/Packages/com.unity.textmeshpro@1.2/manual/index.html)插件生成的。本作使用的Unity版本是2017.x版本，我找到了这一版本的[安装说明](https://forum.unity.com/threads/useful-information-download-links.458634/)，但链接已经失效。尝试升级到Unity 2018.x版本（我使用的是最新版2018.4.36f1），结果自带的TextMesh Pro版本（1.4.2）导入到游戏中后不兼容（关于“不兼容”的解释见下文）。根据安装说明中的内容猜测本作的TextMesh Pro版本为1.2.x，因此尝试在Package Manager中降级到1.2.4版本，成功了！
 
 使用Unity新建一个项目，导入字体。前文得到的29个文件中的字体均以“DF”命名，即[华康](https://www.dynacw.com.tw/)公司的字体，列表如下：
@@ -237,6 +239,7 @@ _typelessdata: 00000000000000000000000000000...
 但在替换了这一文件后我发现，部分菜单内容的字体被替换了，但对话字体没有修改，仍为繁体中文。
 
 ### 进阶操作
+
 进一步研究发现，`AI_TheSomniumFiles_Data/resources.assets`文件中也有字体文件。但与前文的`fonts`文件不同的是，直接用UABE导出`resources.assets`的文件结构不全。用[HxD](https://mh-nexus.de/en/hxd/)查看文件头后发现，`fonts`文件包含了MonoBehaviour的字段名，而`resources.assets`未包含，推测UABE无法推断MonoBehaviour的文件结构而发生导出错误。好在UABE可以直接导出原始数据的bin文件，即“Export Raw”，而将导出的bin文件改名后导入到`fonts`文件替换掉已有的字体，再导出为json，不就可以修改了吗？尝试了一下，真的可以这样做。
 
 `resources.assets`中多包含了2个字体：
