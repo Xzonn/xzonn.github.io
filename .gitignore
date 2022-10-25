@@ -5,6 +5,7 @@ _site/
 .jekyll-cache/
 .jekyll-metadata
 *.draft.md
+.bundle/
 
 # Visual Studio
 .vs/
