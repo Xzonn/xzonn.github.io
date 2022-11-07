@@ -44,23 +44,23 @@ title: 如何在Word中修改公式字体
 ## 修改默认字体
 2019年的时候我曾经介绍过[如何在微信推送中插入公式]({% link _posts/2019-11-20-How-to-Insert-Formulas-in-Wechat-Articles.md %})。不过做微信推送毕竟是小众需求，更多时候插入公式还是在Word里。但是，Word中公式的默认字体是一个名叫“<span class="cambria">Cambria Math</span>”的字体，虽然也不算太丑，但是和常用的英文字体“<span class="times">Times New Roman</span>”比起来还是有很大区别，让强迫症看着很难受。
 
-{% include figure.html src="https://images.xzonn.top/github/226bef39e05e666ad4617fc9dec101cf.svg" alt="<span class=\"cambria\">Cambria Math</span> & <span class=\"times\">Times New Roman</span>" width="952.92188" height="104.57228" %}
+{% include figure.html src="226bef39e05e666ad4617fc9dec101cf.svg" alt="<span class=\"cambria\">Cambria Math</span> & <span class=\"times\">Times New Roman</span>" width="952.92188" height="104.57228" %}
 
 手动将公式的字体改为<span class="times">Times New Roman</span>没有任何效果，而且在Word的公式设置中也无法将默认字体设置为<span class="times">Times New Roman</span>。网上有些建议是这样的：先选中公式里的所有文字，然后点击菜单栏中的“转换 → 文本”，再对文本设置<span class="times">Times New Roman</span>字体，然后再将文本设置为斜体。但是这样做有一定缺陷：一方面，对于每个公式要二次处理，非常麻烦；另一方面，对于一些同时包含了斜体和非斜体的公式（例如包含了单位），单独区分更加麻烦。
 
-{% include figure.html src="https://images.xzonn.top/github/c52d89348223e68da2ecc56b783d21cd.png" alt="将公式转换为文本" width="1162" height="532" %}
+{% include figure.html src="c52d89348223e68da2ecc56b783d21cd.png" alt="将公式转换为文本" width="1162" height="532" %}
 
 Word的公式选项里其实有“默认字体”这个选项，但很多人的电脑里可能只有<span class="cambria">Cambria Math</span>这一个选项。查找[资料](https://www.zhihu.com/question/20820433/answer/16290544)后发现，Word公式的“默认字体”需要支持OpenType Math，而<span class="times">Times New Roman</span>是不支持这个特性的，因此除非修改<span class="times">Times New Roman</span>字体源文件，否则是无法直接在Word里将其选择为默认字体的。
 
-{% include figure.html src="https://images.xzonn.top/github/f5e296dc573a6752b46135034ecc0de5.png" alt="Word中对公式的设置" width="355" height="645" %}
+{% include figure.html src="f5e296dc573a6752b46135034ecc0de5.png" alt="Word中对公式的设置" width="355" height="645" %}
 
 作为替代，可以从网上找到其他与<span class="times">Times New Roman</span>设计较为接近的字体，至少从观感上来看可以保持一致。有人对支持OpenType Math的字体进行了[统计](https://firamath.github.io/opentype-math-fonts.html)，这里我推荐三种字体：[SITX](https://www.stixfonts.org/)（包括第1版和第2版）和[XITS](https://github.com/aliftype/xits)。
 
-{% include figure.html src="https://images.xzonn.top/github/44f28e5e56c87e7e282d71d49f1cf132.svg" alt="<span class=\"cambria\">Cambria Math</span> & <span class=\"times\">Times New Roman</span> & <span class=\"stix\">STIX</span> & <span class=\"stix-2\">STIX Two</span> & <span class=\"xits\">XITS</span>" width="952.92188" height="297.40428" %}
+{% include figure.html src="44f28e5e56c87e7e282d71d49f1cf132.svg" alt="<span class=\"cambria\">Cambria Math</span> & <span class=\"times\">Times New Roman</span> & <span class=\"stix\">STIX</span> & <span class=\"stix-2\">STIX Two</span> & <span class=\"xits\">XITS</span>" width="952.92188" height="297.40428" %}
 
 这三种字体都比较接近<span class="times">Times New Roman</span>，尽管还有一些差距（例如对<span class="times">z</span>的处理）。我个人使用的是<span class="stix">STIX</span>。在安装了字体之后就可以在公式选项中选择对应的字体，这样之后插入的公式就不用再受<span class="cambria">Cambria Math</span>的折磨了。如果点击右下角的“默认值”，就可以让以后创建的文档都以这个设置为默认值创建公式。
 
-{% include figure.html src="https://images.xzonn.top/github/87486b45a93b9344dbdf34d8afd53623.png" alt="用<span class=\"stix\">STIX</span>（上）和<span class=\"cambria\">Cambria Math</span>（下）排版公式" width="310.8" height="260.8" %}
+{% include figure.html src="87486b45a93b9344dbdf34d8afd53623.png" alt="用<span class=\"stix\">STIX</span>（上）和<span class=\"cambria\">Cambria Math</span>（下）排版公式" width="310.8" height="260.8" %}
 
 ## 其他设置
 在Word的公式设置中，还有一些其他有趣的选项。例如，如果将“复制公式时”的选项改为“MathML”，那么在复制Word的公式粘贴到纯文本编辑器中就会显示为MathML格式，类似于：

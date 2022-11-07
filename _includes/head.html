@@ -76,6 +76,7 @@
                 "tags": {{ page.tags | jsonify }}
             };
             window.scriptDomain = {{ site.url | jsonify }};
+            window.imageCdn = {{ site.image_cdn | jsonify }};
             window.xzLocalStorage = JSON.parse(window.localStorage.getItem("xzLocalStorage") || "{}") || {};
             (function () {
                 let style = document.getElementById("xz-local-storage-style"),

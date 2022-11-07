@@ -67,8 +67,8 @@ let renderPages = function (data, page) {
             })),
             date = $("<ul/>").addClass("post-time").append([$("<li/>").addClass("post-create").text(post.date), $("<li/>").addClass("post-update").text(post.update)]),
             tag = (post.tags.length ? $("<ul/>").addClass("post-tags").append(post.tags.map(x => $("<li/>").addClass("post-tag").append($("<a/>").text(x).attr("href", "/posts/#" + encodeURIComponent(x))))) : null),
-            image = $("<img/>").addClass("post-image").attr("src", post.head_image),
-            info = $("<p/>").addClass("post-summary").text(post.info);
+            image = $("<img/>").addClass("post-image").attr("src", ((post.head_image || "").indexOf("/") == -1 ? window.imageCdn + "/" : "") + post.head_image),
+            info = $("<p/>").addClass("post-summary").html(post.info);
         $("<div/>").addClass(["post-block", post.head_image ? "post-block-with-image" : null]).append([title, date, tag, post.head_image ? image : null, info]).appendTo($(".page-block-list"));
     }
     $(".page-list-title").text("页面列表 - 第" + pageNumber + "页");

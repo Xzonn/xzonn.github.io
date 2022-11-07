@@ -64,7 +64,7 @@ strong {
   - 洁净气体灭火器：非导电的气体或汽化液体，能蒸发，不留残余物，可用于**A、B、C、E类火灾**。
 - 建筑规范要求每40平方米配备2个灭火器。
 
-{% include figure.html src="https://images.xzonn.top/github/5e384853c02554a18051af84bd7628f0.png" alt="从左到右：ABC干粉灭火器、BC干粉灭火器、二氧化碳灭火器" width="397" height="333" %}
+{% include figure.html src="5e384853c02554a18051af84bd7628f0.png" alt="从左到右：ABC干粉灭火器、BC干粉灭火器、二氧化碳灭火器" width="397" height="333" %}
 
 - 灭火器使用方法：
   - **提**：提起灭火器。
@@ -80,23 +80,23 @@ strong {
   - 房间编号从西南角开始，逆时针方向连续编号。（实际上编号的是门）有的房间是门禁，需要到中控室开通。
 - 2-5层：有2个紧急淋洗区（221、231旁）、11处消防设施。
 
-{% include figure.html src="https://images.xzonn.top/github/c950a72c9e637df37408746375c28fed.svg" alt="2-5层" width="1435" height="625" %}
+{% include figure.html src="c950a72c9e637df37408746375c28fed.svg" alt="2-5层" width="1435" height="625" %}
 
 - 1层：有1个紧急淋洗区（112旁）、8处消防设施。常开的有5-6个门，节假日仅1号门常开。
 
-{% include figure.html src="https://images.xzonn.top/github/a684e3fe9d6f1b9bb71861718988f4ec.svg" alt="1层" width="1455" height="583" %}
+{% include figure.html src="a684e3fe9d6f1b9bb71861718988f4ec.svg" alt="1层" width="1455" height="583" %}
 
 - B1层：有1个紧急喷淋区（B114旁）、11处消防设施。
 
-{% include figure.html src="https://images.xzonn.top/github/38767cef0d6d8c9345f2770ead36ccdc.svg" alt="B1层" width="1489" height="529" %}
+{% include figure.html src="38767cef0d6d8c9345f2770ead36ccdc.svg" alt="B1层" width="1489" height="529" %}
 
 - B2层：有18处消防设施。少量公共设施用房/物业用房，大部分是实验室。
 
-{% include figure.html src="https://images.xzonn.top/github/d7932a74f68c4d6e673fa4ba21fd107d.png" alt="B2层" width="1491" height="629" %}
+{% include figure.html src="d7932a74f68c4d6e673fa4ba21fd107d.png" alt="B2层" width="1491" height="629" %}
 
 - B3层：有16处消防设施。可由逃生通道直达一层。
 
-{% include figure.html src="https://images.xzonn.top/github/9005162402a56b69456c03cd6e3b0bd3.png" alt="B3层" width="1325" height="651" %}
+{% include figure.html src="9005162402a56b69456c03cd6e3b0bd3.png" alt="B3层" width="1325" height="651" %}
 
 - 常见建筑消防设施：火灾自动报警系统、自动喷水灭火系统、消防栓系统、防烟排烟系统、安全疏散系统。
   - 手动火灾报警按钮：手动启动器件发出报警信号。
@@ -156,7 +156,7 @@ strong {
   - 化学品：联合国《全球化学品统一分类和标签制度》（GHS），分为**物理危险**、**健康危害**和**环境危害**三大类，共**28个危险种类**。
   - 货物：联合国《关于危险货物运输的建议书规章范本》，分为**9大类**。
 
-{% include figure.html src="https://images.xzonn.top/github/92746f42f2c78213739e101a65db4138.svg" alt="危险货物包装标志<br>1：爆炸品。2：压缩气体和液化气体。3：易燃液体。4：易燃固体、易于自燃物质、遇水放出易燃气体的物质。5：氧化性物质、有机过氧化物。6：毒性物质、感染性物质。7：放射性物质。8：腐蚀性物质。9：杂项危险物质和物品。" width="819.68" height="209.81" %}
+{% include figure.html src="92746f42f2c78213739e101a65db4138.svg" alt="危险货物包装标志<br>1：爆炸品。2：压缩气体和液化气体。3：易燃液体。4：易燃固体、易于自燃物质、遇水放出易燃气体的物质。5：氧化性物质、有机过氧化物。6：毒性物质、感染性物质。7：放射性物质。8：腐蚀性物质。9：杂项危险物质和物品。" width="819.68" height="209.81" %}
 
 - 化学品的购买：
   - 管制类：必须在平台购买审批。
@@ -236,7 +236,7 @@ strong {
   - 定义：列入国家危险废物名录或者根据国家规定的危险废物鉴别标准和鉴别方法认定的具有危险特性的废物。
   - 认定标准：具有毒性、腐蚀性、易燃性、反应性、感染性，或者可能对生态环境、人体健康产生有害影响。
 
-{% include figure.html src="https://images.xzonn.top/github/d061f25dfaa9c8b517fc0cdb35ec9587.svg" alt="危险废物标志" width="131.5" height="172.9" %}
+{% include figure.html src="d061f25dfaa9c8b517fc0cdb35ec9587.svg" alt="危险废物标志" width="131.5" height="172.9" %}
 
 - 危险废物名录：我国危险废物产生量大、种类多、来源广泛，环境监管难度大。
   - 分类：工业废物、医疗（药）废物、其他废物。

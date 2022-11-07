@@ -1,7 +1,7 @@
 ---
 class: auto-numbering
 date: 2021-11-15 16:14
-head_image: https://images.xzonn.top/github/5ce33e735d637decf48b2cb2c2637f54.png
+head_image: 5ce33e735d637decf48b2cb2c2637f54.png
 info: 让浏览器访问硕博论文时自动跳转到中国知网“海外版”。
 last_modified_at: 2022-03-26 11:02
 logs: 
@@ -17,13 +17,13 @@ wechat_link: https://mp.weixin.qq.com/s/w8KTRrs5akWCQ8nCWnreIg
 
 **注意：能够下载pdf文件的前提是拥有下载权限，这篇文章不是在教怎么白嫖文献。**
 
-{% include figure.html src="https://images.xzonn.top/github/aeece7ff01d2c143688ed818bd47ee47.png" width="960" height="540" alt="中国知网" %}
+{% include figure.html src="aeece7ff01d2c143688ed818bd47ee47.png" width="960" height="540" alt="中国知网" %}
 
-{% include figure.html src="https://images.xzonn.top/github/5ce33e735d637decf48b2cb2c2637f54.png" width="960" height="540" alt="中国知网“海外版”" %}
+{% include figure.html src="5ce33e735d637decf48b2cb2c2637f54.png" width="960" height="540" alt="中国知网“海外版”" %}
 
-{% include figure.html src="https://images.xzonn.top/github/a73c659c14539733d7aaf8011d3ab68a.png" width="801" height="88" alt="中国知网的下载按钮" %}
+{% include figure.html src="a73c659c14539733d7aaf8011d3ab68a.png" width="801" height="88" alt="中国知网的下载按钮" %}
 
-{% include figure.html src="https://images.xzonn.top/github/febe086cb1ad4d24c844151bce3a2c28.png" width="917" height="88" alt="中国知网“海外版”的下载按钮" %}
+{% include figure.html src="febe086cb1ad4d24c844151bce3a2c28.png" width="917" height="88" alt="中国知网“海外版”的下载按钮" %}
 
 ## 手动修改URL
 简单探索一下可以发现，对于同一篇硕博论文，中国知网的链接与“海外版”的链接格式是相同的，仅仅是域名不同。例如，对于某篇论文，其在中国知网上的链接是：
@@ -57,7 +57,7 @@ https://chn.oversea.cnki.net/$1
 
 随后保存。如果一切正常，那么现在访问中国知网的硕博论文详情页已经可以自动跳转到海外版的网站了。
 
-{% include figure.html src="https://images.xzonn.top/github/b9aa4241c15b96b04716d9d7df5d14c4.png" width="960" height="540" alt="Header Editor的设置" %}
+{% include figure.html src="b9aa4241c15b96b04716d9d7df5d14c4.png" width="960" height="540" alt="Header Editor的设置" %}
 
 如果添加有问题，可以尝试扩展的“导出和导入”选项卡中的“下载规则”，输入：
 

@@ -1,6 +1,6 @@
 ---
 date: 2022-09-04 15:53
-head_image: https://images.xzonn.top/github/72680fb66a9297a84f962648bec1c0fd.jpg
+head_image: 72680fb66a9297a84f962648bec1c0fd.jpg
 head_image_height: 1080
 head_image_width: 1920
 info: 一键完成。

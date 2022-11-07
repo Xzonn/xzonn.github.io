@@ -37,7 +37,7 @@ title: 《AI：梦境档案》简体中文字体替换补丁
 
 分析Assets文件结构发现，每个字体都包含了3个文件，即1个MonoBehaviour（单一行为，此处可理解为字体的定义文件）、1个Material（材料）、1个Texture2D（2D材质）。测试后发现Material无需修改，只需导出MonoBehaviour和Texture2D即可。使用UABE自带的Export Dump功能可导出为json文件。
 
-{% include figure.html src="https://images.xzonn.top/github/fe1c1d7002029868e1eece11abd86dc8.png" alt="使用UABE打开fonts文件" width="676" height="422.5" %}
+{% include figure.html src="fe1c1d7002029868e1eece11abd86dc8.png" alt="使用UABE打开fonts文件" width="676" height="422.5" %}
 
 首先分析MonoBehaviour。筛选了前文得到的MonoBehaviour，去除掉日文字体和不包含中文文字的文件，得到29项：
 
@@ -214,7 +214,7 @@ private string[] FontResolutionLabels = { "8", "16", "32", "64", "128", "256", "
 private int[] FontAtlasResolutions = { 8, 16, 32, 64, 128, 256, 512, 768, 1024, 2048, 3072, 4096, 8192 };
 ```
 
-{% include figure.html src="https://images.xzonn.top/github/f982792793631a520b66874951a930c6.png" alt="使用TextMesh Pro生成新的Asset" width="550" height="407" %}
+{% include figure.html src="f982792793631a520b66874951a930c6.png" alt="使用TextMesh Pro生成新的Asset" width="550" height="407" %}
 
 保存生成后的Asset，这个文件可以直接以文本文件形式打开，为yaml格式，其中也包含了`m_fontInfo`等信息：
 

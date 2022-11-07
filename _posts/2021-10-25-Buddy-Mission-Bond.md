@@ -1,6 +1,6 @@
 ---
 date: 2021-10-25 19:42
-head_image: https://images.xzonn.top/github/e5df04a14afbaa3c83e134bc3090597b.png
+head_image: e5df04a14afbaa3c83e134bc3090597b.png
 head_image_height: 1080
 head_image_width: 1920
 info: 《搭档任务 秘密搜查组》主题曲。

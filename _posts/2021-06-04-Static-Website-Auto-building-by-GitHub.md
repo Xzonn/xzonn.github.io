@@ -1,7 +1,7 @@
 ---
 class: auto-numbering
 date: 2021-06-04 21:31
-head_image: https://images.xzonn.top/github/1b5acbf64825ad14c5e274c5a5990557.png
+head_image: 1b5acbf64825ad14c5e274c5a5990557.png
 head_image_height: 720
 head_image_width: 1080
 info: Markdown + Jekyll + OSS + CDN + GitHub Actions，自动构建一个静态网站。
@@ -39,7 +39,7 @@ title: 使用GitHub自动构建静态网站
 
 首先，在[官网](https://oss.console.aliyun.com/)创建一个“Bucket”，这个Bucket大概可以翻译成“桶”，也就是装文件的容器。“地域”是服务器所在的位置，不同地域的Endpoint不一样。配置中最重要的一点，“读写权限”一定要是“公共读写”，否则别人无法通过链接访问。“版本控制”可以不选，因为下面的步骤使用GitHub本身就有版本控制的功能。
 
-{% include figure.html src="https://images.xzonn.top/github/50204529b802270485d6359de801f86e.png" alt="创建容器" width="400" height="416" %}
+{% include figure.html src="50204529b802270485d6359de801f86e.png" alt="创建容器" width="400" height="416" %}
 
 创建容器之后，进行一些简单的配置。在“基础设置”中，需要将“静态页面”的“默认首页”设置为“`index.html`”，默认404页可以设置为“`404.html`”（也可以不设置404页）。在“传输管理”中，可以设置域名，但如果后面设置CDN的话此处可以先不设置。在“权限管理”中可以设置防盗链，如果OSS用作图床的话，此处的Referer可以设置为自己的域名，例如我设置为了“`*.xzonn.top`”“`xzonn.top`”；但如果用作网站的话不要设置，否则别人从其他网站访问会返回403。其他配置我个人暂时用不上，如果有需要的话可以自行探索。
 
@@ -52,7 +52,7 @@ CDN，全称为Content Delivery Network（内容分发网络）。CDN不是必�
 
 首先前往[官网](https://cdn.console.aliyun.com/)添加一个域名，如`test.xzonn.top`。个人网站的“业务类型”一般选择“图片小文件”即可。“加速区域”可以根据需求来定。“源站信息”选择“OSS域名”，然后直接从下拉菜单中找到前面创建的容器，确定。在添加了域名之后需要审核，审核完毕后按照说明在DNS解析中添加CNAME解析记录即可。
 
-{% include figure.html src="https://images.xzonn.top/github/20feaaadb5a9b1ea6c89eb7c247e58ed.png" alt="添加CDN源站信息" width="479" height="441" %}
+{% include figure.html src="20feaaadb5a9b1ea6c89eb7c247e58ed.png" alt="添加CDN源站信息" width="479" height="441" %}
 
 CDN同样需要一些配置。“回源配置”中可以配置CDN结点访问OSS时的设置，我在“回源协议”中选择了“HTTP”，这样可以省去OSS和CDN之间的HTTPS传输。“缓存设置”可以给静态文件设置较长的时间。“HTTPS配置”可以让网站开启HTTPS，首先需要申请证书，CDN可以自动为域名申请免费证书并自动续签，而OSS虽然也可以开启HTTPS但似乎无法自动申请证书。此外我还设置了HTTP强制跳转HTTPS。“访问控制”中的“Referer防盗链”和OSS的设置类似。“性能优化”中可以开启针对文本文件的压缩功能和针对图片文件的图像处理功能，可以节省一些流量。
 

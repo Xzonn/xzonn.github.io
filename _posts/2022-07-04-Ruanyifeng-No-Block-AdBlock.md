@@ -1,6 +1,6 @@
 ---
 date: 2022-07-04 23:16
-head_image: https://images.xzonn.top/github/8fac7d92a62229268f7640c3bce1ca66.png
+head_image: 8fac7d92a62229268f7640c3bce1ca66.png
 info: 一行代码实现防止阮一峰博客屏蔽AdBlock。
 last_modified_at: 2022-07-04 23:27
 tags: 杂记
