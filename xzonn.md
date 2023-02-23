@@ -2,7 +2,7 @@
 class: plainlinks
 date: 2021-06-15 20:01
 info: ""
-last_modified_at: 2021-10-10 13:13
+last_modified_at: 2023-02-23 23:26
 no_ad: true
 no_comment: true
 no_date: true
@@ -15,16 +15,18 @@ title: 关于我
 {{ "now" | date: "%y" }}岁，学生。专业是环境工程。
 {: .text-left }
 
-任天堂爱好者，宝可梦玩家。
+任天堂爱好者，宝可梦玩家。会一点点编程。
 {: .text-left }
 
-目前的工作：
+做过的事：
 {: .text-left }
 
 - [《宝可梦》第四世代汉化修正](https://xzonn.top/PokemonChineseTranslationRevise/)
-- [《路易吉洋馆》汉化发布](https://xzonn.top/LuigiMansion/)
+- [《路易吉洋馆》汉化](https://xzonn.top/LuigiMansion/)
+- [任天堂官方中文化游戏文本](https://github.com/Xzonn/NintendoOfficialChineseGames)
 - [任天堂开发者访谈保存计划](https://ninterviews.xzonn.top/)
-- ……以及其他秘密工作
+- [《宝可梦 朱／紫》数据库](https://sv.xzonn.top/)
+- ……以及其他秘密事项
 
 联系方式：
 {: .text-left }
