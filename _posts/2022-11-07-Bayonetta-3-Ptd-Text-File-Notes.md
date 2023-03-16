@@ -2,7 +2,7 @@
 date: 2022-11-07 10:12
 head_image: https://store-jp.nintendo.com/dw/image/v2/BFGJ_PRD/on/demandware.static/-/Sites-all-master-catalog/ja_JP/dw1c6246c4/products/D70010000046399/heroBanner/9cf0e06bde95c972b7bb681630873994325ebae595d81f00dcb14c57ef543a1b.jpg
 info: Analysis of PTD text files of <i>Bayonetta 3</i>.
-last_modified_at: 2022-11-07 12:44
+last_modified_at: 2023-03-17 00:02
 links: 
 - - https://ninterviews.xzonn.top/switch/axb7a.famitsu.html
   - 充满惊喜的《蓓优妮塔3》 - 任天堂开发者访谈保存计划
@@ -207,3 +207,5 @@ if __name__ == "__main__":
   for lang in writers:
     writers[lang].close()
 ```
+
+**2023-03-17更新**：《蓓优妮塔 起源：瑟蕾莎与迷失的恶魔》使用了同样的文本格式，只不过简体中文的代码是`CSzk`，繁体中文的代码是`TWzk`，怀疑是打错了`zh`和`zk`……
