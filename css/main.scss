@@ -382,6 +382,73 @@ a[target="_blank"] {
     }
 }
 
+/* 图片预览 */
+.xz-modal-close {
+    display: block;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 80px;
+    height: 80px;
+    background-color: var(--color-warm);
+    cursor: pointer;
+
+    i {
+        position: relative;
+        display: block;
+        width: 40px;
+        height: 40px;
+        top: 20px;
+        left: 20px;
+        transform: rotate(45deg);
+
+        &::before,
+        &::after {
+            position: absolute;
+            display: block;
+            background-color: #fff;
+            border-radius: 2px;
+            content: '';
+        }
+
+        &::before {
+            top: 50%;
+            left: 0;
+            width: 100%;
+            height: 4px;
+            margin-top: -2px;
+        }
+
+        &::after {
+            top: 0;
+            left: 50%;
+            width: 4px;
+            height: 100%;
+            margin-left: -3px;
+        }
+    }
+}
+
+.xz-modal-content {
+    width: 100%;
+    max-width: 800px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+
+    &>* {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+}
+
+.xz-modal-youtube {
+    aspect-ratio: 16/9;
+}
+
 /* 自动编号 */
 body {
     &.auto-numbering, &.auto-numbering-heading, &.auto-numbering-table, &.auto-numbering-figure {

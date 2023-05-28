@@ -291,6 +291,45 @@ $(function () {
   windowScroll();
   $(window).bind("scroll", windowScroll);
 
+  /* 图片预览 */
+  $(".figure-link, .video-link").on("click", function (e) {
+    let link = $(this).attr("href");
+    console.log(link);
+    if (link.match(/\.mp4$/)) {
+      $(`<video/>`)
+        .addClass("xz-modal-video")
+        .attr({
+          src: link,
+          controls: "controls",
+          autoplay: "autoplay",
+        })
+        .appendTo($(".xz-modal-content").empty());
+    } else if (link.match(/\.(?:bmp|jpe?g|gif|png|webp)$/)) {
+      $(`<img/>`)
+        .addClass("xz-modal-image")
+        .attr("src", link)
+        .appendTo($(".xz-modal-content").empty());
+    } else if (link.match(/youtube\.com\/watch/)) {
+      let video_id = link.match(/(?<=\/watch\?v=)[^\?&]+/)[0];
+      let video_args = (link.match(/(?<=[\?&]).+$/) || "")[0];
+      console.log(video_id, video_args);
+      $(`<iframe/>`)
+        .addClass("xz-modal-youtube")
+        .attr({
+          src: `https://youtube.com/embed/${video_id}?autoplay=1&controls=1&${video_args}`,
+          allowfullscreen: "allowfullscreen",
+          allow:
+            "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share",
+        })
+        .appendTo($(".xz-modal-content").empty());
+    }
+    $(".xz-modal").modal("show");
+    e.preventDefault();
+  });
+  $(".xz-modal").on("hide.bs.modal", function () {
+    $(".xz-modal-content").empty();
+  });
+
   /* Han.js */
   if (!window.MathJax) {
     Han(document.body).render();
