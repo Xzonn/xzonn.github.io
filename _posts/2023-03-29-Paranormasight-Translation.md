@@ -2,7 +2,7 @@
 date: 2023-03-29 13:40
 head_image: 89ddb8a69144a1ab223707ec897b23a7.jpg
 info: 简单记录一下汉化的实现方式，让后人少走点弯路。
-last_modified_at: 2023-03-29 17:19
+last_modified_at: 2023-05-30 11:24
 links: 
 - - https://www.jp.square-enix.com/paranormasight/
   - 游戏官网
@@ -16,6 +16,8 @@ title: 《灵异视界 FILE23 本所七大不可思议》文本翻译汉化笔�
 </div>
 
 本来我没打算买这个游戏，不过我有一个朋友说对这个游戏感兴趣，我就顺便研究了一下。
+
+{% include video.html bvid="BV1Tc411V7tp" title="《灵异视界 FILE23 本所七大不可思议》文本翻译汉化效果预览及技术实现介绍" %}
 
 ## 文件格式
 

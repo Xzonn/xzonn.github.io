@@ -4,7 +4,7 @@ head_image: 04ec27f2e9a8f10d63e8a24434befcb2.jpg
 head_image_height: 800
 head_image_width: 1200
 info: 记录一下心路历程以及踩的坑。
-last_modified_at: 2023-05-28 14:26
+last_modified_at: 2023-05-30 11:24
 tags: 杂记
 title: 我的第一台组装主机
 ---
@@ -75,6 +75,8 @@ title: 我的第一台组装主机
 {% include figure.html src="54082096903c2d9edab489a9a6bb59bb.jpg" alt="鲁大师硬件配置" width="490" height="300" %}
 
 {% include figure.html src="04ec27f2e9a8f10d63e8a24434befcb2.jpg" alt="机箱内的构造" width="600" height="400" %}
+
+{% include figure.html src="58c0de4fa25b9325cc09d554e19a25f8.jpg" alt="显卡还挺新，希望不会翻车" width="242.5" height="154.5" %}
 
 拼装过程就没啥好说的了，完全是按照装机教程和游戏里的操作经验来的。只不过因为是第一次装机，还是遇到了几个坑。
 
