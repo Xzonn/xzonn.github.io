@@ -3,13 +3,17 @@ class: auto-numbering
 date: 2021-11-15 16:14
 head_image: 5ce33e735d637decf48b2cb2c2637f54.png
 info: 让浏览器访问硕博论文时自动跳转到中国知网“海外版”。
-last_modified_at: 2022-03-26 11:02
+last_modified_at: 2023-06-02 14:57
 logs: 
 - 2022-03-26：修复正则表达式匹配不全的问题。
 tags: 技术指南
 title: 关于我在中国知网下载硕博论文pdf格式文件这件事
 wechat_link: https://mp.weixin.qq.com/s/w8KTRrs5akWCQ8nCWnreIg
 ---
+<div class="alert alert-danger" role="alert"><p><strong>提醒</strong>：由于网站格式更新，方法已失效。本文仅做留档用。</p></div>
+
+**2023-06-02更新**：目前知网“海外版”屏蔽了中国大陆的IP访问，并且中国大陆的高校无法使用机构登录。但是目前中国大陆版本的知网已经开始提供PDF下载链接。
+
 ## 前言
 众所周知，中国知网（CNKI）为了推广自家的“caj”格式，故意不提供硕博论文的pdf格式下载。点开硕博论文的介绍页，里面提供的只有“caj”格式的“整本下载”，而没有pdf格式。至于这个“caj”格式，除了知网自家的阅读器之外根本打不开，给学术研究造成了极大不便。此前曾有人编写了[下载pdf的脚本](https://greasyfork.org/scripts/18842)，可以在硕博论文的介绍页提供“pdf下载”的按钮，但在知网网站更新后已失效，而作者的[个人网站](http://blog.yuelong.info/post/cnki-pdf-js.html)也已无法打开。
 
@@ -95,3 +99,5 @@ document.body.addEventListener("click", changeLink);
 “海外版”的存在，让下载pdf格式的硕博论文成为了可能。希望互联网上能够少一些私有格式，多一些通用标准，让“网上冲浪”减少一些阻碍。
 
 **再次提醒：能够下载pdf文件的前提是拥有下载权限，这篇文章不是在教怎么白嫖文献。**
+
+<div class="alert alert-danger" role="alert"><p><strong>提醒</strong>：由于网站格式更新，方法已失效。本文仅做留档用。</p></div>
