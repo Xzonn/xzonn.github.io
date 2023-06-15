@@ -1,4 +1,0 @@
----
-layout: plain
----
-[{% for post in site.study %}{"title":{{ post.title | jsonify }},"link":"{{ post.url }}","date":"{{ post.date | date : "%Y-%m-%d %H:%M" }}","update":"{{ post.last_modified_at | date : "%Y-%m-%d %H:%M" }}","head_image":{{ post.head_image | jsonify }},"info":{% if post.info %}{{ post.info | jsonify }}{% else %}{{ post.content | strip_html | remove: "$" | truncate: 200, "……" | jsonify }}{% endif %},"wechat_link":{{ post.wechat_link | jsonify }},"tags":{{ post.tags | jsonify }}}{% unless forloop.last %},{% endunless %}{% endfor %}]

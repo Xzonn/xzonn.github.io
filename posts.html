@@ -6,7 +6,7 @@ no_sidenav: true
 permalink: /posts/
 title: 文章列表
 ---
-<div class="text-center" style="font-weight: bold; margin-bottom: 20px;">如果您在查找学习资料，请前往<a href="/study.html">此处</a>。</div>
+<div class="text-center" style="font-weight: bold; margin-bottom: 20px;">如果您在查找学习资料，请前往<a href="/study/">此处</a>。</div>
 <ul class="xz-taglist nav nav-pills fade">
     <li id="tag-" data-sort="{{ site.posts.size }}"><a href="#">全部<span class="badge">{{ site.posts.size }}</span></a></li>{% for tag in site.tags %}
     <li id="tag-{{ tag[0] }}" data-sort="{{ tag[1].size }}"><a href="#{{ tag[0] }}">{{ tag[0] }}<span class="badge">{{ tag[1].size }}</span></a></li>{% endfor %}
