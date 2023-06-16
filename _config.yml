@@ -63,7 +63,7 @@ plugins:
 timezone: Asia/Shanghai
 url: https://xzonn.top
 image_cdn: https://images.xzonn.top/github
-cdnpath: https://cdn.jsdelivr.net/gh/Xzonn/xzonn.github.io@master
+static_cdn: https://cdn.jsdelivr.net/gh/Xzonn/xzonn.github.io@master
 version: v4.0
 sass:
   load_paths:

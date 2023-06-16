@@ -5,7 +5,13 @@ _site/
 .jekyll-cache/
 .jekyll-metadata
 *.draft.md
+
+# Bundler
 .bundle/
+vendor/
+
+# Npm
+node_modules/
 
 # Visual Studio
 .vs/
@@ -13,3 +19,4 @@ Debug/
 
 # Visual Studio Code
 .vscode/
+*.code-workspace
