@@ -1,18 +1,18 @@
 ---
 date: 2023-03-29 13:40
-head_image: 89ddb8a69144a1ab223707ec897b23a7.jpg
+head_image: 8641ff9bee2e445e78ec3ce82614590e.jpg
 info: 简单记录一下汉化的实现方式，让后人少走点弯路。
-last_modified_at: 2023-05-30 11:24
+last_modified_at: 2023-09-22 21:20
 links: 
 - - https://www.jp.square-enix.com/paranormasight/
   - 游戏官网
 - - https://github.com/Xzonn/ParanormasightChsLocalization
   - 汉化相关代码
 tags: Switch 技术指南
-title: 《灵异视界 FILE23 本所七大不可思议》文本翻译汉化笔记
+title: 《灵异视界 FILE23 本所七大不可思议》汉化笔记
 ---
 <div class="alert alert-success" markdown="1" style="text-align: center; font-size: 150%;">
-**[发布链接](https://github.com/Xzonn/ParanormasightChsLocalization/releases/tag/publish)**
+**[发布链接](https://xzonn.top/ParanormasightChsLocalization/)**
 </div>
 
 本来我没打算买这个游戏，不过我有一个朋友说对这个游戏感兴趣，我就顺便研究了一下。
