@@ -4,15 +4,19 @@ head_image: 4adb9e45f11a047ff786f4074cc463fb.png
 head_image_height: 384
 head_image_width: 256
 info: 抛砖引玉。
-last_modified_at: 2023-09-20 12:36
+last_modified_at: 2023-10-07 18:21
+links: 
+  - - https://haroohie.club/blog/2022-11-02-chokuretsu-archives
+    - Chokuretsu ROM Hacking Challenges Part 2 – Archive Archaeology
+logs: 
+  - 2023-10-17：更新移植到日版的方法。
 tags: DS 宝可梦
 title: 基于pret项目的《宝可梦 钻石／珍珠》汉化
 ---
 ## 前言
 好久没动[《宝可梦》第四世代汉化修正](https://xzonn.top/PokemonChineseTranslationRevise/)项目了，最近重新研究了一下珍钻的汉化。因为我对汇编代码并不是很熟悉，还有很多东西没搞懂，但还是姑且先写一下目前的进展，抛砖引玉一下。
 
-## 字库显示
-### ACG汉化组的修改
+## ACG汉化组对字库的修改
 字库问题是首先需要解决的问题。白金和心魂的字库问题实际上已经被ACG汉化组解决了，但是珍钻的字库问题一直没能得到解决。如果把白金的字库直接用在珍钻上，会显示不出来；而YYJoy汉化组不知道用了什么技术，即使是把他们制作的ROM解包后重新打包都会出现问题。在分析了pret项目提供的逆向工程代码并对比了日版游戏和ACG汉化版游戏的`arm9.bin`后，我发现了问题所在。
 
 珍钻、白金、心魂使用的字库是同一个格式，都是[`SimpleFontTable`](https://github.com/Xzonn/PCTRTools/blob/master/NARCFileReadingDLL/SimpleFontTable.cs)格式，这个格式里保存了`m_nItemsCount`这个参数，也即字体文件中包含的字符个数。但是在白金和心魂的汉化版中，这个参数实际上是小于字符个数的，因此在我的工具中也将这个参数写死为了`0x01FD`（后来改为了`0x0200`）。一开始我不是很明白为什么汉化版要这么做。在对比了日版白金和ACG汉化版的`arm9.bin`后，我发现有两处修改；同时参照了美版的`arm9.bin`和[pret/pokeplatinum](https://github.com/pret/pokeplatinum)项目，修改的地方在[`src/unk_020232E0.c`](https://github.com/pret/pokeplatinum/blob/e1844cadc0808eb252104fa06bc117bb9c5c6f78/src/unk_020232E0.c)这个文件：
@@ -80,7 +84,7 @@ static u32 GetGlyphWidth_VariableWidth(struct FontData *fontData, int glyphId) {
 
 这里`u32 GetGlyphWidth_VariableWidth()`是获取字符的宽度，如果字符超过了字库中的字符总数，就返回`?`的宽度。ACG汉化的白金版没有修改此处的代码，所以在字库中需要修改`?`的宽度为中文汉字的宽度，否则汉字会显示不完全。
 
-### 照葫芦画瓢
+## 照葫芦画瓢
 既然知道了ACG汉化组是怎么改的，我本以为可以照葫芦画瓢，对珍钻的`arm9.bin`也进行类似的改动。但遗憾的是，因为珍钻是最早的作品，它加载字库的代码与后续作品都不一致，甚至日版与美版的代码都不一致。我不太懂如何反汇编，所以只能先在美版的珍钻上动刀。
 
 同样参照[pret/pokediamond](https://github.com/pret/pokediamond)项目，相关代码在[`arm9/src/unk_02021590.c`](https://github.com/pret/pokediamond/blob/31ff8cec15a9ef26dc38016f5093d87ea027ed80/arm9/src/unk_02021590.c)文件中：
@@ -119,9 +123,15 @@ int GetGlyphWidth_VariableWidth(struct FontData * ptr, int a1)
 
 搞定了字库之后，文本其实很好解决了，之前修改白金和心魂的时候已经有了比较成熟的工具，直接套用即可。只不过美版比日版多出来了几个文本，需要补全。
 
-## 其他问题
 文本和字库解决了，但游戏里还有一些日版与美版不同的代码逻辑需要处理。在字符宽度方面，日版用的是宽字符，美版用的是窄字符，视觉上略有区别。虽然可以强制让美版显示日版的宽字符，但由于字符宽度的问题，一些地方会出现显示错位的情况，例如宝可梦图鉴：
 
 {% include figure.html src="be9c1114f6fbc3649fe5f4e9a5800a58.png" alt="宝可梦图鉴字符有覆盖" width="256" height="384" %}
 
-这一点我暂时还没想到较好的解决方案，留待之后再想办法吧。
+## 移植到日版
+虽然日版和美版的代码不完全一样，但好在也不是完全不一样。正好我看到了[一篇关于修改NDS ROM的文章](https://haroohie.club/blog/2022-11-02-chokuretsu-archives)，里面提到了使用IDA和插件。于是我找到了一个能用于IDA Pro 7.6+版本的插件[nds_ida](https://github.com/kynex7510/nds_ida)，可以用于将arm9.bin转换成汇编指令。
+
+首先根据特征字节码`49 1E 09 04`大致定位到`TryLoadGlyph()`这个函数的位置`CODE:0202296C`，然后在这个函数的附近可以找到其它相关函数。虽然函数的顺序略有不同，具体实现方法也有差异，不过总体来说还是能根据特征步骤找到日版与美版的对应函数。
+
+{% include figure.html src="d73382f00b27b0732cdaf0259e3c74ca.png" alt="根据pret对美版的函数命名修改了日版的命名" width="1538" height="895" %}
+
+接下来的修改就比较简单了，和上面一一对应。只不过`GetGlyphWidth_VariableWidth()`这个函数需要扩容，而恰好`InitFontResources_FromPreloaded()`这个函数不需要调用了，因此可以把前者的地址修改到后者这里，覆盖原有的代码即可。修改后的arm9.bin见[此处](https://github.com/Xzonn/PCTRAutoBuild/blob/b6c759bf7ed081a57562048032af83ca131e77e8/files/D/arm9.bin)。
