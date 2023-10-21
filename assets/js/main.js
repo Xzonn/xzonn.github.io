@@ -1,338 +1,274 @@
 "use strict";
+/* global $ */
 
-$(function () {
+window.addEventListener("load", () => {
   window.pageInfo = window.pageInfo || {};
   /* 目录 */
-  window.tocRender =
-    window.tocRender ||
-    function () {
-      $(".mw-parser-output #toc").remove();
-      let toc = $("<div/>"),
-        lastRank = 1,
-        tocID = [],
-        headings = $(".xz-content").find("h2, h3, h4"),
-        headingIds = 0;
-      if (!headings) {
-        return;
-      }
-      headings.each(function (n, t) {
-        if (
-          this.classList.contains("visible-print-block") ||
-          this.classList.contains("no-toc")
-        ) {
-          return;
-        }
-        if (!this.id) {
-          this.id = "heading-" + ++headingIds;
-        } else if (this.id.slice(0, 5) == "fake-") {
-          $(this).find("span.xz-fake-bookmark").remove();
-          this.id = this.id.slice(5);
-        }
-        var thisRank = +this.tagName[1];
-        while (thisRank > lastRank) {
-          tocID.push(0);
-          if (toc.children().length == 0) {
-            toc = $("<li/>").addClass("no-list-style").appendTo($(toc));
-          }
-          toc = $("<ul/>")
-            .addClass("nav nav-stacked")
-            .appendTo($(toc.children()[toc.children().length - 1] || toc));
-          thisRank--;
-        }
-        while (lastRank > thisRank) {
-          tocID.pop();
-          toc = toc.parent().parent();
-          thisRank++;
-        }
-        tocID.push(tocID.pop() + 1);
-        let headingContent = this.innerHTML;
-        if ($(this).find(".mw-headline").length > 0) {
-          headingContent = $(this).find(".mw-headline").html();
-        }
-        headingContent = headingContent.replace(/<a [^<>]+>(.*?)<\/a>/g, "$1");
-        toc.append(
-          $("<li/>").append(
-            $("<a/>")
-              .attr({
-                href: "#" + this.id,
-              })
-              .html(headingContent)
-          )
+  (() => {
+    $(".xz-sidenav").on("click", (e) => {
+      let target = e.target;
+      if (target.tagName.toLowerCase() == "a") {
+        e.preventDefault();
+        e.stopPropagation();
+        let hash = "#" + decodeURIComponent(target.href.split("#")[1]);
+        history.pushState(
+          {
+            url: location.href,
+          },
+          hash,
+          location.href.split("#")[0] + hash
         );
-        lastRank = +this.tagName[1];
-      });
-      while (toc.parent()[0]) {
-        toc = toc.parent();
+        $("html").animate(
+          {
+            scrollTop: $(hash).offset().top,
+          },
+          300
+        );
       }
-      while (
-        toc.children().length == 1 &&
-        (!(toc.children()[0].tagName.toLowerCase() == "li") ||
-          toc.children()[0].classList.contains("no-list-style"))
-      ) {
-        toc = toc.children();
-      }
-      toc.find(".no-list-style").each(function () {
-        $(this).parent().replaceWith($(this).children());
-      });
-      toc
-        .children()
-        .prependTo($(".xz-sidenav-list").empty())
-        .bind("click", function (e) {
-          let target = e.target;
-          if (target.tagName.toLowerCase() == "a") {
-            e.preventDefault();
-            e.stopPropagation();
-            let hash = "#" + decodeURIComponent(target.href.split("#")[1]);
-            history.pushState(
-              {
-                url: location.href,
-              },
-              hash,
-              location.href.split("#")[0] + hash
-            );
-            $("html").animate(
-              {
-                scrollTop: $(hash).offset().top,
-              },
-              300
-            );
-          }
-        });
-      $("body").scrollspy("refresh");
-    };
-  $("body").scrollspy({
-    target: ".xz-sidenav",
-  });
-  window.tocRender();
+    });
+    $("body").scrollspy({
+      target: ".xz-sidenav",
+    });
+  })();
 
   /* 代码高亮 */
-  $(".xz-content pre code").each(function () {
-    $(this).html(
-      "<ul><li>" +
-        $(this)
-          .html()
-          .replace(/^\s+/, "")
-          .replace(/\s+$/, "")
-          .replace(/\n/g, "</li><li>") +
-        "</li></ul>"
-    );
-    $(this)
-      .find("li:last-child")
-      .each(function () {
-        if (!this.innerHTML) {
-          $(this).remove();
-        }
-      });
-  });
+  (() => {
+    $(".xz-content pre code").each((n, code) => {
+      let inner = $(code)
+        .html()
+        .replace(/^\s+/, "")
+        .replace(/\s+$/, "")
+        .replace(/\n/g, "</li><li>");
+      while (inner.search(/(<span class="[^"]+">)([^<>]+)(<\/li><li>)/) > -1) {
+        inner = inner.replace(
+          /(<span class="[^"]+">)([^<>]+)(<\/li><li>)/,
+          "$1$2</span>$3$1"
+        );
+      }
+      $(code)
+        .html(`<ul><li>${inner}</li></ul>`)
+        .find("li:last-child")
+        .each(() => {
+          if (!code.innerHTML) {
+            $(code).remove();
+          }
+        });
+    });
+  })();
 
   /* 表注 */
-  (function () {
-    let tables = $("table"),
-      i;
-    for (i = 0; i < tables.length; i++) {
-      let table = tables[i],
-        caption = table.dataset["caption"],
-        id = table.dataset["id"];
-      if (caption) {
-        $("<caption/>")
+  (() => {
+    $("table").each((i, table) => {
+      let caption = $(table).find("caption");
+      if (caption.length) {
+        caption
           .addClass("caption-table")
-          .html(caption)
-          .attr("id", id)
+          .attr("id", table.dataset["id"] || `table-${i + 1}`)
           .prependTo(table);
       }
-    }
+    });
   })();
 
   /* 表格 */
-  $(".xz-content-main article > table:not(.no-table)").each(function () {
-    $(this).addClass("table");
-    if (
-      !$(this)
-        .parentsUntil(".xz-content-main article")
-        .find("div.table-responsive").length
-    ) {
-      $(this).wrap($("<div/>").addClass("table-responsive"));
-    }
-  });
-
-  /* 图注、表注显示 */
-  (function () {
-    let figureCaptionId = {};
-    $(".caption-figure").each(function (n) {
-      if (this.id) {
-        figureCaptionId[this.id] = n + 1;
-      }
-    });
-    $("a.xref-figure").each(function () {
-      let hash = this.href.split("#").slice(-1)[0];
-      if (figureCaptionId[hash]) {
-        $(this).text("图 " + figureCaptionId[hash]);
-      }
-    });
-    let tableCaptionId = {};
-    $(".caption-table").each(function (n) {
-      if (this.id) {
-        tableCaptionId[this.id] = n + 1;
-      }
-    });
-    $("a.xref-table").each(function () {
-      let hash = this.href.split("#").slice(-1)[0];
-      if (tableCaptionId[hash]) {
-        $(this).text("表 " + tableCaptionId[hash]);
+  (() => {
+    $(".xz-content-main article > table:not(.no-table)").each((i, table) => {
+      $(table).addClass("table");
+      if (
+        !$(table)
+          .parentsUntil(".xz-content-main article")
+          .find("div.table-responsive").length
+      ) {
+        $(table).wrap($("<div/>").addClass("table-responsive"));
       }
     });
   })();
 
-  /* 参考文献显示 */
-  (function () {
-    let endnoteId = {};
-    $(".list-endnote li").each(function (n) {
-      if (this.id) {
-        endnoteId[this.id] = n + 1;
+  /* 交叉引用显示 */
+  (() => {
+    /* 图注 */
+    let figure_caption_id = {};
+    $(".caption-figure").each((n, caption) => {
+      if (caption.id) {
+        figure_caption_id[caption.id] = n + 1;
       }
     });
-    $(".ref-endnote > a").each(function () {
-      let hash = this.href.split("#").slice(-1)[0];
-      if (endnoteId[hash]) {
-        $(this).text(endnoteId[hash]);
+    $("a.xref-figure").each((n, link) => {
+      let hash = link.href.split("#").slice(-1)[0];
+      if (figure_caption_id[hash]) {
+        $(link).text(`图{figure_caption_id[hash]}`);
+      }
+    });
+
+    /* 表注 */
+    let table_caption_id = {};
+    $(".caption-table").each((n, caption) => {
+      if (caption.id) {
+        table_caption_id[caption.id] = n + 1;
+      }
+    });
+    $("a.xref-table").each((n, link) => {
+      let hash = link.href.split("#").slice(-1)[0];
+      if (table_caption_id[hash]) {
+        $(link).text(`表{table_caption_id[hash]}`);
+      }
+    });
+
+    /* 参考文献 */
+    let endnote_id = {};
+    $(".list-endnote li").each((n, item) => {
+      if (item.id) {
+        endnote_id[item.id] = n + 1;
+      }
+    });
+    $(".ref-endnote > a").each((n, link) => {
+      let hash = link.href.split("#").slice(-1)[0];
+      if (endnote_id[hash]) {
+        $(link).text(endnote_id[hash]);
       }
     });
   })();
 
   /* 注释 */
-  $("span.footnote").each(function (count) {
-    $(this)
-      .addClass("visible-print-inline")
-      .after(
-        $("<a/>")
-          .addClass("footnote-icon")
-          .text(count + 1)
-          .attr({
-            href: "",
-          })
-          .bind("click", function (e) {
-            e.preventDefault();
-          })
-          .popover({
-            content: this.innerHTML,
-            html: true,
-            placement: "bottom",
-            toggle: "popover",
-            trigger: "focus",
-          })
-      );
-  });
+  (() => {
+    $("span.footnote").each((count, footnote) => {
+      $(footnote)
+        .addClass("visible-print-inline")
+        .after(
+          $("<a/>")
+            .addClass("footnote-icon")
+            .text(count + 1)
+            .attr({
+              href: "",
+            })
+            .on("click", (e) => e.preventDefault())
+            .popover({
+              content: footnote.innerHTML,
+              html: true,
+              placement: "bottom",
+              toggle: "popover",
+              trigger: "focus",
+            })
+        );
+    });
+  })();
 
   /* 返回页面顶端 */
-  $(".xz-navtop").click(function (e) {
-    e.preventDefault();
-    $("html").animate(
-      {
-        scrollTop: 0,
-      },
-      500
-    );
-  });
-  $(".xz-navbottom").click(function (e) {
-    e.preventDefault();
-    $("html").animate(
-      {
-        scrollTop: $(document.body).height(),
-      },
-      500
-    );
-  });
+  (() => {
+    $(".xz-navtop").on("click", (e) => {
+      e.preventDefault();
+      $("html").animate(
+        {
+          scrollTop: 0,
+        },
+        500
+      );
+    });
+    $(".xz-navbottom").on("click", (e) => {
+      e.preventDefault();
+      $("html").animate(
+        {
+          scrollTop: $(document.body).height(),
+        },
+        500
+      );
+    });
+  })();
 
   /* resize */
-  window.windowResize = function () {
-    $(".xz-footer").css("position", "initial");
-    if ($("body").height() == $(window).height()) {
-      $(".xz-footer").css("position", "absolute");
-    }
-    $(".xz-sidenav-list").affix({
-      offset: {
-        top: $(".xz-content-main").offset().top,
-        bottom: $(".xz-footer").outerHeight(),
-      },
-    });
-  };
-  windowResize();
-  $(window).bind("resize", windowResize);
+  (() => {
+    window.windowResize = () => {
+      $(".xz-footer").css("position", "initial");
+      if ($("body").height() == $(window).height()) {
+        $(".xz-footer").css("position", "absolute");
+      }
+      $(".xz-sidenav-list").affix({
+        offset: {
+          top: $(".xz-content-main").offset().top,
+          bottom: $(".xz-footer").outerHeight(),
+        },
+      });
+    };
+    windowResize();
+    $(window).on("resize", windowResize);
+  })();
 
   /* scroll */
-  let scrollTimer;
-  window.windowScroll = function () {
-    $(".xz-footer-navtop")
-      .css({
-        bottom: Math.max(
-          $(window).scrollTop() +
-            $(window).innerHeight() -
-            ($(".xz-content-main").offset().top +
-              $(".xz-content-main").outerHeight()),
-          25
-        ),
-      })
-      .fadeIn(200);
-    clearTimeout(scrollTimer);
-    scrollTimer = setTimeout(function () {
-      $(".xz-footer-navtop").fadeOut(500);
-    }, 2000);
-  };
-  $(".xz-footer-navtop").bind({
-    mouseenter: function () {
-      clearTimeout(scrollTimer);
-    },
-    mouseleave: function () {
-      scrollTimer = setTimeout(function () {
+  (() => {
+    let scroll_timer;
+    window.windowScroll = function () {
+      $(".xz-footer-navtop")
+        .css({
+          bottom: Math.max(
+            $(window).scrollTop() +
+              $(window).innerHeight() -
+              ($(".xz-content-main").offset().top +
+                $(".xz-content-main").outerHeight()),
+            25
+          ),
+        })
+        .fadeIn(200);
+      clearTimeout(scroll_timer);
+      scroll_timer = setTimeout(function () {
         $(".xz-footer-navtop").fadeOut(500);
       }, 2000);
-    },
-  });
-  windowScroll();
-  $(window).bind("scroll", windowScroll);
+    };
+    $(".xz-footer-navtop").on({
+      mouseenter: function () {
+        clearTimeout(scroll_timer);
+      },
+      mouseleave: function () {
+        scroll_timer = setTimeout(function () {
+          $(".xz-footer-navtop").fadeOut(500);
+        }, 2000);
+      },
+    });
+    windowScroll();
+    $(window).on("scroll", windowScroll);
+  })();
 
   /* 图片预览 */
-  $(".figure-link, .video-link").on("click", function (e) {
-    let link = $(this).attr("href");
-    console.log(link);
-    if (link.match(/\.mp4$/)) {
-      $(`<video/>`)
-        .addClass("xz-modal-video")
-        .attr({
-          src: link,
-          controls: "controls",
-          autoplay: "autoplay",
-        })
-        .appendTo($(".xz-modal-content").empty());
-    } else if (link.match(/\.(?:bmp|jpe?g|gif|png|webp)$/)) {
-      $(`<img/>`)
-        .addClass("xz-modal-image")
-        .attr("src", link)
-        .appendTo($(".xz-modal-content").empty());
-    } else if (link.match(/youtube\.com\/watch/)) {
-      let video_id = link.match(/(?<=\/watch\?v=)[^\?&]+/)[0];
-      let video_args = (link.match(/(?<=[\?&]).+$/) || "")[0];
-      console.log(video_id, video_args);
-      $(`<iframe/>`)
-        .addClass("xz-modal-youtube")
-        .attr({
-          src: `https://youtube.com/embed/${video_id}?autoplay=1&controls=1&${video_args}`,
-          allowfullscreen: "allowfullscreen",
-          allow:
-            "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share",
-        })
-        .appendTo($(".xz-modal-content").empty());
-    }
-    $(".xz-modal").modal("show");
-    e.preventDefault();
-  });
-  $(".xz-modal").on("hide.bs.modal", function () {
-    $(".xz-modal-content").empty();
-  });
+  (() => {
+    $(".figure-link, .video-link").on("click", (e) => {
+      e.preventDefault();
+      let link = $(e.target).attr("href") || "";
+      if (link.match(/\.mp4$/)) {
+        $(`<video/>`)
+          .addClass("xz-modal-video")
+          .attr({
+            src: link,
+            controls: "controls",
+            autoplay: "autoplay",
+          })
+          .appendTo($(".xz-modal-content").empty());
+      } else if (link.match(/\.(?:bmp|jpe?g|gif|png|webp)$/)) {
+        $(`<img/>`)
+          .addClass("xz-modal-image")
+          .attr("src", link)
+          .appendTo($(".xz-modal-content").empty());
+      } else if (link.match(/youtube\.com\/watch/)) {
+        let video_id = link.match(/(?<=\/watch\?v=)[^\?&]+/)[0];
+        let video_args = (link.match(/(?<=[\?&]).+$/) || "")[0];
+        console.log(video_id, video_args);
+        $(`<iframe/>`)
+          .addClass("xz-modal-youtube")
+          .attr({
+            src: `https://youtube.com/embed/${video_id}?autoplay=1&controls=1&${video_args}`,
+            allowfullscreen: "allowfullscreen",
+            allow:
+              "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share",
+          })
+          .appendTo($(".xz-modal-content").empty());
+      }
+      $(".xz-modal").modal("show");
+    });
+    $(".xz-modal").on("hide.bs.modal", () => $(".xz-modal-content").empty());
+  })();
 
   /* Han.js */
-  if (!window.MathJax) {
-    Han(document.body).render();
-    window.mathjaxRendered = true;
-  }
+  (() => {
+    if (!window.MathJax) {
+      Han(document.body).render();
+      window.mathjaxRendered = true;
+    }
+  })();
 });

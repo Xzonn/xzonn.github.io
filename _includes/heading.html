@@ -1,18 +1,18 @@
-        <!-- Common Heading Start -->
-        <div class="xz-heading jumbotron">{% if page.head_image %}
-            <div class="xz-heading-image" style="background-image: url({% capture _src %}{% assign _splited_src = page.head_image | split: "/" %}{% if _splited_src.size == 1 %}{{ site.image_cdn }}/{% endif %}{{ page.head_image }}{% endcapture %}{{ _src }});"></div>{% endif %}
-            <div class="container">
-                <div class="xz-heading-text">{% if page.date %}{% unless page.no_date %}
-                    <div class="xz-meta-create-top">{{ page.date | date: "%Y.%-m.%-d" }}</div>{% endunless %}{% endif %}{% if page.title %}
-                    <h1>{{ page.title }}</h1>{% endif %}{% if page.info %}
-                    <p class="xz-meta-summary">{{ page.info }}</p>{% endif %}{% if page.last_modified_at or page.tags.size > 0 %}
-                    <div class="xz-meta-infomation">{% if page.last_modified_at %}{% unless page.no_date %}
-                        <time class="xz-meta-update" datetime="{{ page.last_modified_at | date: "%FT%H:%M:%S%z" }}">{{ page.last_modified_at | date: "%Y-%m-%d %H:%M" }}</time>{% endunless %}{% endif %}{% if page.tags.size > 0 %}
-                        <ul class="xz-meta-tags">{% for tag in page.tags %}
-                            <li><a href="/posts/#{{ tag }}">{{ tag }}</a></li>{% endfor %}
-                        </ul>{% endif %}
-                    </div>{% endif %}
-                </div>
-            </div>
+    <!-- Common Heading Start -->
+    <div class="xz-heading jumbotron">{% if page.head_image %}
+      <div class="xz-heading-image" style="background-image: url({% capture _src %}{% assign _splited_src = page.head_image | split: "/" %}{% if _splited_src.size == 1 %}{{ site.image_cdn }}/{% endif %}{{ page.head_image }}{% endcapture %}{{ _src }});"></div>{% endif %}
+      <div class="container">
+        <div class="xz-heading-text">{% if page.date %}{% unless page.no_date %}
+          <div class="xz-meta-create-top">{{ page.date | date: "%Y.%-m.%-d" }}</div>{% endunless %}{% endif %}{% if page.title %}
+          <h1>{{ page.title }}</h1>{% endif %}{% if page.info %}
+          <p class="xz-meta-summary">{{ page.info }}</p>{% endif %}{% if page.last_modified_at or page.tags.size > 0 %}
+          <div class="xz-meta-infomation">{% if page.last_modified_at %}{% unless page.no_date %}
+            <time class="xz-meta-update" datetime="{{ page.last_modified_at | date: "%FT%H:%M:%S%z" }}">{{ page.last_modified_at | date: "%Y-%m-%d %H:%M" }}</time>{% endunless %}{% endif %}{% if page.tags.size > 0 %}
+            <ul class="xz-meta-tags">{% for tag in page.tags %}
+              <li><a href="/posts/#{{ tag }}">{{ tag }}</a></li>{% endfor %}
+            </ul>{% endif %}
+          </div>{% endif %}
         </div>
-        <!-- Common Heading End -->
+      </div>
+    </div>
+    <!-- Common Heading End -->

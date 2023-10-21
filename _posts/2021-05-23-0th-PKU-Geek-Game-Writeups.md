@@ -26,7 +26,7 @@ references:
   - 哈夫曼(Huffman)编码python代码实现
 - - https://blog.csdn.net/a200710716/article/details/51644421
   - ZIP文件格式分析
-tags: 编程
+tags: 题解
 title: 第零届北京大学信息安全综合能力竞赛个人题解
 ---
 <style>

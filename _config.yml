@@ -22,6 +22,7 @@ defaults:
   - values:
       base_css: "base"
       layout: "default"
+      license: "by-nc-sa"
       head_image_width: 1280
       head_image_height: 720
   - scope:
@@ -49,6 +50,7 @@ exclude:
   - vendor/
   - Gemfile
   - Gemfile.lock
+  - jsconfig.json
   - package.json
   - package-lock.json
 markdown: kramdown
