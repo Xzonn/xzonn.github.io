@@ -54,6 +54,7 @@ exclude:
   - jsconfig.json
   - package.json
   - package-lock.json
+  - "*.less"
 markdown: kramdown
 kramdown:
   syntax_highlighter_opts:
@@ -68,6 +69,7 @@ url: https://xzonn.top
 image_cdn: https://images.xzonn.top/github
 static_cdn: https://cdn.jsdelivr.net/gh/Xzonn/xzonn.github.io@master
 version: v4.0
+repository: Xzonn/xzonn.github.io
 sass:
   load_paths:
     - css

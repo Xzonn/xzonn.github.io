@@ -1,0 +1,90 @@
+/* 8 颜色 */
+@color-cold: #21dea5;
+@color-warm: #de215a;
+
+@color-cold-light: lighten(@color-cold, 25%);
+@color-cold-lighter: lighten(@color-cold, 40%);
+@color-cold-dark: darken(@color-cold, 25%);
+@color-cold-darker: darken(@color-cold, 40%);
+@color-warm-light: lighten(@color-warm, 25%);
+@color-warm-lighter: lighten(@color-warm, 40%);
+@color-warm-dark: darken(@color-warm, 25%);
+@color-warm-darker: darken(@color-warm, 40%);
+
+@brand-primary: darken(@color-cold, 10%);
+
+/* 26 框架 */
+@body-bg: lighten(@color-warm, 45%);
+
+/* 43 字体 */
+@font-family-sans-serif-latin: "Segoe UI", Roboto, "Helvetica Neue", Helvetica, Arial;
+@font-family-sans-serif-chinese: "Noto Sans CJK SC", "Source Han Sans CN", "Source Han Sans SC", "Source Han Sans", "Microsoft Yahei", Simhei, sans-serif;
+@font-family-sans-serif-print-latin: Arial;
+@font-family-sans-serif-print-chinese: Simhei, sans-serif;
+
+@font-family-serif-latin: STIX-Web, "Times New Roman";
+@font-family-serif-chinese: "Source Han Serif CN", "Source Han Serif SC", "Source Han Serif", Simsun, serif;
+@font-family-serif-print-latin: STIX-Web, "Times New Roman";
+@font-family-serif-print-chinese: Simsun, serif;
+
+@font-family-sans-serif: @font-family-sans-serif-latin, @font-family-sans-serif-chinese;
+@font-family-serif: @font-family-serif-latin, @font-family-serif-chinese;
+@font-family-monospace: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", "Noto Sans CJK SC", "Source Han Sans CN", "Source Han Sans SC", "Source Han Sans", "Microsoft Yahei", Simhei, monospace;
+@font-family-fang-song: FangSong, Simfang, Simsun, serif;
+@font-family-kai-ti: KaiTi, Simkai, Simsun, serif;
+
+@font-family-base: @font-family-sans-serif;
+@font-size-base: 15px;
+
+@line-height-base: 1.732050807568877;
+
+@font-size-h1: ceil(@font-size-base * 2);
+@font-size-h2: ceil(@font-size-base * 1.8);
+@font-size-h3: ceil(@font-size-base * 1.6);
+@font-size-h4: ceil(@font-size-base * 1.2);
+@font-size-h5: @font-size-base;
+@font-size-h6: @font-size-base;
+
+@headings-font-weight: 600;
+@headings-line-height: inherit;
+
+/* 76 图标 */
+@icon-font-path: "https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/fonts/";
+
+/* 357 导航条 */
+@navbar-default-color: @color-cold-dark;
+@navbar-default-bg: lighten(@color-cold, 45%);
+@navbar-default-border: @color-cold;
+
+@navbar-default-link-color: @color-cold;
+@navbar-default-link-hover-color: @color-cold-dark;
+@navbar-default-link-active-color: darken(@color-cold, 10%);
+@navbar-default-link-disabled-color: @color-cold-lighter;
+
+/* 419 导航 */
+@nav-link-hover-bg: @color-cold-light;
+
+/* 485 大屏*/
+@jumbotron-color: @color-cold-dark;
+@jumbotron-bg: @color-cold-light;
+@jumbotron-heading-color: @color-cold-darker;
+@jumbotron-font-size: ceil(@font-size-base * 1.2);
+@jumbotron-heading-font-size: @font-size-h1;
+
+/* 代码 */
+@code-bg: fade(@color-warm-light, 40%);
+@code-color: @color-warm-dark;
+
+@kbd-bg: @color-warm-dark;
+@kbd-color: @color-warm-light;
+
+@pre-bg: @color-warm-light;
+@pre-color: @color-warm-dark;
+@pre-border-color: @color-warm-dark;
+
+/* 类型 */
+@blockquote-font-size: @font-size-base;
+@blockquote-border-color: @color-warm-dark;
+
+/* 其他 */
+@jumbotron-background-image: linear-gradient(to bottom, @color-cold-light, lighten(@color-cold, 45%));

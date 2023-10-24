@@ -34,7 +34,7 @@ window.addEventListener("load", () => {
   /* 代码高亮 */
   (() => {
     $(".xz-content pre code").each((n, code) => {
-      let inner = $(code).html().replace(/^\s+/, "").replace(/\s+$/, "").replace(/\n/g, "</li><li>");
+      let inner = $(code).html().replace(/^\s+/, "").replace(/\s+$/, "").replace(/<span class="w">\n+<\/span>$/, "").replace(/\n/g, "</li><li>");
       while (inner.search(/(<span class="[^"]+">)([^<>]+)(<\/li><li>)/) > -1) {
         inner = inner.replace(/(<span class="[^"]+">)([^<>]+)(<\/li><li>)/, "$1$2</span>$3$1");
       }

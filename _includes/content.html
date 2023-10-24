@@ -40,7 +40,7 @@
           </div>{% endunless %}
         </div>{% unless page.no_sidenav %}
         <div class="xz-sidenav col-md-3 hidden-print hidden-xs hidden-sm" id="xz-sidenav">
-          {% include toc.html html=content h_max=4 class="xz-sidenav-list nav nav-stacked affix-top" submenu_class="nav nav-stacked" %}
+          {% include toc.html html=content sanitize=true h_max=4 class="xz-sidenav-list nav nav-stacked affix-top" submenu_class="nav nav-stacked" %}
         </div>{% endunless %}
       </div>
     </div>
