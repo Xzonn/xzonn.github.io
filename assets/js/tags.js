@@ -34,9 +34,7 @@ window.addEventListener("load", () => {
         id: "tag-" + tag_name,
         "data-sort": tag_count,
       })
-      .html(
-        `<a href="#${tag_name}">${tag_name}<span class="badge">${tag_count}</span></a>`
-      )
+      .html(`<a href="#${tag_name}">${tag_name}<span class="badge">${tag_count}</span></a>`)
       .appendTo($(".xz-taglist"));
   }
 

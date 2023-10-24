@@ -34,16 +34,9 @@ window.addEventListener("load", () => {
   /* 代码高亮 */
   (() => {
     $(".xz-content pre code").each((n, code) => {
-      let inner = $(code)
-        .html()
-        .replace(/^\s+/, "")
-        .replace(/\s+$/, "")
-        .replace(/\n/g, "</li><li>");
+      let inner = $(code).html().replace(/^\s+/, "").replace(/\s+$/, "").replace(/\n/g, "</li><li>");
       while (inner.search(/(<span class="[^"]+">)([^<>]+)(<\/li><li>)/) > -1) {
-        inner = inner.replace(
-          /(<span class="[^"]+">)([^<>]+)(<\/li><li>)/,
-          "$1$2</span>$3$1"
-        );
+        inner = inner.replace(/(<span class="[^"]+">)([^<>]+)(<\/li><li>)/, "$1$2</span>$3$1");
       }
       $(code)
         .html(`<ul><li>${inner}</li></ul>`)
@@ -73,11 +66,7 @@ window.addEventListener("load", () => {
   (() => {
     $(".xz-content-main article > table:not(.no-table)").each((i, table) => {
       $(table).addClass("table");
-      if (
-        !$(table)
-          .parentsUntil(".xz-content-main article")
-          .find("div.table-responsive").length
-      ) {
+      if (!$(table).parentsUntil(".xz-content-main article").find("div.table-responsive").length) {
         $(table).wrap($("<div/>").addClass("table-responsive"));
       }
     });
@@ -201,8 +190,7 @@ window.addEventListener("load", () => {
           bottom: Math.max(
             $(window).scrollTop() +
               $(window).innerHeight() -
-              ($(".xz-content-main").offset().top +
-                $(".xz-content-main").outerHeight()),
+              ($(".xz-content-main").offset().top + $(".xz-content-main").outerHeight()),
             25
           ),
         })
@@ -241,10 +229,7 @@ window.addEventListener("load", () => {
           })
           .appendTo($(".xz-modal-content").empty());
       } else if (link.match(/\.(?:bmp|jpe?g|gif|png|webp)$/)) {
-        $(`<img/>`)
-          .addClass("xz-modal-image")
-          .attr("src", link)
-          .appendTo($(".xz-modal-content").empty());
+        $(`<img/>`).addClass("xz-modal-image").attr("src", link).appendTo($(".xz-modal-content").empty());
       } else if (link.match(/youtube\.com\/watch/)) {
         let video_id = link.match(/(?<=\/watch\?v=)[^\?&]+/)[0];
         let video_args = (link.match(/(?<=[\?&]).+$/) || "")[0];

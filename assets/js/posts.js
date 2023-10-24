@@ -29,20 +29,12 @@ window.addEventListener("load", () => {
     addPage(pageNumber - 1, "\xab", pageNumber == 1 ? "disabled" : "");
     pageNumber > 3 && addPage(1);
     pageNumber > 4 && addPage(1, "\u2026", "disabled");
-    for (
-      let i = Math.max(1, pageNumber - 2);
-      i <= Math.min(maxPageNumber, pageNumber + 2);
-      i++
-    ) {
+    for (let i = Math.max(1, pageNumber - 2); i <= Math.min(maxPageNumber, pageNumber + 2); i++) {
       addPage(i, i, pageNumber == i ? "active" : "");
     }
     pageNumber < maxPageNumber - 3 && addPage(1, "\u2026", "disabled");
     pageNumber < maxPageNumber - 2 && addPage(maxPageNumber);
-    addPage(
-      pageNumber + 1,
-      "\xbb",
-      pageNumber == maxPageNumber ? "disabled" : ""
-    );
+    addPage(pageNumber + 1, "\xbb", pageNumber == maxPageNumber ? "disabled" : "");
     paginationList.find("a").on("click", clickEvent);
     return paginationList;
   };
@@ -64,7 +56,7 @@ window.addEventListener("load", () => {
   };
 
   let renderPages = (data, page) => {
-    let pageCount = Cookies.get("page-count") || 10,
+    let pageCount = window.xzLocalStorage["page-count"] || 10,
       pageNumber = +(page || getURLParameters().page || 1),
       isWeChat = /MicroMessenger/.test(navigator.userAgent),
       i;
@@ -84,11 +76,7 @@ window.addEventListener("load", () => {
     if (isNaN(pageNumber) || pageNumber < 1) pageNumber = 1;
     if (pageNumber > maxPageNumber) pageNumber = maxPageNumber;
     $(".page-block-list").empty();
-    for (
-      i = (pageNumber - 1) * pageCount;
-      i < Math.min(pageNumber * pageCount, data.length);
-      i++
-    ) {
+    for (i = (pageNumber - 1) * pageCount; i < Math.min(pageNumber * pageCount, data.length); i++) {
       let post = data[i],
         title = $("<h3/>")
           .addClass("post-title")
@@ -96,8 +84,7 @@ window.addEventListener("load", () => {
             $("<a/>")
               .text(post.title)
               .attr({
-                href:
-                  isWeChat && post.wechat_link ? post.wechat_link : post.link,
+                href: isWeChat && post.wechat_link ? post.wechat_link : post.link,
                 title: post.title,
               })
           ),
@@ -122,20 +109,14 @@ window.addEventListener("load", () => {
                 )
               )
           : null,
-        image = $("<img/>")
-          .addClass("post-image")
-          .attr(
-            "src",
-            ((post.head_image || "").indexOf("/") == -1
-              ? window.imageCdn + "/"
-              : "") + post.head_image
-          ),
+        image = post.head_image
+          ? $("<img/>")
+              .addClass("post-image")
+              .attr("src", ((post.head_image || "").indexOf("/") == -1 ? window.imageCdn + "/" : "") + post.head_image)
+          : null,
         info = $("<p/>").addClass("post-summary").html(post.info);
       $("<div/>")
-        .addClass([
-          "post-block",
-          post.head_image ? "post-block-with-image" : null,
-        ])
+        .addClass(["post-block", post.head_image ? "post-block-with-image" : null])
         .append([title, date, tag, post.head_image ? image : null, info])
         .appendTo($(".page-block-list"));
     }
@@ -171,10 +152,7 @@ window.addEventListener("load", () => {
 
   window.changePage = (page) => {
     let hasedPostList = JSON.parse(localStorage.getItem("xz-post-list"));
-    if (
-      !hasedPostList ||
-      new Date() - hasedPostList["update"] > 30 * 60 * 1000
-    ) {
+    if (!hasedPostList || new Date() - hasedPostList["update"] > 30 * 60 * 1000) {
       refresh(page);
     } else {
       renderPages(hasedPostList["list"], page);

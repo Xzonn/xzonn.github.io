@@ -2,51 +2,51 @@
 ---
 /* 访谈 */
 h2 {
-    text-align: center;
+  text-align: center;
 }
 
 h3 {
-    padding: 15px 20px;
-    border-left: 4px solid #bbb;
-    background-color: #f2f2f2;
+  padding: 15px 20px;
+  border-left: 4px solid #bbb;
+  background-color: #f2f2f2;
 }
 
 .question {
-    position: relative;
-    padding-left: 2.5em;
-    margin-top: 60px;
+  position: relative;
+  padding-left: 2.5em;
+  margin-top: 60px;
 }
 
 .question::before {
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: block;
-    width: 2em;
-    content: '——';
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 2em;
+  content: '——';
 }
 
 .border-left {
-    padding-left: calc(1em - 5px);
-    border-left: 5px solid;
+  padding-left: calc(1em - 5px);
+  border-left: 5px solid;
 }
 
 .border-blue {
-    border-color: #009beb;
+  border-color: #009beb;
 }
 
 .border-green {
-    border-color: #009682;
+  border-color: #009682;
 }
 
 .border-orange {
-    border-color: #f5aa00;
+  border-color: #f5aa00;
 }
 
 .border-purple {
-    border-color: #6f42c1;
+  border-color: #6f42c1;
 }
 
 .border-red {
-    border-color: #e60012;
+  border-color: #e60012;
 }

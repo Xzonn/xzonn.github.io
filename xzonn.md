@@ -2,8 +2,7 @@
 class: plainlinks
 date: 2021-06-15 20:01
 info: ""
-last_modified_at: 2023-02-23 23:26
-no_ad: true
+last_modified_at: 2023-10-24 22:54
 no_comment: true
 no_date: true
 no_sidenav: true
@@ -26,6 +25,7 @@ title: 关于我
 - [任天堂官方中文化游戏文本](https://github.com/Xzonn/NintendoOfficialChineseGames)
 - [任天堂开发者访谈保存计划](https://ninterviews.xzonn.top/)
 - [《宝可梦 朱／紫》数据库](https://sv.xzonn.top/)
+- [《灵异视界 FILE23 本所七大不可思议》汉化](https://xzonn.top/ParanormasightChsLocalization/)（七不思议汉化组）
 - ……以及其他秘密事项
 
 联系方式：

@@ -25,6 +25,7 @@ defaults:
       license: "by-nc-sa"
       head_image_width: 1280
       head_image_height: 720
+      head_image_shown: true
   - scope:
       type: "posts"
     values:
