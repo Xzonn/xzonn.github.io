@@ -2,13 +2,48 @@
 date: 2023-10-20 18:00
 head_image: 384e5dd5bf89a59e1944f50dc71a6525.jpg
 head_image_height: 600
+head_image_shown: false
 head_image_width: 900
 info: 再来玩玩。
-last_modified_at: 2023-10-23 15:56
+last_modified_at: 2023-10-24 22:52
 license: by-nc
+links: 
+- - https://github.com/Xzonn/PKUGeekGame3rdWriteups
+  - 个人题解代码汇总
+- - https://geekgame.pku.edu.cn/
+  - 北京大学信息安全综合能力竞赛 官方网站
+- - https://github.com/PKU-GeekGame/geekgame-3rd
+  - 官方比赛资料汇总
+references: 
+- - https://www.freebuf.com/articles/database/292628.html
+  - 鹤城杯misc-m1完整复现过程【钓鱼城杯量子加密原题】
+- - https://ctf-wiki.org/pwn/linux/user-mode/fmtstr/fmtstr-exploit/
+  - 利用
+- - https://firmianay.gitbooks.io/ctf-all-in-one/content/doc/3.1.1_format_string.html
+  - 3.1.1 格式化字符串漏洞
+- - https://xz.aliyun.com/t/7398
+  - 格式化字符串漏洞小总结（上）
+- - https://blog.csdn.net/m0_49959202/article/details/119860494
+  - x86、x64栈结构图示
+- - https://ctf-wiki.org/pwn/linux/user-mode/summary/get-address/
+  - 获取地址
 tags: 题解
 title: 第三届北京大学信息安全综合能力竞赛个人题解
 ---
+<style>
+.you-name {
+  background: linear-gradient(0deg, #26791c, #1d1d1d, #1d1d1d);
+  text-shadow: 0 0 1px rgba(21, 66, 14, 0.4);
+
+  -webkit-text-fill-color: transparent;
+
+  background-clip: text;
+  -webkit-background-clip: text;
+
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+</style>
 ``` javascript
 /*!
  * Title: 第三届北京大学信息安全综合能力竞赛个人题解
@@ -24,6 +59,8 @@ title: 第三届北京大学信息安全综合能力竞赛个人题解
 
 按照比赛平台提交时的提示，参考题面和官方题解，本题解授权协议为 [CC-BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)。因为有官方题面存档，所以不再抄题了。解题代码：[GitHub](https://github.com/Xzonn/PKUGeekGame3rdWriteups)。
 
+赛后交流的时候才知道，原来一些题目采用了“动态flag”机制，不同选手拿到的题目附件甚至都是不一样的，所以每个人得到的结果也会不一样，看上去十分科学。还有，[那位]({% link _posts/2021-05-23-0th-PKU-Geek-Game-Writeups.md %}#小北问答 1202)<span class="you-name">You</span>酱呢？
+
 ## Tutorial
 ### 一眼盯帧
 > [题面和官方题解](https://github.com/PKU-GeekGame/geekgame-3rd/tree/master/official_writeup/prob23-signin)
@@ -38,7 +75,7 @@ title: 第三届北京大学信息安全综合能力竞赛个人题解
 synt{jrypbzrarjcynlref}
 ```
 
-[熟悉的“synt”]({% link _posts/2021-05-23-0th-PKU-Geek-Game-Writeups.md %})，又是凯撒密码（好像这玩意叫ROT13），随便[找个网站](http://www.atoolbox.net/Tool.php?Id=778)解密一下：
+[熟悉的“synt”]({% link _posts/2021-05-23-0th-PKU-Geek-Game-Writeups.md %}#签到)，又是凯撒密码（好像这玩意叫ROT13），随便[找个网站](http://www.atoolbox.net/Tool.php?Id=778)解密一下：
 
 ``` plaintext
 flag{welcomenewplayers}
@@ -590,16 +627,16 @@ play()
 
 （赛后交流补记）
 
-思路应该是对的，只不过我忘了信息里给出来了“数据大小2KB”这个信息，计算了一下按照2048个字节、2.5字节/秒的速度，需要大概14分钟才能接收到所有信息，而我使用笔记本录屏的时候总是会出现莫名其妙的错误，导致实际上并没有读出来一整个循环节就结束了。之后回去应该拿台式机试一试。
+思路应该是对的，只不过我忘了信息里给出来了“数据大小2KB”这个信息，计算了一下按照2048个字节、2.5字节/秒的速度，需要大概14分钟才能接收到所有信息，而我使用笔记本录屏的时候总是会出现莫名其妙的错误，导致实际上并没有读出来一整个循环节就结束了。我本来猜测是因为内存不足之类的原因导致红石块没有被正确地计算，拿办公室的台式机打开也还是会出现错误，于是放弃解题了。
 
 ## Web
 ### Emoji Wordle
 > [题面和官方题解](https://github.com/PKU-GeekGame/geekgame-3rd/tree/master/official_writeup/prob14-emoji)
 
-### Flag 1：Level 1
+#### Flag 1：Level 1
 题目提示说Level 1 的答案是固定的，这就简单了，直接拿所有Emoji往上怼，看哪些Emoji在给出的序列里（绿或黄），然后把得到的Emoji用最简单粗暴的方法复制64遍往上怼，得到每个位置的正确Emoji。代码放在下面。输入进去得到flag 1。
 
-### Flag 2：Level 2
+#### Flag 2：Level 2
 题目提示说答案是随机生成并存储在会话中的，那就看一下是怎么存储的。打开Chrome的控制台可以看到一个Cookie：
 
 ``` plaintext
@@ -614,7 +651,7 @@ PLAY_SESSION=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7ImxldmVsIjoiMiIsInJlbWFpbmluZ19ndW
 
 显然这个target就是答案。输入进去得到flag 2。
 
-### Flag 3：Level 3
+#### Flag 3：Level 3
 有了前两个提示，同样打开控制台看到Cookie：
 
 ``` plaintext
@@ -1196,7 +1233,7 @@ r.interactive()
 
 （赛后交流补记）
 
-看了官方题解，思路基本一样，只不过绝对地址定位用了got表里面的`__libc_start_main`而非`puts`，这点我有些不太理解。其他地方写的都没错。修改一下：
+看了官方题解，思路基本一样，只不过前后的printf提供的参数不一样，所以offset不同；另外绝对地址定位用了got表里面的`__libc_start_main`而非`puts`，这点我有些不太理解。可能是因为CTF Wiki中提到的[“不要选择有wapper的函数”](https://ctf-wiki.org/pwn/linux/user-mode/summary/get-address/)。其他地方写的都没错。修改一下：
 
 ``` python
 from pwn import *
@@ -1244,7 +1281,7 @@ r.interactive()
 ### 关键词过滤喵，谢谢喵
 > [题面和官方题解](https://github.com/PKU-GeekGame/geekgame-3rd/tree/master/official_writeup/prob04-filtered)
 
-### Flag 1：字数统计喵
+#### Flag 1：字数统计喵
 二进制题和算法题我都有点不太会做，所以就直接跳到这题了喵。题目要求处理后输出10进制的字符串长度，我想了很久之后得出了这么一个思路喵：
 
 1. 如果是空白文件，直接替换成0结束喵；
@@ -1342,7 +1379,7 @@ assert ancient_bytes[624 * 4:625 * 4] == rand_bytes[624 * 4:625 * 4]
 print(xor_arrays(ancient_bytes, rand_bytes).strip(b"\0").decode("utf8").strip())
 ```
 
-#### Flag 2
+#### Flag 2：Big Cookie
 （赛后交流补记）
 
 类似于flag 1，同样需要预测随机数，但是本题出现了3个随机数序列，稍微有些麻烦。
@@ -1388,7 +1425,7 @@ assert ancient_bytes[624 * 4:625 * 4] == rand_bytes[624 * 4:625 * 4]
 print(xor_arrays(ancient_bytes, rand_bytes).strip(b"\0").decode("utf8").strip())
 ```
 
-#### Flag 3
+#### Flag 3：SUPA BIG Cookie
 （赛后交流补记）
 
 这题就更复杂了，同样需要预测随机数序列，不过程序没有像flag 2一样判断输入不等于输出，所以直接把程序的输出喂回去就行。补一个解题脚本：
