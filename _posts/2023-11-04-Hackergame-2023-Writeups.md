@@ -5,7 +5,7 @@ head_image_height: 759
 head_image_shown: false
 head_image_width: 427
 info: GeekGame 2023刚结束，再来看看Hackergame 2023。
-last_modified_at: 2023-11-04 23:23
+last_modified_at: 2023-11-05 15:46
 links: 
 - - https://hack.lug.ustc.edu.cn/
   - 中国科学技术大学信息安全大赛 官方网站
@@ -248,7 +248,7 @@ updateElement("#comment", "你留下的评论：123");
 
 看题目提示可以想到是用`window.open()`打开一个弹出窗口，顺带找到了2021年GeekGame“Q小树洞的一大步”的[题解](https://blog.taoky.moe/2021-11-21/geekgame-v1-wp.html#q%E5%B0%8F%E6%A0%91%E6%B4%9E%E7%9A%84%E4%B8%80%E5%A4%A7%E6%AD%A5)，但是这题环境里没有外网，即使报错也没法输出，所以我的思路卡死在这里了。看了官方题解才想到，成绩结算页面是有用的啊，我构造一个网页，让它把数据从评论的接口给我发出来就行了。
 
-首先先写JavaScript让它把Cookie读出来发到评论里，因为flag可能有特殊字符，需要用Base64编码一下，而且“flag”可能会有点长，还需要截断：
+首先先写JavaScript让它把Cookie读出来发到评论里，因为flag可能有特殊字符，需要用Base64编码一下，而且“flag可能会有点长”，还需要截断：
 
 ``` javascript
 document.getElementsByTagName("textarea")[0].value = btoa(document.cookie).substring(0, 25); document.getElementsByTagName("form")[0].submit();
@@ -335,7 +335,9 @@ print("\n" + urllib.parse.unquote_plus(base64.b64decode(b64str).decode()))
 直接对中午的第二张图片用谷歌搜图，发现[这个页面](http://unozone.info/20029/#p06)的介绍，这里应该是上野公园。查了一下谷歌地图，上野公园位于东大附近，正好和前面的活动对得上。搜一下“上野公園 イベント”，查到[2023年的活动](https://www.uenopark.info/ad2023/)，其中8月10日-13日举办的是“全国梅酒まつりin東京”。跳到官网发现有一则[志愿者招募通知](https://umeshu-matsuri.jp/tokyo_staff/)，问卷链接格式正好一样，答案是`S495584522`。
 
 ##### 题目4
-知道了喷泉在上野公园，那么博物馆应该就是旁边的日本国立科学博物馆，直接看[购票指南](https://www.kahaku.go.jp/userguide/access/index.html#admission)，里面提到一般大学生票价630日元，但是合作学校的学生免费，查到[合作学校](https://www.kahaku.go.jp/learning/university/partnership/enroll.php)名单里包含东京大学，所以费用是`0`。
+<del markdown="1">知道了喷泉在上野公园，那么博物馆应该就是旁边的日本国立科学博物馆，直接看[购票指南](https://www.kahaku.go.jp/userguide/access/index.html#admission)，里面提到一般大学生票价630日元，但是合作学校的学生免费，查到[合作学校](https://www.kahaku.go.jp/learning/university/partnership/enroll.php)名单里包含东京大学，所以费用是`0`。</del>
+
+看了官方题解才发现，题目说明里有一个“马路对面”，所以不是日本国立科学博物馆而是日本国立博物馆，不过同样有[合作学校](https://www.tnm.jp/modules/r_free_page/index.php?id=167)名单并且包含东京大学，所以费用还是`0`。也算是歪打正着了。
 
 ##### 题目5
 按照题目1的答案，回去找“STATPHYS28”会议在8月10日的活动安排，发现晚上有个[宴会](https://statphys28.org/banquet.html)，会面地点是“Yasuda Auditorium”，换成简体中文就是答案`安田讲堂`。（我感觉预期解应该是先看每天的活动安排，找到坐船的这天，然后回答题目1。）
@@ -344,6 +346,8 @@ print("\n" + urllib.parse.unquote_plus(base64.b64decode(b64str).decode()))
 谷歌搜索“ボタン＆カフリンクス 上野駅”发现[这个页面](https://pandafactory.tokyo/)，找到8月3日-13日的活动，正好是粉色的海报，照片上是`熊猫`。
 
 第二个广告牌我在上野站附近找了好久，一直没找到，但是我之前看新闻有印象说涩谷附近有3D广告牌，查到[这篇介绍](https://www.sohu.com/a/575491613_161403)说是`秋田犬`，填进去对了。后来才发现题目说是“出站口附近”，而“我”下车的地点应该是[Nintendo TOKYO](https://www.nintendo.co.jp/officialstore/index.html)所在的涩谷站，怪不得。
+
+（マリオ：我叫“马力欧”不叫“马里奥”，谢谢）
 
 ### 奶奶的睡前 flag 故事
 > [题面和官方题解](https://github.com/USTC-Hackergame/hackergame2023-writeups/blob/master/official/%E5%A5%B6%E5%A5%B6%E7%9A%84%E7%9D%A1%E5%89%8D%20flag%20%E6%95%85%E4%BA%8B/)
