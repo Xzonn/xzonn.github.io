@@ -1,7 +1,8 @@
 ---
 date: 2023-11-06 22:05
 head_image: e229062c07c2d49d1c740cf68e91f94b.jpg
-last_modified_at: 2023-11-06 22:47
+info: 自力更生。
+last_modified_at: 2023-11-06 23:03
 links: 
   - - https://github.com/Xzonn/JellyfinPluginDouban
     - JellyfinPluginDouban
@@ -12,6 +13,7 @@ references:
     - jellyfin-plugin-opendouban
   - - https://github.com/kookxiang/jellyfin-plugin-bangumi
     - jellyfin-plugin-bangumi
+tags: 作品发布
 title: Jellyfin 豆瓣元数据插件
 ---
 [电脑组装了半年了]({% link _posts/2023-05-28-DIY-My-Computer.md %})，硬盘里也存了不少番剧、日剧和电影，所以我打算整理一下，搭个媒体库。原本是想用Emby，但是这玩意稍微搞点啥操作都要会员，搞不懂了，又不用你家服务器还要开会员？后来发现Emby原来是开源的，后来闭源了，而[Jellyfin](https://jellyfin.org/)就是从Emby最后一个开源版本演化过来的。开源软件，好！闭源软件，不好！
@@ -40,3 +42,6 @@ title: Jellyfin 豆瓣元数据插件
 ### 手动安装
 - 下载插件压缩包，将dll文件解压至 `<Jellyfin 数据目录>/Plugins/Douban`。
 - 重启Jellyfin。
+
+## 写在最后
+感谢两个插件的作者对本插件的启发。

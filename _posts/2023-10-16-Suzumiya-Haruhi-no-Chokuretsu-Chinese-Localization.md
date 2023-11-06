@@ -4,7 +4,7 @@ head_image: ad1f5a24b18d5252c805878c8009d0ca.png
 head_image_height: 384
 head_image_width: 768
 info: 交流借鉴。
-last_modified_at: 2023-11-05 00:45
+last_modified_at: 2023-11-06 23:02
 links: 
   - - https://github.com/Xzonn/ChokuretsuChsLocalization
     - 汉化相关代码
@@ -15,7 +15,7 @@ references:
     - Chokuretsu ROM Hacking Challenges Part 1 – Cracking a Compression Algorithm!
   - - https://haroohie.club/blog/2022-11-02-chokuretsu-archives
     - Chokuretsu ROM Hacking Challenges Part 2 – Archive Archaeology
-tags: DS 技术实现
+tags: DS 技术指南
 title: 《凉宫春日的串联》汉化笔记
 ---
 最近我对游戏汉化热情高涨，正好凉宫春日相关的游戏有几部作品至今没有汉化，其中就包括了世嘉发行的两部作品《凉宫春日的串联》《并联》（日文汉字写作为“直列”“并列”）。之前有一位前辈写过一篇[“NDS《凉宫春日的直列》的一些破解信息”](https://blog.csdn.net/LuckilyYu/article/details/5424928)，但是由于年代久远，CSDN开始收费了，这篇文章的全文也没法看了。
