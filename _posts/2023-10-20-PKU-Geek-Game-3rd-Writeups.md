@@ -5,7 +5,7 @@ head_image_height: 600
 head_image_shown: false
 head_image_width: 900
 info: 再来玩玩。
-last_modified_at: 2023-10-24 22:52
+last_modified_at: 2023-11-11 16:21
 license: by-nc
 links: 
 - - https://github.com/Xzonn/PKUGeekGame3rdWriteups
@@ -1501,3 +1501,9 @@ for a, b in [("012", "011"), ("011", "012")]:
 最后放一张飞机的图吧，人生中第一次坐飞机，还有点小激动呢。祝大家诸事顺利，一飞冲天！
 
 {% include figure.html src="384e5dd5bf89a59e1944f50dc71a6525.jpg" alt="END" width="900" height="600" %}
+
+{% include figure.html src="1ea98ecd340ca80ce91581e9121dd1bb.jpg" alt="获奖证书" width="600" height="900" %}
+
+{% include figure.html src="8eacbad2224fc71f90b67c5767408c9e.jpg" alt="奖品" width="900" height="600" %}
+
+{% include figure.html src="c100d916af29640dc50fc136b1a4d486.png" alt="分数" width="1280" height="720" %}

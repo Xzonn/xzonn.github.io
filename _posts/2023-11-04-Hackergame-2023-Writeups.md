@@ -5,7 +5,7 @@ head_image_height: 759
 head_image_shown: false
 head_image_width: 427
 info: GeekGame 2023刚结束，再来看看Hackergame 2023。
-last_modified_at: 2023-11-05 15:46
+last_modified_at: 2023-11-11 16:23
 links: 
 - - https://hack.lug.ustc.edu.cn/
   - 中国科学技术大学信息安全大赛 官方网站
@@ -16,7 +16,7 @@ title: 中国科学技术大学第十届信息安全大赛个人题解
 ---
 ``` javascript
 /*!
- * Title: 中国科学技术大学第十届信息安全大赛个人题解（部分）
+ * Title: 中国科学技术大学第十届信息安全大赛个人题解
  * Author: Xzonn
  * Date: 2023-11-04
  * License: CC-BY-NC-SA 4.0
