@@ -1,11 +1,11 @@
 ---
 date: 2023-11-04 12:00
-head_image: 0fc6052eeb80400ebef0906a71205d4c.png
+head_image: f96d084e1bb33325d24821e948fb38c2.png
 head_image_height: 759
 head_image_shown: false
 head_image_width: 427
 info: GeekGame 2023刚结束，再来看看Hackergame 2023。
-last_modified_at: 2023-11-11 16:23
+last_modified_at: 2023-11-11 17:02
 links: 
 - - https://hack.lug.ustc.edu.cn/
   - 中国科学技术大学信息安全大赛 官方网站
@@ -500,7 +500,7 @@ for width in factors:
     for x in range(width):
       try:
         r, g, b = struct.unpack("<3B", data[(y * width + x) * 3 : (y * width + x + 1) * 3])
-        image.putpixel((x, y), (r, g, b))
+        image.putpixel((x, y), (b, g, r))
       except:
         break
 
@@ -509,7 +509,9 @@ for width in factors:
 
 查看输出结果，可以看到宽度为427时恰好是可读的（竟然还是BanG Dream!相关的图），拿PhotoShop可以看出来图片的高是759，所以改一下上面的代码把每一帧保存出来就能看到flag了。
 
-{% include figure.html src="0fc6052eeb80400ebef0906a71205d4c.png" alt="这是第一帧" width="231.5" height="379.5" %}
+{% include figure.html src="f96d084e1bb33325d24821e948fb38c2.png" alt="这是第一帧" width="231.5" height="379.5" %}
+
+（2023-11-11补充：发现原来的代码有误，三个通道的顺序是bgr而不是rgb，导致Logo颜色错了，不过对于解题来说没有太大影响。）
 
 ### 🪐 低带宽星球
 > [题面和官方题解](https://github.com/USTC-Hackergame/hackergame2023-writeups/blob/master/official/%F0%9F%AA%90%20%E4%BD%8E%E5%B8%A6%E5%AE%BD%E6%98%9F%E7%90%83/)
