@@ -1,8 +1,8 @@
 ---
 date: 2023-11-06 22:05
-head_image: e229062c07c2d49d1c740cf68e91f94b.jpg
+head_image: 50fe68328b2d95ca36d882d4ff0805a0.png
 info: 自力更生。
-last_modified_at: 2023-11-06 23:03
+last_modified_at: 2023-11-12 19:59
 links: 
   - - https://github.com/Xzonn/JellyfinPluginDouban
     - JellyfinPluginDouban
@@ -42,6 +42,28 @@ title: Jellyfin 豆瓣元数据插件
 ### 手动安装
 - 下载插件压缩包，将dll文件解压至 `<Jellyfin 数据目录>/Plugins/Douban`。
 - 重启Jellyfin。
+
+## 关于速率限制
+由于豆瓣目前已经没有公开的api，所有请求均基于直接获取相关网页，过快的访问速率可能会被视为恶意爬取软件而被封禁。为了尽可能避免被封禁，请尝试调整设置选项：
+
+1. 增加每两次请求之间的时间间隔。默认设置为2秒。
+2. 填入Cookie。请使用浏览器打开[豆瓣电影](https://movie.douban.com/)并登录，然后按<kbd>F12</kbd>打开控制台，选择`Network`，刷新页面，选择`movie.douban.com`，在右侧的`Headers`中找到`Cookie`，复制其内容并填入设置选项中。
+
+此外，在不带Referer获取豆瓣的图片时会被限速至10KB/s左右，这可能会导致获取元数据时超时，部分剧集无法正常显示。本插件默认设置中取消了“在影视页面获取演职员照片”的勾选，这可以防止Jellyfin在获取影视元数据时大量获取演职员的图片导致超时。也可以自行搭建反代，并在设置选项中修改“豆瓣图片服务器”。以下是一个简单的nginx本地搭建反代的配置文件示范：
+
+``` nginx
+server {
+  listen 80;
+  listen [::]:80;
+  charset utf8;
+  server_name doubanio.localhost;
+  location / {
+    proxy_pass https://img2.doubanio.com;
+    proxy_set_header Host img2.doubanio.com; 
+    proxy_set_header Referer https://movie.douban.com/;
+  }
+}
+```
 
 ## 写在最后
 感谢两个插件的作者对本插件的启发。
