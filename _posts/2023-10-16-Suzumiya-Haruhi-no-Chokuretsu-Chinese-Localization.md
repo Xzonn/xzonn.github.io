@@ -4,7 +4,7 @@ head_image: ad1f5a24b18d5252c805878c8009d0ca.png
 head_image_height: 384
 head_image_width: 768
 info: 交流借鉴。
-last_modified_at: 2023-11-06 23:02
+last_modified_at: 2023-11-19 21:31
 links: 
   - - https://github.com/Xzonn/ChokuretsuChsLocalization
     - 汉化相关代码
@@ -18,9 +18,15 @@ references:
 tags: DS 技术指南
 title: 《凉宫春日的串联》汉化笔记
 ---
+<div class="alert alert-success" markdown="1" style="text-align: center; font-size: 150%;">
+**[汉化招募中！](https://xzonn.top/ChokuretsuChsLocalization/)**
+</div>
+
 最近我对游戏汉化热情高涨，正好凉宫春日相关的游戏有几部作品至今没有汉化，其中就包括了世嘉发行的两部作品《凉宫春日的串联》《并联》（日文汉字写作为“直列”“并列”）。之前有一位前辈写过一篇[“NDS《凉宫春日的直列》的一些破解信息”](https://blog.csdn.net/LuckilyYu/article/details/5424928)，但是由于年代久远，CSDN开始收费了，这篇文章的全文也没法看了。
 
 不过，我在英文网站上找到了[Haroohie Translation Club](https://haroohie.club/)制作的[英文化补丁](https://haroohie.club/chokuretsu/)，并且[构建代码](https://github.com/haroohie-club/ChokuretsuTranslationUtility)是开源的。我拉取到本地试了一下，代码功能很完善，完全可以直接拿过来制作汉化补丁。当然，英文化和中文化的工作重心还是有一定区别的，不能直接照搬，但是前辈们取得的经验还是值得借鉴和学习的。本着互相交流的精神，我就把我的研究成果写出来和大家分享。
+
+{% include video.html bvid="BV1Yu4y1L7FZ" title="14年前的凉宫游戏？《凉宫春日的串联＆并联》开箱、试玩及汉化招募" %}
 
 ## 导入导出工具
 Haroohie Translation Club制作的导入导出工具[ChokuretsuTranslationUtility](https://github.com/haroohie-club/ChokuretsuTranslationUtility)的功能已经相当完善了，不过文本的导入导出格式是`.resx`格式，我用着不太习惯，所以我添加了导入/导出为`.json`格式的功能。修改后的代码可以参见[此处](https://github.com/Xzonn/ChokuretsuTranslationUtility)。

@@ -4,7 +4,7 @@ head_image: 4adb9e45f11a047ff786f4074cc463fb.png
 head_image_height: 384
 head_image_width: 256
 info: 抛砖引玉。
-last_modified_at: 2023-10-07 18:21
+last_modified_at: 2023-11-19 21:31
 links: 
   - - https://haroohie.club/blog/2022-11-02-chokuretsu-archives
     - Chokuretsu ROM Hacking Challenges Part 2 – Archive Archaeology
@@ -13,8 +13,9 @@ logs:
 tags: DS 宝可梦
 title: 基于pret项目的《宝可梦 钻石／珍珠》汉化
 ---
-## 前言
 好久没动[《宝可梦》第四世代汉化修正](https://xzonn.top/PokemonChineseTranslationRevise/)项目了，最近重新研究了一下珍钻的汉化。因为我对汇编代码并不是很熟悉，还有很多东西没搞懂，但还是姑且先写一下目前的进展，抛砖引玉一下。
+
+{% include video.html bvid="BV1sk4y1F7zo" title="《宝可梦 钻石／珍珠》美版汉化测试" %}
 
 ## ACG汉化组对字库的修改
 字库问题是首先需要解决的问题。白金和心魂的字库问题实际上已经被ACG汉化组解决了，但是珍钻的字库问题一直没能得到解决。如果把白金的字库直接用在珍钻上，会显示不出来；而YYJoy汉化组不知道用了什么技术，即使是把他们制作的ROM解包后重新打包都会出现问题。在分析了pret项目提供的逆向工程代码并对比了日版游戏和ACG汉化版游戏的`arm9.bin`后，我发现了问题所在。
