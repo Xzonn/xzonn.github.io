@@ -5,7 +5,7 @@ head_image_height: 600
 head_image_shown: false
 head_image_width: 900
 info: 再来玩玩。
-last_modified_at: 2023-11-11 16:21
+last_modified_at: 2023-11-26 19:22
 license: by-nc
 links: 
 - - https://github.com/Xzonn/PKUGeekGame3rdWriteups
@@ -1507,3 +1507,8 @@ for a, b in [("012", "011"), ("011", "012")]:
 {% include figure.html src="8eacbad2224fc71f90b67c5767408c9e.jpg" alt="奖品" width="900" height="600" %}
 
 {% include figure.html src="c100d916af29640dc50fc136b1a4d486.png" alt="分数" width="1280" height="720" %}
+
+### 后后记
+有些略微离谱的是……比赛是10月比的，奖品是11月发的，但是经人提醒去官网一查，这个奖品在2023年8月被激活，保修期只到2024年8月……不愧是遥遥领先。
+
+{% include figure.html src="fe859afa980b3a5c18af1cc898adb1fe.png" alt="保修期查询" width="952.5" height="415" %}
