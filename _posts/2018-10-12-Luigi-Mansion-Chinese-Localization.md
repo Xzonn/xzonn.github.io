@@ -1,7 +1,7 @@
 ---
 class: auto-numbering
 date: 2018-10-12 12:00
-head_image: https://file.moetu.org/images/2020/02/20/c091b864abea3849f4b78f2eef48cb0e261e45732fcd8a9a.png
+head_image: c091b864abea3849f4b78f2eef48cb0e.png
 head_image_height: 256
 head_image_width: 512
 info: 3DS《路易吉洋馆》汉化：从开坑到弃坑。
@@ -56,13 +56,13 @@ Cスティックで\x7f\x16にゅうりょく\x00入力\x7f\x17した\x7f\x16ほ
 2019/02/15 更新：本人碰巧拆包了《*永恒绿洲*》（Ever Oasis），发现其字库也是`.gzf`格式，查了一下开发商，竟然也是 GREZZO……这个游戏使用的字库容量比本作的字库容量更大，有 1968 个字符，因此字库问题大概可以解决了……
 
 ## 汉化预览
-{% include figure.html src="https://file.moetu.org/images/2020/02/20/9f9902a4bc809b069f20954f9b71a0e69db10035b4b00fc8.png" alt="标题界面" width="400" height="480" %}
+{% include figure.html src="9f9902a4bc809b069f20954f9b71a0e6.png" alt="标题界面" width="400" height="480" %}
 
-{% include figure.html src="https://file.moetu.org/images/2020/02/20/03fa9bfb435915290a85a935650dbd049f8f286bdf6b5e6f.png" alt="选择存档界面" width="400" height="480" %}
+{% include figure.html src="03fa9bfb435915290a85a935650dbd04.png" alt="选择存档界面" width="400" height="480" %}
 
-{% include figure.html src="https://file.moetu.org/images/2020/02/20/cbda96053ce9b31ae627b27992b5ff5b96e20e9cae62ab2f.png" alt="存档操作界面" width="400" height="480" %}
+{% include figure.html src="cbda96053ce9b31ae627b27992b5ff5b.png" alt="存档操作界面" width="400" height="480" %}
 
-{% include figure.html src="https://file.moetu.org/images/2020/02/20/149a4d3e85f46f847d176841a4dafc77f5e804bc14050613.png" alt="游戏界面" width="400" height="480" %}
+{% include figure.html src="149a4d3e85f46f847d176841a4dafc77.png" alt="游戏界面" width="400" height="480" %}
 
 {% include video.html aid="45332875" page="1" %}
 ## 汉化进度

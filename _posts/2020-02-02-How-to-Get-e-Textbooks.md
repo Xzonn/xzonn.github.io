@@ -17,11 +17,11 @@ wechat_link: https://mp.weixin.qq.com/s/QMMHTNPba5_N4OyBoE0d-A
 
 或许很少有人知道，北大自建了一个数据库，名为“[北京大学电子教参服务平台](http://162.105.138.126/Usp/)”（该平台仅可校内访问，如在校外访问请使用虚拟专用网络），这个平台甚至连个域名都没有，只有一串IP地址。但不管怎么说，里面收录的教材还是很齐全的，截至目前（2020/02/01）共有18,309条检索结果（不同课程推荐的同一书目会被记作多条检索结果），包括了全校32个开课院系（如果我没数错的话）开设的课程，环院共有125条检索结果。
 
-{% include figure.html src="https://file.moetu.org/images/2020/02/20/3d8b86dc663773cca42ecf87eaf61bb96ded5e9d9447427e.png" alt="北京大学电子教参服务平台" width="640" height="360" %}
+{% include figure.html src="3d8b86dc663773cca42ecf87eaf61bb9.png" alt="北京大学电子教参服务平台" width="640" height="360" %}
 
 该平台的使用方法很简单，右上角输入课程或教材的名称搜索，或通过左侧索引目录查找。这里的书目一部分是来自图书馆藏书的扫描版（一些书的封面上甚至可以看到条形码），还有一部分来自北大购买的其他数据库（如“阿帕比数字资源平台”“读秀知识库（超星）”等），均提供在线阅读和“借阅”服务。其中来自其他数据库的图书可能会有目录，扫描版图书基本没有目录。
 
-{% include figure.html src="https://file.moetu.org/images/2020/02/20/92759f4170306cdcc603adf0ed38f728f62fda534f928937.png" alt="在线阅读服务" width="640" height="360" %}
+{% include figure.html src="92759f4170306cdcc603adf0ed38f728.png" alt="在线阅读服务" width="640" height="360" %}
 
 尽管有“借阅”服务，但该服务需要下载特殊软件，且一定时间后还需要重新借阅，似乎有些不太方便。于是我又萌生了通过技术手段把它下载到本地的想法。
 
@@ -35,7 +35,7 @@ wechat_link: https://mp.weixin.qq.com/s/QMMHTNPba5_N4OyBoE0d-A
 
 首先是扫描版的图书和阿帕比数字资源平台的图书，两者使用的是同一系统。调出开发者工具重载页面一看，源文件实际是图片，其URL虽然很长，但同一图书不同页面的URL只改变了页码部分。
 
-{% include figure.html src="https://file.moetu.org/images/2020/02/20/1556cab854054179d1b48fa77d2f43a309aad5e0c3e1fd10.png" alt="用开发者工具查看扫描版图书在线阅读页面" width="640" height="260.58" %}
+{% include figure.html src="1556cab854054179d1b48fa77d2f43a3.png" alt="用开发者工具查看扫描版图书在线阅读页面" width="640" height="260.58" %}
 
 类似如下：
 
@@ -70,21 +70,21 @@ while True:
 
 下载下来的一堆图片可以用Adobe Acrobat的“合并文件”功能存为一个pdf文件，然后用“增强扫描”→“识别文本”功能将图片转为可选中的文本，详见[上篇文章](/posts/How-to-Download-Chinese-Standard.html)。另外，可以用“组织页面”→“更多”→“页面标签”功能修改页码，留待之后再说。
 
-{% include figure.html src="https://file.moetu.org/images/2020/02/20/e35fb4644d871f9caa9f00ba4e3d32bc444a5a85127f4c4d.png" alt="合并为一个pdf文件" width="640" height="273.02" %}
+{% include figure.html src="e35fb4644d871f9caa9f00ba4e3d32bc.png" alt="合并为一个pdf文件" width="640" height="273.02" %}
 
 ## 3
 
 多说几句。北大其实不仅提供了电子教参，还提供了其他中西文电子书资源。在北大图书馆网站的首页就可以看到：
 
-{% include figure.html src="https://file.moetu.org/images/2020/02/20/df0283cbaebf8becc9ecf9ab3f4654b507e04c2a36116923.png" alt="北大图书馆电子期刊／图书导航" width="640" height="360" %}
+{% include figure.html src="df0283cbaebf8becc9ecf9ab3f4654b5.png" alt="北大图书馆电子期刊／图书导航" width="640" height="360" %}
 
 然而根据我个人的体验，这个检索系统的搜索结果页面似乎很难载入，至少我试了几次还没载入过。因此，我个人建议点击上图“新手指南”中的“中外文电子图书资源简介”，这里盘点了提供中外文电子图书的数据库名称，然后可以直接从各个数据库内检索。
 
-{% include figure.html src="https://file.moetu.org/images/2020/02/20/e2127bc8f1509e13f8c426b2603735b3f28b2bdc55c410aa.png" alt="中外文电子图书资源简介" width="640" height="904.92" %}
+{% include figure.html src="e2127bc8f1509e13f8c426b2603735b3.png" alt="中外文电子图书资源简介" width="640" height="904.92" %}
 
 例如在“‘读在燕园’”互联网数字图书馆检索“化学”：
 
-{% include figure.html src="https://file.moetu.org/images/2020/02/20/c706d5aead1273b16527b24fa852e34b4f1519da400786aa.png" alt="在“‘读在燕园’”互联网数字图书馆检索“化学”" width="640" height="360" %}
+{% include figure.html src="c706d5aead1273b16527b24fa852e34b.png" alt="在“‘读在燕园’”互联网数字图书馆检索“化学”" width="640" height="360" %}
 
 ## 4
 

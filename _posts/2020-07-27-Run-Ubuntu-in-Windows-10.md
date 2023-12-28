@@ -1,7 +1,7 @@
 ---
 class: auto-numbering
 date: 2020-07-27 15:31
-head_image: https://file.moetu.org/images/2020/07/30/3b6a83b652374b177287f0c0ae3908fed2e02e46a48c1bdf.png
+head_image: 3b6a83b652374b177287f0c0ae3908fe.png
 info: 即使是Windows操作系统也可以学习Ubuntu。
 last_modified_at: 2020-07-30 16:11
 tags: 技术指南
@@ -23,9 +23,9 @@ WSL，全称Windows Subsystem for Linux，翻译过来就是“适用于Linux的
 
 启用WSL的方法也可以参考[官方文档](https://docs.microsoft.com/zh-cn/windows/wsl/install-win10)。这里介绍一下简单方法：
 
-{% include figure.html src="https://file.moetu.org/images/2020/07/30/0714aeafcefc10e9f8e5f4b4d56e700d2aafb859d340a453.png" alt="启用或关闭 Windows 功能" width="415" height="418" %}
+{% include figure.html src="0714aeafcefc10e9f8e5f4b4d56e700d.png" alt="启用或关闭 Windows 功能" width="415" height="418" %}
 
-{% include figure.html src="https://file.moetu.org/images/2020/07/30/e442ec4dd3f0a3559b96d0e869640b8097e1dab823cd66f0.png" alt="在商店查找并安装Ubuntu" width="640" height="497.30" %}
+{% include figure.html src="e442ec4dd3f0a3559b96d0e869640b80.png" alt="在商店查找并安装Ubuntu" width="640" height="497.30" %}
 
 1. 在“控制面板\所有控制面板项\程序和功能”中，找到左侧的“启用或关闭 Windows 功能”，找到“适用于 Linux 的 Windows 子系统”，选中并确定。如果要求重启，则重启计算机。
 2. 打开[Microsoft Store](https://aka.ms/wslstore)，选择合适的Linux发行版并安装。

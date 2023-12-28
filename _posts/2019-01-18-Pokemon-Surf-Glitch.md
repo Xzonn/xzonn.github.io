@@ -1,7 +1,7 @@
 ---
 class: auto-numbering
 date: 2019-01-18 21:03
-head_image: https://file.moetu.org/images/2020/02/20/b165db3b8779b7b7a651765b992fd48be69bef5add7cea2b.png
+head_image: b165db3b8779b7b7a651765b992fd48b.png
 head_image_height: 384
 head_image_width: 256
 infobox: pokemon pokemonGlitch
@@ -9,7 +9,7 @@ last_modified_at: 2020-01-03 23:02
 tags: DS 任天堂 宝可梦
 title: 《精灵宝可梦》四天王房间冲浪漏洞
 ---
-{% include figure.html src="https://file.moetu.org/images/2020/02/20/b165db3b8779b7b7a651765b992fd48be69bef5add7cea2b.png" alt="漏洞触发后的效果" width="256" height="384" %}
+{% include figure.html src="b165db3b8779b7b7a651765b992fd48b.png" alt="漏洞触发后的效果" width="256" height="384" %}
 
 ## 概述
 **四天王房间冲浪漏洞**是存在于第四世代《精灵宝可梦》系列游戏《钻石／珍珠》日本发行版中的游戏漏洞。此漏洞在海外发行版和《精灵宝可梦 白金》中被修复。该漏洞被任天堂官方称为“<span lang="ja">壁の中から戻れなくなる</span>”，即“无法从墙壁内返回”，并在当时[提供了免费修复的服务](https://www.nintendo.co.jp/ds/adaj/info/index.html)（服务已于 2018 年 2 月结束）。

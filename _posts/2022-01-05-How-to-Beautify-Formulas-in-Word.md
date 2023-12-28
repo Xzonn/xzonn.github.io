@@ -91,36 +91,36 @@ Unicode格式更适合人类阅读，$$\LaTeX$$格式则更适合支持TeX的公
 ### 手写公式
 网络上有很多工具可以直接识别手写公式并转换为TeX代码，而后将TeX代码复制粘贴到Markdown Nice中即可。例如 [MyScript](https://webdemo.myscript.com/views/math/index.html)：
 
-{% include figure.html src="https://file.moetu.org/images/2020/02/20/fd17795c7261de0fceb678e7de0a53a55bcf59e23461a915.png" alt="MyScript手写识别示例" width="640" height="300" %}
+{% include figure.html src="fd17795c7261de0fceb678e7de0a53a5.png" alt="MyScript手写识别示例" width="640" height="300" %}
 
 顺带一提，上述网站除了可以转换为TeX代码外，还可以转换为MathML代码；而MathML代码在粘贴到Word中并选择“只保留文本 (T)”后可以转换为Word内置的公式格式。
 
 如果只是某个字符或命令忘记了，也可以试试另一个工具[Detexify](http://detexify.kirelabs.org/classify.html)：
 
-{% include figure.html src="https://file.moetu.org/images/2020/02/20/c13095690b8788057062af278fae18d4b888c26b91a6eece.png" alt="Detexify手写识别示例" width="640" height="300" %}
+{% include figure.html src="c13095690b8788057062af278fae18d4.png" alt="Detexify手写识别示例" width="640" height="300" %}
 
 ### 截图识别
 如果不想手写公式，也可以直接拿别人写好的公式截图识别。例如[Mathpix Snip](https://mathpix.com/)：
 
-{% include figure.html src="https://file.moetu.org/images/2020/02/20/48e4b64868e87aa432695b24c67b5ed2bc16639d029c427a.png" alt="Mathpix Snip截图识别示例" width="642" height="582" %}
+{% include figure.html src="48e4b64868e87aa432695b24c67b5ed2.png" alt="Mathpix Snip截图识别示例" width="642" height="582" %}
 
 该软件在多平台有客户端，需要注册账号后使用。我个人在注册账号时先后尝试了北大邮箱、126邮箱，但都无法立刻收到验证邮件；而Gmail可以立刻收到验证邮件，可能是因为邮件服务器在国外吧。
 
 ### 从别的网页查找代码
 许多网页上的公式就是由MathJax渲染出来的（例如我的小站），如果你在某个网页上看到了公式，并且在网页加载过程中左下角出现了灰色文本框，说明这个公式很有可能是MathJax渲染出来的。此时可以右键单击公式 → Show Math As → TeX Commands，即可查看TeX代码。<span class="footnote">我的小站需要用“查看源代码”功能才能找到公式的TeX代码。</span>
 
-{% include figure.html src="https://file.moetu.org/images/2020/02/20/0eb009e6852d029d8b6a73494f224be3b3c6993b36c579fb.png" alt="网页查找代码示例" width="640" height="300" %}
+{% include figure.html src="0eb009e6852d029d8b6a73494f224be3.png" alt="网页查找代码示例" width="640" height="300" %}
 
 另外，如果右键单击公式 → Show Math As → MathML Code，则可以得到MathML代码，类似“手写公式”中的介绍，此代码也可复制到Word中显示。
 
 ### 用TeX编辑器写公式
 网页上也有一些TeX编辑器，有些仅仅能实时渲染，有些提供了工具栏，方便输入。比较常见的TeX编辑器：[知乎](https://zhuanlan.zhihu.com/write)。
 
-{% include figure.html src="https://file.moetu.org/images/2020/02/20/f022f8cbf8d490b936882ce6fe15aa956b72f673c887128e.png" alt="知乎公式编辑器示例" width="640" height="300" %}
+{% include figure.html src="f022f8cbf8d490b936882ce6fe15aa95.png" alt="知乎公式编辑器示例" width="640" height="300" %}
 
 另外，如果对TeX语法感兴趣，可以查找一些教程，例如：[知乎问题：知乎上的公式是怎么打出来的？](https://www.zhihu.com/question/31298277)
 
 ### 从Word中粘贴公式
 从Word中复制粘贴公式也是可以得到TeX代码的，参见上一段的介绍。
 
-{% include figure.html src="https://file.moetu.org/images/2020/02/20/b4c4263f8e48685b6d02798479fcc7590faacf1f1695bd88.png" alt="用Word粘贴TeX代码" width="640" height="300.18" %}
+{% include figure.html src="b4c4263f8e48685b6d02798479fcc759.png" alt="用Word粘贴TeX代码" width="640" height="300.18" %}

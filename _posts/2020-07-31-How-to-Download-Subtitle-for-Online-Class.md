@@ -34,7 +34,7 @@ for (let i = 0; i < tmp.length; i++) {
 
 一般来说，为了方便加载，字幕文件都是单独的文件。如果是直接嵌在网页的HTML中，则可以直接查看网页源代码。对于单独的文件，仍然是在浏览器中按<kbd>F12</kbd>打开控制台，切换到“Network”标签，然后重新加载页面。在该标签下查看各加载项，可以先尝试筛选常见的格式（如`.vtt`、`.json`、`.xml`等）。如果找到了对应的文件，双击文件名可以新窗口打开并下载，如<a class="xref-figure" href="#figure-01fbdf33d6d168d2e365b1d3e982495ac9ebad1611df09b1.png"></a> 所示。
 
-{% include figure.html src="https://file.moetu.org/images/2020/07/31/01fbdf33d6d168d2e365b1d3e982495ac9ebad1611df09b1.png" alt="定位字幕文件" width="640" height="273.02" %}
+{% include figure.html src="01fbdf33d6d168d2e365b1d3e982495a.png" alt="定位字幕文件" width="640" height="273.02" %}
 
 另外，一些视频文件也可以通过这种方法下载，只需要查找常见的视频格式（一般是`.mp4`、`.ts`等）即可。
 
@@ -42,7 +42,7 @@ for (let i = 0; i < tmp.length; i++) {
 
 `.vtt`文件可以直接在播放器中加载，无需再次处理。`.json`文件则需要经过处理，不同平台的文件格式不同，但文件结构大都比较清晰，以学堂在线的字幕格式为例，如<a class="xref-figure" href="#figure-c32c47acadfd648d4d72cde2a59f642d87ec046256405f76.png"></a> 所示，`start`、`end`、`text`分别对应每句话的开始、结束、内容，之后的处理也基于此。
 
-{% include figure.html src="https://file.moetu.org/images/2020/07/31/c32c47acadfd648d4d72cde2a59f642d87ec046256405f76.png" alt="学堂在线字幕格式" width="640" height="273.02" %}
+{% include figure.html src="c32c47acadfd648d4d72cde2a59f642d.png" alt="学堂在线字幕格式" width="640" height="273.02" %}
 
 此处还是用Python，将其处理成`.vtt`格式。随手写一段代码：
 

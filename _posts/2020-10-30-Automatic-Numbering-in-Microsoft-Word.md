@@ -18,23 +18,23 @@ title: 浅谈 Microsoft Word 中的自动编号
 
 ## 页码
 
-{% include figure.html src="https://file.moetu.org/images/2020/11/02/6114723baa7a83ca37d767e3141a8eddd8d4cdc1a27c2087.png" alt="插入页码" width="640" height="361.74" %}
+{% include figure.html src="6114723baa7a83ca37d767e3141a8edd.png" alt="插入页码" width="640" height="361.74" %}
 
 页码的编号应该是最简单的，在页面上方的菜单中找到“插入”→“页码”，然后选择合适的格式即可，一般情况下应该插入在页面底端处（<a class="xref-figure" href="#figure-6114723baa7a83ca37d767e3141a8eddd8d4cdc1a27c2087.png"></a>）。其实质是在页脚处生成了一个“域”，可以理解为Word中的一个简单的自定义编程输出。
 
 这里先简单聊一聊页眉和页脚。默认情况下，Word的页眉和页脚会在每页的顶端和底端出现，但也可以根据实际需要选择“首页不同”（一般首页不需要页眉）或“奇偶页不同”（一般是在双面印刷时有需要）。而插入的页眉页脚在对应的每页都是相同的，但有些时候可能会需要同一文档中页眉和页脚不同，这时可以插入“分节符”，或者使用前文所述的“域”。
 
-{% include figure.html src="https://file.moetu.org/images/2020/11/02/5e2e119ec0075e08fb3a736dbc4b6cf525a7a1060b3227af.gif" alt="插入分节符" width="640" height="360" %}
+{% include figure.html src="5e2e119ec0075e08fb3a736dbc4b6cf5.gif" alt="插入分节符" width="640" height="360" %}
 
 插入分节符（<a class="xref-figure" href="#figure-5e2e119ec0075e08fb3a736dbc4b6cf525a7a1060b3227af.gif"></a>）：先在文档最开始的部分插入页眉和页脚，并选择“首页不同”，删除首页的页眉。然后在每章结束时，通过菜单栏→“布局”→“分隔符”→“分节符”（可以根据需求选择是否分页）。在新一节的页眉，先在菜单栏（→“页眉和页脚工具”）→“设计”→“导航”中取消选中“链接到前一条页面”，然后取消选中“选项”→“首页不同”，再修改新一节的页眉。这样的优点是比较自由，缺点则是需要手动修改，在章节较多时比较麻烦。
 
-{% include figure.html src="https://file.moetu.org/images/2020/11/02/591e965a77b1aa460c86fe587c72ecfa424ac602451f3a04.gif" alt="使用域" width="640" height="360" %}
+{% include figure.html src="591e965a77b1aa460c86fe587c72ecfa.gif" alt="使用域" width="640" height="360" %}
 
 使用域（<a class="xref-figure" href="#figure-591e965a77b1aa460c86fe587c72ecfa424ac602451f3a04.gif"></a>）：“首页不同”同“解法1”，然后在非首页页眉处选择菜单栏→“插入”→“文本”→“文档部件”→“域”，在出现的窗口左侧选择“StyleRef”，在中部选择本章标题所用的样式名称（一般为标题2），然后确定即可。这种方法在文档较长的时候可以自动更新当前章节的标题，也是我比较常用的方法。
 
 上述方法中用到了自定义域，而Word中域的用法还有很多，读者可以自行探索。这里提到的“StyleRef”顾名思义就是引用了对应样式的内容，而样式在菜单栏→“开始”→“样式”中可以设定，默认的样式包括正文、标题、题注等。很多人可能没有注意过“样式”的使用方法，但我个人认为这是Word为数不多的称得上规范的地方。通过定义样式，Word可以区分出文字的用途，从而为不同用途的文字指定不同的格式。右键点击样式可以修改样式的默认格式，也可以在下拉菜单中创建、清除和应用样式。
 
-{% include figure.html src="https://file.moetu.org/images/2020/11/02/fd2314ce5920aaccbda7d55cdcc5c51724c6214059783bd6.png" alt="默认字体" width="640" height="361.74" %}
+{% include figure.html src="fd2314ce5920aaccbda7d55cdcc5c517.png" alt="默认字体" width="640" height="361.74" %}
 
 另外多提一句，正式文件一般要求正文字体为中文宋体、英文Times New Roman，标题字体为黑体（我习惯黑体搭配Arial使用），而默认字体也可以通过菜单栏→“设计”→“字体”来设置（<a class="xref-figure" href="#figure-fd2314ce5920aaccbda7d55cdcc5c51724c6214059783bd6.png"></a>）。在样式中如果指定字体为“×× (中文正文)”，则修改默认字体后正文的字体也会修改，如果手动指定字体则不利于快速调整格式。我个人建议，多使用默认字体，不要手动修改字体，而且不建议在同一份文档中使用3种以上的字体（宋体、黑体、楷体／仿宋足矣），否则会显得混乱。
 
@@ -42,29 +42,29 @@ title: 浅谈 Microsoft Word 中的自动编号
 
 关于Word中参考文献，我个人还是习惯用EndNote，因为EndNote可以直接实现参考文献编号的自动更新。我之前也写过一篇[用EndNote管理中文文献的文章](https://xzonn.top/posts/Managing-Chinese-Literature-with-EndNote.html)，在这篇文章中我已经介绍了EndNote的安装、插入文献、修改文献列表格式等，此处不再赘述。
 
-{% include figure.html src="https://file.moetu.org/images/2020/11/02/53a596156e46d5f97cd3fec5d2de4dc319dc2b9c940f5554.png" alt="EndNote检查更新" width="640" height="360" %}
+{% include figure.html src="53a596156e46d5f97cd3fec5d2de4dc3.png" alt="EndNote检查更新" width="640" height="360" %}
 
 仅多说一句，北京大学正版软件共享平台提供的EndNote X9似乎有一些问题，在导入文献时期刊名称无法被识别，在此建议大家安装后按照菜单栏→“Help”→“Check for Updates...”检查更新（<a class="xref-figure" href="#figure-53a596156e46d5f97cd3fec5d2de4dc319dc2b9c940f5554.png"></a>）。
 
 ## 标题项编号
 
-{% include figure.html src="https://file.moetu.org/images/2020/11/02/4bdd8d0002f9402eca8a16592ab0a2a7eb41aae2e013480a.gif" alt="标题自动编号" width="640" height="360" %}
+{% include figure.html src="4bdd8d0002f9402eca8a16592ab0a2a7.gif" alt="标题自动编号" width="640" height="360" %}
 
-标题项也是可以自动编号的。为了实现自动编号，需要用到上文提到的“样式”。在菜单栏的“开始”→“段落”→“多级列表”（![多级列表\|none](https://file.moetu.org/images/2020/11/02/e57dabb960b816bdb361bec48c54bdfed3dbc65399c6fe47.png)）→“定义新的多级列表”可以创建多级列表，点击弹出的对话框下方“更多”按钮可以出现更多选项，将各级列表链接到对应的样式，随后确定。在输入标题时选择对应的样式，则会自动出现编号（<a class="xref-figure" href="#figure-4bdd8d0002f9402eca8a16592ab0a2a7eb41aae2e013480a.gif"></a>）。
+标题项也是可以自动编号的。为了实现自动编号，需要用到上文提到的“样式”。在菜单栏的“开始”→“段落”→“多级列表”（![多级列表\|none](e57dabb960b816bdb361bec48c54bdfe.png)）→“定义新的多级列表”可以创建多级列表，点击弹出的对话框下方“更多”按钮可以出现更多选项，将各级列表链接到对应的样式，随后确定。在输入标题时选择对应的样式，则会自动出现编号（<a class="xref-figure" href="#figure-4bdd8d0002f9402eca8a16592ab0a2a7eb41aae2e013480a.gif"></a>）。
 
-{% include figure.html src="https://file.moetu.org/images/2020/11/02/fdd294a0aaa2f775b2712be273709fbc41a9f061505e6663.png" alt="中文标题编号" width="640" height="360" %}
+{% include figure.html src="fdd294a0aaa2f775b2712be273709fbc.png" alt="中文标题编号" width="640" height="360" %}
 
 除了数字的自动编号外，还可以实现中文自动编号，搭配样式调整可以获得更多效果。例如，要求二级标题自动显示“第某章”，三级标题自动显示“第某节”，四级标题显示数字。与前文类似，只不过编号样式需要调整为中文的“一, 二, 三 ...”（<a class="xref-figure" href="#figure-fdd294a0aaa2f775b2712be273709fbc41a9f061505e6663.png"></a>）。如果子标题不需要显示副标题的编号，可以直接删除。如果子标题需要显示为数字，可以选中“正规形式编号”。
 
 ## 图表编号
 
-{% include figure.html src="https://file.moetu.org/images/2020/11/02/f7d4da4ecf96ce589516c8fb0bb495a70ec7d539ddcfec02.gif" alt="插入图表题注" width="640" height="360" %}
+{% include figure.html src="f7d4da4ecf96ce589516c8fb0bb495a7.gif" alt="插入图表题注" width="640" height="360" %}
 
 图表编号可能是需求量最大的一种编号，如果手动插入编号，一旦改变图片位置就要手动修改引用和编号顺序，比较麻烦。而使用自动编号可以摆脱手动修改的麻烦。插入图表编号的方法也比较简单，右键单击图片或表格，在菜单中选择“插入题注”，然后选择标签，输入内容，确认即可（<a class="xref-figure" href="#figure-f7d4da4ecf96ce589516c8fb0bb495a70ec7d539ddcfec02.gif"></a>）。一般情况下，表注在上，图注在下。Word默认的题注并没有单独的“图”“表”两个字，需要手动添加。另外，Word提供了“自动插入题注”的选项，但我并未搞懂如何使用，如果各位知道如何使用还请不吝赐教。
 
 如果需要在正文中引用题注，则需要找到菜单栏→“插入”→“交叉引用”，在弹出的对话框中选择引用类型为“图”，引用内容为“仅标签和编号”，插入即可。此外，交叉引用还可以插入其他编号项，例如文中如果需要提及“第X章”也可使用此方法插入；还可以插入其他引用内容，例如某项所在的页码，这些内容都会随着文档内容更新而更新。如果没有自动更新，可以使用<kbd>Ctrl</kbd> + <kbd>A</kbd>全选，然后按<kbd>F9</kbd>强制更新域。
 
-{% include figure.html src="https://file.moetu.org/images/2020/11/02/6ec20ad79978eaf28f8af15ead9f25c59878cd02bc702b31.png" alt="插入目录" width="640" height="361.74" %}
+{% include figure.html src="6ec20ad79978eaf28f8af15ead9f25c5.png" alt="插入目录" width="640" height="361.74" %}
 
 此外，通过自动编号插入的标题、图注、表注都可以生成对应的目录，均位于菜单栏的“引用”选项卡下。标题目录为“目录”→“目录”（<a class="xref-figure" href="#figure-6ec20ad79978eaf28f8af15ead9f25c59878cd02bc702b31.png"></a>），图注、标注目录为“题注”→“插入表目录”，设置方式类似，也可以手动修改对应的样式，此处不再详细说明。
 

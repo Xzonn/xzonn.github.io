@@ -85,7 +85,7 @@ TWiLight Menu++是一款开源软件，可以在任天堂DSi、3DS及DS烧录卡
 <div class="panel panel-primary" id="note-1">
   <div class="panel-heading">译注1</div>
   <div class="panel-body" markdown="1">
-{% include figure.html src="https://file.moetu.org/images/2020/03/13/3c87733772c71896f2bf29c013c31a92b2a79d5d8984b476.png" alt="用r4cce修改金手指代码" width="602" height="452" %}
+{% include figure.html src="3c87733772c71896f2bf29c013c31a92.png" alt="用r4cce修改金手指代码" width="602" height="452" %}
 
 “<span lang="en">DeadSkullzJr's NDS Cheat Databases</span>”是由国外玩家[DeadSkullzJr](https://github.com/DeadSkullzJr/)等人整理的金手指数据库，目前仍在更新，囊括了非常多的DS游戏。然而我在使用这个数据库的时候，发现TWiLight Menu++没有办法读取汉化版游戏的金手指。在查阅资料后我得出了结论：
 
@@ -177,7 +177,7 @@ png文件的分辨率如<a class="xref-table" href="#table-boxart-size"></a>所�
 <div class="panel panel-primary" id="note-2">
   <div class="panel-heading">译注2</div>
   <div class="panel-body" markdown="1">
-{% include figure.html src="https://file.moetu.org/images/2020/03/13/46fd3b67398273a094d4b7d441865eec10db190fd8b2dcaa.png" alt="读取ROM的CRC16值" width="640" height="273.02" %}
+{% include figure.html src="46fd3b67398273a094d4b7d441865eec.png" alt="读取ROM的CRC16值" width="640" height="273.02" %}
 
 与金手指类似，宽屏补丁也需要对比游戏代码和ROM的校验值，因此如果需要使用宽屏则也需要做一些工作。
 

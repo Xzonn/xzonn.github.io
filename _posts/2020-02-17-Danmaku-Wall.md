@@ -12,7 +12,7 @@ wechat_link: https://mp.weixin.qq.com/s/kskgb-AIWp0rVEEhn3i4KA
 
 今天（2020/02/17）是北大2020年春季学期开学的日子，由于疫情影响，大部分课采取了网络教学的方式。但我在上课的时候发现，当老师全屏演示的时候，他将无法及时看到同学们情况的反馈。正好我想到我曾经开发过的酷Q弹幕墙插件，而且上学期结束时也有老师问我能不能在这学期开课的时候尝试用弹幕墙增加同学们的互动热情，因此我在今晚略微修改了一下代码以适应教学需求，同时写下这篇文档帮助想要使用的老师快速掌握用法。
 
-{% include figure.html src="https://file.moetu.org/images/2020/02/20/7440dcaa115def87d2f67498b7d8c5dea3bffc5d491069cf.png" alt="弹幕墙预览" width="640" height="360" %}
+{% include figure.html src="7440dcaa115def87d2f67498b7d8c5de.png" alt="弹幕墙预览" width="640" height="360" %}
 
 ## 准备工作
 
@@ -35,11 +35,11 @@ wechat_link: https://mp.weixin.qq.com/s/kskgb-AIWp0rVEEhn3i4KA
 
 ### 1. 打开插件
 
-{% include figure.html src="https://file.moetu.org/images/2020/02/20/ec5600ec1bb076b8952116bf3f724493fcd65f7a817463ae.png" alt="应用管理页面" width="595" height="453" %}
+{% include figure.html src="ec5600ec1bb076b8952116bf3f724493.png" alt="应用管理页面" width="595" height="453" %}
 
 将压缩包解压，双击“酷Q Air”文件夹下的“CQA.exe”运行程序，输入QQ号和密码登录。
 
-登录成功后，右键单击右下角任务栏的“酷Q Air”图标（![酷Q Air\|none](https://file.moetu.org/images/2020/02/20/9c5c16e5a127a8aaaaf72bf79faebe0d3925721b78ce9c1e.png)），选择“应用”→“应用管理”。
+登录成功后，右键单击右下角任务栏的“酷Q Air”图标（![酷Q Air\|none](9c5c16e5a127a8aaaaf72bf79faebe0d.png)），选择“应用”→“应用管理”。
 
 在弹出的窗口中选中“QQ 弹幕墙”（未开启时应为灰色），然后在右侧选择“启用”。
 
@@ -51,7 +51,7 @@ wechat_link: https://mp.weixin.qq.com/s/kskgb-AIWp0rVEEhn3i4KA
 
 ### 2. 设置
 
-{% include figure.html src="https://file.moetu.org/images/2020/02/20/37ce589316b8676c6e7ec9e2ffd2e9186b22d39ac8578f5c.png" alt="设置页面" width="382" height="277" %}
+{% include figure.html src="37ce589316b8676c6e7ec9e2ffd2e918.png" alt="设置页面" width="382" height="277" %}
 
 在右侧的“菜单”→“设置”中可以设置管理员（输入QQ号）、需要显示弹幕的QQ群（QQ群号）、是否显示图片、是否显示昵称，也可查看帮助文档。
 

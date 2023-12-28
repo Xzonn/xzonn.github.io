@@ -53,7 +53,7 @@ title: 《宝可梦》系列游戏汉化时间表
       <td>2017年2月11日</td>
       <td><a href="https://tieba.baidu.com/p/4976124558?see_lz=1">CKN汉化组、口袋群星SP汉化组</a></td>
       <td>基于美版·官方译名</td>
-      <td><img src="https://file.moetu.org/images/2020/03/16/ee0512c434422dc0b6b9031f3dcc643d222e46168a971624.png" alt="精灵宝可梦 皮卡丘" style="width: 160px;"></td>
+      <td><img src="ee0512c434422dc0b6b9031f3dcc643d.png" alt="精灵宝可梦 皮卡丘" style="width: 160px;"></td>
     </tr>
     <tr>
       <td>2023年8月13日</td>
@@ -104,7 +104,7 @@ title: 《宝可梦》系列游戏汉化时间表
       <td>2012年7月23日</td>
       <td><a href="http://www.pmcenter.cn/forum.php?mod=viewthread&tid=45552">口袋群星SP</a></td>
       <td>基于美版·官方译名</td>
-      <td><img src="https://file.moetu.org/images/2020/03/16/66466fc3be15678c2cdc0a04c8c5b470a28002d29f132a22.png" alt="精灵宝可梦 火红" style="width: 160px;"><img src="https://file.moetu.org/images/2020/03/16/1c1afbca95db1b479870a165eceffe6533ffead34bbc4968.png" alt="精灵宝可梦 叶绿" style="width: 160px;"></td>
+      <td><img src="66466fc3be15678c2cdc0a04c8c5b470.png" alt="精灵宝可梦 火红" style="width: 160px;"><img src="1c1afbca95db1b479870a165eceffe65.png" alt="精灵宝可梦 叶绿" style="width: 160px;"></td>
     </tr>
     <tr>
       <td>エメラルド</td>
@@ -113,7 +113,7 @@ title: 《宝可梦》系列游戏汉化时间表
       <td>2012年7月23日</td>
       <td>漫游@TGB联合汉化组、<a href="http://www.pmcenter.cn/forum.php?mod=viewthread&tid=45552">口袋群星SP</a></td>
       <td>基于美版·官方译名<br/>原始发布链接不可考</td>
-      <td><img src="https://file.moetu.org/images/2020/03/16/450b57457a7910b48e8c29d30eff0aca1a17a2423ef1e4b6.png" alt="精灵宝可梦 绿宝石" style="width: 160px;"></td>
+      <td><img src="450b57457a7910b48e8c29d30eff0aca.png" alt="精灵宝可梦 绿宝石" style="width: 160px;"></td>
     </tr>
     <tr>
       <td>ダイアモンド・パール</td>
@@ -122,7 +122,7 @@ title: 《宝可梦》系列游戏汉化时间表
       <td>2007年12月24日</td>
       <td>YYJoy汉化组</td>
       <td>基于日版<br/><a href="http://bbs.yyjoy.com/thread-54130-1-1.html">原始发布链接</a>已失效</td>
-      <td><img src="https://file.moetu.org/images/2020/03/16/41e5e7fa53e465085e2ff1b41d1404d84d871c796f14199d.png" alt="口袋妖怪 钻石" style="width: 160px;"><img src="https://file.moetu.org/images/2020/03/16/6cd86c14437f87f8e4416d820cf10e6dbae8d4bee782bc18.png" alt="口袋妖怪 珍珠" style="width: 160px;"></td>
+      <td><img src="41e5e7fa53e465085e2ff1b41d1404d8.png" alt="口袋妖怪 钻石" style="width: 160px;"><img src="6cd86c14437f87f8e4416d820cf10e6d.png" alt="口袋妖怪 珍珠" style="width: 160px;"></td>
     </tr>
     <tr>
       <td rowspan="2">プラチナ</td>
@@ -131,7 +131,7 @@ title: 《宝可梦》系列游戏汉化时间表
       <td>2009年7月31日</td>
       <td><a href="http://zt.tgbus.com/acghh/Work/2009/08/01/1057257087.shtml">ACG汉化组</a></td>
       <td>基于日版</td>
-      <td><img src="https://file.moetu.org/images/2020/02/20/e23ee94c4705bb8188cde6ee2ba684f2370e44e045b982e4.png" alt="口袋妖怪 白金" style="width: 160px;"></td>
+      <td><img src="e23ee94c4705bb8188cde6ee2ba684f2.png" alt="口袋妖怪 白金" style="width: 160px;"></td>
     </tr>
     <tr>
       <td>2018年10月15日</td>
@@ -146,7 +146,7 @@ title: 《宝可梦》系列游戏汉化时间表
       <td>2010年7月2日</td>
       <td><a href="http://zt.tgbus.com/acghh/Work/2010/07/02/18593618170.shtml">ACG</a><a href="http://zt.tgbus.com/acghh/Work/2010/07/09/23061618359.shtml">汉化组</a></td>
       <td>基于日版</td>
-      <td><img src="https://file.moetu.org/images/2020/02/28/a8c17f7f507f7119d1f7caa8ab6458f5e446bc7ca62d2346.png" alt="口袋妖怪 心灵之金" style="width: 160px;"><img src="https://file.moetu.org/images/2020/02/28/94baba0691c671fb07233b6d7c4051a3d593e577132de3fe.png" alt="口袋妖怪 灵魂之银" style="width: 160px;"></td>
+      <td><img src="a8c17f7f507f7119d1f7caa8ab6458f5.png" alt="口袋妖怪 心灵之金" style="width: 160px;"><img src="94baba0691c671fb07233b6d7c4051a3.png" alt="口袋妖怪 灵魂之银" style="width: 160px;"></td>
     </tr>
     <tr>
       <td>2020年2月28日</td>
@@ -176,7 +176,7 @@ title: 《宝可梦》系列游戏汉化时间表
       <td>2012年8月10日</td>
       <td>ACG汉化组、口袋群星SP汉化组</td>
       <td>基于日版<br/><a href="http://bbs.tgbus.com/thread-3930991-1-1.html">原始发布链接</a>已失效<br/>ACG版本使用“口袋妖怪”作为译名<br/>口袋群星SP版本使用“精灵宝可梦”作为译名</td>
-      <td><img src="https://file.moetu.org/images/2020/03/16/1250556aa594c282445d4970bf6def7379c773b0961d1dbf.png" alt="精灵宝可梦 黑2" style="width: 160px;"><img src="https://file.moetu.org/images/2020/03/16/6e0f7341fae27990462859ca8062da9ab5fb9cb647df4fb9.png" alt="精灵宝可梦 白2" style="width: 160px;"></td>
+      <td><img src="1250556aa594c282445d4970bf6def73.png" alt="精灵宝可梦 黑2" style="width: 160px;"><img src="6e0f7341fae27990462859ca8062da9a.png" alt="精灵宝可梦 白2" style="width: 160px;"></td>
     </tr>
     <tr>
       <td rowspan="2">X·Y</td>
@@ -191,7 +191,7 @@ title: 《宝可梦》系列游戏汉化时间表
       <td>2016年11月21日</td>
       <td><a href="https://tieba.baidu.com/p/4873623465?see_lz=1">起航汉化组</a></td>
       <td>官方译名</td>
-      <td><img src="https://file.moetu.org/images/2020/03/16/a28f2884bbd827d878643cbb960eadfce29a7a50aaac1f91.png" alt="精灵宝可梦 Y" style="width: 160px;"></td>
+      <td><img src="a28f2884bbd827d878643cbb960eadfc.png" alt="精灵宝可梦 Y" style="width: 160px;"></td>
     </tr>
     <tr>
       <td rowspan="2">オメガルビー・アルファサファイア</td>
@@ -206,7 +206,7 @@ title: 《宝可梦》系列游戏汉化时间表
       <td>2017年2月26日</td>
       <td><a href="https://tieba.baidu.com/p/4998748709?see_lz=1">起航汉化组</a></td>
       <td>官方译名</td>
-      <td><img src="https://file.moetu.org/images/2020/03/16/1a5b3cc61a5cb13bc6e1fc25aad31f386b3c579c9f2ff98f.png" alt="精灵宝可梦 欧米伽红宝石" style="width: 160px;"></td>
+      <td><img src="1a5b3cc61a5cb13bc6e1fc25aad31f38.png" alt="精灵宝可梦 欧米伽红宝石" style="width: 160px;"></td>
     </tr>
     <tr>
       <td>サン・ムーン</td>
@@ -214,7 +214,7 @@ title: 《宝可梦》系列游戏汉化时间表
       <td colspan="2">2016年11月18日</td>
       <td>官方中文</td>
       <td>本作开始加入官方中文</td>
-      <td><img src="https://file.moetu.org/images/2020/03/16/70de2832fa2584841545834647ce59eaf925c6faadc2d2fd.png" alt="精灵宝可梦 月亮" style="width: 160px;"></td>
+      <td><img src="70de2832fa2584841545834647ce59ea.png" alt="精灵宝可梦 月亮" style="width: 160px;"></td>
     </tr>
     <tr>
       <td>ウルトラサン・ウルトラムーン</td>
@@ -222,7 +222,7 @@ title: 《宝可梦》系列游戏汉化时间表
       <td colspan="2">2017年11月17日</td>
       <td>官方中文</td>
       <td></td>
-      <td><img src="https://file.moetu.org/images/2020/03/16/7b563957560fe8b87c263882f31be34a7cfe1e5c352aa076.png" alt="精灵宝可梦 究极之日" style="width: 160px;"><img src="https://file.moetu.org/images/2020/03/16/d8c73a6d1217e2495bd36f07210a29379e1167990954d962.png" alt="精灵宝可梦 究极之月" style="width: 160px;"></td>
+      <td><img src="7b563957560fe8b87c263882f31be34a.png" alt="精灵宝可梦 究极之日" style="width: 160px;"><img src="d8c73a6d1217e2495bd36f07210a2937.png" alt="精灵宝可梦 究极之月" style="width: 160px;"></td>
     </tr>
     <tr>
       <td>Let &#39;s Go! ピカチュウ・Let &#39;s Go! イーブイ</td>

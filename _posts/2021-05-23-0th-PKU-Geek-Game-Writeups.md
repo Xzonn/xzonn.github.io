@@ -1,6 +1,6 @@
 ---
 date: 2021-05-23 12:00
-head_image: https://file.moetu.org/images/2021/05/26/133429ad9a7520262f1dfcdb5d214e6aa188740b269115ec.jpg
+head_image: 133429ad9a7520262f1dfcdb5d214e6a.jpg
 head_image_height: 720
 head_image_width: 722
 info: 非官方题解。
@@ -115,7 +115,7 @@ print(b)
 
 组委会提供了一个[“假网站”](https://www.qqxiuzi.cn/bianma/kaisamima.php)，使用这个网站解密出来的结果会有一个“&ensp;”（`&ensp;`，`U+2002`）。
 
-{% include figure.html src="https://file.moetu.org/images/2021/05/26/2b146e8c2f4fc5d42af78e83c88add14e8ebff54aadea971.png" width="797" height="340" %}
+{% include figure.html src="2b146e8c2f4fc5d42af78e83c88add14.png" width="797" height="340" %}
 
 查看了一下源代码这个东西解密凯撒密码竟然还要往服务器发请求，不知道服务器端写了什么奇怪的程序。这也是为什么组委会特意发了公告：
 
@@ -170,7 +170,7 @@ in(){char a[5]={109,97,105,110,0};printf("%s",a);}
 ### 解法
 签到题和题目里面带“<span class="you-name">You</span> 酱”的都是 [@xmcp](https://github.com/xmcp) 出的。直到比赛结束后我才发现“<span class="you-name">You</span> 酱”的名字有特殊的格式。据xmcp本人所说，“<span class="you-name">You</span> 酱”是这位：
 
-{% include figure.html src="https://file.moetu.org/images/2021/05/26/133429ad9a7520262f1dfcdb5d214e6aa188740b269115ec.jpg" alt="<span class=\"you-name\">You</span> 酱" width="361" height="360" %}
+{% include figure.html src="133429ad9a7520262f1dfcdb5d214e6a.jpg" alt="<span class=\"you-name\">You</span> 酱" width="361" height="360" %}
 
 #### #1
 > 理科一号楼共有 8 个计算中心机房，其中第 n 机房的门牌号是X<sub>n</sub>（1000≤X<sub>n</sub>≤9999），求 ∑ (X<sub>n</sub>)<sup>n</sup> 的最大质因数
@@ -270,21 +270,21 @@ coffee...
 ### 解法
 解压压缩包可以得到一个gif图：
 
-{% include figure.html src="https://file.moetu.org/images/2021/05/23/17a854c2cfd800a7e7bf9e244736fb0d5b27e024a7bda5a8.gif" alt="quiz.gif" width="258.5" height="248.5" %}
+{% include figure.html src="17a854c2cfd800a7e7bf9e244736fb0d.gif" alt="quiz.gif" width="258.5" height="248.5" %}
 
 根据提示这是个[图种](https://zh.moegirl.org.cn/%E5%9B%BE%E7%A7%8D)，将其后缀名改为“.zip”解压得到第一个flag：`flag{K33p_going!Passw0rd-is-hidden-in-the-1mage}`。
 
 第二个flag有密码，根据第一个flag的提示，密码隐藏在图片里。首先猜想有文字隐藏在背景中，拿[PS](https://www.adobe.com/products/photoshop.html)打开图片，用魔术橡皮擦选择容差为0，擦掉所有的背景，得到这么一张图：
 
-{% include figure.html src="https://file.moetu.org/images/2021/05/23/47c117b90bd2753c46003851bdeee082c91760d8f59492ad.png" width="536" height="229" %}
+{% include figure.html src="47c117b90bd2753c46003851bdeee082.png" width="536" height="229" %}
 
 看上去没什么不正常……我研究了好久才发现，右边的图层不止一个。依次切换图层的显示状态，发现偶数图层的四个角落分别有一些马赛克，将它们单独裁剪出来拼在一起，并做反色处理，得到新的一张图：
 
-{% include figure.html src="https://file.moetu.org/images/2021/05/23/05ddbe8b062ba76f79253281062f7073df3429c2d7ebb77c.png" width="261" height="261" %}
+{% include figure.html src="05ddbe8b062ba76f79253281062f7073.png" width="261" height="261" %}
 
 一堆像素方块，缺了四个角，马上想到[QR码](https://zh.wikipedia.org/wiki/QR%E7%A2%BC)，但直接扫码扫不出来，需要补充码眼，具体可以参考维基百科上的说明。补充完毕之后得到：
 
-{% include figure.html src="https://file.moetu.org/images/2021/05/23/a3d150f6e138cbe579c7356a18a6ae22ef9a506196f1b455.png" width="261" height="261" %}
+{% include figure.html src="a3d150f6e138cbe579c7356a18a6ae22.png" width="261" height="261" %}
 
 拿微信扫描一下，得到一个网址：`https://www.pku.edu.cn/#hint=zip_password_is_fm2jbn2z6t0gl5le`，那么密码就是`fm2jbn2z6t0gl5le`，解压得到第二个flag：`flag{you are master of stegan0. Here is y0ur flag}`。
 
@@ -379,11 +379,11 @@ function get(won) {
 
 进入iaaa之后发现是个假网站：
 
-{% include figure.html src="https://file.moetu.org/images/2021/05/23/6a4dfb42b2bee1d7c957b733820be35b6bb2d80c14268d10.png" alt="真正的百京大学" width="720" height="644" %}
+{% include figure.html src="6a4dfb42b2bee1d7c957b733820be35b.png" alt="真正的百京大学" width="720" height="644" %}
 
 这是真正的iaaa：
 
-{% include figure.html src="https://file.moetu.org/images/2021/05/23/9dc4740acf8f3384bca031f26dc6077057a05a5444c8fa32.png" alt="虚假的百京大学" width="720" height="644" %}
+{% include figure.html src="9dc4740acf8f3384bca031f26dc60770.png" alt="虚假的百京大学" width="720" height="644" %}
 
 对比了一下源代码，发现基本没有什么变化，只是点击“登录”并不会发送除了token以外的任何信息（也就是不会泄露用户名和密码）。点击登录之后获取了一个叫做`jwt`的参数，然后跳转到了URL类似`http://game.pku.edu.cn/callback?_rand=xxx&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6InN0dWRlbnQifQ.yY787WIxisr88ADjV-3q2MdvdFoYJvIlA9IChYFvn_Y&token=xxx`{: .line-break }的页面，页面内容是：
 
@@ -1625,7 +1625,7 @@ with open("table.json", "w") as f:
 w$ile gi4ö……
 ```
 
-{% include figure.html src="https://file.moetu.org/images/2021/05/27/e7fa840c3880421b3ad63e4c73ccb39bf467104a85f4e8b2.png" width="797" height="340" %}
+{% include figure.html src="e7fa840c3880421b3ad63e4c73ccb39b.png" width="797" height="340" %}
 
 虽然有很多乱码，但看上去已经很接近了。用[HxD](https://mh-nexus.de/en/hxd/)打开上面这个文本文件，第一行为：
 
@@ -1785,6 +1785,6 @@ for i in range(start - 1, 0x100 ** 4):
 
 希望这篇文章对大家有所帮助，祝大家玩得愉快。
 
-{% include figure.html src="https://file.moetu.org/images/2021/05/29/d82d373b03a57d8b14de3cbf69d5924bc36ad5bb5374137d.jpg" width="300" height="200" %}
+{% include figure.html src="d82d373b03a57d8b14de3cbf69d5924b.jpg" width="300" height="200" %}
 
-{% include figure.html src="https://file.moetu.org/images/2021/05/29/17acd0f36a14d75e31c04a690cdfd6267f56935fc8286bf3.jpg" width="300" height="200" %}
+{% include figure.html src="17acd0f36a14d75e31c04a690cdfd626.jpg" width="300" height="200" %}

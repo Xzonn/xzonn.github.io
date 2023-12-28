@@ -33,7 +33,7 @@ wechat_link: https://mp.weixin.qq.com/s/mYzdirgQjLwqXrfpri8lgw
 
 但是今天我要介绍的主角不是秀米，而是我在整理资料的时候发现的另一个排版工具：[Markdown Nice](https://www.mdnice.com/)。它使用Markdown语法进行编辑，其预览结果可以直接复制粘贴到微信自带的排版工具中，适合那些喜欢Markdown做笔记写文章的朋友。最重要的是，它可以直接输入公式，并复制粘贴到微信自带的排版工具中。而且，渲染出的公式是svg矢量图，无论如何缩放都不会糊，目前来看是我能找到的最佳解决方式。
 
-{% include figure.html src="https://file.moetu.org/images/2020/02/20/bd1a2f87762fdabdcf277e8433bf0c94be7e02c85ba70e88.png" alt="Markdown Nice公式渲染示例" width="640" height="480" %}
+{% include figure.html src="bd1a2f87762fdabdcf277e8433bf0c94.png" alt="Markdown Nice公式渲染示例" width="640" height="480" %}
 
 我个人认为，这个排版工具的显示效果还是不错的。那么问题来了：公式要如何输入呢？
 

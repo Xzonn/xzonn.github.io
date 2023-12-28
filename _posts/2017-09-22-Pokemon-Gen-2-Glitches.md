@@ -1,6 +1,6 @@
 ---
 date: 2017-09-22 19:56
-head_image: https://file.moetu.org/images/2020/02/20/dbde175c6db396d9ed2c8911165e2ccf9acf7b7d248e2d83.jpg
+head_image: dbde175c6db396d9ed2c8911165e2ccf.jpg
 head_image_height: 718
 head_image_width: 1280
 info: 由Xzonn对《精灵宝可梦 金／银／水晶版》部分漏洞梳理。包括克隆漏洞、捕虫大赛数据复制漏洞、代币盒漏洞、错误维度、时拉比的蛋、不战而胜漏洞。
@@ -14,7 +14,7 @@ title: 《精灵宝可梦》第二世代游戏漏洞梳理
 
 以下漏洞均在神奇宝贝百科有记载，且在bilibili有参考视频。神奇宝贝百科的记载有一部分是被我补充完善了的，而本文所引用的视频也大多是我录制的。由于本文完全为我个人所写，难免带有一定的主观性。且本文虽然主要使用官方译名，但也会对常用的玩家译名进行解释。
 
-{% include figure.html src="https://file.moetu.org/images/2020/02/20/03e1fe227a515bd6d15f9cb7db869a18d0229f6b10fc4802.gif" alt="克隆漏洞" width="160" height="144" %}
+{% include figure.html src="03e1fe227a515bd6d15f9cb7db869a18.gif" alt="克隆漏洞" width="160" height="144" %}
 
 ## 1. 克隆漏洞
 
@@ -36,7 +36,7 @@ title: 《精灵宝可梦》第二世代游戏漏洞梳理
 
 一般情况下，由于本方法的克隆是“完全克隆”，宝可梦的数据不会发生变化，因此通过此方法克隆合法宝可梦得到的宝可梦仍然是合法的。然而，若控制好关机的时机，系统会在电脑中预设宝可梦的位置，但没有录入数据，借由这种情况，玩家有可能获得“失败克隆”，即得到“错误宝可梦”。这是之后“[时拉比的蛋](#5-时拉比的蛋)”漏洞的基础。
 
-{% include figure.html src="https://file.moetu.org/images/2020/02/20/cd69ed89c33b7214a12c41ac13db2ac430e2a9176ca61398.gif" alt="获得全部最初拿到的宝可梦" width="160" height="144" %}
+{% include figure.html src="cd69ed89c33b7214a12c41ac13db2ac4.gif" alt="获得全部最初拿到的宝可梦" width="160" height="144" %}
 
 如果是在拿取最初拿到的宝可梦（即“御三家”）后到达吉花市宝可梦中心电脑进行此操作，之后再重新进行若叶镇至吉花市的剧情，可以领取三只最初拿到的宝可梦。但这种方法不能得到前两只宝可梦的图鉴信息，需要后期孵蛋解决。
 
@@ -47,7 +47,7 @@ title: 《精灵宝可梦》第二世代游戏漏洞梳理
 
 关于此漏洞出现的原因，我个人认为是游戏在存档时将箱子中宝可梦的数据和同行的宝可梦数据分别保存，由于存档保存时间较长，而游戏又没有检查存档是否保存完整，因此出现了这种漏洞。
 
-{% include figure.html src="https://file.moetu.org/images/2020/02/20/f8ed02cdf766e64b91a888dd93109e5d128e7dac97df62cc.gif" alt="捕虫大赛数据复制漏洞" width="160" height="144" %}
+{% include figure.html src="f8ed02cdf766e64b91a888dd93109e5d.gif" alt="捕虫大赛数据复制漏洞" width="160" height="144" %}
 
 ## 2. 捕虫大赛数据复制漏洞
 
@@ -114,7 +114,7 @@ title: 《精灵宝可梦》第二世代游戏漏洞梳理
 ##### 实例1：读取未使用的游戏数据
 
 {% include video.html aid="6993359" cid="11633805" page="1" %}
-{% include figure.html src="https://file.moetu.org/images/2020/02/20/8855e18851c61f4a25c3296e57e009fd1501818d8dd06cbd.gif" alt="读取未使用的游戏数据" width="160" height="144" %}
+{% include figure.html src="8855e18851c61f4a25c3296e57e009fd.gif" alt="读取未使用的游戏数据" width="160" height="144" %}
 
 准备：
 
@@ -138,7 +138,7 @@ title: 《精灵宝可梦》第二世代游戏漏洞梳理
 ##### 实例2：获得时拉比
 
 {% include video.html aid="6993359" cid="11633806" page="2" %}
-{% include figure.html src="https://file.moetu.org/images/2020/02/20/dffa8e57dadafdd8a413bed4c52add50c1b8a4e584d4cc85.gif" alt="获得时拉比" width="160" height="144" %}
+{% include figure.html src="dffa8e57dadafdd8a413bed4c52add50.gif" alt="获得时拉比" width="160" height="144" %}
 
 准备：
 
@@ -170,7 +170,7 @@ title: 《精灵宝可梦》第二世代游戏漏洞梳理
 
 然后玩家需要回到空木研究所，保存游戏，出来并向右走4步，听腕力等宝可梦的叫声并使用代币盒。之后玩家的第一只宝可梦会变成与[“捕虫大赛数据复制漏洞”](#2-捕虫大赛数据复制漏洞)得到的宝可梦类似的“杂交宝可梦”，其对战中形象（“供体”）为时拉比。将其存入饲育屋后取出即可得到稳定的时拉比。
 
-{% include figure.html src="https://file.moetu.org/images/2020/02/20/858340eb25ef5c7369857008ed93ee0c91e364110898a51c.gif" alt="获得其他宝可梦" width="160" height="144" %}
+{% include figure.html src="858340eb25ef5c7369857008ed93ee0c.gif" alt="获得其他宝可梦" width="160" height="144" %}
 
 在上述两个实例中都用到了一只新捕捉的宝可梦和特殊条件的沼王。如上文引用的解释所说，游戏跳转到第3只宝可梦的攻击／防御基础点数，而新捕捉的宝可梦基础点数为0，于是游戏顺序读取了第4只宝可梦的数据。沼王的种类、携带物品ＨＰ增强剂、第一个招式梦话的内部编号恰好是`0xC3 0x1A 0xD6`，对应指令`jp 0xD61A`（jump 0xD61A）使得游戏跳转到地址`0xD61A`，而这一地址恰好是电脑中第2个道具的数量。然后游戏依次向下读取数据并执行。
 
@@ -188,7 +188,7 @@ title: 《精灵宝可梦》第二世代游戏漏洞梳理
 {% include video.html aid="5055108" cid="8211606" page="6" %}
 - Hello world：<http://glitchcity.info/wiki/Coin_Case_glitch>
 
-{% include figure.html src="https://file.moetu.org/images/2020/02/20/4e151309c1a7866b2c75e9ee07d33c37419ad340b9fcf0b7.gif" alt="错误维度" width="160" height="144" %}
+{% include figure.html src="4e151309c1a7866b2c75e9ee07d33c37.gif" alt="错误维度" width="160" height="144" %}
 
 ## 4. 错误维度
 
@@ -217,7 +217,7 @@ title: 《精灵宝可梦》第二世代游戏漏洞梳理
 
 有时游戏可能会进入一种近乎全白的状态，即为“影子戏剧”。在“影子戏剧”中，几乎一切都是白色的，包括地图、菜单、对战时的宝可梦等。NPC的图像只有轮廓可见，而在战斗中的一些招式动画也是可见的。
 
-{% include figure.html src="https://file.moetu.org/images/2020/02/20/93aa37b2c11a4da6fad211c57cc3dc9290472018edca4931.gif" alt="时拉比的蛋" width="160" height="144" %}
+{% include figure.html src="93aa37b2c11a4da6fad211c57cc3dc92.gif" alt="时拉比的蛋" width="160" height="144" %}
 
 ## 5. 时拉比的蛋
 
@@ -259,7 +259,7 @@ title: 《精灵宝可梦》第二世代游戏漏洞梳理
 
 而触发此漏洞后取出“????? <sub>(00)</sub>”，它会变成“????? <sub>(FF)</sub>”。这只宝可梦是触发“[不战而胜漏洞](#6-不战而胜漏洞)”的前提。
 
-{% include figure.html src="https://file.moetu.org/images/2020/02/20/54956601e59e18d006fb39fa08612b51593aa9e484a67e77.gif" alt="不战而胜漏洞" width="160" height="144" %}
+{% include figure.html src="54956601e59e18d006fb39fa08612b51.gif" alt="不战而胜漏洞" width="160" height="144" %}
 
 ## 6. 不战而胜漏洞
 

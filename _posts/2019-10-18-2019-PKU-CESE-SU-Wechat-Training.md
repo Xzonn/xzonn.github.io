@@ -1,7 +1,7 @@
 ---
 class: auto-numbering
 date: 2019-10-18 12:00
-head_image: https://file.moetu.org/images/2020/02/20/06a949f0329efaa1f4b63851e858ffda488a7039761c5827.jpg
+head_image: 06a949f0329efaa1f4b63851e858ffda.jpg
 head_image_height: 1080
 head_image_width: 1728
 last_modified_at: 2020-01-03 23:02
@@ -32,7 +32,7 @@ title: 2019年环院学生会微信推送培训指南
 
 新建图文之后，请先按照图1顺序依次完成以下内容。
 
-{% include figure.html src="https://file.moetu.org/images/2020/02/20/bfd3c229364a9507694c1d22b7a299b2c050bb3636fdadd7.png" alt="新图文的初始设置" width="640" height="360" %}
+{% include figure.html src="bfd3c229364a9507694c1d22b7a299b2.png" alt="新图文的初始设置" width="640" height="360" %}
 
 1. **标题**。应该是整篇推送内容最精炼的总结。可以使用具有感染力的词语，但不要过分标题党。标题格式：“CESE·某某 \| 标题”。注意分割线“\|”的两边均包含空格。“某某”应根据部门和推送所属的活动来定，如“环语”或“宣传”等。  
 “·”输入方式：中文输入法模式下，按下键盘上“Esc”下方的键可打出。  
@@ -44,11 +44,11 @@ title: 2019年环院学生会微信推送培训指南
 6. **设置**。“自动保存”无须赘述。“粘贴时清除格式”：默认为选中状态，建议不更改，这样可以保证推送排版风格保持一致；后文特殊情况需要修改，另行说明。“文字内可以插入小图片”：默认为未选中状态，如果需要在行中插入小表情，可以选中。
 7. **责编**。仅需在推送最后用文字写清“责编 \| 某某某”即可，动态图片的插入和格式调节由公众号管理员统一添加。
 
-{% include figure.html src="https://file.moetu.org/images/2020/02/20/5ed36e39eb37e933c9a92ea041798d9a4d42047d2262df38.png" alt="图片截取比例" width="640" height="360" %}
+{% include figure.html src="5ed36e39eb37e933c9a92ea041798d9a.png" alt="图片截取比例" width="640" height="360" %}
 
-{% include figure.html src="https://file.moetu.org/images/2020/02/20/507d6d3ed1bab1705a5f1db148457726ad7870eed3f7034b.png" alt="标题、摘要、封面示例" width="429" height="300" %}
+{% include figure.html src="507d6d3ed1bab1705a5f1db148457726.png" alt="标题、摘要、封面示例" width="429" height="300" %}
 
-{% include figure.html src="https://file.moetu.org/images/2020/02/20/5cf5e5d19c43ed1cb953309eb54d42fc5b5575a1c8477fc0.png" alt="基础格式示例" width="303" height="403" %}
+{% include figure.html src="5cf5e5d19c43ed1cb953309eb54d42fc.png" alt="基础格式示例" width="303" height="403" %}
 
 ### 正式开始排版
 
@@ -58,7 +58,7 @@ title: 2019年环院学生会微信推送培训指南
 
 文字可以调节<span style="font-size: 0.8em;">字</span><span style="font-size: 1.2em;">号</span>、<span style="color: var(--color-warm-dark);">颜色</span>、<span style="background-color: var(--color-warm-light);">背景色</span>、对齐方式、**粗体**、*斜体*、<u>下划线</u>、<del>删除线</del>等格式，其效果与Word类似。但秀米没有直接提供上标和下标的输入，因此如果需要输入化学式（如SO<sub>4</sub><sup>2-</sup>）需要进行其他操作.参见“2.4. 插入上标下标和公式”。
 
-{% include figure.html src="https://file.moetu.org/images/2020/02/20/009165057fcf465400b42345f77b268af31da76e981912a2.png" alt="秀米提供的工具栏" width="646" height="530" %}
+{% include figure.html src="009165057fcf465400b42345f77b268a.png" alt="秀米提供的工具栏" width="646" height="530" %}
 
 文字段落可以设置首行缩进、符号列表、编号列表、竖排文字等。
 
@@ -68,8 +68,8 @@ title: 2019年环院学生会微信推送培训指南
 
 1. 再次检查“1.3. 开始前的设置”中提到的要点，尤其注意“责编”是否已填写。
 2. 检查有无错别字、是否已加入图片、是否有疏漏。
-3. 检查无误后，点击“![预览按钮\|none](https://file.moetu.org/images/2020/02/20/424e71d44b8b72e7a06c78fdce4ff8e0d6db27b96e169d40.png)”预览，并将二维码发送给部长或其他审核人。
-4. 审核无误后，点击“![更多操作按钮\|none](https://file.moetu.org/images/2020/02/20/f1a05c7006d1b872fafba4c3559ef7f5217090207e4e2006.png)”更多操作，选择“另存图文给其他用户”，将推送保存给公众号管理员。
+3. 检查无误后，点击“![预览按钮\|none](424e71d44b8b72e7a06c78fdce4ff8e0.png)”预览，并将二维码发送给部长或其他审核人。
+4. 审核无误后，点击“![更多操作按钮\|none](f1a05c7006d1b872fafba4c3559ef7f5.png)”更多操作，选择“另存图文给其他用户”，将推送保存给公众号管理员。
 
 ### 排版注意事项
 
@@ -98,11 +98,11 @@ title: 2019年环院学生会微信推送培训指南
 
 推荐配色网站：Color Scheme Designer 3（<http://colorschemedesigner.com/csd-3.5/>，有中文版<http://www.peise.net/tools/web/>）。从色环选择合适的颜色，然后选择配色方案（“单色搭配”“互补色搭配”等），再从“色彩列表”中复制色彩代码，用Word的“替换”功能将代码处理成“#ABCDEF;”的格式，之后就可以导入秀米的配色板了。导入结果如图6所示。
 
-{% include figure.html src="https://file.moetu.org/images/2020/02/20/496e8b2fa9ed0c85a126d30b495e56663b5cbc43492b6f63.png" alt="导入配色板" width="302" height="259" %}
+{% include figure.html src="496e8b2fa9ed0c85a126d30b495e5666.png" alt="导入配色板" width="302" height="259" %}
 
 对于秀米提供的模板，如果主色调与所选的配色板相差较大，可以自行修改模板的配色，如图7所示。
 
-{% include figure.html src="https://file.moetu.org/images/2020/02/20/ac147f41db04d758555d0bef73ecc9fa36846dfda1588852.png" alt="修改模板配色" width="719" height="296" %}
+{% include figure.html src="ac147f41db04d758555d0bef73ecc9fa.png" alt="修改模板配色" width="719" height="296" %}
 
 另外，对于模板的选取，不建议整篇推送充斥大量的模板，应有选择地使用模板，同时遵循“重复”原则，同一类型文字可采用相同或类似的模板。
 
@@ -129,19 +129,19 @@ title: 2019年环院学生会微信推送培训指南
 
 微信推送中仅可插入**腾讯视频**（<https://v.qq.com/>）网站的视频，如果需要插入自制视频，需要提前上传腾讯视频网站。首先需要在腾讯视频注册并登录账号，完成实名认证后上传视频。待审核完毕后，在视频页面的“分享”处获取“**通用代码**”。在秀米页面的左侧选择“组件”→“视频”，然后粘贴通用代码，即可插入视频。
 
-{% include figure.html src="https://file.moetu.org/images/2020/02/20/93d8d670c0815dbabfed46929da677014431ca51a3020b5e.png" alt="获取视频通用代码" width="780" height="394" %}
+{% include figure.html src="93d8d670c0815dbabfed46929da67701.png" alt="获取视频通用代码" width="780" height="394" %}
 
 ### 插入上标下标和公式
 
 秀米的编辑器不提供上下标的输入，但可以通过其他方式插入上下标格式的文字。首先使用Word输入对应的上下标文字，然后在秀米页面的右侧选择“设置”，取消选中“粘贴时清除格式”，然后将Word中的文字粘贴到秀米中。由于Word会自带文字格式，这可能会导致字体格式的不统一。为尽可能保持样式统一，请将“字体”先修改为任意字体，然后改回“默认字体”，并将字号调为14。
 
-{% include figure.html src="https://file.moetu.org/images/2020/02/20/f6565b333265871f8e56baab7db0e0c4ec63661d6895e78f.png" alt="已调整格式和未调整格式的显示效果" width="80" height="19" %}
+{% include figure.html src="f6565b333265871f8e56baab7db0e0c4.png" alt="已调整格式和未调整格式的显示效果" width="80" height="19" %}
 
 如果不想调整格式，可尝试使用HTML代码。在Chrome中新建标签页，按“<kbd>F12</kbd>”调出控制台界面，然后修改HTML代码，形如“`SO<sub>4</sub><sup>2-</sup>`”，再将渲染出的文字复制粘贴到秀米中，如图10所示。
 
 公式的插入目前没有较好的解决方案，只能先用公式编辑器编辑，然后插入图片。
 
-{% include figure.html src="https://file.moetu.org/images/2020/02/20/bc990982f77ebb860ff2c3a6ca70aecbe842c28aeb86b72b.png" alt="用HTML代码输入上下标" width="1568" height="695" %}
+{% include figure.html src="bc990982f77ebb860ff2c3a6ca70aecb.png" alt="用HTML代码输入上下标" width="1568" height="695" %}
 
 ### 将链接变为二维码
 

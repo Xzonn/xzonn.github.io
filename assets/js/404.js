@@ -1,5 +1,5 @@
 (() => {
-  let url = location.pathname.replace(/\/posts\//, "/study/");
+  let url = location.pathname.replace(/\/posts\//, "/study/").replace(/-To-/g, "-to-");
   if (url == location.pathname) {
     return;
   }
