@@ -1,3 +1,6 @@
+"use strict";
+/* global $ */
+
 (() => {
   let url = location.pathname.replace(/\/posts\//, "/study/").replace(/-To-/g, "-to-");
   if (url == location.pathname) {
@@ -6,7 +9,7 @@
   $.ajax({
     type: "HEAD",
     url: url,
-  }).done(function (_, __, jqXHR) {
+  }).done((_, __, jqXHR) => {
     if (jqXHR.status == 200) {
       location.href = url;
     }

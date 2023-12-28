@@ -1,5 +1,5 @@
     <!-- Common Content Start -->
-    <div class="xz-content container">
+    <div class="xz-content container-md">
       <div class="row">
         <div class="xz-content-main col-md-{% if page.no_sidenav %}12{% else %}9{% endif %}">{% if page.head_image and page.head_image_shown %}
 {% include figure.html blank="          " src=page.head_image alt=page.title width=page.head_image_width height=page.head_image_height no_link=true %}{% endif %}
@@ -7,14 +7,8 @@
 {% endcapture %}{% capture DOUBLE_LINE_BREAK %}{{ LINE_BREAK }}{{ LINE_BREAK }}{% endcapture %}{% capture LINE_BREAK_INDENT %}
             {% endcapture %}{% assign _content = content | strip | replace: '<a href="http', '<a target="_blank" href="http' %}
             {% assign _splited_pres = _content | split: "<pre " %}{% for _pre in _splited_pres %}{% if forloop.first %}{{ _pre | replace: DOUBLE_LINE_BREAK, LINE_BREAK | replace: LINE_BREAK, LINE_BREAK_INDENT }}{% else %}<pre {% assign _splited_part = _pre | split: "</pre>" %}{{ _splited_part[0] }}</pre>{{ _splited_part[1] | replace: DOUBLE_LINE_BREAK, LINE_BREAK | replace: LINE_BREAK, LINE_BREAK_INDENT }}{% endif %}{% endfor %}
-          </article>{% if page.sources or page.references or page.links or page.logs %}
-          <div class="xz-infobox-bottom">{%if page.sources %}
-            <div class="xz-info-sources">
-              <div class="xz-info-sources-head">源地址</div>
-              <ul>{% for source in page.sources %}
-                <li><a lang="ja" href="{{ source[0] }}">{{ source[1] }}</a></li>{% endfor %}
-              </ul>
-            </div>{% endif %}{%if page.references %}
+          </article>{% if page.references or page.links or page.logs %}
+          <div class="xz-infobox-bottom">{%if page.references %}
             <div class="xz-info-references">
               <div class="xz-info-references-head">参考资料</div>
               <ul>{% for reference in page.references %}
@@ -34,13 +28,13 @@
               </ul>
             </div>{% endif %}
           </div>{% endif %}{% unless jekyll.environment == "development" or page.no_comment %}
-          <div class="xz-content-comment hidden-print">
+          <div class="xz-content-comment d-print-none">
             <div class="alert alert-info text-center">如果需要在留言中发布图片，请前往<a href="https://github.com/Xzonn/xzonn.github.io/discussions/">GitHub上的Discussions</a>。您也可以通过<a href="https://space.bilibili.com/16114399">bilibili</a>的私信功能与我联系。</div>
             <script src="https://giscus.app/client.js" data-repo="Xzonn/xzonn.github.io" data-repo-id="MDEwOlJlcG9zaXRvcnkxOTA2ODQ0MzU=" data-category="General" data-category-id="DIC_kwDOC12dE84CaEKw" data-mapping="specific" data-term="{{ page.title | default: site.name }}" data-strict="1" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="preferred_color_scheme" data-lang="zh-CN" data-loading="lazy" crossorigin="anonymous" async></script>
           </div>{% endunless %}
         </div>{% unless page.no_sidenav %}
-        <div class="xz-sidenav col-md-3 hidden-print hidden-xs hidden-sm" id="xz-sidenav">
-          {% include toc.html html=content sanitize=true h_max=4 class="xz-sidenav-list nav nav-stacked affix-top" submenu_class="nav nav-stacked" %}
+        <div class="xz-sidenav col-md-3 d-print-none d-none d-md-block" id="xz-sidenav">
+          {% include toc.html html=content sanitize=true h_max=4 class="xz-sidenav-list nav flex-column" item_class="nav-item" anchor_class="nav-link" submenu_class="nav flex-column" %}
         </div>{% endunless %}
       </div>
     </div>

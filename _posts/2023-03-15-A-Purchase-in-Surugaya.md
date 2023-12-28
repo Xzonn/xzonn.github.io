@@ -8,9 +8,9 @@ last_modified_at: 2023-03-15 15:25
 tags: Switch 杂记
 title: 骏河屋海淘记录
 ---
-<div class="panel panel-primary">
-<div class="panel-heading">太长不看版：</div>
-<div class="panel-body" markdown="1">
+<div class="card mb-3">
+<div class="card-header text-bg-primary">太长不看版：</div>
+<div class="card-body" markdown="1">
 1. 为防止被反薅，建议支付前让卡上的余额只留比优惠价格高出10% 左右。
 2. 建议抢优惠前先自己走一遍购买流程，确认实际支付是在什么时候，在抢优惠时可以直接等到10点在最后一步确认支付。
 3. 如果被税了又不想交代理清关的手续费，建议去银行办张实体卡，绑定之后可以直接缴税。

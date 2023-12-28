@@ -2,39 +2,41 @@
 /* global $ */
 
 window.addEventListener("load", () => {
-  window.pageInfo = window.pageInfo || {};
-  /* 目录 */
+  /* 目录监听 */
   (() => {
-    $(".xz-sidenav").on("click", (e) => {
-      let target = e.target;
-      if (target.tagName.toLowerCase() == "a") {
-        e.preventDefault();
-        e.stopPropagation();
-        let hash = "#" + decodeURIComponent(target.href.split("#")[1]);
-        history.pushState(
-          {
-            url: location.href,
-          },
-          hash,
-          location.href.split("#")[0] + hash
-        );
-        $("html").animate(
-          {
-            scrollTop: $(hash).offset().top,
-          },
-          300
-        );
-      }
-    });
-    $("body").scrollspy({
-      target: ".xz-sidenav",
+    let toc = $(".xz-sidenav-list");
+    let links = Array.from(toc.find("a.nav-link"));
+    let targets = links.map((link) => $(link.attributes.href.value)[0]);
+    targets.forEach((target, target_index) => {
+      let observer = new IntersectionObserver(
+        () => {
+          toc.find("a.nav-link.active").removeClass("active");
+          for (let i = target_index; i > -1; i--) {
+            let target = targets[i];
+            if ($(target).offset().top - screen.availHeight / 4 <= window.scrollY) {
+              let parents = $(links[i]).parentsUntil(".xz-sidenav-list");
+              parents.children().filter("a.nav-link").addClass("active");
+              return;
+            }
+          }
+        },
+        {
+          threshold: [0, 0.5, 0.95, 1.0],
+        }
+      );
+      observer.observe(target);
     });
   })();
 
   /* 代码高亮 */
   (() => {
-    $(".xz-content pre code").each((n, code) => {
-      let inner = $(code).html().replace(/^\s+/, "").replace(/\s+$/, "").replace(/<span class="w">\n+<\/span>$/, "").replace(/\n/g, "</li><li>");
+    $(".xz-content pre code").each((i, code) => {
+      let inner = $(code)
+        .html()
+        .replace(/^\s+/, "")
+        .replace(/\s+$/, "")
+        .replace(/<span class="w">\n+<\/span>$/, "")
+        .replace(/\n/g, "</li><li>");
       while (inner.search(/(<span class="[^"]+">)([^<>]+)(<\/li><li>)/) > -1) {
         inner = inner.replace(/(<span class="[^"]+">)([^<>]+)(<\/li><li>)/, "$1$2</span>$3$1");
       }
@@ -119,25 +121,22 @@ window.addEventListener("load", () => {
 
   /* 注释 */
   (() => {
-    $("span.footnote").each((count, footnote) => {
-      $(footnote)
-        .addClass("visible-print-inline")
-        .after(
-          $("<a/>")
-            .addClass("footnote-icon")
-            .text(count + 1)
-            .attr({
-              href: "",
-            })
-            .on("click", (e) => e.preventDefault())
-            .popover({
-              content: footnote.innerHTML,
-              html: true,
-              placement: "bottom",
-              toggle: "popover",
-              trigger: "focus",
-            })
-        );
+    $("span.footnote").each((index, footnote) => {
+      let footnote_icon = $("<a/>")
+        .addClass("footnote-icon")
+        .text(index + 1)
+        .attr({
+          href: "",
+        })
+        .on("click", (e) => e.preventDefault());
+      $(footnote).addClass("d-none d-print-inline").after(footnote_icon);
+      new bootstrap.Popover(footnote_icon, {
+        content: footnote.innerHTML,
+        html: true,
+        placement: "bottom",
+        toggle: "popover",
+        trigger: "focus",
+      });
     });
   })();
 
@@ -145,46 +144,24 @@ window.addEventListener("load", () => {
   (() => {
     $(".xz-navtop").on("click", (e) => {
       e.preventDefault();
-      $("html").animate(
-        {
-          scrollTop: 0,
-        },
-        500
-      );
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth",
+      });
     });
     $(".xz-navbottom").on("click", (e) => {
       e.preventDefault();
-      $("html").animate(
-        {
-          scrollTop: $(document.body).height(),
-        },
-        500
-      );
-    });
-  })();
-
-  /* resize */
-  (() => {
-    window.windowResize = () => {
-      $(".xz-footer").css("position", "initial");
-      if ($("body").height() == $(window).height()) {
-        $(".xz-footer").css("position", "absolute");
-      }
-      $(".xz-sidenav-list").affix({
-        offset: {
-          top: $(".xz-content-main").offset().top,
-          bottom: $(".xz-footer").outerHeight(),
-        },
+      window.scrollTo({
+        top: $(document.body).height(),
+        behavior: "smooth",
       });
-    };
-    windowResize();
-    $(window).on("resize", windowResize);
+    });
   })();
 
   /* scroll */
   (() => {
     let scroll_timer;
-    window.windowScroll = function () {
+    window.windowScroll = () => {
       $(".xz-footer-navtop")
         .css({
           bottom: Math.max(
@@ -196,16 +173,17 @@ window.addEventListener("load", () => {
         })
         .fadeIn(200);
       clearTimeout(scroll_timer);
-      scroll_timer = setTimeout(function () {
+      scroll_timer = setTimeout(() => {
         $(".xz-footer-navtop").fadeOut(500);
       }, 2000);
     };
     $(".xz-footer-navtop").on({
-      mouseenter: function () {
+      mouseenter: () => {
         clearTimeout(scroll_timer);
+        $(".xz-footer-navtop").stop().fadeIn(200);
       },
-      mouseleave: function () {
-        scroll_timer = setTimeout(function () {
+      mouseleave: () => {
+        scroll_timer = setTimeout(() => {
           $(".xz-footer-navtop").fadeOut(500);
         }, 2000);
       },
@@ -216,6 +194,7 @@ window.addEventListener("load", () => {
 
   /* 图片预览 */
   (() => {
+    let modal = new bootstrap.Modal($(".xz-modal"));
     $(".figure-link, .video-link").on("click", (e) => {
       e.preventDefault();
       let link = $(e.target).attr("href") || "";
@@ -240,13 +219,15 @@ window.addEventListener("load", () => {
             src: `https://youtube.com/embed/${video_id}?autoplay=1&controls=1&${video_args}`,
             allowfullscreen: "allowfullscreen",
             allow:
-              "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share",
+              "accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share",
           })
           .appendTo($(".xz-modal-content").empty());
       }
-      $(".xz-modal").modal("show");
+      modal.show();
     });
-    $(".xz-modal").on("hide.bs.modal", () => $(".xz-modal-content").empty());
+    $(".xz-modal").on("hidden.bs.modal", () => {
+      $(".xz-modal-content").empty();
+    });
   })();
 
   /* Han.js */

@@ -2,14 +2,14 @@
 class: plainlinks
 date: 2021-06-15 20:01
 info: ""
-last_modified_at: 2023-10-24 22:54
+last_modified_at: 2023-12-28 15:28
 no_comment: true
 no_date: true
 no_sidenav: true
 title: 关于我
 ---
-{% include image.html src="https://avatars.githubusercontent.com/u/30619816" width="200" height="200" class="pull-right" %}
-{% include image.html src="https://images.xzonn.top/status.svg" width="200" height="50" class="pull-right clear-right" %}
+{% include image.html src="https://avatars.githubusercontent.com/u/30619816" width="200" height="200" class="float-right" %}
+{% include image.html src="https://images.xzonn.top/status.svg" width="200" height="50" class="float-right clear-right" %}
 
 {{ "now" | date: "%y" }}岁，学生。专业是环境工程。
 {: .text-left }

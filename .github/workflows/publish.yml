@@ -22,19 +22,15 @@ jobs:
       - uses: actions/checkout@v4
       - uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 3.1
+          ruby-version: '3.0'
           bundler-cache: true
       - uses: actions/setup-node@v3
         with:
-          node-version: 18
+          node-version: 20
           cache: npm
       - name: Npm
         run: |
           npm install
-      - name: Less
-        run: |
-          chmod +x assets/less/build_less.sh
-          assets/less/build_less.sh
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v3
@@ -53,6 +49,7 @@ jobs:
         continue-on-error: true
 
   publish:
+    if: github.event_name == 'push' && github.ref == 'refs/heads/master'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}

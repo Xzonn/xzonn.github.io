@@ -21,10 +21,11 @@ window.addEventListener("load", () => {
     let paginationList = $("<ul/>").addClass("pagination"),
       addPage = (page, text, addClass) => {
         $("<a/>")
+          .addClass("page-link")
           .text(text || page)
           .attr("href", "#")
           .data("page", addClass ? NaN : page)
-          .appendTo($("<li/>").addClass(addClass).appendTo(paginationList));
+          .appendTo($("<li/>").addClass("page-item").addClass(addClass).appendTo(paginationList));
       };
     addPage(pageNumber - 1, "\xab", pageNumber == 1 ? "disabled" : "");
     pageNumber > 3 && addPage(1);
@@ -133,7 +134,6 @@ window.addEventListener("load", () => {
     });
     paginationList.appendTo($(".xz-pagination-list").empty());
     Han($(".xz-content")[0]).render();
-    window.windowResize();
     if (page) {
       history.pushState(
         {

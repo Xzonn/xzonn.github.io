@@ -1,0 +1,602 @@
+/* */
+body {
+  background-color: lighten($color-warm, 45%); /* 什么几把玩意 $body-bg被一堆玩意调用 */
+}
+
+/* 字体 */
+.font-hei-ti {
+  font-family: $font-family-sans-serif;
+}
+
+text, tspan {
+  font-family: $font-family-sans-serif !important;
+}
+
+[lang="en"], [lang="en"] .biaodian {
+  font-family: $font-family-sans-serif-latin;
+}
+
+.biaodian {
+  font-family: $font-family-sans-serif-chinese;
+}
+
+em, blockquote, .font-song-ti {
+  font-family: $font-family-serif;
+
+  .biaodian {
+    font-family: $font-family-serif-chinese;
+  }
+
+  &[lang="en"], [lang="en"], &[lang="en"] .biaodian, [lang="en"] .biaodian {
+    font-family: $font-family-serif;
+  }
+}
+
+.font-mono {
+  font-family: $font-family-monospace;
+}
+
+/* Han.js */
+h-hws, h-hws[hidden] {
+  font-size: 50%;
+  display: inline !important;
+  user-select: none;
+
+  &.quote-inner, &.quote-outer:lang(zh-Hans), &.quote-outer:lang(zh-CN) {
+    display: none;
+  }
+}
+
+code, kbd, samp, pre, svg, .MathJax {
+  h-hws, h-hws[hidden] {
+    display: none !important;
+  }
+}
+
+/* 块元素 */
+/* 段落 */
+article > p {
+  text-indent: 2em;
+  text-align: justify;
+
+  &.text-left, &.text-right, &.text-center, * {
+    text-indent: initial;
+  }
+}
+
+/* 引用 */
+blockquote {
+  padding: ($line-height-base * $font-size-base / 4) ($line-height-base * $font-size-base / 2);
+  margin: 0 0 ($line-height-base * $font-size-base / 2);
+  border-left: 4px solid $color-warm-dark;
+  background-color: rgba($body-bg, 0.2);
+  @extend .br;
+
+  > p:last-child {
+    margin-bottom: 0;
+  }
+}
+
+/* 列表 */
+ul, ol {
+  padding-left: 2em;
+  text-align: justify;
+}
+
+ul ul, ul ol, ol ol, ol ul {
+  margin: 0 auto;
+  padding-left: 1em;
+}
+
+/* 表格 */
+th {
+  text-align: center;
+}
+
+caption {
+  clear: both;
+  text-align: center;
+
+  .caption-figure {
+    caption-side: bottom;
+  }
+}
+
+.table-responsive {
+  @extend .br;
+}
+
+.table {
+  caption-side: top; /* 神TM表注放下面 */
+  text-align: center;
+  border-style: solid;
+  border-width: calc(#{$table-border-width} * 2) 0;
+
+  > thead {
+    > tr {
+      > th {
+        border-bottom-width: calc(#{$table-border-width} * 2);
+      }
+    }
+  }
+
+  > tbody {
+    vertical-align: middle; /* 神TM表格顶端对齐 */
+    > tr {
+      > th, > td {
+        vertical-align: inherit;
+      }
+    }
+  }
+
+  &.float-left, &.float-right {
+    width: initial;
+  }
+}
+
+/* 代码 */
+code {
+  margin-left: 0.25em;
+  margin-right: 0.25em;
+  background-color: rgba($body-bg, 0.2);
+}
+
+pre {
+  clear: both;
+  overflow: auto;
+  padding: 0;
+  text-align: left;
+  line-height: 1.5;
+  background-color: $color-warm-light;
+  border: 1px solid $color-warm-dark;
+  @extend .br;
+
+  code {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: none;
+    color: $color-warm-dark;
+    white-space: pre-wrap;
+    word-break: break-all;
+    word-wrap: break-word;
+  }
+
+  ul {
+    margin: 0;
+    padding-left: $font-size-base * 3;
+    list-style: decimal-leading-zero;
+
+    li {
+      padding: 0 ($font-size-base / 2) 0 ($font-size-base * 2.5);
+      border-left: 1px solid $color-warm;
+      background-color: rgba(255, 255, 255, 0.9);
+      text-indent: -$font-size-base * 2;
+
+      &:nth-child(2n) {
+        background-color: rgba(255, 255, 255, 0.8);
+      }
+    }
+  }
+}
+
+/* 图片 */
+img {
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+
+canvas {
+  display: block;
+}
+
+figure {
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto  $paragraph-margin-bottom auto;
+  padding: $font-size-base;
+  width: max-content;
+  height: auto;
+  max-width: 100%;
+  border: 1px solid $color-warm;
+  color: $color-warm-dark;
+  text-align: center;
+  font-size: $font-size-base * 0.8;
+  @extend .br;
+
+  article & {
+    background-color: $color-warm-lighter;
+
+    img:hover {
+      background-color: #fff;
+    }
+  }
+
+  & + & {
+    margin-top: -calc($paragraph-margin-bottom * 0.5);
+  }
+
+  img {
+    display: block;
+    box-sizing: content-box;
+    margin: 0 auto;
+    background-color: transparent;
+    transition: background-color 0.5s;
+  }
+
+  figcaption {
+    clear: both;
+    margin-bottom: -$font-size-base;
+  }
+
+  a.figure-link {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+    &::before {
+      content: normal;
+    }
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  figure.figure-left {
+    float: left;
+    clear: left;
+    margin-right: 1rem;
+  }
+
+  figure.figure-right {
+    float: right;
+    clear: right;
+    margin-left: 1rem;
+  }
+}
+
+/* 行内元素 */
+/* 链接 */
+a[target="_blank"] {
+  text-decoration: underline;
+
+  &::before {
+    display: inline-block;
+    margin: 0 5px;
+    width: 11px;
+    height: 11px;
+    background-image: url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20fill%3D%22%232196f3%22%20viewBox%3D%220%200%201650%201650%22%3E%3Cpath%20d%3D%22M825%200C368%200%200%20368%200%20825s368%20825%20825%20825%20825-369%20825-825S1281%200%20825%200zm253%20883c0%203-3%203-6%206%200%200-264%20264-300%20297-38%2033-99%2033-138%200-36-30-41-80-11-116l11-11%20237-234-236-234c-36-30-41-80-11-115l11-11c38-33%2099-33%20138%200%2036%2033%20300%20297%20300%20297%2033%2033%2038%2085%205%20121z%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E') !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    content: '';
+  }
+
+  &::after {
+    display: inline-block;
+    margin: 0 5px;
+    width: 12px;
+    height: 9px;
+    background-image: url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20fill%3D%22%23888%22%20viewBox%3D%220%200%2012%209%22%3E%3Cpath%20d%3D%22M3%2C0v6h9v-6Zm1%2C2h7v3h-7ZM0%2C3v6H9V7H8v1H1V5h1V3Z%22%2F%3E%3C%2Fsvg%3E') !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    content: '';
+  }
+}
+
+.plainlinks {
+  & a, a & {
+    text-decoration: none;
+
+    &::before, &::after {
+      content: normal;
+      display: none;
+    }
+  }
+}
+
+/* 引用 */
+.ref-endnote {
+  &::before {
+    content: '[';
+  }
+
+  &::after {
+    content: ']';
+  }
+
+  & > a::after {
+    content: target-counter(attr(href), list-item);
+  }
+}
+
+/* 选择 */
+::selection {
+  background-color: $color-warm-lighter;
+  color: $color-warm-dark;
+}
+
+.jumbotron {
+  ::selection {
+    background-color: $color-cold-darker;
+    color: $color-cold-light;
+  }
+}
+
+article {
+  figure {
+    ::selection {
+      background-color: $color-warm-darker;
+      color: $color-warm-light;
+    }
+  }
+}
+
+/* 辅助样式 */
+/* 圆角 */
+.br {
+  border-radius: 4px;
+}
+
+/* 徽章 */
+.badge {
+  color: #fff;
+  @include gradient-bg(var(--#{$prefix}primary));
+  
+  a {
+    color: #fff;
+  }
+}
+
+.nav-pills > .nav-item > .nav-link {
+  > .badge {
+    color: var(--#{$prefix}nav-pills-link-active-color);
+    @include gradient-bg(var(--#{$prefix}secondary));
+  }
+  
+  &.active > .badge {
+    color: var(--#{$prefix}nav-pills-link-active-bg);
+    @include gradient-bg(var(--#{$prefix}nav-pills-link-active-color));
+  }
+}
+
+/* 表格排序 */
+// @use "../../node_modules/bootstrap-icons/font/bootstrap-icons";
+.tablesorter-headerUnSorted, .tablesorter-headerAsc, .tablesorter-headerDesc {
+  &:before {
+    font-family: "bootstrap-icons";
+    float: right;
+    line-height: inherit;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+.tablesorter-headerUnSorted:not(.sorter-false) {
+  @extend .bi-arrow-down-up;
+}
+
+.tablesorter-headerAsc:not(.sorter-false) {
+  @extend .bi-sort-down-alt;
+}
+
+.tablesorter-headerDesc:not(.sorter-false) {
+  @extend .bi-sort-down;
+}
+
+/* 注解 */
+.footnote {
+  float: footnote;
+}
+
+.footnote-icon {
+  display: inline-block;
+  box-sizing: content-box;
+  padding: 0.5rem 0;
+  height: 0;
+  min-width: 1rem;
+  border: 1px solid $color-warm-dark;
+  border-radius: 50%;
+  color: $color-warm-dark;
+  vertical-align: super;
+  text-align: center;
+  font-size: 0.8rem;
+  line-height: 0;
+  cursor: pointer;
+}
+
+.footnote-icon:hover {
+  text-decoration: none;
+}
+
+/* 浮动 */
+.block-center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.clear-left {
+  clear: left;
+}
+
+.clear-right {
+  clear: right;
+}
+
+.clear-both {
+  clear: both;
+}
+
+/* 对齐 */
+// @use "../../node_modules/bootstrap/scss/utilities";
+.text-left {
+  @extend .text-start;
+}
+
+.text-right {
+  @extend .text-end;
+}
+
+/* 自动编号 */
+body {
+  &.auto-numbering, &.auto-numbering-heading, &.auto-numbering-table, &.auto-numbering-figure {
+    counter-reset: h2num tablenum fignum;
+  }
+
+  &.auto-numbering, &.auto-numbering-heading {
+    h2, .xz-sidenav-list > li > a {
+      counter-increment: h2num;
+      counter-reset: h3num;
+
+      &::before {
+        margin-right: 0.25em;
+        content: counter(h2num) '.';
+      }
+    }
+
+    h3, .xz-sidenav-list > li > ul > li > a {
+      counter-increment: h3num;
+      counter-reset: h4num;
+
+      &::before {
+        margin-right: 0.25em;
+        content: counter(h2num) '.' counter(h3num) '.';
+      }
+    }
+
+    h4, .xz-sidenav-list > li > ul > li > ul > li > a {
+      counter-increment: h4num;
+
+      &::before {
+        margin-right: 0.25em;
+        content: counter(h2num) '.' counter(h3num) '.''.' counter(h4num);
+      }
+    }
+
+    .xz-sidenav-list {
+      counter-reset: h2num;
+    }
+  }
+
+  &.auto-numbering, &.auto-numbering-table {
+    .caption-table {
+      counter-increment: tablenum;
+
+      &::before {
+        margin-right: 0.75em;
+        content: '\8868' ' ' counter(tablenum);
+      }
+    }
+  }
+
+  &.auto-numbering, &.auto-numbering-figure {
+    figcaption, .caption-figure {
+      counter-increment: fignum;
+
+      &::before {
+        margin-right: 0.75em;
+        content: '\56FE' ' ' counter(fignum);
+      }
+    }
+  }
+}
+
+ol.square {
+  counter-reset: list-item;
+
+  & > li {
+    counter-increment: list-item;
+    &::marker {
+      content: '[' counter(list-item) '] ';
+    }
+  }
+}
+
+/* 视频 */
+.youtube-video, .bilibili-video {
+  margin: 15px auto;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16/9;
+}
+  
+.youtube-video-iframe, .bilibili-video-iframe {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  @extend .br;
+}
+
+/* 化学 */
+.svg-chem {
+  vertical-align: middle;
+  font-size: $font-size-base * 2 / 3;
+  fill: $body-color;
+  stroke: $body-color;
+  shape-rendering: geometricPrecision;
+  text-rendering: geometricPrecision;
+  stroke-width: 0;
+  fill-rule: evenodd;
+  stroke-linejoin: miter;
+  text-anchor: start;
+}
+
+/* Alert */
+.alert {
+  p, ul {
+    margin-bottom: 0;
+  }
+
+  p + p, p + ul, ul + p, ul + ul {
+    margin-top: 0.3rem;
+  }
+}
+
+/* Panel */
+.card > * {
+  > p {
+    text-indent: 2em;
+  }
+
+  > p:last-child {
+    margin-bottom: 0;
+  }
+}
+
+/* Jumbotron */
+$jumbotron-padding: 2rem;
+
+.jumbotron {
+  padding: $jumbotron-padding 0;
+  margin-bottom: 0;
+  color: $color-cold-dark;
+  background-color: $color-cold-light;
+  background-image: linear-gradient(to bottom, $color-cold-light, lighten($color-cold, 45%));
+
+  @include media-breakpoint-up(md) {
+    padding: ($jumbotron-padding * 2) 0;
+  }
+
+  h1, .h1 {
+    color: $color-cold-darker;
+    margin-top: 0;
+  }
+
+  p {
+    font-weight: 400;
+    font-size: inherit;
+  }
+}

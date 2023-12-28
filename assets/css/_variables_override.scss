@@ -1,0 +1,85 @@
+/* 颜色 */
+$color-cold: hsl(233, 74%, 50%);
+$color-warm: hsl(53, 74%, 50%);
+
+$color-cold-light: lighten($color-cold, 25%);
+$color-cold-lighter: lighten($color-cold, 40%);
+$color-cold-dark: darken($color-cold, 25%);
+$color-cold-darker: darken($color-cold, 40%);
+$color-warm-light: lighten($color-warm, 25%);
+$color-warm-lighter: lighten($color-warm, 40%);
+$color-warm-dark: darken($color-warm, 25%);
+$color-warm-darker: darken($color-warm, 40%);
+
+$primary: darken($color-cold, 10%);
+
+/* 链接 */
+$link-decoration: none;
+
+/* 字体 */
+$font-family-sans-serif-latin: "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans";
+$font-family-sans-serif-chinese: "Source Han Sans CN","Source Han Sans SC", "Source Han Sans", "Noto Sans CJK SC", "Hiragino Sans GB", "PingFang SC", "Microsoft YaHei";
+$font-family-sans-serif: append(join($font-family-sans-serif-latin, $font-family-sans-serif-chinese), sans-serif);
+
+$font-family-serif-latin: STIX-Web, "Times New Roman";
+$font-family-serif-chinese: "Source Han Serif CN", "Source Han Serif SC", "Source Han Serif", Simsun, serif;
+$font-family-serif: append(join($font-family-serif-latin, $font-family-serif-chinese), sans-serif);
+
+$font-family-monospace-latin: Consolas, "Source Code Pro", "Liberation Mono", "Courier New";
+$font-family-monospace: append(join($font-family-monospace-latin, $font-family-sans-serif-chinese), monospace);
+
+/* 字号 */
+$font-size-root: 15px;
+$font-size-base: 1rem;
+
+$line-height-base: 1.732050807568877;
+
+$h1-font-size: $font-size-base * 2;
+$h2-font-size: $font-size-base * 1.8;
+$h3-font-size: $font-size-base * 1.6;
+$h4-font-size: $font-size-base * 1.2;
+$h5-font-size: $font-size-base;
+$h6-font-size: $font-size-base;
+
+$headings-font-weight: 600;
+$headings-line-height: inherit;
+
+/* 表格 */
+
+/* 导航条 */
+$navbar-light-color: $color-cold-dark;
+$navbar-light-bg: lighten($color-cold, 45%);
+$navbar-light-border: $color-cold;
+
+$navbar-light-link-color: $color-cold;
+$navbar-light-link-hover-color: $color-cold-dark;
+$navbar-light-link-active-color: darken($color-cold, 10%);
+$navbar-light-link-disabled-color: $color-cold-lighter;
+
+/* 导航 */
+$nav-link-hover-bg: $color-cold-light;
+
+/* 代码 */
+$code-bg: fade($color-warm-light, 40%);
+$code-color: $color-warm-dark;
+
+$kbd-bg: $color-warm-dark;
+$kbd-color: $color-warm-light;
+
+$pre-bg: $color-warm-light;
+$pre-color: $color-warm-dark;
+$pre-border-color: $color-warm-dark;
+
+/* 类型 */
+$blockquote-font-size: $font-size-base;
+$blockquote-border-color: $color-warm-dark;
+
+/* Modal */
+$modal-sm: 100%;
+$modal-md: 900px;
+$modal-lg: 900px;
+$modal-xl: 900px;
+$modal-content-border-width: 0;
+
+/* 图标 */
+$bootstrap-icons-font-dir: "https://cdn.jsdelivr.net/npm/bootstrap-icons@1/font/fonts";

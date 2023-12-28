@@ -21,7 +21,7 @@ title: 《新美妙世界》全成就攻略
 
 以下是全部成就的列表，下文将对一些有些难度的成就进行说明。
 
-<table class="wikitable align-center">
+<table class="table align-center">
 
 <thead>
 <tr><th>编号</th><th>日文名</th><th>英文名</th><th>条件</th></tr>
@@ -105,7 +105,7 @@ title: 《新美妙世界》全成就攻略
 全部小猪噪音的出现地点见下表。
 
 {% include figure.html src="https://i0.hdslb.com/bfs/article/a9a87862333b89e9ce8c297dfdf3772d73e0d42d.png" width="41" height="36.5" %}
-<table class="wikitable">
+<table class="table">
 <thead>
 <tr><th>章节</th><th>地点</th></tr>
 </thead>
@@ -186,7 +186,7 @@ title: 《新美妙世界》全成就攻略
 
 剩余19篇需要在各章节中打败蓝色噪音后解锁，蓝色噪音的出现需要先在角色关系树解锁对应的能力，它们一般位于每章节中最初的区域或相邻的区域，具体可以参照下方表格。这些蓝色噪音都是各章最后一个BOSS，而且蓝色噪音可以连续对战提高掉落率，对于刷徽章来说方便了不少。
 
-<table class="wikitable">
+<table class="table">
 <thead>
 <tr><th>编号</th><th>获取方式</th><th>章节</th><th>地点</th><th>BOSS</th></tr>
 </thead>

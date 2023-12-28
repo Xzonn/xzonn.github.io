@@ -2,18 +2,18 @@
     <meta charset="utf-8"/>
     <meta name="author" content="Xzonn"/>
     <meta name="description" content="{{ page.title }} - 来自{{ site.name }}"/>
-    <meta name="generator" content="jekyll 4.0.0"/>
-    <meta name="keywords" content="Xzonn,博客,日志{% if page.tags %},{{ page.tags | join: "," }}{% endif %}"/>
+    <meta name="generator" content="jekyll 3.9.3"/>
+    <meta name="keywords" content="Xzonn{% if page.tags %},{{ page.tags | join: "," }}{% endif %}"/>
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
     <meta name="referrer" content="same-origin"/>
     {% feed_meta %}
     <link rel="apple-touch-icon" href="{{ site.static_cdn }}/assets/images/icon_180x180.png"/>
     <link rel="fluid-icon" href="{{ site.static_cdn }}/assets/images/icon_180x180.png"/>
-    <link rel="icon" sizes="32x32" href="{{ site.static_cdn }}/assets/images/icon_32x32.png"/>
+    <link rel="icon" sizes="32x32" href="{{ site.static_cdn }}/assets/images/icon_32x32.svg"/>
     <link rel="icon" sizes="16x16" href="{{ site.static_cdn }}/assets/images/icon_16x16.png"/>
     <!-- Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js" integrity="sha256-nuL8/2cJ5NDSSwnKD8VqreErSWHtnEP9E7AySL+1ev4=" crossorigin="anonymous"></script>{% if page.math %}
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha256-gvZPYrsDwbwYJLD5yeBfcNujPhRoGOY831wwbIzz3t0=" crossorigin="anonymous"></script>{% if page.math %}
     <!-- MathJax -->
     <script type="text/x-mathjax-config">
       MathJax.Ajax.config.path["mhchem"] = "https://cdn.jsdelivr.net/npm/mathjax-mhchem@3.3.2";
@@ -58,16 +58,6 @@
     <!-- Self Defined -->
     <style id="xz-local-storage-style"></style>
     <script>
-      window.pageInfo = window.pageInfo || {
-        "title": {{ page.title | jsonify }},
-        "link": "{{ page.url }}",
-        "date": "{{ page.date | date : "%FT%H:%M:%S%z" }}",
-        "update": "{{ page.last_modified_at | date : "%FT%H:%M:%S%z" }}",
-        "head_image": {{ page.head_image | jsonify }},
-        "info": {% if page.info %}{{ page.info | jsonify }}{% else %}{{ page.content | strip_html | remove: "$" | truncate: 100, "……" | jsonify }}{% endif %},
-        "wechat_link": {{ page.wechat_link | jsonify }},
-        "tags": {{ page.tags | jsonify }}
-      };
       window.scriptDomain = {{ site.url | jsonify }};
       window.imageCdn = {{ site.image_cdn | jsonify }};
       window.xzLocalStorage = JSON.parse(window.localStorage.getItem("xzLocalStorage") || "{}") || {};
@@ -78,7 +68,7 @@
     </script>{% assign css = page.base_css | split: " " %}{% for i in css %}
     <link rel="stylesheet" href="/assets/css/{{ i }}.css"/>{% endfor %}{% assign js = page.base_js | split: " " %}{% for i in js %}
     <script src="/assets/js/{{ i }}.js"></script>{% endfor %}
-    <link rel="stylesheet" href="/assets/css/main.css" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
     <script src="/assets/js/main.js"></script>{% assign css = page.css | split: " " %}{% for i in css %}
     <link rel="stylesheet" href="/assets/css/{{ i }}.css"/>{% endfor %}{% assign js = page.js | split: " " %}{% for i in js %}
     <script src="/assets/js/{{ i }}.js"></script>{% endfor %}

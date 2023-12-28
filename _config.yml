@@ -1,11 +1,12 @@
 algolia:
-  application_id: "TN8HK9FU3W"
+  application_id: "ZVIOW9GL6U"
   index_name: "xzonn_top"
   files_to_exclude:
     - index.html
     - index.md
-    - pages/**/index.*
-  nodes_to_index: "p,h2,h3"
+    - posts.html
+    - search.html
+  nodes_to_index: "figcaption,p,li"
   settings:
     searchableAttributes:
       - title
@@ -20,7 +21,6 @@ algolia:
 author: Xzonn
 defaults:
   - values:
-      base_css: "base"
       layout: "default"
       license: "by-nc-sa"
       head_image_width: 1280
@@ -30,21 +30,6 @@ defaults:
       type: "posts"
     values:
       permalink: /posts/:title.html
-  - scope:
-      type: "study"
-    values:
-      layout: study
-      permalink: /posts/:title.html
-  - scope:
-      type: "interviews"
-    values:
-      base_css: "interviews.base"
-      css: "interviews"
-collections:
-  interviews:
-    output: true
-  study:
-    output: true
 exclude:
   - Debug/
   - node_modules/
@@ -65,13 +50,16 @@ plugins:
   - jekyll-sitemap
   - jekyll-sass-converter
 timezone: Asia/Shanghai
+theme: 
+repository: Xzonn/xzonn.github.io
 url: https://xzonn.top
 image_cdn: https://images.xzonn.top/github
 static_cdn: https://cdn.jsdelivr.net/gh/Xzonn/xzonn.github.io@master
-version: v4.0
-repository: Xzonn/xzonn.github.io
+version: v5.0
 sass:
-  load_paths:
-    - css
+  sass_dir: assets/css
+  load_paths: 
+    - assets/css
+    - node_modules
   sourcemap: always
   style: compressed

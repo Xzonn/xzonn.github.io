@@ -1,3 +1,12 @@
-source 'https://rubygems.org'
-gem 'github-pages', group: :jekyll_plugins
-gem "webrick"
+source "https://rubygems.org"
+gem "jekyll", "~> 3.0", group: :jekyll_plugins
+gem "webrick", "~> 1.8"
+gem "kramdown", "~> 2.3"
+gem "kramdown-parser-gfm", "~> 1.1"
+group :jekyll_plugins do
+  gem "jekyll-algolia"
+  gem "jekyll-feed"
+  gem "jekyll-relative-links"
+  gem "jekyll-sass-converter"
+  gem "jekyll-sitemap"
+end

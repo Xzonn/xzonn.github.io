@@ -19,7 +19,7 @@ title: 《新美妙世界》秘密报告书 中文翻译
 关于秘密报告书的获取方式，可以参照：<https://www.bilibili.com/video/BV1jf4y1V7pL>。
 </div>
 
-{% include figure.html src="https://patchwiki.biligame.com/images/twewy/1/17/rb650hov4q5cx5dhe8b8wyo11c351g3.png" width="181" height="156" alt="秘密报告书" class="pull-right" %}
+{% include figure.html src="https://patchwiki.biligame.com/images/twewy/1/17/rb650hov4q5cx5dhe8b8wyo11c351g3.png" width="181" height="156" alt="秘密报告书" class="float-right" %}
 
 ## No. 1
 受到高次元注目的涩谷的游戏  
