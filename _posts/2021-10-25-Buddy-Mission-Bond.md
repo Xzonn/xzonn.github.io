@@ -5,7 +5,7 @@ head_image_height: 1080
 head_image_width: 1920
 info: 《搭档任务 秘密搜查组》主题曲。
 last_modified_at: 2021-10-25 19:43
-tags: Switch
+tags: Switch 翻译
 title: 《Meteorite》歌词
 ---
 ## 原文

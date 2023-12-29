@@ -6,7 +6,7 @@ last_modified_at: 2023-03-17 00:02
 links: 
 - - https://ninterviews.xzonn.top/switch/axb7a.famitsu.html
   - 充满惊喜的《蓓优妮塔3》 - 任天堂开发者访谈保存计划
-tags: Switch 技术指南
+tags: Switch 任天堂 技术指南
 title: 《蓓优妮塔3》PTD文本文件分析笔记
 ---
 ## 分析过程

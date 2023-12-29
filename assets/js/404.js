@@ -2,8 +2,12 @@
 /* global $ */
 
 (() => {
-  let url = location.pathname.replace(/\/posts\//, "/study/").replace(/-To-/g, "-to-");
-  if (url == location.pathname) {
+  let url = location.pathname;
+  if (/-To-/.test(url)) {
+    url = url.replace(/-To-/, "-to-");
+  } else if (/\/posts\//.test(url)) {
+    url = url.replace(/\/posts\//, "/study/");
+  } else {
     return;
   }
   $.ajax({

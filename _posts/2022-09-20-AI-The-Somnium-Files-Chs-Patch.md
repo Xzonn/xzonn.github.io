@@ -7,7 +7,7 @@ info: 用简体中文的字形游玩官方繁体中文的游戏。
 last_modified_at: 2022-10-24 23:18
 logs: 
 - 2022-10-24：更新自动化实现的简单说明。
-tags: 作品发布 技术指南
+tags: Windows 作品发布 技术指南
 title: 《AI：梦境档案》简体中文字体替换补丁
 ---
 <div markdown="1" style="text-align: center; font-size: 150%;">

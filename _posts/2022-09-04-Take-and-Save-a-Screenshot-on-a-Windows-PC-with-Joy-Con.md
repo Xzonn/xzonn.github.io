@@ -5,7 +5,7 @@ head_image_height: 1080
 head_image_width: 1920
 info: 一键完成。
 last_modified_at: 2022-09-04 21:07
-tags: Switch 作品发布
+tags: Switch Windows 作品发布
 title: 用Joy-Con在Windows电脑上捕获并保存截图
 ---
 简而言之，[JoyConScreenShot](https://github.com/Xzonn/JoyConScreenShot)软件通过调用Xbox Game Bar软件，可以在按下Joy-Con的截图键时捕获当前运行的游戏或软件的截图并保存，或录制之前30秒的视频。

@@ -1,6 +1,6 @@
 /* */
 body {
-  background-color: lighten($color-warm, 45%); /* 什么几把玩意 $body-bg被一堆玩意调用 */
+  background-color: $color-warm-lightest; /* 什么几把玩意 $body-bg被一堆玩意调用 */
 }
 
 /* 字体 */
@@ -69,7 +69,7 @@ blockquote {
   padding: ($line-height-base * $font-size-base / 4) ($line-height-base * $font-size-base / 2);
   margin: 0 0 ($line-height-base * $font-size-base / 2);
   border-left: 4px solid $color-warm-dark;
-  background-color: rgba($body-bg, 0.2);
+  background-color: rgba($color-warm-lightest, 0.2);
   @extend .br;
 
   > p:last-child {
@@ -136,9 +136,8 @@ caption {
 
 /* 代码 */
 code {
-  margin-left: 0.25em;
-  margin-right: 0.25em;
-  background-color: rgba($body-bg, 0.2);
+  padding: 0.25em;
+  background-color: rgba($color-warm-lightest, 0.2);
 }
 
 pre {

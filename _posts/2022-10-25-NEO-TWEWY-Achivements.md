@@ -5,7 +5,7 @@ head_image_height: 720
 head_image_width: 1280
 info: 《新美妙世界》发售已经一年了，最近终于发布了Steam版本。去年我做了一个全成就攻略的视频，本文就是攻略视频的文字版和补充。注意：本文可能包含对游戏剧情的剧透。
 last_modified_at: 2022-10-25 22:59
-tags: 美妙世界
+tags: Switch Windows 美妙世界
 title: 《新美妙世界》全成就攻略
 ---
 ## 前言
