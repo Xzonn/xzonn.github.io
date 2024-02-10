@@ -4,13 +4,22 @@ head_image: aa2646c80d15077f23d0146c5deaf2b4.webp
 head_image_height: 384
 head_image_width: 768
 info: 汉化图片。
-last_modified_at: 2023-12-28 22:09
+last_modified_at: 2024-02-10 23:33
+links: 
+  - - https://github.com/Xzonn/ACTMChsLocalization
+    - 汉化相关代码
+logs: 
+  - 2024-02-10：更新压缩算法。
 references: 
   - - https://jasonharley2o.com/wiki/doku.php?id=hoteldusk
     - "Resource Reverse Engineering: Hotel Dusk: Room 215"
 tags: DS 任天堂 技术指南
 title: 《Another Code 两种记忆》汉化笔记
 ---
+<div class="alert alert-success" markdown="1" style="text-align: center; font-size: 150%;">
+**[汉化发布页](https://xzonn.top/ACTMChsLocalization/)**
+</div>
+
 最近《Another Code》的Switch重制版即将发售，并且任天堂发布了体验版，试玩了一下，发现很对我的胃口，于是找了找原作。原作之一是NDS平台的《Another Code 两种记忆》，由Cing开发，任天堂发行。虽然已经有了[汉化版](https://web.archive.org/web/20060613200832/http://bbs.tgbus.com/thread-2073404-1-1.html)，但是似乎是因为技术所限，原有的汉化版仅汉化了文本，没有汉化图片，因此我就来研究一下。
 
 ## 字库
@@ -151,14 +160,6 @@ Offset(h) 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
 ``` python
 import struct
 
-def Hibit(n: int):
-  n |= (n >> 1)
-  n |= (n >> 2)
-  n |= (n >> 4)
-  n |= (n >> 8)
-  n |= (n >> 16)
-  return n - (n >> 1)
-
 # Thanks to: Jason Harley
 # Reference: https://github.com/Jas2o/KyleHyde/blob/main/KyleHyde/Formats/HotelDusk/Decompress.cs
 def decompress(compressed: bytearray | bytes) -> bytearray:
@@ -184,26 +185,13 @@ def decompress(compressed: bytearray | bytes) -> bytearray:
         compressed_pos += 1
         uncompressed_pos += 1
       else:
-        offset, = struct.unpack("<H", compressed[compressed_pos : compressed_pos + 2])
-        len = 4 + compressed[compressed_pos + 2]
+        offset, len = struct.unpack("<HB", compressed[compressed_pos : compressed_pos + 3])
+        offset = (offset + 0xff + 4) & 0xffff
+        len += 4
         compressed_pos += 3
 
-        posHi = Hibit(uncompressed_pos - 0xff - 4)
-        offHi = Hibit(offset)
-        if uncompressed_pos < 0x10000:
-          signed = offset & 0xffff
-          if signed >= 0x8000:
-            signed -= 0x10000
-          if signed < 0 and signed + 0xff + 4 >= 0:
-            offset = signed
-        elif posHi >= 0x20000 and offHi < posHi:
-          if offset + posHi < uncompressed_pos:
-            offset += posHi
-          elif offset + 0x10000 < uncompressed_pos:
-            offset += 0x10000
-        elif posHi >= 0x10000 and offHi < posHi and offset + posHi < uncompressed_pos:
-          offset += posHi
-        offset += 0xff + 4
+        while offset < uncompressed_pos - 0x10000:
+          offset += 0x10000
 
         if offset < 0 or offset + len >= sizeun:
           for x in range(len):
@@ -216,6 +204,86 @@ def decompress(compressed: bytearray | bytes) -> bytearray:
 
   return uncompressed
 ```
+
+### 压缩算法
+压缩算法实际上就是把解压算法反过来，不过解压好写，压缩不好写。分析一下前文给出的解压算法可以发现，这种压缩算法的大致思想是：如果一段数据在前面出现过或者全是`0x00`，并且这段数据的长度至少为4，那么就可以压缩到3个字节，其中前2个字节标记这段数据在前面出现的位置，最后一个字节标记这段数据的长度。如果找不到这样的一段数据，那么就直接把原始字节保存到压缩后的文件中。
+
+因此，可以写出一个压缩算法，其大致思路为：对于给定文件中的某个位置，检查其后的4字节序列在前面是否出现过。如果没出现过，则再检查是否全为0，如果全为0则返回对应的压缩后的模式，否则直接返回原始字节。如果出现过，则采用双指针的方式向后匹配到最大相同字节序列；如果有多次出现则选取匹配长度最长的地方。
+
+我的实现脚本：
+
+``` python
+import struct
+
+def compress(uncompressed: bytearray | bytes) -> bytearray:
+  def find_largest(uncompressed: bytearray | bytes, uncompressed_pos: int) -> tuple[int, int, int]:
+    start = max(0, uncompressed_pos - 0x10000)
+    before = uncompressed[start :]
+    after = uncompressed[uncompressed_pos : uncompressed_pos + 4]
+    
+    max_len = 0
+    max_len_offset = -1
+    offset = before.find(after)
+    while offset > -1 and start + offset < uncompressed_pos:
+      this_len = 4
+      while offset + this_len < len(before) and uncompressed_pos + this_len < len(uncompressed) and this_len < 0x103 and before[offset + this_len] == uncompressed[uncompressed_pos + this_len]:
+        this_len += 1
+
+      if this_len > max_len:
+        max_len = this_len
+        max_len_offset = start + offset
+      offset = before.find(after, offset + max_len)
+
+    if max_len_offset != -1:
+      return 0, max_len_offset, max_len
+
+    if uncompressed[uncompressed_pos:uncompressed_pos + 4] == b"\0\0\0\0":
+      zero_pos = uncompressed_pos + 4
+      while zero_pos < len(uncompressed) and zero_pos < uncompressed_pos + 0x103 and uncompressed[zero_pos] == 0:
+        zero_pos += 1
+      if zero_pos < 0xffff:
+        zero_len = zero_pos - uncompressed_pos
+        return 0, 0x10000 - zero_len, zero_len
+
+    return 1, 0, 0
+
+  compressed = bytearray()
+  compressed.extend(struct.pack("<4I", 0x01da3d12, len(uncompressed), 0, 0))
+
+  uncompressed_pos = 0
+  bits = 0
+  while uncompressed_pos < len(uncompressed):
+    bits_pos = len(compressed)
+    compressed.append(0)
+    bits = 0
+    for i in range(8):
+      if uncompressed_pos >= len(uncompressed):
+        break
+
+      bits_i, max_len_offset, max_len = find_largest(uncompressed, uncompressed_pos)
+
+      if bits_i == 0:
+        real_offset = (max_len_offset + 0x10000 - 0xff - 4) & 0xffff
+        real_len = max_len - 4
+        compressed.extend(struct.pack("<HB", real_offset, real_len))
+        uncompressed_pos += max_len
+      else:
+        compressed.append(uncompressed[uncompressed_pos])
+        uncompressed_pos += 1
+
+      bits |= (bits_i << i)
+    compressed[bits_pos] = bits
+
+  if len(compressed) - 0x10 > len(uncompressed):
+    compressed = bytearray()
+    compressed.extend(struct.pack("<4I", 0x00da3d12, len(uncompressed), 0xffffffff, 0))
+    compressed.extend(uncompressed)
+  else:
+    compressed[0x08:0x0c] = struct.pack("<I", len(compressed) - 0x10)
+  return compressed
+```
+
+经过检查，将游戏中解压出来的数据使用我的压缩算法压缩后再解压，能够得到与原来完全相同的文件，并且导入到游戏中也没有发现错误。
 
 ### 图片格式
 同样参考那篇文章，得到图片的文件结构：
@@ -256,7 +324,7 @@ def get_xy_tile(width: int, height: int) -> Generator[tuple[int, int], Any, None
 如何区分两种格式我还没有找到规律，但是可以发现所有尺寸为32x32和128x96的图片都是Tile格式的，其他尺寸的图片大部分是ObjH-1234格式的。
 
 ### 重新导入
-按照导出的方法逆过程导入回去即可。其中压缩算法不太好写，所以我直接导入了未压缩的数据，经测试也能用，只不过因为恰好使ROM大小超过了32 MiB，需要对ROM扩容。
+按照导出的方法逆过程导入回去即可。其中压缩算法不太好写，最初我直接导入了未压缩的数据，经测试也能用，只不过因为恰好使ROM大小超过了32 MiB，需要对ROM扩容。之后研究了一下压缩算法，发现也不太难。
 
 ## 结语
-汉化相关的构建脚本整理后会在GitHub上开源。
+汉化相关的构建脚本已在GitHub上开源。
