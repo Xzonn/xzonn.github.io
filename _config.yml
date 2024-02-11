@@ -18,9 +18,14 @@ algolia:
       - headings
       - tags
       - title
+    attributesForFaceting:
+      - lang
+      - unordered(tags)
+      - title
 author: Xzonn
 defaults:
   - values:
+      lang: "zh-cn"
       layout: "default"
       license: "by-nc-sa"
       head_image_width: 1280
@@ -30,6 +35,11 @@ defaults:
       type: "posts"
     values:
       permalink: /posts/:title.html
+  - scope:
+      type: "en"
+    values:
+      lang: "en"
+      permalink: /posts/en/:title.html
 exclude:
   - Debug/
   - node_modules/
@@ -39,7 +49,7 @@ exclude:
   - jsconfig.json
   - package.json
   - package-lock.json
-  - "*.less"
+  - Readme.md
 markdown: kramdown
 kramdown:
   syntax_highlighter_opts:
@@ -63,3 +73,9 @@ sass:
     - node_modules
   sourcemap: always
   style: compressed
+collections:
+  en:
+    output: true
+languages: 
+  - zh-cn
+  - en

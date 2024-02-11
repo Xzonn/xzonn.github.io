@@ -1,0 +1,9 @@
+html[lang="en"] {
+  .xz-meta-infomation .xz-meta-update::before {
+    content: "Updated on:\00a0"
+  }
+
+  .xz-meta-infomation .xz-meta-tags::before {
+    content: "Tags:\00a0"
+  }
+}

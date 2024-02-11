@@ -66,8 +66,8 @@ article > p {
 
 /* 引用 */
 blockquote {
-  padding: ($line-height-base * $font-size-base / 4) ($line-height-base * $font-size-base / 2);
-  margin: 0 0 ($line-height-base * $font-size-base / 2);
+  padding: calc($line-height-base * $font-size-base / 4) calc($line-height-base * $font-size-base / 2);
+  margin: 0 0 calc($line-height-base * $font-size-base / 2);
   border-left: 4px solid $color-warm-dark;
   background-color: rgba($color-warm-lightest, 0.2);
   @extend .br;
@@ -167,7 +167,7 @@ pre {
     list-style: decimal-leading-zero;
 
     li {
-      padding: 0 ($font-size-base / 2) 0 ($font-size-base * 2.5);
+      padding: 0 calc($font-size-base / 2) 0 calc($font-size-base * 2.5);
       border-left: 1px solid $color-warm;
       background-color: rgba(255, 255, 255, 0.9);
       text-indent: -$font-size-base * 2;
@@ -542,7 +542,7 @@ ol.square {
 /* 化学 */
 .svg-chem {
   vertical-align: middle;
-  font-size: $font-size-base * 2 / 3;
+  font-size: calc($font-size-base * 2 / 3);
   fill: $body-color;
   stroke: $body-color;
   shape-rendering: geometricPrecision;

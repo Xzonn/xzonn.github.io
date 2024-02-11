@@ -1,8 +1,8 @@
     <!-- Common Head Start -->
     <meta charset="utf-8"/>
     <meta name="author" content="Xzonn"/>
-    <meta name="description" content="{{ page.title }} - 来自{{ site.name }}"/>
-    <meta name="generator" content="jekyll 3.9.3"/>
+    <meta name="description" content="{{ page.title }} - {%t from-site-name %}"/>
+    <meta name="generator" content="jekyll 4.3"/>
     <meta name="keywords" content="Xzonn{% if page.tags %},{{ page.tags | join: "," }}{% endif %}"/>
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
     <meta name="referrer" content="same-origin"/>
@@ -44,7 +44,7 @@
       });
       MathJax.Hub.Register.StartupHook('End', function () {
         try {
-          $(".xz-info-math > p").text("MathJax渲染已完成。")
+          $(".xz-info-math > p").text("{%t mathjax-render-finished %}")
           $(".xz-info-math").removeClass("alert-info").addClass("alert-success alert-dismissible");
           setTimeout(x => $(".xz-info-math button").click(), 5000);
         } catch (e) {}
@@ -72,7 +72,7 @@
     <script src="/assets/js/main.js"></script>{% assign css = page.css | split: " " %}{% for i in css %}
     <link rel="stylesheet" href="/assets/css/{{ i }}.css"/>{% endfor %}{% assign js = page.js | split: " " %}{% for i in js %}
     <script src="/assets/js/{{ i }}.js"></script>{% endfor %}
-    <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.name }}</title>{% unless jekyll.environment == "development" %}
+    <title>{% if page.title %}{{ page.title }} - {% endif %}{%t site-name %}</title>{% unless jekyll.environment == "development" %}
     <!-- Baidu -->
     <script src="https://hm.baidu.com/hm.js?e51c63f6dc2ddbf35c41b08cd39eb20a" referrerpolicy="no-referrer-when-downgrade"></script>{% endunless %}
     <!-- Common Head End -->

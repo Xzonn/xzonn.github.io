@@ -4,20 +4,20 @@ date: 2023-10-16 23:05
 head_image: ad1f5a24b18d5252c805878c8009d0ca.png
 head_image_height: 384
 head_image_width: 768
-info: 交流借鉴。
+info: Exchange and learn from each other.
 last_modified_at: 2023-11-19 21:31
 links: 
   - - https://github.com/Xzonn/ChokuretsuChsLocalization
-    - 汉化相关代码
+    - Chinese localization related codes
 references: 
   - - https://blog.csdn.net/LuckilyYu/article/details/5424928
-    - NDS《凉宫春日的直列》的一些破解信息
+    - Some hacking information on "Suzumiya Haruhi no Chokuretsu" on NDS
   - - https://haroohie.club/blog/2022-10-19-chokuretsu-compression
     - Chokuretsu ROM Hacking Challenges Part 1 – Cracking a Compression Algorithm!
   - - https://haroohie.club/blog/2022-11-02-chokuretsu-archives
     - Chokuretsu ROM Hacking Challenges Part 2 – Archive Archaeology
-tags: DS 技术指南
-title: 《凉宫春日的串联》汉化笔记
+tags: ds technical-guides
+title: Chinese localization notes of "Suzumiya Haruhi no Chokuretsu" (The Series of Haruhi Suzumiya)
 ---
 <div class="alert alert-success" markdown="1" style="text-align: center; font-size: 150%;">
 **[汉化招募中！](https://xzonn.top/ChokuretsuChsLocalization/)**

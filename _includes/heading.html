@@ -8,9 +8,7 @@
           <p class="xz-meta-summary">{{ page.info }}</p>{% endif %}{% if page.last_modified_at or page.tags.size > 0 %}
           <div class="xz-meta-infomation">{% if page.last_modified_at %}{% unless page.no_date %}
             <time class="xz-meta-update" datetime="{{ page.last_modified_at | date: "%FT%H:%M:%S%z" }}">{{ page.last_modified_at | date: "%Y-%m-%d %H:%M" }}</time>{% endunless %}{% endif %}{% if page.tags.size > 0 %}
-            <ul class="xz-meta-tags">{% for tag in page.tags %}
-              <li><a href="/posts/#{{ tag }}">{{ tag }}</a></li>{% endfor %}
-            </ul>{% endif %}
+            <ul class="xz-meta-tags">{% for tag in page.tags %}<li><a href="{% t header-list-url %}#{{ tag }}">{{ tag }}</a></li>{% endfor %}</ul>{% endif %}
           </div>{% endif %}
         </div>
       </div>

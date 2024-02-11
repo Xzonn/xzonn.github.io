@@ -3,7 +3,7 @@ class: auto-numbering
 date: 2021-11-15 16:14
 head_image: 5ce33e735d637decf48b2cb2c2637f54.png
 info: 让浏览器访问硕博论文时自动跳转到中国知网“海外版”。
-last_modified_at: 2023-06-02 14:57
+last_modified_at: 2023-06-16 22:59
 logs: 
 - 2022-03-26：修复正则表达式匹配不全的问题。
 tags: 技术指南

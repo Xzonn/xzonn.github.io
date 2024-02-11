@@ -2,16 +2,17 @@
     <nav class="xz-header navbar navbar-expand-md">
       <div class="container">
         <div class="navbar-header">
-          <a href="/" class="xz-navimage navbar-brand" title="Xzonn 的小站"><img src="{{ site.static_cdn }}/assets/images/icon_32x32.svg" alt="Xzonn 的小站" width="32" height="32"/></a>
-          <a href="/" class="navbar-brand">{{ site.name }}</a>
+          <a href="/" class="xz-navimage navbar-brand" title="{% t site-name %}"><img src="{{ site.static_cdn }}/assets/images/icon_32x32.svg" alt="{% t site-name %}" width="32" height="32"/></a>
+          <a href="/" class="navbar-brand">{% t site-name %}</a>
         </div>
         <button class="navbar-toggler ms-auto justify-content-end" type="button" data-bs-toggle="collapse" data-bs-target="#xz-navbar">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="xz-navbar collapse navbar-collapse ms-auto justify-content-end" id="xz-navbar">
-          <ul class="navbar-nav navbar-right">
-            <li class="nav-item"><a class="nav-link{% if page.url == "/posts/" %} active disabled{% endif %}" href="/posts/"><i class="bi bi-card-list"></i> 列表</a></li>
-            <li class="nav-item"><a class="nav-link{% if page.url == "/search.html" %} active disabled{% endif %}" href="/search.html"><i class="bi bi-search"></i> 搜索</a></li>
+          <ul class="navbar-nav navbar-right">{% if page.i18n %}
+            <li class="nav-item"><a class="nav-link{% capture _nav_url %}{% if page.lang == "zh-cn" %}{{ page.url | replace: "/posts/", "/posts/en/" }}{% else %}{{ page.url | replace: "/posts/en/", "/posts/" }}{% endif %}{% endcapture %}{% if page.url == _nav_url %} active disabled{% endif %}" href="{{ _nav_url }}"><i class="bi bi-translate"></i> {% if page.lang == "zh-cn" %}{% t lang-en %}{% else %}{% t lang-zh-cn %}{% endif %}</a></li>{% endif %}
+            <li class="nav-item"><a class="nav-link{% capture _nav_url %}{% t header-list-url %}{% endcapture %}{% if page.url == _nav_url %} active disabled{% endif %}" href="{{ _nav_url }}"><i class="bi bi-card-list"></i> {% t header-list %}</a></li>
+            <li class="nav-item"><a class="nav-link{% capture _nav_url %}{% t header-search-url %}{% endcapture %}{% if page.url == _nav_url %} active disabled{% endif %}" href="{{ _nav_url }}"><i class="bi bi-search"></i> {% t header-search %}</a></li>
           </ul>
         </nav>
       </div>

@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="zh-cn">
+<html lang="{{ page.lang | default: "zh-cn" }}">
   <head>
 {% include head.html %}
   </head>
-  <body{% if page.class %} class="{{ page.class }}"{% endif %}>
+  <body lang="{{ page.lang | default: "zh-cn" }}"{% if page.class %} class="{{ page.class }}"{% endif %}>
 {% include header.html %}
 {% include heading.html %}
 {% include content.html %}
