@@ -1,12 +1,12 @@
 <div class="alert alert-success" markdown="1" style="text-align: center; font-size: 150%;">
-**[汉化招募中！](https://xzonn.top/ChokuretsuChsLocalization/)**
+**[Chinese localization is in recruitment!](https://xzonn.top/ChokuretsuChsLocalization/)**
 </div>
 
-Recently, my enthusiasm for localizing games into Chinese has been high. There are several Suzumiya Haruhi games that have not been translated into Chinese, including two works released by Sega, "Suzumiya Haruhi no Chokuretsu" (*The Series of Haruhi Suzumiya*) and "Heiretsu" (*Parallel*). A senior once wrote an article titled ["NDS《凉宫春日的直列》的一些破解信息"](https://blog.csdn.net/LuckilyYu/article/details/5424928)(Some Hacking Information on NDS game "Suzumiya Haruhi no Chokuretsu"), but due to its age, CSDN has started charging fees, and the entire article cannot be read.
+Recently, my enthusiasm for localizing games into Chinese has been high. There are several Suzumiya Haruhi games that have not been translated into Chinese, including two works released by Sega, "Suzumiya Haruhi no Chokuretsu" (*The Series of Haruhi Suzumiya*) and "Heiretsu" (*Parallel*). A senior once wrote an article titled ["NDS《凉宫春日的直列》的一些破解信息"](https://blog.csdn.net/LuckilyYu/article/details/5424928) (Some Hacking Information on NDS game "Suzumiya Haruhi no Chokuretsu"), but due to its age, CSDN has started charging fees, and the entire article cannot be read.
 
 However, I found an [English patch](https://haroohie.club/chokuretsu/) created by [Haroohie Translation Club](https://haroohie.club/), and the [build code](https://github.com/haroohie-club/ChokuretsuTranslationUtility) is open source. I pulled it to my local disk and tried it out. The code is very functional and can be directly used to create Chinese patches. Of course, there is still a certain difference in the focus of work between English and Chinese localization, so it cannot be directly copied. However, the experience gained by the predecessors is still worth learning and borrowing from. In the spirit of mutual communication, I will write down my research results and share them with everyone.
 
-{% include video.html bvid="BV1Yu4y1L7FZ" title="A Haruhi game from 14 years ago? Unboxing, trial playing, and localization recruitment for \"Suzumiya Haruhi no Chokuretsu &amp; Heiretsu\"" %}
+{% include video.html bvid="BV1Yu4y1L7FZ" title="A Haruhi game from 14 years ago? Unboxing, trial playing, and localization recruitment for &quot;Suzumiya Haruhi no Chokuretsu &amp; Heiretsu&quot;" %}
 
 ## Import and Export Tools
 The import and export tool, [ChokuretsuTranslationUtility](https://github.com/haroohie-club/ChokuretsuTranslationUtility), created by Haroohie Translation Club, has quite complete functions. But the import and export format of texts is in the `. resx` format, which I am not used to, so I added the function of importing/exporting in the `. json` format. The modified code can be found in [here](https://github.com/Xzonn/ChokuretsuTranslationUtility).
@@ -58,29 +58,29 @@ The first `0x14` bytes are obviously the file header, where `0x04-0x07` is the s
 ＠、。．・：？！＿々ー―～…‘’“”（）《》「」『』【】＋－×＝°％＆☆■♪０１２３４５６７８９ＡＢＣＤＥＦＧＨＩＪＫＬＭＮＯＰＱＲＳＴＵＶＷＸＹＺａｂｃｄｅｆｇｈｉｊｋｌｍｎｏｐｑｒｓｔｕｖｗｘｙｚぁあぃい...
 ```
 
-Because the imported text is Simplified Chinese, I need to find a way to map Simplified Chinese characters to Shift-JIS code. I originally wanted to directly use the GB18030 encoding, but found that GB18030 contained far more Chinese characters than Shift-JIS, so I gave up. The final solution is to count the number of Simplified Chinese characters in the translated text, sort them according to the number of use, and then check whether they are in the original character table in turn. If yes, the original Shift-JIS code is directly used; If not, replace it with Japanese Kanji that does not appear in the translated text. This ensures that as many characters as possible can be displayed correctly. Finally, the replaced correspondence table was saved as a `.json` file for use when importing text.
+Because the imported text is Simplified Chinese, I need to find a way to map Simplified Chinese characters to Shift-JIS code. I originally wanted to directly use the GB18030 encoding, but found that GB18030 contained far more Chinese characters than Shift-JIS, so I gave up. The final solution is to count the number of Simplified Chinese characters in the translated text, sort them according to the number of use, and then check whether they are in the original character table in turn. If yes, the original Shift-JIS code is directly used; If not, replace it with Japanese Kanji that does not appear in the translated text. This ensures that as many characters as possible can be displayed correctly. Finally, the correspondence table was saved as a `.json` file for use when importing text.
 
 The processing idea of the character table is similar to that of the English project, but Chinese localization needs to use far more characters than English. I extracted all the text and tested it with the machine translation. The required Chinese characters are about 3,000 words, while the original character table only contains about 2,200 words. The solution is either to simplify the use of words, or to expand the capacity of the character table. (By the way, the whole text of the game is about 800,000 words in Japanese, including many branches. So, if someone just wants to clear the game, it is very simple because there are only five chapters. But it will take a long time to play all the branches. Of course, it is also a hell for translation, and it took me 3 days to finish the machine translation.)
 
 ### Font Image
-有了码表和对应表，生成图片就简单了很多。字体大小是14px，这个大小正好适合中文像素字体（可以参考星夜之幻前辈写的文章[“小点阵字体速览”](https://zhuanlan.zhihu.com/p/142419693)）。我用的是Windows自带的宋体，实际生成是13x14px的字符。自动构建的时候也可以读取`C:/Windows/Fonts/simsun.ttc`。
+With a character table and correspondence table, generating images becomes much simpler. The font size is 14px, which is exactly suitable for Chinese pixel fonts (you can refer to the article ["小点阵字体速览"](https://zhuanlan.zhihu.com/p/142419693) (Small Pixel Font Overview) written by a senior 星夜之幻 (Xingyezhihuan)). I used SimSun, which is bundled with Windows, to generate 13x14px characters. As for creating an automatically building workflow, the file `C:/Windows/Fonts/simsun.ttc` can be used.
 
-不过这里有一个小小的问题，由于游戏中文字的行高正好就是14px，如果用14px的字体就会出现上下两行的文字有粘连。这个问题就需要通过修改游戏的可执行文件来解决了。
+However, there is a small issue here. As the line height of the text in the game is exactly 14px, using a 14px font will result in sticky text between the top and bottom lines. This problem needs to be solved by modifying the executable file of the game.
 
-另外，同样是基于前文所说的码表包含字符不够多的原因，生成的字体图片也需要比原来的图片更大。原来的图片尺寸是16x35328的，如果直接用ChokuretsuTranslationCLI导入，将会只导入图片的前面一部分。在不修改代码的前提下，解决办法是先手动生成一个空的二进制文件导入进去，然后再导入图片，此时ChokuretsuTranslationCLI就会以新的尺寸处理图片。
+Additionally, due to the insufficient number of characters in the original character table that I mentioned earlier, the generated font image also needs to be larger than the original image. The original image size was 16x35328. If the image was imported directly using ChokuretsuTranslationCLI, only the top part of the image will be imported. The solution, without modifying the code, is to manually generate an empty binary file to import, and then import the image. Then, ChokuretsuTranslationCLI will process the image with the new size.
 
-## 图片
-图片的修改没什么好说的，就是简单地导出、修改、导入。只不过有些图片导出后的图块排序和实际显示的图块排序有些差异，需要手动处理一下，也比较简单，不再赘述了。
+## Images
+Modifying images is very easy, just simply exporting, modifying, and importing them. However, there are some differences in the sorting of exported tiles compared to the actual displayed image, which require manual processing. The steps are relatively simple, so I won't go into further detail.
 
-## 可执行文件
-在我深入研究之前，我对NDS游戏的可执行文件的了解不多。不过随着我深入研究了这个游戏以及[《宝可梦》第四世代的汉化修正项目](/PokemonChineseTranslationRevise/)，至少也算是歪打正着地解决了我遇到的问题。
+## Executable File
+Before delving deeper, I had limited knowledge about the executable files of NDS games. However, as I delved deeper into this game and [the Chinese localization revision project for the Pokémon Gen IV](/Pokemon Chinese Translation Revision/), at least it was able to solve the problems I encountered in a straightforward manner.
 
-首先大致说明一下NDS游戏的可执行文件。其分为arm9和arm7两部分，而这两部分又分为主程序（`arm9.bin/arm7.bin`）和补丁程序（`overlay9_xxxx.bin/overlay7_xxxx.bin`）。以arm9为例，`arm9.bin`中保存了程序的通用部分，会在游戏启动时加载到主内存（起始点为`0x02000000`）；而`overlay9_xxxx.bin`则根据需要动态加载到内存中。所有的二进制文件都是ARM的机器码，所以要想修改游戏的逻辑，就需要对机器码进行修改。这里就需要用到反汇编工具了。
+Firstly, I'll briefly explain the executable files of the NDS game. They are divided into two parts: arm9 and arm7, which are further divided into the main program (`arm9.bin/arm7.bin`) and overlay programs (`overlay9_xxxx.bin/overlay7_xxxx.bin`). Taking arm9 as an example, the general part of the program is saved in `arm9.bin`, which will be loaded into the main memory at game startup (starting from `0x0200000000`); And `overlay9_xxxx. bin` is dynamically loaded into memory as needed. All binary files are ARM machine code, so if I want to modify the logic of the game, it is necessary to modify the machine code. This requires the use of disassembly tools.
 
-参考了Haroohie Translation Club写的文章[“Chokuretsu ROM Hacking Challenges Part 2 – Archive Archaeology”](https://haroohie.club/blog/2022-11-02-chokuretsu-archives){: lang="en" }，可以使用IDA搭配[插件](https://github.com/kynex7510/nds_ida)对NDS的ROM文件进行反汇编。（顺带一提，原作者仅实现了反汇编`arm9.bin`的功能，没有实现`overlay9_xxxx.bin`的功能，我在原作者的基础上添加了`overlay9_xxxx.bin`的反汇编功能，参见[此处](https://github.com/Xzonn/NdsIda)。arm7的反汇编没有做，目前也没什么需求，如果有需求再说。）
+Referring to the article written by Haroohie Translation Club -- ["Chokuretsu ROM Hacking Challenges Part 2 – Archive Archaeology"](https://haroohie.club/blog/2022-11-02-chokuretsu-archives), IDA can be used with [a plugin](https://github.com/kynex7510/nds_ida) to disassemble NDS ROM files. (By the way, the original author only implemented the disassembly function of `arm9. bin` and did not implement the function of `overay9_xxxx.bin`. I added the disassembly function of 'overay9_xxxx.bin` on the basis of the original author, see [here](https://github.com/Xzonn/NdsIda). The disassembly function of arm7 was not done since there is currently no need for it. If there is a need, we can discuss it further.)
 
-### 字体行高
-在Haroohie Translation Club的构建项目[“ChokuretsuTranslationBuild”](https://github.com/haroohie-club/ChokuretsuTranslationBuild)中我发现[`src/symbols.x`](https://github.com/haroohie-club/ChokuretsuTranslationBuild/blob/main/src/symbols.x)文件有一些该团队已经命名的函数：
+### Font Line Height
+In the [build repository](https://github.com/haroohie-club/ChokuretsuTranslationBuild) of Haroohie Translation Club, I found that the [`src/symbols.x`](https://github.com/haroohie-club/ChokuretsuTranslationBuild/blob/main/src/symbols.x) file contains some functions that the team has already named:
 
 ``` javascript
 MI_DmaCopy32 = 0x02006ED0;
@@ -91,9 +91,9 @@ arc_loadFileAndResolvePointers = 0x02033FC4;
 scene_renderDialogue = 0x0202D41C;
 ```
 
-其中`scene_renderDialogue`这个函数看着很有用，拿IDA看一眼：
+The function `scene_renderDialogue` looks very useful, take a look at IDA:
 
-{% include figure.html src="9fdd24ec0a61e2cb5dc2c6c79175556b.png" alt="反汇编结果" width="1920" height="1033" %}
+{% include figure.html src="9fdd24ec0a61e2cb5dc2c6c79175556b.png" alt="The result of disassembly" width="1920" height="1033" %}
 
 这里大概能看出来`cmp r2, #0`、`cmp r2, #0x60`、`cmp r2, #0xa`、`cmp r2, #0x23`是在比较，正好`U+000A`是换行符，而对应的分支里面有个`mov r0, #0x0e`。`0x0e`刚好又是十进制的`14`，前面说过游戏中文字的行高是14，这不是正好对上了吗？修改一下，改成`0x10`（十进制的`16`），回到游戏里一看，没错！就这样歪打正着地解决了。
 
