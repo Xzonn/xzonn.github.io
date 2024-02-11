@@ -17,7 +17,8 @@
           <li class="d-print-none"><a href="https://beian.miit.gov.cn/">京ICP备20005737号</a></li>
           <li class="d-print-none"><a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010802031118">京公网安备11010802031118号</a></li>{% endif %}
           <li>&copy; 2017 - {{ "now" | date: "%Y" }} {% t from-site-name %}</li>{% if jekyll.environment == "production" %}
-          <li>{% t footer-generated-by %}</li>{% endif %}
+          <li>{% t footer-generated-by %}</li>
+          <li>{% t footer-deployed-by %}</li>{% endif %}
           <li><a href="/posts/About.html">{% t footer-about-site %}</a></li>
           <li><a href="/xzonn.html">{% t footer-about-me %}</a></li>
           <li><a href="/feed.xml">{% t footer-feed %}</a></li>

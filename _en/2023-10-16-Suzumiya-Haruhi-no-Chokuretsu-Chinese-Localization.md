@@ -11,7 +11,7 @@ links:
     - Chinese localization related codes
 references: 
   - - https://blog.csdn.net/LuckilyYu/article/details/5424928
-    - Some hacking information on "Suzumiya Haruhi no Chokuretsu" on NDS
+    - NDS《凉宫春日的直列》的一些破解信息
   - - https://haroohie.club/blog/2022-10-19-chokuretsu-compression
     - Chokuretsu ROM Hacking Challenges Part 1 – Cracking a Compression Algorithm!
   - - https://haroohie.club/blog/2022-11-02-chokuretsu-archives
