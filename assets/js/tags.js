@@ -1,7 +1,21 @@
 "use strict";
 /* global $ */
+const lang_default = "zh-cn";
+const i18n = {
+  "zh-cn": {
+    "tag-all": "全部",
+  },
+  "en": {
+    "tag-all": "ALL",
+  },
+};
 
 window.addEventListener("load", () => {
+  const lang = document.body.lang || document.querySelector("html").lang || lang_default;
+  const t = function (key, _lang = lang) {
+    return (i18n[_lang] || i18n[lang_default])[key] || i18n[lang_default][key] || key;
+  }
+
   /* 手动生成各标签 */
   let tags_dict = {};
   let lines = Array.from($(".xz-postlist > tbody > tr")).map((x) => x.dataset["tags"].split(" "));
@@ -21,7 +35,7 @@ window.addEventListener("load", () => {
           id: "tag-",
           "data-sort": lines.length,
         })
-        .html(`<a class="nav-link" href="#">全部 <span class="badge">${lines.length}</span></a>`)
+        .html(`<a class="nav-link" href="#">${t("tag-all")} <span class="badge">${lines.length}</span></a>`)
     );
   tags.forEach((tag) => {
     if (!tag) return;

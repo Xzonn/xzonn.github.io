@@ -10,7 +10,7 @@
         </button>
         <div class="xz-navbar collapse navbar-collapse ms-auto justify-content-end" id="xz-navbar">
           <ul class="navbar-nav navbar-right">{% if page.i18n %}
-            <li class="nav-item"><a class="nav-link{% capture _nav_url %}{% if page.lang == "zh-cn" %}{{ page.url | replace: "/posts/", "/posts/en/" }}{% else %}{{ page.url | replace: "/posts/en/", "/posts/" }}{% endif %}{% endcapture %}{% if page.url == _nav_url %} active disabled{% endif %}" href="{{ _nav_url }}"><i class="bi bi-translate"></i> {% if page.lang == "zh-cn" %}{% t lang-en %}{% else %}{% t lang-zh-cn %}{% endif %}</a></li>{% endif %}
+            <li class="nav-item"><a class="nav-link{% capture _nav_url %}{% if page.lang == "zh-cn" %}{{ page.i18n_en | default: page.url | replace: "/posts/", "/posts/en/" }}{% else %}{{ page.i18n_zh | default: page.url | replace: "/posts/en/", "/posts/" }}{% endif %}{% endcapture %}{% if page.url == _nav_url %} active disabled{% endif %}" href="{{ _nav_url }}"><i class="bi bi-translate"></i> {% if page.lang == "zh-cn" %}{% t lang-en %}{% else %}{% t lang-zh-cn %}{% endif %}</a></li>{% endif %}
             <li class="nav-item"><a class="nav-link{% capture _nav_url %}{% t header-list-url %}{% endcapture %}{% if page.url == _nav_url %} active disabled{% endif %}" href="{{ _nav_url }}"><i class="bi bi-card-list"></i> {% t header-list %}</a></li>
             <li class="nav-item"><a class="nav-link{% capture _nav_url %}{% t header-search-url %}{% endcapture %}{% if page.url == _nav_url %} active disabled{% endif %}" href="{{ _nav_url }}"><i class="bi bi-search"></i> {% t header-search %}</a></li>
           </ul>
