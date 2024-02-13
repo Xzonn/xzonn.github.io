@@ -34,7 +34,6 @@ module Jekyll
       #-------------------------------------------------------------------------
       languages                   = self.config['languages'] # List of languages set on _config.yml
       languages.each do |lang|
-        puts "Loading translation from file #{self.config['source']}/_i18n/#{lang}.yml"
         self.parsed_translations[lang] = YAML.load_file("#{self.config['source']}/_i18n/#{lang}.yml")  
       end
 
