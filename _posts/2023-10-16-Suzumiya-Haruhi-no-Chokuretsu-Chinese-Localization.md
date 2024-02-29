@@ -16,7 +16,7 @@ references:
     - Chokuretsu ROM Hacking Challenges Part 1 – Cracking a Compression Algorithm!
   - - https://haroohie.club/blog/2022-11-02-chokuretsu-archives
     - Chokuretsu ROM Hacking Challenges Part 2 – Archive Archaeology
-tags: DS 技术指南
+tags: DS 汉化笔记
 title: 《凉宫春日的串联》汉化笔记
 ---
 {% include posts_i18n/zh-cn/2023-10-16-Suzumiya-Haruhi-no-Chokuretsu-Chinese-Localization.md %}

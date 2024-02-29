@@ -6,7 +6,7 @@ head_image_height: 256
 head_image_width: 512
 info: 3DS《路易吉洋馆》汉化：从开坑到弃坑。
 last_modified_at: 2020-01-03 23:22
-tags: 3DS 任天堂 杂记
+tags: 3DS 任天堂 汉化笔记
 title: 3DS《路易吉洋馆》汉化笔记
 ---
 <div style="font-size: 200%; font-weight: bold; text-align: center;"><a href="/LuigiMansion/">→汉化发布页←</a></div>

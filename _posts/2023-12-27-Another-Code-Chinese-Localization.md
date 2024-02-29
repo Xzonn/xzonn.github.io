@@ -13,7 +13,7 @@ logs:
 references: 
   - - https://jasonharley2o.com/wiki/doku.php?id=hoteldusk
     - "Resource Reverse Engineering: Hotel Dusk: Room 215"
-tags: DS 任天堂 技术指南
+tags: DS 任天堂 汉化笔记
 title: 《Another Code 两种记忆》汉化笔记
 ---
 <div class="alert alert-success" markdown="1" style="text-align: center; font-size: 150%;">

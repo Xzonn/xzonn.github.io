@@ -8,7 +8,7 @@ links:
   - 游戏官网
 - - https://github.com/Xzonn/ParanormasightChsLocalization
   - 汉化相关代码
-tags: Switch Windows 技术指南
+tags: Switch Windows 汉化笔记
 title: 《灵异视界 FILE23 本所七大不可思议》汉化笔记
 ---
 <div class="alert alert-success" markdown="1" style="text-align: center; font-size: 150%;">
