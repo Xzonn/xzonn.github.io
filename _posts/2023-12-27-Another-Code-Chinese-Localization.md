@@ -1,10 +1,10 @@
 ---
 date: 2023-12-27 00:39
-head_image: aa2646c80d15077f23d0146c5deaf2b4.webp
+head_image: 9d7af6380c53e758cd22ec79ebf6bad2.webp
 head_image_height: 384
 head_image_width: 768
 info: 汉化图片。
-last_modified_at: 2024-02-10 23:33
+last_modified_at: 2024-03-01 00:37
 links: 
   - - https://github.com/Xzonn/ACTMChsLocalization
     - 汉化相关代码
@@ -327,4 +327,4 @@ def get_xy_tile(width: int, height: int) -> Generator[tuple[int, int], Any, None
 按照导出的方法逆过程导入回去即可。其中压缩算法不太好写，最初我直接导入了未压缩的数据，经测试也能用，只不过因为恰好使ROM大小超过了32 MiB，需要对ROM扩容。之后研究了一下压缩算法，发现也不太难。
 
 ## 结语
-汉化相关的构建脚本已在GitHub上开源。
+汉化相关的构建脚本已在GitHub上开源，并已发布汉化成果。
