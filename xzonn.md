@@ -11,10 +11,10 @@ title: 关于我
 {% include image.html src="https://avatars.githubusercontent.com/u/30619816" width="200" height="200" class="float-right" %}
 {% include image.html src="https://images.xzonn.top/status.svg" width="200" height="50" class="float-right clear-right" %}
 
-{{ "now" | date: "%y" }}岁，学生。专业是环境工程。
+{{ "now" | date: "%y" }}岁，是学生。专业是环境工程。
 {: .text-left }
 
-任天堂爱好者，宝可梦玩家。会一点点编程。
+任天堂爱好者，宝可梦玩家。会一点点编程。经常挖坑不填。
 {: .text-left }
 
 做过的事：
@@ -25,7 +25,9 @@ title: 关于我
 - [任天堂官方中文化游戏文本](https://github.com/Xzonn/NintendoOfficialChineseGames)
 - [任天堂开发者访谈保存计划](https://ninterviews.xzonn.top/)
 - [《宝可梦 朱／紫》数据库](https://sv.xzonn.top/)
-- [《灵异视界 FILE23 本所七大不可思议》汉化](https://xzonn.top/ParanormasightChsLocalization/)（七不思议汉化组）
+- 七不思议汉化组：
+  - [《灵异视界 FILE23 本所七大不可思议》汉化](https://xzonn.top/ParanormasightChsLocalization/)
+  - [《凉宫春日的串联》汉化](https://xzonn.top/ChokuretsuChsLocalization/)（进行中）
 - ……以及其他秘密事项
 
 联系方式：
