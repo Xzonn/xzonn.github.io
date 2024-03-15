@@ -2,7 +2,7 @@
 date: 2023-11-06 22:05
 head_image: 50fe68328b2d95ca36d882d4ff0805a0.png
 info: 自力更生。
-last_modified_at: 2023-11-12 19:59
+last_modified_at: 2024-03-15 11:48
 links: 
   - - https://github.com/Xzonn/JellyfinPluginDouban
     - JellyfinPluginDouban
@@ -43,7 +43,8 @@ title: Jellyfin 豆瓣元数据插件
 - 下载插件压缩包，将dll文件解压至 `<Jellyfin 数据目录>/Plugins/Douban`。
 - 重启Jellyfin。
 
-## 关于速率限制
+## 已知问题
+### 关于速率限制
 由于豆瓣目前已经没有公开的api，所有请求均基于直接获取相关网页，过快的访问速率可能会被视为恶意爬取软件而被封禁。为了尽可能避免被封禁，请尝试调整设置选项：
 
 1. 增加每两次请求之间的时间间隔。默认设置为2秒。
@@ -64,6 +65,9 @@ server {
   }
 }
 ```
+
+### 部分影视无数据
+豆瓣限制了部分影视仅在登录状态下可见（[例](https://movie.douban.com/subject/26752722/)），这可能导致部分影视无法获取到元数据。如果遇到这种情况，请登录并填入Cookie（参见[上一步](#关于速率限制)）。
 
 ## 写在最后
 感谢两个插件的作者对本插件的启发。
