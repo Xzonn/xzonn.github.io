@@ -91,18 +91,18 @@ arc_loadFileAndResolvePointers = 0x02033FC4;
 scene_renderDialogue = 0x0202D41C;
 ```
 
-The function `scene_renderDialogue` looks very useful, take a look at IDA:
+The function `scene_renderDialogue` looks very useful, take a look with IDA:
 
 {% include figure.html src="9fdd24ec0a61e2cb5dc2c6c79175556b.png" alt="The result of disassembly" width="1920" height="1033" %}
 
-这里大概能看出来`cmp r2, #0`、`cmp r2, #0x60`、`cmp r2, #0xa`、`cmp r2, #0x23`是在比较，正好`U+000A`是换行符，而对应的分支里面有个`mov r0, #0x0e`。`0x0e`刚好又是十进制的`14`，前面说过游戏中文字的行高是14，这不是正好对上了吗？修改一下，改成`0x10`（十进制的`16`），回到游戏里一看，没错！就这样歪打正着地解决了。
+Here, we can roughly see that `cmp r2, #0`, `cmp r2, #0x60`, `cmp r2, #0xa`, `cmp r2, #0x23` are comparing `r2` with certain numbers. Since `U+000A` is a line break, there is `mov r0, #0x0e` in the corresponding branch, and `0x0e` is 14 in demical. As I mentioned earlier, the line height of text in games is exactly 14. Then I modified it to `0x10` (16 in decimal), and went back to the game, perfect! So it was solved crookedly.
 
-{% include figure.html src="b0356179c4370109ed7d6c208694face.png" alt="修改行高的结果" width="256" height="384" %}
+{% include figure.html src="b0356179c4370109ed7d6c208694face.png" alt="The result of modifying line height" width="256" height="384" %}
 
-### 字库扩容
-这个问题困扰了我挺久，单纯修改码表大小没用，必须得同时修改图片大小才能让游戏中正常显示。但是，如果让图片包含大约2500个汉字（仅扩容300字），导入到游戏里就会出错，具体表现为游戏在厂商图标显示完毕后白屏。这显然应该是图片太大导致内存不够用了，但我一开始没有想到较好的解决办法。尽管我在字库图片读取、文本显示等多个地方都打了断点，但是还是没琢磨清楚该怎么改。
+### Expanding the font
+This problem has been bothering me for quite a long time. Simply changing the size of the character table is useless, so I have to modify the image size at the same time to make it display properly in the game. However, once the image contains approximately 2500 Chinese characters (with only 300 characters expanded), importing it into the game will result in an error, which is manifested as a white screen after manufacturers' logos are displayed. This is obviously due to the image being too large and causing insufficient memory, but I didn't think of a better solution at first. Although I have made breakpoints in various places such as loading font image and displaying texts, I still haven't figured out how to make the changes.
 
-这个时候我碰巧又看了Haroohie Translation Club的构建项目，发现了[一个提交](https://github.com/haroohie-club/ChokuretsuTranslationBuild/commit/f8884a8057f38a9f6b0f384acf7bf3f95541a096)：
+At this moment, I happened to look at the build repo of Haroohie Translation Club again and found [a commit](https://github.com/haroohie-club/ChokuretsuTranslationBuild/commit/f8884a8057f38a9f6b0f384acf7bf3f95541a096):
 
 ``` plaintext
 commit f8884a8057f38a9f6b0f384acf7bf3f95541a096
@@ -112,11 +112,11 @@ Date: Tue Oct 10 03:51:20 2023 -0700
  Print debug logs to no$ console
 ```
 
-拉下来在本地构建一下，把可执行文件相关的修改导入进去，然后拿DeSmuME打开ROM文件：
+I pulled it down, built it locally, merged the modifications related to the executable file, and then opened the ROM file with DeSmuME:
 
-{% include figure.html src="d7cad39c3bd74eea4c659c0ba3c2e4b6.png" alt="DeSmuME的控制台" width="932" height="883" %}
+{% include figure.html src="d7cad39c3bd74eea4c659c0ba3c2e4b6.png" alt="the console of DeSmuME" width="932" height="883" %}
 
-好家伙，真的把日志输出到模拟器的控制台里了。这下就好办了，生成一个超级大的图片，导入到游戏里，发现报错内存不够了：
+Wow, I really output the logs to the console of the emulator. Now it's easy to handle. Generate a super large image, and import it into the game. I found that there was an error message and the memory was not enough:
 
 ``` plaintext
 memory is not enough[32256Byte]
