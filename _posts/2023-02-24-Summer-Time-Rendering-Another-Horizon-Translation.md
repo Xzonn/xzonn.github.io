@@ -1,8 +1,8 @@
 ---
 date: 2023-02-24 21:43
-head_image: 26f1c19f4094a37e30e3c33c30ff4d91.webp
+head_image: 218a17f49457714e7dcc6e5c563ccf94.webp
 info: 夏日重现。
-last_modified_at: 2024-03-01 01:26
+last_modified_at: 2024-04-15 00:45
 links: 
 - - https://summertimerendering.mages.co.jp/game/
   - 游戏官网
@@ -104,9 +104,20 @@ public static void Decrypt(byte[] buffer, int offset, int count, string szPasswo
 
 对比前面的python代码，发现python代码其实没有处理`pt[i] == 0`的情况。但实际上如果`pt[i] == 0`，解密后的代码也会有一个`0x00`字节，这样的话json文件就会出现解析错误，所以这个判断确实可以忽略。
 
+（2024-04-14更新）其实我在翻译完了上面的这些文本之后发现还有一些文本是日文，而且这些文本会以我导入的字体显示，说明不是图片形式的文本。我猜测这些文本是硬编码在了可执行文件中，于是开始在exefs里寻找，可是找了半天也没找到。最后才发现——嘿！这文本确实是硬编码的，但是不在exefs里，而在我一直忽略的`global-metadata.dat`这个文件里。文件结构也不难，可以参考[Il2CppDumper](https://github.com/Perfare/Il2CppDumper)的代码。这个文件里包含了很多信息，但我其实只需要里面硬编码的文本，简单处理一下就好了。
+
 ## 机翻
 导出文本之后，还要对文本进行翻译。粗略算了一下，需要翻译的文本大概有42万个字符（VS Code数据），全靠人工翻译不太现实，就需要用到机翻了。关于机翻的方式我在[另一篇文章]({% link _posts/2023-03-29-Paranormasight-Translation.md %})中已经提过，这里就不重复了。
 
 {% include figure.html src="26f1c19f4094a37e30e3c33c30ff4d91.webp" alt="导入后的效果" %}
 
 与之类似，《摇曳露营△ Have a nice day!》也能用这种方式来翻译，不过我没接触过《摇曳露营△》这部作品，这个项目就留给各位读者了。
+
+## 图片
+（2024-04-14更新）关于图片形式的文本，我一直没研究，一方面是技术方面的问题，另一方面是因为人名太多，也不方便搞成批处理脚本。
+
+关于技术问题，原本的AssetStudio读取本作的一些图片会出现问题，显示出的事带有杂色块的图片，而UABEA则能够正常读取。我分析了UABEA的代码，发现他们对Nintendo Switch平台的图片做了[特殊处理](https://github.com/nesrak1/UABEA/blob/239a112cc31cb46f9da235471a7b4d74894640fb/TexturePlugin/Texture2DSwitchDeswizzler.cs)，这似乎是Switch平台的Unity游戏特有的图片处理方法。于是我把这部分代码[移植回了AssetStudio](https://github.com/Xzonn/AssetStudio/commit/863ed0c499ad131166bf5c14b6b2f728d3f8d1cb)，发现确实能够正常读取图片了。
+
+另外，对于Sprite的处理，实际上是对Texture2D画了一个矩形边界，根据矩形边界读取对应的图片。因此如果要修改Sprite，只需要根据边界修改Texture2D的内容即可。
+
+至于人名太多，这个我懒得处理了，反正我也通关了，如果有人感兴趣修改这些图片的话可以联系我。
