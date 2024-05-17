@@ -2,7 +2,7 @@
 date: 2023-11-06 22:05
 head_image: 50fe68328b2d95ca36d882d4ff0805a0.png
 info: 自力更生。
-last_modified_at: 2024-05-14 13:33
+last_modified_at: 2024-05-17 12:52
 links: 
   - - https://github.com/Xzonn/JellyfinPluginDouban
     - JellyfinPluginDouban
@@ -70,6 +70,10 @@ server {
 豆瓣限制了部分影视仅在登录状态下可见（[例](https://movie.douban.com/subject/26752722/)），这可能导致部分影视无法获取到元数据。如果遇到这种情况，请登录并填入Cookie（参见[上一步](#关于速率限制)）。
 
 ## 更新日志
+- v2.0.0（2024-05-16）：
+  - 初步支持Jellyfin 10.9版本。
+- v1.0.9（2024-05-16）：
+  - 优化了对含有多季的影视的搜索。
 - v1.0.8（2024-05-14）：
   - 修复了部分没有评分的影视无法获取元数据的问题。
 - v1.0.7（2024-02-04）：
