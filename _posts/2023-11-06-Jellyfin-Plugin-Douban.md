@@ -1,8 +1,8 @@
 ---
 date: 2023-11-06 22:05
-head_image: 50fe68328b2d95ca36d882d4ff0805a0.png
+head_image: b37d90a37aba8c4cb2b78b787a95808f.webp
 info: 自力更生。
-last_modified_at: 2024-05-17 17:32
+last_modified_at: 2024-05-18 22:40
 links: 
   - - https://github.com/Xzonn/JellyfinPluginDouban
     - JellyfinPluginDouban
@@ -35,7 +35,7 @@ title: Jellyfin 豆瓣元数据插件
 ## 安装方式
 ### 插件库
 - 打开控制台，选择`插件`→`存储库`→`添加`。
-- 在`存储库 URL`处填入：`https://xzonn.top/JellyfinPluginDouban/manifest.json`。
+- 在`存储库 URL`处填入：[`https://xzonn.top/JellyfinPluginDouban/manifest.json`](https://xzonn.top/JellyfinPluginDouban/manifest.json)。
 - 在插件目录中找到Douban插件，选择安装。
 - 重启Jellyfin。
 
@@ -70,6 +70,9 @@ server {
 豆瓣限制了部分影视仅在登录状态下可见（[例](https://movie.douban.com/subject/26752722/)），这可能导致部分影视无法获取到元数据。如果遇到这种情况，请登录并填入Cookie（参见[上一步](#关于速率限制)）。
 
 ## 更新日志
+- v1.1.0、v2.1.0（2024-05-18）：
+  - 修复了无法将标识符保存到`.nfo`文件的问题。 ([#3](https://github.com/Xzonn/JellyfinPluginDouban/issues/3))
+  - 部分细节修正。
 - v1.0.10、v2.0.1（2024-05-17）：
   - 修复了人物元数据获取失败的问题。
   - 移除了对Open Douban的兼容。
