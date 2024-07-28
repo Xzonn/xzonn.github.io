@@ -1,5 +1,5 @@
 <div class="alert alert-success" markdown="1" style="text-align: center; font-size: 150%;">
-**[汉化招募中！](https://xzonn.top/ChokuretsuChsLocalization/)**
+**[汉化招募中！](https://7.xzonn.top/ChokuretsuChsLocalization/)**
 </div>
 
 最近我对游戏汉化热情高涨，正好凉宫春日相关的游戏有几部作品至今没有汉化，其中就包括了世嘉发行的两部作品《凉宫春日的串联》《并联》（日文汉字写作为“直列”“并列”）。之前有一位前辈写过一篇[“NDS《凉宫春日的直列》的一些破解信息”](https://blog.csdn.net/LuckilyYu/article/details/5424928)，但是由于年代久远，CSDN开始收费了，这篇文章的全文也没法看了。
@@ -93,11 +93,11 @@ scene_renderDialogue = 0x0202D41C;
 
 其中`scene_renderDialogue`这个函数看着很有用，拿IDA看一眼：
 
-{% include figure.html src="9fdd24ec0a61e2cb5dc2c6c79175556b.png" alt="反汇编结果" width="1920" height="1033" %}
+{% include figure.html src="bcefa04ad4220a0e386f9ce3446e81b5.webp" alt="使用IDA反汇编结果，其中与行高相关的内容已经高亮为了绿色" width="1920" height="1033" %}
 
 这里大概能看出来`cmp r2, #0`、`cmp r2, #0x60`、`cmp r2, #0xa`、`cmp r2, #0x23`是在比较，正好`U+000A`是换行符，而对应的分支里面有个`mov r0, #0x0e`。`0x0e`刚好又是十进制的`14`，前面说过游戏中文字的行高是14，这不是正好对上了吗？修改一下，改成`0x10`（十进制的`16`），回到游戏里一看，没错！就这样歪打正着地解决了。
 
-{% include figure.html src="b0356179c4370109ed7d6c208694face.png" alt="修改行高的结果" width="256" height="384" %}
+{% include figure.html src="b0356179c4370109ed7d6c208694face.png" alt="修改行高为16px的结果" width="256" height="384" %}
 
 ### 字库扩容
 这个问题困扰了我挺久，单纯修改码表大小没用，必须得同时修改图片大小才能让游戏中正常显示。但是，如果让图片包含大约2500个汉字（仅扩容300字），导入到游戏里就会出错，具体表现为游戏在厂商图标显示完毕后白屏。这显然应该是图片太大导致内存不够用了，但我一开始没有想到较好的解决办法。尽管我在字库图片读取、文本显示等多个地方都打了断点，但是还是没琢磨清楚该怎么改。
@@ -114,7 +114,7 @@ Date: Tue Oct 10 03:51:20 2023 -0700
 
 拉下来在本地构建一下，把可执行文件相关的修改导入进去，然后拿DeSmuME打开ROM文件：
 
-{% include figure.html src="d7cad39c3bd74eea4c659c0ba3c2e4b6.png" alt="DeSmuME的控制台" width="932" height="883" %}
+{% include figure.html src="d7cad39c3bd74eea4c659c0ba3c2e4b6.png" alt="DeSmuME的控制台，展示了调试信息" width="932" height="883" %}
 
 好家伙，真的把日志输出到模拟器的控制台里了。这下就好办了，生成一个超级大的图片，导入到游戏里，发现报错内存不够了：
 

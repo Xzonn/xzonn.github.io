@@ -1,13 +1,13 @@
 ---
 date: 2023-10-16 23:05
-head_image: ad1f5a24b18d5252c805878c8009d0ca.png
+head_image: bd1489ea6f7cd8dd28613481ab6f1dcd.webp
 head_image_height: 384
 head_image_width: 768
 i18n: true
 info: 交流借鉴。
-last_modified_at: 2024-02-11 21:33
+last_modified_at: 2024-07-28 16:32
 links: 
-  - - https://github.com/Xzonn/ChokuretsuChsLocalization
+  - - https://github.com/Qi-Busiyi-Hanhuazu/ChokuretsuChsLocalization
     - 汉化相关代码
 references: 
   - - https://blog.csdn.net/LuckilyYu/article/details/5424928

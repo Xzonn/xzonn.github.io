@@ -1,5 +1,5 @@
 <div class="alert alert-success" markdown="1" style="text-align: center; font-size: 150%;">
-**[Chinese localization is in recruitment!](https://xzonn.top/ChokuretsuChsLocalization/)**
+**[Chinese localization is in recruitment!](https://7.xzonn.top/ChokuretsuChsLocalization/)**
 </div>
 
 Recently, my enthusiasm for localizing games into Chinese has been high. There are several Suzumiya Haruhi games that have not been translated into Chinese, including two works released by Sega, "Suzumiya Haruhi no Chokuretsu" (*The Series of Haruhi Suzumiya*) and "Heiretsu" (*Parallel*). A senior once wrote an article titled ["NDS《凉宫春日的直列》的一些破解信息"](https://blog.csdn.net/LuckilyYu/article/details/5424928) (Some Hacking Information on NDS game "Suzumiya Haruhi no Chokuretsu"), but due to its age, CSDN has started charging fees, and the entire article cannot be read.
@@ -93,11 +93,11 @@ scene_renderDialogue = 0x0202D41C;
 
 The function `scene_renderDialogue` looks very useful, take a look with IDA:
 
-{% include figure.html src="9fdd24ec0a61e2cb5dc2c6c79175556b.png" alt="The result of disassembly" width="1920" height="1033" %}
+{% include figure.html src="bcefa04ad4220a0e386f9ce3446e81b5.webp" alt="The result of disassembly using IDA, where the content related to line height were highlighted in green" width="1920" height="1033" %}
 
-Here, we can roughly see that `cmp r2, #0`, `cmp r2, #0x60`, `cmp r2, #0xa`, `cmp r2, #0x23` are comparing `r2` with certain numbers. `U+000A` is a line break, and there is a statement `mov r0, #0x0e` in the corresponding branch. `0x0e` is 14 in demical, and the line height of text in games is exactly 14 as I mentioned earlier. Then I modified it to `0x10` (16 in decimal), and went back to the game, perfect! So it was solved crookedly.
+Here, we can roughly see that `cmp r2, #0`, `cmp r2, #0x60`, `cmp r2, #0xa` and `cmp r2, #0x23` are comparing `r2` with certain numbers. `U+000A` is a line break, and there is a statement `mov r0, #0x0e` in the corresponding branch. `0x0e` is 14 in demical, and the line height of text in games is exactly 14 as I mentioned earlier. Then I modified it to `0x10` (16 in decimal), and went back to the game, perfect! So it was solved crookedly.
 
-{% include figure.html src="b0356179c4370109ed7d6c208694face.png" alt="The result of modifying line height" width="256" height="384" %}
+{% include figure.html src="b0356179c4370109ed7d6c208694face.png" alt="The result of modifying line height to 16px" width="256" height="384" %}
 
 ### Expanding the Character Table
 This problem bothered me for quite a long time. Just changing the size of the character table has no use, and I have to modify the image size at the same time to make it display properly in the game. However, once the image contains approximately 2,500 Chinese characters (with only 300 characters expanded), importing it into the game will result in an error, which is manifested as a white screen after manufacturers' logos are displayed. Obviously, this is due to the image being too large and causing insufficient memory, but I didn't think of a better solution at first. Although I have made breakpoints in various places such as loading font image and displaying texts, I still haven't figured out how to make the changes.
@@ -114,7 +114,7 @@ Date: Tue Oct 10 03:51:20 2023 -0700
 
 I pulled it down, built it locally, merged the modifications related to the executable file, and then opened the ROM file with DeSmuME:
 
-{% include figure.html src="d7cad39c3bd74eea4c659c0ba3c2e4b6.png" alt="the console of DeSmuME" width="932" height="883" %}
+{% include figure.html src="d7cad39c3bd74eea4c659c0ba3c2e4b6.png" alt="The console of DeSmuME, displaying debugging information" width="932" height="883" %}
 
 Wow, it really output the logs to the console of the emulator. Now it's easy to handle. I generated a very large image, and imported it into the game. Then I found that there was an error message showing the memory was not enough:
 
@@ -198,6 +198,6 @@ POP {R3,PC}
 I modified this to `#0x160000` as well.
 
 ## Conclusion
-Overall, my research results are largely based on the work of my predecessors. The solutions to several issues were somewhat accidental, but there were still some gains for me. The subsequent work will mainly involve translation. However, researching how to localize the game into Chinese is much more interesting than simply translating texts.
+Overall, my research results are largely based on the work of my seniors. The solutions to several issues were somewhat accidental, but there were still some gains for me. The subsequent work will mainly involve translation. However, researching how to localize the game into Chinese is much more interesting than simply translating texts.
 
 The related build scripts have been open-sourced on GitHub.

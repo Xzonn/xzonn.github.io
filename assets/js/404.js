@@ -7,8 +7,8 @@
     url = url.replace(/-To-/, "-to-");
   } else if (/\/posts\//.test(url)) {
     url = url.replace(/\/posts\//, "/study/");
-  } else if (/\/ParanormasightChsLocalization\//.test(url)) {
-    url = "//7.xzonn.top" + url;
+  } else if (/\/ParanormasightChsLocalization\//.test(url) || /\/ChokuretsuChsLocalization\//.test(url)) {
+    url = `//7.xzonn.top${url}`;
   } else {
     return;
   }
