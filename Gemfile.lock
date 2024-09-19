@@ -18,7 +18,7 @@ GEM
     ffi (1.17.0)
     filesize (0.2.0)
     forwardable-extended (2.6.0)
-    google-protobuf (3.25.4)
+    google-protobuf (3.25.5)
     http_parser.rb (0.8.0)
     httpclient (2.8.3)
     i18n (1.14.5)
