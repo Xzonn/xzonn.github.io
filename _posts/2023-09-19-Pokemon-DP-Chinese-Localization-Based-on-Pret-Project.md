@@ -10,7 +10,7 @@ links:
     - Chokuretsu ROM Hacking Challenges Part 2 – Archive Archaeology
 logs: 
   - 2023-10-17：更新移植到日版的方法。
-tags: DS 宝可梦
+tags: DS 宝可梦 汉化笔记
 title: 基于pret项目的《宝可梦 钻石／珍珠》汉化
 ---
 好久没动[《宝可梦》第四世代汉化修正](https://xzonn.top/PokemonChineseTranslationRevise/)项目了，最近重新研究了一下珍钻的汉化。因为我对汇编代码并不是很熟悉，还有很多东西没搞懂，但还是姑且先写一下目前的进展，抛砖引玉一下。
