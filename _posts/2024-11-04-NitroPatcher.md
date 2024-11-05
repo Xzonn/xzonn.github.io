@@ -4,7 +4,7 @@ head_image: a0dcbda7806913ed7a5298a44ccd3abd.webp
 head_image_height: 324.5
 head_image_width: 469
 info: 打个补丁。
-last_modified_at: 2024-11-04 15:47
+last_modified_at: 2024-11-05 12:17
 links: 
 - - https://github.com/Xzonn/NitroPatcher
   - 项目地址
@@ -19,7 +19,7 @@ title: NitroPatcher：NDS ROM 补丁工具
 
 ## 应用补丁
 ### GUI（图形化界面）
-#### Windows 版（WPF）
+#### Windows版（WPF）
 
 支持Windows平台。
 
@@ -27,11 +27,16 @@ title: NitroPatcher：NDS ROM 补丁工具
 
 根据图形界面的提示操作即可，或者参照[视频教程](https://www.bilibili.com/video/BV1oH1xYXEdb/t=69)。
 
-#### Android 版（MAUI）
+#### Windows/Android版（MAUI）
 
-支持Android平台。
+[{% include image.html src="https://get.microsoft.com/images/zh-cn%20dark.svg" width="232" height="68" %}](https://apps.microsoft.com/detail/9NPLXRZ04F04?mode=direct)
+{: .plainlinks }
 
-理论上最低支持Android 5.0（API 21），但仅在Android 12.0（API 31）上进行了测试。
+支持Windows/Android平台。
+
+Windows平台需从[Microsoft Store](https://www.microsoft.com/store/apps/9NPLXRZ04F04)下载安装，需要Windows 10 17763.0或更高版本。
+
+Android平台理论上最低支持Android 5.0（API 21），但仅在Android 12.0（API 31）上进行了测试。
 
 根据图形界面的提示操作即可。
 
