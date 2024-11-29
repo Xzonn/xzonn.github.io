@@ -5,7 +5,7 @@ head_image_height: 1280
 head_image_shown: false
 head_image_width: 720
 info: 又来玩玩。
-last_modified_at: 2024-10-20 23:00
+last_modified_at: 2024-11-29 17:56
 license: by-nc
 links: 
 - - https://github.com/Xzonn/PKUGeekGame4thWriteups
@@ -1569,3 +1569,7 @@ for n in range(1, maxn):
 由于我开始的时间比较早，得分比较超前，甚至一度冲上过榜一。然而我后劲不足，算法和二进制分析都比较薄弱，再加上数论图论都没学过，后面的题只能干瞪眼。不过现在这个成绩我已经很满意了。
 
 {% include figure.html src="510bc4fbe7d304b69830c200cb74a855.webp" alt="临时的榜一" width="442.5" height="77" %}
+
+{% include figure.html src="1c1c4aafeccb99c53490720225d05141.webp" alt="获奖证书" width="424.5" height="600" %}
+
+{% include figure.html src="fde9162249a7aae98a7efe8ae142e0f7.webp" alt="奖品" width="450.5" height="600" %}
