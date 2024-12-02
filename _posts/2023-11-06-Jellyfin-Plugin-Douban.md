@@ -1,8 +1,8 @@
 ---
 date: 2023-11-06 22:05
-head_image: b37d90a37aba8c4cb2b78b787a95808f.webp
+head_image: e7fc8fe18df5ee4f638996a6df6e67ae.webp
 info: 自力更生。
-last_modified_at: 2024-05-19 12:42
+last_modified_at: 2024-12-02 21:42
 links: 
   - - https://github.com/Xzonn/JellyfinPluginDouban
     - JellyfinPluginDouban
@@ -34,7 +34,7 @@ title: Jellyfin 豆瓣元数据插件
 
 ## 安装方式
 <div class="alert alert-success" markdown="1" style="font-size: 120%;">
-**注意**：Jellyfin 10.8.x版本和10.9.x版本的插件互相不兼容。对于Jellyfin 10.8.13版本，请使用本插件的1.x版本；对于Jellyfin 10.9.0及以上版本，请使用本插件的2.x版本。不支持10.8.12及以下版本。
+**注意**：Jellyfin 10.9.x版本和10.10.x版本的插件互相不兼容。对于Jellyfin 10.9.11版本，请使用本插件的2.x版本；对于Jellyfin 10.10.0及以上版本，请使用本插件的3.x版本。
 </div>
 
 ### 插件库
@@ -54,7 +54,11 @@ title: Jellyfin 豆瓣元数据插件
 1. 增加每两次请求之间的时间间隔。默认设置为2秒。
 2. 填入Cookie。请使用浏览器打开[豆瓣电影](https://movie.douban.com/)并登录，然后按<kbd>F12</kbd>打开控制台，选择`Network`，刷新页面，选择`movie.douban.com`，在右侧的`Headers`中找到`Cookie`，复制其内容并填入设置选项中。
 
-此外，在不带Referer获取豆瓣的图片时会被限速至10KB/s左右，这可能会导致获取元数据时超时，部分剧集无法正常显示。本插件默认设置中取消了“在影视页面获取演职员照片”的勾选，这可以防止Jellyfin在获取影视元数据时大量获取演职员的图片导致超时。也可以自行搭建反代，并在设置选项中修改“豆瓣图片服务器”。以下是一个简单的nginx本地搭建反代的配置文件示范：
+此外，在不带Referer获取豆瓣的图片时会被限速至10KB/s左右，这可能会导致获取元数据时超时，部分剧集无法正常显示。本插件默认设置中取消了“在影视页面获取演职员照片”的勾选，这可以防止Jellyfin在获取影视元数据时大量获取演职员的图片导致超时。
+
+速率限制可以通过搭建反代来回避，插件自带了一个反向代理，可在设置选项中修改“豆瓣图片服务器”使用。例如，如果服务器地址为`http://localhost:8096/`，则本插件的反代地址为`http://localhost:8096/Plugins/Douban/Image?url=`（注意最后有一个等号 `=`）。
+
+也可以自行搭建反代，以下是一个简单的nginx本地搭建反代的配置文件示范：
 
 ``` nginx
 server {
@@ -71,28 +75,13 @@ server {
 ```
 
 ### 部分影视无数据
-豆瓣限制了部分影视仅在登录状态下可见（[例](https://movie.douban.com/subject/26752722/)），这可能导致部分影视无法获取到元数据。如果遇到这种情况，请登录并填入Cookie（参见[上一步](#关于速率限制)）。
+豆瓣限制了部分影视仅在登录状态下可见（[例](https://movie.douban.com/subject/26752722/)），这可能导致部分影视无法获取到元数据。如果遇到这种情况，请登录并填入Cookie（参见[上一步](#关于速率限制)），或者手动填写豆瓣ID。
+
+### 季的内容为空
+由于Jellyfin自身的缺陷，如果将视频文件直接存放在一级子目录下（例如`/（根目录）/剧名/[XXSub] Bangumi Name - 01.mp4`），Jellyfin会自动生成一个季，导致插件的解析出现错误。3.3.1版本已尝试修复了此问题，但仍可能存在问题。建议将视频文件存放在季的子目录下（例如`/（根目录）/剧名/第1季/[XXSub] Bangumi Name - 01.mp4`，[参考资料](https://www.himiku.com/archives/deploy-a-more-comfortable-animation-library-with-jellyfin-and-bangumi.html)）。
 
 ## 更新日志
-- v1.1.1、v2.1.1（2024-05-19）：
-  - 增加了搜索人物图片的支持。
-  - 部分细节修正。
-- v1.1.0、v2.1.0（2024-05-18）：
-  - 修复了无法将标识符保存到`.nfo`文件的问题。 ([#3](https://github.com/Xzonn/JellyfinPluginDouban/issues/3))
-  - 部分细节修正。
-- v1.0.10、v2.0.1（2024-05-17）：
-  - 修复了人物元数据获取失败的问题。
-  - 移除了对Open Douban的兼容。
-- v2.0.0（2024-05-16）：
-  - 初步支持Jellyfin 10.9版本。
-- v1.0.9（2024-05-16）：
-  - 优化了对含有多季的影视的搜索。
-- v1.0.8（2024-05-14）：
-  - 修复了部分没有评分的影视无法获取元数据的问题。
-- v1.0.7（2024-02-04）：
-  - 修复了影视名称为空时无法获取元数据的问题。
-- v1.0.6（2023-11-12）：
-  - 优化了对季数和集数的支持。
+[见此](https://github.com/Xzonn/JellyfinPluginDouban/blob/master/ChangeLog.md)。
 
 ## 写在最后
 感谢两个插件的作者对本插件的启发。
