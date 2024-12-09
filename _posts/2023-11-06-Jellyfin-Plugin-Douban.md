@@ -2,7 +2,7 @@
 date: 2023-11-06 22:05
 head_image: e7fc8fe18df5ee4f638996a6df6e67ae.webp
 info: 自力更生。
-last_modified_at: 2024-12-02 21:42
+last_modified_at: 2024-12-09 22:36
 links: 
   - - https://github.com/Xzonn/JellyfinPluginDouban
     - JellyfinPluginDouban
@@ -54,7 +54,7 @@ title: Jellyfin 豆瓣元数据插件
 1. 增加每两次请求之间的时间间隔。默认设置为2秒。
 2. 填入Cookie。请使用浏览器打开[豆瓣电影](https://movie.douban.com/)并登录，然后按<kbd>F12</kbd>打开控制台，选择`Network`，刷新页面，选择`movie.douban.com`，在右侧的`Headers`中找到`Cookie`，复制其内容并填入设置选项中。
 
-此外，在不带Referer获取豆瓣的图片时会被限速至10KB/s左右，这可能会导致获取元数据时超时，部分剧集无法正常显示。本插件默认设置中取消了“在影视页面获取演职员照片”的勾选，这可以防止Jellyfin在获取影视元数据时大量获取演职员的图片导致超时。
+此外，在不带Referer获取豆瓣的图片时会被限速至10KB/s左右，这可能会导致获取元数据时超时，部分剧集无法正常显示。可在本插件的设置中取消“在影视页面获取演职员照片”的勾选，这可以防止Jellyfin在获取影视元数据时大量获取演职员的图片导致超时。
 
 速率限制可以通过搭建反代来回避，插件自带了一个反向代理，可在设置选项中修改“豆瓣图片服务器”使用。例如，如果服务器地址为`http://localhost:8096/`，则本插件的反代地址为`http://localhost:8096/Plugins/Douban/Image?url=`（注意最后有一个等号 `=`）。
 
