@@ -467,7 +467,7 @@ body {
   margin: 0;
   text-overflow: ellipsis;
   white-space: nowrap;
-  font-weight: bold;
+  font-weight: $headings-font-weight;
   font-size: 1.4rem;
 
   & > a {

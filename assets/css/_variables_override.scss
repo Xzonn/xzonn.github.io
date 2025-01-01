@@ -1,6 +1,6 @@
 /* 颜色 */
-$color-cold: hsl(233, 74%, 50%);
-$color-warm: hsl(53, 74%, 50%);
+$color-cold: hsl(31, 74%, 50%);
+$color-warm: hsl(211, 74%, 50%);
 
 $color-cold-light: lighten($color-cold, 25%);
 $color-cold-lighter: lighten($color-cold, 40%);
@@ -19,7 +19,7 @@ $link-decoration: none;
 
 /* 字体 */
 $font-family-sans-serif-latin: "Open Sans", "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans";
-$font-family-sans-serif-chinese: "Source Han Sans CN","Source Han Sans SC", "Source Han Sans", "Noto Sans CJK SC", "Hiragino Sans GB", "PingFang SC", "Microsoft YaHei";
+$font-family-sans-serif-chinese: "Source Han Sans CN", "Source Han Sans SC", "Source Han Sans", "Noto Sans CJK SC", "Hiragino Sans GB", "PingFang SC", "Microsoft YaHei";
 $font-family-sans-serif: append(join($font-family-sans-serif-latin, $font-family-sans-serif-chinese), sans-serif);
 
 $font-family-serif-latin: STIX-Web, "Noto Serif", "Times New Roman";
