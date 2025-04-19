@@ -1,11 +1,10 @@
 ---
 date: 2025-04-13 12:11
-head_image: 811c4686311fdfda2790213800e2c973.webp
-head_image_height: 384
-head_image_shown: false
-head_image_width: 256
+head_image: https://i0.hdslb.com/bfs/article/e43771cdd605584daae58e8dd4dbd28b16114399.jpg
+head_image_height: 1080
+head_image_width: 1920
 info: 给字库做手术。
-last_modified_at: 2025-04-13 21:50
+last_modified_at: 2025-04-19 14:45
 tags: DS 任天堂 汉化笔记
 title: 《超级碧姬公主》汉化笔记（二）：字库扩容
 ---
@@ -159,3 +158,6 @@ def draw_with_muzai_pixel(char: str) -> bytes:
 ## 接下来呢？
 
 文本和字库都解决了，接下来该处理图片了。然而，图片又是一个让人头疼的问题，且听下回分解。
+
+[《超级碧姬公主》汉化笔记（三）：图片导出]({% link _posts/2025-04-15-Super-Princess-Peach-Chinese-Localization-3.md %}) &raquo;
+{: .text-right }

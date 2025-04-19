@@ -1,11 +1,12 @@
 ---
 date: 2025-04-11 18:17
-head_image: 52156aebbac53b1827ebe855c37f47e5.webp
+head_image: https://i0.hdslb.com/bfs/article/eb13dd3baf2fe893e46f37e08af106c816114399.jpg
 head_image_height: 1080
-head_image_shown: false
 head_image_width: 1920
 info: 再次对付字库。
-last_modified_at: 2025-04-13 21:47
+last_modified_at: 2025-04-18 16:18
+logs: 
+  - 2025-04-18：更新DeSmuME内存转储文件的说明。
 tags: DS 任天堂 汉化笔记
 title: 《超级碧姬公主》汉化笔记（一）：文本和字库分析
 ---
@@ -14,7 +15,23 @@ title: 《超级碧姬公主》汉化笔记（一）：文本和字库分析
 ## 文本提取
 拆包的流程和大多数NDS游戏一样，这里就不重复说了。拆包之后照例在`/data/`文件夹下查找可能是文本的文件，但是搜了一圈也没有找到。怎么办呢？直接运行试试。
 
-打开DeSmuME模拟器，在出现文本时暂停，使用“Tools”→“View Memory”→“Dump All”可以把内存转储出来，然后用HxD打开搜索文本序列。考虑到这游戏是2005年发售的，编码方式很可能用的是Shift-JIS，所以将要找的文本序列转成Shift-JIS编码然后搜索。
+打开DeSmuME模拟器，在出现文本时暂停，使用“Tools”→“View Memory”→“Dump All”可以把内存转储出来，得到一个15.0 MiB的文件。根据[DeSmuME的源代码](http://github.com/TASEmulators/desmume/blob/6f1a63fe894e1ff02a6c3a219f022ec14150dc99/desmume/src/debug.cpp#L289)，内存数据在转储文件和NDS主机内存中的对应关系大致如下表所示：
+
+| 转储文件地址起始 | 大小     | 含义               |
+| ---------------- | -------  | ------------------ |
+| `0x000000`       | 8192 KiB | ARM9 主内存        |
+| `0x900000`       |   16 KiB | ARM9 DTCM          |
+| `0xA00000`       |   32 KiB | ARM9 ITCM          |
+| `0xB00000`       |  656 KiB | LCD                |
+| `0xC00000`       |    2 KiB | 调色板             |
+| `0xD00000`       |   64 KiB | ARM7 WRAM          |
+| `0xE00000`       |   64 KiB | ARM7 Wifi RAM ?    |
+| `0xF00000`       |   32 KiB | ARM9/ARM7共享 WRAM |
+{: .table #table-memory-dump-structure }
+
+（注：对于`0xC00000`处的数据，源代码中的注释说是OAM，但实际上转储的数据是调色板，这里给出的是实际转储出的数据）
+
+然后用HxD打开搜索文本序列。考虑到这游戏是2005年发售的，编码方式很可能用的是Shift-JIS，所以将要找的文本序列转成Shift-JIS编码然后搜索。
 
 {% include figure.html src="6663af9f5121a268b01605b0786963bd.webp" alt="游戏中最初的一处文本" width="256" height="384" %}
 
@@ -130,4 +147,7 @@ Offset(h) 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
 知道了字库的保存方式，接下来就可以动手修改了。但是有个问题：由于字库是硬编码在`arm9.bin`中的，对数据大小比较敏感，原本的字库只保存了448个字符。如果要替换为汉字，这么小的字库肯定是不够用的。那么该怎么办呢？且听[下回]({% link _posts/2025-04-13-Super-Princess-Peach-Chinese-Localization-2.md %})分解。
 
 [《超级碧姬公主》汉化笔记（二）：字库扩容]({% link _posts/2025-04-13-Super-Princess-Peach-Chinese-Localization-2.md %}) &raquo;
+{: .text-right }
+
+[《超级碧姬公主》汉化笔记（三）：图片导出]({% link _posts/2025-04-15-Super-Princess-Peach-Chinese-Localization-3.md %}) &raquo;
 {: .text-right }
