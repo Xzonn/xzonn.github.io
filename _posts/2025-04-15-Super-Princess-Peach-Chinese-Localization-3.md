@@ -1,11 +1,12 @@
 ---
 date: 2025-04-15 16:09
-head_image: caee06d21ed9bfbf21d65a7256feefb6.webp
-head_image_height: 325
-head_image_shown: false
-head_image_width: 671
+head_image: https://i0.hdslb.com/bfs/article/90e0e3edd91f826e20fed3f2e62e9f1916114399.jpg
+head_image_height: 1080
+head_image_width: 1920
 info: 寻找零散图片。
-last_modified_at: 2025-04-19 14:46
+last_modified_at: 2025-04-25 22:59
+logs: 
+  - 2025-04-25：更新nsc文件的说明。
 tags: DS 任天堂 汉化笔记
 title: 《超级碧姬公主》汉化笔记（三）：图片数据导出
 ---
@@ -15,7 +16,7 @@ title: 《超级碧姬公主》汉化笔记（三）：图片数据导出
 &laquo; [《超级碧姬公主》汉化笔记（二）：字库扩容]({% link _posts/2025-04-13-Super-Princess-Peach-Chinese-Localization-2.md %})
 {: .text-left }
 
-[上回]({% link _posts/2025-04-11-Super-Princess-Peach-Chinese-Localization.md %})书说到，游戏里的字库和文本都已经解决了。接下来要做的就是分析图片了。
+[上回]({% link _posts/2025-04-13-Super-Princess-Peach-Chinese-Localization-2.md %})书说到，游戏里的字库和文本都已经解决了。接下来要做的就是分析图片了。
 
 ## 从内存中转储出图片数据
 
@@ -210,7 +211,7 @@ assert magic == b"NCG\0"
 (encoded_size,) = struct.unpack_from("<I", tiles_data, 4)
 real_size = (encoded_size & 0xFFFF) * 0x20 * (2 ** ((encoded_size >> 16) & 1))
 
-tiles = [tiles_data[_ : _ + 64] for _ in range(8, encoded_size, 64)]
+tiles = [tiles_data[_ : _ + 64] for _ in range(8, real_size, 64)]
 
 width = 256
 height = math.ceil(len(tiles) / (width // 8)) * 8
@@ -242,12 +243,49 @@ tiles_data = bytes(half_bytes)
 
 {% include figure.html src="faec002ef7ec6d35ec5dbbff15fa6b53.png" alt="提取出来的标题Logo" width="256" height="96" %}
 
+## nsc文件与Map
+
+到这里还不算结束。标题图片只是最简单的一种情况。从上面提取出来的图上可以看出，图片右下角是缺失的。而且，ncg文件（姑且这么称它）中并没有包含图片长宽的数据。实际上，ncg文件保存的数据确切来说是Tile数据，而要想将Tile显示为图片，还需要知道Tile的排列方式。这里标题Logo的Tile恰好是规则排列的，调色板也恰好是256色，所以我不需要导出排列方式也可以修改图片。而对于一些复杂的图片而言，Tile的排列方式以及每个Tile用到的调色板是必须的，否则将很难手动修改。比如：
+
+{% include figure.html src="4231daa5fda3db58c6fdf270802d489c.webp" alt="从ncg文件提取的图片" width="256" height="192" %}
+
+而基于Tile排列方式和调色板提取出来的图片就会是正确的：
+
+{% include figure.html src="9d33fdbf7ccf395517df5b6cf9024c5f.webp" alt="从nsc文件提取的图片" width="256" height="256" %}
+
+这种保存了Tile的排列方式和调色板的数据被称为Map数据，用DeSmuME模拟器同样可以通过“Tools”→“View Maps”来查看。实际上，游戏里确实保存了Tile的排列方式和每个Tile用到的调色板，文件头是`NSC\0`，不如就称它为nsc文件吧。其格式如下：
+
+| 偏移量 | 大小         | 含义                                 |
+| ------ | ------------ | ------------------------------------ |
+| `0x00` | `0x04`       | 文件头，`NSC\0`                      |
+| `0x04` | `0x02`       | Tile数量                             |
+| `0x06` | `0x02`       | 位深，8bpp图像为0x100，4bpp图像为0x0 |
+| `0x08` | `0x01`       | 横向Tile数量                         |
+| `0x09` | `0x01`       | 纵向Tile数量                         |
+| `0x0A` | `0x02`       | 填充字节                             |
+| `0x0C` | Tile数量 × 2 | Tile排列数据                         |
+
+每个Tile的数据为2个字节，其中包含了Tile编号、调色板编号、是否X翻转、是否Y翻转的信息，解析方式如下：
+
+``` python
+(temp,) = struct.unpack_from("<H", nsc_data, 0x0C + i * 2)
+tile_index = temp & 0x3FF
+pal_index = (temp >> 12) & 0xF
+flip_x = bool((temp >> 10) & 1)
+flip_y = bool((temp >> 11) & 1)
+```
+
 ## 结束了吗？
 
-当然没有。标题图片只是最简单的一种情况。从上面提取出来的图上可以看出，图片右下角是缺失的。而且，ncg文件（姑且这么称它）中并没有包含图片长宽的数据。实际上，ncg文件保存的数据确切来说是Tile数据，而要想将Tile显示为图片，还需要知道Tile的排列方式。这里标题Logo的Tile恰好是规则排列的，调色板也恰好是256色，所以我不需要导出排列方式也可以修改图片。而对于一些复杂的图片而言，Tile的排列方式以及每个Tile用到的调色板是必须的，否则将很难手动修改。比如：
+当然没有。尽管我们已经分析了ncl、ncg、nsc三种文件格式，然而如何让这三个文件结合起来呢？说实话，我暂时还没什么头绪。这三个文件无论是偏移量、大小还是调用顺序都没什么明显的规律，还需要进一步分析。
 
-{% include figure.html src="30d1a16644286ec5ed80e0622b2bc8f0.webp" alt="在不知道排列方式和调色板的情况下导出的图片" width="256" height="56" %}
+此外，nsc通常是背景图，而对于一些小图标，还存在其他的显示方式（OAM）。例如：
+
+{% include figure.html src="30d1a16644286ec5ed80e0622b2bc8f0.webp" alt="从ncg文件提取的图片" width="256" height="56" %}
 
 {% include figure.html src="771c3fe207382e1b354e2457a6822578.webp" alt="游戏中实际的显示效果" width="256" height="384" %}
 
-从导出的图片上可以看出，这张图确实包含了“はい”“いいえ”的部分，但是颜色和排列方式都是错误的。当然，可以通过手动对比游戏中的显示效果和导出的图片进行修改，但是这样实在是太麻烦了。实际上，游戏里确实保存了Tile的排列方式和每个Tile用到的调色板，文件头是`NSC\0`，不如就称它为nsc文件吧。然而如何让ncl、ncg、nsc三个文件结合起来呢？说实话，我暂时还没什么头绪。这三个文件无论是偏移量、大小还是调用顺序都没什么明显的规律，还需要进一步分析。此外，游戏中还存在着文件头为`NCE\0`的nce文件，可能也与图片的排列有关。如果后续研究有进展的话，我会继续写文章分享。
+从导出的图片上可以看出，这张图确实包含了游戏截图中“はい”“いいえ”的部分，但是颜色和排列方式都是错误的。当然，可以通过手动对比游戏中的显示效果和导出的图片进行修改，但是这样实在是太麻烦了。通过进一步分析可以知道，游戏中还存在着文件头为`NCE\0`的nce文件，也与图片的排列有关。不过这种文件格式就更复杂了，如果后续研究有进展的话，我会继续写文章分享。
+
+[《超级碧姬公主》汉化笔记（四）：数据压缩]({% link _posts/2025-04-25-Super-Princess-Peach-Chinese-Localization-4.md %}) &raquo;
+{: .text-right }

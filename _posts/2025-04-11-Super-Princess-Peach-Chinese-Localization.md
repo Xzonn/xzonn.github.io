@@ -151,3 +151,6 @@ Offset(h) 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
 
 [《超级碧姬公主》汉化笔记（三）：图片导出]({% link _posts/2025-04-15-Super-Princess-Peach-Chinese-Localization-3.md %}) &raquo;
 {: .text-right }
+
+[《超级碧姬公主》汉化笔记（四）：数据压缩]({% link _posts/2025-04-25-Super-Princess-Peach-Chinese-Localization-4.md %}) &raquo;
+{: .text-right }

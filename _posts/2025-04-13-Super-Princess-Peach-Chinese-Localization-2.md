@@ -161,3 +161,6 @@ def draw_with_muzai_pixel(char: str) -> bytes:
 
 [《超级碧姬公主》汉化笔记（三）：图片导出]({% link _posts/2025-04-15-Super-Princess-Peach-Chinese-Localization-3.md %}) &raquo;
 {: .text-right }
+
+[《超级碧姬公主》汉化笔记（四）：数据压缩]({% link _posts/2025-04-25-Super-Princess-Peach-Chinese-Localization-4.md %}) &raquo;
+{: .text-right }
