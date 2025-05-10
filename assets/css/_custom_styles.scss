@@ -302,7 +302,9 @@ figure {
 /* 行内元素 */
 /* 链接 */
 a[target="_blank"] {
-  text-decoration: underline;
+  &:hover {
+    text-decoration: underline;
+  }
 
   &::after {
     display: inline-block;

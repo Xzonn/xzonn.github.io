@@ -11,7 +11,7 @@ body {
   font-family: #{inspect($font-family-sans-serif)};
 }
 
-a.link-secondary {
+.markdown a, a.link-secondary, button.link-secondary, #__next a.underline {
   text-decoration: none;
 
   &:hover {
