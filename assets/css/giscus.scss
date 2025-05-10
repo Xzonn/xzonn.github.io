@@ -11,6 +11,14 @@ body {
   font-family: #{inspect($font-family-sans-serif)};
 }
 
+a.link-secondary {
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
 /*! MIT License
  * Copyright (c) 2018 GitHub Inc.
  * https://github.com/primer/primitives/blob/main/LICENSE

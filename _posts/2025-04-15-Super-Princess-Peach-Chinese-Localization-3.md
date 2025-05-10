@@ -4,7 +4,7 @@ head_image: https://i0.hdslb.com/bfs/article/90e0e3edd91f826e20fed3f2e62e9f19161
 head_image_height: 1080
 head_image_width: 1920
 info: 寻找零散图片。
-last_modified_at: 2025-04-25 22:59
+last_modified_at: 2025-04-26 00:09
 logs: 
   - 2025-04-25：更新nsc文件的说明。
 tags: DS 任天堂 汉化笔记
@@ -161,6 +161,7 @@ for file_name in file_list:
 | `0x00` | `0x04`       | 文件头，`NCL\0`                 |
 | `0x04` | `0x04`       | 颜色数量                        |
 | `0x08` | 颜色数量 × 2 | 颜色数据，每2个字节代表一个颜色 |
+{: .table}
 
 其中颜色数据的格式是RGB555，即每2个字节的低5位表示红色，中间5位表示绿色，高5位表示蓝色，可以表示为`0BBB BBGG GGGR RRRR`。代码：
 
@@ -192,6 +193,7 @@ for color in struct.unpack(f"<{color_count}H", palette_data[8:]):
 | `0x00` | `0x04`           | 文件头，`NCG\0`    |
 | `0x04` | `0x04`           | 数据大小（需转换） |
 | `0x08` | 转换后的数据大小 | 图像数据           |
+{: .table}
 
 数据大小的换算方式如下（参考自`0x2002E30`处的汇编代码）：
 
@@ -264,6 +266,7 @@ tiles_data = bytes(half_bytes)
 | `0x09` | `0x01`       | 纵向Tile数量                         |
 | `0x0A` | `0x02`       | 填充字节                             |
 | `0x0C` | Tile数量 × 2 | Tile排列数据                         |
+{: .table}
 
 每个Tile的数据为2个字节，其中包含了Tile编号、调色板编号、是否X翻转、是否Y翻转的信息，解析方式如下：
 
