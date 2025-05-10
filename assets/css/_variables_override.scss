@@ -1,18 +1,89 @@
+$prefix: bs- !default;
+$white: #fff !default;
+$black: #000 !default;
+
+$xz-colors: (
+  "cold": #de8321,
+  "warm": #217cde,
+);
+$xz-colors-variants-light: (
+  "slightly-light": 10%,
+  "light": 25%,
+  "lighter": 40%,
+  "lightest": 46%,
+);
+$xz-colors-variants-dark: (
+  "slightly-dark": 10%,
+  "dark": 25%,
+  "darker": 40%,
+  "darkest": 46%,
+);
+
 /* 颜色 */
-$color-cold: hsl(31, 74%, 50%);
-$color-warm: hsl(211, 74%, 50%);
+:root,
+[data-bs-theme="light"] {
+  --#{$prefix}white-bg: #{$white};
+  --#{$prefix}white-bg-rgb: #{to-rgb($white)};
 
-$color-cold-light: lighten($color-cold, 25%);
-$color-cold-lighter: lighten($color-cold, 40%);
-$color-cold-dark: darken($color-cold, 25%);
-$color-cold-darker: darken($color-cold, 40%);
-$color-warm-light: lighten($color-warm, 25%);
-$color-warm-lighter: lighten($color-warm, 40%);
-$color-warm-lightest: lighten($color-warm, 46%);
-$color-warm-dark: darken($color-warm, 25%);
-$color-warm-darker: darken($color-warm, 40%);
+  @each $color, $value in $xz-colors {
+    --#{$prefix}color-#{$color}: #{$value};
 
-$primary: darken($color-cold, 10%);
+    @each $variant, $lightness in $xz-colors-variants-light {
+      --#{$prefix}color-#{$color}-#{$variant}: #{lighten($value, $lightness)};
+      --#{$prefix}color-#{$color}-#{$variant}-rgb: #{to-rgb(lighten($value, $lightness))};
+    }
+
+    @each $variant, $darkness in $xz-colors-variants-dark {
+      --#{$prefix}color-#{$color}-#{$variant}: #{darken($value, $darkness)};
+      --#{$prefix}color-#{$color}-#{$variant}-rgb: #{to-rgb(darken($value, $darkness))};
+    }
+  }
+}
+
+[data-bs-theme="dark"] {
+  --#{$prefix}white-bg: #{$black};
+  --#{$prefix}white-bg-rgb: #{to-rgb($black)};
+
+  @each $color, $value in $xz-colors {
+    --#{$prefix}color-#{$color}: #{$value};
+
+    @each $variant, $lightness in $xz-colors-variants-light {
+      --#{$prefix}color-#{$color}-#{$variant}: #{darken($value, $lightness)};
+      --#{$prefix}color-#{$color}-#{$variant}-rgb: #{to-rgb(darken($value, $lightness))};
+    }
+
+    @each $variant, $darkness in $xz-colors-variants-dark {
+      --#{$prefix}color-#{$color}-#{$variant}: #{lighten($value, $darkness)};
+      --#{$prefix}color-#{$color}-#{$variant}-rgb: #{to-rgb(lighten($value, $darkness))};
+    }
+  }
+}
+
+$white-bg: var(--#{$prefix}body-bg);
+
+$color-cold: var(--#{$prefix}color-cold);
+$color-warm: var(--#{$prefix}color-warm);
+
+$color-cold-slightly-light: var(--#{$prefix}color-cold-slightly-light);
+$color-cold-light: var(--#{$prefix}color-cold-light);
+$color-cold-lighter: var(--#{$prefix}color-cold-lighter);
+$color-cold-lightest: var(--#{$prefix}color-cold-lightest);
+$color-cold-slightly-dark: var(--#{$prefix}color-cold-slightly-dark);
+$color-cold-dark: var(--#{$prefix}color-cold-dark);
+$color-cold-darker: var(--#{$prefix}color-cold-darker);
+$color-cold-darkest: var(--#{$prefix}color-cold-darkest);
+
+$color-warm-light: var(--#{$prefix}color-warm-light);
+$color-warm-lighter: var(--#{$prefix}color-warm-lighter);
+$color-warm-lightest: var(--#{$prefix}color-warm-lightest);
+$color-warm-dark: var(--#{$prefix}color-warm-dark);
+$color-warm-darker: var(--#{$prefix}color-warm-darker);
+$color-warm-darkest: var(--#{$prefix}color-warm-darkest);
+
+$white-bg-rgb: var(--#{$prefix}white-bg-rgb);
+$color-warm-lightest-rgb: var(--#{$prefix}color-warm-lightest-rgb);
+
+$primary: darken(map-get($xz-colors, cold), 10%);
 
 /* 链接 */
 $link-decoration: none;
@@ -49,21 +120,18 @@ $headings-line-height: inherit;
 
 /* 导航条 */
 $navbar-light-color: $color-cold-dark;
-$navbar-light-bg: lighten($color-cold, 45%);
+$navbar-light-bg: $color-cold-lightest;
 $navbar-light-border: $color-cold;
 
 $navbar-light-link-color: $color-cold;
 $navbar-light-link-hover-color: $color-cold-dark;
-$navbar-light-link-active-color: darken($color-cold, 10%);
+$navbar-light-link-active-color: $color-cold-slightly-dark;
 $navbar-light-link-disabled-color: $color-cold-lighter;
 
 /* 导航 */
 $nav-link-hover-bg: $color-cold-light;
 
 /* 代码 */
-$code-bg: fade($color-warm-light, 40%);
-$code-color: $color-warm-dark;
-
 $kbd-bg: $color-warm-dark;
 $kbd-color: $color-warm-light;
 

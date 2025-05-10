@@ -6,8 +6,8 @@
           <article>{% capture LINE_BREAK %}
 {% endcapture %}{% capture DOUBLE_LINE_BREAK %}{{ LINE_BREAK }}{{ LINE_BREAK }}{% endcapture %}{% capture LINE_BREAK_INDENT %}
             {% endcapture %}{% assign _content = content | strip | replace: '<a href="http', '<a target="_blank" href="http' %}
-            {% assign _splited_pres = _content | split: "<pre " %}{% for _pre in _splited_pres %}{% if forloop.first %}{{ _pre | replace: DOUBLE_LINE_BREAK, LINE_BREAK | replace: LINE_BREAK, LINE_BREAK_INDENT }}{% else %}<pre {% assign _splited_part = _pre | split: "</pre>" %}{{ _splited_part[0] }}</pre>{{ _splited_part[1] | replace: DOUBLE_LINE_BREAK, LINE_BREAK | replace: LINE_BREAK, LINE_BREAK_INDENT }}{% endif %}{% endfor %}
-          </article>{% if page.references or page.links or page.logs %}
+            {% assign _splited_pres = _content | split: "<pre " %}{% for _pre in _splited_pres %}{% if forloop.first %}{{ _pre | replace: DOUBLE_LINE_BREAK, LINE_BREAK | replace: LINE_BREAK, LINE_BREAK_INDENT }}{% else %}<pre {% assign _splited_part = _pre | split: "</pre>" %}{{ _splited_part[0] | replace: LINE_BREAK, '</li><li>' | replace: '<code>', '<code><ul><li>' | replace: '</code>', '</li></ul></code>' | replace: '<li></li></ul>', '</ul>' }}</pre>{{ _splited_part[1] | replace: DOUBLE_LINE_BREAK, LINE_BREAK | replace: LINE_BREAK, LINE_BREAK_INDENT }}{% endif %}{% endfor %}
+          </article>{% if page.references or page.links or page.logs %}{% capture infobox %}
           <div class="xz-infobox-bottom">{%if page.references %}
             <div class="xz-info-references">
               <div class="xz-info-references-head">{% t content-references %}</div>
@@ -27,7 +27,7 @@
                 <li>{{ log }}</li>{% endfor %}
               </ul>
             </div>{% endif %}
-          </div>{% endif %}{% unless jekyll.environment == "development" or page.no_comment %}
+          </div>{% endcapture %}{{ infobox | replace: '<a href="http', '<a target="_blank" href="http' }}{% endif %}{% unless jekyll.environment == "development" or page.no_comment %}
           <div class="xz-content-comment d-print-none">
             <div class="alert alert-info text-center">{% t content-comment-info %}</div>
             <script src="https://giscus.xzonn.top/client.js" data-repo="Xzonn/xzonn.github.io" data-repo-id="MDEwOlJlcG9zaXRvcnkxOTA2ODQ0MzU=" data-category="General" data-category-id="DIC_kwDOC12dE84CaEKw" data-mapping="specific" data-term="{{ page.title_zh | default: page.title | default: site.name }}" data-strict="1" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="preferred_color_scheme" data-lang="{{ site.data.languages.alias[page.lang] }}" data-loading="lazy" crossorigin="anonymous" async></script>

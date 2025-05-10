@@ -28,29 +28,6 @@ window.addEventListener("load", () => {
     });
   })();
 
-  /* 代码高亮 */
-  (() => {
-    $(".xz-content pre code").each((i, code) => {
-      let inner = $(code)
-        .html()
-        .replace(/^\s+/, "")
-        .replace(/\s+$/, "")
-        .replace(/<span class="w">\n+<\/span>$/, "")
-        .replace(/\n/g, "</li><li>");
-      while (inner.search(/(<span class="[^"]+">)([^<>]+)(<\/li><li>)/) > -1) {
-        inner = inner.replace(/(<span class="[^"]+">)([^<>]+)(<\/li><li>)/, "$1$2</span>$3$1");
-      }
-      $(code)
-        .html(`<ul><li>${inner}</li></ul>`)
-        .find("li:last-child")
-        .each(() => {
-          if (!code.innerHTML) {
-            $(code).remove();
-          }
-        });
-    });
-  })();
-
   /* 表注 */
   (() => {
     $("table").each((i, table) => {
@@ -218,8 +195,7 @@ window.addEventListener("load", () => {
           .attr({
             src: `https://youtube.com/embed/${video_id}?autoplay=1&controls=1&${video_args}`,
             allowfullscreen: "allowfullscreen",
-            allow:
-              "accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share",
+            allow: "accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share",
           })
           .appendTo($(".xz-modal-content").empty());
       }
