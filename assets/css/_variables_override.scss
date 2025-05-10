@@ -19,46 +19,6 @@ $xz-colors-variants-dark: (
   "darkest": 46%,
 );
 
-/* 颜色 */
-:root,
-[data-bs-theme="light"] {
-  --#{$prefix}white-bg: #{$white};
-  --#{$prefix}white-bg-rgb: #{to-rgb($white)};
-
-  @each $color, $value in $xz-colors {
-    --#{$prefix}color-#{$color}: #{$value};
-
-    @each $variant, $lightness in $xz-colors-variants-light {
-      --#{$prefix}color-#{$color}-#{$variant}: #{lighten($value, $lightness)};
-      --#{$prefix}color-#{$color}-#{$variant}-rgb: #{to-rgb(lighten($value, $lightness))};
-    }
-
-    @each $variant, $darkness in $xz-colors-variants-dark {
-      --#{$prefix}color-#{$color}-#{$variant}: #{darken($value, $darkness)};
-      --#{$prefix}color-#{$color}-#{$variant}-rgb: #{to-rgb(darken($value, $darkness))};
-    }
-  }
-}
-
-[data-bs-theme="dark"] {
-  --#{$prefix}white-bg: #{$black};
-  --#{$prefix}white-bg-rgb: #{to-rgb($black)};
-
-  @each $color, $value in $xz-colors {
-    --#{$prefix}color-#{$color}: #{$value};
-
-    @each $variant, $lightness in $xz-colors-variants-light {
-      --#{$prefix}color-#{$color}-#{$variant}: #{darken($value, $lightness)};
-      --#{$prefix}color-#{$color}-#{$variant}-rgb: #{to-rgb(darken($value, $lightness))};
-    }
-
-    @each $variant, $darkness in $xz-colors-variants-dark {
-      --#{$prefix}color-#{$color}-#{$variant}: #{lighten($value, $darkness)};
-      --#{$prefix}color-#{$color}-#{$variant}-rgb: #{to-rgb(lighten($value, $darkness))};
-    }
-  }
-}
-
 $white-bg: var(--#{$prefix}body-bg);
 
 $color-cold: var(--#{$prefix}color-cold);
