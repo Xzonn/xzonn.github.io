@@ -376,7 +376,7 @@ article {
 .badge {
   color: $white-bg;
   @include gradient-bg(var(--#{$prefix}primary));
-  
+
   a {
     color: $white-bg;
   }
@@ -387,7 +387,7 @@ article {
     color: var(--#{$prefix}nav-pills-link-active-color);
     @include gradient-bg(var(--#{$prefix}secondary));
   }
-  
+
   &.active > .badge {
     color: var(--#{$prefix}nav-pills-link-active-bg);
     @include gradient-bg(var(--#{$prefix}nav-pills-link-active-color));
@@ -565,7 +565,7 @@ ol.square {
   height: auto;
   aspect-ratio: 16/9;
 }
-  
+
 .youtube-video-iframe, .bilibili-video-iframe {
   display: block;
   margin: 0 auto;
@@ -765,7 +765,7 @@ $jumbotron-padding: 2rem;
       font-size: 0.9em;
       transition: all 0.5s ease-out;
     }
-    
+
     & > a {
       color: $color-warm-dark;
 
@@ -773,7 +773,7 @@ $jumbotron-padding: 2rem;
         color: $color-warm-darker;
         background-color: $color-warm-lighter;
       }
-      
+
       &.active {
         color: $color-warm-darker;
         font-weight: 700;
@@ -1080,13 +1080,21 @@ body {
   .pagination {
     justify-content: center;
   }
-} 
+}
 
-.page-block-list > div {
-  position: relative;
+.post-block-list {
+  margin: 1rem 0;
+}
+
+.post-block {
+  display: grid;
+  grid-template-columns: 16rem 1fr;
+  grid-template-rows: fit-content(100%) 1fr;
+  grid-template-areas:
+    "image header"
+    "image summary";
   padding: 1.5rem 0;
-  max-height: 13.6rem;
-  border-bottom: 2px dashed $color-cold-dark;
+  gap: 0 1rem;
 
   &::after {
     clear: both;
@@ -1099,47 +1107,53 @@ body {
   }
 }
 
-.post-title {
-  display: block;
+.post-block-header {
+  grid-area: header;
+}
+
+.post-block-image {
+  grid-area: image;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   overflow: hidden;
-  margin: 0;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+}
+
+.post-block-summary {
+  grid-area: summary;
+}
+
+.post-title {
   font-weight: $headings-font-weight;
   font-size: 1.4rem;
 
   & > a {
     color: $color-cold-darker;
   }
-
-  .post-block-with-image & {
-    margin-right: 17.2rem;
-  }
 }
 
 .post-image {
-  float: right;
   display: block;
-  margin: -5.2rem 0 0 1rem;
-  width: 16.2rem;
-  height: 10.8rem;
+  width: 16rem;
+  height: 9rem;
   object-fit: cover;
+  transition: transform 0.2s ease-out;
+
+  &:hover {
+    transform: scale(1.2);
+  }
 }
 
 .post-summary {
-  overflow-y: hidden;
   margin: 0;
-  padding: 0 0.5rem;
-  max-height: 5.2rem;
+  padding-left: 2rem;
   color: $color-warm-dark;
-  text-overflow: ellipsis;
-  font-style: italic;
 }
 
 .post-time, .post-tags {
   display: block;
   margin-bottom: 0;
-  padding-left: 2em;
+  padding-left: 2rem;
   list-style: none;
   font-size: 0.8em;
 }
@@ -1190,17 +1204,13 @@ body {
 }
 
 @media screen and (max-width: 767px) {
-  .page-block-list > div {
-    max-height: max-content;
-  }
-
-  .post-block-with-image .post-title {
-    margin-right: 0;
-  }
-
-  .post-image {
-    float: none;
-    margin: 0 auto;
+  .post-block {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+    grid-template-areas:
+      "header"
+      "image"
+      "summary";
   }
 }
 

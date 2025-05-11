@@ -15,7 +15,13 @@ title: 欢迎来到 Xzonn 的小站！
 </div>
 <a href="javascript:void()" class="page-list-refresh">清除缓存</a>
 <h2 class="page-block-heading">文章一览</h2>
-<div class="page-block-list"></div>
+<div class="btn-group">
+  <input type="radio" class="btn-check" name="post-block-radio" id="post-block-radio-update" autocomplete="off" value="update" checked />
+  <label class="btn btn-outline-primary" for="post-block-radio-update">按更新时间排序</label>
+  <input type="radio" class="btn-check" name="post-block-radio" id="post-block-radio-create" autocomplete="off" value="create" />
+  <label class="btn btn-outline-primary" for="post-block-radio-create">按创建时间排序</label>
+</div>
+<div class="post-block-list"></div>
 <div class="page-count text-center">本站共有 <span class="post-total"></span> 篇文章，共 <span class="page-total"></span> 页。</div>
 <div class="row justify-content-sm-center">
   <div class="xz-pagination-list col-sm-7">

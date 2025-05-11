@@ -2,8 +2,8 @@
 /* global $ */
 
 window.addEventListener("load", () => {
-  let getURLParameters = (rawSearch = location.search) => {
-    let search = new Map(
+  const getURLParameters = (rawSearch = location.search) => {
+    const search = new Map(
         rawSearch
           .slice(1)
           .split("&")
@@ -17,8 +17,8 @@ window.addEventListener("load", () => {
     return searchObject;
   };
 
-  let renderPagination = (pageNumber, maxPageNumber, clickEvent) => {
-    let paginationList = $("<ul/>").addClass("pagination"),
+  const renderPagination = (pageNumber, maxPageNumber, clickEvent) => {
+    const paginationList = $("<ul/>").addClass("pagination"),
       addPage = (page, text, addClass) => {
         $("<a/>")
           .addClass("page-link")
@@ -40,7 +40,7 @@ window.addEventListener("load", () => {
     return paginationList;
   };
 
-  let refresh = (page) => {
+  const refresh = (page) => {
     $.get({
       url: "/pages.json?d=" + +new Date(),
       timeout: 5000,
@@ -56,38 +56,49 @@ window.addEventListener("load", () => {
     });
   };
 
-  let renderPages = (data, page) => {
-    let pageCount = window.xzLocalStorage["page-count"] || 10,
+  const renderPages = (data, page) => {
+    const pageCount = window.xzLocalStorage["page-count"] || 10,
       pageNumber = +(page || getURLParameters().page || 1),
       isWeChat = /MicroMessenger/.test(navigator.userAgent),
-      i;
-    let maxPageNumber = Math.ceil(data.length / pageCount);
-    data = data.sort((a, b) => {
-      if (a["update"] < b["update"]) {
-        return 1;
-      } else if (a["update"] > b["update"]) {
-        return -1;
-      } else if (a["date"] < b["date"]) {
-        return 1;
-      } else if (a["date"] > b["date"]) {
-        return -1;
+      maxPageNumber = Math.ceil(data.length / pageCount),
+      sortBy = $(`input[name="post-block-radio"]:checked`).val();
+    data.sort((a, b) => {
+      if (sortBy == "update") {
+        if (a["update"] < b["update"]) {
+          return 1;
+        } else if (a["update"] > b["update"]) {
+          return -1;
+        } else if (a["date"] < b["date"]) {
+          return 1;
+        } else if (a["date"] > b["date"]) {
+          return -1;
+        }
+      } else if (sortBy == "create") {
+        if (a["date"] < b["date"]) {
+          return 1;
+        } else if (a["date"] > b["date"]) {
+          return -1;
+        } else if (a["update"] < b["update"]) {
+          return 1;
+        } else if (a["update"] > b["update"]) {
+          return -1;
+        }
       }
       return 0;
     });
     if (isNaN(pageNumber) || pageNumber < 1) pageNumber = 1;
     if (pageNumber > maxPageNumber) pageNumber = maxPageNumber;
-    $(".page-block-list").empty();
-    for (i = (pageNumber - 1) * pageCount; i < Math.min(pageNumber * pageCount, data.length); i++) {
-      let post = data[i],
+    $(".post-block-list").empty();
+    for (let i = (pageNumber - 1) * pageCount; i < Math.min(pageNumber * pageCount, data.length); i++) {
+      const post = data[i],
+        post_link = isWeChat && post.wechat_link ? post.wechat_link : post.link,
         title = $("<h3/>")
           .addClass("post-title")
           .append(
-            $("<a/>")
-              .text(post.title)
-              .attr({
-                href: isWeChat && post.wechat_link ? post.wechat_link : post.link,
-                title: post.title,
-              })
+            $("<a/>").text(post.title).attr({
+              href: post_link,
+              title: post.title,
+            })
           ),
         date = $("<ul/>")
           .addClass("post-time")
@@ -111,23 +122,38 @@ window.addEventListener("load", () => {
               )
           : null,
         image = post.head_image
-          ? $("<img/>")
-              .addClass("post-image")
-              .attr("src", ((post.head_image || "").indexOf("/") == -1 ? window.imageCdn + "/" : "") + post.head_image)
+          ? $("<a/>")
+              .addClass("post-image-link")
+              .attr({
+                href: post_link,
+                title: post.title,
+              })
+              .append(
+                $("<img/>")
+                  .addClass("post-image")
+                  .attr(
+                    "src",
+                    ((post.head_image || "").indexOf("/") == -1 ? window.imageCdn + "/" : "") + post.head_image
+                  )
+              )
           : null,
         info = $("<p/>").addClass("post-summary").html(post.info);
       $("<div/>")
         .addClass(["post-block", post.head_image ? "post-block-with-image" : null])
-        .append([title, date, tag, post.head_image ? image : null, info])
-        .appendTo($(".page-block-list"));
+        .append([
+          $("<div/>").addClass("post-block-header").append([title, date, tag]),
+          post.head_image ? $("<div/>").addClass("post-block-image").append([image]) : null,
+          $("<div/>").addClass("post-block-summary").append([info]),
+        ])
+        .appendTo($(".post-block-list"));
     }
     $(".page-list-title").text("页面列表 - 第" + pageNumber + "页");
     $(".post-total").text(data.length);
     $(".page-total").text(maxPageNumber);
     $(".xz-pagination-input").val(pageNumber);
-    let paginationList = renderPagination(pageNumber, maxPageNumber, (e) => {
+    const paginationList = renderPagination(pageNumber, maxPageNumber, (e) => {
       e.preventDefault();
-      let pageNumber = +$(e.target).data("page");
+      const pageNumber = +$(e.target).data("page");
       if (!isNaN(pageNumber)) {
         window.changePage(pageNumber);
       }
@@ -150,12 +176,12 @@ window.addEventListener("load", () => {
     }
   };
 
-  window.changePage = (page) => {
-    let hasedPostList = JSON.parse(localStorage.getItem("xz-post-list"));
-    if (!hasedPostList || new Date() - hasedPostList["update"] > 30 * 60 * 1000) {
+  window.changePage = (page = 0) => {
+    let hashedPostList = JSON.parse(localStorage.getItem("xz-post-list"));
+    if (!hashedPostList || new Date() - hashedPostList["update"] > 30 * 60 * 1000) {
       refresh(page);
     } else {
-      renderPages(hasedPostList["list"], page);
+      renderPages(hashedPostList["list"], page);
     }
   };
 
@@ -165,6 +191,9 @@ window.addEventListener("load", () => {
     if (!isNaN(pageNumber)) {
       window.changePage(pageNumber);
     }
+  });
+  $(`input[name="post-block-radio"]`).on("change", (e) => {
+    window.changePage();
   });
   window.changePage();
 
