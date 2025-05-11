@@ -5,7 +5,7 @@
 {% include figure.html blank="          " src=page.head_image alt=page.title width=page.head_image_width height=page.head_image_height no_link=true %}{% endif %}
           <article>{% capture LINE_BREAK %}
 {% endcapture %}{% capture DOUBLE_LINE_BREAK %}{{ LINE_BREAK }}{{ LINE_BREAK }}{% endcapture %}{% capture LINE_BREAK_INDENT %}
-            {% endcapture %}{% assign _content = content | strip | replace: '<a href="http', '<a target="_blank" href="http' %}
+            {% endcapture %}{% assign _content = content | strip | replace: '<a href="http', '<a target="_blank" href="http' | replace: '<table>', '<table class="table">' %}
             {% assign _splited_pres = _content | split: "<pre " %}{% for _pre in _splited_pres %}{% if forloop.first %}{{ _pre | replace: DOUBLE_LINE_BREAK, LINE_BREAK | replace: LINE_BREAK, LINE_BREAK_INDENT }}{% else %}<pre {% assign _splited_part = _pre | split: "</pre>" %}{{ _splited_part[0] | replace: LINE_BREAK, '</li><li>' | replace: '<code>', '<code><ul><li>' | replace: '</code>', '</li></ul></code>' | replace: '<li></li></ul>', '</ul>' }}</pre>{{ _splited_part[1] | replace: DOUBLE_LINE_BREAK, LINE_BREAK | replace: LINE_BREAK, LINE_BREAK_INDENT }}{% endif %}{% endfor %}
           </article>{% if page.references or page.links or page.logs %}{% capture infobox %}
           <div class="xz-infobox-bottom">{%if page.references %}

@@ -3,10 +3,11 @@
     <meta name="author" content="Xzonn"/>
     <meta name="description" content="{{ page.title }} - {%t from-site-name %}"/>
     <meta name="generator" content="jekyll 4.3"/>
-    <meta name="keywords" content="Xzonn{% if page.tags %},{{ page.tags | join: "," }}{% endif %}"/>
+    <meta name="keywords" content="Xzonn{% if page.tags and page.tags[0] %},{{ page.tags | join: "," }}{% endif %}"/>
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
     <meta name="referrer" content="same-origin"/>
-    {% feed_meta %}
+    {% feed_meta %}{% if page.i18n %}{% capture _i18n_url %}{% if page.lang == "zh-cn" %}{{ page.i18n_en | default: page.url | replace: "/posts/", "/posts/en/" }}{% else %}{{ page.i18n_zh | default: page.url | replace: "/posts/en/", "/posts/" }}{% endif %}{% endcapture %}
+    <link rel="alternate" hreflang="{% if page.lang == "zh-cn" %}en{% else %}zh-CN{% endif %}" href="{{ _i18n_url }}"/>{% endif %}
     <link rel="apple-touch-icon" href="{{ site.static_cdn }}/assets/images/icon_180x180.png"/>
     <link rel="fluid-icon" href="{{ site.static_cdn }}/assets/images/icon_180x180.png"/>
     <link rel="icon" sizes="32x32" href="{{ site.static_cdn }}/assets/images/icon_32x32.svg"/>
@@ -59,17 +60,27 @@
     <style id="xz-local-storage-style"></style>
     <script>
       window.scriptDomain = {{ site.url | jsonify }};
-      window.imageCdn = {{ site.image_cdn | jsonify }};
-      window.xzLocalStorage = JSON.parse(window.localStorage.getItem("xzLocalStorage") || "{}") || {};
-      (function () {
-        let style = document.getElementById("xz-local-storage-style"),
-          sheet = style.sheet;
+      window.xzLocalStorage = {
+        data: JSON.parse(window.localStorage.getItem("xz-local-storage") || "{}") || {},
+        get: function (key, default_value) {
+          return key in this.data ? this.data[key] : default_value;
+        },
+        set: function (key, value) {
+          this.data[key] = value;
+          window.localStorage.setItem("xz-local-storage", JSON.stringify(this.data));
+        },
+      };
+      (() => {
+        const styleTag = document.getElementById("xz-local-storage-style"),
+          styleRule = xzLocalStorage.get("custom-style", "");
+        styleTag && styleRule && styleTag.sheet.insertRule(styleRule);
       })();
 
-      const updateTheme = (() => {
-        document.querySelector("html")
+      const updateTheme = () => {
+        document
+          .querySelector("html")
           .setAttribute("data-bs-theme", window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
-      });
+      };
 
       window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", updateTheme);
       updateTheme();

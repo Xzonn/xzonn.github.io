@@ -4,14 +4,14 @@ head_image: a0dcbda7806913ed7a5298a44ccd3abd.webp
 head_image_height: 324.5
 head_image_width: 469
 info: 打个补丁。
-last_modified_at: 2024-11-05 12:17
+last_modified_at: 2025-05-11 23:36
 links: 
 - - https://github.com/Xzonn/NitroPatcher
   - 项目地址
 tags: DS 作品发布
 title: NitroPatcher：NDS ROM 补丁工具
 ---
-**NitroPatcher**是一个基于[NitroHelper](https://github.com/Xzonn/NitroHelper)的NDS ROM补丁工具。
+[**NitroPatcher**](https://github.com/Xzonn/NitroPatcher)是一个基于[NitroHelper](https://github.com/Xzonn/NitroHelper)的NDS ROM补丁工具。
 
 其实质是通过替换NDS ROM所包含的文件来实现汉化、修改等功能。本工具支持[Xdelta](https://en.wikipedia.org/wiki/Xdelta)补丁。
 
@@ -78,4 +78,4 @@ ndstool -x example.nds -9 "arm9.bin" -7 "arm7.bin" -y9 "overarm9.bin" -y7 "overa
 
 此功能对于ROM中包含较大文件（例如开发商自定义的打包格式）的情况非常有用。
 
-[这里提供了一个批量计算脚本](https://github.com/Xzonn/EO3ChsLocalization/blob/8517972a855d1243886d59dcad3596eae832c424/scripts/create_xdelta.py)。
+[这里提供了一个批量计算脚本](https://github.com/Qi-Busiyi-Hanhuazu/EO3ChsLocalization/blob/c7643f75b9a8c39954a6170fb3846a98c3914b81/scripts/create_xdelta.py)。

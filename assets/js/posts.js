@@ -1,5 +1,5 @@
 "use strict";
-/* global $ */
+/* global $, xzLocalStorage */
 
 window.addEventListener("load", () => {
   const getURLParameters = (rawSearch = location.search) => {
@@ -57,7 +57,7 @@ window.addEventListener("load", () => {
   };
 
   const renderPages = (data, page) => {
-    const pageCount = window.xzLocalStorage["page-count"] || 10,
+    const pageCount = xzLocalStorage.get("page-count", 10),
       pageNumber = +(page || getURLParameters().page || 1),
       isWeChat = /MicroMessenger/.test(navigator.userAgent),
       maxPageNumber = Math.ceil(data.length / pageCount),
@@ -128,14 +128,7 @@ window.addEventListener("load", () => {
                 href: post_link,
                 title: post.title,
               })
-              .append(
-                $("<img/>")
-                  .addClass("post-image")
-                  .attr(
-                    "src",
-                    ((post.head_image || "").indexOf("/") == -1 ? window.imageCdn + "/" : "") + post.head_image
-                  )
-              )
+              .append($("<img/>").addClass("post-image").attr("src", post.head_image))
           : null,
         info = $("<p/>").addClass("post-summary").html(post.info);
       $("<div/>")
@@ -185,15 +178,19 @@ window.addEventListener("load", () => {
     }
   };
 
+  const postBlockRadio = xzLocalStorage.get("post-block-radio", "update");
+  $(`input[name="post-block-radio"]`).each((i, x) => {
+    x.checked = x.value == postBlockRadio;
+  }).on("change", (e) => {
+    xzLocalStorage.set("post-block-radio", e.target.value);
+    window.changePage();
+  });
   $(".xz-pagination-form").on("submit", (e) => {
     e.preventDefault();
     let pageNumber = +$(".xz-pagination-input").val();
     if (!isNaN(pageNumber)) {
       window.changePage(pageNumber);
     }
-  });
-  $(`input[name="post-block-radio"]`).on("change", (e) => {
-    window.changePage();
   });
   window.changePage();
 

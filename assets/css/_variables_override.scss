@@ -43,7 +43,7 @@ $color-warm-darkest: var(--#{$prefix}color-warm-darkest);
 $white-bg-rgb: var(--#{$prefix}white-bg-rgb);
 $color-warm-lightest-rgb: var(--#{$prefix}color-warm-lightest-rgb);
 
-$primary: darken(map-get($xz-colors, cold), 10%);
+$primary: darken(map-get($xz-colors, cold), 12%);
 
 /* 链接 */
 $link-decoration: none;

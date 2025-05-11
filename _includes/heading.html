@@ -1,6 +1,6 @@
     <!-- Common Heading Start -->
     <div class="xz-heading jumbotron">{% if page.head_image %}
-      <div class="xz-heading-image" style="background-image: url({% capture _src %}{% assign _splited_src = page.head_image | split: "/" %}{% if _splited_src.size == 1 %}{{ site.image_cdn }}/{% endif %}{{ page.head_image }}{% endcapture %}{{ _src }});"></div>{% endif %}
+      <div class="xz-heading-image" style="background-image: url({{ page.head_image | image_cdn }});"></div>{% endif %}
       <div class="container">
         <div class="xz-heading-text">{% if page.date %}{% unless page.no_date %}
           <div class="xz-meta-create-top">{{ page.date | date: "%Y.%-m.%-d" }}</div>{% endunless %}{% endif %}{% if page.title %}
