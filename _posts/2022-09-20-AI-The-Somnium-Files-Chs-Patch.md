@@ -4,7 +4,7 @@ head_image: 7f31da13411839c5f7df658251896583.webp
 head_image_height: 1080
 head_image_width: 1920
 info: 用简体中文的字形游玩官方繁体中文的游戏。
-last_modified_at: 2025-05-26 22:48
+last_modified_at: 2025-05-26 23:00
 links: 
   - - https://github.com/Xzonn/AITSFChsPatch
     - GitHub上的项目
@@ -13,7 +13,7 @@ links:
 logs: 
   - 2022-10-24：更新自动化实现的简单说明。
 tags: Windows 作品发布 技术指南
-title: 《AI：梦境档案》简体中文字体替换补丁
+title: 《AI：梦境档案》简体中文补丁
 ---
 <div class="alert alert-success" markdown="1" style="text-align: center; font-size: 150%;">
 **[百度网盘链接](https://pan.baidu.com/s/1eRwH9p6eIArFemHcDQ90CQ?pwd=aisf)**
