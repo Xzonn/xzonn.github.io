@@ -1,11 +1,13 @@
 ---
 date: 2022-09-20 14:01
-head_image: https://s2.loli.net/2022/09/27/4k8qK3Iyl7XETAN.jpg
-head_image_height: 1695
-head_image_width: 1924
+head_image: 7f31da13411839c5f7df658251896583.webp
+head_image_height: 1080
+head_image_width: 1920
 info: 用简体中文的字形游玩官方繁体中文的游戏。
-last_modified_at: 2025-05-15 13:05
+last_modified_at: 2025-05-26 22:48
 links: 
+  - - https://github.com/Xzonn/AITSFChsPatch
+    - GitHub上的项目
   - - https://keylol.com/t839952-1-1
     - 其乐论坛发布链接
 logs: 
@@ -13,22 +15,23 @@ logs:
 tags: Windows 作品发布 技术指南
 title: 《AI：梦境档案》简体中文字体替换补丁
 ---
-<div markdown="1" style="text-align: center; font-size: 150%;">
-**[百度网盘链接](https://pan.baidu.com/s/1eRwH9p6eIArFemHcDQ90CQ)（提取码：aisf）**
+<div class="alert alert-success" markdown="1" style="text-align: center; font-size: 150%;">
+**[百度网盘链接](https://pan.baidu.com/s/1eRwH9p6eIArFemHcDQ90CQ?pwd=aisf)**
 </div>
 
 ## 前言
 《AI：梦境档案》有官方繁体中文而没有官方简体中文，虽然也能看懂，但有时候也会有些字不认识，因此想到可以通过替换游戏内字体文件的方式来实现“伪·简体中文”：也就是把繁体中文的字形换成简体中文的字形，而对应的码位不变，即“繁体源码、简体显示”。
 
-由于技术和精力有限，仍有部分图片形式的繁体中文字符没有替换，基本不影响剧情理解。同时，由于仅仅是替换了字体而没有替换文本，简体中文与繁体中文用语存在差异的内容会被保留。
-
-**使用方法**：打开补丁工具，选择游戏所在的文件夹，然后选择“应用补丁”。
+自4.0版本起，大部分图片形式的繁体中文也被替换为简体中文。由于技术和精力有限，操作说明及结尾动画中的繁体中文未被替换为简体中文。
 
 **禁止商用。转载请保留作者名（Xzonn）、本页链接及以上说明。**
 
 {% include video.html bvid="BV1At4y1P7B7" %}
 
 ## 更新日志
+- 4.0（2025-05-26）：
+  - 支持图片形式的文本替换。
+  - 基于繁化姬更新了部分用词。
 - 3.1（2025-05-15）：
   - 更新了部分用词。
 - 3.0（2022-10-05）：
@@ -47,7 +50,7 @@ title: 《AI：梦境档案》简体中文字体替换补丁
 
 分析Assets文件结构发现，每个字体都包含了3个文件，即1个MonoBehaviour（单一行为，此处可理解为字体的定义文件）、1个Material（材料）、1个Texture2D（2D材质）。测试后发现Material无需修改，只需导出MonoBehaviour和Texture2D即可。使用UABE自带的Export Dump功能可导出为json文件。
 
-{% include figure.html src="fe1c1d7002029868e1eece11abd86dc8.png" alt="使用UABE打开fonts文件" width="676" height="422.5" %}
+{% include figure.html src="8625b12db5c50aaf00cf90deef54efcc.webp" alt="使用UABE打开fonts文件" width="676" height="422.5" %}
 
 首先分析MonoBehaviour。筛选了前文得到的MonoBehaviour，去除掉日文字体和不包含中文文字的文件，得到29项：
 
@@ -224,7 +227,7 @@ private string[] FontResolutionLabels = { "8", "16", "32", "64", "128", "256", "
 private int[] FontAtlasResolutions = { 8, 16, 32, 64, 128, 256, 512, 768, 1024, 2048, 3072, 4096, 8192 };
 ```
 
-{% include figure.html src="f982792793631a520b66874951a930c6.png" alt="使用TextMesh Pro生成新的Asset" width="550" height="407" %}
+{% include figure.html src="16e7a86e98c51f9389c1c27b4f6970ce.webp" alt="使用TextMesh Pro生成新的Asset" width="550" height="407" %}
 
 保存生成后的Asset，这个文件可以直接以文本文件形式打开，为yaml格式，其中也包含了`m_fontInfo`等信息：
 
@@ -307,4 +310,4 @@ DFYuanW5-GB
 
 此外，参考了其乐论坛 [@weiyun](https://keylol.com/suid-213219) 大佬的帖子（<https://keylol.com/t810311-1-1>），游戏中的文本也可以进行解析。由于繁体中文和简体中文的用语有许多差别（例如“網路”→“网络”），因此有必要替换此类文本。文本替换同样需要数据文件的解析，步骤同上。
 
-自动化生成补丁的源代码已公布在GitHub上，请参考：<https://github.com/Xzonn/AITSFChsPatchCreate>。
+自动化生成补丁的源代码已公布在GitHub上，请参考：<https://github.com/Xzonn/AITSFChsPatch>。
