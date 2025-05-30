@@ -36,21 +36,31 @@ h3 {
 }
 
 .border-blue {
+  @extend .border-left;
   border-color: #009beb;
+  color: #009beb;
 }
 
 .border-green {
+  @extend .border-left;
   border-color: #009682;
+  color: #009682;
 }
 
 .border-orange {
+  @extend .border-left;
   border-color: #f5aa00;
+  color: #f5aa00;
 }
 
 .border-purple {
+  @extend .border-left;
   border-color: #6f42c1;
+  color: #6f42c1;
 }
 
 .border-red {
+  @extend .border-left;
   border-color: #e60012;
+  color: #e60012;
 }
