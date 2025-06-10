@@ -4,7 +4,7 @@ head_image: 04ec27f2e9a8f10d63e8a24434befcb2.jpg
 head_image_height: 800
 head_image_width: 1200
 info: 记录一下心路历程以及踩的坑。
-last_modified_at: 2024-03-09 11:11
+last_modified_at: 2025-06-10 20:06
 tags: Windows 杂记
 title: 我的第一台组装主机
 ---
@@ -109,3 +109,11 @@ title: 我的第一台组装主机
 用AIDA64监测了一下温度，CPU在满载的时候温度在70度左右，显卡在满载的时候温度在90度左右，都还可以接受。CPU最大功率大概80W，显卡最大功率大概260W。
 
 虽说3060Ti评测基本都说这是张2K卡，但是我也不怎么喜欢那种吃配置的3A大作，日系游戏在4K分辨率下也不是驾驭不了。我用最近玩的游戏测了一下帧率，《女神异闻录5 皇家版》4K最高画质能跑满60FPS，《莱莎的炼金工房3》4K中等画质能跑在58FPS左右，也还不错了。
+
+## 升级
+
+**2025-06-10更新**：两年过去了，最近有了点额外收入，把3060Ti G6X升级成了5070，CPU之前就已经从13400升级到了14600K。跑分看着还行。
+
+{% include figure.html src="https://i0.hdslb.com/bfs/new_dyn/1816c7e3f2d003eb51f84d3db0a9411816114399.jpg" alt="5070的包装" width="359.5" height="270" %}
+
+{% include figure.html src="b9a93c2d46be1d9c78eff4268b1b4909.webp" alt="5070的3DMark跑分结果" width="640" height="360" %}

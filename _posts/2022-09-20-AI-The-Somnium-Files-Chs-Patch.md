@@ -12,7 +12,7 @@ links:
     - 其乐论坛发布链接
 logs: 
   - 2022-10-24：更新自动化实现的简单说明。
-tags: Windows 作品发布 技术指南
+tags: AI：梦境档案 Windows 作品发布 技术指南
 title: 《AI：梦境档案》简体中文补丁
 ---
 <div class="alert alert-success" markdown="1" style="text-align: center; font-size: 150%;">
