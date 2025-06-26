@@ -1,9 +1,13 @@
 ---
 date: 2025-06-15 16:35
+head_image: 07aac3d3337c80177e8bd3c745a99d83.webp
 info: 根据访问日志实时封禁IP。
-last_modified_at: 2025-06-15 16:56
+last_modified_at: 2025-06-27 00:06
+tags: 技术指南 网站日志
 title: 用于阿里云CDN的fail2ban配置文件
 ---
+（封面图由ChatGPT生成）
+
 最近我发现[《朱／紫》数据库](https://sv.xzonn.top/)被爬虫给爬了，我连忙封禁了访问者的IP。然而每次在被爬虫爬完之后我才发现，似乎有些为时过晚。如何做到根据访问情况实时封禁IP呢？通过查阅资料得知，可以使用[fail2ban](https://github.com/fail2ban/fail2ban)实时分析日志并通过iptables封禁IP。
 
 然而，我的服务器使用了阿里云CN，访问者的真实IP地址并不会直接访问服务器，因此在服务器上使用iptables进行IP封禁没有意义。因此，需要结合阿里云CDN的API来进行IP封禁。

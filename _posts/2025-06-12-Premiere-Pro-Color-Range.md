@@ -1,9 +1,9 @@
 ---
 date: 2025-06-12 21:02
-last_modified_at: 2025-06-12 22:21
-title: Premiere Pro中的颜色范围（Color Range）的失败记录
 info: 没研究出来如何让Premiere Pro导出Full色彩范围的视频。
+last_modified_at: 2025-06-12 22:21
 tags: 杂记
+title: Premiere Pro中的颜色范围（Color Range）的失败记录
 ---
 最近我做视频一直在用Premiere Pro + Voukoder Pro的组合，一直没发现问题，直到我今天做了一个白色背景、黑色文字的视频导出后，才发现视频有很严重的偏色。右键打开视频一看，色彩范围是Limited而不是Full，这就导致了视频的色彩范围被压缩，白色（255）变成了灰色（235），黑色（0）变成了灰色（16）。于是，我就开始寻找解决方法。
 
