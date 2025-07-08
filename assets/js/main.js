@@ -206,6 +206,34 @@ window.addEventListener("load", () => {
     });
   })();
 
+  /* 复制源代码 */
+  (() => {
+    const copyToClipboard = (text) =>
+      new Promise(function (resolve, reject) {
+        navigator.clipboard.writeText(text).then(resolve).catch(reject);
+      });
+
+    $(".button-copy").on("click", (e) => {
+      e.preventDefault();
+      const divBlock = $(e.target).closest("div.highlight");
+
+      copyToClipboard(divBlock.find("pre")[0].innerText)
+        .then(function () {
+          const spanBlock = divBlock.find("span.button-copy-text");
+          const originalText = spanBlock.text();
+          divBlock.addClass("copy-success");
+          spanBlock.text("已复制！");
+          setTimeout(() => {
+            divBlock.removeClass("copy-success");
+            spanBlock.text(originalText);
+          }, 2000);
+        })
+        .catch(function (err) {
+          console.error(`复制失败：${err}`);
+        });
+    });
+  })();
+
   /* Han.js */
   (() => {
     if (!window.MathJax) {

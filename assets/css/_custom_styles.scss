@@ -221,6 +221,23 @@ pre {
   }
 }
 
+div.highlight {
+  position: relative;
+}
+
+.button-copy {
+  opacity: 0;
+  position: absolute;
+  right: 0.5em;
+  font-size: 0.875em;
+  color: var(--bs-color-warm-dark);
+  transition: all 0.2s ease-in-out;
+
+  div.highlight:hover &, .copy-success & {
+    opacity: 1;
+  }
+}
+
 /* 图片 */
 img {
   margin: 0 auto;

@@ -5,9 +5,10 @@ head_image_height: 567
 head_image_shown: false
 head_image_width: 1008
 info: 删注册表。
-last_modified_at: 2025-07-08 12:18
+last_modified_at: 2025-07-08 19:44
 logs: 
   - 2025-07-07：添加一个卸载脚本。
+no_sidenav: true
 tags: 技术指南
 title: 删除某网盘附带的“智能看图”
 ---
@@ -107,3 +108,7 @@ echo.
 echo 按任意键退出...
 pause >nul
 ```
+
+<div class="alert alert-success" markdown="1" style="text-align: center; font-size: 150%;">
+**[下载卸载脚本]({{ "assets/attachments/uninstall-image-viewer.bat" | relative_url }})**（请用管理员权限运行）
+</div>
