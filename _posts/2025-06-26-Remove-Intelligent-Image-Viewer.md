@@ -5,7 +5,7 @@ head_image_height: 567
 head_image_shown: false
 head_image_width: 1008
 info: 删注册表。
-last_modified_at: 2025-07-07 22:42
+last_modified_at: 2025-07-08 12:18
 logs: 
   - 2025-07-07：添加一个卸载脚本。
 tags: 技术指南
@@ -31,7 +31,7 @@ HKEY_CURRENT_USER\Software\RegisteredApplications\BaiduNetdiskImageViewer
 
 不知道一个网盘软件为什么要捆绑一个看图软件，干好自己的事不行吗？另一个网盘甚至直接把客户端捆绑了浏览器，我用Chrome或者Edge不好吗，用你那破浏览器干啥？
 
-（2025-07-07更新）：最近这个网页访问量挺多，看来是有许多人被这个软件烦到了。这里提供一个批量删除的脚本，直接复制到记事本中，另存为`remove_image_viewer.bat`，然后双击运行即可：
+（2025-07-07更新）：最近这个网页访问量挺多，看来是有许多人被这个软件烦到了。这里提供一个批量删除的脚本，直接复制到记事本中，另存为`remove_image_viewer.bat`（注意，请确保保存时的编码是“ANSI”或“GBK”“GB2312”），然后双击运行即可：
 
 ```batch
 @echo off
