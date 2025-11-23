@@ -8,6 +8,7 @@ info: 删注册表。
 last_modified_at: 2025-07-08 19:44
 logs: 
   - 2025-07-07：添加一个卸载脚本。
+no_comment: true
 no_sidenav: true
 tags: 技术指南
 title: 删除某网盘附带的“智能看图”
