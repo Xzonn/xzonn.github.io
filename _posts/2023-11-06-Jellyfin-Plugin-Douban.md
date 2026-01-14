@@ -2,7 +2,7 @@
 date: 2023-11-06 22:05
 head_image: e7fc8fe18df5ee4f638996a6df6e67ae.webp
 info: 自力更生。
-last_modified_at: 2024-12-09 22:36
+last_modified_at: 2026-01-15 00:16
 links: 
   - - https://github.com/Xzonn/JellyfinPluginDouban
     - JellyfinPluginDouban
@@ -34,7 +34,7 @@ title: Jellyfin 豆瓣元数据插件
 
 ## 安装方式
 <div class="alert alert-success" markdown="1" style="font-size: 120%;">
-**注意**：Jellyfin 10.9.x版本和10.10.x版本的插件互相不兼容。对于Jellyfin 10.9.11版本，请使用本插件的2.x版本；对于Jellyfin 10.10.0及以上版本，请使用本插件的3.x版本。
+**注意**：对于Jellyfin 10.10.x版本，请使用本插件的3.x版本；对于Jellyfin 10.11.x及更高版本，请使用本插件的4.x版本。
 </div>
 
 ### 插件库
@@ -46,6 +46,12 @@ title: Jellyfin 豆瓣元数据插件
 ### 手动安装
 - 下载插件压缩包，将dll文件解压至 `<Jellyfin 数据目录>/Plugins/Douban`。
 - 重启Jellyfin。
+
+## 使用方法
+- 在Jellyfin控制台中选择“豆瓣设置”，根据需要调整选项。关于“Cookie”和“豆瓣图片服务器”的填写请参见[“关于速率限制”](#关于速率限制)部分。其他选项的含义在设置页均有说明。
+- 对于还未添加的媒体库，请在添加媒体库时选择“Douban”作为元数据下载器，并按照需求调整优先级。最上方的下载器优先级最高。注意在选择类型时，电视剧、连载动画等拥有多集的视频请选择“节目”类型，电影、OVA等单集视频请选择“电影”类型。如果类型选择错误，可能会导致搜索结果不准确。
+- 对于已添加的媒体库，请在媒体库设置中选择“Douban”作为元数据下载器，并按照需求调整优先级。然后进入媒体库主页，点击右上角的“...”按钮，选择“刷新元数据”→“覆盖所有元数据”，即可开始获取元数据。
+- 插件会根据文件夹名称自动判断视频标题并进行搜索。如果文件夹标题中包含豆瓣ID（格式为`[douban=数字]`，例如`名侦探柯南 (1996) [douban=1463371]`），则会直接使用该ID进行搜索。
 
 ## 已知问题
 ### 关于速率限制
@@ -80,8 +86,17 @@ server {
 ### 季的内容为空
 由于Jellyfin自身的缺陷，如果将视频文件直接存放在一级子目录下（例如`/（根目录）/剧名/[XXSub] Bangumi Name - 01.mp4`），Jellyfin会自动生成一个季，导致插件的解析出现错误。3.3.1版本已尝试修复了此问题，但仍可能存在问题。建议将视频文件存放在季的子目录下（例如`/（根目录）/剧名/第1季/[XXSub] Bangumi Name - 01.mp4`，[参考资料](https://www.himiku.com/archives/deploy-a-more-comfortable-animation-library-with-jellyfin-and-bangumi.html)）。
 
+### 手动搜索id时没有结果
+请确保你把id填在了“Douban 电视节目 Id”或“Douban 电影 Id”里，而不是填在了“名字”里。
+
+如果你不想这么麻烦，也可以将文件夹重命名一下，在文件夹名中包含`[douban=数字]`，例如`名侦探柯南 (1996) [douban=1463371]`，插件会自动识别。
+
+{% include figure.html src="81403ce885d692fd58af38e746bc38b0.webp" alt="填写id的位置" %}
+
 ## 更新日志
 [见此](https://github.com/Xzonn/JellyfinPluginDouban/blob/master/ChangeLog.md)。
 
 ## 写在最后
 感谢两个插件的作者对本插件的启发。
+
+如有任何问题，请在下方评论区提出，或在[GitHub仓库](https://github.com/Xzonn/JellyfinPluginDouban/issues/new)中提交issue。
