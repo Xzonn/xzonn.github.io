@@ -1,7 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    addressable (2.8.9)
+    addressable (2.9.0)
       public_suffix (>= 2.0.2, < 8.0)
     algolia_html_extractor (2.6.4)
       json (~> 2.0)
@@ -17,7 +17,7 @@ GEM
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0)
     eventmachine (1.2.7)
-    ffi (1.17.3)
+    ffi (1.17.4)
     filesize (0.2.0)
     forwardable-extended (2.6.0)
     google-protobuf (3.25.8)
@@ -64,7 +64,7 @@ GEM
       jekyll (>= 3.7, < 5.0)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
-    json (2.19.2)
+    json (2.19.3)
     kramdown (2.5.2)
       rexml (>= 3.4.4)
     kramdown-parser-gfm (1.1.0)
@@ -78,7 +78,7 @@ GEM
     mercenary (0.4.0)
     mini_portile2 (2.8.9)
     mutex_m (0.3.0)
-    nokogiri (1.19.1)
+    nokogiri (1.19.2)
       mini_portile2 (~> 2.8.2)
       racc (~> 1.4)
     pathutil (0.16.2)
